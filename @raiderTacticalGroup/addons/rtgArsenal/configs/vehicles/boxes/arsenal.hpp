@@ -1,13 +1,14 @@
-class B_supplyCrate_F;
+////////////////////////////////////////////////////////////////////////////////
+// INTERACTIVE BOX
 
-
-class Raider_Arsenal_Base : B_supplyCrate_F {
-    scope = SCOPE_PUBLIC;
-    scopeCurator = SCOPE_PUBLIC;
+class Land_PaperBox_closed_F;
+class RAIDER_Arsenal_Base : Land_PaperBox_closed_F {
+    scope = SCOPE_PROTECTED;
+    scopeCurator = SCOPE_PRIVATE;
+    editorCategory = EdCat_Supplies;
+    editorSubcategory = RAIDER_EdSubcat_Supply;
     author = "Shrike";
-    displayName = "Arsenal_Base";
-    editorCategory = "EdCat_Supplies";
-    editorSubcategory = "Rtg_EdCat_Supply";
+    displayName = "Arsenal";
 
     ace_cargo_hasCargo = 0;
     ace_cargo_canLoad = 0;
@@ -15,16 +16,18 @@ class Raider_Arsenal_Base : B_supplyCrate_F {
     ace_dragging_canCarry = 0;
 
     class TransportMagazines {};
-    class TransportItems {};
     class TransportWeapons {};
+    class TransportItems {};
     class TransportBackpacks {};
 };
 
-class Raider_Arsenal_A : Raider_Arsenal_Base {
+
+class RAIDER_Arsenal_A : RAIDER_Arsenal_Base {
     scope = SCOPE_PUBLIC;
     scopeCurator = SCOPE_PUBLIC;
     author = "Shrike";
-    displayName = "Raider Arsenal";
+    displayName = "Arsenal";
+
     class ACE_Actions {
         class ACE_MainActions {
             displayName = "Arsenal";
@@ -34,10 +37,9 @@ class Raider_Arsenal_A : Raider_Arsenal_Base {
             class SOCOMD_arsenal {
                 displayName = "Personalise";
                 condition = 1;
-                statement = "[player, player, false] call ace_arsenal_fnc_openBox";
+                statement = "[player, player, true] call ace_arsenal_fnc_openBox";
                 showDisabled = 0;
-                exceptions[] = {"isNotInside", "isNotSitting"};   
+                exceptions[] = {"isNotInside", "isNotSitting"};                
             };
-        };
     };
 };
