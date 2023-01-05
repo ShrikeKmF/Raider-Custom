@@ -2,6 +2,7 @@
 // INTERACTIVE BOX
 
 class Land_PaperBox_closed_F;
+
 class RAIDER_Arsenal_Base : Land_PaperBox_closed_F {
     scope = SCOPE_PROTECTED;
     scopeCurator = SCOPE_PRIVATE;
@@ -34,12 +35,13 @@ class RAIDER_Arsenal_A : RAIDER_Arsenal_Base {
             selection = "";
             distance = 5;
             condition = 1;
-            class SOCOMD_arsenal {
+            class Raider_Arsenal {
                 displayName = "Personalise";
                 condition = 1;
                 statement = "[player, player, true] call ace_arsenal_fnc_openBox";
                 showDisabled = 0;
                 exceptions[] = {"isNotInside", "isNotSitting"};                
             };
+        };
     };
 };

@@ -1,3 +1,3 @@
 class CfgVehicles {
-    #include "vehicles\boxes\arsenal.hpp"
+    #include "vehicles\arsenal.hpp"
 };

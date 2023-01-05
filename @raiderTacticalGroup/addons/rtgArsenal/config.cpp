@@ -1,3 +1,5 @@
+#include "configs\CfgVehicles.hpp"
+#include "configs\CfgEditorSubcategories.hpp"
 
 class CfgPatches {
     class ADDON {
@@ -11,6 +13,4 @@ class CfgPatches {
         authorUrl = "";
     };
 };
-
-#include "configs\CfgEditorSubcategories.hpp"
-#include "configs\CfgVehicles.hpp"
+};
