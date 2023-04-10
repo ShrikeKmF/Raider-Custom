@@ -1,27 +1,23 @@
 // Base Classes
+class Rifle;
 class Rifle_Base_F;
-class WeaponSlotsInfo;
-class asdg_OpticRail;
-class asdg_OpticRail1913_short;
-class asdg_OpticRail1913;
-class asdg_MuzzleSlot_556;
-class asdg_FrontSideRail;
-class MuzzleSlot_9mm;
-class asdg_MuzzleSlot_9MM_SMG;
 class PointerSlot_Rail;
 class PointerSlot;
 class asdg_UnderSlot;
 class UGL_F;
+class asdg_MuzzleSlot;
+class WeaponSlotsInfo;
+class asdg_SlotInfo;
 class compatibleItems;
-
+class asdg_OpticRail;
+class MuzzleSlot_556;
+class asdg_OpticRail1913_short;
+class asdg_OpticRail1913;
 // AUG
 class hlc_aug_base;
 class hlc_rifle_aug : hlc_aug_base {
 	magazineWell[] = {"CBA_556x45_STANAG"};
 	magazines[] = {"rtg_30rnd_556_45"};
-	scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
 };
 class hlc_rifle_auga1_t : hlc_rifle_aug {};
 class hlc_rifle_auga1_B : hlc_rifle_aug {};
@@ -43,9 +39,6 @@ class hlc_g36_base;
 class hlc_rifle_G36V  : hlc_g36_base {
 	magazineWell[] = {"CBA_556x45_STANAG"};
 	magazines[] = {"rtg_30rnd_556_45"};
-	scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
 };
 class hlc_rifle_G36KV  : hlc_rifle_G36V {};
 class hlc_rifle_G36CV  : hlc_rifle_G36V {};
@@ -60,9 +53,6 @@ class arifle_MSBS65_base_F: Rifle_Base_F
 {
 	magazineWell[] = {"CBA_556x45_STANAG"};
 	magazines[] = {"rtg_30rnd_556_45"};
-	scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
 };
 class arifle_MSBS65_base_black_F: arifle_MSBS65_base_F{};
 class arifle_MSBS65_base_camo_F: arifle_MSBS65_base_F{};
@@ -126,21 +116,6 @@ class rtg_vector_9mm : SMG_01_F
 	displayName = "Vector 9mm SMG";
 	magazineWell[] = {"RTG_9x19"};
 	magazines[] = {"rtg_9mm_35Rnd_mag"};
-	class WeaponSlotsInfo : WeaponSlotsInfo {
-		class MuzzleSlot: asdg_MuzzleSlot_9MM_SMG
-		{
-			iconPinpoint = "center";
-			iconPosition[] = {-0.07,0.389};
-			iconScale = 0.2;
-			class compatibleItems: compatibleItems
-			{
-				hlc_muzzle_Agendasix = 1;
-				muzzle_snds_l = 1;
-				ace_muzzle_mzls_smg_01 = 1;
-			};
-		};
-			
-	};
 };
 
 class hgun_PDW2000_F;
@@ -154,21 +129,6 @@ class rtg_pdw2000_9mm : hgun_PDW2000_F
 	magazineWell[] = {"RTG_9x19"};
 	magazines[] = {"rtg_9mm_35Rnd_mag"};
 	recoil = "recoil_mp5a2";
-	class WeaponSlotsInfo : WeaponSlotsInfo {
-		class MuzzleSlot: asdg_MuzzleSlot_9MM_SMG
-		{
-			iconPinpoint = "center";
-			iconPosition[] = {-0.07,0.389};
-			iconScale = 0.2;
-			class compatibleItems: compatibleItems
-			{
-				hlc_muzzle_Agendasix = 1;
-				muzzle_snds_l = 1;
-				ace_muzzle_mzls_smg_01 = 1;
-			};
-		};
-			
-	};
 };
 
 class arifle_SPAR_01_blk_F;
@@ -247,7 +207,7 @@ class rtg_G3KA4_RAS : arifle_SPAR_03_blk_f {
 	magazineWell[] = {"CBA_762x51_M14"};
 	magazines[] = {"rtg_20Rnd_762x51"};
 };
-/*
+
 class rtg_G3KA4_GL_RAS : arifle_SPAR_03_blk_f {
 	scope = 2;
 	dlc = "raiderTactical";
@@ -263,25 +223,7 @@ class rtg_G3KA4_GL_RAS : arifle_SPAR_03_blk_f {
 	magazines[] = {"rtg_20Rnd_762x51"};
 	hiddenSelections[] = {"Main","Rail","Stock","M203"};
 	hiddenSelectionsTextures[] = {"hlc_wp_g3\tex\krycek_g3\g3_2_co.paa","hlc_wp_g3\tex\zulmarg_tech\rail_co.paa","hlc_wp_g3\tex\arby_mp5n\mp5_co.paa","hlc_wp_g3\tex\tigg_m203\m203_co.paa"};
-	class UGL_F
-	{
-		cameradir = "gl_look";
-		discreteDistance[] = {50,100,150,200,250,300,350};
-		discreteDistanceCameraPoint[] = {"gl_eye_50m","gl_eye_100m","gl_eye_150m","gl_eye_200m","gl_eye_250m","gl_eye_300m","gl_eye_350m"};
-		discreteDistanceInitIndex = 1;
-		displayname = "M203-2003";
-		useModelOptics = 0;
-		useExternalOptic = 0;
-		optics = 1;
-		cursoraim = "gl";
-		magazinereloadtime = 0;
-		reloadtime = 0.1;
-		reloadAction = "HLC_GestureReloadGL5040";
-		reloadMagazineSound[] = {"hlc_core\sound\GL\M203_reload",1.0,1,10};
-		drySound[] = {"hlc_core\sound\GL\GL_drystrike",1,1,10};
-		modes[] = {"Single"};
-	};
-};*/
+};
 
 class rtg_G3A3_RIS : arifle_SPAR_03_blk_f {
 	scope = 2;
@@ -333,21 +275,6 @@ class rtg_mp4a2_tac : arifle_SPAR_01_blk_F {
 	displayName = "MP5A2 9mm SMG";
 	magazineWell[] = {"RTG_9x19"};
 	magazines[] = {"rtg_9mm_35Rnd_mag"};
-	class WeaponSlotsInfo : WeaponSlotsInfo {
-		class MuzzleSlot: asdg_MuzzleSlot_9MM_SMG
-		{
-			iconPinpoint = "center";
-			iconPosition[] = {-0.07,0.389};
-			iconScale = 0.2;
-			class compatibleItems: compatibleItems
-			{
-				hlc_muzzle_Agendasix = 1;
-				muzzle_snds_l = 1;
-				ace_muzzle_mzls_smg_01 = 1;
-			};
-		};
-			
-	};
 };
 
 class Single;
@@ -526,14 +453,6 @@ class rtg_negev : LMG_Zafir_F {
 	magazines[] = {"rtg_200rnd_556_45"};
 	recoil = "recoil_mp5a2";
 	modes[] = {"FullAuto"};
-	class WeaponSlotsInfo : WeaponSlotsInfo {
-		class MuzzleSlot: asdg_MuzzleSlot_556_minimi
-		{
-			iconPinpoint = "center";
-			iconPosition[] = {-0.07,0.389};
-			iconScale = 0.2;
-		};
-	};
 };
 
 class LMG_Mk200_F;
@@ -557,14 +476,6 @@ class rtg_mk200 : LMG_Mk200_F {
 			soundSetShot[] = {"NIA_M249_NEW_Shot_SoundSet","saw_Tail_SoundSet"};
 		};
 	};
-	class WeaponSlotsInfo : WeaponSlotsInfo {
-		class MuzzleSlot: asdg_MuzzleSlot_556_minimi
-		{
-			iconPinpoint = "center";
-			iconPosition[] = {-0.07,0.389};
-			iconScale = 0.2;
-		};
-	};
 };
 
 class rtg_mk200_blk : LMG_Mk200_black_F {
@@ -583,14 +494,6 @@ class rtg_mk200_blk : LMG_Mk200_black_F {
 		class StandardSound: StandardSound
 		{
 			soundSetShot[] = {"NIA_G3_NEW_Shot_SoundSet","g3_Tail_SoundSet"};
-		};
-	};
-	class WeaponSlotsInfo : WeaponSlotsInfo {
-		class MuzzleSlot: asdg_MuzzleSlot_556_minimi
-		{
-			iconPinpoint = "center";
-			iconPosition[] = {-0.07,0.389};
-			iconScale = 0.2;
 		};
 	};
 };

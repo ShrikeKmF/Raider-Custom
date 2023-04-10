@@ -14,3 +14,18 @@ class CfgPatches {
         authorUrl = "";
     };
 };
+
+class Mod_Base;
+class raiderTactical: Mod_Base
+{
+    name = "Raider Tactical";
+    picture = "hlc_wp_fal\tex\ui\NIArms1_ca.paa";
+    dir = "@raiderTacticalGroup";
+    hideName = 1;
+    hidePicture = 0;
+    action = "";
+    author = "Shrike";
+    logo = "hlc_wp_fal\tex\ui\NIArms1_ca.paa";
+    logoOver = "hlc_wp_fal\tex\ui\NIArms1_ca.paa";
+    logoSmall = "hlc_wp_fal\tex\ui\NIArms1_ca.paa";
+};
