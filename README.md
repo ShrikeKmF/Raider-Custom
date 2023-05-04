@@ -1,2 +1,0 @@
-# Raider Custom
- Author Shrike
