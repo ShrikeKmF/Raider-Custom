@@ -1,5 +1,6 @@
 // Universal Base Classes
 class ItemInfo;
+class HeadgearItem;
 
 // Jeans Base Class
 // Shirt
@@ -683,13 +684,15 @@ class Project_BJC_PCU_Cargo27;
 //T-Shirt
 
 
-// Crye AVS
+// Custom Equipment
+// Shrike
 class Crye_AVS_3_2_RG;
 class shrike_crye : Crye_AVS_3_2_RG {
     scope = 2;
 	dlc = "raiderTactical";
 	Author = "Shrike";
     displayName="AVS Comms - Shrike";
+    maximumLoad = 250;
     hiddenSelectionsTextures[]=
     {
         "AVS\data\Vest\RG_co.paa",
@@ -709,8 +712,6 @@ class shrike_crye : Crye_AVS_3_2_RG {
     };
     class ItemInfo: ItemInfo
     {
-        containerClass="Supply200";
-        mass=80;
         class HitpointsProtectionInfo
         {
             class Chest
@@ -723,6 +724,29 @@ class shrike_crye : Crye_AVS_3_2_RG {
             {
                 HitpointName="HitDiaphragm";
                 armor=20;
+                PassThrough=0.30000001;
+            };
+        };
+    };
+};
+
+// Cake
+class H_StrawHat;
+class cakeStrawHat : H_StrawHat {
+    scope = 2;
+	dlc = "raiderTactical";
+	Author = "Shrike";
+    displayName="Straw Hat - Cake";
+    mass = 2;
+    hiddenSelectionsTextures[] = {"rtgEquipment\tex\cakeHat.paa"};
+    class ItemInfo: ItemInfo
+    {
+        class HitpointsProtectionInfo
+        {
+            class head
+            {
+                HitpointName="HitHead";
+                armor=4.95;
                 PassThrough=0.30000001;
             };
         };

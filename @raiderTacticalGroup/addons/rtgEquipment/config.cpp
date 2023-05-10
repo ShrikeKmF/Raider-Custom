@@ -1,6 +1,7 @@
 #include "configs\CfgWeapons.hpp"
 #include "configs\CfgMagazineWells.hpp"
 #include "configs\CfgAmmo.hpp"
+#include "configs\CfgVehicles.hpp"
 #include "configs\CfgMagazines.hpp"
 #include "configs\XtdGearModels.hpp"
 
