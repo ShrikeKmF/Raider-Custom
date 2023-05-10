@@ -125,4 +125,11 @@ class CfgMagazineWells
 			"rtg_6Rnd_00Buck";
         };
 	};
+
+	class CBA_45ACP_1911 {
+		RTG_Magazines[] = 
+        {
+            "rtg_8Rnd_45";
+        };
+	};
 };

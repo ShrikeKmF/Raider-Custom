@@ -84,6 +84,12 @@ class CfgAmmo
 		ACE_barrelLengths[] = { 254.0, 393.7, 508.0 };
     };
 
+    class rhs_ammo_45ACP_MHP;
+    class rtg_45 : rhs_ammo_45ACP_MHP{
+        hit = 20;
+        ACE_muzzleVelocities[] = {200, 250, 300};
+    };
+
     class RH_50_AE_Ball;
     class rtg_50_AE : RH_50_AE_Ball{
         hit = 25;
@@ -100,10 +106,10 @@ class CfgAmmo
     
     class rhs_ammo_12g_00buckshot_pellet;
     class rtg_buckshot_sub : rhs_ammo_12g_00buckshot_pellet {
-        hit = 7;
+        hit = 12;
         typicalSpeed = 483.86;
-        indirectHit = 2;
-		indirectHitRange = 0.15;
+        indirectHit = 0;
+		indirectHitRange = 0;
     };
 
     class rhs_ammo_12g_00buckshot;

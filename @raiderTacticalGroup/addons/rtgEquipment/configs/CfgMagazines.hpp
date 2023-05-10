@@ -119,12 +119,12 @@ class CfgMagazines
 	class rtg_10rnd_10bw : rhs_mag_20Rnd_556x45_M855_Stanag {
         author = "Shrike";
         ammo = "rtg_50bw";
-        count = 10;
+        count = 12;
         tracersevery = 1;
         lastroundstracer = 4;
         descriptionshort = "Raider Tactical Standard Issue .50 BW Ammo";
-        displayname = "[RTG] 10rnd .50 BW PMAG";
-        displaynameshort = "10Rnd .50 BW";
+        displayname = "[RTG] 12rnd .50 BW PMAG";
+        displaynameshort = "12Rnd .50 BW";
         scope = 2;
     };
 	
@@ -288,6 +288,19 @@ class CfgMagazines
         descriptionshort = "Raider Tactical Doom 12 GA Ammo";
         displayname = "[RTG] 6rnd Doom 12 GA Mag";
         displaynameshort = "6Rnd 12 GA";
+        scope = 2;
+    };
+
+    class rhsusf_mag_7x45acp_MHP;
+    class rtg_8Rnd_45 : rhsusf_mag_7x45acp_MHP {
+        author = "Shrike";
+        ammo = "rtg_45";
+        count = 8;
+        tracersevery = 0;
+        lastroundstracer = 0;
+        descriptionshort = "Raider Tactical .45 Ammo";
+        displayname = "[RTG] 8rnd .45 Mag";
+        displaynameshort = "8Rnd .45";
         scope = 2;
     };
 };
