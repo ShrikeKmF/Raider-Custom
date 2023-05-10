@@ -730,6 +730,27 @@ class shrike_crye : Crye_AVS_3_2_RG {
     };
 };
 
+class shrikeHat : H_HelmetSpecB_blk {
+    scope = 2;
+	dlc = "raiderTactical";
+	Author = "Shrike";
+    displayName="Combat Helmet - Shrike";
+    mass = 3.5;
+    hiddenSelectionsTextures[] = {"rtgEquipment\tex\shrikeHat.paa"};
+    class ItemInfo: ItemInfo
+    {
+        class HitpointsProtectionInfo
+        {
+            class head
+            {
+                HitpointName="HitHead";
+                armor=8;
+                PassThrough=0.30000001;
+            };
+        };
+    };
+};
+
 // Cake
 class H_StrawHat;
 class cakeStrawHat : H_StrawHat {
