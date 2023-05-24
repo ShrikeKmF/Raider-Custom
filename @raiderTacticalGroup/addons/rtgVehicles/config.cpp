@@ -588,8 +588,9 @@ class CfgVehicles {
 		reportRemoteTargets = 1;
 		reportOwnPosition = 1;
 		laserScanner = 1;
-        weapons[] = {"CMFlareLauncher"};
-		magazines[] = {"168Rnd_CMFlare_Chaff_Magazine"};
+        armor = 80;
+        weapons[] = {"CMFlareLauncher", "rhs_weap_m32"};
+		magazines[] = {"168Rnd_CMFlare_Chaff_Magazine", "rhsusf_mag_6Rnd_M715_green"};
         class Components: Components
 		{
             class SensorsManagerComponent
@@ -805,8 +806,9 @@ class CfgVehicles {
 		reportRemoteTargets = 1;
 		reportOwnPosition = 1;
 		laserScanner = 1;
-        weapons[] = {"CMFlareLauncher"};
-		magazines[] = {"168Rnd_CMFlare_Chaff_Magazine"};
+        armor = 80;
+        weapons[] = {"CMFlareLauncher", "rhs_weap_m32"};
+		magazines[] = {"168Rnd_CMFlare_Chaff_Magazine", "rhsusf_mag_6Rnd_M715_green"};
         class Components: Components
 		{
 			class TransportPylonsComponent
@@ -816,15 +818,15 @@ class CfgVehicles {
 				{
 					class pylon1
 					{
-						hardpoints[] = {"O_MISSILE_PYLON","O_BOMB_PYLON_HELI","UNI_SCALPEL","20MM_TWIN_CANNON","LK_MISSILE_X4"};
-                        maxweight = 1200;
+						hardpoints[] = {"O_MISSILE_PYLON","O_BOMB_PYLON_HELI","UNI_SCALPEL","20MM_TWIN_CANNON","LK_MISSILE_X4","RHS_HP_MELB", "RHS_HP_MELB_L"};
+                        maxweight = 2200;
                         UIposition[] = {0.06,0.4};
 					};
 					class pylon2: pylon1
 					{
-						hardpoints[] = {"O_MISSILE_PYLON","O_BOMB_PYLON_HELI","UNI_SCALPEL","20MM_TWIN_CANNON","LK_MISSILE_X4"};
-                        maxweight = 1200;
-                        UIposition[] = {0.08,0.35};
+						hardpoints[] = {"O_MISSILE_PYLON","O_BOMB_PYLON_HELI","UNI_SCALPEL","20MM_TWIN_CANNON","LK_MISSILE_X4","RHS_HP_MELB", "RHS_HP_MELB_R"};
+                        maxweight = 2200;
+                        UIposition[] = {0.48,0.4};
 					};
                 };
             };

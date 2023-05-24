@@ -146,4 +146,16 @@ class CfgWeapons {
             mass = 5;
         };
     };
+
+    class ACE_epinephrine;
+    class rtgSuperSerum : ACE_epinephrine {
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "RTG Super Serum";
+        author = "Shrike";
+        picture = "rtgAceMedical\tex\ui\superSerum.paa";
+        icon = "rtgAceMedical\tex\ui\superSerum.paa";
+        model = "rtgAceMedical\superSerum.p3d";
+        hiddenSelectionsTextures[] = {"rtgAceMedical\tex\superSerium.paa"};
+    };
 };

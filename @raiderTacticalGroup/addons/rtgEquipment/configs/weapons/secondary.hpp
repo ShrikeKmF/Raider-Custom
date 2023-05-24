@@ -202,6 +202,74 @@ class rtg_1911_modern : hgun_ACPC2_F {
 	};
 };
 
+class UK3CB_USP;
+class rtg_hk_45 : UK3CB_USP {
+	scope = 2;
+	dlc = "raiderTactical";
+	Author = "Shike";
+	displayName = "USP .45";
+	baseWeapon = "rtg_hk_45";
+	magazineWell[] = {"CBA_45ACP_1911"};
+	magazines[] = {"rtg_8Rnd_45"};
+	recoil = "recoil_pistol_acpc2";
+	modes[] = {"Single"};
+	class Single : Single
+	{
+		sounds[] = {"StandardSound", "SilencedSound"};
+		class BaseSoundModeType
+		{
+			weaponSoundEffect = "DefaultRifle";
+			closure1[] = {"\hlc_wp_p226\snd\p226_dryfire", 0.75, 1, 10};
+			closure2[] = {"\hlc_wp_p226\snd\p226_dryfire", 0.75, 1, 10};
+			soundClosure[] = {"closure1", 0.5, "closure2", 0.5};
+		};
+		class StandardSound : BaseSoundModeType
+		{
+			soundSetShot[] = {"NIA_P226_NEW_Shot_SoundSet", "nia_p2269mm_tail_SoundSet"};
+		};
+		class SilencedSound : BaseSoundModeType
+		{
+			soundSetShot[] = {"nia_p2269mm_silencerTail_SoundSet", "nia_p2269mm_silencerShot_SoundSet"};
+		};
+		reloadTime = 0.15;
+		dispersion = 0.0029;
+	};
+};
+
+class acwp_glock17_black;
+class rtg_g17_40 : acwp_glock17_black {
+	scope = 2;
+	dlc = "raiderTactical";
+	Author = "Shike";
+	displayName = "Glock 17 .40 SW";
+	baseWeapon = "rtg_g17_40";
+	magazineWell[] = {"CBA_40SW_P229"};
+	magazines[] = {"rtg_40SW"};
+	recoil = "recoil_pistol_acpc2";
+	modes[] = {"Single"};
+	class Single : Single
+	{
+		sounds[] = {"StandardSound", "SilencedSound"};
+		class BaseSoundModeType
+		{
+			weaponSoundEffect = "DefaultRifle";
+			closure1[] = {"\hlc_wp_p226\snd\p226_dryfire", 0.75, 1, 10};
+			closure2[] = {"\hlc_wp_p226\snd\p226_dryfire", 0.75, 1, 10};
+			soundClosure[] = {"closure1", 0.5, "closure2", 0.5};
+		};
+		class StandardSound : BaseSoundModeType
+		{
+			soundSetShot[] = {"NIA_P226_NEW_Shot_SoundSet", "nia_p2269mm_tail_SoundSet"};
+		};
+		class SilencedSound : BaseSoundModeType
+		{
+			soundSetShot[] = {"nia_p2269mm_silencerTail_SoundSet", "nia_p2269mm_silencerShot_SoundSet"};
+		};
+		reloadTime = 0.15;
+		dispersion = 0.0029;
+	};
+};
+
 class rhs_weap_M320;
 /*
  class rtg_xm25 : RH_deagle {
@@ -248,4 +316,14 @@ class rtg_weap_m79 : rhs_weap_M320 {
 	model = "\rhsgref\addons\rhsgref_weapons2\m79\rhs_M79";
 	reloadMagazineSound[] = {"\rhsgref\addons\rhsgref_weapon_sounds\reloads\m79_reload", 0.794328, 1, 20};
 	handAnim[] = {"OFP2_ManSkeleton", "\rhsgref\addons\rhsgref_c_weapons\anims\rhs_hand_M79.rtm"};
+};
+
+class ACE_VMH3;
+class bladesBlade : ACE_VMH3 {
+	scope = 2;
+	dlc = "raiderTactical";
+	Author = "Shike";
+	baseWeapon = "bladesBlade";
+	displayName = "Blade";
+	model = "\rtgEquipment\Data\bladesBlade.p3d";
 };

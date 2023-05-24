@@ -17,3 +17,4 @@ class cfgMods
 
 #include "configs\CfgWeapons.hpp"
 #include "configs\ACE_Medical_Treatment.hpp"
+#include "configs\ACE_Medical_Treatment_Actions.hpp"

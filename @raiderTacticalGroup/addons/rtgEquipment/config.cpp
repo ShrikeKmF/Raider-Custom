@@ -1,10 +1,3 @@
-#include "configs\CfgWeapons.hpp"
-#include "configs\CfgMagazineWells.hpp"
-#include "configs\CfgAmmo.hpp"
-#include "configs\CfgVehicles.hpp"
-#include "configs\CfgMagazines.hpp"
-#include "configs\XtdGearModels.hpp"
-
 class CfgPatches {
     class rtgEquipment {
         name = "rtgEquipment";
@@ -33,6 +26,36 @@ class raiderTactical: Mod_Base
     logoOver = "";
     logoSmall = "";
 };
+
+class asdg_OpticRail;
+class asdg_OpticRail1913 : asdg_OpticRail {
+    class compatibleItems
+	{
+        rtg_optic_MRCO = 1;
+        rtg_optic_DMS = 1;
+        rtg_night_sight = 1;
+    };
+};
+
+class cfgRecoils
+{
+    class 700Nitro
+    {              //  x     y     a     b
+    muzzleOuter[]	= { 22.0,  28.0,  6,  0.2 };
+    kickBack[]	= { 0.03, 0.12 };
+    permanent	= 0.1;
+    temporary	= 0.01;
+    };
+};
+
+#include "configs\CfgWeapons.hpp"
+#include "configs\CfgMagazineWells.hpp"
+#include "configs\CfgAmmo.hpp"
+#include "configs\CfgGoggles.hpp"
+#include "configs\CfgVehicles.hpp"
+#include "configs\CfgMagazines.hpp"
+#include "configs\XtdGearModels.hpp"
+
 /*
 Raider Tacical Group Custom Content
 rtgEquipment

@@ -9,6 +9,15 @@ class CfgMagazineWells
 		};
     };
 
+	class CBA_Carl_Gustaf
+	{
+		RTG_Magazines[] =
+		{
+			"rtg_MRAWS_HEAT_F";
+			"rtg_MRAWS_HE_F";
+		};
+	};
+
     class CBA_762x51_LINKS // 7.62 Nato
     {
         RTG_Magazines[] =
@@ -103,14 +112,14 @@ class CfgMagazineWells
         };
 	};
 
-	class RTG_50_AE {
+	class RTG_50_AE { // .50 AE
 		RTG_Magazines[] = 
         {
             "rtg_50_ae_8rnd_mag";
         };
 	};
 	
-	class CBA_12g_6rnds {
+	class CBA_12g_6rnds { // 12 Gauge
 		RTG_Magazines[] = 
         {
             "rtg_6Rnd_Doom";
@@ -118,7 +127,15 @@ class CfgMagazineWells
         };
 	};	
 
-	class UBS_12GA {
+	class rtg_12g_15 {
+		RTG_Magazines[] = 
+        {
+            "rtg_12g_15Rnd";
+			"rtg_12g_15Rnd_doom";
+        };
+	};
+
+	class UBS_12GA { // 12 Gauge
 		RTG_Magazines[] = 
         {
             "rtg_6Rnd_Doom";
@@ -126,10 +143,25 @@ class CfgMagazineWells
         };
 	};
 
-	class CBA_45ACP_1911 {
+	class CBA_45ACP_1911 { // .45 ACP
 		RTG_Magazines[] = 
         {
             "rtg_8Rnd_45";
         };
+	};
+
+	class CBA_40SW_P226 // .40 SW
+	{
+		NIA_mags[] = {"rtg_40SW"};
+	};
+
+	class CBA_40SW_P229 // .40 SW
+	{
+		NIA_mags[] = {"rtg_40SW"};
+	};
+
+	class CBA_40SW_P239 // .40 SW
+	{
+		NIA_mags[] = {"rtg_40SW"};
 	};
 };

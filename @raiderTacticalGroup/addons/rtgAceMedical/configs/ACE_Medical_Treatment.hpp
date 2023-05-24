@@ -1,5 +1,5 @@
 
-class ADDON {
+class ace_medical_treatment {
     class Bandaging {
         // Field dressing is normal average treatment
         // packing bandage is average treatment, higher reopen change, longer reopening delay
@@ -594,6 +594,16 @@ class ADDON {
             maxDose = 10;
             incompatibleMedication[] = {};
         };
+        class rtgSerum {
+            painReduce = 0.2;
+            hrIncreaseLow[] = {10, 20};
+            hrIncreaseNormal[] = {10, 50};
+            hrIncreaseHigh[] = {10, 40};
+            timeInSystem = 400;
+            timeTillMaxEffect = 10;
+            maxDose = 10;
+            incompatibleMedication[] = {};
+        };
         class Adenosine {
             painReduce = 0;
             hrIncreaseLow[] = {-7, -10};
@@ -625,9 +635,6 @@ class ADDON {
         class BloodIV_500: BloodIV {
             volume = 750;
         };
-        class BloodIV_250: BloodIV {
-            volume = 250;
-        };
         class PlasmaIV: BloodIV {
             volume = 2000;
             ratio[] = {"Blood", 1};
@@ -635,20 +642,6 @@ class ADDON {
         };
         class PlasmaIV_500: PlasmaIV {
             volume = 1000;
-        };
-        class PlasmaIV_250: PlasmaIV {
-            volume = 250;
-        };
-        class SalineIV: BloodIV {
-            volume = 1000;
-            type = "Saline";
-            ratio[] = {};
-        };
-        class SalineIV_500: SalineIV {
-            volume = 500;
-        };
-        class SalineIV_250: SalineIV {
-            volume = 250;
         };
     };
 };

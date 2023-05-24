@@ -294,7 +294,7 @@ class rtg_ace_expanded_m14 {
 };
 
 // G3A3
-class rtg_ace_expanded_g3 {
+class rtg_ace_expanded_g3a3 {
     label = "G3A3";
     author = "Shrike";
     options[] = {"grip"};
@@ -375,7 +375,7 @@ class rtg_ace_expanded_samr {
     class calibre
     {
         label = "Calibre";
-        values[] = {"N9", "N50", "N556", "N300"};
+        values[] = {"N9", "N50", "N556", "N545", "N300", "N12"};
         class N9
         {
             label = "9mm";
@@ -391,10 +391,20 @@ class rtg_ace_expanded_samr {
             label = "5.56";
             description = "5.56 Nato";
         };
+        class N545
+        {
+            label = "5.45";
+            description = "5.45mm RU";
+        };
         class N300
         {
             label = ".300";
             description = ".300 Blackout";
+        };
+        class N12
+        {
+            label = "12g";
+            description = "12 Gauge";
         };
     };
 };
@@ -953,6 +963,149 @@ class rtg_ace_expanded_qbz_lsw {
         {
             label = "Hex";
             description = "Hex Camo";
+        };
+    };
+};
+
+class rtg_ace_expanded_f2000 {
+    label = "F2000";
+    author = "Shrike";
+    options[] = {"barrel", "camo"};
+    class barrel
+    {
+        label = "Barrel";
+        values[] = {"short", "long"};
+        class short
+        {
+            label = "Short";
+            description = "Short";
+        };
+        class long
+        {
+            label = "Long";
+            description = "Long";
+        };
+    };
+    class camo
+    {
+        label = "Camo";
+        values[] = {"tan", "green"};
+        class tan
+        {
+            label = "Tan";
+            description = "Tan Camo";
+        };
+        class green
+        {
+            label = "Green";
+            description = "Green Camo";
+        };
+    };
+};
+
+class rtg_ace_expanded_g36 {
+    label = "G36";
+    author = "Shrike";
+    options[] = {"barrel", "calibre", "style"};
+    class barrel
+    {
+        label = "Camo";
+        values[] = {"short", "carbine", "long"};
+        class short
+        {
+            label = "Short";
+            description = "Short";
+        };
+        class carbine
+        {
+            label = "Carbine";
+            description = "Carbine";
+        };
+        class long
+        {
+            label = "Long";
+            description = "Long";
+        };
+    };
+    class calibre
+    {
+        label = "Calibre";
+        values[] = {"N556", "N300", "N9"};
+        class N556
+        {
+            label = "5.56";
+            description = "5.56 Nato";
+        };
+        class N300
+        {
+            label = ".300";
+            description = ".300 Blackout";
+        };
+        class N9
+        {
+            label = "9mm";
+            description = "9mm Nato";
+        };
+    };
+    class style
+    {
+        label = "Style";
+        values[] = {"tac", "full"};
+        class tac
+        {
+            label = "Tactical";
+            description = "";
+        };
+        class full
+        {
+            label = "Full";
+            description = "Full Length Carry Handle";
+        };
+    };
+};
+
+class rtg_ace_expanded_p90 {
+    label = "P90";
+    author = "Shrike";
+    options[] = {"style", "camo"};
+    class style
+    {
+        label = "Style";
+        values[] = {"tac", "optic"};
+        class tac
+        {
+            label = "Rail";
+            description = "Picatinny Rail";
+        };
+        class optic
+        {
+            label = "Optic";
+            description = "Inbuilt Rail";
+        };
+    };
+    class camo
+    {
+        label = "Camo";
+        values[] = {"black", "camo", "hex", "khaki"};
+        class black
+        {
+            label = "Black";
+            description = "Black";
+        };
+        class camo
+        {
+            label = "Camo";
+            description = "Camo";
+        };
+        class hex
+        {
+            label = "Hex";
+            description = "Hex";
+        };
+        class khaki
+        {
+            label = "Khaki";
+            description = "Khaki";
         };
     };
 };

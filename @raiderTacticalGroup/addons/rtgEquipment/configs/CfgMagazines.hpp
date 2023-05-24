@@ -1,5 +1,45 @@
 class CfgMagazines
 {
+    class rhsusf_mag_6Rnd_M583A1_white;
+    class rtg_flares : rhsusf_mag_6Rnd_M583A1_white {
+        initSpeed = 0;
+        count = 20;
+        author = "Shrike";
+        ammo = "rtg_flare_ammo";
+        scope = 1;
+        displayname = "[RTG] White Flares";
+    };
+
+    class rhsusf_mag_6Rnd_M715_green;
+    class rtg_smoke : rhsusf_mag_6Rnd_M715_green {
+        initSpeed = 0;
+        count = 20;
+        author = "Shrike";
+        ammo = "rtg_smoke_ammo";
+        scope = 1;
+        displayname = "[RTG] Green Smoke";
+    };
+
+    class MRAWS_HEAT_F;
+    class rtg_MRAWS_HEAT_F : MRAWS_HEAT_F {
+        initSpeed = 0;
+        count = 1;
+        author = "Shrike";
+        ammo = "rtg_heat_MRAAWS";
+        scope = 1;
+        displayname = "[RTG] MRAAWS HEAT";
+    };
+
+    class MRAWS_HE_F;
+    class rtg_MRAWS_HE_F : MRAWS_HE_F {
+        initSpeed = 0;
+        count = 1;
+        author = "Shrike";
+        ammo = "rtg_hedp_MRAAWS";
+        scope = 1;
+        displayname = "[RTG] MRAAWS HEDP";
+    };
+
 	// References
     class hlc_30rnd_556x45_SOST_PMAG;
 	class ACE_20Rnd_762x51_M118LR_Mag;
@@ -119,13 +159,14 @@ class CfgMagazines
 	class rtg_10rnd_10bw : rhs_mag_20Rnd_556x45_M855_Stanag {
         author = "Shrike";
         ammo = "rtg_50bw";
-        count = 12;
+        count = 15;
         tracersevery = 1;
         lastroundstracer = 4;
         descriptionshort = "Raider Tactical Standard Issue .50 BW Ammo";
-        displayname = "[RTG] 12rnd .50 BW PMAG";
-        displaynameshort = "12Rnd .50 BW";
+        displayname = "[RTG] 15rnd .50 BW PMAG";
+        displaynameshort = "15Rnd .50 BW";
         scope = 2;
+
     };
 	
 	// 5.56
@@ -266,28 +307,40 @@ class CfgMagazines
         scope = 2;
     };
 
+    class rtg_50_ae_20rnd_mag : ACWP_19Rnd_9x21_Mag_glock {
+        author = "Shrike";
+        ammo = "rtg_50_AE";
+        count = 20;
+        tracersevery = 0;
+        lastroundstracer = 2;
+        descriptionshort = "Raider Tactical Standard Issue 50 AE Ammo";
+        displayname = "[RTG] 20rnd 50 AE Mag";
+        displaynameshort = "20Rnd 50AE";
+        scope = 2;
+    }
+
     class rhsusf_5Rnd_00Buck;
     class rtg_6Rnd_00Buck : rhsusf_5Rnd_00Buck {
         author = "Shrike";
-        ammo = "rtg_buckshot";
+        ammo = "rtg_buckshot_pump";
         count = 6;
         tracersevery = 0;
         lastroundstracer = 0;
-        descriptionshort = "Raider Tactical Standard Issue 12 GA Ammo";
-        displayname = "[RTG] 6rnd 12 GA Mag";
-        displaynameshort = "6Rnd 12 GA";
+        descriptionshort = "Raider Tactical Standard Issue Buckshot 12g Ammo";
+        displayname = "[RTG] 6rnd Buckshot 12g Mag";
+        displaynameshort = "6Rnd Buckshot 12g";
         scope = 2;
     };
 
     class rtg_6Rnd_Doom : rhsusf_5Rnd_00Buck {
         author = "Shrike";
-        ammo = "rtg_doomrounds";
+        ammo = "rtg_doomrounds_pump";
         count = 6;
         tracersevery = 0;
         lastroundstracer = 0;
-        descriptionshort = "Raider Tactical Doom 12 GA Ammo";
-        displayname = "[RTG] 6rnd Doom 12 GA Mag";
-        displaynameshort = "6Rnd 12 GA";
+        descriptionshort = "Raider Tactical FRAG 12g Ammo";
+        displayname = "[RTG] 6rnd FRAG 12g Mag";
+        displaynameshort = "6Rnd FRAG 12g";
         scope = 2;
     };
 
@@ -295,12 +348,76 @@ class CfgMagazines
     class rtg_8Rnd_45 : rhsusf_mag_7x45acp_MHP {
         author = "Shrike";
         ammo = "rtg_45";
-        count = 8;
+        count = 9;
         tracersevery = 0;
         lastroundstracer = 0;
         descriptionshort = "Raider Tactical .45 Ammo";
-        displayname = "[RTG] 8rnd .45 Mag";
-        displaynameshort = "8Rnd .45";
+        displayname = "[RTG] 9rnd .45 Mag";
+        displaynameshort = "9Rnd .45";
+        scope = 2;
+    };
+
+    class hlc_12Rnd_40SW_B_P226;
+    class rtg_40SW : hlc_12Rnd_40SW_B_P226 {
+        author = "Shrike";
+        ammo = "rtg_40";
+        count = 12;
+        tracersevery = 0;
+        lastroundstracer = 0;
+        descriptionshort = "Raider Tactical .40 Ammo";
+        displayname = "[RTG] 12rnd .40 Mag";
+        displaynameshort = "12Rnd .40";
+        scope = 2;
+    };
+
+    class 30Rnd_762x39_AK12_Mag_F;
+    class rtg_12g_15Rnd : 30Rnd_762x39_AK12_Mag_F {
+        author = "Shrike";
+        ammo = "rtg_buckshot";
+        count = 15;
+        tracersevery = 0;
+        lastroundstracer = 0;
+        descriptionshort = "Raider Tactical Standard Issue Buckshot 12g Ammo";
+        displayname = "[RTG] 15rnd Buckshot 12g Mag";
+        displaynameshort = "15Rnd Buckshot 12g";
+        scope = 2;
+    };
+
+    class rtg_12g_15Rnd_doom : rtg_12g_15Rnd {
+        author = "Shrike";
+        ammo = "rtg_doomrounds";
+        count = 15;
+        tracersevery = 0;
+        lastroundstracer = 0;
+        descriptionshort = "Raider Tactical FRAG 12g Ammo";
+        displayname = "[RTG] 15rnd FRAG 12g Mag";
+        displaynameshort = "15Rnd FRAG 12g";
+        scope = 2;
+    };
+
+    class 2Rnd_12Gauge_Slug;
+    class rtg_nitroSlug : 2Rnd_12Gauge_Slug {
+        author = "Shrike";
+        ammo = "rtg_nitro";
+        count = 8;
+        tracersevery = 1;
+        lastroundstracer = 0;
+        descriptionshort = "Raider Tactical 700 Nitro Express Ammo";
+        displayname = "[RTG] 2Rnd 700 Nitro Express";
+        displaynameshort = "2 Rnd 700 Nitro Express";
+        scope = 2;
+    };
+
+    class 50Rnd_570x28_SMG_03;
+    class rtg_p90 : 50Rnd_570x28_SMG_03 {
+        author = "Shrike";
+        ammo = "rtg_57";
+        count = 50;
+        tracersevery = 1;
+        lastroundstracer = 0;
+        descriptionshort = "Raider Tactical Standard Issue 5.7mm Ammo";
+        displayname = "[RTG] 50rnd 5.7mm Mag";
+        displaynameshort = "50Rnd 5.7x28";
         scope = 2;
     };
 };

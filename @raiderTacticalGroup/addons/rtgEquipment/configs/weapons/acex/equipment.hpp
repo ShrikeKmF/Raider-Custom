@@ -154,3 +154,200 @@ class rtg_ace_expanded_ech {
         };
     };
 };
+
+class rtg_ace_expanded_cargo {
+    label = "Cargo";
+    author = "Shrike";
+    options[] = {"bottom", "top", "style"};
+    class bottom
+    {
+        label = "Cargo Colour";
+        values[] = {"mcb", "black", "tan", "mc", "od"};
+        class mcb
+        {
+            label = "BJCP";
+            description = "BJCP Cargo";
+        };
+        class black
+        {
+            label = "Black";
+            description = "Black Cargo";
+        };
+        class tan
+        {
+            label = "Tan";
+            description = "Tan Cargo";
+        };
+        class mc
+        {
+            label = "Multicam";
+            description = "MC Cargo";
+        };
+        class od
+        {
+            label = "Olive Drab";
+            description = "OD Cargo";
+        };
+    };
+    class top
+    {
+        label = "Top Type";
+        values[] = {"jacket", "shirt", "shirtcut", "tshirt"};
+        class jacket
+        {
+            label = "Jacket";
+            description = "Jacket";
+        };
+        class shirt
+        {
+            label = "Shirt";
+            description = "Shirt";
+        };
+        class shirtcut
+        {
+            label = "Rolled Shirt";
+            description = "Rolled Shirt";
+        };
+        class tshirt
+        {
+            label = "T-Shirt";
+            description = "T-Shirt";
+        };
+    };
+    class style
+    {
+        label = "Colour";
+        values[] = {"black", "od", "red", "blue", "white", "tan", "mc", "gray", "mcb"};
+        class black
+        {
+            label = "Black";
+            description = "Black";
+        };
+        class od
+        {
+            label = "Olive Drab";
+            description = "Olive Drab";
+        };
+        class red
+        {
+            label = "Red";
+            description = "Red";
+        };
+        class blue
+        {
+            label = "Blue";
+            description = "Blue";
+        };
+        class white
+        {
+            label = "White";
+            description = "White";
+        };
+        class tan
+        {
+            label = "Tan";
+            description = "Tan";
+        };
+        class mc
+        {
+            label = "Multicam";
+            description = "MC";
+        };
+        class gray
+        {
+            label = "Gray";
+            description = "Gray";
+        };
+        class mcb
+        {
+            label = "BJCP";
+            description = "BJCP";
+        };
+    };
+};
+
+class rtg_ace_expanded_g3 {
+    label = "G3";
+    author = "Shrike";
+    options[] = {"top", "camo"};
+    class top
+    {
+        label = "Shirt Type";
+        values[] = {"shirt", "rolled", "tshirt"};
+        class shirt
+        {
+            label = "Shirt";
+            description = "Shirt";
+        };
+        class rolled
+        {
+            label = "Rolled Shirt";
+            description = "Rolled Shirt";
+        };
+        class tshirt
+        {
+            label = "T-Shirt";
+            description = "T-Shirt";
+        };
+    };
+    class camo
+    {
+        label = "Camo";
+        values[] = {"alpine", "arid", "m81", "mcb", "mc", "mct", "tan", "grey", "od", "ph", "choco"};
+        class alpine
+        {
+            label = "Alpine";
+            description = "Alpine";
+        };
+        class arid
+        {
+            label = "Arid";
+            description = "Arid";
+        };
+        class m81
+        {
+            label = "M81";
+            description = "M81";
+        };
+        class mcb
+       {
+            label = "Multicam Black";
+            description = "MCB";
+        };
+        class mc
+        {
+            label = "Multicam";
+            description = "MC";
+        };
+        class mct
+        {
+            label = "Multicam Tropic";
+            description = "MCT";
+        };
+        class tan
+        {
+            label = "Tan";
+            description = "Tan";
+        };
+        class grey
+        {
+            label = "Gray";
+            description = "Gray";
+        };
+        class od
+        {
+            label = "Olive Drab";
+            description = "Olive Drab";
+        };
+        class ph
+        {
+            label = "Project Honor";
+            description = "Project Honor";
+        };
+        class choco
+        {
+            label = "Choc-Chip";
+            description = "Choculate Chip";
+        };
+    };
+};
