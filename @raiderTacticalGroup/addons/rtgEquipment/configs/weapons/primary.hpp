@@ -20,394 +20,12 @@ class manual;
 class Single;
 class FullAuto;
 class StandardSound;
-
-// AUG
-class hlc_aug_base;
-class hlc_rifle_aug : hlc_aug_base
-{
-	magazineWell[] = {"CBA_556x45_STANAG"};
-	magazines[] = {"rtg_30rnd_556_45"};
-};
-class hlc_rifle_auga3 : hlc_aug_base
-{
-	magazineWell[] = {"CBA_556x45_STANAG"};
-	magazines[] = {"rtg_30rnd_556_45"};
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_aug";
-		barrel = "rifle";
-		camo = "khaki";
-	};
-};
-class hlc_rifle_auga3_bl : hlc_rifle_auga3
-{
-	magazineWell[] = {"CBA_556x45_STANAG"};
-	magazines[] = {"rtg_30rnd_556_45"};
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_aug";
-		barrel = "rifle";
-		camo = "blue";
-	};
-};
-class hlc_rifle_auga3_b : hlc_rifle_auga3
-{
-	magazineWell[] = {"CBA_556x45_STANAG"};
-	magazines[] = {"rtg_30rnd_556_45"};
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_aug";
-		barrel = "rifle";
-		camo = "black";
-	};
-};
-class hlc_rifle_auga3_GL : hlc_aug_base
-{
-	magazineWell[] = {"CBA_556x45_STANAG"};
-	magazines[] = {"rtg_30rnd_556_45"};
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_aug_gl";
-		camo = "khaki";
-	};
-};
-class hlc_rifle_auga3_GL_BL : hlc_rifle_auga3_GL
-{
-	magazineWell[] = {"CBA_556x45_STANAG"};
-	magazines[] = {"rtg_30rnd_556_45"};
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_aug_gl";
-		camo = "blue";
-	};
-};
-class hlc_rifle_auga3_GL_B : hlc_rifle_auga3_GL
-{
-	magazineWell[] = {"CBA_556x45_STANAG"};
-	magazines[] = {"rtg_30rnd_556_45"};
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_aug_gl";
-		camo = "black";
-	};
-};
-class hlc_rifle_auga2para : hlc_aug_base
-{
-	magazineWell[] = {"RTG_9x19"};
-	magazines[] = {"rtg_9mm_35Rnd_mag"};
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_aug";
-		barrel = "para";
-		camo = "khaki";
-	};
-};
-class hlc_rifle_auga2para_t : hlc_rifle_auga2para
-{
-	magazineWell[] = {"RTG_9x19"};
-	magazines[] = {"rtg_9mm_35Rnd_mag"};
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_aug";
-		barrel = "para";
-		camo = "sand";
-	};
-};
-class hlc_rifle_auga2para_b : hlc_rifle_auga2para
-{
-	magazineWell[] = {"RTG_9x19"};
-	magazines[] = {"rtg_9mm_35Rnd_mag"};
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_aug";
-		barrel = "para";
-		camo = "black";
-	};
-};
-
-// MSBS Grot
-class arifle_MSBS65_F;
-class arifle_MSBS65_black_F;
-class arifle_MSBS65_camo_F;
-class arifle_MSBS65_sand_F;
-class rtg_MSBS65_F : arifle_MSBS65_F
-{
-	scope = 2;
-	dlc = "raiderTactical";
-	baseWeapon = "rtg_MSBS65_F";
-	Author = "Shrike";
-	magazineWell[] = {"CBA_556x45_STANAG"};
-	magazines[] = {"rtg_30rnd_556_45"};
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_grot";
-		camo = "khaki";
-	};
-};
-class rtg_MSBS65_black_F : arifle_MSBS65_black_F
-{
-	scope = 2;
-	dlc = "raiderTactical";
-	baseWeapon = "rtg_MSBS65_black_F";
-	Author = "Shrike";
-	magazineWell[] = {"CBA_556x45_STANAG"};
-	magazines[] = {"rtg_30rnd_556_45"};
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_grot";
-		camo = "black";
-	};
-};
-class rtg_MSBS65_camo_F : arifle_MSBS65_camo_F
-{
-	scope = 2;
-	dlc = "raiderTactical";
-	baseWeapon = "rtg_MSBS65_camo_F";
-	Author = "Shrike";
-	magazineWell[] = {"CBA_556x45_STANAG"};
-	magazines[] = {"rtg_30rnd_556_45"};
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_grot";
-		camo = "camo";
-	};
-};
-class rtg_MSBS65_sand_F : arifle_MSBS65_sand_F
-{
-	scope = 2;
-	dlc = "raiderTactical";
-	baseWeapon = "rtg_MSBS65_sand_F";
-	Author = "Shrike";
-	magazineWell[] = {"CBA_556x45_STANAG"};
-	magazines[] = {"rtg_30rnd_556_45"};
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_grot";
-		camo = "sand";
-	};
-};
-
-class arifle_MSBS65_GL_F;
-class arifle_MSBS65_GL_black_F;
-class arifle_MSBS65_GL_camo_F;
-class arifle_MSBS65_GL_sand_F;
-class rtg_MSBS65_GL_F : arifle_MSBS65_GL_F
-{
-	scope = 2;
-	dlc = "raiderTactical";
-	baseWeapon = "rtg_MSBS65_GL_F";
-	Author = "Shrike";
-	magazineWell[] = {"CBA_556x45_STANAG"};
-	magazines[] = {"rtg_30rnd_556_45"};
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_grot_gl";
-		gl = "gl";
-		camo = "khaki";
-	};
-};
-class rtg_MSBS65_GL_black_F : arifle_MSBS65_GL_black_F
-{
-	scope = 2;
-	dlc = "raiderTactical";
-	baseWeapon = "rtg_MSBS65_GL_black_F";
-	Author = "Shrike";
-	magazineWell[] = {"CBA_556x45_STANAG"};
-	magazines[] = {"rtg_30rnd_556_45"};
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_grot_gl";
-		gl = "gl";
-		camo = "black";
-	};
-};
-class rtg_MSBS65_GL_camo_F : arifle_MSBS65_GL_camo_F
-{
-	scope = 2;
-	dlc = "raiderTactical";
-	baseWeapon = "rtg_MSBS65_GL_camo_F";
-	Author = "Shrike";
-	magazineWell[] = {"CBA_556x45_STANAG"};
-	magazines[] = {"rtg_30rnd_556_45"};
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_grot_gl";
-		gl = "gl";
-		camo = "camo";
-	};
-};
-class rtg_MSBS65_GL_sand_F : arifle_MSBS65_GL_sand_F
-{
-	scope = 2;
-	dlc = "raiderTactical";
-	baseWeapon = "rtg_MSBS65_GL_sand_F";
-	Author = "Shrike";
-	magazineWell[] = {"CBA_556x45_STANAG"};
-	magazines[] = {"rtg_30rnd_556_45"};
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_grot_gl";
-		gl = "gl";
-		camo = "sand";
-	};
-};
-
-class arifle_MSBS65_UBS_F;
-class arifle_MSBS65_UBS_black_F;
-class arifle_MSBS65_UBS_camo_F;
-class arifle_MSBS65_UBS_sand_F;
-class rtg_MSBS65_UBS_F : arifle_MSBS65_UBS_F
-{
-	scope = 2;
-	dlc = "raiderTactical";
-	baseWeapon = "rtg_MSBS65_UBS_F";
-	Author = "Shrike";
-	magazineWell[] = {"CBA_556x45_STANAG"};
-	magazines[] = {"rtg_30rnd_556_45"};
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_grot_gl";
-		gl = "sg";
-		camo = "khaki";
-	};
-};
-class rtg_MSBS65_UBS_black_F : arifle_MSBS65_UBS_black_F
-{
-	scope = 2;
-	dlc = "raiderTactical";
-	baseWeapon = "rtg_MSBS65_UBS_black_F";
-	Author = "Shrike";
-	magazineWell[] = {"CBA_556x45_STANAG"};
-	magazines[] = {"rtg_30rnd_556_45"};
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_grot_gl";
-		gl = "sg";
-		camo = "black";
-	};
-};
-class rtg_MSBS65_UBS_camo_F : arifle_MSBS65_UBS_camo_F
-{
-	scope = 2;
-	dlc = "raiderTactical";
-	baseWeapon = "rtg_MSBS65_UBS_camo_F";
-	Author = "Shrike";
-	magazineWell[] = {"CBA_556x45_STANAG"};
-	magazines[] = {"rtg_30rnd_556_45"};
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_grot_gl";
-		gl = "sg";
-		camo = "camo";
-	};
-};
-class rtg_MSBS65_UBS_sand_F : arifle_MSBS65_UBS_sand_F
-{
-	scope = 2;
-	dlc = "raiderTactical";
-	baseWeapon = "rtg_MSBS65_UBS_sand_F";
-	Author = "Shrike";
-	magazineWell[] = {"CBA_556x45_STANAG"};
-	magazines[] = {"rtg_30rnd_556_45"};
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_grot_gl";
-		gl = "sg";
-		camo = "sand";
-	};
-};
-
 class arifle_SPAR_01_blk_F;
 class arifle_SPAR_01_khk_F;
 class arifle_SPAR_01_snd_F;
 class arifle_SPAR_02_blk_F;
 class arifle_SPAR_02_khk_F;
 class arifle_SPAR_02_snd_F;
-class rtg_hk416_blk_s : arifle_SPAR_01_blk_F
-{
-	scope = 2;
-	dlc = "raiderTactical";
-	baseWeapon = "rtg_hk416_blk_s";
-	Author = "Shrike";
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_hk416";
-		barrel = "short";
-		calibre = "N556";
-		camo = "black";
-	};
-};
-class rtg_hk416_khk_s : arifle_SPAR_01_khk_F
-{
-	scope = 2;
-	dlc = "raiderTactical";
-	baseWeapon = "rtg_hk416_khk_s";
-	Author = "Shrike";
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_hk416";
-		barrel = "short";
-		calibre = "N556";
-		camo = "khaki";
-	};
-};
-class rtg_hk416_snd_s : arifle_SPAR_01_snd_F
-{
-	scope = 2;
-	dlc = "raiderTactical";
-	baseWeapon = "rtg_hk416_snd_s";
-	Author = "Shrike";
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_hk416";
-		barrel = "short";
-		calibre = "N556";
-		camo = "sand";
-	};
-};
-class rtg_hk416_blk_l : arifle_SPAR_02_blk_F
-{
-	scope = 2;
-	dlc = "raiderTactical";
-	baseWeapon = "rtg_hk416_blk_l";
-	Author = "Shrike";
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_hk416";
-		barrel = "long";
-		calibre = "N556";
-		camo = "black";
-	};
-};
-class rtg_hk416_khk_l : arifle_SPAR_02_khk_F
-{
-	scope = 2;
-	dlc = "raiderTactical";
-	baseWeapon = "rtg_hk416_khk_l";
-	Author = "Shrike";
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_hk416";
-		barrel = "long";
-		calibre = "N556";
-		camo = "khaki";
-	};
-};
-class rtg_hk416_snd_l : arifle_SPAR_02_snd_F
-{
-	scope = 2;
-	dlc = "raiderTactical";
-	baseWeapon = "rtg_hk416_snd_l";
-	Author = "Shrike";
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_hk416";
-		barrel = "long";
-		calibre = "N556";
-		camo = "sand";
-	};
-};
-
 class rhs_weap_mk18;
 class rhs_weap_mk18_bk;
 class rhs_weap_mk18_KAC_bk;
@@ -416,988 +34,6 @@ class rhs_weap_mk18_KAC_d;
 class rhs_weap_mk18_KAC;
 class rhs_weap_mk18_wd;
 class rhs_weap_mk18_KAC_wd;
-class rtg_mk18 : rhs_weap_mk18
-{
-	scope = 2;
-	dlc = "raiderTactical";
-	baseWeapon = "rtg_mk18";
-	Author = "Shrike";
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_mk18";
-		stock = "default";
-		camo = "standard";
-	};
-};
-class rtg_mk18_blk : rhs_weap_mk18_bk
-{
-	scope = 2;
-	dlc = "raiderTactical";
-	baseWeapon = "rtg_mk18_blk";
-	Author = "Shrike";
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_mk18";
-		stock = "default";
-		camo = "black";
-	};
-};
-class rtg_mk18_bk_kac : rhs_weap_mk18_KAC_bk
-{
-	scope = 2;
-	dlc = "raiderTactical";
-	baseWeapon = "rtg_mk18_bk_kac";
-	Author = "Shrike";
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_mk18";
-		stock = "sopmod";
-		camo = "black";
-	};
-};
-class rtg_mk18_d : rhs_weap_mk18_d
-{
-	scope = 2;
-	dlc = "raiderTactical";
-	baseWeapon = "rtg_mk18_d";
-	Author = "Shrike";
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_mk18";
-		stock = "default";
-		camo = "desert";
-	};
-};
-class rtg_mk18_d_kac : rhs_weap_mk18_KAC_d
-{
-	scope = 2;
-	dlc = "raiderTactical";
-	baseWeapon = "rtg_mk18_d_kac";
-	Author = "Shrike";
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_mk18";
-		stock = "sopmod";
-		camo = "desert";
-	};
-};
-class rtg_mk18_kac : rhs_weap_mk18_KAC
-{
-	scope = 2;
-	dlc = "raiderTactical";
-	baseWeapon = "rtg_mk18_kac";
-	Author = "Shrike";
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_mk18";
-		stock = "sopmod";
-		camo = "standard";
-	};
-};
-class rtg_mk18_wd : rhs_weap_mk18_wd
-{
-	scope = 2;
-	dlc = "raiderTactical";
-	baseWeapon = "rtg_mk18_wd";
-	Author = "Shrike";
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_mk18";
-		stock = "default";
-		camo = "woodland";
-	};
-};
-class rtg_mk18_wd_kac : rhs_weap_mk18_KAC_wd
-{
-	scope = 2;
-	dlc = "raiderTactical";
-	baseWeapon = "rtg_mk18_wd_kac";
-	Author = "Shrike";
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_mk18";
-		stock = "sopmod";
-		camo = "woodland";
-	};
-};
-
-// SCAR
-// SCAR-H 7.62
-class hlc_SCARH_Base;
-class hlc_wp_SCARH_STD : hlc_SCARH_Base
-{
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_scar";
-		barrel = "std";
-		calibre = "N762";
-		camo = "tan";
-	};
-};
-class hlc_wp_SCARH_STD_Blk : hlc_wp_SCARH_STD
-{
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_scar";
-		barrel = "std";
-		calibre = "N762";
-		camo = "black";
-	};
-};
-class hlc_wp_SCARH_STD_camo : hlc_wp_SCARH_STD
-{
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_scar";
-		barrel = "std";
-		calibre = "N762";
-		camo = "camo";
-	};
-};
-class hlc_WP_SCARH_CQC : hlc_wp_SCARH_STD
-{
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_scar";
-		barrel = "cqb";
-		calibre = "N762";
-		camo = "tan";
-	};
-};
-class hlc_wp_SCARH_CQC_Blk : hlc_WP_SCARH_CQC
-{
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_scar";
-		barrel = "cqb";
-		calibre = "N762";
-		camo = "black";
-	};
-};
-class hlc_wp_SCARH_CQC_camo : hlc_WP_SCARH_CQC
-{
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_scar";
-		barrel = "cqb";
-		calibre = "N762";
-		camo = "camo";
-	};
-};
-class hlc_WP_SCARH_DMR : hlc_SCARH_Base
-{
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_scar";
-		barrel = "lb";
-		calibre = "N762";
-		camo = "tan";
-	};
-};
-class hlc_wp_SCARH_DMR_Blk : hlc_WP_SCARH_DMR
-{
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_scar";
-		barrel = "lb";
-		calibre = "N762";
-		camo = "black";
-	};
-};
-class hlc_wp_SCARH_DMR_camo : hlc_WP_SCARH_DMR
-{
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_scar";
-		barrel = "lb";
-		calibre = "N762";
-		camo = "camo";
-	};
-};
-
-// SCAR-l 5.56
-class hlc_SCARL_Base;
-class hlc_wp_SCARL_STD : hlc_SCARL_Base
-{
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_scar";
-		barrel = "std";
-		calibre = "N556";
-		camo = "tan";
-	};
-};
-class hlc_wp_SCARL_STD_Blk : hlc_wp_SCARL_STD
-{
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_scar";
-		barrel = "std";
-		calibre = "N556";
-		camo = "black";
-	};
-};
-class hlc_wp_SCARL_STD_camo : hlc_wp_SCARL_STD
-{
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_scar";
-		barrel = "std";
-		calibre = "N556";
-		camo = "camo";
-	};
-};
-class hlc_wp_SCAR_PDW : hlc_SCARL_Base
-{
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_scar";
-		barrel = "sc";
-		calibre = "N556";
-		camo = "tan";
-	};
-};
-class hlc_wp_SCAR_PDW_blk : hlc_wp_SCAR_PDW
-{
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_scar";
-		barrel = "sc";
-		calibre = "N556";
-		camo = "black";
-	};
-};
-class hlc_wp_SCAR_PDW_camo : hlc_wp_SCAR_PDW
-{
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_scar";
-		barrel = "sc";
-		calibre = "N556";
-		camo = "camo";
-	};
-};
-class hlc_WP_SCARL_CQC : hlc_wp_SCARL_STD
-{
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_scar";
-		barrel = "cqb";
-		calibre = "N556";
-		camo = "tan";
-	};
-};
-class hlc_wp_SCARL_CQC_Blk : hlc_WP_SCARL_CQC
-{
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_scar";
-		barrel = "cqb";
-		calibre = "N556";
-		camo = "black";
-	};
-};
-class hlc_wp_SCARL_CQC_camo : hlc_WP_SCARL_CQC
-{
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_scar";
-		barrel = "cqb";
-		calibre = "N556";
-		camo = "camo";
-	};
-};
-class hlc_WP_SCARL_DMR : hlc_wp_SCARL_STD
-{
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_scar";
-		barrel = "lb";
-		calibre = "N556";
-		camo = "tan";
-	};
-};
-class hlc_wp_SCARL_DMR_Blk : hlc_WP_SCARL_DMR
-{
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_scar";
-		barrel = "lb";
-		calibre = "N556";
-		camo = "black";
-	};
-};
-class hlc_wp_SCARL_DMR_camo : hlc_WP_SCARL_DMR
-{
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_scar";
-		barrel = "lb";
-		calibre = "N556";
-		camo = "camo";
-	};
-};
-
-// SCAR-l .300
-class hlc_wp_SCARL_STD_300AAC : hlc_SCARL_Base
-{
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_scar";
-		barrel = "std";
-		calibre = "N300";
-		camo = "tan";
-	};
-};
-class hlc_wp_SCARL_STD_300AAC_Blk : hlc_wp_SCARL_STD_300AAC
-{
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_scar";
-		barrel = "std";
-		calibre = "N300";
-		camo = "black";
-	};
-};
-class hlc_wp_SCARL_STD_300AAC_camo : hlc_wp_SCARL_STD_300AAC
-{
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_scar";
-		barrel = "std";
-		calibre = "N300";
-		camo = "camo";
-	};
-};
-class hlc_WP_SCARL_CQC_300AAC : hlc_wp_SCARL_STD_300AAC
-{
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_scar";
-		barrel = "cqb";
-		calibre = "N300";
-		camo = "tan";
-	};
-};
-class hlc_wp_SCARL_CQC_300AAC_Blk : hlc_WP_SCARL_CQC_300AAC
-{
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_scar";
-		barrel = "cqb";
-		calibre = "N300";
-		camo = "black";
-	};
-};
-class hlc_wp_SCARL_CQC_300AAC_camo : hlc_WP_SCARL_CQC_300AAC
-{
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_scar";
-		barrel = "cqb";
-		calibre = "N300";
-		camo = "camo";
-	};
-};
-
-// SCAR-H 7.62 EGLM
-class hlc_wp_SCARH_STD_EGLM : hlc_SCARH_Base
-{
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_scar_gl";
-		barrel = "std";
-		calibre = "N762";
-		camo = "tan";
-	};
-};
-class hlc_wp_SCARH_STD_EGLM_Blk : hlc_wp_SCARH_STD_EGLM
-{
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_scar_gl";
-		barrel = "std";
-		calibre = "N762";
-		camo = "black";
-	};
-};
-class hlc_wp_SCARH_STD_EGLM_camo : hlc_wp_SCARH_STD_EGLM
-{
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_scar_gl";
-		barrel = "std";
-		calibre = "N762";
-		camo = "camo";
-	};
-};
-class hlc_WP_SCARH_CQC_EGLM : hlc_SCARH_Base
-{
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_scar_gl";
-		barrel = "cqb";
-		calibre = "N762";
-		camo = "tan";
-	};
-};
-class hlc_wp_SCARH_CQC_EGLM_Blk : hlc_WP_SCARH_CQC_EGLM
-{
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_scar_gl";
-		barrel = "cqb";
-		calibre = "N762";
-		camo = "black";
-	};
-};
-class hlc_wp_SCARH_CQC_EGLM_camo : hlc_WP_SCARH_CQC_EGLM
-{
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_scar_gl";
-		barrel = "cqb";
-		calibre = "N762";
-		camo = "camo";
-	};
-};
-
-// SCAR-l 5.56 EGLM
-class hlc_wp_SCARL_STD_EGLM : hlc_SCARL_Base
-{
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_scar_gl";
-		barrel = "std";
-		calibre = "N556";
-		camo = "tan";
-	};
-};
-class hlc_wp_SCARL_STD_EGLM_Blk : hlc_wp_SCARL_STD_EGLM
-{
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_scar_gl";
-		barrel = "std";
-		calibre = "N556";
-		camo = "black";
-	};
-};
-class hlc_wp_SCARL_STD_EGLM_camo : hlc_wp_SCARL_STD_EGLM
-{
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_scar_gl";
-		barrel = "std";
-		calibre = "N556";
-		camo = "camo";
-	};
-};
-class hlc_WP_SCARL_CQC_EGLM : hlc_SCARL_Base
-{
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_scar_gl";
-		barrel = "cqb";
-		calibre = "N556";
-		camo = "tan";
-	};
-};
-class hlc_wp_SCARL_CQC_EGLM_Blk : hlc_WP_SCARL_CQC_EGLM
-{
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_scar_gl";
-		barrel = "cqb";
-		calibre = "N556";
-		camo = "black";
-	};
-};
-class hlc_wp_SCARL_CQC_EGLM_camo : hlc_WP_SCARL_CQC_EGLM
-{
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_scar_gl";
-		barrel = "cqb";
-		calibre = "N556";
-		camo = "camo";
-	};
-};
-
-// SCAR-l .300 EGLM
-class hlc_wp_SCARL_STD_300AAC_EGLM : hlc_wp_SCARL_STD_300AAC
-{
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_scar_gl";
-		barrel = "std";
-		calibre = "N300";
-		camo = "tan";
-	};
-};
-class hlc_wp_SCARL_STD_300AAC_EGLM_Blk : hlc_wp_SCARL_STD_300AAC_EGLM
-{
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_scar_gl";
-		barrel = "std";
-		calibre = "N300";
-		camo = "black";
-	};
-};
-class hlc_wp_SCARL_STD_300AAC_EGLM_camo : hlc_wp_SCARL_STD_300AAC_EGLM
-{
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_scar_gl";
-		barrel = "std";
-		calibre = "N300";
-		camo = "camo";
-	};
-};
-class hlc_WP_SCARL_CQC_300AAC_EGLM : hlc_wp_SCARL_STD_300AAC
-{
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_scar_gl";
-		barrel = "cqb";
-		calibre = "N300";
-		camo = "tan";
-	};
-};
-class hlc_wp_SCARL_CQC_300AAC_EGLM_Blk : hlc_WP_SCARL_CQC_300AAC_EGLM
-{
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_scar_gl";
-		barrel = "cqb";
-		calibre = "N300";
-		camo = "black";
-	};
-};
-class hlc_wp_SCARL_CQC_300AAC_EGLM_camo : hlc_WP_SCARL_CQC_300AAC_EGLM
-{
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_scar_gl";
-		barrel = "cqb";
-		calibre = "N300";
-		camo = "camo";
-	};
-};
-
-// SCAR SSR
-class hlc_WP_SSR : hlc_wp_SCARH_STD
-{
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_scarssr";
-		camo = "tan";
-	};
-};
-class hlc_wp_SSR_Blk : hlc_WP_SSR
-{
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_scarssr";
-		camo = "black";
-	};
-};
-class hlc_wp_SSR_camo : hlc_WP_SSR
-{
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_scarssr";
-		camo = "camo";
-	};
-};
-
-// SCAR Other
-class hlc_wp_SCARH_STD_SRX : hlc_wp_SCARH_STD
-{
-	class XtdGearInfo
-	{
-		model = "";
-	};
-};
-class hlc_wp_SCARH_STD_SRX_Blk : hlc_wp_SCARH_STD_SRX
-{
-	class XtdGearInfo
-	{
-		model = "";
-	};
-};
-class hlc_wp_SCARH_CQC_SRX : hlc_wp_SCARH_STD
-{
-	class XtdGearInfo
-	{
-		model = "";
-	};
-};
-class hlc_wp_SCARH_CQC_SRX_Blk : hlc_wp_SCARH_CQC_SRX
-{
-	class XtdGearInfo
-	{
-		model = "";
-	};
-};
-class hlc_wp_SCARH_STD_SRX_camo : hlc_wp_SCARH_STD_SRX
-{
-	class XtdGearInfo
-	{
-		model = "";
-	};
-};
-class hlc_wp_SCARL_STD_SRX : hlc_wp_SCARL_STD
-{
-	class XtdGearInfo
-	{
-		model = "";
-	};
-};
-class hlc_wp_SCARL_STD_SRX_Blk : hlc_wp_SCARL_STD_SRX
-{
-	class XtdGearInfo
-	{
-		model = "";
-	};
-};
-class hlc_wp_SCARL_STD_SRX_camo : hlc_wp_SCARL_STD_SRX
-{
-	class XtdGearInfo
-	{
-		model = "";
-	};
-};
-class hlc_wp_SCARL_STD_300AAC_SRX : hlc_wp_SCARL_STD
-{
-	class XtdGearInfo
-	{
-		model = "";
-	};
-};
-class hlc_wp_SCARL_STD_300AAC_SRX_Blk : hlc_wp_SCARL_STD_300AAC_SRX
-{
-	class XtdGearInfo
-	{
-		model = "";
-	};
-};
-class hlc_wp_MK17 : hlc_wp_SCARH_STD
-{
-	class XtdGearInfo
-	{
-		model = "";
-	};
-};
-class hlc_wp_MK17_CQC : hlc_wp_MK17
-{
-	class XtdGearInfo
-	{
-		model = "";
-	};
-};
-class hlc_wp_MK17_CQC_AGC : hlc_wp_MK17_CQC
-{
-	class XtdGearInfo
-	{
-		model = "";
-	};
-};
-class hlc_wp_MK17_CQC_AGC_camo : hlc_wp_MK17_CQC_AGC
-{
-	class XtdGearInfo
-	{
-		model = "";
-	};
-};
-class hlc_WP_Mk17IUR : hlc_wp_MK17
-{
-	class XtdGearInfo
-	{
-		model = "";
-	};
-};
-class hlc_wp_MK17IUR_AGC : hlc_WP_Mk17IUR
-{
-	class XtdGearInfo
-	{
-		model = "";
-	};
-};
-class hlc_wp_MK17IUR_AGC_blk : hlc_wp_MK17IUR_AGC
-{
-	class XtdGearInfo
-	{
-		model = "";
-	};
-};
-class hlc_wp_MK17IUR_AGC_camo : hlc_wp_MK17IUR_AGC
-{
-	class XtdGearInfo
-	{
-		model = "";
-	};
-};
-
-class rtg_g36_v_556 : arifle_SPAR_01_blk_F {
-	scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
-	baseWeapon = "rtg_g36_v_556";
-    displayName="G36V 5.56mm";
-	AB_barrelTwist = 12;
-	AB_barrelLength = 18.25;
-	ACE_barrelTwist = 178;
-	ACE_barrelLength = 480;
-	reloadAction = "NIA_GestureReloadG36V";
-	reloadmagazinesound[] = {"hlc_wp_g36\snd\G36EV_reload",0.9,1,35};
-	model = "hlc_wp_g36\mesh\G36V\G36.p3d";
-	picture = "\hlc_wp_g36\tex\ui\gear_g36V_ca.paa";
-	handanim[] = {"OFP2_ManSkeleton","hlc_wp_g36\anim\varient\gesture_g36V_STD.rtm"};
-	memoryPointCamera = "eye";
-	hiddenSelections[] = {"Reciever","Optics","Magwell","Stock"};
-	hiddenSelectionsTextures[] = {"hlc_wp_g36\tex\commonmaps\g36_commonmap_v_co.paa","hlc_wp_g36\tex\placeholder\g36_opticrails_co.paa","hlc_wp_g36\tex\placeholder\g36_magwell_co.paa","hlc_wp_g36\tex\placeholder\g36_stockfurniture_co.paa","hlc_wp_g36\tex\placeholder\g36_ag36_co.paa"};
-	discretedistance[] = {200};
-	discretedistanceinitindex = 0;
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_g36";
-		barrel = "long";
-		calibre = "N556";
-		style = "full";
-	};
-};
-class rtg_g36_cv_556 : rtg_g36_v_556 {
-	scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
-    displayName="G36CV 5.56mm";
-	baseWeapon = "rtg_g36_cv_556";
-	AB_barrelTwist = 12;
-	AB_barrelLength = 18.25;
-	ACE_barrelTwist = 178;
-	ACE_barrelLength = 318;
-	reloadAction = "NIA_GestureReloadG36V";
-	reloadmagazinesound[] = {"hlc_wp_g36\snd\G36EV_reload",0.9,1,35};
-	model = "hlc_wp_g36\mesh\G36V\G36C.p3d";
-	picture = "\hlc_wp_g36\tex\ui\gear_g36CV_ca.paa";
-	hiddenSelections[] = {"Reciever","Optics","Magwell","Stock","AG36"};
-	hiddenSelectionsTextures[] = {"hlc_wp_g36\tex\commonmaps\g36_commonmap_cv_co.paa","hlc_wp_g36\tex\placeholder\g36_opticrails_co.paa","hlc_wp_g36\tex\placeholder\g36_magwell_co.paa","hlc_wp_g36\tex\placeholder\g36_stockfurniture_co.paa","hlc_wp_g36\tex\placeholder\g36_ag36_co.paa"};
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_g36";
-		barrel = "short";
-		calibre = "N556";
-		style = "full";
-	};
-};
-class rtg_g36_kv_556 : rtg_g36_v_556 {
-	scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
-    displayName="G36KV 5.56mm";
-	baseWeapon = "rtg_g36_kv_556";
-	ACE_barrelTwist = 178;
-	ACE_barrelLength = 318;
-	reloadAction = "NIA_GestureReloadG36V";
-	reloadmagazinesound[] = {"hlc_wp_g36\snd\G36EV_reload",0.9,1,35};
-	model = "hlc_wp_g36\mesh\G36V\G36K.p3d";
-	picture = "\hlc_wp_g36\tex\ui\gear_g36KV_ca.paa";
-	hiddenSelections[] = {"Reciever","Optics","Magwell","Stock","AG36"};
-	hiddenSelectionsTextures[] = {"hlc_wp_g36\tex\commonmaps\g36_commonmap_kv_co.paa","hlc_wp_g36\tex\placeholder\g36_opticrails_co.paa","hlc_wp_g36\tex\placeholder\g36_magwell_co.paa","hlc_wp_g36\tex\placeholder\g36_stockfurniture_co.paa","hlc_wp_g36\tex\placeholder\g36_ag36_co.paa"};
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_g36";
-		barrel = "carbine";
-		calibre = "N556";
-		style = "full";
-	};
-};
-class rtg_g36_v_300 : rtg_g36_v_556 {
-	scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
-    displayName="G36V .300";
-	baseWeapon = "rtg_g36_v_300";
-	magazineWell[] = {"CBA_300BLK_STANAG"};
-	magazines[] = {"rtg_30rnd_300_blk"};
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_g36";
-		barrel = "long";
-		calibre = "N300";
-		style = "full";
-	};
-};
-class rtg_g36_cv_300 : rtg_g36_cv_556 {
-	scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
-    displayName="G36CV .300";
-	baseWeapon = "rtg_g36_cv_300";
-	magazineWell[] = {"CBA_300BLK_STANAG"};
-	magazines[] = {"rtg_30rnd_300_blk"};
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_g36";
-		barrel = "short";
-		calibre = "N300";
-		style = "full";
-	};
-};
-class rtg_g36_kv_300 : rtg_g36_kv_556 {
-	scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
-    displayName="G36KV .300";
-	baseWeapon = "rtg_g36_kv_300";
-	magazineWell[] = {"CBA_300BLK_STANAG"};
-	magazines[] = {"rtg_30rnd_300_blk"};
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_g36";
-		barrel = "carbine";
-		calibre = "N300";
-		style = "full";
-	};
-};
-class rtg_g36_v_556_tac : rtg_g36_v_556 {
-	scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
-    displayName="G36V 5.56mm Tac";
-	baseWeapon = "rtg_g36_v_556_tac";
-	model = "hlc_wp_g36\mesh\G36tactical\G36.p3d";
-	handanim[] = {"OFP2_ManSkeleton","hlc_wp_g36\anim\MLI\gesture_g36TAC_STD.rtm"};
-	hiddenSelections[] = {"Reciever","Optics","Magwell","Stock","Rail"};
-	hiddenSelectionsTextures[] = {"hlc_wp_g36\tex\commonmaps\g36_commonmap_v_co.paa","hlc_wp_g36\tex\placeholder\g36_dualoptics_rds_co.paa","hlc_wp_g36\tex\placeholder\g36_magwell_co.paa","hlc_wp_g36\tex\placeholder\g36_stockfurniture_co.paa","hlc_wp_g36\tex\placeholder\G36_MountsrailsFin_co.paa"};	
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_g36";
-		barrel = "long";
-		calibre = "N556";
-		style = "tac";
-	};
-};
-class rtg_g36_cv_556_tac : rtg_g36_cv_556 {
-	scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
-    displayName="G36CV 5.56mm Tac";
-	baseWeapon = "rtg_g36_cv_556_tac";
-	model = "hlc_wp_g36\mesh\G36tactical\G36C.p3d";
-	handanim[] = {"OFP2_ManSkeleton","hlc_wp_g36\anim\MLI\gesture_g36TAC_STD.rtm"};
-	hiddenSelections[] = {"Reciever","Optics","Magwell","Stock","Rail"};
-	hiddenSelectionsTextures[] = {"hlc_wp_g36\tex\commonmaps\g36_commonmap_cv_co.paa","hlc_wp_g36\tex\placeholder\g36_dualoptics_rds_co.paa","hlc_wp_g36\tex\placeholder\g36_magwell_co.paa","hlc_wp_g36\tex\placeholder\g36_stockfurniture_co.paa","hlc_wp_g36\tex\placeholder\G36_MountsrailsFin_co.paa"};
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_g36";
-		barrel = "short";
-		calibre = "N556";
-		style = "tac";
-	};
-};
-class rtg_g36_kv_556_tac : rtg_g36_kv_556 {
-	scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
-    displayName="G36KV 5.56mm Tac";
-	baseWeapon = "rtg_g36_kv_556_tac";
-	handanim[] = {"OFP2_ManSkeleton","hlc_wp_g36\anim\MLI\gesture_g36TAC_STD.rtm"};
-	hiddenSelections[] = {"Reciever","Optics","Magwell","Stock","Rail"};
-	hiddenSelectionsTextures[] = {"hlc_wp_g36\tex\commonmaps\g36_commonmap_kv_co.paa","hlc_wp_g36\tex\placeholder\g36_dualoptics_rds_co.paa","hlc_wp_g36\tex\placeholder\g36_magwell_co.paa","hlc_wp_g36\tex\placeholder\g36_stockfurniture_co.paa","hlc_wp_g36\tex\placeholder\G36_MountsrailsFin_co.paa"};
-	model = "hlc_wp_g36\mesh\G36tactical\G36K.p3d";
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_g36";
-		barrel = "carbine";
-		calibre = "N556";
-		style = "tac";
-	};
-};
-class rtg_g36_v_300_tac : rtg_g36_v_556_tac {
-	scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
-    displayName="G36V .300 Tac";
-	baseWeapon = "rtg_g36_v_300_tac";
-	magazineWell[] = {"CBA_300BLK_STANAG"};
-	magazines[] = {"rtg_30rnd_300_blk"};
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_g36";
-		barrel = "long";
-		calibre = "N300";
-		style = "tac";
-	};
-};
-class rtg_g36_cv_300_tac : rtg_g36_cv_556_tac {
-	scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
-    displayName="G36CV .300 Tac";
-	baseWeapon = "rtg_g36_cv_300_tac";
-	magazineWell[] = {"CBA_300BLK_STANAG"};
-	magazines[] = {"rtg_30rnd_300_blk"};
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_g36";
-		barrel = "short";
-		calibre = "N300";
-		style = "tac";
-	};
-};
-class rtg_g36_kv_300_tac : rtg_g36_kv_556_tac {
-	scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
-    displayName="G36KV .300 Tac";
-	baseWeapon = "rtg_g36_kv_300_tac";
-	magazineWell[] = {"CBA_300BLK_STANAG"};
-	magazines[] = {"rtg_30rnd_300_blk"};
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_g36";
-		barrel = "carbine";
-		calibre = "N300";
-		style = "tac";
-	};
-};
-
-class rtg_g36_cv_9 : rtg_g36_cv_556 {
-	scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
-    displayName="G36KV 9mm";
-	baseWeapon = "rtg_g36_cv_9";
-	magazineWell[] = {"RTG_9x19"};
-	magazines[] = {"rtg_9mm_35Rnd_mag"};
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_g36";
-		barrel = "short";
-		calibre = "N9";
-		style = "full";
-	};
-};
-class rtg_g36_cv_9_tac : rtg_g36_cv_556_tac {
-	scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
-    displayName="G36KV 9mm Tac";
-	baseWeapon = "rtg_g36_cv_9_tac";
-	magazineWell[] = {"RTG_9x19"};
-	magazines[] = {"rtg_9mm_35Rnd_mag"};
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_g36";
-		barrel = "short";
-		calibre = "N9";
-		style = "tac";
-	};
-};
-
 class UK3CB_FAMAS_F1;
 class rtg_famas_f1_ris : UK3CB_FAMAS_F1 {
 	scope = 2;
@@ -1408,7 +44,6 @@ class rtg_famas_f1_ris : UK3CB_FAMAS_F1 {
 	magazineWell[] = {};
 	magazines[] = {"rtg_30rnd_556_45"};
 };
-
 class rhs_weap_m4a1_carryhandle;
 class rhs_weap_m4a1_carryhandle_mstock;
 class rhs_weap_m4a1_blockII;
@@ -1425,233 +60,6 @@ class rhs_weap_m4a1_wd;
 class rhs_weap_m4a1_mstock;
 class rhs_weap_m4a1_d_mstock;
 class rhs_weap_m4a1_wd_mstock;
-class rtg_m4a1_carryhandle : rhs_weap_m4a1_carryhandle
-{
-	scope = 2;
-	dlc = "raiderTactical";
-	baseWeapon = "rtg_m4a1_carryhandle";
-	Author = "Shrike";
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_m4a1";
-		form = "m4a1";
-		stock = "default";
-		camo = "black";
-	};
-};
-class rtg_m4a1_carryhandle_mstock : rhs_weap_m4a1_carryhandle_mstock
-{
-	scope = 2;
-	dlc = "raiderTactical";
-	baseWeapon = "rtg_m4a1_carryhandle_mstock";
-	Author = "Shrike";
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_m4a1";
-		form = "m4a1";
-		stock = "magpull";
-		camo = "black";
-	};
-};
-
-class rtg_m4a1_blockII : rhs_weap_m4a1_blockII
-{
-	scope = 2;
-	dlc = "raiderTactical";
-	baseWeapon = "rtg_m4a1_blockII";
-	Author = "Shrike";
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_m4a1";
-		form = "block2";
-		stock = "magpull";
-		camo = "standard";
-	};
-};
-class rtg_m4a1_blockII_bk : rhs_weap_m4a1_blockII_bk
-{
-	scope = 2;
-	dlc = "raiderTactical";
-	baseWeapon = "rtg_m4a1_blockII_bk";
-	Author = "Shrike";
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_m4a1";
-		form = "block2";
-		stock = "magpull";
-		camo = "black";
-	};
-};
-class rtg_m4a1_blockII_d : rhs_weap_m4a1_blockII_d
-{
-	scope = 2;
-	dlc = "raiderTactical";
-	baseWeapon = "rtg_m4a1_blockII_d";
-	Author = "Shrike";
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_m4a1";
-		form = "block2";
-		stock = "magpull";
-		camo = "desert";
-	};
-};
-class rtg_m4a1_blockII_wd : rhs_weap_m4a1_blockII_wd
-{
-	scope = 2;
-	dlc = "raiderTactical";
-	baseWeapon = "rtg_m4a1_blockII_wd";
-	Author = "Shrike";
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_m4a1";
-		form = "block2";
-		stock = "magpull";
-		camo = "woodland";
-	};
-};
-class rtg_m4a1_blockII_KAC : rhs_weap_m4a1_blockII_KAC
-{
-	scope = 2;
-	dlc = "raiderTactical";
-	baseWeapon = "rtg_m4a1_blockII_KAC";
-	Author = "Shrike";
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_m4a1";
-		form = "block2";
-		stock = "default";
-		camo = "standard";
-	};
-};
-class rtg_m4a1_blockII_KAC_bk : rhs_weap_m4a1_blockII_KAC_bk
-{
-	scope = 2;
-	dlc = "raiderTactical";
-	baseWeapon = "rtg_m4a1_blockII_KAC_bk";
-	Author = "Shrike";
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_m4a1";
-		form = "block2";
-		stock = "default";
-		camo = "black";
-	};
-};
-class rtg_m4a1_blockII_KAC_d : rhs_weap_m4a1_blockII_KAC_d
-{
-	scope = 2;
-	dlc = "raiderTactical";
-	baseWeapon = "rtg_m4a1_blockII_KAC_d";
-	Author = "Shrike";
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_m4a1";
-		form = "block2";
-		stock = "default";
-		camo = "desert";
-	};
-};
-class rtg_m4a1_blockII_KAC_wd : rhs_weap_m4a1_blockII_KAC_wd
-{
-	scope = 2;
-	dlc = "raiderTactical";
-	baseWeapon = "rtg_m4a1_blockII_KAC_wd";
-	Author = "Shrike";
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_m4a1";
-		form = "block2";
-		stock = "default";
-		camo = "woodland";
-	};
-};
-
-class rtg_m4a1 : rhs_weap_m4a1
-{
-	scope = 2;
-	dlc = "raiderTactical";
-	baseWeapon = "rtg_m4a1";
-	Author = "Shrike";
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_m4a1";
-		form = "pip";
-		stock = "default";
-		camo = "black";
-	};
-};
-class rtg_m4a1_d : rhs_weap_m4a1_d
-{
-	scope = 2;
-	dlc = "raiderTactical";
-	baseWeapon = "rtg_m4a1_d";
-	Author = "Shrike";
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_m4a1";
-		form = "pip";
-		stock = "default";
-		camo = "desert";
-	};
-};
-class rtg_m4a1_wd : rhs_weap_m4a1_wd
-{
-	scope = 2;
-	dlc = "raiderTactical";
-	baseWeapon = "rtg_m4a1_wd";
-	Author = "Shrike";
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_m4a1";
-		form = "pip";
-		stock = "default";
-		camo = "woodland";
-	};
-};
-class rtg_m4a1_mstock : rhs_weap_m4a1_mstock
-{
-	scope = 2;
-	dlc = "raiderTactical";
-	baseWeapon = "rtg_m4a1_mstock";
-	Author = "Shrike";
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_m4a1";
-		form = "pip";
-		stock = "magpull";
-		camo = "black";
-	};
-};
-class rtg_m4a1_d_mstock : rhs_weap_m4a1_d_mstock
-{
-	scope = 2;
-	dlc = "raiderTactical";
-	baseWeapon = "rtg_m4a1_d_mstock";
-	Author = "Shrike";
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_m4a1";
-		form = "pip";
-		stock = "magpull";
-		camo = "desert";
-	};
-};
-class rtg_m4a1_wd_mstock : rhs_weap_m4a1_wd_mstock
-{
-	scope = 2;
-	dlc = "raiderTactical";
-	baseWeapon = "rtg_m4a1_wd_mstock";
-	Author = "Shrike";
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_m4a1";
-		form = "pip";
-		stock = "magpull";
-		camo = "woodland";
-	};
-};
-
 class rhs_weap_m16a4;
 class rhs_weap_m16a4_carryhandle;
 class rhs_weap_m16a4_imod;
@@ -2141,370 +549,6 @@ class rtg_qbz_lsw_hex_F : arifle_CTARS_hex_F
 	};
 };
 
-// AK-47
-class rhs_weap_ak103_npz;
-class rhs_weap_ak103_zenitco01_b33;
-class rhs_weap_ak104_npz;
-class rhs_weap_ak104_zenitco01_b33;
-class rhs_weap_ak105_npz;
-class rhs_weap_ak105_zenitco01_b33;
-class rhs_weap_ak74m_npz;
-class rhs_weap_ak74m_camo_npz;
-class rhs_weap_ak74m_desert_npz;
-class rhs_weap_ak74m_fullplum_npz;
-class rhs_weap_ak74m_zenitco01_b33;
-class rhs_weap_ak74mr;
-class rhs_weap_ak74n_npz;
-class rhs_weap_ak74n_2_npz;
-class rhs_weap_akmn_npz;
-class rhs_weap_akmn_zenitco01_b33;
-class rhs_weap_aks74n_npz;
-class rhs_weap_aks74n_2_npz;
-class arifle_AK12_F;
-class arifle_AK12_arid_F;
-class arifle_AK12_lush_F;
-class arifle_AK12U_F;
-class arifle_AK12U_arid_F;
-class arifle_AK12U_lush_F;
-class rtg_weap_ak103_npz : rhs_weap_ak103_npz
-{
-	scope = 2;
-	dlc = "raiderTactical";
-	baseWeapon = "rtg_weap_ak103_npz";
-	Author = "Shrike";
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_ak47";
-		form = "ak103";
-		barrel = "default";
-		stock = "b13";
-		camo = "standard";
-	};
-};
-class rtg_weap_ak103_zenitco01_b33 : rhs_weap_ak103_zenitco01_b33
-{
-	scope = 2;
-	dlc = "raiderTactical";
-	baseWeapon = "rtg_weap_ak103_zenitco01_b33";
-	Author = "Shrike";
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_ak47";
-		form = "ak103";
-		barrel = "default";
-		stock = "b33";
-		camo = "standard";
-	};
-} class rtg_weap_ak104_npz : rhs_weap_ak104_npz
-{
-	scope = 2;
-	dlc = "raiderTactical";
-	baseWeapon = "rtg_weap_ak104_npz";
-	Author = "Shrike";
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_ak47";
-		form = "ak104";
-		barrel = "short";
-		stock = "b13";
-		camo = "standard";
-	};
-} class rtg_weap_ak104_zenitco01_b33 : rhs_weap_ak104_zenitco01_b33
-{
-	scope = 2;
-	dlc = "raiderTactical";
-	baseWeapon = "rtg_weap_ak104_zenitco01_b33";
-	Author = "Shrike";
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_ak47";
-		form = "ak104";
-		barrel = "short";
-		stock = "b33";
-		camo = "standard";
-	};
-} class rtg_weap_ak105_npz : rhs_weap_ak105_npz
-{
-	scope = 2;
-	dlc = "raiderTactical";
-	baseWeapon = "rtg_weap_ak105_npz";
-	Author = "Shrike";
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_ak47";
-		form = "ak105";
-		barrel = "short";
-		stock = "b13";
-		camo = "standard";
-	};
-} class rtg_weap_ak105_zenitco01_b33 : rhs_weap_ak105_zenitco01_b33
-{
-	scope = 2;
-	dlc = "raiderTactical";
-	baseWeapon = "rtg_weap_ak105_zenitco01_b33";
-	Author = "Shrike";
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_ak47";
-		form = "ak105";
-		barrel = "short";
-		stock = "b33";
-		camo = "standard";
-	};
-} class rtg_weap_ak74m_npz : rhs_weap_ak74m_npz
-{
-	scope = 2;
-	dlc = "raiderTactical";
-	baseWeapon = "rtg_weap_ak74m_npz";
-	Author = "Shrike";
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_ak47";
-		form = "ak74m";
-		barrel = "default";
-		stock = "b13";
-		camo = "standard";
-	};
-} class rtg_weap_ak74m_camo_npz : rhs_weap_ak74m_camo_npz
-{
-	scope = 2;
-	dlc = "raiderTactical";
-	baseWeapon = "rtg_weap_ak74m_camo_npz";
-	Author = "Shrike";
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_ak47";
-		form = "ak74m";
-		barrel = "default";
-		stock = "b13";
-		camo = "camo";
-	};
-} class rtg_weap_ak74m_desert_npz : rhs_weap_ak74m_desert_npz
-{
-	scope = 2;
-	dlc = "raiderTactical";
-	baseWeapon = "rtg_weap_ak74m_desert_npz";
-	Author = "Shrike";
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_ak47";
-		form = "ak74m";
-		barrel = "default";
-		stock = "b13";
-		camo = "desert";
-	};
-} class rtg_weap_ak74m_fullplum_npz : rhs_weap_ak74m_fullplum_npz
-{
-	scope = 2;
-	dlc = "raiderTactical";
-	baseWeapon = "rtg_weap_ak74m_fullplum_npz";
-	Author = "Shrike";
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_ak47";
-		form = "ak74m";
-		barrel = "default";
-		stock = "b13";
-		camo = "plum";
-	};
-} class rtg_weap_ak74m_zenitco01_b33 : rhs_weap_ak74m_zenitco01_b33
-{
-	scope = 2;
-	dlc = "raiderTactical";
-	baseWeapon = "rtg_weap_ak74m_zenitco01_b33";
-	Author = "Shrike";
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_ak47";
-		form = "ak74m";
-		barrel = "default";
-		stock = "b33";
-		camo = "standard";
-	};
-} class rtg_weap_ak74mmr : rhs_weap_ak74mr
-{
-	scope = 2;
-	dlc = "raiderTactical";
-	baseWeapon = "rtg_weap_ak74mmr";
-	Author = "Shrike";
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_ak47";
-		form = "ak74m";
-		barrel = "default";
-		stock = "mmr";
-		camo = "standard";
-	};
-} class rtg_weap_ak74n_npz : rhs_weap_ak74n_npz
-{
-	scope = 2;
-	dlc = "raiderTactical";
-	baseWeapon = "rtg_weap_ak74n_npz";
-	Author = "Shrike";
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_ak47";
-		form = "ak74n";
-		barrel = "default";
-		stock = "b13";
-		camo = "standard";
-	};
-} class rtg_weap_ak74n_2_npz : rhs_weap_ak74n_2_npz
-{
-	scope = 2;
-	dlc = "raiderTactical";
-	baseWeapon = "rtg_weap_ak74n_2_npz";
-	Author = "Shrike";
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_ak47";
-		form = "ak74n";
-		barrel = "default";
-		stock = "b13";
-		camo = "plum";
-	};
-} class rtg_weap_akmn_npz : rhs_weap_akmn_npz
-{
-	scope = 2;
-	dlc = "raiderTactical";
-	baseWeapon = "rtg_weap_akmn_npz";
-	Author = "Shrike";
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_ak47";
-		form = "akmn";
-		barrel = "default";
-		stock = "b13";
-		camo = "standard";
-	};
-} class rtg_weap_akmn_zenitco01_b33 : rhs_weap_akmn_zenitco01_b33
-{
-	scope = 2;
-	dlc = "raiderTactical";
-	baseWeapon = "rtg_weap_akmn_zenitco01_b33";
-	Author = "Shrike";
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_ak47";
-		form = "akmn";
-		barrel = "default";
-		stock = "b33";
-		camo = "standard";
-	};
-} class rtg_weap_aks74n_npz : rhs_weap_aks74n_npz
-{
-	scope = 2;
-	dlc = "raiderTactical";
-	baseWeapon = "rtg_weap_aks74n_npz";
-	Author = "Shrike";
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_ak47";
-		form = "aks74n";
-		barrel = "default";
-		stock = "b13";
-		camo = "standard";
-	};
-} class rtg_weap_aks74n_2_npz : rhs_weap_aks74n_2_npz
-{
-	scope = 2;
-	dlc = "raiderTactical";
-	baseWeapon = "rtg_weap_aks74n_2_npz";
-	Author = "Shrike";
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_ak47";
-		form = "aks74n";
-		barrel = "default";
-		stock = "b13";
-		camo = "plum";
-	};
-} class rtg_arifle_AK12_F : arifle_AK12_F
-{
-	scope = 2;
-	dlc = "raiderTactical";
-	baseWeapon = "rtg_arifle_AK12_F";
-	Author = "Shrike";
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_ak47";
-		form = "ak15";
-		barrel = "default";
-		stock = "b13";
-		camo = "standard";
-	};
-} class rtg_arifle_AK12_arid_F : arifle_AK12_arid_F
-{
-	scope = 2;
-	dlc = "raiderTactical";
-	baseWeapon = "rtg_arifle_AK12_arid_F";
-	Author = "Shrike";
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_ak47";
-		form = "ak15";
-		barrel = "default";
-		stock = "b13";
-		camo = "desert";
-	};
-} class rtg_arifle_AK12_lush_F : arifle_AK12_lush_F
-{
-	scope = 2;
-	dlc = "raiderTactical";
-	baseWeapon = "rtg_arifle_AK12_lush_F";
-	Author = "Shrike";
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_ak47";
-		form = "ak15";
-		barrel = "default";
-		stock = "b13";
-		camo = "camo";
-	};
-} class rtg_arifle_AK12U_F : arifle_AK12U_F
-{
-	scope = 2;
-	dlc = "raiderTactical";
-	baseWeapon = "rtg_arifle_AK12U_F";
-	Author = "Shrike";
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_ak47";
-		form = "ak15";
-		barrel = "short";
-		stock = "b13";
-		camo = "standard";
-	};
-} class rtg_arifle_AK12U_arid_F : arifle_AK12U_arid_F
-{
-	scope = 2;
-	dlc = "raiderTactical";
-	baseWeapon = "rtg_arifle_AK12U_arid_F";
-	Author = "Shrike";
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_ak47";
-		form = "ak15";
-		barrel = "short";
-		stock = "b13";
-		camo = "desert";
-	};
-} class rtg_arifle_AK12U_lush_F : arifle_AK12U_lush_F
-{
-	scope = 2;
-	dlc = "raiderTactical";
-	baseWeapon = "rtg_arifle_AK12U_lush_F";
-	Author = "Shrike";
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_ak47";
-		form = "ak15";
-		barrel = "short";
-		stock = "b13";
-		camo = "camo";
-	};
-}
-
 // SMGs
 class SMG_01_F;
 class rtg_vector_9mm : SMG_01_F
@@ -2525,7 +569,7 @@ class rtg_vector_50ae : SMG_01_F
 	baseWeapon = "rtg_vector_50ae";
 	Author = "Shrike";
 	displayName = "Vector .50 SMG";
-	recoil = "rhs_recoil_mp7_folded";
+	recoil = "recoil_mk200";
 	magazineWell[] = {"rtg_50_ae_20rnd_mag"};
 	magazines[] = {"rtg_50_ae_20rnd_mag"};
 };
@@ -3119,68 +1163,17 @@ class rtg_mp5sd6_tac : rtg_mp4a2_tac
 	};
 };
 
-class rtg_hk416_blk_9 : arifle_SPAR_01_blk_F
+class rhs_weap_m3a1_specops;
+class rtg_greese_gun : rhs_weap_m3a1_specops 
 {
 	scope = 2;
 	dlc = "raiderTactical";
-	baseWeapon = "rtg_hk416_blk_9";
+	baseWeapon = "rtg_greese_gun";
 	Author = "Shrike";
-	displayName = "HK-416 9mm Black Carbine";
+	displayName = "M3A1 SD Specops";
 	magazineWell[] = {"RTG_9x19"};
 	magazines[] = {"rtg_9mm_35Rnd_mag"};
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_hk416";
-		barrel = "short";
-		calibre = "N9";
-		camo = "black";
-	};
-};
-class rtg_hk416_khk_9 : arifle_SPAR_01_khk_F
-{
-	scope = 2;
-	dlc = "raiderTactical";
-	baseWeapon = "rth_hk416_khk_9";
-	Author = "Shrike";
-	displayName = "HK-416 9mm Khaki Carbine";
-	magazineWell[] = {"RTG_9x19"};
-	magazines[] = {"rtg_9mm_35Rnd_mag"};
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_hk416";
-		barrel = "short";
-		calibre = "N9";
-		camo = "khaki";
-	};
-};
-class rtg_hk416_snd_9 : arifle_SPAR_01_snd_F
-{
-	scope = 2;
-	dlc = "raiderTactical";
-	baseWeapon = "rth_hk416_snd_9";
-	Author = "Shrike";
-	displayName = "HK-416 9mm Sand Carbine";
-	magazineWell[] = {"RTG_9x19"};
-	magazines[] = {"rtg_9mm_35Rnd_mag"};
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_hk416";
-		barrel = "short";
-		calibre = "N9";
-		camo = "sand";
-	};
-};
-
-class SMG_02_F;
-class rtg_smg_02 : SMG_02_F
-{
-	scope = 2;
-	dlc = "raiderTactical";
-	baseWeapon = "rtg_smg_02";
-	Author = "Shrike";
-	displayName = "CZ EVO 9mm SMG";
-	magazineWell[] = {"RTG_9x19"};
-	magazines[] = {"rtg_9mm_35Rnd_mag"};
+	recoil = "recoil_ktb";
 };
 
 class rhsusf_weap_MP7A2;
@@ -3236,370 +1229,16 @@ class rtg_weap_mp7a2_winter : rhsusf_weap_MP7A2_winter
 	};
 };
 
-// .300 Blk Carbines
-class rtg_hk416_blk_300_s : arifle_SPAR_01_blk_F
+class SMG_02_F;
+class rtg_smg_02 : SMG_02_F
 {
 	scope = 2;
 	dlc = "raiderTactical";
-	baseWeapon = "rtg_hk416_blk_300_s";
+	baseWeapon = "rtg_smg_02";
 	Author = "Shrike";
-	displayName = "HK-416 .300 BLK Black Short";
-	magazineWell[] = {"CBA_300BLK_STANAG"};
-	magazines[] = {"rtg_30rnd_300_blk"};
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_hk416";
-		barrel = "short";
-		calibre = "N300";
-		camo = "black";
-	};
-	class Single : Single
-	{
-		sounds[] = {"StandardSound", "SilencedSound"};
-		class BaseSoundModeType
-		{
-			weaponSoundEffect = "DefaultRifle";
-
-			closure1[] = {"\hlc_wp_aug\snd\f88a1_first", 1, 1, 10};
-			closure2[] = {"\hlc_wp_aug\snd\f88a1_first", 1, 1, 10};
-			soundClosure[] = {closure1, 0.5, closure2, 0.5};
-		};
-		class StandardSound : BaseSoundModeType
-		{
-			soundSetShot[] = {"aug_Shot_SoundSet", "aug_Tail_SoundSet"};
-		};
-		class SilencedSound : BaseSoundModeType
-		{
-			soundSetShot[] = {"aug_silencerShot_SoundSet", "aug_silencerTail_SoundSet"};
-		};
-	};
-	class FullAuto : FullAuto
-	{
-		sounds[] = {"StandardSound", "SilencedSound"};
-		class BaseSoundModeType
-		{
-			weaponSoundEffect = "DefaultRifle";
-
-			closure1[] = {"\hlc_wp_aug\snd\f88a1_first", 1, 1, 10};
-			closure2[] = {"\hlc_wp_aug\snd\f88a1_first", 1, 1, 10};
-			soundClosure[] = {closure1, 0.5, closure2, 0.5};
-		};
-		class StandardSound : BaseSoundModeType
-		{
-			soundSetShot[] = {"aug_Shot_SoundSet", "aug_Tail_SoundSet"};
-		};
-		class SilencedSound : BaseSoundModeType
-		{
-			soundSetShot[] = {"aug_silencerShot_SoundSet", "aug_silencerTail_SoundSet"};
-		};
-	};
-};
-class rtg_hk416_khk_300_s : arifle_SPAR_01_khk_F
-{
-	scope = 2;
-	dlc = "raiderTactical";
-	baseWeapon = "rtg_hk416_khk_300_s";
-	Author = "Shrike";
-	displayName = "HK-416 .300 BLK Khaki Short";
-	magazineWell[] = {"CBA_300BLK_STANAG"};
-	magazines[] = {"rtg_30rnd_300_blk"};
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_hk416";
-		barrel = "short";
-		calibre = "N300";
-		camo = "khaki";
-	};
-	class Single : Single
-	{
-		sounds[] = {"StandardSound", "SilencedSound"};
-		class BaseSoundModeType
-		{
-			weaponSoundEffect = "DefaultRifle";
-
-			closure1[] = {"\hlc_wp_aug\snd\f88a1_first", 1, 1, 10};
-			closure2[] = {"\hlc_wp_aug\snd\f88a1_first", 1, 1, 10};
-			soundClosure[] = {closure1, 0.5, closure2, 0.5};
-		};
-		class StandardSound : BaseSoundModeType
-		{
-			soundSetShot[] = {"aug_Shot_SoundSet", "aug_Tail_SoundSet"};
-		};
-		class SilencedSound : BaseSoundModeType
-		{
-			soundSetShot[] = {"aug_silencerShot_SoundSet", "aug_silencerTail_SoundSet"};
-		};
-	};
-	class FullAuto : FullAuto
-	{
-		sounds[] = {"StandardSound", "SilencedSound"};
-		class BaseSoundModeType
-		{
-			weaponSoundEffect = "DefaultRifle";
-
-			closure1[] = {"\hlc_wp_aug\snd\f88a1_first", 1, 1, 10};
-			closure2[] = {"\hlc_wp_aug\snd\f88a1_first", 1, 1, 10};
-			soundClosure[] = {closure1, 0.5, closure2, 0.5};
-		};
-		class StandardSound : BaseSoundModeType
-		{
-			soundSetShot[] = {"aug_Shot_SoundSet", "aug_Tail_SoundSet"};
-		};
-		class SilencedSound : BaseSoundModeType
-		{
-			soundSetShot[] = {"aug_silencerShot_SoundSet", "aug_silencerTail_SoundSet"};
-		};
-	};
-};
-class rtg_hk416_snd_300_s : arifle_SPAR_01_snd_F
-{
-	scope = 2;
-	dlc = "raiderTactical";
-	baseWeapon = "rtg_hk416_snd_300_s";
-	Author = "Shrike";
-	displayName = "HK-416 .300 BLK Sand Short";
-	magazineWell[] = {"CBA_300BLK_STANAG"};
-	magazines[] = {"rtg_30rnd_300_blk"};
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_hk416";
-		barrel = "short";
-		calibre = "N300";
-		camo = "sand";
-	};
-	class Single : Single
-	{
-		sounds[] = {"StandardSound", "SilencedSound"};
-		class BaseSoundModeType
-		{
-			weaponSoundEffect = "DefaultRifle";
-
-			closure1[] = {"\hlc_wp_aug\snd\f88a1_first", 1, 1, 10};
-			closure2[] = {"\hlc_wp_aug\snd\f88a1_first", 1, 1, 10};
-			soundClosure[] = {closure1, 0.5, closure2, 0.5};
-		};
-		class StandardSound : BaseSoundModeType
-		{
-			soundSetShot[] = {"aug_Shot_SoundSet", "aug_Tail_SoundSet"};
-		};
-		class SilencedSound : BaseSoundModeType
-		{
-			soundSetShot[] = {"aug_silencerShot_SoundSet", "aug_silencerTail_SoundSet"};
-		};
-	};
-	class FullAuto : FullAuto
-	{
-		sounds[] = {"StandardSound", "SilencedSound"};
-		class BaseSoundModeType
-		{
-			weaponSoundEffect = "DefaultRifle";
-
-			closure1[] = {"\hlc_wp_aug\snd\f88a1_first", 1, 1, 10};
-			closure2[] = {"\hlc_wp_aug\snd\f88a1_first", 1, 1, 10};
-			soundClosure[] = {closure1, 0.5, closure2, 0.5};
-		};
-		class StandardSound : BaseSoundModeType
-		{
-			soundSetShot[] = {"aug_Shot_SoundSet", "aug_Tail_SoundSet"};
-		};
-		class SilencedSound : BaseSoundModeType
-		{
-			soundSetShot[] = {"aug_silencerShot_SoundSet", "aug_silencerTail_SoundSet"};
-		};
-	};
-};
-class rtg_hk416_blk_300 : arifle_SPAR_02_blk_F
-{
-	scope = 2;
-	dlc = "raiderTactical";
-	baseWeapon = "rtg_hk416_blk_300";
-	Author = "Shrike";
-	displayName = "HK-416 .300 BLK Black Carbine";
-	magazineWell[] = {"CBA_300BLK_STANAG"};
-	magazines[] = {"rtg_30rnd_300_blk"};
-	bg_bipod = 1;
-	class Single : Single
-	{
-		sounds[] = {"StandardSound", "SilencedSound"};
-		class BaseSoundModeType
-		{
-			weaponSoundEffect = "DefaultRifle";
-
-			closure1[] = {"\hlc_wp_aug\snd\f88a1_first", 1, 1, 10};
-			closure2[] = {"\hlc_wp_aug\snd\f88a1_first", 1, 1, 10};
-			soundClosure[] = {closure1, 0.5, closure2, 0.5};
-		};
-		class StandardSound : BaseSoundModeType
-		{
-			soundSetShot[] = {"aug_Shot_SoundSet", "aug_Tail_SoundSet"};
-		};
-		class SilencedSound : BaseSoundModeType
-		{
-			soundSetShot[] = {"aug_silencerShot_SoundSet", "aug_silencerTail_SoundSet"};
-		};
-	};
-	class FullAuto : FullAuto
-	{
-		sounds[] = {"StandardSound", "SilencedSound"};
-		class BaseSoundModeType
-		{
-			weaponSoundEffect = "DefaultRifle";
-
-			closure1[] = {"\hlc_wp_aug\snd\f88a1_first", 1, 1, 10};
-			closure2[] = {"\hlc_wp_aug\snd\f88a1_first", 1, 1, 10};
-			soundClosure[] = {closure1, 0.5, closure2, 0.5};
-		};
-		class StandardSound : BaseSoundModeType
-		{
-			soundSetShot[] = {"aug_Shot_SoundSet", "aug_Tail_SoundSet"};
-		};
-		class SilencedSound : BaseSoundModeType
-		{
-			soundSetShot[] = {"aug_silencerShot_SoundSet", "aug_silencerTail_SoundSet"};
-		};
-	};
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_hk416";
-		barrel = "long";
-		calibre = "N300";
-		camo = "black";
-	};
-};
-class rtg_hk416_blk_300_khk : arifle_SPAR_02_khk_F
-{
-	scope = 2;
-	dlc = "raiderTactical";
-	baseWeapon = "rtg_hk416_blk_300_khk";
-	Author = "Shrike";
-	displayName = "HK-416 .300 BLK Khaki Carbine";
-	magazineWell[] = {"CBA_300BLK_STANAG"};
-	magazines[] = {"rtg_30rnd_300_blk"};
-	bg_bipod = 1;
-	class Single : Single
-	{
-		sounds[] = {"StandardSound", "SilencedSound"};
-		class BaseSoundModeType
-		{
-			weaponSoundEffect = "DefaultRifle";
-
-			closure1[] = {"\hlc_wp_aug\snd\f88a1_first", 1, 1, 10};
-			closure2[] = {"\hlc_wp_aug\snd\f88a1_first", 1, 1, 10};
-			soundClosure[] = {closure1, 0.5, closure2, 0.5};
-		};
-		class StandardSound : BaseSoundModeType
-		{
-			soundSetShot[] = {"aug_Shot_SoundSet", "aug_Tail_SoundSet"};
-		};
-		class SilencedSound : BaseSoundModeType
-		{
-			soundSetShot[] = {"aug_silencerShot_SoundSet", "aug_silencerTail_SoundSet"};
-		};
-	};
-	class FullAuto : FullAuto
-	{
-		sounds[] = {"StandardSound", "SilencedSound"};
-		class BaseSoundModeType
-		{
-			weaponSoundEffect = "DefaultRifle";
-
-			closure1[] = {"\hlc_wp_aug\snd\f88a1_first", 1, 1, 10};
-			closure2[] = {"\hlc_wp_aug\snd\f88a1_first", 1, 1, 10};
-			soundClosure[] = {closure1, 0.5, closure2, 0.5};
-		};
-		class StandardSound : BaseSoundModeType
-		{
-			soundSetShot[] = {"aug_Shot_SoundSet", "aug_Tail_SoundSet"};
-		};
-		class SilencedSound : BaseSoundModeType
-		{
-			soundSetShot[] = {"aug_silencerShot_SoundSet", "aug_silencerTail_SoundSet"};
-		};
-	};
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_hk416";
-		barrel = "long";
-		calibre = "N300";
-		camo = "khaki";
-	};
-};
-class rtg_hk416_blk_300_snd : arifle_SPAR_02_snd_F
-{
-	scope = 2;
-	dlc = "raiderTactical";
-	baseWeapon = "rtg_hk416_blk_300_snd";
-	Author = "Shrike";
-	displayName = "HK-416 .300 BLK Sand Carbine";
-	magazineWell[] = {"CBA_300BLK_STANAG"};
-	magazines[] = {"rtg_30rnd_300_blk"};
-	bg_bipod = 1;
-	class Single : Single
-	{
-		sounds[] = {"StandardSound", "SilencedSound"};
-		class BaseSoundModeType
-		{
-			weaponSoundEffect = "DefaultRifle";
-
-			closure1[] = {"\hlc_wp_aug\snd\f88a1_first", 1, 1, 10};
-			closure2[] = {"\hlc_wp_aug\snd\f88a1_first", 1, 1, 10};
-			soundClosure[] = {closure1, 0.5, closure2, 0.5};
-		};
-		class StandardSound : BaseSoundModeType
-		{
-			soundSetShot[] = {"aug_Shot_SoundSet", "aug_Tail_SoundSet"};
-		};
-		class SilencedSound : BaseSoundModeType
-		{
-			soundSetShot[] = {"aug_silencerShot_SoundSet", "aug_silencerTail_SoundSet"};
-		};
-	};
-	class FullAuto : FullAuto
-	{
-		sounds[] = {"StandardSound", "SilencedSound"};
-		class BaseSoundModeType
-		{
-			weaponSoundEffect = "DefaultRifle";
-
-			closure1[] = {"\hlc_wp_aug\snd\f88a1_first", 1, 1, 10};
-			closure2[] = {"\hlc_wp_aug\snd\f88a1_first", 1, 1, 10};
-			soundClosure[] = {closure1, 0.5, closure2, 0.5};
-		};
-		class StandardSound : BaseSoundModeType
-		{
-			soundSetShot[] = {"aug_Shot_SoundSet", "aug_Tail_SoundSet"};
-		};
-		class SilencedSound : BaseSoundModeType
-		{
-			soundSetShot[] = {"aug_silencerShot_SoundSet", "aug_silencerTail_SoundSet"};
-		};
-	};
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_hk416";
-		barrel = "long";
-		calibre = "N300";
-		camo = "sand";
-	};
-};
-
-class hlc_rifle_aek971;
-class rtg_aek971 : hlc_rifle_aek971
-{
-	scope = 2;
-	dlc = "raiderTactical";
-	baseWeapon = "rtg_aek971";
-	Author = "Shrike";
-	displayName = "AEK-971";
-	modes[] = {"Single", "FullAuto"};
-	class FullAuto : FullAuto
-	{
-		reloadTime = 0.058;
-	};
-	class Single : Single
-	{
-		reloadTime = 0.08;
-	};
+	displayName = "CZ EVO 9mm SMG";
+	magazineWell[] = {"RTG_9x19"};
+	magazines[] = {"rtg_9mm_35Rnd_mag"};
 };
 
 // Battle Rifles
@@ -3807,33 +1446,8 @@ class rtg_G3A3_wide_RIS : arifle_SPAR_03_blk_f
 	};
 };
 
-class rhs_weap_SCARH_CQC;
-class rtg_dsa_fal_tac : rhs_weap_SCARH_CQC
-{
-	scope = 2;
-	dlc = "raiderTactical";
-	AB_barrelTwist = 12;
-	AB_barrelLength = 13;
-	ACE_barrelTwist = 304.8;
-	ACE_barrelLength = 280;
-	ace_railHeightAboveBore = 3.2;
-	Author = "Shrike";
-	baseWeapon = "rtg_dsa_fal_tac";
-	displayName = "FAL RIS";
-	magazineWell[] = {"CBA_762x51_M14"};
-	magazines[] = {"rtg_20Rnd_762x51"};
-	handAnim[] = {"OFP2_ManSkeleton", "\hlc_wp_fal\gesture\newgesture\gesture_OSW_STD.rtm"};
-	model = "\hlc_wp_FAL\mesh\sa58\osw.p3d";
-	picture = "\hlc_wp_FAL\tex\ui\gear_osw_x_ca";
-	hiddenSelections[] = {"Reciever", "Barrel", "Frontsight", "Foregrip", "Grip", "Rearsight", "Stock", "Magazine", "Rails", "VFG"};
-	hiddenSelectionsTextures[] = {"hlc_wp_fal\tex\israeli\rec_sanitary_co.paa", "hlc_wp_fal\tex\sa58\barrel-match_co.paa", "hlc_wp_fal\tex\fsight_co.paa", "hlc_wp_fal\tex\sa58\foregrip-dsa_co.paa", "hlc_wp_fal\tex\grip-enfield_co.paa", "hlc_wp_fal\tex\israeli\rearsight-slr_co.paa", "hlc_wp_fal\tex\sa58\foldingstock_co.paa", "hlc_wp_fal\tex\mag-20_co.paa", "hlc_wp_fal\tex\dsatoprails_co.paa", "hlc_wp_fal\tex\sa58\verticalgrip_co.paa"};
-	discretedistance[] = {200, 300, 400, 500, 600, 700};
-	discretedistanceinitindex = 0;
-	cameradir = "look";
-	discreteDistanceCameraPoint[] = {"eye2", "eye3", "eye4", "eye5", "eye6", "eye7"};
-};
-
 class srifle_EBR_F;
+class rhs_weap_m14ebrri;
 class rhs_weap_m14_ris_d;
 class rhs_weap_m14_ris_fiberglass;
 class rhs_weap_m14_ris_wd;
@@ -3849,6 +1463,20 @@ class rtg_m14_dmr : srifle_EBR_F
 	{
 		model = "rtg_ace_expanded_m14";
 		camo = "white";
+	};
+};
+class rtg_m14_dmr_blk : rhs_weap_m14ebrri
+{
+	scope = 2;
+	dlc = "raiderTactical";
+	baseWeapon = "rtg_m14_dmr_blk";
+	Author = "Shrike";
+	displayName = "M14 Mod 1 EBR Black";
+	modes[] = {"Single", "FullAuto"};
+	class XtdGearInfo
+	{
+		model = "rtg_ace_expanded_m14";
+		camo = "black";
 	};
 };
 class rtg_m14_dmr_d : rhs_weap_m14_ris_d
@@ -3889,6 +1517,31 @@ class rtg_m14_dmr_wd : rhs_weap_m14_ris_wd
 		model = "rtg_ace_expanded_m14";
 		camo = "woodland";
 	};
+};
+
+class rtg_dsa_fal_tac : rtg_m14_dmr
+{
+	scope = 2;
+	dlc = "raiderTactical";
+	AB_barrelTwist = 12;
+	AB_barrelLength = 13;
+	ACE_barrelTwist = 304.8;
+	ACE_barrelLength = 280;
+	ace_railHeightAboveBore = 3.2;
+	Author = "Shrike";
+	baseWeapon = "rtg_dsa_fal_tac";
+	displayName = "FAL RIS";
+	magazineWell[] = {"CBA_762x51_M14"};
+	magazines[] = {"rtg_20Rnd_762x51"};
+	handAnim[] = {"OFP2_ManSkeleton", "\hlc_wp_fal\gesture\newgesture\gesture_OSW_STD.rtm"};
+	model = "\hlc_wp_FAL\mesh\sa58\osw.p3d";
+	picture = "\hlc_wp_FAL\tex\ui\gear_osw_x_ca";
+	hiddenSelections[] = {"Reciever", "Barrel", "Frontsight", "Foregrip", "Grip", "Rearsight", "Stock", "Magazine", "Rails", "VFG"};
+	hiddenSelectionsTextures[] = {"hlc_wp_fal\tex\israeli\rec_sanitary_co.paa", "hlc_wp_fal\tex\sa58\barrel-match_co.paa", "hlc_wp_fal\tex\fsight_co.paa", "hlc_wp_fal\tex\sa58\foregrip-dsa_co.paa", "hlc_wp_fal\tex\grip-enfield_co.paa", "hlc_wp_fal\tex\israeli\rearsight-slr_co.paa", "hlc_wp_fal\tex\sa58\foldingstock_co.paa", "hlc_wp_fal\tex\mag-20_co.paa", "hlc_wp_fal\tex\dsatoprails_co.paa", "hlc_wp_fal\tex\sa58\verticalgrip_co.paa"};
+	discretedistance[] = {200, 300, 400, 500, 600, 700};
+	discretedistanceinitindex = 0;
+	cameradir = "look";
+	discreteDistanceCameraPoint[] = {"eye2", "eye3", "eye4", "eye5", "eye6", "eye7"};
 };
 
 // Machine Guns
@@ -4447,16 +2100,102 @@ class rtg_brrrt : rtg_m60e4
 	};
 };
 
-class UK3CB_Bren;
-class rtg_L4 : UK3CB_Bren {
+class GunParticles;
+class rtg_L4 : LMG_Mk200_black_F {
 	scope = 2;
 	dlc = "raiderTactical";
 	Author = "Shrike";
 	baseWeapon = "rtg_L4";
 	recoil = "rhs_recoil_mp7";
+	ACE_barrelTwist = 304.8;
+	ACE_barrelLength = 410.1;
+	deployedPivot = "deploypivot";
+	hasBipod = 1;
+	reloadAction = "HLC_GestureReload_L4A3";
+	handAnim[] = {"OFP2_ManSkeleton","NIA_wp_Bren\anim\Handgesture_L4A3.rtm"};
+	soundBipodDown[] = {"NIA_wp_Bren\snd\Bren_Bipod_down",1,1,5};
+	soundBipodUp[] = {"NIA_wp_Bren\snd\Bren_Bipod_up",1,1,5};
 	magazineWell[] = {"CBA_762x51_M14"};
 	magazines[] = {"rtg_20Rnd_762x51"};
 	displayName = "L4 'Bren' 7.62 Nato";
+	model = "NIA_wp_Bren\mesh\Bren\L4A3.p3d";
+	drysound[] = {"\hlc_core\sound\empty_machineguns",1,1,10};
+	reloadMagazineSound[] = {"NIA_wp_Bren\Snd\NIA_L4A3_Bren_reload.wav",0.85,1,15};
+	changeFiremodeSound[] = {"NIA_wp_Bren\snd\AMTswitch",1,1,5};
+	UiPicture = "\A3\weapons_f\data\UI\icon_regular_CA.paa";
+	maxZeroing = 2000;
+	discretedistance[] = {200,300,400,500,600,700,800,900,1000,1100,1200,1300,1400,1500,1600,1700,1800,1900,2000};
+	discreteDistanceCameraPoint[] = {"eye_200","eye_300","eye_400","eye_500","eye_600","eye_700","eye_800","eye_900","eye_1000","eye_1100","eye_1200","eye_1300","eye_1400","eye_1500","eye_1600","eye_1700","eye_1800","eye_1900","eye_2000"};
+	discretedistanceinitindex = 0;
+	cameraDir = "eye_look";
+	opticszoominit = 0.75;
+	opticszoommax = 1.1;
+	opticszoommin = 0.25;
+	inertia = 0.953;
+	picture = "\NIA_wp_Bren\tex\ui\gear_L4A3LMG_ca.paa";
+	modes[] = {"FullAuto","Single"};
+	class WeaponSlotsInfo: WeaponSlotsInfo
+	{
+		mass = 207.75398;
+		class UnderBarrelSlot{};
+		class CowsSlot{};
+		class PointerSlot{};
+		class MuzzleSlot{};
+	};
+	class GunParticles: GunParticles
+	{
+		class SecondEffect
+		{
+			positionName = "Nabojnicestart";
+			directionName = "Nabojniceend";
+			effectName = "CaselessAmmoCloud";
+		};
+	};
+	class Single: Single
+	{
+		sounds[] = {"StandardSound"};
+		class BaseSoundModeType
+		{
+			weaponSoundEffect = "DefaultRifle";
+		};
+		class StandardSound: BaseSoundModeType
+		{
+			soundSetShot[] = {"NIA_L4A3_Shot_SoundSet","NIA_L4A3_tail_SoundSet"};
+		};
+		reloadtime = "(60/500)";
+		dispersion = 0.00075634;
+		aiRateOfFire = 1;
+		aiRateOfFireDistance = 350;
+		aiRateOfFireDispersion = 2;
+		minRange = 20;
+		minRangeProbab = 0.7;
+		midRange = 150;
+		midRangeProbab = 0.5;
+		maxRange = 500;
+		maxRangeProbab = 0.1;
+	};
+	class FullAuto : manual
+	{
+		sounds[] = {"StandardSound"};
+		class BaseSoundModeType
+		{
+			weaponSoundEffect = "DefaultRifle";
+		};
+		class StandardSound: BaseSoundModeType
+		{
+			soundSetShot[] = {"NIA_L4A3_Shot_SoundSet","NIA_L4A3_tail_SoundSet"};
+		};
+		reloadtime = "(60/530)";
+		dispersion = 0.00090179;
+		aiRateOfFire = 0.1;
+		aiRateOfFireDistance = 50;
+		minRange = 0;
+		minRangeProbab = 0.9;
+		midRange = 1;
+		midRangeProbab = 0.8;
+		maxRange = 5;
+		maxRangeProbab = 0.1;
+	};
 };
 
 class rtg_mg3 : LMG_Zafir_F {
@@ -4656,10 +2395,33 @@ class rtg_MRAWS : rhs_weap_maaws {
 	baseWeapon = "rtg_MRAWS";
 	magazineWell[] = {"CBA_Carl_Gustaf"};
 	magazines[] = {"rtg_MRAWS_HEAT_F"};
+	modes[] = {"Single"};
+	drySound[] = {"A3\Sounds_F\arsenal\weapons\Launchers\RPG32\Dry_RPG32",0.4466836,1,20};
+	reloadMagazineSound[] = {"A3\Sounds_F\arsenal\weapons\Launchers\RPG32\reload_RPG32",0.25118864,1,10};
+	soundFly[] = {"A3\Sounds_F\arsenal\weapons\Launchers\RPG32\Fly_RPG32",0.31622776,1.5,900};
+	class Single: Single
+	{
+		sounds[] = {"StandardSound"};
+		class BaseSoundModeType{};
+		class StandardSound: BaseSoundModeType
+		{
+			begin1[] = {"A3\Sounds_F\arsenal\weapons\Launchers\RPG32\rpg32",1.9952624,1,1500};
+			soundBegin[] = {"begin1",1};
+		};
+		recoil = "recoil_single_law";
+		aiRateOfFire = 7.0;
+		aiRateOfFireDistance = 600;
+		dispersion = 0.07;
+		minRange = 50;
+		minRangeProbab = 0.3;
+		midRange = 400;
+		midRangeProbab = 0.8;
+		maxRange = 700;
+	};
 	class WeaponSlotsInfo: WeaponSlotsInfo
 	{
 		allowedslots[] = {901};
-		mass = 187,4;
+		mass = 145.5;
 		class CowsSlot {
 			access = 1;
 			compatibleitems[] = {"rtg_maaws_option"};
@@ -4820,3 +2582,23 @@ class rtg_nitro : sgun_HunterShotgun_01_F {
 	recoil = "700Nitro";
 	reloadTime = 0.1;
 };
+
+class GMG_20mm;
+class raider_transport_smoke : GMG_20mm {
+	scope = 1;
+	dlc = "raiderTactical";
+	baseWeapon = "raider_transport_smoke";
+	Author = "Shrike";
+	displayName = "Smoke Launcher";
+	magazineWell[] = {"smokeGrenade"};
+	magazines[] = {"rtg_greensmoke"};
+};
+
+#include "weaponClasses\acr.h"
+#include "weaponClasses\scar.h"
+#include "weaponClasses\akm.h"
+#include "weaponClasses\hk416.h"
+#include "weaponClasses\m4.h"
+#include "weaponClasses\aug.h"
+#include "weaponClasses\g36.h"
+#include "weaponClasses\grot.h"

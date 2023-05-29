@@ -1,43 +1,41 @@
 class CfgMagazines
 {
-    class rhsusf_mag_6Rnd_M583A1_white;
-    class rtg_flares : rhsusf_mag_6Rnd_M583A1_white {
-        initSpeed = 0;
-        count = 20;
-        author = "Shrike";
-        ammo = "rtg_flare_ammo";
-        scope = 1;
-        displayname = "[RTG] White Flares";
-    };
-
-    class rhsusf_mag_6Rnd_M715_green;
-    class rtg_smoke : rhsusf_mag_6Rnd_M715_green {
-        initSpeed = 0;
-        count = 20;
-        author = "Shrike";
-        ammo = "rtg_smoke_ammo";
-        scope = 1;
-        displayname = "[RTG] Green Smoke";
-    };
-
     class MRAWS_HEAT_F;
     class rtg_MRAWS_HEAT_F : MRAWS_HEAT_F {
-        initSpeed = 0;
-        count = 1;
         author = "Shrike";
         ammo = "rtg_heat_MRAAWS";
-        scope = 1;
+        scope = 2;
         displayname = "[RTG] MRAAWS HEAT";
+        displaynameshort = "84mm HEAT";
+        mass = 65;
     };
 
     class MRAWS_HE_F;
     class rtg_MRAWS_HE_F : MRAWS_HE_F {
-        initSpeed = 0;
-        count = 1;
         author = "Shrike";
         ammo = "rtg_hedp_MRAAWS";
-        scope = 1;
+        scope = 2;
         displayname = "[RTG] MRAAWS HEDP";
+        displaynameshort = "84mm HEDP";
+        mass = 45;
+    };
+
+    class rtg_MRAWS_SMK_F : rtg_MRAWS_HE_F {
+        author = "Shrike";
+        ammo = "rtg_smoke_MRAAWS";
+        scope = 2;
+        displayname = "[RTG] MRAAWS Smoke";
+        displaynameshort = "84mm Smoke";
+        mass = 25;
+    };
+
+    class rtg_MRAWS_HEATG_F : rtg_MRAWS_HEAT_F {
+        author = "Shrike";
+        ammo = "rtg_heatg_MRAAWS";
+        scope = 2;
+        displayname = "[RTG] MRAAWS Guided HEAT";
+        displaynameshort = "84mm Guided HEAT";
+        mass = 115;
     };
 
 	// References
@@ -50,9 +48,8 @@ class CfgMagazines
 	class rhs_mag_100Rnd_556x45_m855_cmag;
 	class rhsusf_200Rnd_556x45_M855_soft_pouch_ucp;
 	class ACWP_19Rnd_9x21_Mag_glock;
-    class hlc_30Rnd_762x51_B_fal;
+    class hlc_30Rnd_762x51_B_L4;
     class rhs_mag_20Rnd_556x45_M855_Stanag;
-    class 130Rnd_338_Mag;
 
 	// 7.62 Nato
     class rtg_20Rnd_762x51 : ACE_20Rnd_762x51_M118LR_Mag {
@@ -67,7 +64,7 @@ class CfgMagazines
         scope = 2;
     };
 
-    class rtg_35Rnd_762x51 : hlc_30Rnd_762x51_B_fal {
+    class rtg_35Rnd_762x51 : hlc_30Rnd_762x51_B_L4 {
         author = "Shrike";
         ammo = "rtg_762_nato";
         count = 35;
@@ -399,7 +396,7 @@ class CfgMagazines
     class rtg_nitroSlug : 2Rnd_12Gauge_Slug {
         author = "Shrike";
         ammo = "rtg_nitro";
-        count = 8;
+        count = 2;
         tracersevery = 1;
         lastroundstracer = 0;
         descriptionshort = "Raider Tactical 700 Nitro Express Ammo";

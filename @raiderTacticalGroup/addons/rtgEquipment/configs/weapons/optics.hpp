@@ -172,13 +172,16 @@ class rtg_night_sight: optic_tws
 
 class rhs_optic_maaws;
 class rtg_maaws_option : rhs_optic_maaws {
+    author = "Shrike";
+    scope = 2;
+    displayName = "MRAWS Optic";
     maxZeroing = 600;
-    modelOptics = "\a3\Weapons_F_Tank\acc\reticle_MRAWSNew.p3d";
     weaponInfoType = "RscOpticsRangeFinderMRAWS";
     opticsZoomMin = 0.1083;
     opticsZoomMax = 0.1083;
     opticsZoomInit = 0.1083;
     cameraDir = "look";
+    ballisticsComputer = true;
     class GunParticles
     {
         class effect1
@@ -188,23 +191,27 @@ class rtg_maaws_option : rhs_optic_maaws {
             effectName = "RocketBackEffectsRPGNT";
         };
     };
-    class OpticsModes
+    class ItemInfo: InventoryOpticsItem_Base_F
     {
-        class optic
+        modelOptics = "\a3\Weapons_F_Tank\acc\reticle_MRAWSNew.p3d";
+        class OpticsModes
         {
-            opticsID = 1;
-            useModelOptics = 1;
-            opticsZoomMin = 0.0875;
-            opticsZoomMax = 0.0875;
-            opticsZoomInit = 0.0875;
-            distanceZoomMin = 300;
-            distanceZoomMax = 300;
-            memoryPointCamera = "eye";
-            opticsFlare = 1;
-            opticsDisablePeripherialVision = 1;
-            cameraDir = "look";
-            visionMode[] = {"Normal","NVG"};
-            opticsPPEffects[] = {"OpticsCHAbera1","OpticsBlur1"};
+            class optic
+            {
+                opticsID = 1;
+                useModelOptics = 1;
+                opticsZoomMin = 0.25;
+				opticsZoomMax = 1.5;
+				opticsZoomInit = 0.75;
+                distanceZoomMin = 100;
+                distanceZoomMax = 600;
+                memoryPointCamera = "eye";
+                opticsFlare = 1;
+                opticsDisablePeripherialVision = 1;
+                cameraDir = "look";
+                visionMode[] = {"Normal","NVG"};
+                opticsPPEffects[] = {"OpticsCHAbera1","OpticsBlur1"};
+            };
         };
     };
 };

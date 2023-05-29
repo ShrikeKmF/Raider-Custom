@@ -19,14 +19,14 @@ class cfgFactionClasses {
         priority = 0;
         side = 1;
     };
-} 
+};
 
 class cfgEditorCategories {
-    class Raider_Tactical // Category class, you point to it in editorCategory property
+    class Raider_Tactical
     {
-        displayName = "Raider Tactical"; // Name visible in the list
+        displayName = "Raider Tactical";
     };
-} 
+};
 
 class cfgEditorSubcategories {
     class Bushmasters
@@ -38,7 +38,7 @@ class cfgEditorSubcategories {
     {
         displayName = "Helicopters";
     };
-} 
+};
 
 class CfgVehicles {
     class bma3_bushmaster_unarmed_F;
@@ -589,8 +589,8 @@ class CfgVehicles {
 		reportOwnPosition = 1;
 		laserScanner = 1;
         armor = 80;
-        weapons[] = {"CMFlareLauncher", "rhs_weap_m32"};
-		magazines[] = {"168Rnd_CMFlare_Chaff_Magazine", "rhsusf_mag_6Rnd_M715_green"};
+        weapons[] = {"CMFlareLauncher"};
+		magazines[] = {"168Rnd_CMFlare_Chaff_Magazine"};
         class Components: Components
 		{
             class SensorsManagerComponent
@@ -668,6 +668,53 @@ class CfgVehicles {
 					};
 				};
 			};
+        };
+
+        class textureSources
+        {
+            // This texture source will be available for every defined factions
+            class rtg_huey1
+            {
+                // Display name of the texture
+                displayName = "Huey 1";
+                // Author of the texture
+                author = "shrike";
+                // Paths to the texture files, in the same order as the hidden selections
+                textures[] = {"rtgVehicles\rtg_huey.paa"};
+                // This source should be available for the following factions
+                factions[] =
+                {
+                    "Raider_Tactical_F"
+                };
+            };
+            class rtg_huey2
+            {
+                // Display name of the texture
+                displayName = "Huey 2";
+                // Author of the texture
+                author = "shrike";
+                // Paths to the texture files, in the same order as the hidden selections
+                textures[] = {"rtgVehicles\rtg_huey_2.paa"};
+                // This source should be available for the following factions
+                factions[] =
+                {
+                    "Raider_Tactical_F"
+                };
+            };
+            class rtg_huey3
+            {
+                // Display name of the texture
+                displayName = "Huey 3";
+                // Author of the texture
+                author = "shrike";
+                // Paths to the texture files, in the same order as the hidden selections
+                textures[] = {"rtgVehicles\rtg_huey_3.paa"};
+                // This source should be available for the following factions
+                factions[] =
+                {
+                    "Raider_Tactical_F"
+                };
+            };
         };
 
         class TransportItems
@@ -807,8 +854,8 @@ class CfgVehicles {
 		reportOwnPosition = 1;
 		laserScanner = 1;
         armor = 80;
-        weapons[] = {"CMFlareLauncher", "rhs_weap_m32"};
-		magazines[] = {"168Rnd_CMFlare_Chaff_Magazine", "rhsusf_mag_6Rnd_M715_green"};
+        weapons[] = {"CMFlareLauncher"};
+		magazines[] = {"168Rnd_CMFlare_Chaff_Magazine"};
         class Components: Components
 		{
 			class TransportPylonsComponent
@@ -905,6 +952,53 @@ class CfgVehicles {
 					};
 				};
 			};
+        };
+        
+        class textureSources
+        {
+            // This texture source will be available for every defined factions
+            class rtg_huey1
+            {
+                // Display name of the texture
+                displayName = "Huey 1";
+                // Author of the texture
+                author = "shrike";
+                // Paths to the texture files, in the same order as the hidden selections
+                textures[] = {"rtgVehicles\rtg_huey.paa"};
+                // This source should be available for the following factions
+                factions[] =
+                {
+                    "Raider_Tactical_F"
+                };
+            };
+            class rtg_huey2
+            {
+                // Display name of the texture
+                displayName = "Huey 2";
+                // Author of the texture
+                author = "shrike";
+                // Paths to the texture files, in the same order as the hidden selections
+                textures[] = {"rtgVehicles\rtg_huey_2.paa"};
+                // This source should be available for the following factions
+                factions[] =
+                {
+                    "Raider_Tactical_F"
+                };
+            };
+            class rtg_huey3
+            {
+                // Display name of the texture
+                displayName = "Huey 3";
+                // Author of the texture
+                author = "shrike";
+                // Paths to the texture files, in the same order as the hidden selections
+                textures[] = {"rtgVehicles\rtg_huey_3.paa"};
+                // This source should be available for the following factions
+                factions[] =
+                {
+                    "Raider_Tactical_F"
+                };
+            };
         };
 
         class TransportItems

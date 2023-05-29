@@ -269,7 +269,7 @@ class rtg_ace_expanded_m14 {
     class camo
     {
         label = "Camo";
-        values[] = {"white","desert", "fiberglass", "woodland"};
+        values[] = {"white","desert", "fiberglass", "woodland", "black"};
         class white
         {
             label = "White";
@@ -290,6 +290,11 @@ class rtg_ace_expanded_m14 {
             label = "Woodland";
             description = "Woodland";
         };
+        class black
+        {
+            label = "Black";
+            description = "Black";
+        }
     };
 };
 
@@ -1101,6 +1106,137 @@ class rtg_ace_expanded_p90 {
         {
             label = "Hex";
             description = "Hex";
+        };
+        class khaki
+        {
+            label = "Khaki";
+            description = "Khaki";
+        };
+    };
+};
+
+class rtg_ace_expanded_acr {
+    label = "ACR";
+    author = "Shrike";
+    options[] = {"barrel", "calibre", "camo"};
+    class barrel
+    {
+        label = "Barrel";
+        values[] = {"compact", "carbine", "rifle", "long"};
+        class compact
+        {
+            label = "Compact";
+            description = "Compact";
+        };
+        class carbine
+        {
+            label = "Carbine";
+            description = "Carbine";
+        };
+        class rifle
+        {
+            label = "Rifle";
+            description = "Rifle";
+        };
+        class long
+        {
+            label = "Long";
+            description = "Long";
+        };
+    };
+    class calibre
+    {
+        label = "Calibre";
+        values[] = {"N556", "N300"};
+        class N556
+        {
+            label = "5.56";
+            description = "5.56 Nato";
+        };
+        class N300
+        {
+            label = ".300";
+            description = ".300 Blackout";
+        };
+    };
+    class camo
+    {
+        label = "Camo";
+        values[] = {"black", "sand", "khaki"};
+        class black
+        {
+            label = "Black";
+            description = "Black";
+        };
+        class sand
+        {
+            label = "Sand";
+            description = "Sand";
+        };
+        class khaki
+        {
+            label = "Khaki";
+            description = "Khaki";
+        };
+    };
+};
+class rtg_ace_expanded_acr_gl {
+    label = "ACR GL";
+    author = "Shrike";
+    options[] = {"barrel", "calibre", "camo"};
+    class barrel
+    {
+        label = "Barrel";
+        values[] = {"compact", "carbine", "rifle", "long"};
+        class compact
+        {
+            label = "Compact";
+            description = "Compact";
+        };
+        class carbine
+        {
+            label = "Carbine";
+            description = "Carbine";
+        };
+        class rifle
+        {
+            label = "Rifle";
+            description = "Rifle";
+        };
+        class long
+        {
+            label = "Long";
+            description = "Long";
+        };
+    };
+    class calibre
+    {
+        label = "Calibre";
+        values[] = {"N556", "N300"};
+        class N556
+        {
+            label = "5.56";
+            description = "5.56 Nato";
+        };
+        class N300
+        {
+            label = ".300";
+            description = ".300 Blackout";
+        };
+    };
+    class camo
+    {
+        label = "Camo";
+        values[] = {"black", "sand", "khaki"};
+        class black
+        {
+            label = "Black";
+            description = "Black";
+        };
+        class sand
+        {
+            label = "Sand";
+            description = "Sand";
         };
         class khaki
         {

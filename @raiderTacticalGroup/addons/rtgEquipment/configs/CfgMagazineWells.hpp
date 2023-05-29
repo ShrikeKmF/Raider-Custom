@@ -9,12 +9,22 @@ class CfgMagazineWells
 		};
     };
 
-	class CBA_Carl_Gustaf
+	class smokeGrenade  // Helicopter
+    {
+        RTG_Magazines[] =
+		{
+			"rtg_greensmoke";
+		};
+    }
+
+	class CBA_Carl_Gustaf // MRAWS
 	{
 		RTG_Magazines[] =
 		{
 			"rtg_MRAWS_HEAT_F";
 			"rtg_MRAWS_HE_F";
+			"rtg_MRAWS_SMK_F";
+			"rtg_MRAWS_HEATG_F";
 		};
 	};
 
