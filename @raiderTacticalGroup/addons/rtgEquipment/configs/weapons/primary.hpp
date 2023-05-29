@@ -2514,7 +2514,48 @@ class rhs_weap_MP44_base;
 class rhs_weap_MP44 : rhs_weap_MP44_base {
 	magazineWell[] = {"RTG_9x19"};
 	magazines[] = {"rtg_9mm_35Rnd_mag"};
-	modelMagazine="";
+	modelMagazine[] = {"\rhsgref\addons\rhsgref_weapons2\magazines\rhs_m3a1_mag.p3d"};
+	mode[] = {"Single", "FullAuto"};
+	class Single : Single
+	{
+		sounds[] = {"StandardSound", "SilencedSound"};
+		class BaseSoundModeType
+		{
+			weaponSoundEffect = "DefaultRifle";
+
+			closure1[] = {"\hlc_wp_aug\snd\f88a1_first", 1, 1, 10};
+			closure2[] = {"\hlc_wp_aug\snd\f88a1_first", 1, 1, 10};
+			soundClosure[] = {closure1, 0.5, closure2, 0.5};
+		};
+		class StandardSound : BaseSoundModeType
+		{
+			soundSetShot[] = {"aug_Shot_SoundSet", "aug_Tail_SoundSet"};
+		};
+		class SilencedSound : BaseSoundModeType
+		{
+			soundSetShot[] = {"aug_silencerShot_SoundSet", "aug_silencerTail_SoundSet"};
+		};
+	};
+	class FullAuto : FullAuto
+	{
+		sounds[] = {"StandardSound", "SilencedSound"};
+		class BaseSoundModeType
+		{
+			weaponSoundEffect = "DefaultRifle";
+
+			closure1[] = {"\hlc_wp_aug\snd\f88a1_first", 1, 1, 10};
+			closure2[] = {"\hlc_wp_aug\snd\f88a1_first", 1, 1, 10};
+			soundClosure[] = {closure1, 0.5, closure2, 0.5};
+		};
+		class StandardSound : BaseSoundModeType
+		{
+			soundSetShot[] = {"aug_Shot_SoundSet", "aug_Tail_SoundSet"};
+		};
+		class SilencedSound : BaseSoundModeType
+		{
+			soundSetShot[] = {"aug_silencerShot_SoundSet", "aug_silencerTail_SoundSet"};
+		};
+	};
 };
 
 class rtg_12g_m4a5 : ACWP_M4A5_145_troy_base_BLK {
