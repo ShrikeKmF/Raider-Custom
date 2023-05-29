@@ -5,7 +5,7 @@ class CfgMagazines
         author = "Shrike";
         ammo = "rtg_heat_MRAAWS";
         scope = 2;
-        displayname = "[RTG] MRAAWS HEAT";
+        displayname = "[RTG] MAAWS HEAT";
         displaynameshort = "84mm HEAT";
         mass = 65;
     };
@@ -15,7 +15,7 @@ class CfgMagazines
         author = "Shrike";
         ammo = "rtg_hedp_MRAAWS";
         scope = 2;
-        displayname = "[RTG] MRAAWS HEDP";
+        displayname = "[RTG] MAAWS HEDP";
         displaynameshort = "84mm HEDP";
         mass = 45;
     };
@@ -24,7 +24,7 @@ class CfgMagazines
         author = "Shrike";
         ammo = "rtg_smoke_MRAAWS";
         scope = 2;
-        displayname = "[RTG] MRAAWS Smoke";
+        displayname = "[RTG] MAAWS Smoke";
         displaynameshort = "84mm Smoke";
         mass = 25;
     };
@@ -33,7 +33,7 @@ class CfgMagazines
         author = "Shrike";
         ammo = "rtg_heatg_MRAAWS";
         scope = 2;
-        displayname = "[RTG] MRAAWS Guided HEAT";
+        displayname = "[RTG] MAAWS Guided HEAT";
         displaynameshort = "84mm Guided HEAT";
         mass = 115;
     };

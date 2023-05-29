@@ -599,6 +599,21 @@ class hlc_rifle_ACR_GL_full_green : hlc_rifle_ACR_GL_full_black {
 	};
 };
 // Other ACR
-class hlc_rifle_ACR68_Squant : hlc_rifle_ACR68_SBR_tan {};
-class hlc_rifle_ACR_SBR_cliffhanger : hlc_rifle_ACR_SBR_tan {};
-class hlc_rifle_ACR_GL_SBR_cliffhanger : hlc_rifle_ACR_GL_SBR_black {};
+class hlc_rifle_ACR68_Squant : hlc_rifle_ACR68_SBR_tan {
+    class XtdGearInfo
+	{
+		model = "";
+	};
+};
+class hlc_rifle_ACR_SBR_cliffhanger : hlc_rifle_ACR_SBR_tan {
+    class XtdGearInfo
+	{
+		model = "";
+	};
+};
+class hlc_rifle_ACR_GL_SBR_cliffhanger : hlc_rifle_ACR_GL_SBR_black {
+    class XtdGearInfo
+	{
+		model = "";
+	};
+};

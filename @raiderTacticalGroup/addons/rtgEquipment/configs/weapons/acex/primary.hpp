@@ -1245,3 +1245,96 @@ class rtg_ace_expanded_acr_gl {
         };
     };
 };
+
+// FAL
+class rtg_ace_expanded_fal {
+    label = "FAL";
+    author = "Shrike";
+    options[] = {"form"};
+    class form
+    {
+        label = "Form";
+        values[] = {"full", "short", "ris", "slr", "chop"};
+        class full
+        {
+            label = "Full";
+            description = "Full";
+        };
+        class short
+        {
+            label = "Short";
+            description = "Short";
+        };
+        class ris
+        {
+            label = "SA-58 OSW";
+            description = "SA-58 OSW";
+        };
+        class slr
+        {
+            label = "SLR";
+            description = "SLR";
+        };
+        class chop
+        {
+            label = "Chopmod";
+            description = "Chopmod";
+        };
+    };
+};
+
+class rtg_ace_expanded_ar15 {
+    label = "AR 15";
+    author = "Shrike";
+    options[] = {"form"};
+    class form
+    {
+        label = "Form";
+        values[] = {"jack", "blackjack", "ru556", "ru5562", "cqbr", "bush", "honeybadger", "dissipator", "mk18"};
+        class jack
+        {
+            label = "Jack Carbine";
+            description = "Jack Carbine";
+        };
+        class blackjack
+        {
+            label = "Blackjack .300";
+            description = "Blackjack .300";
+        };
+        class ru556
+        {
+            label = "RU556";
+            description = "RU556";
+        };
+        class ru5562
+        {
+            label = "RU556-2";
+            description = "RU556-2";
+        };
+        class cqbr
+        {
+            label = "M4LE";
+            description = "M4LE";
+        };
+        class bush
+        {
+            label = ".300 Busmaster";
+            description = ".300 Bushmaster Carbine";
+        };
+        class honeybadger
+        {
+            label = "Honeybadger";
+            description = "Honeybadger";
+        };
+        class dissipator
+        {
+            label = ".300 Dissipator";
+            description = ".300 Dissipator Carbine";
+        };
+        class mk18
+        {
+            label = "Mk-18";
+            description = "Mk-18";
+        };
+    };
+};

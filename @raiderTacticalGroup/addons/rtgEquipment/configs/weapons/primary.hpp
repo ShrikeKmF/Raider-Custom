@@ -1519,29 +1519,89 @@ class rtg_m14_dmr_wd : rhs_weap_m14_ris_wd
 	};
 };
 
-class rtg_dsa_fal_tac : rtg_m14_dmr
-{
-	scope = 2;
-	dlc = "raiderTactical";
-	AB_barrelTwist = 12;
-	AB_barrelLength = 13;
-	ACE_barrelTwist = 304.8;
-	ACE_barrelLength = 280;
-	ace_railHeightAboveBore = 3.2;
-	Author = "Shrike";
-	baseWeapon = "rtg_dsa_fal_tac";
-	displayName = "FAL RIS";
+class hlc_fal_base;
+class hlc_rifle_FAL5061Rail : hlc_fal_base {
 	magazineWell[] = {"CBA_762x51_M14"};
 	magazines[] = {"rtg_20Rnd_762x51"};
-	handAnim[] = {"OFP2_ManSkeleton", "\hlc_wp_fal\gesture\newgesture\gesture_OSW_STD.rtm"};
-	model = "\hlc_wp_FAL\mesh\sa58\osw.p3d";
-	picture = "\hlc_wp_FAL\tex\ui\gear_osw_x_ca";
-	hiddenSelections[] = {"Reciever", "Barrel", "Frontsight", "Foregrip", "Grip", "Rearsight", "Stock", "Magazine", "Rails", "VFG"};
-	hiddenSelectionsTextures[] = {"hlc_wp_fal\tex\israeli\rec_sanitary_co.paa", "hlc_wp_fal\tex\sa58\barrel-match_co.paa", "hlc_wp_fal\tex\fsight_co.paa", "hlc_wp_fal\tex\sa58\foregrip-dsa_co.paa", "hlc_wp_fal\tex\grip-enfield_co.paa", "hlc_wp_fal\tex\israeli\rearsight-slr_co.paa", "hlc_wp_fal\tex\sa58\foldingstock_co.paa", "hlc_wp_fal\tex\mag-20_co.paa", "hlc_wp_fal\tex\dsatoprails_co.paa", "hlc_wp_fal\tex\sa58\verticalgrip_co.paa"};
-	discretedistance[] = {200, 300, 400, 500, 600, 700};
-	discretedistanceinitindex = 0;
-	cameradir = "look";
-	discreteDistanceCameraPoint[] = {"eye2", "eye3", "eye4", "eye5", "eye6", "eye7"};
+	scope = 2;
+	dlc = "raiderTactical";
+	Author = "Shrike";
+	class XtdGearInfo
+	{
+		model = "rtg_ace_expanded_fal";
+		form = "short";
+	};
+};
+class hlc_rifle_FAL5000Rail : hlc_rifle_FAL5061Rail {
+	magazineWell[] = {"CBA_762x51_M14"};
+	magazines[] = {"rtg_20Rnd_762x51"};
+	scope = 2;
+	dlc = "raiderTactical";
+	Author = "Shrike";
+	class XtdGearInfo
+	{
+		model = "rtg_ace_expanded_fal";
+		form = "full";
+	};
+};
+class hlc_rifle_falosw : hlc_fal_base {
+	magazineWell[] = {"CBA_762x51_M14"};
+	magazines[] = {"rtg_20Rnd_762x51"};
+	scope = 2;
+	dlc = "raiderTactical";
+	Author = "Shrike";
+	class XtdGearInfo
+	{
+		model = "rtg_ace_expanded_fal";
+		form = "ris";
+	};
+};
+class hlc_rifle_SLR : hlc_fal_base {
+	magazineWell[] = {"CBA_762x51_M14"};
+	magazines[] = {"rtg_20Rnd_762x51"};
+	scope = 2;
+	dlc = "raiderTactical";
+	Author = "Shrike";
+	class XtdGearInfo
+	{
+		model = "rtg_ace_expanded_fal";
+		form = "slr";
+	};
+};
+class hlc_rifle_FAL5061;
+class hlc_rifle_SLRchopmod : hlc_rifle_FAL5061 {
+	magazineWell[] = {"CBA_762x51_M14"};
+	magazines[] = {"rtg_20Rnd_762x51"};
+	scope = 2;
+	dlc = "raiderTactical";
+	Author = "Shrike";
+	class XtdGearInfo
+	{
+		model = "rtg_ace_expanded_fal";
+		form = "chop";
+	};
+};
+class hlc_rifle_osw_gl : hlc_rifle_falosw {
+	magazineWell[] = {"CBA_762x51_M14"};
+	magazines[] = {"rtg_20Rnd_762x51"};
+	scope = 2;
+	dlc = "raiderTactical";
+	Author = "Shrike";
+	class XtdGearInfo
+	{
+		model = "";
+	};
+};
+class hlc_rifle_c1a1 : hlc_rifle_SLR {
+	magazineWell[] = {"CBA_762x51_M14"};
+	magazines[] = {"rtg_20Rnd_762x51"};
+	scope = 2;
+	dlc = "raiderTactical";
+	Author = "Shrike";
+	class XtdGearInfo
+	{
+		model = "";
+	};
 };
 
 // Machine Guns
@@ -2370,7 +2430,7 @@ class rtg_MRAWS_olive : launch_MRAWS_olive_F
 	scope = 2;
 	dlc = "raiderTactical";
 	Author = "Shike";
-	displayName = "MRAWS Olive";
+	displayName = "M3E1 MAAWS (Olive)";
 	baseWeapon = "rtg_MRAWS_olive";
 	magazineWell[] = {"CBA_Carl_Gustaf"};
 	magazines[] = {"rtg_MRAWS_HEAT_F"};
@@ -2380,56 +2440,10 @@ class rtg_MRAWS_sand : launch_MRAWS_sand_F
 	scope = 2;
 	dlc = "raiderTactical";
 	Author = "Shike";
-	displayName = "MRAWS Sand";
+	displayName = "M3E1 MAAWS (Sand)";
 	baseWeapon = "rtg_MRAWS_sand";
 	magazineWell[] = {"CBA_Carl_Gustaf"};
 	magazines[] = {"rtg_MRAWS_HEAT_F"};
-};
-
-class rhs_weap_maaws;
-class rtg_MRAWS : rhs_weap_maaws {
-	scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shike";
-	displayName = "MRAWS";
-	baseWeapon = "rtg_MRAWS";
-	magazineWell[] = {"CBA_Carl_Gustaf"};
-	magazines[] = {"rtg_MRAWS_HEAT_F"};
-	modes[] = {"Single"};
-	drySound[] = {"A3\Sounds_F\arsenal\weapons\Launchers\RPG32\Dry_RPG32",0.4466836,1,20};
-	reloadMagazineSound[] = {"A3\Sounds_F\arsenal\weapons\Launchers\RPG32\reload_RPG32",0.25118864,1,10};
-	soundFly[] = {"A3\Sounds_F\arsenal\weapons\Launchers\RPG32\Fly_RPG32",0.31622776,1.5,900};
-	class Single: Single
-	{
-		sounds[] = {"StandardSound"};
-		class BaseSoundModeType{};
-		class StandardSound: BaseSoundModeType
-		{
-			begin1[] = {"A3\Sounds_F\arsenal\weapons\Launchers\RPG32\rpg32",1.9952624,1,1500};
-			soundBegin[] = {"begin1",1};
-		};
-		recoil = "recoil_single_law";
-		aiRateOfFire = 7.0;
-		aiRateOfFireDistance = 600;
-		dispersion = 0.07;
-		minRange = 50;
-		minRangeProbab = 0.3;
-		midRange = 400;
-		midRangeProbab = 0.8;
-		maxRange = 700;
-	};
-	class WeaponSlotsInfo: WeaponSlotsInfo
-	{
-		allowedslots[] = {901};
-		mass = 145.5;
-		class CowsSlot {
-			access = 1;
-			compatibleitems[] = {"rtg_maaws_option"};
-			displayname = "Optics Slot";
-			linkproxy = "\A3\data_f\proxies\weapon_slots\TOP";
-			scope = 2;
-		};
-	};
 };
 
 // shotguns
@@ -2494,6 +2508,13 @@ class rtg_rifle_samr2_12g : arifle_SPAR_01_blk_F
 		model = "rtg_ace_expanded_samr";
 		calibre = "N12";
 	};
+};
+
+class rhs_weap_MP44_base;
+class rhs_weap_MP44 : rhs_weap_MP44_base {
+	magazineWell[] = {"RTG_9x19"};
+	magazines[] = {"rtg_9mm_35Rnd_mag"};
+	modelMagazine="";
 };
 
 class rtg_12g_m4a5 : ACWP_M4A5_145_troy_base_BLK {
@@ -2599,6 +2620,7 @@ class raider_transport_smoke : GMG_20mm {
 #include "weaponClasses\akm.h"
 #include "weaponClasses\hk416.h"
 #include "weaponClasses\m4.h"
+#include "weaponClasses\ar15.h"
 #include "weaponClasses\aug.h"
 #include "weaponClasses\g36.h"
 #include "weaponClasses\grot.h"

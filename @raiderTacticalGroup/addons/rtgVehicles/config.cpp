@@ -670,7 +670,7 @@ class CfgVehicles {
 			};
         };
 
-        class textureSources
+        /*class textureSources
         {
             // This texture source will be available for every defined factions
             class rtg_huey1
@@ -715,7 +715,7 @@ class CfgVehicles {
                     "Raider_Tactical_F"
                 };
             };
-        };
+        };*/
 
         class TransportItems
         {

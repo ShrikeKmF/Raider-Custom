@@ -5,4 +5,8 @@ class XtdGearModels {
         #include "weapons\acex\equipment.hpp"
         #include "weapons\acex\vest.hpp"
     };
+    
+    class CfgVehicles {
+        #include "vehicles\acex\backpacks.hpp"
+    };
 };
