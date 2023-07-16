@@ -26,14 +26,6 @@ class arifle_SPAR_01_snd_F;
 class arifle_SPAR_02_blk_F;
 class arifle_SPAR_02_khk_F;
 class arifle_SPAR_02_snd_F;
-class rhs_weap_mk18;
-class rhs_weap_mk18_bk;
-class rhs_weap_mk18_KAC_bk;
-class rhs_weap_mk18_d;
-class rhs_weap_mk18_KAC_d;
-class rhs_weap_mk18_KAC;
-class rhs_weap_mk18_wd;
-class rhs_weap_mk18_KAC_wd;
 class UK3CB_FAMAS_F1;
 class rtg_famas_f1_ris : UK3CB_FAMAS_F1 {
 	scope = 2;
@@ -41,95 +33,8 @@ class rtg_famas_f1_ris : UK3CB_FAMAS_F1 {
 	Author = "Shrike";
     displayName="FAMAS 5.56 Nato";
 	baseWeapon = "rtg_famas_f1_ris";
-	magazineWell[] = {};
+	magazineWell[] = {"CBA_556x45_STANAG"};
 	magazines[] = {"rtg_30rnd_556_45"};
-};
-class rhs_weap_m4a1_carryhandle;
-class rhs_weap_m4a1_carryhandle_mstock;
-class rhs_weap_m4a1_blockII;
-class rhs_weap_m4a1_blockII_bk;
-class rhs_weap_m4a1_blockII_d;
-class rhs_weap_m4a1_blockII_wd;
-class rhs_weap_m4a1_blockII_KAC;
-class rhs_weap_m4a1_blockII_KAC_bk;
-class rhs_weap_m4a1_blockII_KAC_d;
-class rhs_weap_m4a1_blockII_KAC_wd;
-class rhs_weap_m4a1;
-class rhs_weap_m4a1_d;
-class rhs_weap_m4a1_wd;
-class rhs_weap_m4a1_mstock;
-class rhs_weap_m4a1_d_mstock;
-class rhs_weap_m4a1_wd_mstock;
-class rhs_weap_m16a4;
-class rhs_weap_m16a4_carryhandle;
-class rhs_weap_m16a4_imod;
-class rtg_weap_m16a4 : rhs_weap_m16a4
-{
-	scope = 2;
-	dlc = "raiderTactical";
-	baseWeapon = "rtg_weap_m16a4";
-	Author = "Shrike";
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_m16";
-		form = "flattop";
-	};
-};
-class rtg_weap_m16a4_50 : rhs_weap_m16a4
-{
-	scope = 2;
-	dlc = "raiderTactical";
-	baseWeapon = "rtg_weap_m16a4_50";
-	Author = "Shrike";
-	displayName = "M16A4-50 DMR";
-	magazineWell[] = {"rtg_50_bw_STANAG"};
-	magazines[] = {"rtg_10rnd_10bw"};
-	modes[] = {"Single"};
-	recoil = "rhs_recoil_mk18";
-	class Single : Single
-	{
-		sounds[] = {"StandardSound", "SilencedSound"};
-		class BaseSoundModeType
-		{
-			weaponSoundEffect = "DefaultRifle";
-
-			closure1[] = {"\hlc_wp_aug\snd\f88a1_first", 1, 1, 10};
-			closure2[] = {"\hlc_wp_aug\snd\f88a1_first", 1, 1, 10};
-			soundClosure[] = {closure1, 0.5, closure2, 0.5};
-		};
-		class StandardSound : BaseSoundModeType
-		{
-			soundSetShot[] = {"aug_Shot_SoundSet", "aug_Tail_SoundSet"};
-		};
-		class SilencedSound : BaseSoundModeType
-		{
-			soundSetShot[] = {"aug_silencerShot_SoundSet", "aug_silencerTail_SoundSet"};
-		};
-	};
-};
-class rtg_weap_m16a4_carryhandle : rhs_weap_m16a4_carryhandle
-{
-	scope = 2;
-	dlc = "raiderTactical";
-	baseWeapon = "rtg_weap_m16a4_carryhandle";
-	Author = "Shrike";
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_m16";
-		form = "carryhandle";
-	};
-};
-class rtg_weap_m16a4_imod : rhs_weap_m16a4_imod
-{
-	scope = 2;
-	dlc = "raiderTactical";
-	baseWeapon = "rtg_weap_m16a4_imod";
-	Author = "Shrike";
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_m16";
-		form = "imod";
-	};
 };
 
 class rtg_samr2 : arifle_SPAR_01_blk_F
@@ -426,129 +331,6 @@ class rtg_f2000C_camo : arifle_Mk20C_F {
 	};
 };
 
-// QBZ-95
-class arifle_CTAR_blk_F;
-class arifle_CTAR_ghex_F;
-class arifle_CTAR_hex_F;
-class rtg_qbz_blk_F : arifle_CTAR_blk_F
-{
-	scope = 2;
-	dlc = "raiderTactical";
-	baseWeapon = "rtg_qbz_blk_F";
-	Author = "Shrike";
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_qbz";
-		camo = "black";
-	};
-};
-class rtg_qbz_ghex_F : arifle_CTAR_ghex_F
-{
-	scope = 2;
-	dlc = "raiderTactical";
-	baseWeapon = "rtg_qbz_ghex_F";
-	Author = "Shrike";
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_qbz";
-		camo = "green";
-	};
-};
-class rtg_qbz_hex_F : arifle_CTAR_hex_F
-{
-	scope = 2;
-	dlc = "raiderTactical";
-	baseWeapon = "rtg_qbz_hex_F";
-	Author = "Shrike";
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_qbz";
-		camo = "hex";
-	};
-};
-
-// QBZ-95 GL
-class arifle_CTAR_GL_blk_F;
-class arifle_CTAR_GL_ghex_F;
-class arifle_CTAR_GL_hex_F;
-class rtg_qbz_GL_blk_F : arifle_CTAR_GL_blk_F
-{
-	scope = 2;
-	dlc = "raiderTactical";
-	baseWeapon = "rtg_qbz_GL_blk_F";
-	Author = "Shrike";
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_qbz_gl";
-		camo = "black";
-	};
-};
-class rtg_qbz_GL_ghex_F : arifle_CTAR_GL_ghex_F
-{
-	scope = 2;
-	dlc = "raiderTactical";
-	baseWeapon = "rtg_qbz_GL_ghex_F";
-	Author = "Shrike";
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_qbz_gl";
-		camo = "green";
-	};
-};
-class rtg_qbz_GL_hex_F : arifle_CTAR_GL_hex_F
-{
-	scope = 2;
-	dlc = "raiderTactical";
-	baseWeapon = "rtg_qbz_GL_hex_F";
-	Author = "Shrike";
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_qbz_gl";
-		camo = "hex";
-	};
-};
-
-// QBZ-95 LSW
-class arifle_CTARS_blk_F;
-class arifle_CTARS_ghex_F;
-class arifle_CTARS_hex_F;
-class rtg_qbz_lsw_blk_F : arifle_CTARS_blk_F
-{
-	scope = 2;
-	dlc = "raiderTactical";
-	baseWeapon = "rtg_qbz_lsw_blk_F";
-	Author = "Shrike";
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_qbz_lsw";
-		camo = "black";
-	};
-};
-class rtg_qbz_lsw_ghex_F : arifle_CTARS_ghex_F
-{
-	scope = 2;
-	dlc = "raiderTactical";
-	baseWeapon = "rtg_qbz_lsw_ghex_F";
-	Author = "Shrike";
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_qbz_lsw";
-		camo = "green";
-	};
-};
-class rtg_qbz_lsw_hex_F : arifle_CTARS_hex_F
-{
-	scope = 2;
-	dlc = "raiderTactical";
-	baseWeapon = "rtg_qbz_lsw_hex_F";
-	Author = "Shrike";
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_qbz_lsw";
-		camo = "hex";
-	};
-};
-
 // SMGs
 class SMG_01_F;
 class rtg_vector_9mm : SMG_01_F
@@ -562,6 +344,108 @@ class rtg_vector_9mm : SMG_01_F
 	magazines[] = {"rtg_9mm_35Rnd_mag"};
 };
 
+class KA_UMP9;
+class rtg_ump9 : KA_UMP9
+{
+	scope = 2;
+	dlc = "raiderTactical";
+	baseWeapon = "rtg_ump9";
+	Author = "Shrike";
+	displayName = "UMP9 SMG";
+	recoil = "recoil_mp5a2";
+	magazineWell[] = {"RTG_9x19"};
+	magazines[] = {"rtg_9mm_35Rnd_mag"};
+	modes[] = {"Single","FullAuto"};
+	class Single: Single
+	{
+		sounds[] = {"StandardSound","SilencedSound"};
+		class BaseSoundModeType
+		{
+			weaponSoundEffect = "DefaultRifle";
+		};
+		class StandardSound: BaseSoundModeType
+		{
+			soundSetShot[] = {"ACWP_416SBR_Shot_SoundSet","ACWP_416SBR_Tail_SoundSet"};
+		};
+		class SilencedSound: BaseSoundModeType
+		{
+			soundSetShot[] = {"ACWP_416SBR_silencerShot_SoundSet","ACWP_416SBR_silencerTail_SoundSet"};
+		};
+		weaponSoundEffect = "DefaultRifle";
+	};
+	class FullAuto: FullAuto
+	{
+		sounds[] = {"StandardSound","SilencedSound"};
+		class BaseSoundModeType
+		{
+			weaponSoundEffect = "DefaultRifle";
+		};
+		class StandardSound: BaseSoundModeType
+		{
+			soundSetShot[] = {"ACWP_416SBR_Shot_SoundSet","ACWP_416SBR_Tail_SoundSet"};
+		};
+		class SilencedSound: BaseSoundModeType
+		{
+			soundSetShot[] = {"ACWP_416SBR_silencerShot_SoundSet","ACWP_416SBR_silencerTail_SoundSet"};
+		};
+		weaponSoundEffect = "DefaultRifle";
+	};
+}
+
+class KA_UMP45;
+class rtg_ump50 : KA_UMP45
+{
+	scope = 2;
+	dlc = "raiderTactical";
+	baseWeapon = "rtg_ump50";
+	Author = "Shrike";
+	displayName = "UMP50 SMG";
+	recoil = "recoil_mk200";
+	magazineWell[] = {"rtg_50_ae_20rnd_mag"};
+	magazines[] = {"rtg_50_ae_20rnd_mag"};
+	mode[] = {"Single", "FullAuto"};
+	class Single : Single
+	{
+		sounds[] = {"StandardSound", "SilencedSound"};
+		class BaseSoundModeType
+		{
+			weaponSoundEffect = "DefaultRifle";
+
+			closure1[] = {"\hlc_wp_aug\snd\f88a1_first", 1, 1, 10};
+			closure2[] = {"\hlc_wp_aug\snd\f88a1_first", 1, 1, 10};
+			soundClosure[] = {closure1, 0.5, closure2, 0.5};
+		};
+		class StandardSound : BaseSoundModeType
+		{
+			soundSetShot[] = {"aug_Shot_SoundSet", "aug_Tail_SoundSet"};
+		};
+		class SilencedSound : BaseSoundModeType
+		{
+			soundSetShot[] = {"aug_silencerShot_SoundSet", "aug_silencerTail_SoundSet"};
+		};
+	};
+	class FullAuto : FullAuto
+	{
+		sounds[] = {"StandardSound", "SilencedSound"};
+		class BaseSoundModeType
+		{
+			weaponSoundEffect = "DefaultRifle";
+
+			closure1[] = {"\hlc_wp_aug\snd\f88a1_first", 1, 1, 10};
+			closure2[] = {"\hlc_wp_aug\snd\f88a1_first", 1, 1, 10};
+			soundClosure[] = {closure1, 0.5, closure2, 0.5};
+		};
+		class StandardSound : BaseSoundModeType
+		{
+			soundSetShot[] = {"aug_Shot_SoundSet", "aug_Tail_SoundSet"};
+		};
+		class SilencedSound : BaseSoundModeType
+		{
+			soundSetShot[] = {"aug_silencerShot_SoundSet", "aug_silencerTail_SoundSet"};
+		};
+	};
+}
+
 class rtg_vector_50ae : SMG_01_F
 {
 	scope = 2;
@@ -572,23 +456,46 @@ class rtg_vector_50ae : SMG_01_F
 	recoil = "recoil_mk200";
 	magazineWell[] = {"rtg_50_ae_20rnd_mag"};
 	magazines[] = {"rtg_50_ae_20rnd_mag"};
-};
-
-class SMG_05_F;
-class rtg_mp5k_9mm : SMG_05_F
-{
-	scope = 2;
-	dlc = "raiderTactical";
-	baseWeapon = "rtg_mp5k_9mm";
-	Author = "Shrike";
-	displayName = "MP5K 9mm SMG";
-	recoil = "recoil_mp5a2";
-	magazineWell[] = {"RTG_9x19"};
-	magazines[] = {"rtg_9mm_35Rnd_mag"};
-	class XtdGearInfo
+	mode[] = {"Single", "FullAuto"};
+	class Single : Single
 	{
-		model = "rtg_ace_expanded_mp5";
-		form = "short";
+		sounds[] = {"StandardSound", "SilencedSound"};
+		class BaseSoundModeType
+		{
+			weaponSoundEffect = "DefaultRifle";
+
+			closure1[] = {"\hlc_wp_aug\snd\f88a1_first", 1, 1, 10};
+			closure2[] = {"\hlc_wp_aug\snd\f88a1_first", 1, 1, 10};
+			soundClosure[] = {closure1, 0.5, closure2, 0.5};
+		};
+		class StandardSound : BaseSoundModeType
+		{
+			soundSetShot[] = {"aug_Shot_SoundSet", "aug_Tail_SoundSet"};
+		};
+		class SilencedSound : BaseSoundModeType
+		{
+			soundSetShot[] = {"aug_silencerShot_SoundSet", "aug_silencerTail_SoundSet"};
+		};
+	};
+	class FullAuto : FullAuto
+	{
+		sounds[] = {"StandardSound", "SilencedSound"};
+		class BaseSoundModeType
+		{
+			weaponSoundEffect = "DefaultRifle";
+
+			closure1[] = {"\hlc_wp_aug\snd\f88a1_first", 1, 1, 10};
+			closure2[] = {"\hlc_wp_aug\snd\f88a1_first", 1, 1, 10};
+			soundClosure[] = {closure1, 0.5, closure2, 0.5};
+		};
+		class StandardSound : BaseSoundModeType
+		{
+			soundSetShot[] = {"aug_Shot_SoundSet", "aug_Tail_SoundSet"};
+		};
+		class SilencedSound : BaseSoundModeType
+		{
+			soundSetShot[] = {"aug_silencerShot_SoundSet", "aug_silencerTail_SoundSet"};
+		};
 	};
 };
 
@@ -1072,94 +979,6 @@ class rtg_rifle_samr2_9mm : arifle_SPAR_01_blk_F
 	{
 		model = "rtg_ace_expanded_samr";
 		calibre = "N9";
-	};
-};
-
-class rtg_mp4a2_tac : arifle_SPAR_01_blk_F
-{
-	scope = 2;
-	dlc = "raiderTactical";
-	model = "\hlc_wp_Mp5\mesh\mp5a2\mp5_tac.p3d";
-	modelMagazine = "\hlc_wp_aug\mesh\magazine\magazine2.p3d";
-	baseWeapon = "rtg_mp4a2_tac";
-	recoil = "recoil_mp5a2";
-	reloadaction = "HLC_GestureReloadMP5";
-	picture = "\hlc_wp_MP5\tex\ui\gear_mp5a2_x_ca";
-	hiddenSelections[] = {"Reciever", "FCG", "Stock", "Foregrip", "Rail", "Magazine"};
-	hiddenSelectionsTextures[] = {"hlc_wp_mp5\tex\krycek_mp5\mp5_co.paa", "hlc_wp_mp5\tex\krycek_mp5\mp5ka1_co.paa", "hlc_wp_mp5\tex\krycek_mp5\mp5_parts2_co.paa", "hlc_wp_mp5\tex\krycek_mp5\mp5_co.paa", "hlc_wp_mp5\tex\krycek_mp5\mp5_rai_co.paa", "hlc_wp_mp5\tex\krycek_mp5\mp5_co.paa"};
-	AB_barrelTwist = 10;
-	AB_barrelLength = 9;
-	ACE_barrelTwist = 254.0;
-	ACE_barrelLength = 228.6;
-	discretedistance[] = {50, 100, 150, 200};
-	discretedistanceinitindex = 0;
-	bg_bipod = 0;
-	handanim[] = {"OFP2_ManSkeleton", "\hlc_wp_mp5\gesture\newgest\mp5_handgesture.rtm"};
-	Author = "Shrike";
-	displayName = "MP5A2 9mm SMG";
-	magazineWell[] = {"RTG_9x19"};
-	magazines[] = {"rtg_9mm_35Rnd_mag"};
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_mp5";
-		form = "long";
-	};
-};
-
-class rtg_mp5sd6_tac : rtg_mp4a2_tac
-{
-	scope = 2;
-	dlc = "raiderTactical";
-	modelMagazine = "\hlc_wp_aug\mesh\magazine\magazine2.p3d";
-	baseWeapon = "rtg_mp5sd6_tac";
-	recoil = "recoil_mp5a2";
-	model = "\hlc_wp_Mp5\mesh\mp5sd6\mp5.p3d";
-	reloadaction = "HLC_GestureReloadMP5";
-	handanim[] = {"OFP2_ManSkeleton", "\hlc_wp_mp5\gesture\newgest\gesture_mp5sd.rtm"};
-	picture = "\hlc_wp_MP5\tex\ui\gear_mp5sd6_x_ca";
-	hiddenSelections[] = {"Reciever", "FC", "Stock", "Rail"};
-	hiddenSelectionsTextures[] = {"hlc_wp_mp5\tex\krycek_mp5\mp5_co.paa", "hlc_wp_mp5\tex\krycek_mp5\mp5_co.paa", "hlc_wp_mp5\tex\krycek_mp5\mp5_co.paa", "hlc_wp_mp5\tex\krycek_mp5\mp5_rai_co.paa"};
-	AB_barrelTwist = 10;
-	AB_barrelLength = 9;
-	ACE_barrelTwist = 254.0;
-	ACE_barrelLength = 228.6;
-	discretedistance[] = {50, 100, 150, 200};
-	discretedistanceinitindex = 0;
-	bg_bipod = 0;
-	Author = "Shrike";
-	displayName = "MPSD6 9mm SMG";
-	magazineWell[] = {"RTG_9x19"};
-	magazines[] = {"rtg_9mm_35Rnd_mag"};
-	class WeaponSlotsInfo : WeaponSlotsInfo
-	{
-		mass = 67.579994;
-		class PointerSlot : PointerSlot_Rail
-		{
-		};
-		class MuzzleSlot
-		{
-		};
-	};
-	class FullAuto : FullAuto
-	{
-		sounds[] = {"StandardSound"};
-		class StandardSound : StandardSound
-		{
-			soundSetShot[] = {"mp5sd_silencerShot_SoundSet", "mp5sd_silencerTail_SoundSet"};
-		};
-	};
-	class Single : Single
-	{
-		sounds[] = {"StandardSound"};
-		class StandardSound : StandardSound
-		{
-			soundSetShot[] = {"mp5sd_silencerShot_SoundSet", "mp5sd_silencerTail_SoundSet"};
-		};
-	};
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_mp5";
-		form = "sd";
 	};
 };
 
@@ -1693,353 +1512,6 @@ class rtg_mk200_blk : LMG_Mk200_black_F
 	};
 };
 
-class rtg_249_pip_L : LMG_Mk200_black_F
-{
-	scope = 2;
-	dlc = "raiderTactical";
-	baseWeapon = "rtg_249_pip_L";
-	Author = "Shrike";
-	displayName = "M249 Long RIS";
-	model = "\hlc_wp_saw\mesh\minimi_para\minimi_para_longer_railed.p3d";
-	reloadaction = "HLC_GestureReloadM249";
-	picture = "\hlc_wp_saw\tex\ui\gear_minimipara_x_ca";
-	hiddenSelections[] = {"Reciever", "Assembly_cover", "Barrel", "Misc", "Foregrip", "Stock", "RearSight", "Magazine", "VFG"};
-	hiddenSelectionsTextures[] = {"hlc_wp_saw\tex\toadie_m249\reciever_minimi_co.paa", "hlc_wp_saw\tex\toadie_m249\assemblycover_co.paa", "hlc_wp_saw\tex\toadie_m249\barrel_co.paa", "hlc_wp_saw\tex\toadie_m249\misc_co.paa", "hlc_wp_saw\tex\toadie_m249\fore_co.paa", "hlc_wp_saw\tex\toadie_m249\stockmap_co.paa", "hlc_wp_saw\tex\toadie_m249\rearsight_co.paa", "hlc_wp_saw\tex\toadie_m249\pouch_auscam_co.paa", ""};
-	handanim[] = {"OFP2_ManSkeleton", "\hlc_wp_saw\anim\gesture\gesture_m249_STD.rtm"};
-	magazineWell[] = {"CBA_556x45_MINIMI"};
-	magazines[] = {"rtg_200rnd_556_45"};
-	modelMagazine = "\rhsusf\addons\rhsusf_weapons\magazines\rhs_200rnd_softpouch_mag_coy" recoil = "recoil_mp5a2";
-	ACE_barrelTwist = 228.6;
-	maxZeroing = 1600;
-	ACE_barrelLength = 457.2;
-	ace_railHeightAboveBore = 2.5;
-	modes[] = {"FullAuto"};
-	class FullAuto : manual
-	{
-		sounds[] = {"StandardSound", "SilencedSound"};
-		class BaseSoundModeType
-		{
-			weaponSoundEffect = "DefaultRifle";
-
-			closure1[] = {"\hlc_wp_aug\snd\f88a1_first", 1, 1, 10};
-			closure2[] = {"\hlc_wp_aug\snd\f88a1_first", 1, 1, 10};
-			soundClosure[] = {closure1, 0.5, closure2, 0.5};
-		};
-		class StandardSound : BaseSoundModeType
-		{
-			soundSetShot[] = {"aug_Shot_SoundSet", "aug_Tail_SoundSet"};
-		};
-		class SilencedSound : BaseSoundModeType
-		{
-			soundSetShot[] = {"aug_silencerShot_SoundSet", "aug_silencerTail_SoundSet"};
-		};
-		reloadTime = 0.084;
-		dispersion = 0.000261799;
-	};
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_m249";
-		barrel = "long";
-		calibre = "N556";
-		stock = "para";
-	};
-};
-class rtg_249_pip_S : LMG_Mk200_black_F
-{
-	scope = 2;
-	dlc = "raiderTactical";
-	model = "\hlc_wp_saw\mesh\minimi_para\minimi_railed.p3d";
-	reloadaction = "HLC_GestureReloadM249";
-	picture = "\hlc_wp_saw\tex\ui\gear_minimipara_x_ca";
-	hiddenSelections[] = {"Reciever", "Assembly_cover", "Barrel", "Misc", "Foregrip", "Stock", "RearSight", "Magazine", "VFG"};
-	hiddenSelectionsTextures[] = {"hlc_wp_saw\tex\toadie_m249\reciever_minimi_co.paa", "hlc_wp_saw\tex\toadie_m249\assemblycover_co.paa", "hlc_wp_saw\tex\toadie_m249\barrel_co.paa", "hlc_wp_saw\tex\toadie_m249\misc_co.paa", "hlc_wp_saw\tex\toadie_m249\fore_co.paa", "hlc_wp_saw\tex\toadie_m249\stockmap_co.paa", "hlc_wp_saw\tex\toadie_m249\rearsight_co.paa", "hlc_wp_saw\tex\toadie_m249\pouch_auscam_co.paa", ""};
-	handanim[] = {"OFP2_ManSkeleton", "\hlc_wp_saw\anim\gesture\gesture_m249_STD.rtm"};
-	baseWeapon = "rtg_249_pip_S";
-	Author = "Shrike";
-	displayName = "M249 Short RIS";
-	magazineWell[] = {"CBA_556x45_MINIMI"};
-	magazines[] = {"rtg_200rnd_556_45"};
-	modelMagazine = "\rhsusf\addons\rhsusf_weapons\magazines\rhs_200rnd_softpouch_mag_coy" recoil = "recoil_mp5a2";
-	AB_barrelTwist = 7;
-	AB_barrelLength = 13.7;
-	agm_bipod = 1;
-	ACE_barrelTwist = 178;
-	ACE_barrelLength = 349;
-	modes[] = {"FullAuto"};
-	class FullAuto : manual
-	{
-		sounds[] = {"StandardSound", "SilencedSound"};
-		class BaseSoundModeType
-		{
-			weaponSoundEffect = "DefaultRifle";
-
-			closure1[] = {"\hlc_wp_aug\snd\f88a1_first", 1, 1, 10};
-			closure2[] = {"\hlc_wp_aug\snd\f88a1_first", 1, 1, 10};
-			soundClosure[] = {closure1, 0.5, closure2, 0.5};
-		};
-		class StandardSound : BaseSoundModeType
-		{
-			soundSetShot[] = {"aug_Shot_SoundSet", "aug_Tail_SoundSet"};
-		};
-		class SilencedSound : BaseSoundModeType
-		{
-			soundSetShot[] = {"aug_silencerShot_SoundSet", "aug_silencerTail_SoundSet"};
-		};
-		reloadTime = 0.084;
-		dispersion = 0.000261799;
-	};
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_m249";
-		barrel = "short";
-		calibre = "N556";
-		stock = "para";
-	};
-};
-class rtg_249_pip_colap_S : LMG_Mk200_black_F
-{
-	scope = 2;
-	dlc = "raiderTactical";
-	baseWeapon = "rtg_249_pip_colap_S";
-	Author = "Shrike";
-	displayName = "M249 Short RIS PIP";
-	model = "\hlc_wp_saw\mesh\m249\m249e2_pip3.p3d";
-	reloadaction = "HLC_GestureReloadM249";
-	picture = "\hlc_wp_saw\tex\ui\gear_m249e2parapip2_x_ca";
-	hiddenSelections[] = {"Reciever", "Assembly_cover", "Barrel", "Misc", "Foregrip", "Stock", "RearSight", "Magazine", "VFG"};
-	hiddenSelectionsTextures[] = {"hlc_wp_saw\tex\toadie_m249\reciever_249_co.paa", "hlc_wp_saw\tex\toadie_m249\assemblycover_co.paa", "hlc_wp_saw\tex\toadie_m249\barrel_co.paa", "hlc_wp_saw\tex\toadie_m249\misc_co.paa", "hlc_wp_saw\tex\toadie_m249\fore_co.paa", "hlc_wp_saw\tex\toadie_m249\stockmap_co.paa", "hlc_wp_saw\tex\toadie_m249\rearsight_co.paa", "hlc_wp_saw\tex\toadie_m249\amoobox_co.paa", "hlc_wp_saw\tex\toadie_m249\vert_grip_co.paa"};
-	handanim[] = {"OFP2_ManSkeleton", "\hlc_wp_saw\anim\gesture\gesture_m249_STD.rtm"};
-	magazineWell[] = {"CBA_556x45_MINIMI"};
-	magazines[] = {"rtg_200rnd_556_45"};
-	modelMagazine = "\rhsusf\addons\rhsusf_weapons\magazines\rhs_200rnd_softpouch_mag_coy" recoil = "recoil_mp5a2";
-	AB_barrelTwist = 7;
-	AB_barrelLength = 13.7;
-	agm_bipod = 1;
-	ACE_barrelTwist = 178;
-	ACE_barrelLength = 349;
-	modes[] = {"FullAuto"};
-	class FullAuto : manual
-	{
-		sounds[] = {"StandardSound", "SilencedSound"};
-		class BaseSoundModeType
-		{
-			weaponSoundEffect = "DefaultRifle";
-
-			closure1[] = {"\hlc_wp_aug\snd\f88a1_first", 1, 1, 10};
-			closure2[] = {"\hlc_wp_aug\snd\f88a1_first", 1, 1, 10};
-			soundClosure[] = {closure1, 0.5, closure2, 0.5};
-		};
-		class StandardSound : BaseSoundModeType
-		{
-			soundSetShot[] = {"aug_Shot_SoundSet", "aug_Tail_SoundSet"};
-		};
-		class SilencedSound : BaseSoundModeType
-		{
-			soundSetShot[] = {"aug_silencerShot_SoundSet", "aug_silencerTail_SoundSet"};
-		};
-		reloadTime = 0.084;
-		dispersion = 0.000261799;
-	};
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_m249";
-		barrel = "short";
-		calibre = "N556";
-		stock = "pip";
-	};
-};
-class rtg_249_pip_colap_L : LMG_Mk200_black_F
-{
-	scope = 2;
-	dlc = "raiderTactical";
-	model = "\hlc_wp_saw\mesh\m249\m249e2_pip4.p3d";
-	reloadaction = "HLC_GestureReloadM249";
-	handanim[] = {"OFP2_ManSkeleton", "\hlc_wp_saw\anim\gesture\gesture_m249_STD.rtm"};
-	picture = "\hlc_wp_saw\tex\ui\gear_m249e2pip2_x_ca";
-	hiddenSelections[] = {"Reciever", "Assembly_cover", "Barrel", "Misc", "Foregrip", "Stock", "RearSight", "Magazine", "VFG"};
-	hiddenSelectionsTextures[] = {"hlc_wp_saw\tex\toadie_m249\reciever_249_co.paa", "hlc_wp_saw\tex\toadie_m249\assemblycover_co.paa", "hlc_wp_saw\tex\toadie_m249\barrel_co.paa", "hlc_wp_saw\tex\toadie_m249\misc_co.paa", "hlc_wp_saw\tex\toadie_m249\PIP_Foregrip_co.paa", "hlc_wp_saw\tex\toadie_m249\stockmap_co.paa", "hlc_wp_saw\tex\toadie_m249\rearsight_co.paa", "hlc_wp_saw\tex\toadie_m249\amoobox_co.paa", "hlc_wp_saw\tex\toadie_m249\vert_grip_co.paa"};
-	baseWeapon = "rtg_249_pip_colap_L";
-	Author = "Shrike";
-	displayName = "M249 Long RIS PIP";
-	magazineWell[] = {"CBA_556x45_MINIMI"};
-	magazines[] = {"rtg_200rnd_556_45"};
-	modelMagazine = "\rhsusf\addons\rhsusf_weapons\magazines\rhs_200rnd_softpouch_mag_coy" recoil = "recoil_mp5a2";
-	ACE_barrelTwist = 228.6;
-	maxZeroing = 1600;
-	ACE_barrelLength = 457.2;
-	ace_railHeightAboveBore = 2.5;
-	modes[] = {"FullAuto"};
-	class FullAuto : manual
-	{
-		sounds[] = {"StandardSound", "SilencedSound"};
-		class BaseSoundModeType
-		{
-			weaponSoundEffect = "DefaultRifle";
-
-			closure1[] = {"\hlc_wp_aug\snd\f88a1_first", 1, 1, 10};
-			closure2[] = {"\hlc_wp_aug\snd\f88a1_first", 1, 1, 10};
-			soundClosure[] = {closure1, 0.5, closure2, 0.5};
-		};
-		class StandardSound : BaseSoundModeType
-		{
-			soundSetShot[] = {"aug_Shot_SoundSet", "aug_Tail_SoundSet"};
-		};
-		class SilencedSound : BaseSoundModeType
-		{
-			soundSetShot[] = {"aug_silencerShot_SoundSet", "aug_silencerTail_SoundSet"};
-		};
-		reloadTime = 0.084;
-		dispersion = 0.000261799;
-	};
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_m249";
-		barrel = "long";
-		calibre = "N556";
-		stock = "pip";
-	};
-};
-class rtg_249_pip_S_300 : LMG_Mk200_black_F
-{
-	scope = 2;
-	dlc = "raiderTactical";
-	baseWeapon = "rtg_249_pip_S_300";
-	Author = "Shrike";
-	recoil = "recoil_mp5a2";
-	displayName = "M249 300 Blk Short RIS";
-	magazineWell[] = {"CBA_300_blk_MINIMI"};
-	magazines[] = {"rtg_200rnd_300_blk"};
-	modes[] = {"FullAuto"};
-	picture = "\hlc_wp_saw\tex\ui\gear_mk48_ca";
-	model = "\hlc_wp_saw\mesh\mk48\Mk48.p3d";
-	reloadaction = "HLC_GestureReloadM249";
-	handanim[] = {"OFP2_ManSkeleton", "\hlc_wp_saw\anim\gesture\gesture_m249_STD.rtm"};
-	hiddenSelections[] = {"Reciever", "Assembly_cover", "Barrel", "Misc", "Foregrip", "Stock", "RearSight", "Magazine", "VFG", "Rail", "Bipod"};
-	hiddenSelectionsTextures[] = {"hlc_wp_saw\tex\mk48\reciever_mk48_co.paa", "hlc_wp_saw\tex\toadie_m249\assemblycover_co.paa", "hlc_wp_saw\tex\toadie_m249\barrel_co.paa", "hlc_wp_saw\tex\toadie_m249\misc_co.paa", "hlc_wp_saw\tex\toadie_m249\PIP_Foregrip_co.paa", "hlc_wp_saw\tex\toadie_m249\stockmap_co.paa", "hlc_wp_saw\tex\toadie_m249\rearsight_co.paa", "hlc_wp_saw\tex\toadie_m249\pouch_auscam_co.paa", "hlc_wp_saw\tex\toadie_m249\vert_grip_co.paa", "hlc_wp_saw\tex\mk48\mk48_quadrail_co.paa", ""};
-	class FullAuto : manual
-	{
-		sounds[] = {"StandardSound", "SilencedSound"};
-		class BaseSoundModeType
-		{
-			weaponSoundEffect = "DefaultRifle";
-		};
-		class StandardSound : BaseSoundModeType
-		{
-			soundSetShot[] = {"mk48_Shot_SoundSet", "mk48_Tail_SoundSet"};
-		};
-		class SilencedSound : BaseSoundModeType
-		{
-			soundSetShot[] = {"mk48_silencerShot_SoundSet", "mk48_silencerTail_SoundSet"};
-		};
-		reloadTime = 0.084;
-		dispersion = 0.000261799;
-	};
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_m249";
-		barrel = "long";
-		calibre = "N300";
-		stock = "fixed";
-	};
-};
-class rtg_249_pip_s_762 : LMG_Mk200_black_F
-{
-	scope = 2;
-	dlc = "raiderTactical";
-	baseWeapon = "rtg_249_pip_s_762";
-	Author = "Shrike";
-	displayName = "M249 7.62 Short RIS";
-	magazineWell[] = {"CBA_762x51_LINKS"};
-	magazines[] = {"rtg_200Rnd_762x51"};
-	modes[] = {"FullAuto"};
-	recoil = "rhs_recoil_mk18";
-	picture = "\hlc_wp_saw\tex\ui\gear_mk48_ca";
-	model = "\hlc_wp_saw\mesh\mk48\Mk48.p3d";
-	reloadaction = "HLC_GestureReloadM249";
-	handanim[] = {"OFP2_ManSkeleton", "\hlc_wp_saw\anim\gesture\gesture_m249_STD.rtm"};
-	hiddenSelections[] = {"Reciever", "Assembly_cover", "Barrel", "Misc", "Foregrip", "Stock", "RearSight", "Magazine", "VFG", "Rail", "Bipod"};
-	hiddenSelectionsTextures[] = {"hlc_wp_saw\tex\mk48\reciever_mk48_co.paa", "hlc_wp_saw\tex\toadie_m249\assemblycover_co.paa", "hlc_wp_saw\tex\toadie_m249\barrel_co.paa", "hlc_wp_saw\tex\toadie_m249\misc_co.paa", "hlc_wp_saw\tex\toadie_m249\PIP_Foregrip_co.paa", "hlc_wp_saw\tex\toadie_m249\stockmap_co.paa", "hlc_wp_saw\tex\toadie_m249\rearsight_co.paa", "hlc_wp_saw\tex\toadie_m249\pouch_auscam_co.paa", "hlc_wp_saw\tex\toadie_m249\vert_grip_co.paa", "hlc_wp_saw\tex\mk48\mk48_quadrail_co.paa", ""};
-	class FullAuto : manual
-	{
-		sounds[] = {"StandardSound", "SilencedSound"};
-		class BaseSoundModeType
-		{
-			weaponSoundEffect = "DefaultRifle";
-		};
-		class StandardSound : BaseSoundModeType
-		{
-			soundSetShot[] = {"mk48_Shot_SoundSet", "mk48_Tail_SoundSet"};
-		};
-		class SilencedSound : BaseSoundModeType
-		{
-			soundSetShot[] = {"mk48_silencerShot_SoundSet", "mk48_silencerTail_SoundSet"};
-		};
-		reloadTime = 0.084;
-		dispersion = 0.000261799;
-	};
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_m249";
-		barrel = "long";
-		calibre = "N762";
-		stock = "fixed";
-	};
-};
-class rtg_249_pip_ris : LMG_Mk200_black_F
-{
-	scope = 2;
-	dlc = "raiderTactical";
-	baseWeapon = "rtg_249_pip_ris";
-	Author = "Shrike";
-	displayName = "M249 Solid RIS";
-	magazineWell[] = {"CBA_556x45_MINIMI"};
-	magazines[] = {"rtg_200rnd_556_45"};
-	modelMagazine = "\rhsusf\addons\rhsusf_weapons\magazines\rhs_200rnd_softpouch_mag_coy" 
-	recoil = "recoil_mp5a2";
-	maxZeroing = 1600;
-	ACE_barrelTwist = 305;
-	ACE_barrelLength = 465;
-	AB_barrelTwist = 12;
-	AB_barrelLength = 18.3;
-	ace_railHeightAboveBore = 2.5;
-	model = "\hlc_wp_saw\mesh\minimi_para\minimi_longer_railed.p3d";
-	reloadaction = "HLC_GestureReloadM249";
-	picture = "\hlc_wp_saw\tex\ui\gear_minimipara_x_ca";
-	hiddenSelections[] = {"Reciever", "Assembly_cover", "Barrel", "Misc", "Foregrip", "Stock", "RearSight", "Magazine", "VFG"};
-	hiddenSelectionsTextures[] = {"hlc_wp_saw\tex\toadie_m249\reciever_minimi_co.paa", "hlc_wp_saw\tex\toadie_m249\assemblycover_co.paa", "hlc_wp_saw\tex\toadie_m249\barrel_co.paa", "hlc_wp_saw\tex\toadie_m249\misc_co.paa", "hlc_wp_saw\tex\toadie_m249\fore_co.paa", "hlc_wp_saw\tex\toadie_m249\stockmap_co.paa", "hlc_wp_saw\tex\toadie_m249\rearsight_co.paa", "hlc_wp_saw\tex\toadie_m249\pouch_auscam_co.paa", ""};
-	handanim[] = {"OFP2_ManSkeleton", "\hlc_wp_saw\anim\gesture\gesture_m249_STD.rtm"};
-	modes[] = {"FullAuto"};
-	class FullAuto : manual
-	{
-		sounds[] = {"StandardSound", "SilencedSound"};
-		class BaseSoundModeType
-		{
-			weaponSoundEffect = "DefaultRifle";
-
-			closure1[] = {"\hlc_wp_aug\snd\f88a1_first", 1, 1, 10};
-			closure2[] = {"\hlc_wp_aug\snd\f88a1_first", 1, 1, 10};
-			soundClosure[] = {closure1, 0.5, closure2, 0.5};
-		};
-		class StandardSound : BaseSoundModeType
-		{
-			soundSetShot[] = {"aug_Shot_SoundSet", "aug_Tail_SoundSet"};
-		};
-		class SilencedSound : BaseSoundModeType
-		{
-			soundSetShot[] = {"aug_silencerShot_SoundSet", "aug_silencerTail_SoundSet"};
-		};
-		reloadTime = 0.084;
-		dispersion = 0.000261799;
-	};
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_m249";
-		barrel = "long";
-		calibre = "N556";
-		stock = "fixed";
-	};
-};
-
 class rtg_m60e4 : LMG_Mk200_black_F
 {
 	scope = 2;
@@ -2434,6 +1906,7 @@ class rtg_MRAWS_olive : launch_MRAWS_olive_F
 	baseWeapon = "rtg_MRAWS_olive";
 	magazineWell[] = {"CBA_Carl_Gustaf"};
 	magazines[] = {"rtg_MRAWS_HEAT_F"};
+	ace_reloadlaunchers_enabled = 1;
 };
 class rtg_MRAWS_sand : launch_MRAWS_sand_F
 {
@@ -2444,6 +1917,30 @@ class rtg_MRAWS_sand : launch_MRAWS_sand_F
 	baseWeapon = "rtg_MRAWS_sand";
 	magazineWell[] = {"CBA_Carl_Gustaf"};
 	magazines[] = {"rtg_MRAWS_HEAT_F"};
+	ace_reloadlaunchers_enabled = 1;
+};
+
+class launch_Titan_short_base;
+class launch_I_Titan_short_F : launch_Titan_short_base
+{
+	scope = 2;
+	dlc = "raiderTactical";
+	Author = "Shike";
+	displayName = "M6E2 MPRL (Olive)";
+	baseWeapon = "rtg_MPRL_olive";
+	mass = 225;
+	ace_reloadlaunchers_enabled = 1;
+};
+
+class launch_B_Titan_short_F : launch_Titan_short_base
+{
+	scope = 2;
+	dlc = "raiderTactical";
+	Author = "Shike";
+	displayName = "M6E2 MPRL (Sand)";
+	baseWeapon = "rtg_MPRL_sand";
+	mass = 225;
+	ace_reloadlaunchers_enabled = 1;
 };
 
 // shotguns
@@ -2507,54 +2004,6 @@ class rtg_rifle_samr2_12g : arifle_SPAR_01_blk_F
 	{
 		model = "rtg_ace_expanded_samr";
 		calibre = "N12";
-	};
-};
-
-class rhs_weap_MP44_base;
-class rhs_weap_MP44 : rhs_weap_MP44_base {
-	magazineWell[] = {"RTG_9x19"};
-	magazines[] = {"rtg_9mm_35Rnd_mag"};
-	modelMagazine[] = {"\rhsgref\addons\rhsgref_weapons2\magazines\rhs_m3a1_mag.p3d"};
-	mode[] = {"Single", "FullAuto"};
-	class Single : Single
-	{
-		sounds[] = {"StandardSound", "SilencedSound"};
-		class BaseSoundModeType
-		{
-			weaponSoundEffect = "DefaultRifle";
-
-			closure1[] = {"\hlc_wp_aug\snd\f88a1_first", 1, 1, 10};
-			closure2[] = {"\hlc_wp_aug\snd\f88a1_first", 1, 1, 10};
-			soundClosure[] = {closure1, 0.5, closure2, 0.5};
-		};
-		class StandardSound : BaseSoundModeType
-		{
-			soundSetShot[] = {"aug_Shot_SoundSet", "aug_Tail_SoundSet"};
-		};
-		class SilencedSound : BaseSoundModeType
-		{
-			soundSetShot[] = {"aug_silencerShot_SoundSet", "aug_silencerTail_SoundSet"};
-		};
-	};
-	class FullAuto : FullAuto
-	{
-		sounds[] = {"StandardSound", "SilencedSound"};
-		class BaseSoundModeType
-		{
-			weaponSoundEffect = "DefaultRifle";
-
-			closure1[] = {"\hlc_wp_aug\snd\f88a1_first", 1, 1, 10};
-			closure2[] = {"\hlc_wp_aug\snd\f88a1_first", 1, 1, 10};
-			soundClosure[] = {closure1, 0.5, closure2, 0.5};
-		};
-		class StandardSound : BaseSoundModeType
-		{
-			soundSetShot[] = {"aug_Shot_SoundSet", "aug_Tail_SoundSet"};
-		};
-		class SilencedSound : BaseSoundModeType
-		{
-			soundSetShot[] = {"aug_silencerShot_SoundSet", "aug_silencerTail_SoundSet"};
-		};
 	};
 };
 
@@ -2661,7 +2110,11 @@ class raider_transport_smoke : GMG_20mm {
 #include "weaponClasses\akm.h"
 #include "weaponClasses\hk416.h"
 #include "weaponClasses\m4.h"
+#include "weaponClasses\mp5.h"
+#include "weaponClasses\m249.h"
 #include "weaponClasses\ar15.h"
 #include "weaponClasses\aug.h"
 #include "weaponClasses\g36.h"
 #include "weaponClasses\grot.h"
+#include "weaponClasses\xm8.h"
+#include "weaponClasses\qbz.h"

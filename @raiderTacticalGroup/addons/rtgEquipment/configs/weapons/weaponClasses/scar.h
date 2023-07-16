@@ -9,6 +9,7 @@ class hlc_wp_SCARH_STD : hlc_SCARH_Base
 		barrel = "std";
 		calibre = "N762";
 		camo = "tan";
+		variant = "base";
 	};
 };
 class hlc_wp_SCARH_STD_Blk : hlc_wp_SCARH_STD
@@ -19,6 +20,7 @@ class hlc_wp_SCARH_STD_Blk : hlc_wp_SCARH_STD
 		barrel = "std";
 		calibre = "N762";
 		camo = "black";
+		variant = "base";
 	};
 };
 class hlc_wp_SCARH_STD_camo : hlc_wp_SCARH_STD
@@ -29,6 +31,7 @@ class hlc_wp_SCARH_STD_camo : hlc_wp_SCARH_STD
 		barrel = "std";
 		calibre = "N762";
 		camo = "camo";
+		variant = "base";
 	};
 };
 class hlc_WP_SCARH_CQC : hlc_wp_SCARH_STD
@@ -39,6 +42,7 @@ class hlc_WP_SCARH_CQC : hlc_wp_SCARH_STD
 		barrel = "cqb";
 		calibre = "N762";
 		camo = "tan";
+		variant = "base";
 	};
 };
 class hlc_wp_SCARH_CQC_Blk : hlc_WP_SCARH_CQC
@@ -49,6 +53,7 @@ class hlc_wp_SCARH_CQC_Blk : hlc_WP_SCARH_CQC
 		barrel = "cqb";
 		calibre = "N762";
 		camo = "black";
+		variant = "base";
 	};
 };
 class hlc_wp_SCARH_CQC_camo : hlc_WP_SCARH_CQC
@@ -59,6 +64,7 @@ class hlc_wp_SCARH_CQC_camo : hlc_WP_SCARH_CQC
 		barrel = "cqb";
 		calibre = "N762";
 		camo = "camo";
+		variant = "base";
 	};
 };
 class hlc_WP_SCARH_DMR : hlc_SCARH_Base
@@ -69,6 +75,7 @@ class hlc_WP_SCARH_DMR : hlc_SCARH_Base
 		barrel = "lb";
 		calibre = "N762";
 		camo = "tan";
+		variant = "base";
 	};
 };
 class hlc_wp_SCARH_DMR_Blk : hlc_WP_SCARH_DMR
@@ -79,6 +86,7 @@ class hlc_wp_SCARH_DMR_Blk : hlc_WP_SCARH_DMR
 		barrel = "lb";
 		calibre = "N762";
 		camo = "black";
+		variant = "base";
 	};
 };
 class hlc_wp_SCARH_DMR_camo : hlc_WP_SCARH_DMR
@@ -89,6 +97,7 @@ class hlc_wp_SCARH_DMR_camo : hlc_WP_SCARH_DMR
 		barrel = "lb";
 		calibre = "N762";
 		camo = "camo";
+		variant = "base";
 	};
 };
 
@@ -102,6 +111,7 @@ class hlc_wp_SCARL_STD : hlc_SCARL_Base
 		barrel = "std";
 		calibre = "N556";
 		camo = "tan";
+		variant = "base";
 	};
 };
 class hlc_wp_SCARL_STD_Blk : hlc_wp_SCARL_STD
@@ -112,6 +122,7 @@ class hlc_wp_SCARL_STD_Blk : hlc_wp_SCARL_STD
 		barrel = "std";
 		calibre = "N556";
 		camo = "black";
+		variant = "base";
 	};
 };
 class hlc_wp_SCARL_STD_camo : hlc_wp_SCARL_STD
@@ -122,6 +133,7 @@ class hlc_wp_SCARL_STD_camo : hlc_wp_SCARL_STD
 		barrel = "std";
 		calibre = "N556";
 		camo = "camo";
+		variant = "base";
 	};
 };
 class hlc_wp_SCAR_PDW : hlc_SCARL_Base
@@ -132,6 +144,7 @@ class hlc_wp_SCAR_PDW : hlc_SCARL_Base
 		barrel = "sc";
 		calibre = "N556";
 		camo = "tan";
+		variant = "base";
 	};
 };
 class hlc_wp_SCAR_PDW_blk : hlc_wp_SCAR_PDW
@@ -142,6 +155,7 @@ class hlc_wp_SCAR_PDW_blk : hlc_wp_SCAR_PDW
 		barrel = "sc";
 		calibre = "N556";
 		camo = "black";
+		variant = "base";
 	};
 };
 class hlc_wp_SCAR_PDW_camo : hlc_wp_SCAR_PDW
@@ -152,6 +166,7 @@ class hlc_wp_SCAR_PDW_camo : hlc_wp_SCAR_PDW
 		barrel = "sc";
 		calibre = "N556";
 		camo = "camo";
+		variant = "base";
 	};
 };
 class hlc_WP_SCARL_CQC : hlc_wp_SCARL_STD
@@ -162,6 +177,7 @@ class hlc_WP_SCARL_CQC : hlc_wp_SCARL_STD
 		barrel = "cqb";
 		calibre = "N556";
 		camo = "tan";
+		variant = "base";
 	};
 };
 class hlc_wp_SCARL_CQC_Blk : hlc_WP_SCARL_CQC
@@ -172,6 +188,7 @@ class hlc_wp_SCARL_CQC_Blk : hlc_WP_SCARL_CQC
 		barrel = "cqb";
 		calibre = "N556";
 		camo = "black";
+		variant = "base";
 	};
 };
 class hlc_wp_SCARL_CQC_camo : hlc_WP_SCARL_CQC
@@ -182,6 +199,7 @@ class hlc_wp_SCARL_CQC_camo : hlc_WP_SCARL_CQC
 		barrel = "cqb";
 		calibre = "N556";
 		camo = "camo";
+		variant = "base";
 	};
 };
 class hlc_WP_SCARL_DMR : hlc_wp_SCARL_STD
@@ -192,6 +210,7 @@ class hlc_WP_SCARL_DMR : hlc_wp_SCARL_STD
 		barrel = "lb";
 		calibre = "N556";
 		camo = "tan";
+		variant = "base";
 	};
 };
 class hlc_wp_SCARL_DMR_Blk : hlc_WP_SCARL_DMR
@@ -202,6 +221,7 @@ class hlc_wp_SCARL_DMR_Blk : hlc_WP_SCARL_DMR
 		barrel = "lb";
 		calibre = "N556";
 		camo = "black";
+		variant = "base";
 	};
 };
 class hlc_wp_SCARL_DMR_camo : hlc_WP_SCARL_DMR
@@ -212,6 +232,7 @@ class hlc_wp_SCARL_DMR_camo : hlc_WP_SCARL_DMR
 		barrel = "lb";
 		calibre = "N556";
 		camo = "camo";
+		variant = "base";
 	};
 };
 
@@ -224,6 +245,7 @@ class hlc_wp_SCARL_STD_300AAC : hlc_SCARL_Base
 		barrel = "std";
 		calibre = "N300";
 		camo = "tan";
+		variant = "base";
 	};
 };
 class hlc_wp_SCARL_STD_300AAC_Blk : hlc_wp_SCARL_STD_300AAC
@@ -234,6 +256,7 @@ class hlc_wp_SCARL_STD_300AAC_Blk : hlc_wp_SCARL_STD_300AAC
 		barrel = "std";
 		calibre = "N300";
 		camo = "black";
+		variant = "base";
 	};
 };
 class hlc_wp_SCARL_STD_300AAC_camo : hlc_wp_SCARL_STD_300AAC
@@ -244,6 +267,7 @@ class hlc_wp_SCARL_STD_300AAC_camo : hlc_wp_SCARL_STD_300AAC
 		barrel = "std";
 		calibre = "N300";
 		camo = "camo";
+		variant = "base";
 	};
 };
 class hlc_WP_SCARL_CQC_300AAC : hlc_wp_SCARL_STD_300AAC
@@ -254,6 +278,7 @@ class hlc_WP_SCARL_CQC_300AAC : hlc_wp_SCARL_STD_300AAC
 		barrel = "cqb";
 		calibre = "N300";
 		camo = "tan";
+		variant = "base";
 	};
 };
 class hlc_wp_SCARL_CQC_300AAC_Blk : hlc_WP_SCARL_CQC_300AAC
@@ -264,6 +289,7 @@ class hlc_wp_SCARL_CQC_300AAC_Blk : hlc_WP_SCARL_CQC_300AAC
 		barrel = "cqb";
 		calibre = "N300";
 		camo = "black";
+		variant = "base";
 	};
 };
 class hlc_wp_SCARL_CQC_300AAC_camo : hlc_WP_SCARL_CQC_300AAC
@@ -274,6 +300,7 @@ class hlc_wp_SCARL_CQC_300AAC_camo : hlc_WP_SCARL_CQC_300AAC
 		barrel = "cqb";
 		calibre = "N300";
 		camo = "camo";
+		variant = "base";
 	};
 };
 
@@ -282,60 +309,66 @@ class hlc_wp_SCARH_STD_EGLM : hlc_SCARH_Base
 {
 	class XtdGearInfo
 	{
-		model = "rtg_ace_expanded_scar_gl";
+		model = "rtg_ace_expanded_scar";
 		barrel = "std";
 		calibre = "N762";
 		camo = "tan";
+		variant = "ugl";
 	};
 };
 class hlc_wp_SCARH_STD_EGLM_Blk : hlc_wp_SCARH_STD_EGLM
 {
 	class XtdGearInfo
 	{
-		model = "rtg_ace_expanded_scar_gl";
+		model = "rtg_ace_expanded_scar";
 		barrel = "std";
 		calibre = "N762";
 		camo = "black";
+		variant = "ugl";
 	};
 };
 class hlc_wp_SCARH_STD_EGLM_camo : hlc_wp_SCARH_STD_EGLM
 {
 	class XtdGearInfo
 	{
-		model = "rtg_ace_expanded_scar_gl";
+		model = "rtg_ace_expanded_scar";
 		barrel = "std";
 		calibre = "N762";
 		camo = "camo";
+		variant = "ugl";
 	};
 };
 class hlc_WP_SCARH_CQC_EGLM : hlc_SCARH_Base
 {
 	class XtdGearInfo
 	{
-		model = "rtg_ace_expanded_scar_gl";
+		model = "rtg_ace_expanded_scar";
 		barrel = "cqb";
 		calibre = "N762";
 		camo = "tan";
+		variant = "ugl";
 	};
 };
 class hlc_wp_SCARH_CQC_EGLM_Blk : hlc_WP_SCARH_CQC_EGLM
 {
 	class XtdGearInfo
 	{
-		model = "rtg_ace_expanded_scar_gl";
+		model = "rtg_ace_expanded_scar";
 		barrel = "cqb";
 		calibre = "N762";
 		camo = "black";
+		variant = "ugl";
 	};
 };
 class hlc_wp_SCARH_CQC_EGLM_camo : hlc_WP_SCARH_CQC_EGLM
 {
 	class XtdGearInfo
 	{
-		model = "rtg_ace_expanded_scar_gl";
+		model = "rtg_ace_expanded_scar";
 		barrel = "cqb";
 		calibre = "N762";
 		camo = "camo";
+		variant = "ugl";
 	};
 };
 
@@ -344,60 +377,66 @@ class hlc_wp_SCARL_STD_EGLM : hlc_SCARL_Base
 {
 	class XtdGearInfo
 	{
-		model = "rtg_ace_expanded_scar_gl";
+		model = "rtg_ace_expanded_scar";
 		barrel = "std";
 		calibre = "N556";
 		camo = "tan";
+		variant = "ugl";
 	};
 };
 class hlc_wp_SCARL_STD_EGLM_Blk : hlc_wp_SCARL_STD_EGLM
 {
 	class XtdGearInfo
 	{
-		model = "rtg_ace_expanded_scar_gl";
+		model = "rtg_ace_expanded_scar";
 		barrel = "std";
 		calibre = "N556";
 		camo = "black";
+		variant = "ugl";
 	};
 };
 class hlc_wp_SCARL_STD_EGLM_camo : hlc_wp_SCARL_STD_EGLM
 {
 	class XtdGearInfo
 	{
-		model = "rtg_ace_expanded_scar_gl";
+		model = "rtg_ace_expanded_scar";
 		barrel = "std";
 		calibre = "N556";
 		camo = "camo";
+		variant = "ugl";
 	};
 };
 class hlc_WP_SCARL_CQC_EGLM : hlc_SCARL_Base
 {
 	class XtdGearInfo
 	{
-		model = "rtg_ace_expanded_scar_gl";
+		model = "rtg_ace_expanded_scar";
 		barrel = "cqb";
 		calibre = "N556";
 		camo = "tan";
+		variant = "ugl";
 	};
 };
 class hlc_wp_SCARL_CQC_EGLM_Blk : hlc_WP_SCARL_CQC_EGLM
 {
 	class XtdGearInfo
 	{
-		model = "rtg_ace_expanded_scar_gl";
+		model = "rtg_ace_expanded_scar";
 		barrel = "cqb";
 		calibre = "N556";
 		camo = "black";
+		variant = "ugl";
 	};
 };
 class hlc_wp_SCARL_CQC_EGLM_camo : hlc_WP_SCARL_CQC_EGLM
 {
 	class XtdGearInfo
 	{
-		model = "rtg_ace_expanded_scar_gl";
+		model = "rtg_ace_expanded_scar";
 		barrel = "cqb";
 		calibre = "N556";
 		camo = "camo";
+		variant = "ugl";
 	};
 };
 
@@ -406,60 +445,66 @@ class hlc_wp_SCARL_STD_300AAC_EGLM : hlc_wp_SCARL_STD_300AAC
 {
 	class XtdGearInfo
 	{
-		model = "rtg_ace_expanded_scar_gl";
+		model = "rtg_ace_expanded_scar";
 		barrel = "std";
 		calibre = "N300";
 		camo = "tan";
+		variant = "ugl";
 	};
 };
 class hlc_wp_SCARL_STD_300AAC_EGLM_Blk : hlc_wp_SCARL_STD_300AAC_EGLM
 {
 	class XtdGearInfo
 	{
-		model = "rtg_ace_expanded_scar_gl";
+		model = "rtg_ace_expanded_scar";
 		barrel = "std";
 		calibre = "N300";
 		camo = "black";
+		variant = "ugl";
 	};
 };
 class hlc_wp_SCARL_STD_300AAC_EGLM_camo : hlc_wp_SCARL_STD_300AAC_EGLM
 {
 	class XtdGearInfo
 	{
-		model = "rtg_ace_expanded_scar_gl";
+		model = "rtg_ace_expanded_scar";
 		barrel = "std";
 		calibre = "N300";
 		camo = "camo";
+		variant = "ugl";
 	};
 };
 class hlc_WP_SCARL_CQC_300AAC_EGLM : hlc_wp_SCARL_STD_300AAC
 {
 	class XtdGearInfo
 	{
-		model = "rtg_ace_expanded_scar_gl";
+		model = "rtg_ace_expanded_scar";
 		barrel = "cqb";
 		calibre = "N300";
 		camo = "tan";
+		variant = "ugl";
 	};
 };
 class hlc_wp_SCARL_CQC_300AAC_EGLM_Blk : hlc_WP_SCARL_CQC_300AAC_EGLM
 {
 	class XtdGearInfo
 	{
-		model = "rtg_ace_expanded_scar_gl";
+		model = "rtg_ace_expanded_scar";
 		barrel = "cqb";
 		calibre = "N300";
 		camo = "black";
+		variant = "ugl";
 	};
 };
 class hlc_wp_SCARL_CQC_300AAC_EGLM_camo : hlc_WP_SCARL_CQC_300AAC_EGLM
 {
 	class XtdGearInfo
 	{
-		model = "rtg_ace_expanded_scar_gl";
+		model = "rtg_ace_expanded_scar";
 		barrel = "cqb";
 		calibre = "N300";
 		camo = "camo";
+		variant = "ugl";
 	};
 };
 
@@ -468,24 +513,33 @@ class hlc_WP_SSR : hlc_wp_SCARH_STD
 {
 	class XtdGearInfo
 	{
-		model = "rtg_ace_expanded_scarssr";
+		model = "rtg_ace_expanded_scar";
+		barrel = "lb";
+		calibre = "N762";
 		camo = "tan";
+		variant = "dmr";
 	};
 };
 class hlc_wp_SSR_Blk : hlc_WP_SSR
 {
 	class XtdGearInfo
 	{
-		model = "rtg_ace_expanded_scarssr";
+		model = "rtg_ace_expanded_scar";
+		barrel = "lb";
+		calibre = "N762";
 		camo = "black";
+		variant = "dmr";
 	};
 };
 class hlc_wp_SSR_camo : hlc_WP_SSR
 {
 	class XtdGearInfo
 	{
-		model = "rtg_ace_expanded_scarssr";
+		model = "rtg_ace_expanded_scar";
+		barrel = "lb";
+		calibre = "N762";
 		camo = "camo";
+		variant = "dmr";
 	};
 };
 

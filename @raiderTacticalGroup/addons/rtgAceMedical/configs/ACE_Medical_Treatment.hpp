@@ -1,9 +1,7 @@
-
 class ace_medical_treatment {
     class Bandaging {
-        // Field dressing is normal average treatment
-        // packing bandage is average treatment, higher reopen change, longer reopening delay
-        // elastic bandage is higher treatment, higher reopen change, shorter reopen delay
+        // packing bandage is highest treatment, higher reopen change, short reopening delay
+        // elastic bandage is average treatment, average reopen change, average reopen delay
         // quickclot is lower treatment, lower reopen change, longer reopening delay
         class BasicBandage {
             effectiveness = 5;
@@ -154,142 +152,7 @@ class ace_medical_treatment {
             };
         };
 
-        class PackingBandage: fieldDressing {
-            class Abrasion {
-                effectiveness = 3;
-                reopeningChance = 0.6;
-                reopeningMinDelay = 800;
-                reopeningMaxDelay = 1500;
-            };
-            class AbrasionMinor: Abrasion {
-                effectiveness = 3;
-            };
-            class AbrasionMedium: Abrasion {
-                effectiveness = 2.5;
-                reopeningChance = 0.9;
-            };
-            class AbrasionLarge: Abrasion {
-                effectiveness = 2;
-                reopeningChance = 1;
-            };
-
-            class Avulsion: Abrasion {
-                effectiveness = 1;
-                reopeningChance = 0.7;
-                reopeningMinDelay = 1000;
-                reopeningMaxDelay = 1600;
-            };
-            class AvulsionMinor: Avulsion {
-                effectiveness = 1;
-            };
-            class AvulsionMedium: Avulsion {
-                effectiveness = 0.9;
-            };
-            class AvulsionLarge: Avulsion {
-                effectiveness = 0.75;
-            };
-
-            class Contusion: Abrasion {
-                effectiveness = 1;
-                reopeningChance = 0;
-                reopeningMinDelay = 0;
-                reopeningMaxDelay = 0;
-            };
-            class ContusionMinor: Contusion {};
-            class ContusionMedium: Contusion {};
-            class ContusionLarge: Contusion {};
-
-            class Crush: Abrasion {
-                effectiveness = 1;
-                reopeningChance = 0.5;
-                reopeningMinDelay = 600;
-                reopeningMaxDelay = 1000;
-            };
-            class CrushMinor: Crush {
-                effectiveness = 1;
-                reopeningChance = 0.6;
-            };
-            class CrushMedium: Crush {
-                effectiveness = 0.7;
-                reopeningChance = 0.7;
-            };
-            class CrushLarge: Crush {
-                effectiveness = 0.6;
-                reopeningChance = 0.8;
-            };
-
-            class Cut: Abrasion {
-                effectiveness = 4;
-                reopeningChance = 0.4;
-                reopeningMinDelay = 700;
-                reopeningMaxDelay = 1000;
-            };
-            class CutMinor: Cut {
-                effectiveness = 4;
-                reopeningChance = 0.6;
-            };
-            class CutMedium: Cut {
-                effectiveness = 3;
-                reopeningChance = 0.7;
-            };
-            class CutLarge: Cut {
-                effectiveness = 1;
-                reopeningChance = 0.8;
-            };
-
-            class Laceration: Abrasion {
-                effectiveness = 0.95;
-                reopeningChance = 0.65;
-                reopeningMinDelay = 500;
-                reopeningMaxDelay = 2000;
-            };
-            class LacerationMinor: Laceration {
-                effectiveness = 0.95;
-                reopeningChance = 0.65;
-            };
-            class LacerationMedium: Laceration {
-                effectiveness = 0.7;
-                reopeningChance = 0.8;
-            };
-            class LacerationLarge: Laceration {
-                effectiveness = 0.5;
-                reopeningChance = 0.9;
-            };
-
-            class VelocityWound: Abrasion {
-                effectiveness = 2;
-                reopeningChance = 1;
-                reopeningMinDelay = 800;
-                reopeningMaxDelay = 2000;
-            };
-            class VelocityWoundMinor: VelocityWound {
-                effectiveness = 2;
-            };
-            class VelocityWoundMedium: VelocityWound {
-                effectiveness = 1.5;
-            };
-            class VelocityWoundLarge: VelocityWound {
-                effectiveness = 1;
-            };
-
-            class PunctureWound: Abrasion {
-                effectiveness = 2;
-                reopeningChance = 1;
-                reopeningMinDelay = 1000;
-                reopeningMaxDelay = 3000;
-            };
-            class PunctureWoundMinor: PunctureWound {
-                effectiveness = 2;
-            };
-            class PunctureWoundMedium: PunctureWound {
-                effectiveness = 1.3;
-            };
-            class PunctureWoundLarge: PunctureWound {
-                effectiveness = 0.9;
-            };
-        };
-
-        class ElasticBandage: fieldDressing {
+        class PackingBandage : fieldDressing {
             class Abrasion {
                 effectiveness = 4;
                 reopeningChance = 0.6;
@@ -424,39 +287,39 @@ class ace_medical_treatment {
             };
         };
 
-        class QuikClot: fieldDressing {
+        class ElasticBandage : fieldDressing {
             class Abrasion {
-                effectiveness = 2;
-                reopeningChance = 0.3;
+                effectiveness = 3;
+                reopeningChance = 0.6;
                 reopeningMinDelay = 800;
                 reopeningMaxDelay = 1500;
             };
             class AbrasionMinor: Abrasion {
-                effectiveness = 2;
+                effectiveness = 3;
             };
             class AbrasionMedium: Abrasion {
-                effectiveness = 1;
-                reopeningChance = 0.4;
+                effectiveness = 2.5;
+                reopeningChance = 0.9;
             };
             class AbrasionLarge: Abrasion {
-                effectiveness = 0.7;
-                reopeningChance = 0.5;
+                effectiveness = 2;
+                reopeningChance = 1;
             };
 
             class Avulsion: Abrasion {
-                effectiveness = 0.7;
-                reopeningChance = 0.2;
+                effectiveness = 1;
+                reopeningChance = 0.7;
                 reopeningMinDelay = 1000;
                 reopeningMaxDelay = 1600;
             };
             class AvulsionMinor: Avulsion {
-                effectiveness = 0.7;
+                effectiveness = 1;
             };
             class AvulsionMedium: Avulsion {
-                effectiveness = 0.65;
+                effectiveness = 0.9;
             };
             class AvulsionLarge: Avulsion {
-                effectiveness = 0.5;
+                effectiveness = 0.75;
             };
 
             class Contusion: Abrasion {
@@ -470,20 +333,155 @@ class ace_medical_treatment {
             class ContusionLarge: Contusion {};
 
             class Crush: Abrasion {
-                effectiveness = 0.6;
+                effectiveness = 1;
                 reopeningChance = 0.5;
                 reopeningMinDelay = 600;
                 reopeningMaxDelay = 1000;
             };
             class CrushMinor: Crush {
+                effectiveness = 1;
+                reopeningChance = 0.6;
+            };
+            class CrushMedium: Crush {
+                effectiveness = 0.7;
+                reopeningChance = 0.7;
+            };
+            class CrushLarge: Crush {
                 effectiveness = 0.6;
+                reopeningChance = 0.8;
+            };
+
+            class Cut: Abrasion {
+                effectiveness = 4;
+                reopeningChance = 0.4;
+                reopeningMinDelay = 700;
+                reopeningMaxDelay = 1000;
+            };
+            class CutMinor: Cut {
+                effectiveness = 4;
+                reopeningChance = 0.6;
+            };
+            class CutMedium: Cut {
+                effectiveness = 3;
+                reopeningChance = 0.7;
+            };
+            class CutLarge: Cut {
+                effectiveness = 1;
+                reopeningChance = 0.8;
+            };
+
+            class Laceration: Abrasion {
+                effectiveness = 0.95;
+                reopeningChance = 0.65;
+                reopeningMinDelay = 500;
+                reopeningMaxDelay = 2000;
+            };
+            class LacerationMinor: Laceration {
+                effectiveness = 0.95;
+                reopeningChance = 0.65;
+            };
+            class LacerationMedium: Laceration {
+                effectiveness = 0.7;
+                reopeningChance = 0.8;
+            };
+            class LacerationLarge: Laceration {
+                effectiveness = 0.5;
+                reopeningChance = 0.9;
+            };
+
+            class VelocityWound: Abrasion {
+                effectiveness = 2;
+                reopeningChance = 1;
+                reopeningMinDelay = 800;
+                reopeningMaxDelay = 2000;
+            };
+            class VelocityWoundMinor: VelocityWound {
+                effectiveness = 2;
+            };
+            class VelocityWoundMedium: VelocityWound {
+                effectiveness = 1.5;
+            };
+            class VelocityWoundLarge: VelocityWound {
+                effectiveness = 1;
+            };
+
+            class PunctureWound: Abrasion {
+                effectiveness = 2;
+                reopeningChance = 1;
+                reopeningMinDelay = 1000;
+                reopeningMaxDelay = 3000;
+            };
+            class PunctureWoundMinor: PunctureWound {
+                effectiveness = 2;
+            };
+            class PunctureWoundMedium: PunctureWound {
+                effectiveness = 1.3;
+            };
+            class PunctureWoundLarge: PunctureWound {
+                effectiveness = 0.9;
+            };
+        }; 
+
+        class QuikClot : fieldDressing {
+            class Abrasion {
+                effectiveness = 2.8;
+                reopeningChance = 0.3;
+                reopeningMinDelay = 800;
+                reopeningMaxDelay = 1500;
+            };
+            class AbrasionMinor: Abrasion {
+                effectiveness = 2.8;
+            };
+            class AbrasionMedium: Abrasion {
+                effectiveness = 1.5;
+                reopeningChance = 0.4;
+            };
+            class AbrasionLarge: Abrasion {
+                effectiveness = 1.5;
+                reopeningChance = 0.5;
+            };
+
+            class Avulsion: Abrasion {
+                effectiveness = 1.2;
+                reopeningChance = 0.2;
+                reopeningMinDelay = 1000;
+                reopeningMaxDelay = 1600;
+            };
+            class AvulsionMinor: Avulsion {
+                effectiveness = 1.2;
+            };
+            class AvulsionMedium: Avulsion {
+                effectiveness = 1.2;
+            };
+            class AvulsionLarge: Avulsion {
+                effectiveness = 1.2;
+            };
+
+            class Contusion: Abrasion {
+                effectiveness = 1;
+                reopeningChance = 0;
+                reopeningMinDelay = 0;
+                reopeningMaxDelay = 0;
+            };
+            class ContusionMinor: Contusion {};
+            class ContusionMedium: Contusion {};
+            class ContusionLarge: Contusion {};
+
+            class Crush: Abrasion {
+                effectiveness = 5;
+                reopeningChance = 0.5;
+                reopeningMinDelay = 600;
+                reopeningMaxDelay = 1000;
+            };
+            class CrushMinor: Crush {
+                effectiveness = 5;
                 reopeningChance = 0.3;
             };
             class CrushMedium: Crush {
-                effectiveness = 0.5;
+                effectiveness = 5;
             };
             class CrushLarge: Crush {
-                effectiveness = 0.4;
+                effectiveness = 5;
             };
 
             class Cut: Abrasion {
@@ -503,52 +501,52 @@ class ace_medical_treatment {
             };
 
             class Laceration: Abrasion {
-                effectiveness = 0.7;
+                effectiveness = 5;
                 reopeningChance = 0.4;
                 reopeningMinDelay = 500;
                 reopeningMaxDelay = 2000;
             };
             class LacerationMinor: Laceration {
-                effectiveness = 0.7;
+                effectiveness = 5;
                 reopeningChance = 0.4;
             };
             class LacerationMedium: Laceration {
-                effectiveness = 0.7;
+                effectiveness = 5;
             };
             class LacerationLarge: Laceration {
-                effectiveness = 0.5;
+                effectiveness = 5;
             };
 
             class VelocityWound: Abrasion {
-                effectiveness = 1;
+                effectiveness = 5;
                 reopeningChance = 0.5;
                 reopeningMinDelay = 800;
                 reopeningMaxDelay = 2000;
             };
             class VelocityWoundMinor: VelocityWound {
-                effectiveness = 1;
+                effectiveness = 5;
             };
             class VelocityWoundMedium: VelocityWound {
-                effectiveness = 0.75;
+                effectiveness = 5;
             };
             class VelocityWoundLarge: VelocityWound {
-                effectiveness = 0.5;
+                effectiveness = 5;
             };
 
             class PunctureWound: Abrasion {
-                effectiveness = 1;
+                effectiveness = 5;
                 reopeningChance = 0.5;
                 reopeningMinDelay = 1000;
                 reopeningMaxDelay = 3000;
             };
             class PunctureWoundMinor: PunctureWound {
-                effectiveness = 1;
+                effectiveness = 5;
             };
             class PunctureWoundMedium: PunctureWound {
-                effectiveness = 0.7;
+                effectiveness = 5;
             };
             class PunctureWoundLarge: PunctureWound {
-                effectiveness = 0.4;
+                effectiveness = 5;
             };
         };
     };
@@ -574,7 +572,7 @@ class ace_medical_treatment {
 
         // specific details for the ACE_Morphine treatment action
         class Morphine {
-            painReduce = 0.8;
+            painReduce = 0.5;
             hrIncreaseLow[] = {-10, -20};
             hrIncreaseNormal[] = {-10, -30};
             hrIncreaseHigh[] = {-10, -35};
@@ -590,16 +588,6 @@ class ace_medical_treatment {
             hrIncreaseNormal[] = {10, 50};
             hrIncreaseHigh[] = {10, 40};
             timeInSystem = 120;
-            timeTillMaxEffect = 10;
-            maxDose = 10;
-            incompatibleMedication[] = {};
-        };
-        class rtgSerum {
-            painReduce = 0.2;
-            hrIncreaseLow[] = {10, 20};
-            hrIncreaseNormal[] = {10, 50};
-            hrIncreaseHigh[] = {10, 40};
-            timeInSystem = 400;
             timeTillMaxEffect = 10;
             maxDose = 10;
             incompatibleMedication[] = {};
@@ -622,6 +610,29 @@ class ace_medical_treatment {
             incompatibleMedication[] = {};
             viscosityChange = 5;
         };
+        class Fentanyl {
+            painReduce = 1.2;
+            hrIncreaseLow[] = {-10, -5};
+            hrIncreaseNormal[] = {-15, -10};
+            hrIncreaseHigh[] = {-20, -10};
+            timeInSystem = 900;
+            timeTillMaxEffect = 20;
+            maxDose = 2;
+            incompatibleMedication[] = {};
+            viscosityChange = -10;
+        };
+
+        class Pervitin {
+            painReduce = 0.4;
+            hrIncreaseLow[] = {15, 25};
+            hrIncreaseNormal[] = {15, 30};
+            hrIncreaseHigh[] = {15, 25};
+            timeInSystem = 600;
+            timeTillMaxEffect = 5;
+            maxDose = 4;
+            incompatibleMedication[] = {};
+            viscosityChange = 5;
+        };
     };
     class IV {
         // volume is in millileters
@@ -629,11 +640,11 @@ class ace_medical_treatment {
         ratio[] = {};
         type = "Blood";
         class BloodIV {
-            volume = 1500;
+            volume = 1600;
             ratio[] = {"Plasma", 1};
         };
         class BloodIV_500: BloodIV {
-            volume = 750;
+            volume = 800;
         };
         class PlasmaIV: BloodIV {
             volume = 2000;

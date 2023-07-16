@@ -1,5 +1,15 @@
 class CfgAmmo
 {   
+    class rhsusf_ammo_127x99_M33_Ball;
+    class rtg_127x99 : rhsusf_ammo_127x99_M33_Ball {
+        hit = 90;
+        model = "\A3\Weapons_f\Data\bullettracer\tracer_red";
+        ACE_bulletMass = 49.2176;
+        AB_ballisticCoefficients[] = { 0.692 };
+        ACE_muzzleVelocities[] = { 1000, 1200, 1500 };
+        ACE_barrelLengths[] = { 254.0, 393.7, 508.0 };
+    }
+
     class B_556x45_Ball;
     class rtg_556x45 : B_556x45_Ball {
         hit = 10;
@@ -44,6 +54,8 @@ class CfgAmmo
     class B_545x39_Ball_F;
     class rtg_545 : B_545x39_Ball_F {
         hit = 9;
+        ACE_muzzleVelocities[] = { 910, 1000, 1150 };
+        ACE_barrelLengths[] = { 254.0, 393.7, 508.0 };
         model = "\A3\Weapons_f\Data\bullettracer\tracer_red";
     }
 
@@ -57,12 +69,6 @@ class CfgAmmo
         ACE_barrelLengths[] = { 280.0, 393.7, 508.0 };
     }
 
-    class ACE_9x19_Ball;
-    class rtg_9mm : ACE_9x19_Ball {
-        hit = 8;
-        model = "\A3\Weapons_f\Data\bullettracer\tracer_red";
-    };
-
     class HLC_300Blackout_Ball;
     class rtg_300blk : HLC_300Blackout_Ball{
 		hit = 12;
@@ -71,6 +77,20 @@ class CfgAmmo
 		AB_ballisticCoefficients[] = { 0.122 };
 		ACE_muzzleVelocities[] = { 300, 400, 452 };
 		ACE_barrelLengths[] = { 254.0, 393.7, 508.0 };
+    };
+
+    class B_580x42_Ball_F;
+    class rtg_580 : B_580x42_Ball_F {
+        hit = 9;
+        ACE_muzzleVelocities[] = { 910, 1000, 1150 };
+        ACE_barrelLengths[] = { 254.0, 393.7, 508.0 };
+        model = "\A3\Weapons_f\Data\bullettracer\tracer_red";
+    };
+
+    class ACE_9x19_Ball;
+    class rtg_9mm : ACE_9x19_Ball {
+        hit = 8;
+        model = "\A3\Weapons_f\Data\bullettracer\tracer_red";
     };
 
     class B_45ACP_Ball;
@@ -151,7 +171,7 @@ class CfgAmmo
 
     class R_MRAAWS_HEAT_F;
     class rtg_heat_MRAAWS : R_MRAAWS_HEAT_F {
-        hit = 220;
+        hit = 380;
         indirectHit = 20;
 		indirectHitRange = 4;
         airFriction = 0.05;
@@ -175,21 +195,6 @@ class CfgAmmo
 		thrust = 0.1;
     };
 
-    class rtg_tbar_MRAAWS : R_MRAAWS_HE_F {
-		submunitionConeAngle[]			= {120, 220};
-		submunitionConeAngleHorizontal	= 720;
-		submunitionAutoleveling			= 1;
-		submunitionConeType[]			= {"randomupcone", 15};
-		submunitionAmmo					= rhs_ammo_thermobaric_wave;
-		submunitionDirectionType		= SubmunitionModelDirection;
-		submunitionInitialOffset[]		= {0,0,-0.4};
-		submunitionParentSpeedCoef		= 0;
-		submunitionInitSpeed			= 200;
-		deleteParentWhenTriggered		= false;
-		triggerTime						= -1;
-		triggerOnImpact					= 1;
-    };
-
     class rtg_heatg_MRAAWS : rtg_heat_MRAAWS {
         ace_frag_enabled = 1;
 		ace_frag_classes[] = {"ace_frag_medium","ace_frag_medium_HD"};
@@ -200,7 +205,7 @@ class CfgAmmo
 		manualControl = 0;
 		maneuvrability = 33;
 		effectsMissile = "missile2";
-		hit = 175;
+		hit = 420;
 		indirectHit = 50;
 		whistleDist = 4;
 		airFriction = 0.085;
@@ -235,21 +240,30 @@ class CfgAmmo
 		explosionEffects = "ATRocketExplosion";
     };
 
+    class SmokeShellArty;
+	class aphx_maaws_SMOKE: SmokeShellArty
+	{
+		model = "";
+		timeToLive = 120;
+		deflectionSlowDown = 0;
+	};
+	class RocketBase;
     class rtg_smoke_MRAAWS : R_MRAAWS_HE_F {
-        hit=30;
-		explosive=0;
-		caliber=1;
-		indirectHit=0;
-		indirectHitRange=2;
-		submunitionAmmo="G_40mm_Smoke";
-		submunitionConeType[] = {"poissondisccenter",3};
-		submunitionConeAngle = 20;
-		submunitionConeAngleHorizontal = 50;
-		triggerDistance=5;
-		triggerOnImpact=1;
-		ExplosionEffects="";
-		explosionEffectsDir="";
-		deleteParentWhenTriggered=1;
-		submunitionInitSpeed=0;
-    };
+        hit = 40;
+        indirectHit = 30;
+		indirectHitRange = 20;
+        explosionEffects = "RHS_GDM40Effect";
+		submunitionAmmo = "aphx_maaws_SMOKE";
+		submunitionDirectionType = "SubmunitionModelDirection";
+		submunitionConeType[] = {"randomupcone",4};
+		submunitionConeAngle = 120;
+		submunitionConeAngleHorizontal = 30;
+		triggerDistance = 40;
+		deleteParentWhenTriggered = 0;
+		submunitionInitialOffset[] = {0,2,4};
+		submunitionInitSpeed = 0;
+		triggerSpeedCoef = 0.25;
+		submunitionParentSpeedCoef = 0.25;
+		simulation = "shotRocket";
+	};
 };

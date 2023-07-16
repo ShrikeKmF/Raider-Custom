@@ -339,6 +339,15 @@ class patsBackpack : B_Kitbag_rgr {
     hiddenSelectionsTextures[] = {"rtgEquipment\tex\patKitbag.paa"};
 };
 
+class sparklesBackpack : B_Kitbag_rgr {
+    scope = 2;
+	dlc = "raiderTactical";
+	Author = "Shrike";
+    displayName = "Kitbag - Sparkles";
+    maximumLoad = 380;
+    hiddenSelectionsTextures[] = {"rtgEquipment\tex\sparklesBag.paa"};
+};
+
 class B_CombinationUnitRespirator_01_F;
 class fishPack : B_CombinationUnitRespirator_01_F {
     scope = 2;

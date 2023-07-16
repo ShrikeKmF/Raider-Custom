@@ -12,7 +12,7 @@ class CfgPatches
 };
 class CfgInventoryGlobalVariable
 {
-	maxSoldierLoad = 9999999;
+	maxSoldierLoad = 1543;
 };
 class cfgMods
 {

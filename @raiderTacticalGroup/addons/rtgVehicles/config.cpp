@@ -67,7 +67,7 @@ class CfgVehicles {
         armor = 350;
         armorEngine = 100;
         armorGun = 100;
-        armorGlass = 100;
+        armorGlass = 250;
         armorFuel = 20;
         armorStructural = 400;
         armorLights = 0.5;
@@ -78,18 +78,20 @@ class CfgVehicles {
 		crewExplosionProtection = 0.9999;
 		threat[] = {0.8,0.6,0.3};
 
-        maxSpeed = 110;
+        maxSpeed = 125;
         maximumLoad = 20000;
         ace_cargo_space = 16;
         ace_vehicles_engineStartDelay = 3;
         acre_hasInfantryPhone = 0;
         canFloat = 1;
-        weapons[] = {"SmokeLauncher"};
+        waterSpeedFactor = 1;
+        waterResistanceCoef = 0.11;
+        weapons[] = {"SmokeLauncher", "TruckHorn"};
         magazines[] = {"SmokeLauncherMag"};
-        smokeLauncherGrenadeCount = 4;
+        smokeLauncherGrenadeCount = 6;
 		smokeLauncherVelocity = 14;
 		smokeLauncherOnTurret = 0;
-		smokeLauncherAngle = 160;
+		smokeLauncherAngle = 30;
 
         class textureSources
         {
@@ -99,9 +101,12 @@ class CfgVehicles {
                 // Display name of the texture
                 displayName = "Black";
                 // Author of the texture
-                author = "shrike";
+                author = "Shrike";
                 // Paths to the texture files, in the same order as the hidden selections
-                textures[] = {"rtgVehicles\rtg_hawkei.paa"};
+                textures[] = 
+                {
+                    "rtgVehicles\tex\hawkei\rtg_hawkei.paa"
+                };
                 // This source should be available for the following factions
                 factions[] =
                 {
@@ -113,9 +118,63 @@ class CfgVehicles {
                 // Display name of the texture
                 displayName = "Tan";
                 // Author of the texture
-                author = "shrike";
+                author = "Shrike";
                 // Paths to the texture files, in the same order as the hidden selections
-                textures[] = {"rtgVehicles\rtg_hawkei_tan.paa"};
+                textures[] = 
+                {
+                    "rtgVehicles\tex\hawkei\rtg_hawkei_tan.paa"
+                };
+                // This source should be available for the following factions
+                factions[] =
+                {
+                    "Raider_Tactical_F"
+                };
+            };
+            class rtg_ucp
+            {
+                // Display name of the texture
+                displayName = "UCP";
+                // Author of the texture
+                author = "Shrike";
+                // Paths to the texture files, in the same order as the hidden selections
+                textures[] = 
+                {
+                    "rtgVehicles\tex\hawkei\rtg_hawkei_ucp.paa"
+                };
+                // This source should be available for the following factions
+                factions[] =
+                {
+                    "Raider_Tactical_F"
+                };
+            }
+            class rtg_alpine
+            {
+                // Display name of the texture
+                displayName = "Alpine";
+                // Author of the texture
+                author = "Shrike";
+                // Paths to the texture files, in the same order as the hidden selections
+                textures[] = 
+                {
+                    "rtgVehicles\tex\hawkei\rtg_hawkei_alpine.paa"
+                };
+                // This source should be available for the following factions
+                factions[] =
+                {
+                    "Raider_Tactical_F"
+                };
+            };
+            class rtg_dazzle
+            {
+                // Display name of the texture
+                displayName = "Dazzle";
+                // Author of the texture
+                author = "Shrike";
+                // Paths to the texture files, in the same order as the hidden selections
+                textures[] = 
+                {
+                    "rtgVehicles\tex\hawkei\rtg_hawkei_dazzle.paa"
+                };
                 // This source should be available for the following factions
                 factions[] =
                 {
@@ -259,6 +318,8 @@ class CfgVehicles {
         ace_vehicles_engineStartDelay = 3;
         acre_hasInfantryPhone = 0;
         canFloat = 1;
+        waterSpeedFactor = 1;
+        waterResistanceCoef = 0.11;
         weapons[] = {"SmokeLauncher"};
         magazines[] = {"SmokeLauncherMag"};
         smokeLauncherGrenadeCount = 4;
@@ -273,29 +334,285 @@ class CfgVehicles {
 
         class textureSources
         {
-            // This texture source will be available for every defined factions
-            class rtg_black
+            class rtg_alpine1
             {
                 // Display name of the texture
-                displayName = "Black";
+                displayName = "Alpine (Sabre)";
                 // Author of the texture
                 author = "Fish";
                 // Paths to the texture files, in the same order as the hidden selections
-                textures[] = { "rtgVehicles\rtg_bushmaster.paa" };
+                textures[] = {
+                    "rtgVehicles\tex\bushmaster\bm2_AE_S.paa",
+                    "",
+					"",
+					""
+                };
                 // This source should be available for the following factions
                 factions[] =
                 {
                     "Raider_Tactical_F"
                 };
             };
-            class rtg_tan
+            class rtg_alpine2
             {
                 // Display name of the texture
-                displayName = "Tan";
+                displayName = "Alpine (Ares)";
                 // Author of the texture
                 author = "Fish";
                 // Paths to the texture files, in the same order as the hidden selections
-                textures[] = { "rtgVehicles\rtg_bushmaster_tan.paa" };
+                textures[] = {
+                    "rtgVehicles\tex\bushmaster\bm2_AE_A.paa",
+                    "",
+					"",
+					""
+                };
+                // This source should be available for the following factions
+                factions[] =
+                {
+                    "Raider_Tactical_F"
+                };
+            };
+            class rtg_alpine3
+            {
+                // Display name of the texture
+                displayName = "Alpine (Cypher)";
+                // Author of the texture
+                author = "Fish";
+                // Paths to the texture files, in the same order as the hidden selections
+                textures[] = {
+                    "rtgVehicles\tex\bushmaster\bm2_AE_C.paa",
+                    "",
+					"",
+					""
+                };
+                // This source should be available for the following factions
+                factions[] =
+                {
+                    "Raider_Tactical_F"
+                };
+            };
+            class rtg_black1
+            {
+                // Display name of the texture
+                displayName = "Black (Sabre)";
+                // Author of the texture
+                author = "Fish";
+                // Paths to the texture files, in the same order as the hidden selections
+                textures[] = {
+                    "rtgVehicles\tex\bushmaster\bm2_S.paa",
+                    "",
+					"",
+					""
+                };
+                // This source should be available for the following factions
+                factions[] =
+                {
+                    "Raider_Tactical_F"
+                };
+            };
+            class rtg_black2
+            {
+                // Display name of the texture
+                displayName = "Black (Ares)";
+                // Author of the texture
+                author = "Fish";
+                // Paths to the texture files, in the same order as the hidden selections
+                textures[] = {
+                    "rtgVehicles\tex\bushmaster\bm2_A.paa",
+                    "",
+					"",
+					""
+                };
+                // This source should be available for the following factions
+                factions[] =
+                {
+                    "Raider_Tactical_F"
+                };
+            };
+            class rtg_black3
+            {
+                // Display name of the texture
+                displayName = "Black (Cypher)";
+                // Author of the texture
+                author = "Fish";
+                // Paths to the texture files, in the same order as the hidden selections
+                textures[] = {
+                    "rtgVehicles\tex\bushmaster\bm2_C.paa",
+                    "",
+					"",
+					""
+                };
+                // This source should be available for the following factions
+                factions[] =
+                {
+                    "Raider_Tactical_F"
+                };
+            };
+            class rtg_tan1
+            {
+                // Display name of the texture
+                displayName = "Tan (Sabre)";
+                // Author of the texture
+                author = "Fish";
+                // Paths to the texture files, in the same order as the hidden selections
+                textures[] = {
+                    "rtgVehicles\tex\bushmaster\bm2_TN_S.paa",
+                    "",
+					"",
+					""
+                };
+                // This source should be available for the following factions
+                factions[] =
+                {
+                    "Raider_Tactical_F"
+                };
+            };
+            class rtg_tan2
+            {
+                // Display name of the texture
+                displayName = "Tan (Ares)";
+                // Author of the texture
+                author = "Fish";
+                // Paths to the texture files, in the same order as the hidden selections
+                textures[] = {
+                    "rtgVehicles\tex\bushmaster\bm2_TN_A.paa",
+                    "",
+					"",
+					""
+                };
+                // This source should be available for the following factions
+                factions[] =
+                {
+                    "Raider_Tactical_F"
+                };
+            };
+            class rtg_tan3
+            {
+                // Display name of the texture
+                displayName = "Tan (Cypher)";
+                // Author of the texture
+                author = "Fish";
+                // Paths to the texture files, in the same order as the hidden selections
+                textures[] = {
+                    "rtgVehicles\tex\bushmaster\bm2_TN_C.paa",
+                    "",
+					"",
+					""
+                };
+                // This source should be available for the following factions
+                factions[] =
+                {
+                    "Raider_Tactical_F"
+                };
+            };
+            class rtg_dazzle1
+            {
+                // Display name of the texture
+                displayName = "Dazzle (Sabre)";
+                // Author of the texture
+                author = "Fish";
+                // Paths to the texture files, in the same order as the hidden selections
+                textures[] = {
+                    "rtgVehicles\tex\bushmaster\bm2_DE_S.paa",
+                    "",
+					"",
+					""
+                };
+                // This source should be available for the following factions
+                factions[] =
+                {
+                    "Raider_Tactical_F"
+                };
+            };
+            class rtg_dazzle2
+            {
+                // Display name of the texture
+                displayName = "Dazzle (Ares)";
+                // Author of the texture
+                author = "Fish";
+                // Paths to the texture files, in the same order as the hidden selections
+                textures[] = {
+                    "rtgVehicles\tex\bushmaster\bm2_DE_A.paa",
+                    "",
+					"",
+					""
+                };
+                // This source should be available for the following factions
+                factions[] =
+                {
+                    "Raider_Tactical_F"
+                };
+            };
+            class rtg_dazzle3
+            {
+                // Display name of the texture
+                displayName = "Dazzle (Cypher)";
+                // Author of the texture
+                author = "Fish";
+                // Paths to the texture files, in the same order as the hidden selections
+                textures[] = {
+                    "rtgVehicles\tex\bushmaster\bm2_DE_C.paa",
+                    "",
+					"",
+					""
+                };
+                // This source should be available for the following factions
+                factions[] =
+                {
+                    "Raider_Tactical_F"
+                };
+            };
+            class rtg_ucp1
+            {
+                // Display name of the texture
+                displayName = "UCP (Sabre)";
+                // Author of the texture
+                author = "Fish";
+                // Paths to the texture files, in the same order as the hidden selections
+                textures[] = {
+                    "rtgVehicles\tex\bushmaster\bm2_UCP_S.paa",
+                    "",
+					"",
+					""
+                };
+                // This source should be available for the following factions
+                factions[] =
+                {
+                    "Raider_Tactical_F"
+                };
+            };
+            class rtg_ucp2
+            {
+                // Display name of the texture
+                displayName = "UCP (Ares)";
+                // Author of the texture
+                author = "Fish";
+                // Paths to the texture files, in the same order as the hidden selections
+                textures[] = {
+                    "rtgVehicles\tex\bushmaster\bm2_UCP_A.paa",
+                    "",
+					"",
+					""
+                };
+                // This source should be available for the following factions
+                factions[] =
+                {
+                    "Raider_Tactical_F"
+                };
+            };
+            class rtg_ucp3
+            {
+                // Display name of the texture
+                displayName = "UCP (Cypher)";
+                // Author of the texture
+                author = "Fish";
+                // Paths to the texture files, in the same order as the hidden selections
+                textures[] = {
+                    "rtgVehicles\tex\bushmaster\bm2_UCP_C.paa",
+                    "",
+					"",
+					""
+                };
                 // This source should be available for the following factions
                 factions[] =
                 {
@@ -437,6 +754,8 @@ class CfgVehicles {
         ace_vehicles_engineStartDelay = 3;
         acre_hasInfantryPhone = 0;
         canFloat = 1;
+        waterSpeedFactor = 1;
+        waterResistanceCoef = 0.11;
         weapons[] = {"SmokeLauncher"};
         magazines[] = {"SmokeLauncherMag"};
         smokeLauncherGrenadeCount = 4;
@@ -516,7 +835,6 @@ class CfgVehicles {
                 name = "ACE_MRE_BeefStew";
                 count = 5;
             };
-
         };
         class TransportWeapons
         {
@@ -558,6 +876,294 @@ class CfgVehicles {
                     amount = 4;
                 };
             }; 
+        };
+        class textureSources
+        {
+            class rtg_alpine1
+            {
+                // Display name of the texture
+                displayName = "Alpine (Sabre)";
+                // Author of the texture
+                author = "Fish";
+                // Paths to the texture files, in the same order as the hidden selections
+                textures[] = {
+                    "rtgVehicles\tex\bushmaster\bm2_AE_S.paa",
+                    "",
+					"",
+					""
+                };
+                // This source should be available for the following factions
+                factions[] =
+                {
+                    "Raider_Tactical_F"
+                };
+            };
+            class rtg_alpine2
+            {
+                // Display name of the texture
+                displayName = "Alpine (Ares)";
+                // Author of the texture
+                author = "Fish";
+                // Paths to the texture files, in the same order as the hidden selections
+                textures[] = {
+                    "rtgVehicles\tex\bushmaster\bm2_AE_A.paa",
+                    "",
+					"",
+					""
+                };
+                // This source should be available for the following factions
+                factions[] =
+                {
+                    "Raider_Tactical_F"
+                };
+            };
+            class rtg_alpine3
+            {
+                // Display name of the texture
+                displayName = "Alpine (Cypher)";
+                // Author of the texture
+                author = "Fish";
+                // Paths to the texture files, in the same order as the hidden selections
+                textures[] = {
+                    "rtgVehicles\tex\bushmaster\bm2_AE_C.paa",
+                    "",
+					"",
+					""
+                };
+                // This source should be available for the following factions
+                factions[] =
+                {
+                    "Raider_Tactical_F"
+                };
+            };
+            class rtg_black1
+            {
+                // Display name of the texture
+                displayName = "Black (Sabre)";
+                // Author of the texture
+                author = "Fish";
+                // Paths to the texture files, in the same order as the hidden selections
+                textures[] = {
+                    "rtgVehicles\tex\bushmaster\bm2_S.paa",
+                    "",
+					"",
+					""
+                };
+                // This source should be available for the following factions
+                factions[] =
+                {
+                    "Raider_Tactical_F"
+                };
+            };
+            class rtg_black2
+            {
+                // Display name of the texture
+                displayName = "Black (Ares)";
+                // Author of the texture
+                author = "Fish";
+                // Paths to the texture files, in the same order as the hidden selections
+                textures[] = {
+                    "rtgVehicles\tex\bushmaster\bm2_A.paa",
+                    "",
+					"",
+					""
+                };
+                // This source should be available for the following factions
+                factions[] =
+                {
+                    "Raider_Tactical_F"
+                };
+            };
+            class rtg_black3
+            {
+                // Display name of the texture
+                displayName = "Black (Cypher)";
+                // Author of the texture
+                author = "Fish";
+                // Paths to the texture files, in the same order as the hidden selections
+                textures[] = {
+                    "rtgVehicles\tex\bushmaster\bm2_C.paa",
+                    "",
+					"",
+					""
+                };
+                // This source should be available for the following factions
+                factions[] =
+                {
+                    "Raider_Tactical_F"
+                };
+            };
+            class rtg_tan1
+            {
+                // Display name of the texture
+                displayName = "Tan (Sabre)";
+                // Author of the texture
+                author = "Fish";
+                // Paths to the texture files, in the same order as the hidden selections
+                textures[] = {
+                    "rtgVehicles\tex\bushmaster\bm2_TN_S.paa",
+                    "",
+					"",
+					""
+                };
+                // This source should be available for the following factions
+                factions[] =
+                {
+                    "Raider_Tactical_F"
+                };
+            };
+            class rtg_tan2
+            {
+                // Display name of the texture
+                displayName = "Tan (Ares)";
+                // Author of the texture
+                author = "Fish";
+                // Paths to the texture files, in the same order as the hidden selections
+                textures[] = {
+                    "rtgVehicles\tex\bushmaster\bm2_TN_A.paa",
+                    "",
+					"",
+					""
+                };
+                // This source should be available for the following factions
+                factions[] =
+                {
+                    "Raider_Tactical_F"
+                };
+            };
+            class rtg_tan3
+            {
+                // Display name of the texture
+                displayName = "Tan (Cypher)";
+                // Author of the texture
+                author = "Fish";
+                // Paths to the texture files, in the same order as the hidden selections
+                textures[] = {
+                    "rtgVehicles\tex\bushmaster\bm2_TN_C.paa",
+                    "",
+					"",
+					""
+                };
+                // This source should be available for the following factions
+                factions[] =
+                {
+                    "Raider_Tactical_F"
+                };
+            };
+            class rtg_dazzle1
+            {
+                // Display name of the texture
+                displayName = "Dazzle (Sabre)";
+                // Author of the texture
+                author = "Fish";
+                // Paths to the texture files, in the same order as the hidden selections
+                textures[] = {
+                    "rtgVehicles\tex\bushmaster\bm2_DE_S.paa",
+                    "",
+					"",
+					""
+                };
+                // This source should be available for the following factions
+                factions[] =
+                {
+                    "Raider_Tactical_F"
+                };
+            };
+            class rtg_dazzle2
+            {
+                // Display name of the texture
+                displayName = "Dazzle (Ares)";
+                // Author of the texture
+                author = "Fish";
+                // Paths to the texture files, in the same order as the hidden selections
+                textures[] = {
+                    "rtgVehicles\tex\bushmaster\bm2_DE_A.paa",
+                    "",
+					"",
+					""
+                };
+                // This source should be available for the following factions
+                factions[] =
+                {
+                    "Raider_Tactical_F"
+                };
+            };
+            class rtg_dazzle3
+            {
+                // Display name of the texture
+                displayName = "Dazzle (Cypher)";
+                // Author of the texture
+                author = "Fish";
+                // Paths to the texture files, in the same order as the hidden selections
+                textures[] = {
+                    "rtgVehicles\tex\bushmaster\bm2_DE_C.paa",
+                    "",
+					"",
+					""
+                };
+                // This source should be available for the following factions
+                factions[] =
+                {
+                    "Raider_Tactical_F"
+                };
+            };
+            class rtg_ucp1
+            {
+                // Display name of the texture
+                displayName = "UCP (Sabre)";
+                // Author of the texture
+                author = "Fish";
+                // Paths to the texture files, in the same order as the hidden selections
+                textures[] = {
+                    "rtgVehicles\tex\bushmaster\bm2_UCP_S.paa",
+                    "",
+					"",
+					""
+                };
+                // This source should be available for the following factions
+                factions[] =
+                {
+                    "Raider_Tactical_F"
+                };
+            };
+            class rtg_ucp2
+            {
+                // Display name of the texture
+                displayName = "UCP (Ares)";
+                // Author of the texture
+                author = "Fish";
+                // Paths to the texture files, in the same order as the hidden selections
+                textures[] = {
+                    "rtgVehicles\tex\bushmaster\bm2_UCP_A.paa",
+                    "",
+					"",
+					""
+                };
+                // This source should be available for the following factions
+                factions[] =
+                {
+                    "Raider_Tactical_F"
+                };
+            };
+            class rtg_ucp3
+            {
+                // Display name of the texture
+                displayName = "UCP (Cypher)";
+                // Author of the texture
+                author = "Fish";
+                // Paths to the texture files, in the same order as the hidden selections
+                textures[] = {
+                    "rtgVehicles\tex\bushmaster\bm2_UCP_C.paa",
+                    "",
+					"",
+					""
+                };
+                // This source should be available for the following factions
+                factions[] =
+                {
+                    "Raider_Tactical_F"
+                };
+            };
         };
     };
 
@@ -670,17 +1276,23 @@ class CfgVehicles {
 			};
         };
 
-        /*class textureSources
+        class textureSources
         {
             // This texture source will be available for every defined factions
             class rtg_huey1
             {
                 // Display name of the texture
-                displayName = "Huey 1";
+                displayName = "Damper 1";
                 // Author of the texture
                 author = "shrike";
                 // Paths to the texture files, in the same order as the hidden selections
-                textures[] = {"rtgVehicles\rtg_huey.paa"};
+                textures[] = 
+                {
+                    "rtgVehicles\tex\huey\rtg_huey.paa",
+					"rhsgref\addons\rhsgref_air\uh1h\data\uh1h_black_in_co.paa",
+					"rhsgref\addons\rhsgref_air\uh1h\data\mlod_black_co.paa",
+					"rhsgref\addons\rhsgref_air\uh1h\data\decals\blank_ca.paa"
+                };
                 // This source should be available for the following factions
                 factions[] =
                 {
@@ -690,11 +1302,17 @@ class CfgVehicles {
             class rtg_huey2
             {
                 // Display name of the texture
-                displayName = "Huey 2";
+                displayName = "Damper 2";
                 // Author of the texture
                 author = "shrike";
                 // Paths to the texture files, in the same order as the hidden selections
-                textures[] = {"rtgVehicles\rtg_huey_2.paa"};
+                textures[] = 
+                {
+                    "rtgVehicles\tex\huey\rtg_huey2.paa",
+					"rhsgref\addons\rhsgref_air\uh1h\data\uh1h_black_in_co.paa",
+					"rhsgref\addons\rhsgref_air\uh1h\data\mlod_black_co.paa",
+					"rhsgref\addons\rhsgref_air\uh1h\data\decals\blank_ca.paa"
+                };
                 // This source should be available for the following factions
                 factions[] =
                 {
@@ -704,18 +1322,24 @@ class CfgVehicles {
             class rtg_huey3
             {
                 // Display name of the texture
-                displayName = "Huey 3";
+                displayName = "Damper 3";
                 // Author of the texture
                 author = "shrike";
                 // Paths to the texture files, in the same order as the hidden selections
-                textures[] = {"rtgVehicles\rtg_huey_3.paa"};
+                textures[] = 
+                {
+                    "rtgVehicles\tex\huey\rtg_huey3.paa",
+					"rhsgref\addons\rhsgref_air\uh1h\data\uh1h_black_in_co.paa",
+					"rhsgref\addons\rhsgref_air\uh1h\data\mlod_black_co.paa",
+					"rhsgref\addons\rhsgref_air\uh1h\data\decals\blank_ca.paa"
+                };
                 // This source should be available for the following factions
                 factions[] =
                 {
                     "Raider_Tactical_F"
                 };
             };
-        };*/
+        };
 
         class TransportItems
         {
@@ -960,11 +1584,17 @@ class CfgVehicles {
             class rtg_huey1
             {
                 // Display name of the texture
-                displayName = "Huey 1";
+                displayName = "Damper 1";
                 // Author of the texture
                 author = "shrike";
                 // Paths to the texture files, in the same order as the hidden selections
-                textures[] = {"rtgVehicles\rtg_huey.paa"};
+                textures[] = 
+                {
+                    "rtgVehicles\tex\huey\rtg_huey.paa",
+					"rhsgref\addons\rhsgref_air\uh1h\data\uh1h_black_in_co.paa",
+					"rhsgref\addons\rhsgref_air\uh1h\data\mlod_black_co.paa",
+					"rhsgref\addons\rhsgref_air\uh1h\data\decals\blank_ca.paa"
+                };
                 // This source should be available for the following factions
                 factions[] =
                 {
@@ -974,11 +1604,17 @@ class CfgVehicles {
             class rtg_huey2
             {
                 // Display name of the texture
-                displayName = "Huey 2";
+                displayName = "Damper 2";
                 // Author of the texture
                 author = "shrike";
                 // Paths to the texture files, in the same order as the hidden selections
-                textures[] = {"rtgVehicles\rtg_huey_2.paa"};
+                textures[] = 
+                {
+                    "rtgVehicles\tex\huey\rtg_huey2.paa",
+					"rhsgref\addons\rhsgref_air\uh1h\data\uh1h_black_in_co.paa",
+					"rhsgref\addons\rhsgref_air\uh1h\data\mlod_black_co.paa",
+					"rhsgref\addons\rhsgref_air\uh1h\data\decals\blank_ca.paa"
+                };
                 // This source should be available for the following factions
                 factions[] =
                 {
@@ -988,11 +1624,17 @@ class CfgVehicles {
             class rtg_huey3
             {
                 // Display name of the texture
-                displayName = "Huey 3";
+                displayName = "Damper 3";
                 // Author of the texture
                 author = "shrike";
                 // Paths to the texture files, in the same order as the hidden selections
-                textures[] = {"rtgVehicles\rtg_huey_3.paa"};
+                textures[] = 
+                {
+                    "rtgVehicles\tex\huey\rtg_huey3.paa",
+					"rhsgref\addons\rhsgref_air\uh1h\data\uh1h_black_in_co.paa",
+					"rhsgref\addons\rhsgref_air\uh1h\data\mlod_black_co.paa",
+					"rhsgref\addons\rhsgref_air\uh1h\data\decals\blank_ca.paa"
+                };
                 // This source should be available for the following factions
                 factions[] =
                 {

@@ -50,6 +50,22 @@ class CfgMagazines
 	class ACWP_19Rnd_9x21_Mag_glock;
     class hlc_30Rnd_762x51_B_L4;
     class rhs_mag_20Rnd_556x45_M855_Stanag;
+    class 30Rnd_580x42_Mag_F;
+    class 100Rnd_580x42_Mag_F;
+    class rhsusf_mag_10Rnd_STD_50BMG_M33;
+    class 100Rnd_65x39_caseless_black_mag;
+    
+    // 50 BMG 
+    class rtg_10Rnd_127x99 : rhsusf_mag_10Rnd_STD_50BMG_M33 {
+        author = "Shrike";
+        ammo = "rtg_127x99";
+        count = 10;
+        tracersevery = 1;
+        descriptionshort = "Raider Tactical Standard Issue 12.7mm Ammo";
+        displayname = "[RTG] 10rnd 12.7mm MAG";
+        displaynameshort = "10Rnd 12.7x99";
+        scope = 2;
+    };
 
 	// 7.62 Nato
     class rtg_20Rnd_762x51 : ACE_20Rnd_762x51_M118LR_Mag {
@@ -86,7 +102,7 @@ class CfgMagazines
         displayname = "[RTG] 200rnd 7.62mm MAG";
         displaynameshort = "200Rnd 7.62x51";
         scope = 2;
-        mass = 98;
+        mass = 80;
     };
 	
 	class rtg_200Rnd_762x51_t : hlc_200Rnd_762x51_T_M60E4 {
@@ -99,8 +115,33 @@ class CfgMagazines
         displayname = "[RTG] 200rnd Tracer 7.62mm MAG";
         displaynameshort = "200Rnd Tracer 7.62x51";
         scope = 2;
-        mass = 98;
+        mass = 80;
     };
+
+    // 5.8
+    class rtg_30rnd_58x42 : 30Rnd_580x42_Mag_F {
+        author = "Shrike";
+        ammo = "rtg_580";
+        count = 30;
+        tracersevery = 3;
+        lastroundstracer = 4;
+        descriptionshort = "Raider Tactical Standard Issue 5.8mm Ammo";
+        displayname = "[RTG] 30rnd 5.8mm PMAG";
+        displaynameshort = "30Rnd 5.8x42";
+        scope = 2;
+    }
+
+    class rtg_100rnd_58x42 : 100Rnd_580x42_Mag_F {
+        author = "Shrike";
+        ammo = "rtg_580";
+        count = 10;
+        tracersevery = 3;
+        lastroundstracer = 4;
+        descriptionshort = "Raider Tactical Standard Issue 5.8mm Ammo";
+        displayname = "[RTG] 100rnd 5.8mm Mag";
+        displaynameshort = "100Rnd 5.8x42";
+        scope = 2;
+    }
 
 	// 5.45
     class rtg_30rnd_545_49 : hlc_30Rnd_545x39_EP_ak_Black {
@@ -291,6 +332,32 @@ class CfgMagazines
         scope = 2;
     };
 
+    class rtg_200Rnd_9mm : 100Rnd_65x39_caseless_black_mag {
+        author = "Shrike";
+        ammo = "rtg_9mm";
+        count = 250;
+        tracersevery = 3;
+        lastroundstracer = 4;
+        descriptionshort = "Raider Tactical Standard Issue 9mm Ammo";
+        displayname = "[RTG] 250rnd 9mm MAG";
+        displaynameshort = "250Rnd 9mm";
+        scope = 2;
+        mass = 80;
+    };
+
+    class rtg_200Rnd_9mm_T : 100Rnd_65x39_caseless_black_mag {
+        author = "Shrike";
+        ammo = "rtg_9mm";
+        count = 250;
+        tracersevery = 1;
+        lastroundstracer = 4;
+        descriptionshort = "Raider Tactical Standard Issue Tracer 9mm Ammo";
+        displayname = "[RTG] 250rnd 9mm MAG Tracer";
+        displaynameshort = "250Rnd 9mm Tracer";
+        scope = 2;
+        mass = 80;
+    };
+
     class RH_7Rnd_50_AE;
     class rtg_50_ae_8rnd_mag : RH_7Rnd_50_AE {
         author = "Shrike";
@@ -313,6 +380,8 @@ class CfgMagazines
         descriptionshort = "Raider Tactical Standard Issue 50 AE Ammo";
         displayname = "[RTG] 20rnd 50 AE Mag";
         displaynameshort = "20Rnd 50AE";
+        model = "\hlc_wp_aug\mesh\magazine\magazine2.p3d";
+		modelSpecial = "\hlc_wp_aug\mesh\magazine\proxy\25rnd_9x19mm_AUG.p3d";
         scope = 2;
     }
 

@@ -2353,6 +2353,28 @@ class patHat : FP_Cap_Peltor_Olv {
     };
 };
 
+class rhsusf_cvc_alt_helmet;
+class samHat : rhsusf_cvc_alt_helmet {
+    scope = 2;
+	dlc = "raiderTactical";
+	Author = "Shrike";
+    displayName="CVC Helmet - Sam";
+    mass = 2;
+    hiddenSelectionsTextures[] = {"rtgEquipment\tex\samHat.paa"};
+    class ItemInfo: ItemInfo
+    {
+        class HitpointsProtectionInfo
+        {
+            class head
+            {
+                HitpointName="HitHead";
+                armor=4.7;
+                PassThrough=0.30000001;
+            };
+        };
+    };
+};
+
 // Tex
 class rhsusf_opscore_ut_pelt_nsw_cam;
 class texHat : rhsusf_opscore_ut_pelt_nsw_cam {

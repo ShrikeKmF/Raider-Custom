@@ -14,6 +14,7 @@ class hlc_rifle_auga3 : hlc_aug_base
 		model = "rtg_ace_expanded_aug";
 		barrel = "rifle";
 		camo = "khaki";
+		gl = "no";
 	};
 };
 class hlc_rifle_auga3_bl : hlc_rifle_auga3
@@ -25,6 +26,7 @@ class hlc_rifle_auga3_bl : hlc_rifle_auga3
 		model = "rtg_ace_expanded_aug";
 		barrel = "rifle";
 		camo = "blue";
+		gl = "no";
 	};
 };
 class hlc_rifle_auga3_b : hlc_rifle_auga3
@@ -36,6 +38,7 @@ class hlc_rifle_auga3_b : hlc_rifle_auga3
 		model = "rtg_ace_expanded_aug";
 		barrel = "rifle";
 		camo = "black";
+		gl = "no";
 	};
 };
 class hlc_rifle_auga3_GL : hlc_aug_base
@@ -44,8 +47,10 @@ class hlc_rifle_auga3_GL : hlc_aug_base
 	magazines[] = {"rtg_30rnd_556_45"};
 	class XtdGearInfo
 	{
-		model = "rtg_ace_expanded_aug_gl";
+		model = "rtg_ace_expanded_aug";
+		barrel = "rifle";
 		camo = "khaki";
+		gl = "gl";
 	};
 };
 class hlc_rifle_auga3_GL_BL : hlc_rifle_auga3_GL
@@ -54,8 +59,10 @@ class hlc_rifle_auga3_GL_BL : hlc_rifle_auga3_GL
 	magazines[] = {"rtg_30rnd_556_45"};
 	class XtdGearInfo
 	{
-		model = "rtg_ace_expanded_aug_gl";
+		model = "rtg_ace_expanded_aug";
+		barrel = "rifle";
 		camo = "blue";
+		gl = "gl";
 	};
 };
 class hlc_rifle_auga3_GL_B : hlc_rifle_auga3_GL
@@ -64,8 +71,10 @@ class hlc_rifle_auga3_GL_B : hlc_rifle_auga3_GL
 	magazines[] = {"rtg_30rnd_556_45"};
 	class XtdGearInfo
 	{
-		model = "rtg_ace_expanded_aug_gl";
+		model = "rtg_ace_expanded_aug";
+		barrel = "rifle";
 		camo = "black";
+		gl = "gl";
 	};
 };
 class hlc_rifle_auga2para : hlc_aug_base
@@ -77,6 +86,7 @@ class hlc_rifle_auga2para : hlc_aug_base
 		model = "rtg_ace_expanded_aug";
 		barrel = "para";
 		camo = "khaki";
+		gl = "no";
 	};
 };
 class hlc_rifle_auga2para_t : hlc_rifle_auga2para
@@ -88,6 +98,7 @@ class hlc_rifle_auga2para_t : hlc_rifle_auga2para
 		model = "rtg_ace_expanded_aug";
 		barrel = "para";
 		camo = "sand";
+		gl = "no";
 	};
 };
 class hlc_rifle_auga2para_b : hlc_rifle_auga2para
@@ -99,5 +110,6 @@ class hlc_rifle_auga2para_b : hlc_rifle_auga2para
 		model = "rtg_ace_expanded_aug";
 		barrel = "para";
 		camo = "black";
+		gl = "no";
 	};
 };

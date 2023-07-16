@@ -55,6 +55,15 @@ class CfgMagazineWells
 		};
 	};
 
+	class CTAR_580x42
+	{
+		RTG_Magazines[] =
+		{
+			"rtg_30rnd_58x42";
+			"rtg_100rnd_58x42";
+		};
+	};
+
     class CBA_762x39_AK // 7.62 AK
 	{
 		RTG_Magazines[] =
@@ -114,7 +123,17 @@ class CfgMagazineWells
 		};
     };
 
-    class RTG_9x19 { // 9mm Nato
+	class RTG_LMG_9x19 { // 9mm Nato
+		RTG_Magazines[] = 
+        {
+            "rtg_9mm_35Rnd_mag";
+            "rtg_9mm_21Rnd_mag";
+			"rtg_200Rnd_9mm";
+			"rtg_200Rnd_9mm_T";
+        };
+	};
+
+    class RTG_9x19 {
 		RTG_Magazines[] = 
         {
             "rtg_9mm_35Rnd_mag";
@@ -174,4 +193,12 @@ class CfgMagazineWells
 	{
 		NIA_mags[] = {"rtg_40SW"};
 	};
+
+	class CBA_50BMG_M107
+	{
+		RTG_Magazines[] = 
+        {
+            "rtg_10Rnd_127x99";
+        };
+	}
 };

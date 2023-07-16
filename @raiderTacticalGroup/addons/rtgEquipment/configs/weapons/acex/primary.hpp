@@ -22,7 +22,7 @@ class rtg_ace_expanded_m249 {
     class calibre
     {
         label = "Calibre";
-        values[] = {"N556", "N762", "N300"};
+        values[] = {"N556", "N762", "N300", "N9"};
         class N556
         {
             label = "5.56";
@@ -38,11 +38,16 @@ class rtg_ace_expanded_m249 {
             label = ".300";
             description = ".300 Blackout";
         };
+        class N9
+        {
+            label = "9";
+            description = "9mm Nato";
+        };
     };
     class stock
     {
         label = "Stock";
-        values[] = {"fixed","para", "pip"};
+        values[] = {"fixed","para", "pip", "light"};
         class fixed
         {
             label = "fixed";
@@ -58,6 +63,11 @@ class rtg_ace_expanded_m249 {
             label = "Pip";
             description = "Colapsable";
         };
+        class light
+        {
+            label = "LCBA";
+            description = "LCBA";
+        };
     };
 };
 
@@ -65,34 +75,80 @@ class rtg_ace_expanded_m249 {
 class rtg_ace_expanded_mp5 {
     label = "MP5";
     author = "Shrike";
-    options[] = {"form"};
+    options[] = {"form", "calibre", "grip"};
     class form
     {
         label = "Form Factor";
-        values[] = {"short","long", "sd"};
-        class short
-        {
-            label = "MP5K";
-            description = "Short Barrel";
-        };
-        class long
+        values[] = {"a2","a3", "a4", "a5", "sd5", "sd6"};
+        class a2
         {
             label = "MP5A2";
-            description = "Long Barrel";
+            description = "MP5A2";
         };
-        class sd
+        class a3
+        {
+            label = "MP5A3";
+            description = "MP5A3";
+        };
+        class a4
+        {
+            label = "MP5A4";
+            description = "MP5A4";
+        };;
+        class a5
+        {
+            label = "MP5A5";
+            description = "MP5A5";
+        };
+        class sd5
+        {
+            label = "MP5SD5";
+            description = "MP5SD5";
+        };
+        class sd6
         {
             label = "MP5SD6";
-            description = "Suppressed Barrel";
+            description = "MP5SD6";
         };
     };
+    class calibre
+    {
+        label = "Calibre";
+        values[] = {"N50", "N9"};
+        class N50
+        {
+            label = ".50 AE";
+            description = ".50 Action Express";
+        };
+        class N9
+        {
+            label = "9mm";
+            description = "9mm Nato";
+        };
+    };
+    class grip
+    {
+        label = "Handguard";
+        values[] = {"tac","std"};
+        class tac
+        {
+            label = "Tac";
+            description = "Tactical";
+        };
+        class std
+        {
+            label = "Std";
+            description = "Standard";
+        };
+    };
+    
 };
 
 // AUG
 class rtg_ace_expanded_aug {
     label = "AUG";
     author = "Shrike";
-    options[] = {"barrel", "camo"};
+    options[] = {"barrel", "camo", "gl"};
     class barrel
     {
         label = "Barrel";
@@ -138,36 +194,19 @@ class rtg_ace_expanded_aug {
             description = "Khaki";
         };
     };
-};
-
-// AUG GL
-class rtg_ace_expanded_aug_gl {
-    label = "AUG GL";
-    author = "Shrike";
-    options[] = {"camo"};
-    class camo
+    class gl
     {
-        label = "Camo";
-        values[] = {"blue", "black", "sand", "khaki"};
-        class blue
+        label = "Underbarrel";
+        values[] = {"no", "gl"};
+        class no
         {
-            label = "Blue";
-            description = "Blue";
+            label = "Rifle";
+            description = "Rifle";
         };
-        class black
+        class gl
         {
-            label = "Black";
-            description = "Black";
-        };
-        class sand
-        {
-            label = "Sand";
-            description = "Sand";
-        };
-        class khaki
-        {
-            label = "Khaki";
-            description = "Khaki";
+            label = "GL";
+            description = "GL";
         };
     };
 };
@@ -325,53 +364,6 @@ class rtg_ace_expanded_g3a3 {
     };
 };
 
-// MK-18
-class rtg_ace_expanded_mk18 {
-    label = "MK-18";
-    author = "Shrike";
-    options[] = {"stock", "camo"};
-    class stock
-    {
-        label = "Stock";
-        values[] = {"default","sopmod"};
-        class default
-        {
-            label = "Default";
-            description = "Defualt Stock";
-        };
-        class sopmod
-        {
-            label = "SOPMOD";
-            description = "SOPMOD Stock";
-        };
-    };
-    class camo
-    {
-        label = "Camo";
-        values[] = {"standard","black", "desert", "woodland"};
-        class standard
-        {
-            label = "Standard";
-            description = "Standard Camo";
-        };
-        class black
-        {
-            label = "Black";
-            description = "Black Camo";
-        };
-        class desert
-        {
-            label = "Desert";
-            description = "Desert Camo";
-        };
-        class woodland
-        {
-            label = "Woodland";
-            description = "Woodland Camo";
-        };
-    };
-};
-
 // SAMR2
 class rtg_ace_expanded_samr {
     label = "LAR-15";
@@ -418,7 +410,7 @@ class rtg_ace_expanded_samr {
 class rtg_ace_expanded_grot {
     label = "Grot";
     author = "Shrike";
-    options[] = {"camo"};
+    options[] = {"camo", "calibre", "ugl"};
     class camo
     {
         label = "Camo";
@@ -444,16 +436,40 @@ class rtg_ace_expanded_grot {
             description = "Khaki";
         };
     };
-};
-
-class rtg_ace_expanded_grot_gl {
-    label = "Grot GL";
-    author = "Shrike";
-    options[] = {"gl", "camo"};
-    class gl
+    class calibre
     {
-        label = "Grenade Launcher";
-        values[] = {"gl","sg"};
+        label = "Calibre";
+        values[] = {"N9", "N50", "N556", "N300"};
+        class N9
+        {
+            label = "9mm";
+            description = "9mm Nato";
+        };
+        class N50
+        {
+            label = ".50";
+            description = ".50 Beowulf";
+        };
+        class N556
+        {
+            label = "5.56";
+            description = "5.56 Nato";
+        };
+        class N300
+        {
+            label = ".300";
+            description = ".300 Blackout";
+        };
+    };
+    class ugl
+    {
+        label = "Underbarrel";
+        values[] = {"none", "gl", "sg"};
+        class none
+        {
+            label = "None";
+            description = "None";
+        };
         class gl
         {
             label = "GL";
@@ -465,38 +481,13 @@ class rtg_ace_expanded_grot_gl {
             description = "Shotgun";
         };
     };
-    class camo
-    {
-        label = "Camo";
-        values[] = {"camo", "black", "sand", "khaki"};
-        class camo
-        {
-            label = "Camo";
-            description = "Camo";
-        };
-        class black
-        {
-            label = "Black";
-            description = "Black";
-        };
-        class sand
-        {
-            label = "Sand";
-            description = "Sand";
-        };
-        class khaki
-        {
-            label = "Khaki";
-            description = "Khaki";
-        };
-    };
 };
 
 // Scar
 class rtg_ace_expanded_scar {
     label = "SCAR";
     author = "Shrike";
-    options[] = {"barrel", "calibre", "camo"};
+    options[] = {"barrel", "calibre", "camo", "variant"};
     class barrel
     {
         label = "Barrel";
@@ -562,106 +553,37 @@ class rtg_ace_expanded_scar {
             description = "Camo Extreme";
         };
     };
-};
-
-// Scar SSR
-class rtg_ace_expanded_scarssr {
-    label = "SCAR SSR";
-    author = "Shrike";
-    options[] = {"camo"};
-    class camo
+    class variant
     {
-        label = "Camo";
-        values[] = {"black", "tan", "camo"};
-        class black
+        label = "Variant";
+        values[] = {"base", "ugl", "dmr"};
+        class base
         {
-            label = "Black";
-            description = "Black Camo";
+            label = "Rifle";
+            description = "Rifle";
         };
-        class tan
+        class ugl
         {
-            label = "Tan";
-            description = "Tan Camo";
+            label = "UGL";
+            description = "Grenade Launcher";
         };
-        class camo
+        class dmr
         {
-            label = "Camo";
-            description = "Camo Extreme";
+            label = "DMR";
+            description = "DMR";
         };
     };
 };
 
-// Scar GL
-class rtg_ace_expanded_scar_gl {
-    label = "SCAR EGLM";
-    author = "Shrike";
-    options[] = {"barrel", "calibre", "camo"};
-    class barrel
-    {
-        label = "Barrel";
-        values[] = { "cqb", "std"};
-        class cqb
-        {
-            label = "CQB";
-            description = "CQB Barrel";
-        };
-        class std
-        {
-            label = "STD";
-            description = "Standard Barrel";
-        };
-    };
-    class calibre
-    {
-        label = "Calibre";
-        values[] = {"N556", "N300", "N762"};
-        class N556
-        {
-            label = "5.56";
-            description = "5.56 Nato";
-        };
-        class N300
-        {
-            label = ".300";
-            description = ".300 Blackout";
-        };
-        class N762
-        {
-            label = "7.62";
-            description = "7.62 Nato";
-        };
-    };
-    class camo
-    {
-        label = "Camo";
-        values[] = {"black", "tan", "camo"};
-        class black
-        {
-            label = "Black";
-            description = "Black Camo";
-        };
-        class tan
-        {
-            label = "Tan";
-            description = "Tan Camo";
-        };
-        class camo
-        {
-            label = "Camo";
-            description = "Camo Extreme";
-        };
-    };
-};
-
-// M4A1
+// M4
 class rtg_ace_expanded_m4a1 {
-    label = "M4A1";
+    label = "M4";
     author = "Shrike";
-    options[] = {"form", "stock", "camo"};
+    options[] = {"form", "stock", "camo", "ugl"};
     class form
     {
         label = "Form Factor";
-        values[] = {"m4a1", "pip", "block2"};
+        values[] = {"m4a1", "pip", "block2", "mk18", "m16"};
         class m4a1
         {
             label = "M4A1";
@@ -677,11 +599,21 @@ class rtg_ace_expanded_m4a1 {
             label = "Block2";
             description = "Modernized M4A1";
         };
+        class mk18
+        {
+            label = "MK-18";
+            description = "Modernized M4A1";
+        };
+        class m16
+        {
+            label = "M16";
+            description = "M16A4";
+        };
     };
     class stock
     {
         label = "Stock";
-        values[] = {"default","magpull"};
+        values[] = {"default","magpull", "carry"};
         class default
         {
             label = "Default";
@@ -691,6 +623,11 @@ class rtg_ace_expanded_m4a1 {
         {
             label = "Magpull";
             description = "Magpull Stock";
+        };
+        class carry
+        {
+            label = "Carryhandle";
+            description = "Carryhandle";
         };
     };
     class camo
@@ -718,31 +655,19 @@ class rtg_ace_expanded_m4a1 {
             description = "Woodland Camo";
         };
     };
-};
-
-// M16A4
-class rtg_ace_expanded_m16 {
-    label = "M16A4";
-    author = "Shrike";
-    options[] = {"form"};
-    class form
+    class ugl
     {
-        label = "Form Factor";
-        values[] = {"flattop", "carryhandle", "imod"};
-        class flattop
+        label = "Underbarrel";
+        values[] = {"none", "gl"};
+        class none
         {
-            label = "Flattop";
-            description = "M16A4 Flattop";
+            label = "None";
+            description = "None";
         };
-        class carryhandle
+        class gl
         {
-            label = "Carryhandle";
-            description = "M16A4 Carryhandle";
-        };
-        class imod
-        {
-            label = "IMOD";
-            description = "IMOD Stock";
+            label = "GL";
+            description = "Grenade Launcher";
         };
     };
 };
@@ -895,7 +820,7 @@ class rtg_ace_expanded_mp7 {
 class rtg_ace_expanded_qbz {
     label = "QBZ";
     author = "Shrike";
-    options[] = {"camo"};
+    options[] = {"camo", "variant"};
     class camo
     {
         label = "Camo";
@@ -916,58 +841,24 @@ class rtg_ace_expanded_qbz {
             description = "Hex Camo";
         };
     };
-};
-
-// QBZ  GL
-class rtg_ace_expanded_qbz_gl {
-    label = "QBZ GL";
-    author = "Shrike";
-    options[] = {"camo"};
-    class camo
+    class variant
     {
-        label = "Camo";
-        values[] = {"black", "green", "hex"};
-        class black
+        label = "Variant";
+        values[] = {"base", "ugl", "lsw"};
+        class base
         {
-            label = "Black";
-            description = "Black Camo";
+            label = "Rifle";
+            description = "Rifle";
         };
-        class green
+        class ugl
         {
-            label = "Green Hex";
-            description = "Green Hex Camo";
+            label = "UGL";
+            description = "Grenade Launcher";
         };
-        class hex
+        class lsw
         {
-            label = "Hex";
-            description = "Hex Camo";
-        };
-    };
-};
-
-// QBZ LSW
-class rtg_ace_expanded_qbz_lsw {
-    label = "QBZ LSW";
-    author = "Shrike";
-    options[] = {"camo"};
-    class camo
-    {
-        label = "Camo";
-        values[] = {"black", "green", "hex"};
-        class black
-        {
-            label = "Black";
-            description = "Black Camo";
-        };
-        class green
-        {
-            label = "Green Hex";
-            description = "Green Hex Camo";
-        };
-        class hex
-        {
-            label = "Hex";
-            description = "Hex Camo";
+            label = "LSW";
+            description = "Light Support Weapon";
         };
     };
 };
@@ -1147,7 +1038,17 @@ class rtg_ace_expanded_acr {
     class calibre
     {
         label = "Calibre";
-        values[] = {"N556", "N300"};
+        values[] = {"N9", "N50", "N556", "N300"};
+        class N9
+        {
+            label = "9mm";
+            description = "9mm Nato";
+        };
+        class N50
+        {
+            label = ".50";
+            description = ".50 Beowulf";
+        };
         class N556
         {
             label = "5.56";
@@ -1286,30 +1187,20 @@ class rtg_ace_expanded_fal {
 class rtg_ace_expanded_ar15 {
     label = "AR 15";
     author = "Shrike";
-    options[] = {"form"};
+    options[] = {"form", "calibre"};
     class form
     {
         label = "Form";
-        values[] = {"jack", "blackjack", "ru556", "ru5562", "cqbr", "bush", "honeybadger", "dissipator", "mk18"};
+        values[] = {"jack", "ru556", "cqbr", "bush", "honeybadger", "dissipator", "mk18"};
         class jack
         {
-            label = "Jack Carbine";
+            label = "Jack ";
             description = "Jack Carbine";
-        };
-        class blackjack
-        {
-            label = "Blackjack .300";
-            description = "Blackjack .300";
         };
         class ru556
         {
             label = "RU556";
             description = "RU556";
-        };
-        class ru5562
-        {
-            label = "RU556-2";
-            description = "RU556-2";
         };
         class cqbr
         {
@@ -1318,8 +1209,8 @@ class rtg_ace_expanded_ar15 {
         };
         class bush
         {
-            label = ".300 Busmaster";
-            description = ".300 Bushmaster Carbine";
+            label = "Busmaster";
+            description = "Bushmaster Carbine";
         };
         class honeybadger
         {
@@ -1328,13 +1219,187 @@ class rtg_ace_expanded_ar15 {
         };
         class dissipator
         {
-            label = ".300 Dissipator";
-            description = ".300 Dissipator Carbine";
+            label = "Dissipator";
+            description = "Dissipator Carbine";
         };
-        class mk18
+    };
+    class calibre
+    {
+        label = "Calibre";
+        values[] = {"N556", "N9", "N300"};
+        class N556
         {
-            label = "Mk-18";
-            description = "Mk-18";
+            label = "5.56";
+            description = "5.56 Nato";
+        };
+        class N9
+        {
+            label = "9mm";
+            description = "9mm Nato";
+        };
+        class N300
+        {
+            label = ".300";
+            description = ".300 Blackout";
+        };
+    };
+};
+
+class rtg_ace_expanded_xm8 {
+    label = "XM8";
+    author = "Shrike";
+    options[] = {"barrel", "camo", "calibre"};
+    class barrel
+    {
+        label = "Barrel";
+        values[] = {"compact", "carbine", "long"};
+        class compact
+        {
+            label = "Compact";
+            description = "Compact";
+        };
+        class carbine
+        {
+            label = "Carbine";
+            description = "Carbine";
+        };
+        class long
+        {
+            label = "Long";
+            description = "Long";
+        };
+    };
+    class camo
+    {
+        label = "Camo";
+        values[] = {"black", "sand", "green", "khaki"};
+        class black
+        {
+            label = "Black";
+            description = "Black";
+        };
+        class sand
+        {
+            label = "Sand";
+            description = "Sand";
+        };
+        class green
+        {
+            label = "Green";
+            description = "Green";
+        };
+        class khaki
+        {
+            label = "Khaki";
+            description = "Khaki";
+        };
+    };
+    class calibre
+    {
+        label = "Calibre";
+        values[] = {"N9", "N50", "N556", "N300"};
+        class N9
+        {
+            label = "9mm";
+            description = "9mm Nato";
+        };
+        class N50
+        {
+            label = ".50";
+            description = ".50 Beowulf";
+        };
+        class N556
+        {
+            label = "5.56";
+            description = "5.56 Nato";
+        };
+        class N300
+        {
+            label = ".300";
+            description = ".300 Blackout";
+        };
+    };
+};
+
+class rtg_ace_expanded_xm8_gl {
+    label = "XM8 GL";
+    author = "Shrike";
+    options[] = {"camo", "calibre"};
+    class camo
+    {
+        label = "Camo";
+        values[] = {"black", "sand", "green", "khaki"};
+        class black
+        {
+            label = "Black";
+            description = "Black";
+        };
+        class sand
+        {
+            label = "Sand";
+            description = "Sand";
+        };
+        class green
+        {
+            label = "Green";
+            description = "Green";
+        };
+        class khaki
+        {
+            label = "Khaki";
+            description = "Khaki";
+        };
+    };
+    class calibre
+    {
+        label = "Calibre";
+        values[] = {"N556", "N300"};
+        class N556
+        {
+            label = "5.56";
+            description = "5.56 Nato";
+        };
+        class N300
+        {
+            label = ".300";
+            description = ".300 Blackout";
+        };
+    };
+};
+
+// QBZ
+class rtg_ace_expanded_qbz191 {
+    label = "QBZ-191";
+    author = "Shrike";
+    options[] = {"variant"};
+    class variant
+    {
+        label = "Variant";
+        values[] = {"N191", "N191gl", "N192", "N192gl", "QBU"};
+        class N191
+        {
+            label = "QBZ-191";
+            description = "QBZ-191";
+        };
+        class N191gl
+        {
+            label = "QBZ-191 GL";
+            description = "QBZ-191 GL";
+        };
+        class N192
+        {
+            label = "QBZ-192";
+            description = "QBZ-192";
+        };
+        class N192gl
+        {
+            label = "QBZ-192 GL";
+            description = "QBZ-192 GL";
+        };
+        class QBU
+        {
+            label = "QBU-191";
+            description = "QBU-191";
         };
     };
 };

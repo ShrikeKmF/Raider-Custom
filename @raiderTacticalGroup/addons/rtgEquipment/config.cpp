@@ -40,11 +40,11 @@ class asdg_OpticRail1913 : asdg_OpticRail {
 class cfgRecoils
 {
     class 700Nitro
-    {              //  x     y     a     b
-    muzzleOuter[]	= { 22.0,  28.0,  6,  0.2 };
-    kickBack[]	= { 0.03, 0.12 };
-    permanent	= 0.1;
-    temporary	= 0.01;
+    {
+        muzzleOuter[]	= { 22.0,  28.0,  6,  0.2 };
+        kickBack[]	= { 0.03, 0.12 };
+        permanent	= 0.1;
+        temporary	= 0.01;
     };
 };
 
