@@ -36,6 +36,14 @@ class asdg_OpticRail1913 : asdg_OpticRail {
         rtg_night_sight = 1;
     };
 };
+class asdg_OpticRail1913RTG : asdg_OpticRail1913 {
+    class compatibleItems
+	{
+        rtg_optic_MRCO = 1;
+        rtg_optic_DMS = 1;
+        rtg_night_sight = 1;
+    };
+};
 
 class cfgRecoils
 {

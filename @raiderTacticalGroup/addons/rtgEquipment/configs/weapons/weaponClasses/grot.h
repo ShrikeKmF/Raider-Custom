@@ -13,7 +13,7 @@ class rtg_MSBS65_F : arifle_MSBS65_F
 	Author = "Shrike";
 	magazineWell[] = {"CBA_556x45_STANAG"};
 	magazines[] = {"rtg_30rnd_556_45"};
-	class CowsSlot: asdg_OpticRail1913
+	class CowsSlot: asdg_OpticRail1913RTG
 	{
 		iconPosition[] = {0.37,0.24};
 		iconScale = 0.2;
@@ -34,7 +34,7 @@ class rtg_MSBS65_black_F : arifle_MSBS65_black_F
 	Author = "Shrike";
 	magazineWell[] = {"CBA_556x45_STANAG"};
 	magazines[] = {"rtg_30rnd_556_45"};
-	class CowsSlot: asdg_OpticRail1913
+	class CowsSlot: asdg_OpticRail1913RTG
 	{
 		iconPosition[] = {0.37,0.24};
 		iconScale = 0.2;
@@ -55,7 +55,7 @@ class rtg_MSBS65_camo_F : arifle_MSBS65_camo_F
 	Author = "Shrike";
 	magazineWell[] = {"CBA_556x45_STANAG"};
 	magazines[] = {"rtg_30rnd_556_45"};
-	class CowsSlot: asdg_OpticRail1913
+	class CowsSlot: asdg_OpticRail1913RTG
 	{
 		iconPosition[] = {0.37,0.24};
 		iconScale = 0.2;
@@ -76,7 +76,7 @@ class rtg_MSBS65_sand_F : arifle_MSBS65_sand_F
 	Author = "Shrike";
 	magazineWell[] = {"CBA_556x45_STANAG"};
 	magazines[] = {"rtg_30rnd_556_45"};
-	class CowsSlot: asdg_OpticRail1913
+	class CowsSlot: asdg_OpticRail1913RTG
 	{
 		iconPosition[] = {0.37,0.24};
 		iconScale = 0.2;
@@ -100,7 +100,7 @@ class rtg_300_MSBS65_F : arifle_MSBS65_F
 	displayName = "MSBS Grot (300)";
 	magazineWell[] = {"CBA_300BLK_STANAG"};
 	magazines[] = {"rtg_30rnd_300_blk"};
-	class CowsSlot: asdg_OpticRail1913
+	class CowsSlot: asdg_OpticRail1913RTG
 	{
 		iconPosition[] = {0.37,0.24};
 		iconScale = 0.2;
@@ -122,7 +122,7 @@ class rtg_300_MSBS65_black_F : arifle_MSBS65_black_F
 	displayName = "MSBS Grot (Black/300)";
 	magazineWell[] = {"CBA_300BLK_STANAG"};
 	magazines[] = {"rtg_30rnd_300_blk"};
-	class CowsSlot: asdg_OpticRail1913
+	class CowsSlot: asdg_OpticRail1913RTG
 	{
 		iconPosition[] = {0.37,0.24};
 		iconScale = 0.2;
@@ -144,7 +144,7 @@ class rtg_300_MSBS65_camo_F : arifle_MSBS65_camo_F
 	displayName = "MSBS Grot (Camo/300)";
 	magazineWell[] = {"CBA_300BLK_STANAG"};
 	magazines[] = {"rtg_30rnd_300_blk"};
-	class CowsSlot: asdg_OpticRail1913
+	class CowsSlot: asdg_OpticRail1913RTG
 	{
 		iconPosition[] = {0.37,0.24};
 		iconScale = 0.2;
@@ -166,7 +166,7 @@ class rtg_300_MSBS65_sand_F : arifle_MSBS65_sand_F
 	displayName = "MSBS Grot (Sand/300)";
 	magazineWell[] = {"CBA_300BLK_STANAG"};
 	magazines[] = {"rtg_30rnd_300_blk"};
-	class CowsSlot: asdg_OpticRail1913
+	class CowsSlot: asdg_OpticRail1913RTG
 	{
 		iconPosition[] = {0.37,0.24};
 		iconScale = 0.2;
@@ -196,7 +196,7 @@ class rtg_50_MSBS65_F : arifle_MSBS65_Mark_F
 	magazines[] = {"rtg_10rnd_10bw"};
 	modes[] = {"Single"};
 	recoil = "rhs_recoil_mk18";
-	class CowsSlot: asdg_OpticRail1913
+	class CowsSlot: asdg_OpticRail1913RTG
 	{
 		iconPosition[] = {0.37,0.24};
 		iconScale = 0.2;
@@ -240,7 +240,7 @@ class rtg_50_MSBS65_black_F : arifle_MSBS65_Mark_black_F
 	magazines[] = {"rtg_10rnd_10bw"};
 	modes[] = {"Single"};
 	recoil = "rhs_recoil_mk18";
-	class CowsSlot: asdg_OpticRail1913
+	class CowsSlot: asdg_OpticRail1913RTG
 	{
 		iconPosition[] = {0.37,0.24};
 		iconScale = 0.2;
@@ -284,7 +284,7 @@ class rtg_50_MSBS65_camo_F : arifle_MSBS65_Mark_camo_F
 	magazines[] = {"rtg_10rnd_10bw"};
 	modes[] = {"Single"};
 	recoil = "rhs_recoil_mk18";
-	class CowsSlot: asdg_OpticRail1913
+	class CowsSlot: asdg_OpticRail1913RTG
 	{
 		iconPosition[] = {0.37,0.24};
 		iconScale = 0.2;
@@ -328,7 +328,7 @@ class rtg_50_MSBS65_sand_F : arifle_MSBS65_Mark_sand_F
 	magazines[] = {"rtg_10rnd_10bw"};
 	modes[] = {"Single"};
 	recoil = "rhs_recoil_mk18";
-	class CowsSlot: asdg_OpticRail1913
+	class CowsSlot: asdg_OpticRail1913RTG
 	{
 		iconPosition[] = {0.37,0.24};
 		iconScale = 0.2;
@@ -375,7 +375,7 @@ class rtg_MSBS65_GL_F : arifle_MSBS65_GL_F
 	displayName = "MSBS Grot GL";
 	magazineWell[] = {"CBA_556x45_STANAG"};
 	magazines[] = {"rtg_30rnd_556_45"};
-	class CowsSlot: asdg_OpticRail1913
+	class CowsSlot: asdg_OpticRail1913RTG
 	{
 		iconPosition[] = {0.37,0.24};
 		iconScale = 0.2;
@@ -397,7 +397,7 @@ class rtg_MSBS65_GL_black_F : arifle_MSBS65_GL_black_F
 	displayName = "MSBS Grot GL (Black)";
 	magazineWell[] = {"CBA_556x45_STANAG"};
 	magazines[] = {"rtg_30rnd_556_45"};
-	class CowsSlot: asdg_OpticRail1913
+	class CowsSlot: asdg_OpticRail1913RTG
 	{
 		iconPosition[] = {0.37,0.24};
 		iconScale = 0.2;
@@ -419,7 +419,7 @@ class rtg_MSBS65_GL_camo_F : arifle_MSBS65_GL_camo_F
 	displayName = "MSBS Grot GL (Camo)";
 	magazineWell[] = {"CBA_556x45_STANAG"};
 	magazines[] = {"rtg_30rnd_556_45"};
-	class CowsSlot: asdg_OpticRail1913
+	class CowsSlot: asdg_OpticRail1913RTG
 	{
 		iconPosition[] = {0.37,0.24};
 		iconScale = 0.2;
@@ -441,7 +441,7 @@ class rtg_MSBS65_GL_sand_F : arifle_MSBS65_GL_sand_F
 	displayName = "MSBS Grot GL (Sand)";
 	magazineWell[] = {"CBA_556x45_STANAG"};
 	magazines[] = {"rtg_30rnd_556_45"};
-	class CowsSlot: asdg_OpticRail1913
+	class CowsSlot: asdg_OpticRail1913RTG
 	{
 		iconPosition[] = {0.37,0.24};
 		iconScale = 0.2;
@@ -465,7 +465,7 @@ class rtg_300_MSBS65_GL_F : arifle_MSBS65_GL_F
 	displayName = "MSBS Grot GL (300)";
 	magazineWell[] = {"CBA_300BLK_STANAG"};
 	magazines[] = {"rtg_30rnd_300_blk"};
-	class CowsSlot: asdg_OpticRail1913
+	class CowsSlot: asdg_OpticRail1913RTG
 	{
 		iconPosition[] = {0.37,0.24};
 		iconScale = 0.2;
@@ -487,7 +487,7 @@ class rtg_300_MSBS65_GL_black_F : arifle_MSBS65_GL_black_F
 	displayName = "MSBS Grot GL (Black/300)";
 	magazineWell[] = {"CBA_300BLK_STANAG"};
 	magazines[] = {"rtg_30rnd_300_blk"};
-	class CowsSlot: asdg_OpticRail1913
+	class CowsSlot: asdg_OpticRail1913RTG
 	{
 		iconPosition[] = {0.37,0.24};
 		iconScale = 0.2;
@@ -509,7 +509,7 @@ class rtg_300_MSBS65_GL_camo_F : arifle_MSBS65_GL_camo_F
 	displayName = "MSBS Grot GL (Camo/300)";
 	magazineWell[] = {"CBA_300BLK_STANAG"};
 	magazines[] = {"rtg_30rnd_300_blk"};
-	class CowsSlot: asdg_OpticRail1913
+	class CowsSlot: asdg_OpticRail1913RTG
 	{
 		iconPosition[] = {0.37,0.24};
 		iconScale = 0.2;
@@ -531,7 +531,7 @@ class rtg_300_MSBS65_GL_sand_F : arifle_MSBS65_GL_sand_F
 	displayName = "MSBS Grot GL (Sand/300)";
 	magazineWell[] = {"CBA_300BLK_STANAG"};
 	magazines[] = {"rtg_30rnd_300_blk"};
-	class CowsSlot: asdg_OpticRail1913
+	class CowsSlot: asdg_OpticRail1913RTG
 	{
 		iconPosition[] = {0.37,0.24};
 		iconScale = 0.2;
@@ -558,7 +558,7 @@ class rtg_MSBS65_UBS_F : arifle_MSBS65_UBS_F
 	Author = "Shrike";
 	magazineWell[] = {"CBA_556x45_STANAG"};
 	magazines[] = {"rtg_30rnd_556_45"};
-	class CowsSlot: asdg_OpticRail1913
+	class CowsSlot: asdg_OpticRail1913RTG
 	{
 		iconPosition[] = {0.37,0.24};
 		iconScale = 0.2;
@@ -579,7 +579,7 @@ class rtg_MSBS65_UBS_black_F : arifle_MSBS65_UBS_black_F
 	Author = "Shrike";
 	magazineWell[] = {"CBA_556x45_STANAG"};
 	magazines[] = {"rtg_30rnd_556_45"};
-	class CowsSlot: asdg_OpticRail1913
+	class CowsSlot: asdg_OpticRail1913RTG
 	{
 		iconPosition[] = {0.37,0.24};
 		iconScale = 0.2;
@@ -600,7 +600,7 @@ class rtg_MSBS65_UBS_camo_F : arifle_MSBS65_UBS_camo_F
 	Author = "Shrike";
 	magazineWell[] = {"CBA_556x45_STANAG"};
 	magazines[] = {"rtg_30rnd_556_45"};
-	class CowsSlot: asdg_OpticRail1913
+	class CowsSlot: asdg_OpticRail1913RTG
 	{
 		iconPosition[] = {0.37,0.24};
 		iconScale = 0.2;
@@ -621,7 +621,7 @@ class rtg_MSBS65_UBS_sand_F : arifle_MSBS65_UBS_sand_F
 	Author = "Shrike";
 	magazineWell[] = {"CBA_556x45_STANAG"};
 	magazines[] = {"rtg_30rnd_556_45"};
-	class CowsSlot: asdg_OpticRail1913
+	class CowsSlot: asdg_OpticRail1913RTG
 	{
 		iconPosition[] = {0.37,0.24};
 		iconScale = 0.2;
@@ -645,7 +645,7 @@ class rtg_300_MSBS65_UBS_F : arifle_MSBS65_UBS_F
 	displayName = "MSBS Grot SG (300)";
 	magazineWell[] = {"CBA_300BLK_STANAG"};
 	magazines[] = {"rtg_30rnd_300_blk"};
-	class CowsSlot: asdg_OpticRail1913
+	class CowsSlot: asdg_OpticRail1913RTG
 	{
 		iconPosition[] = {0.37,0.24};
 		iconScale = 0.2;
@@ -667,7 +667,7 @@ class rtg_300_MSBS65_UBS_black_F : arifle_MSBS65_UBS_black_F
 	displayName = "MSBS Grot SG (Black/300)";
 	magazineWell[] = {"CBA_300BLK_STANAG"};
 	magazines[] = {"rtg_30rnd_300_blk"};
-	class CowsSlot: asdg_OpticRail1913
+	class CowsSlot: asdg_OpticRail1913RTG
 	{
 		iconPosition[] = {0.37,0.24};
 		iconScale = 0.2;
@@ -689,7 +689,7 @@ class rtg_300_MSBS65_UBS_camo_F : arifle_MSBS65_UBS_camo_F
 	displayName = "MSBS Grot SG (Camo/300)";
 	magazineWell[] = {"CBA_300BLK_STANAG"};
 	magazines[] = {"rtg_30rnd_300_blk"};
-	class CowsSlot: asdg_OpticRail1913
+	class CowsSlot: asdg_OpticRail1913RTG
 	{
 		iconPosition[] = {0.37,0.24};
 		iconScale = 0.2;
@@ -711,7 +711,7 @@ class rtg_300_MSBS65_UBS_sand_F : arifle_MSBS65_UBS_sand_F
 	displayName = "MSBS Grot SG (Sand/300)";
 	magazineWell[] = {"CBA_300BLK_STANAG"};
 	magazines[] = {"rtg_30rnd_300_blk"};
-	class CowsSlot: asdg_OpticRail1913
+	class CowsSlot: asdg_OpticRail1913RTG
 	{
 		iconPosition[] = {0.37,0.24};
 		iconScale = 0.2;
