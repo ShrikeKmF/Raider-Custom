@@ -342,7 +342,7 @@ class CfgMagazines
         displayname = "[RTG] 250rnd 9mm MAG";
         displaynameshort = "250Rnd 9mm";
         scope = 2;
-        mass = 80;
+        mass = 45;
     };
 
     class rtg_200Rnd_9mm_T : 100Rnd_65x39_caseless_black_mag {
@@ -355,7 +355,7 @@ class CfgMagazines
         displayname = "[RTG] 250rnd 9mm MAG Tracer";
         displaynameshort = "250Rnd 9mm Tracer";
         scope = 2;
-        mass = 80;
+        mass = 45;
     };
 
     class RH_7Rnd_50_AE;

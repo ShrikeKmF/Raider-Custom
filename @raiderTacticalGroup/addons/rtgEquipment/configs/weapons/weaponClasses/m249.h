@@ -102,6 +102,165 @@ class rhs_weap_m249_light_S :rhs_weap_m249_pip_S
 	};
 };
 
+// 300 BLK
+class rhs_weap_m249_pip_ris_300 : rhs_weap_m249_pip
+{
+	scope = 2;
+	dlc = "raiderTactical";
+	Author = "Shrike";
+	recoil = "recoil_mp5a2";
+	magazineWell[] = {"CBA_300_blk_MINIMI", "CBA_300BLK_STANAG"};
+	magazines[] = {"rtg_200rnd_300_blk"};
+	baseWeapon = "rhs_weap_m249_pip_ris_300";
+	class WeaponSlotsInfo: WeaponSlotsInfo
+	{
+		class UnderBarrelSlot : rtgM249BipodOnly{};
+		class GripodSlot: rtgM249BipodOnly {};
+	};
+	class XtdGearInfo
+	{
+		model = "rtg_ace_expanded_m249";
+		barrel = "long";
+		calibre = "N300";
+		stock = "fixed";
+	};
+};
+
+class rhs_weap_m249_pip_L_300 : rhs_weap_lmg_minimi_railed
+{
+	scope = 2;
+	dlc = "raiderTactical";
+	Author = "Shrike";
+	recoil = "recoil_mp5a2";
+	magazineWell[] = {"CBA_300_blk_MINIMI", "CBA_300BLK_STANAG"};
+	magazines[] = {"rtg_200rnd_300_blk"};
+	baseWeapon = "rhs_weap_m249_pip_L_300";
+	class WeaponSlotsInfo: WeaponSlotsInfo
+	{
+		class UnderBarrelSlot : rtgM249BipodOnly{};
+		class GripodSlot: rtgM249BipodOnly {};
+	};
+	class XtdGearInfo
+	{
+		model = "rtg_ace_expanded_m249";
+		barrel = "long";
+		calibre = "N300";
+		stock = "pip";
+	};
+};
+class rhs_weap_m249_pip_L_para_300 : rhs_weap_m249_pip_L
+{
+	scope = 2;
+	dlc = "raiderTactical";
+	Author = "Shrike";
+	recoil = "recoil_mp5a2";
+	magazineWell[] = {"CBA_300_blk_MINIMI", "CBA_300BLK_STANAG"};
+	magazines[] = {"rtg_200rnd_300_blk"};
+	baseWeapon = "rhs_weap_m249_pip_L_para_300";
+	class WeaponSlotsInfo: WeaponSlotsInfo
+	{
+		class UnderBarrelSlot : rtgM249BipodOnly{};
+		class GripodSlot: rtgM249BipodOnly {};
+	};
+	class XtdGearInfo
+	{
+		model = "rtg_ace_expanded_m249";
+		barrel = "long";
+		calibre = "N300";
+		stock = "para";
+	};
+};
+class rhs_weap_m249_light_L_300 :rhs_weap_m249_pip_L
+{
+	scope = 2;
+	dlc = "raiderTactical";
+	Author = "Shrike";
+	recoil = "recoil_mp5a2";
+	magazineWell[] = {"CBA_300_blk_MINIMI", "CBA_300BLK_STANAG"};
+	magazines[] = {"rtg_200rnd_300_blk"};
+	baseWeapon = "rhs_weap_m249_light_L_300";
+	class WeaponSlotsInfo: WeaponSlotsInfo
+	{
+		class UnderBarrelSlot : rtgM249BipodOnly{};
+		class GripodSlot: rtgM249BipodOnly {};
+	};
+	class XtdGearInfo
+	{
+		model = "rtg_ace_expanded_m249";
+		barrel = "long";
+		calibre = "N300";
+		stock = "light";
+	};
+};
+
+// Short
+class rhs_weap_m249_pip_S_300 : rhs_weap_lmg_minimi_railed
+{
+	scope = 2;
+	dlc = "raiderTactical";
+	Author = "Shrike";
+	recoil = "recoil_mp5a2";
+	magazineWell[] = {"CBA_300_blk_MINIMI", "CBA_300BLK_STANAG"};
+	magazines[] = {"rtg_200rnd_300_blk"};
+	baseWeapon = "rhs_weap_m249_pip_S_300";
+	class WeaponSlotsInfo: WeaponSlotsInfo
+	{
+		class UnderBarrelSlot : rtgM249BipodOnly{};
+		class GripodSlot: rtgM249BipodOnly {};
+	};
+	class XtdGearInfo
+	{
+		model = "rtg_ace_expanded_m249";
+		barrel = "short";
+		calibre = "N300";
+		stock = "pip";
+	};
+};
+class rhs_weap_m249_pip_S_para_300 : rhs_weap_m249_pip_S
+{
+	scope = 2;
+	dlc = "raiderTactical";
+	Author = "Shrike";
+	recoil = "recoil_mp5a2";
+	magazineWell[] = {"CBA_300_blk_MINIMI", "CBA_300BLK_STANAG"};
+	magazines[] = {"rtg_200rnd_300_blk"};
+	baseWeapon = "rhs_weap_m249_pip_S_para_300";
+	class WeaponSlotsInfo: WeaponSlotsInfo
+	{
+		class UnderBarrelSlot : rtgM249BipodOnly{};
+		class GripodSlot: rtgM249BipodOnly {};
+	};
+	class XtdGearInfo
+	{
+		model = "rtg_ace_expanded_m249";
+		barrel = "short";
+		calibre = "N300";
+		stock = "para";
+	};
+};
+class rhs_weap_m249_light_S_300 :rhs_weap_m249_pip_S
+{
+	scope = 2;
+	dlc = "raiderTactical";
+	Author = "Shrike";
+	recoil = "recoil_mp5a2";
+	magazineWell[] = {"CBA_300_blk_MINIMI", "CBA_300BLK_STANAG"};
+	magazines[] = {"rtg_200rnd_300_blk"};
+	baseWeapon = "rhs_weap_m249_light_S_300";
+	class WeaponSlotsInfo: WeaponSlotsInfo
+	{
+		class UnderBarrelSlot : rtgM249BipodOnly{};
+		class GripodSlot: rtgM249BipodOnly {};
+	};
+	class XtdGearInfo
+	{
+		model = "rtg_ace_expanded_m249";
+		barrel = "short";
+		calibre = "N300";
+		stock = "light";
+	};
+};
+
 // 9mm
 // Short
 class rtg_weap_m249_pip_9 : rhs_weap_m249_pip_S
@@ -113,9 +272,11 @@ class rtg_weap_m249_pip_9 : rhs_weap_m249_pip_S
 	magazineWell[] = {"RTG_LMG_9x19"};
 	magazines[] = {"rtg_200Rnd_9mm"};
 	baseWeapon = "rtg_weap_m249_pip_9";
+	modes[] = {"FullAuto"};
 	class WeaponSlotsInfo: WeaponSlotsInfo
 	{
-		class UnderBarrelSlot = {};
+		class UnderBarrelSlot : rtgM249BipodOnly{};
+		class GripodSlot: rtgM249BipodOnly {};
 	};
 	class XtdGearInfo
 	{
@@ -126,7 +287,7 @@ class rtg_weap_m249_pip_9 : rhs_weap_m249_pip_S
 	};
 	class FullAuto: FullAuto
 	{
-		reloadTime = 0.076;
+		reloadTime = 0.062;
 		sounds[] = {"StandardSound","SilencedSound"};
 		class BaseSoundModeType
 		{
@@ -152,9 +313,11 @@ class rtg_weap_m249_pip_9_para : rhs_weap_m249_pip_S_para
 	magazineWell[] = {"RTG_LMG_9x19"};
 	magazines[] = {"rtg_200Rnd_9mm"};
 	baseWeapon = "rtg_weap_m249_pip_9_para";
+	modes[] = {"FullAuto"};
 	class WeaponSlotsInfo: WeaponSlotsInfo
 	{
-		class UnderBarrelSlot = {};
+		class UnderBarrelSlot : rtgM249BipodOnly{};
+		class GripodSlot: rtgM249BipodOnly {};
 	};
 	class XtdGearInfo
 	{
@@ -165,7 +328,7 @@ class rtg_weap_m249_pip_9_para : rhs_weap_m249_pip_S_para
 	};
 	class FullAuto: FullAuto
 	{
-		reloadTime = 0.076;
+		reloadTime = 0.062;
 		sounds[] = {"StandardSound","SilencedSound"};
 		class BaseSoundModeType
 		{
@@ -191,9 +354,11 @@ class rtg_weap_m249_light_9 : rhs_weap_m249_light_S
 	magazineWell[] = {"RTG_LMG_9x19"};
 	magazines[] = {"rtg_200Rnd_9mm"};
 	baseWeapon = "rtg_weap_m249_light_9";
+	modes[] = {"FullAuto"};
 	class WeaponSlotsInfo: WeaponSlotsInfo
 	{
-		class UnderBarrelSlot = {};
+		class UnderBarrelSlot : rtgM249BipodOnly{};
+		class GripodSlot: rtgM249BipodOnly {};
 	};
 	class XtdGearInfo
 	{
@@ -204,7 +369,7 @@ class rtg_weap_m249_light_9 : rhs_weap_m249_light_S
 	};
 	class FullAuto: FullAuto
 	{
-		reloadTime = 0.076;
+		reloadTime = 0.062;
 		sounds[] = {"StandardSound","SilencedSound"};
 		class BaseSoundModeType
 		{

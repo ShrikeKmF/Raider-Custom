@@ -226,7 +226,6 @@ class HLC_Rifle_XM8_MWSF_Carbine_GL_Tan : HLC_Rifle_XM8_MWSF_Carbine_GL {
 };
 
 // 300 BLK 
-class UnderBarrelSlot;
 class rtg_Rifle_XM8_MWSF_Carbine : HLC_Rifle_XM8_MWSF_Carbine {
 	scope = 2;
 	dlc = "raiderTactical";
@@ -236,7 +235,7 @@ class rtg_Rifle_XM8_MWSF_Carbine : HLC_Rifle_XM8_MWSF_Carbine {
 	baseWeapon = "rtg_Rifle_XM8_MWSF_Carbine";
 	class WeaponSlotsInfo: WeaponSlotsInfo
 	{
-		class UnderBarrelSlot = {};
+		class UnderBarrelSlot : rtgClearUnderBarrel{};
 	};
 	class XtdGearInfo
 	{
@@ -255,7 +254,7 @@ class rtg_rifle_XM8_MWSF_Carbine_Green : HLC_rifle_XM8_MWSF_Carbine_Green {
 	baseWeapon = "rtg_rifle_XM8_MWSF_Carbine_Green";
 	class WeaponSlotsInfo: WeaponSlotsInfo
 	{
-		class UnderBarrelSlot = {};
+		class UnderBarrelSlot : rtgClearUnderBarrel{};
 	};
 	class XtdGearInfo
 	{
@@ -274,7 +273,7 @@ class rtg_rifle_XM8_MWSF_Carbine_OD : HLC_rifle_XM8_MWSF_Carbine_OD {
 	baseWeapon = "rtg_rifle_XM8_MWSF_Carbine_OD";
 	class WeaponSlotsInfo: WeaponSlotsInfo
 	{
-		class UnderBarrelSlot = {};
+		class UnderBarrelSlot : rtgClearUnderBarrel{};
 	};
 	class XtdGearInfo
 	{
@@ -293,7 +292,7 @@ class rtg_rifle_XM8_MWSF_Carbine_Tan : HLC_rifle_XM8_MWSF_Carbine_Tan {
 	baseWeapon = "rtg_rifle_XM8_MWSF_Carbine_Tan";
 	class WeaponSlotsInfo: WeaponSlotsInfo
 	{
-		class UnderBarrelSlot = {};
+		class UnderBarrelSlot : rtgClearUnderBarrel{};
 	};
 	class XtdGearInfo
 	{
@@ -313,7 +312,7 @@ class rtg_rifle_XM8_MWSF_Compact : hlc_rifle_XM8_MWSF_Compact {
 	baseWeapon = "rtg_rifle_XM8_MWSF_Compact";
 	class WeaponSlotsInfo: WeaponSlotsInfo
 	{
-		class UnderBarrelSlot = {};
+		class UnderBarrelSlot : rtgClearUnderBarrel{};
 	};
 	class XtdGearInfo
 	{
@@ -332,7 +331,7 @@ class rtg_Rifle_XM8_MWSF_Compact_Green : HLC_Rifle_XM8_MWSF_Compact_Green {
 	baseWeapon = "rtg_Rifle_XM8_MWSF_Compact_Green";
 	class WeaponSlotsInfo: WeaponSlotsInfo
 	{
-		class UnderBarrelSlot = {};
+		class UnderBarrelSlot : rtgClearUnderBarrel{};
 	};
 	class XtdGearInfo
 	{
@@ -351,7 +350,7 @@ class rtg_Rifle_XM8_MWSF_Compact_OD : HLC_Rifle_XM8_MWSF_Compact_OD {
 	baseWeapon = "rtg_Rifle_XM8_MWSF_Compact_OD";
 	class WeaponSlotsInfo: WeaponSlotsInfo
 	{
-		class UnderBarrelSlot = {};
+		class UnderBarrelSlot : rtgClearUnderBarrel{};
 	};
 	class XtdGearInfo
 	{
@@ -370,7 +369,7 @@ class rtg_Rifle_XM8_MWSF_Compact_Tan : HLC_Rifle_XM8_MWSF_Compact_Tan {
 	baseWeapon = "rtg_Rifle_XM8_MWSF_Compact_Tan";
 	class WeaponSlotsInfo: WeaponSlotsInfo
 	{
-		class UnderBarrelSlot = {};
+		class UnderBarrelSlot : rtgClearUnderBarrel{};
 	};
 	class XtdGearInfo
 	{
@@ -390,7 +389,7 @@ class rtg_rifle_XM8_MWSF_DMAR : hlc_rifle_XM8_MWSF_DMAR {
 	baseWeapon = "rtg_rifle_XM8_MWSF_DMAR";
 	class WeaponSlotsInfo: WeaponSlotsInfo
 	{
-		class UnderBarrelSlot = {};
+		class UnderBarrelSlot : rtgClearUnderBarrel{};
 	};
 	class XtdGearInfo
 	{
@@ -409,7 +408,7 @@ class rtg_Rifle_XM8_MWSF_DMAR_Green : HLC_Rifle_XM8_MWSF_DMAR_Green {
 	baseWeapon = "rtg_Rifle_XM8_MWSF_DMAR_Green";
 	class WeaponSlotsInfo: WeaponSlotsInfo
 	{
-		class UnderBarrelSlot = {};
+		class UnderBarrelSlot : rtgClearUnderBarrel{};
 	};
 	class XtdGearInfo
 	{
@@ -428,7 +427,7 @@ class rtg_Rifle_XM8_MWSF_DMAR_OD : HLC_Rifle_XM8_MWSF_DMAR_OD {
 	baseWeapon = "rtg_Rifle_XM8_MWSF_DMAR_OD";
 	class WeaponSlotsInfo: WeaponSlotsInfo
 	{
-		class UnderBarrelSlot = {};
+		class UnderBarrelSlot : rtgClearUnderBarrel{};
 	};
 	class XtdGearInfo
 	{
@@ -447,7 +446,7 @@ class rtg_Rifle_XM8_MWSF_DMAR_Tan : HLC_Rifle_XM8_MWSF_DMAR_Tan {
 	baseWeapon = "rtg_Rifle_XM8_MWSF_DMAR_Tan";
 	class WeaponSlotsInfo: WeaponSlotsInfo
 	{
-		class UnderBarrelSlot = {};
+		class UnderBarrelSlot : rtgClearUnderBarrel{};
 	};
 	class XtdGearInfo
 	{
@@ -468,7 +467,7 @@ class rtg_Rifle_XM8_MWSF_Carbine_GL : HLC_Rifle_XM8_MWSF_Carbine_GL {
 	baseWeapon = "rtg_Rifle_XM8_MWSF_Carbine_GL";
 	class WeaponSlotsInfo: WeaponSlotsInfo
 	{
-		class UnderBarrelSlot = {};
+		class UnderBarrelSlot : rtgClearUnderBarrel{};
 	};
 	class XtdGearInfo
 	{
@@ -486,7 +485,7 @@ class rtg_Rifle_XM8_MWSF_Carbine_GL_Green : HLC_Rifle_XM8_MWSF_Carbine_GL_Green 
 	baseWeapon = "rtg_Rifle_XM8_MWSF_Carbine_GL_Green";
 	class WeaponSlotsInfo: WeaponSlotsInfo
 	{
-		class UnderBarrelSlot = {};
+		class UnderBarrelSlot : rtgClearUnderBarrel{};
 	};
 	class XtdGearInfo
 	{
@@ -504,7 +503,7 @@ class rtg_Rifle_XM8_MWSF_Carbine_GL_OD : HLC_Rifle_XM8_MWSF_Carbine_GL_OD {
 	baseWeapon = "rtg_Rifle_XM8_MWSF_Carbine_GL_OD";
 	class WeaponSlotsInfo: WeaponSlotsInfo
 	{
-		class UnderBarrelSlot = {};
+		class UnderBarrelSlot : rtgClearUnderBarrel{};
 	};
 	class XtdGearInfo
 	{
@@ -522,7 +521,7 @@ class rtg_Rifle_XM8_MWSF_Carbine_GL_Tan : HLC_Rifle_XM8_MWSF_Carbine_GL_Tan {
 	baseWeapon = "rtg_Rifle_XM8_MWSF_Carbine_GL_Tan";
 	class WeaponSlotsInfo: WeaponSlotsInfo
 	{
-		class UnderBarrelSlot = {};
+		class UnderBarrelSlot : rtgClearUnderBarrel{};
 	};
 	class XtdGearInfo
 	{
@@ -542,7 +541,7 @@ class rtg_rifle_XM8_MWSF_DMAR_50 : hlc_rifle_XM8_MWSF_DMAR {
 	baseWeapon = "rtg_rifle_XM8_MWSF_DMAR_50";
 	class WeaponSlotsInfo: WeaponSlotsInfo
 	{
-		class UnderBarrelSlot = {};
+		class UnderBarrelSlot : rtgClearUnderBarrel{};
 	};
 	class XtdGearInfo
 	{
@@ -561,7 +560,7 @@ class rtg_Rifle_XM8_MWSF_DMAR_Green_50 : HLC_Rifle_XM8_MWSF_DMAR_Green {
 	baseWeapon = "rtg_Rifle_XM8_MWSF_DMAR_Green_50";
 	class WeaponSlotsInfo: WeaponSlotsInfo
 	{
-		class UnderBarrelSlot = {};
+		class UnderBarrelSlot : rtgClearUnderBarrel{};
 	};
 	class XtdGearInfo
 	{
@@ -580,7 +579,7 @@ class rtg_Rifle_XM8_MWSF_DMAR_OD_50 : HLC_Rifle_XM8_MWSF_DMAR_OD {
 	baseWeapon = "rtg_Rifle_XM8_MWSF_DMAR_OD_50";
 	class WeaponSlotsInfo: WeaponSlotsInfo
 	{
-		class UnderBarrelSlot = {};
+		class UnderBarrelSlot : rtgClearUnderBarrel{};
 	};
 	class XtdGearInfo
 	{
@@ -599,7 +598,7 @@ class rtg_Rifle_XM8_MWSF_DMAR_Tan_50 : HLC_Rifle_XM8_MWSF_DMAR_Tan {
 	baseWeapon = "rtg_Rifle_XM8_MWSF_DMAR_Tan_50";
 	class WeaponSlotsInfo: WeaponSlotsInfo
 	{
-		class UnderBarrelSlot = {};
+		class UnderBarrelSlot : rtgClearUnderBarrel{};
 	};
 	class XtdGearInfo
 	{
