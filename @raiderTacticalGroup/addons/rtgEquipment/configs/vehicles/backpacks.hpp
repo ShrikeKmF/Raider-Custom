@@ -1,3 +1,8 @@
+#define TRANSPORT_MAGAZINE(id,qty) class _xx_##id { magazine = #id; count = qty; };
+#define TRANSPORT_ITEM(id,qty) class _xx_##id { name = #id; count = qty; };
+#define TRANSPORT_WEAPON(id,qty) class _xx_##id { weapon = #id; count = qty; };
+#define TRANSPORT_BACKPACK(id,qty) class _xx_##id { backpack = #id; count = qty; };
+
 // VSM
 class Alpine_Carryall;
 class Alpine_Backpack_Compact;
@@ -356,4 +361,33 @@ class fishPack : B_CombinationUnitRespirator_01_F {
     displayName = "Backpack - Fish";
     maximumLoad = 380;
     hiddenSelectionsTextures[] = {"rtgEquipment\tex\fishPack.paa"};
+};
+
+// Medical Grabbag For Vehicles
+class rtg_medical_grabpack : B_Kitbag_rgr {
+    scope = 1;
+    author = "Shrike";
+    displayname = "Medical Grabbag";
+    maximumLoad = 450;
+
+    class TransportItems {
+        TRANSPORT_ITEM(kat_larynx, 8)
+        TRANSPORT_ITEM(ACE_bloodIV, 3)
+        TRANSPORT_ITEM(ACE_bloodIV_500, 4)
+        TRANSPORT_ITEM(ACE_plasmaIV_500, 4)
+        TRANSPORT_ITEM(kat_AED, 1)
+        TRANSPORT_ITEM(kat_Pulseoximeter, 10)
+        TRANSPORT_ITEM(ACE_epinephrine, 15)
+        TRANSPORT_ITEM(ACE_surgicalKit, 1)
+        TRANSPORT_ITEM(kat_fentanyl, 15)
+        TRANSPORT_ITEM(kat_chestSeal, 10)
+        TRANSPORT_ITEM(kat_atropine, 15)
+        TRANSPORT_ITEM(kat_TXA, 10)
+        TRANSPORT_ITEM(ACE_elasticBandage, 45)
+        TRANSPORT_ITEM(ACE_packingBandage, 10)
+        TRANSPORT_ITEM(ACE_quikclot, 10)
+        TRANSPORT_ITEM(ACE_morphine, 15)
+        TRANSPORT_ITEM(kat_BVM, 15)
+        TRANSPORT_ITEM(kat_Pervitin, 2)
+    };    
 };

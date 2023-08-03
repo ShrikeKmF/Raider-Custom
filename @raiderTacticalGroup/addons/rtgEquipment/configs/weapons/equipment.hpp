@@ -2405,3 +2405,27 @@ class texHat : rhsusf_opscore_ut_pelt_nsw_cam {
         };
     };
 };
+
+// Soresp 
+class rhsgref_helmet_pasgt_altis_lizard;
+class sorespHat : rhsgref_helmet_pasgt_altis_lizard
+{
+	scope = 2;
+	dlc = "raiderTactical";
+	Author = "Shrike";
+    displayName="Pasgt - Soresp";
+    mass = 2;
+    hiddenSelectionsTextures[] ={"\rtgEquipment\tex\sore_hat.paa"};
+    class ItemInfo: ItemInfo
+    {
+        class HitpointsProtectionInfo
+        {
+            class head
+            {
+                HitpointName="HitHead";
+                armor=4.7;
+                PassThrough=0.30000001;
+            };
+        };
+    };
+};

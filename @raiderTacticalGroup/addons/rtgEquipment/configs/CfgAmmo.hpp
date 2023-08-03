@@ -112,7 +112,7 @@ class CfgAmmo
     class rhs_ammo_12g_FRAG;
     class rtg_doomrounds : rhs_ammo_12g_FRAG
 	{
-		hit = 20;
+		hit = 19;
 		indirectHit = 2;
 		indirectHitRange = 0.5;
         typicalSpeed = 450;
@@ -122,7 +122,7 @@ class CfgAmmo
 
     class rtg_doomrounds_pump : rtg_doomrounds
 	{
-		hit = 32;
+		hit = 28;
 		indirectHit = 6;
 		indirectHitRange = 1;
         typicalSpeed = 480;
@@ -131,7 +131,7 @@ class CfgAmmo
     
     class rhs_ammo_12g_00buckshot_pellet;
     class rtg_buckshot_sub : rhs_ammo_12g_00buckshot_pellet {
-        hit = 10;
+        hit = 8;
         typicalSpeed = 483.86;
         indirectHit = 0;
 		indirectHitRange = 0;
@@ -149,7 +149,7 @@ class CfgAmmo
     };
 
     class rtg_buckshot_sub_pump : rtg_buckshot_sub {
-        hit = 25;
+        hit = 17;
         typicalSpeed = 500.86;
         indirectHit = 0;
 		indirectHitRange = 0;

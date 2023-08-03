@@ -1,3 +1,8 @@
+#define TRANSPORT_MAGAZINE(id,qty) class _xx_##id { magazine = #id; count = qty; };
+#define TRANSPORT_ITEM(id,qty) class _xx_##id { name = #id; count = qty; };
+#define TRANSPORT_WEAPON(id,qty) class _xx_##id { weapon = #id; count = qty; };
+#define TRANSPORT_BACKPACK(id,qty) class _xx_##id { backpack = #id; count = qty; };
+
 class CfgPatches 
 {
     class rtgVehicles 
@@ -29,14 +34,19 @@ class cfgEditorCategories {
 };
 
 class cfgEditorSubcategories {
-    class Bushmasters
+    class Cars
     {
-        displayName = "Bushmasters";
+        displayName = "Cars";
     };
 
     class Helicopters
     {
         displayName = "Helicopters";
+    };
+
+    class Artillery
+    {
+        displayName = "Artillery";
     };
 };
 
@@ -50,13 +60,25 @@ class CfgVehicles {
     class SensorTemplatePassiveRadar;
     class SensorTemplateActiveRadar;
     class ActiveRadarSensorComponent;
+    class RHS_M119_D;
+
+    class rtg_artillery : RHS_M119_D
+    {
+        displayName = "M119A3 [1/2]";
+        editorCategory = "Raider_Tactical"; 
+        editorSubcategory = "Artillery";
+        author = "Shrike";
+        scope = 2;
+        side = 1;
+        faction = "Raider_Tactical_F";
+    }
 
     class raider_strike_car: I_MRAP_03_F
     {
         displayName = "Hawkei Transport [1/4]";
         editorCategory = "Raider_Tactical";
         simulation="CarX";
-        editorSubcategory = "Bushmasters";
+        editorSubcategory = "Cars";
         author = "Shrike";
         scope = 2;
         side = 1;
@@ -92,6 +114,16 @@ class CfgVehicles {
 		smokeLauncherVelocity = 14;
 		smokeLauncherOnTurret = 0;
 		smokeLauncherAngle = 30;
+
+        // Water Source
+        acex_field_rations_waterSupply = 50;
+        // Extra Fuel (Jerry Cans on Vehicles)
+        ace_refuel_fuelCargo = 80;
+
+        textureList[] = 
+		{
+			"rtg", 1.0,
+		};
 
         class textureSources
         {
@@ -183,91 +215,34 @@ class CfgVehicles {
             };
         };
 
+        // Vehicle Inventorys
         class TransportItems
         {
-            class _xx_kat_accuvac 
-            {
-                name = "kat_accuvac";
-                count = 1;
-            };
-            class _xx_ACE_NVG_Gen4_black 
-            {
-                name = "ACE_NVG_Gen4_black";
-                count = 8;
-            };
-            class _xx_ToolKit
-            {
-                name = "ToolKit";
-                count = 2;
-            };
-            class _xx_ACE_bloodIV_500
-            {
-                name = "ACE_bloodIV_500";
-                count = 8;
-            };
-            class _xx_ACE_personalAidKit
-            {
-                name = "ACE_personalAidKit";
-                count = 8;
-            };
-            class _xx_ACE_elasticBandage
-            {
-                name = "ACE_elasticBandage";
-                count = 40;
-            };
-            class _xx_ACE_packingBandage
-            {
-                name = "ACE_packingBandage";
-                count = 10;
-            };
-            class _xx_ACE_quikclot
-            {
-                name = "ACE_quikclot";
-                count = 10;
-            };
-            class _xx_ACE_morphine
-            {
-                name = "ACE_morphine";
-                count = 6;
-            };
-            class _xx_ACE_tourniquet 
-            {
-                name = "ACE_tourniquet";
-                count = 6;
-            };
-            class _xx_ACE_rope6
-            {
-                name = "ACE_rope6";
-                count = 4;
-            };
-            class _xx_ACE_Canteen
-            {
-                name = "ACE_Canteen";
-                count = 5;
-            };
-            class _xx_ACE_Can_Franta
-            {
-                name = "ACE_Can_Franta";
-                count = 10;
-            };
-            class _xx_ACE_MRE_BeefStew 
-            {
-                name = "ACE_MRE_BeefStew";
-                count = 5;
-            };
+            TRANSPORT_ITEM(ACE_NVG_Gen4_black, 8)
+            TRANSPORT_ITEM(ToolKit, 2)
+            TRANSPORT_ITEM(ACRE_PRC343, 2)
+            TRANSPORT_ITEM(ACRE_PRC152, 2)
+            TRANSPORT_ITEM(ACE_personalAidKit, 8)
+            TRANSPORT_ITEM(ACE_wirecutter, 1)
+            TRANSPORT_ITEM(ACE_rope12, 4)
+            TRANSPORT_ITEM(ACE_Canteen, 5)
+            TRANSPORT_ITEM(ACE_Can_Franta, 9)
+            TRANSPORT_ITEM(ACE_MRE_BeefStew, 5)
+            TRANSPORT_ITEM(ACE_bodyBag, 9)
+        };
+        class TransportBackpacks
+        {
+            TRANSPORT_BACKPACK(rtg_medical_grabpack, 2)
         };
         class TransportWeapons
         {
-            class _xx_hlc_wp_SCARL_CQC_Blk 
-            {
-                weapon = "hlc_wp_SCARL_CQC_Blk";
-                count = 2;
-            };
-            class _xx_rhs_weap_m72a7
-            {
-                weapon = "rhs_weap_m72a7";
-                count = 2;
-            };
+            TRANSPORT_WEAPON(rhs_weap_m16a4_carryhandle, 2)
+            TRANSPORT_WEAPON(rhs_weap_m72a7, 2)
+        };
+        class TransportMagazines 
+        {
+            TRANSPORT_MAGAZINE(rtg_30rnd_556_45, 10)
+            TRANSPORT_MAGAZINE(rtg_200Rnd_762x51, 5)
         };
         class AcreIntercoms {
             class Intercom_1 {
@@ -283,7 +258,7 @@ class CfgVehicles {
         class AcreRacks {
             class Rack_1 {
                 allowedPositions[] = {"driver", "commander", "gunner"};
-                componentName = "ACRE_VRC110";
+                componentName = "ACRE_PRC152";
                 displayName = "Dash";
                 mountedRadio = "ACRE_PRC152";
                 shortName = "Dash";
@@ -304,7 +279,7 @@ class CfgVehicles {
         displayName = "Bushmaster Transport [1/7]";
         editorCategory = "Raider_Tactical";
         simulation="CarX";
-        editorSubcategory = "Bushmasters";
+        editorSubcategory = "Cars";
         author = "Shrike";
         scope = 2;
         side = 1;
@@ -326,6 +301,11 @@ class CfgVehicles {
 		smokeLauncherVelocity = 14;
 		smokeLauncherOnTurret = 0;
 		smokeLauncherAngle = 160;
+
+        // Water Source
+        acex_field_rations_waterSupply = 50;
+        // Extra Fuel (Jerry Cans on Vehicles)
+        ace_refuel_fuelCargo = 80;
 
         textureList[] = 
 		{
@@ -621,91 +601,34 @@ class CfgVehicles {
             };
         };
 
+        // Vehicle Inventorys
         class TransportItems
         {
-            class _xx_kat_accuvac 
-            {
-                name = "kat_accuvac";
-                count = 1;
-            };
-            class _xx_ACE_NVG_Gen4_black 
-            {
-                name = "ACE_NVG_Gen4_black";
-                count = 8;
-            };
-            class _xx_ToolKit
-            {
-                name = "ToolKit";
-                count = 2;
-            };
-            class _xx_ACE_bloodIV_500
-            {
-                name = "ACE_bloodIV_500";
-                count = 8;
-            };
-            class _xx_ACE_personalAidKit
-            {
-                name = "ACE_personalAidKit";
-                count = 8;
-            };
-            class _xx_ACE_elasticBandage
-            {
-                name = "ACE_elasticBandage";
-                count = 40;
-            };
-            class _xx_ACE_packingBandage
-            {
-                name = "ACE_packingBandage";
-                count = 10;
-            };
-            class _xx_ACE_quikclot
-            {
-                name = "ACE_quikclot";
-                count = 10;
-            };
-            class _xx_ACE_morphine
-            {
-                name = "ACE_morphine";
-                count = 6;
-            };
-            class _xx_ACE_tourniquet 
-            {
-                name = "ACE_tourniquet";
-                count = 6;
-            };
-            class _xx_ACE_rope6
-            {
-                name = "ACE_rope6";
-                count = 4;
-            };
-            class _xx_ACE_Canteen
-            {
-                name = "ACE_Canteen";
-                count = 5;
-            };
-            class _xx_ACE_Can_Franta
-            {
-                name = "ACE_Can_Franta";
-                count = 10;
-            };
-            class _xx_ACE_MRE_BeefStew 
-            {
-                name = "ACE_MRE_BeefStew";
-                count = 5;
-            };
+            TRANSPORT_ITEM(ACE_NVG_Gen4_black, 8)
+            TRANSPORT_ITEM(ToolKit, 2)
+            TRANSPORT_ITEM(ACRE_PRC343, 2)
+            TRANSPORT_ITEM(ACRE_PRC152, 2)
+            TRANSPORT_ITEM(ACE_personalAidKit, 8)
+            TRANSPORT_ITEM(ACE_wirecutter, 1)
+            TRANSPORT_ITEM(ACE_rope12, 4)
+            TRANSPORT_ITEM(ACE_Canteen, 5)
+            TRANSPORT_ITEM(ACE_Can_Franta, 9)
+            TRANSPORT_ITEM(ACE_MRE_BeefStew, 5)
+            TRANSPORT_ITEM(ACE_bodyBag, 9)
+        };
+        class TransportBackpacks
+        {
+            TRANSPORT_BACKPACK(rtg_medical_grabpack, 2)
         };
         class TransportWeapons
         {
-            class _xx_hlc_wp_SCARL_CQC_Blk 
-            {
-                weapon = "hlc_wp_SCARL_CQC_Blk";
-                count = 2;
-            };
-            class _xx_rhs_weap_m72a7
-            {
-                weapon = "rhs_weap_m72a7";
-                count = 2;
-            };
+            TRANSPORT_WEAPON(rhs_weap_m16a4_carryhandle, 2)
+            TRANSPORT_WEAPON(rhs_weap_m72a7, 2)
+        };
+        class TransportMagazines 
+        {
+            TRANSPORT_MAGAZINE(rtg_30rnd_556_45, 10)
+            TRANSPORT_MAGAZINE(rtg_200Rnd_762x51, 5)
         };
         class AcreIntercoms {
             class Intercom_1 {
@@ -721,7 +644,7 @@ class CfgVehicles {
         class AcreRacks {
             class Rack_1 {
                 allowedPositions[] = {"driver", "commander", "gunner"};
-                componentName = "ACRE_VRC110";
+                componentName = "ACRE_PRC152";
                 displayName = "Dash";
                 mountedRadio = "ACRE_PRC152";
                 shortName = "Dash";
@@ -741,7 +664,7 @@ class CfgVehicles {
     {
         displayName = "Bushmaster Armed .50 [2/6]";
         editorCategory = "Raider_Tactical";
-        editorSubcategory = "Bushmasters";
+        editorSubcategory = "Cars";
         author = "Shrike";
         scope = 2;
         faction = "Raider_Tactical_F";
@@ -763,91 +686,39 @@ class CfgVehicles {
 		smokeLauncherOnTurret = 1;
 		smokeLauncherAngle = 160;
 
+        // Water Source
+        acex_field_rations_waterSupply = 50;
+        // Extra Fuel (Jerry Cans on Vehicles)
+        ace_refuel_fuelCargo = 80;
+
+        // Vehicle Inventorys
         class TransportItems
         {
-            class _xx_kat_accuvac 
-            {
-                name = "kat_accuvac";
-                count = 1;
-            };
-            class _xx_ACE_NVG_Gen4_black 
-            {
-                name = "ACE_NVG_Gen4_black";
-                count = 8;
-            };
-            class _xx_ToolKit
-            {
-                name = "ToolKit";
-                count = 2;
-            };
-            class _xx_ACE_bloodIV_500
-            {
-                name = "ACE_bloodIV_500";
-                count = 8;
-            };
-            class _xx_ACE_personalAidKit
-            {
-                name = "ACE_personalAidKit";
-                count = 8;
-            };
-            class _xx_ACE_elasticBandage
-            {
-                name = "ACE_elasticBandage";
-                count = 40;
-            };
-            class _xx_ACE_packingBandage
-            {
-                name = "ACE_packingBandage";
-                count = 10;
-            };
-            class _xx_ACE_quikclot
-            {
-                name = "ACE_quikclot";
-                count = 10;
-            };
-            class _xx_ACE_morphine
-            {
-                name = "ACE_morphine";
-                count = 6;
-            };
-            class _xx_ACE_tourniquet 
-            {
-                name = "ACE_tourniquet";
-                count = 6;
-            };
-            class _xx_ACE_rope6
-            {
-                name = "ACE_rope6";
-                count = 4;
-            };
-            class _xx_ACE_Canteen
-            {
-                name = "ACE_Canteen";
-                count = 5;
-            };
-            class _xx_ACE_Can_Franta
-            {
-                name = "ACE_Can_Franta";
-                count = 10;
-            };
-            class _xx_ACE_MRE_BeefStew 
-            {
-                name = "ACE_MRE_BeefStew";
-                count = 5;
-            };
+            TRANSPORT_ITEM(ACE_NVG_Gen4_black, 8)
+            TRANSPORT_ITEM(ToolKit, 2)
+            TRANSPORT_ITEM(ACRE_PRC343, 2)
+            TRANSPORT_ITEM(ACRE_PRC152, 2)
+            TRANSPORT_ITEM(ACE_personalAidKit, 8)
+            TRANSPORT_ITEM(ACE_wirecutter, 1)
+            TRANSPORT_ITEM(ACE_rope12, 4)
+            TRANSPORT_ITEM(ACE_Canteen, 5)
+            TRANSPORT_ITEM(ACE_Can_Franta, 9)
+            TRANSPORT_ITEM(ACE_MRE_BeefStew, 5)
+            TRANSPORT_ITEM(ACE_bodyBag, 9)
+        };
+        class TransportBackpacks
+        {
+            TRANSPORT_BACKPACK(rtg_medical_grabpack, 2)
         };
         class TransportWeapons
         {
-            class _xx_hlc_wp_SCARL_CQC_Blk 
-            {
-                weapon = "hlc_wp_SCARL_CQC_Blk";
-                count = 2;
-            };
-            class _xx_rhs_weap_m72a7
-            {
-                weapon = "rhs_weap_m72a7";
-                count = 2;
-            };
+            TRANSPORT_WEAPON(rhs_weap_m16a4_carryhandle, 2)
+            TRANSPORT_WEAPON(rhs_weap_m72a7, 2)
+        };
+        class TransportMagazines 
+        {
+            TRANSPORT_MAGAZINE(rtg_30rnd_556_45, 10)
+            TRANSPORT_MAGAZINE(rtg_200Rnd_762x51, 5)
         };
         class AcreIntercoms {
             class Intercom_1 {
@@ -863,7 +734,7 @@ class CfgVehicles {
         class AcreRacks {
             class Rack_1 {
                 allowedPositions[] = {"driver", "commander", "gunner"};
-                componentName = "ACRE_VRC110";
+                componentName = "ACRE_PRC152";
                 displayName = "Dash";
                 mountedRadio = "ACRE_PRC152";
                 shortName = "Dash";
@@ -1197,6 +1068,15 @@ class CfgVehicles {
         armor = 80;
         weapons[] = {"CMFlareLauncher"};
 		magazines[] = {"168Rnd_CMFlare_Chaff_Magazine"};
+
+        // Fast Ropping
+        ace_fastroping_enabled = 1;
+
+        // Water Source
+        acex_field_rations_waterSupply = 50;
+        // Extra Fuel (Jerry Cans on Vehicles)
+        ace_refuel_fuelCargo = 80;
+
         class Components: Components
 		{
             class SensorsManagerComponent
@@ -1341,92 +1221,34 @@ class CfgVehicles {
             };
         };
 
+        // Vehicle Inventorys
         class TransportItems
         {
-            class _xx_kat_accuvac 
-            {
-                name = "kat_accuvac";
-                count = 1;
-            };
-            class _xx_ACE_NVG_Gen4_black 
-            {
-                name = "ACE_NVG_Gen4_black";
-                count = 8;
-            };
-            class _xx_ToolKit
-            {
-                name = "ToolKit";
-                count = 2;
-            };
-            class _xx_ACE_bloodIV_500
-            {
-                name = "ACE_bloodIV_500";
-                count = 8;
-            };
-            class _xx_ACE_personalAidKit
-            {
-                name = "ACE_personalAidKit";
-                count = 8;
-            };
-            class _xx_ACE_elasticBandage
-            {
-                name = "ACE_elasticBandage";
-                count = 40;
-            };
-            class _xx_ACE_packingBandage
-            {
-                name = "ACE_packingBandage";
-                count = 10;
-            };
-            class _xx_ACE_quikclot
-            {
-                name = "ACE_quikclot";
-                count = 10;
-            };
-            class _xx_ACE_morphine
-            {
-                name = "ACE_morphine";
-                count = 6;
-            };
-            class _xx_ACE_tourniquet 
-            {
-                name = "ACE_tourniquet";
-                count = 6;
-            };
-            class _xx_ACE_rope6
-            {
-                name = "ACE_rope6";
-                count = 4;
-            };
-            class _xx_ACE_Canteen
-            {
-                name = "ACE_Canteen";
-                count = 5;
-            };
-            class _xx_ACE_Can_Franta
-            {
-                name = "ACE_Can_Franta";
-                count = 10;
-            };
-            class _xx_ACE_MRE_BeefStew 
-            {
-                name = "ACE_MRE_BeefStew";
-                count = 5;
-            };
-
+            TRANSPORT_ITEM(ACE_NVG_Gen4_black, 8)
+            TRANSPORT_ITEM(ToolKit, 2)
+            TRANSPORT_ITEM(ACRE_PRC343, 2)
+            TRANSPORT_ITEM(ACRE_PRC152, 2)
+            TRANSPORT_ITEM(ACE_personalAidKit, 8)
+            TRANSPORT_ITEM(ACE_wirecutter, 1)
+            TRANSPORT_ITEM(ACE_rope12, 4)
+            TRANSPORT_ITEM(ACE_Canteen, 5)
+            TRANSPORT_ITEM(ACE_Can_Franta, 9)
+            TRANSPORT_ITEM(ACE_MRE_BeefStew, 5)
+            TRANSPORT_ITEM(ACE_bodyBag, 9)
+        };
+        class TransportBackpacks
+        {
+            TRANSPORT_BACKPACK(rtg_medical_grabpack, 2)
         };
         class TransportWeapons
         {
-            class _xx_hlc_wp_SCARL_CQC_Blk 
-            {
-                weapon = "hlc_wp_SCARL_CQC_Blk";
-                count = 2;
-            };
-            class _xx_rhs_weap_m72a7
-            {
-                weapon = "rhs_weap_m72a7";
-                count = 2;
-            };
+            TRANSPORT_WEAPON(rhs_weap_m16a4_carryhandle, 2)
+            TRANSPORT_WEAPON(rhs_weap_m72a7, 2)
+        };
+        class TransportMagazines 
+        {
+            TRANSPORT_MAGAZINE(rtg_30rnd_556_45, 10)
+            TRANSPORT_MAGAZINE(rtg_200Rnd_762x51, 5)
         };
         class AcreIntercoms {
             class Intercom_1 { 
@@ -1442,7 +1264,7 @@ class CfgVehicles {
         class AcreRacks { 
             class Rack_1 { 
                 allowedPositions[] = {"driver", "commander", {"turret", "all"}}; 
-                componentName = "ACRE_VRC110"; 
+                componentName = "ACRE_PRC152"; 
                 displayName = "Dash"; 
                 mountedRadio = "ACRE_PRC152"; 
                 shortName = "Dash"; 
@@ -1480,6 +1302,15 @@ class CfgVehicles {
         armor = 80;
         weapons[] = {"CMFlareLauncher"};
 		magazines[] = {"168Rnd_CMFlare_Chaff_Magazine"};
+
+        // Fast Ropping
+        ace_fastroping_enabled = 1;
+
+        // Water Source
+        acex_field_rations_waterSupply = 50;
+        // Extra Fuel (Jerry Cans on Vehicles)
+        ace_refuel_fuelCargo = 80;
+
         class Components: Components
 		{
 			class TransportPylonsComponent
@@ -1643,92 +1474,34 @@ class CfgVehicles {
             };
         };
 
+        // Vehicle Inventorys
         class TransportItems
         {
-            class _xx_kat_accuvac 
-            {
-                name = "kat_accuvac";
-                count = 1;
-            };
-            class _xx_ACE_NVG_Gen4_black 
-            {
-                name = "ACE_NVG_Gen4_black";
-                count = 8;
-            };
-            class _xx_ToolKit
-            {
-                name = "ToolKit";
-                count = 2;
-            };
-            class _xx_ACE_bloodIV_500
-            {
-                name = "ACE_bloodIV_500";
-                count = 8;
-            };
-            class _xx_ACE_personalAidKit
-            {
-                name = "ACE_personalAidKit";
-                count = 8;
-            };
-            class _xx_ACE_elasticBandage
-            {
-                name = "ACE_elasticBandage";
-                count = 40;
-            };
-            class _xx_ACE_packingBandage
-            {
-                name = "ACE_packingBandage";
-                count = 10;
-            };
-            class _xx_ACE_quikclot
-            {
-                name = "ACE_quikclot";
-                count = 10;
-            };
-            class _xx_ACE_morphine
-            {
-                name = "ACE_morphine";
-                count = 6;
-            };
-            class _xx_ACE_tourniquet 
-            {
-                name = "ACE_tourniquet";
-                count = 6;
-            };
-            class _xx_ACE_rope6
-            {
-                name = "ACE_rope6";
-                count = 4;
-            };
-            class _xx_ACE_Canteen
-            {
-                name = "ACE_Canteen";
-                count = 5;
-            };
-            class _xx_ACE_Can_Franta
-            {
-                name = "ACE_Can_Franta";
-                count = 10;
-            };
-            class _xx_ACE_MRE_BeefStew 
-            {
-                name = "ACE_MRE_BeefStew";
-                count = 5;
-            };
-
+            TRANSPORT_ITEM(ACE_NVG_Gen4_black, 8)
+            TRANSPORT_ITEM(ToolKit, 2)
+            TRANSPORT_ITEM(ACRE_PRC343, 2)
+            TRANSPORT_ITEM(ACRE_PRC152, 2)
+            TRANSPORT_ITEM(ACE_personalAidKit, 8)
+            TRANSPORT_ITEM(ACE_wirecutter, 1)
+            TRANSPORT_ITEM(ACE_rope12, 4)
+            TRANSPORT_ITEM(ACE_Canteen, 5)
+            TRANSPORT_ITEM(ACE_Can_Franta, 9)
+            TRANSPORT_ITEM(ACE_MRE_BeefStew, 5)
+            TRANSPORT_ITEM(ACE_bodyBag, 9)
+        };
+        class TransportBackpacks
+        {
+            TRANSPORT_BACKPACK(rtg_medical_grabpack, 2)
         };
         class TransportWeapons
         {
-            class _xx_hlc_wp_SCARL_CQC_Blk 
-            {
-                weapon = "hlc_wp_SCARL_CQC_Blk";
-                count = 2;
-            };
-            class _xx_rhs_weap_m72a7
-            {
-                weapon = "rhs_weap_m72a7";
-                count = 2;
-            };
+            TRANSPORT_WEAPON(rhs_weap_m16a4_carryhandle, 2)
+            TRANSPORT_WEAPON(rhs_weap_m72a7, 2)
+        };
+        class TransportMagazines 
+        {
+            TRANSPORT_MAGAZINE(rtg_30rnd_556_45, 10)
+            TRANSPORT_MAGAZINE(rtg_200Rnd_762x51, 5)
         };
         class AcreIntercoms { 
             class Intercom_1 { 
@@ -1744,7 +1517,7 @@ class CfgVehicles {
         class AcreRacks { 
             class Rack_1 { 
                 allowedPositions[] = {"driver", "commander", {"turret", "all"}}; 
-                componentName = "ACRE_VRC110"; 
+                componentName = "ACRE_PRC152"; 
                 displayName = "Dash"; 
                 mountedRadio = "ACRE_PRC152"; 
                 shortName = "Dash"; 
