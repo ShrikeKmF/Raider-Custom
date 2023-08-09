@@ -172,8 +172,8 @@ class CfgAmmo
     class R_MRAAWS_HEAT_F;
     class rtg_heat_MRAAWS : R_MRAAWS_HEAT_F {
         hit = 380;
-        indirectHit = 20;
-		indirectHitRange = 4;
+        indirectHit = 35;
+		indirectHitRange = 5;
         airFriction = 0.05;
 		sideAirFriction = 0;
 		maxSpeed = 350;
@@ -184,60 +184,15 @@ class CfgAmmo
 
     class R_MRAAWS_HE_F;
     class rtg_hedp_MRAAWS : R_MRAAWS_HE_F {
-        hit = 220;
-        indirectHit = 80;
-		indirectHitRange = 10;
+        hit = 160;
+        indirectHit = 75;
+		indirectHitRange = 12;
         airFriction = 0.05;
 		sideAirFriction = 0;
 		maxSpeed = 350;
 		initTime = 0;
 		thrustTime = 0.1;
 		thrust = 0.1;
-    };
-
-    class rtg_heatg_MRAAWS : rtg_heat_MRAAWS {
-        ace_frag_enabled = 1;
-		ace_frag_classes[] = {"ace_frag_medium","ace_frag_medium_HD"};
-		ace_frag_metal = 8000;
-		ace_frag_charge = 2400;
-		ace_frag_gurney_c = 2700;
-		ace_frag_gurney_k = "1/2";
-		manualControl = 0;
-		maneuvrability = 33;
-		effectsMissile = "missile2";
-		hit = 420;
-		indirectHit = 50;
-		whistleDist = 4;
-		airFriction = 0.085;
-		sideAirFriction = 2;
-		indirectHitRange = 4;
-		explosive = 0.8;
-		maxSpeed = 100;
-		typicalSpeed = 80;
-		thrustTime = 1.5;
-		thrust = 45;
-		timeToLive = 13;
-		class ace_missileguidance
-		{
-			enabled = 1;
-			minDeflection = 0.0005;
-			maxDeflection = 0.01;
-			incDeflection = 0.0005;
-			canVanillaLock = 0;
-			defaultSeekerType = "SALH";
-			seekerTypes[] = {"SALH","LIDAR","SARH","Optic","Thermal","GPS","SACLOS","MCLOS"};
-			defaultSeekerLockMode = "LOAL";
-			seekerLockModes[] = {"LOAL","LOBL"};
-			seekLastTargetPos = 1;
-			seekerAngle = 70;
-			seekerAccuracy = 1;
-			seekerMinRange = 1;
-			seekerMaxRange = 8000;
-			defaultAttackProfile = "hellfire";
-			attackProfiles[] = {"hellfire","hellfire_hi","hellfire_lo"};
-		};
-		CraterEffects = "ATRocketCrater";
-		explosionEffects = "ATRocketExplosion";
     };
 
     class SmokeShellArty;
@@ -247,11 +202,11 @@ class CfgAmmo
 		timeToLive = 120;
 		deflectionSlowDown = 0;
 	};
-	class RocketBase;
+
     class rtg_smoke_MRAAWS : R_MRAAWS_HE_F {
-        hit = 40;
+        hit = 35;
         indirectHit = 30;
-		indirectHitRange = 20;
+		indirectHitRange = 8;
         explosionEffects = "RHS_GDM40Effect";
 		submunitionAmmo = "aphx_maaws_SMOKE";
 		submunitionDirectionType = "SubmunitionModelDirection";
@@ -266,4 +221,38 @@ class CfgAmmo
 		submunitionParentSpeedCoef = 0.25;
 		simulation = "shotRocket";
 	};
+
+    class rhs_rpg7v2_pg7vm;
+    class rtg_rpg_heat : rhs_rpg7v2_pg7vm
+    {
+        hit = 150;
+        indirectHit = 35;
+		indirectHitRange = 4;
+    };
+
+    class rtg_rpg_smoke : rtg_rpg_heat
+    {
+        hit = 28;
+        indirectHit = 22;
+		indirectHitRange = 6;
+        explosionEffects = "RHS_GDM40Effect";
+		submunitionAmmo = "aphx_maaws_SMOKE";
+		submunitionDirectionType = "SubmunitionModelDirection";
+		submunitionConeType[] = {"randomupcone",4};
+		submunitionConeAngle = 120;
+		submunitionConeAngleHorizontal = 30;
+		triggerDistance = 40;
+        submunitionInitialOffset[] = {0,2,4};
+		submunitionInitSpeed = 0;
+		triggerSpeedCoef = 0.25;
+        simulation = "shotRocket";
+    };
+
+    class rhs_rpg7v2_og7v;
+    class rtg_rpg_hedp : rhs_rpg7v2_og7v
+    {
+        hit = 90;
+        indirectHit = 45;
+		indirectHitRange = 9;
+    }
 };

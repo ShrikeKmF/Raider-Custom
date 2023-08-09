@@ -24,7 +24,6 @@ class CfgMagazineWells
 			"rtg_MRAWS_HEAT_F";
 			"rtg_MRAWS_HE_F";
 			"rtg_MRAWS_SMK_F";
-			"rtg_MRAWS_HEATG_F";
 		};
 	};
 
@@ -199,6 +198,16 @@ class CfgMagazineWells
 		RTG_Magazines[] = 
         {
             "rtg_10Rnd_127x99";
+        };
+	}
+
+	class RPG7
+	{
+		RTG_Magazines[] = 
+        {
+            "rtg_rpg_smk_mag";
+			"rtg_rpg_heat_mag";
+			"rtg_rpg_hedp_mag";
         };
 	}
 };

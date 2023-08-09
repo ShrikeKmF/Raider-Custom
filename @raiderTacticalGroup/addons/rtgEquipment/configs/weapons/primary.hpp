@@ -1265,6 +1265,20 @@ class rtg_G3A3_wide_RIS : arifle_SPAR_03_blk_f
 	};
 };
 
+class srifle_DMR_01_F;
+class rtg_vs121 : srifle_DMR_01_F
+{
+	scope = 2;
+	dlc = "raiderTactical";
+	Author = "Shike";
+	displayName = "VS-121 50BW";
+	baseWeapon = "rtg_vs121";
+	hiddenSelections[] = {"camo1","camo2"};
+	hiddenSelectionsTextures[] = {"\a3\weapons_f_epa\longrangerifles\dmr_01\data\dmr_01_co.paa","rtgEquipment\tex\vs121.paa"};
+	magazineWell[] = {"rtg_50_bw_STANAG"};
+	magazines[] = {"rtg_10rnd_10bw"};
+};
+
 class srifle_EBR_F;
 class rhs_weap_m14ebrri;
 class rhs_weap_m14_ris_d;
@@ -1942,6 +1956,22 @@ class launch_B_Titan_short_F : launch_Titan_short_base
 	mass = 225;
 	ace_reloadlaunchers_enabled = 1;
 };
+
+class launch_RPG7_F;
+class rtg_pslr1_rpg7 : launch_RPG7_F
+{
+	scope = 2;
+	dlc = "raiderTactical";
+	Author = "Shike";
+	displayName = "PSLR-1 LAT (Black)";
+	baseWeapon = "rtg_pslr1";
+	mass = 95.5;
+	ace_reloadlaunchers_enabled = 1;
+	hiddenSelections[] = {"camo"};
+	hiddenSelectionsTextures[] = {"rtgEquipment\tex\PSLR-1.paa"};
+	magazines[] = {"RPG7_F"};
+	magazineWell[] = {"RPG7"};
+}
 
 // shotguns
 class rhs_weap_M590_5RD;

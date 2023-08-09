@@ -6463,12 +6463,12 @@ class ItemInfo: ItemInfo
 };
 
 // Badger
-class rhssaf_vest_otv_md2camo;
-class badgerVest : rhssaf_vest_otv_md2camo {
+class M81_Vest_5;
+class badgerVest : M81_Vest_5 {
 	scope = 2;
 	dlc = "raiderTactical";
 	Author = "Shrike";
-    displayName = "OTV M81 - Badger";
+    displayName = "IOTV M81 - Badger";
     hiddenSelectionsTextures[] = {"\rtgEquipment\tex\badgerVest.paa"};
     class ItemInfo: ItemInfo
     {

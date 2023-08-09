@@ -26,16 +26,39 @@ class CfgMagazines
         scope = 2;
         displayname = "[RTG] MAAWS Smoke";
         displaynameshort = "84mm Smoke";
-        mass = 25;
+        mass = 15;
     };
 
-    class rtg_MRAWS_HEATG_F : rtg_MRAWS_HEAT_F {
+    class rhs_rpg7_PG7VM_mag;
+    class rtg_rpg_smk_mag : rhs_rpg7_PG7VM_mag
+    {
         author = "Shrike";
-        ammo = "rtg_heatg_MRAAWS";
+        ammo = "rtg_rpg_smoke";
         scope = 2;
-        displayname = "[RTG] MAAWS Guided HEAT";
-        displaynameshort = "84mm Guided HEAT";
-        mass = 115;
+        displayname = "[RTG] SM-7VM Smoke";
+        displaynameshort = "73mm Smoke";
+        mass = 12;
+    };
+
+    class rtg_rpg_heat_mag : rhs_rpg7_PG7VM_mag
+    {
+        author = "Shrike";
+        ammo = "rtg_rpg_heat";
+        scope = 2;
+        displayname = "[RTG] PG-7VM HEAT";
+        displaynameshort = "73mm HEAT";
+        mass = 50;
+    };
+
+    class rhs_rpg7_OG7V_mag;
+    class rtg_rpg_hedp_mag : rhs_rpg7_OG7V_mag 
+    {
+        author = "Shrike";
+        ammo = "rtg_rpg_hedp";
+        scope = 2;
+        displayname = "[RTG] OG-7VM HEDP";
+        displaynameshort = "40mm HEDP";
+        mass = 40;
     };
 
 	// References

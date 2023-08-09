@@ -360,6 +360,7 @@ class fishPack : B_CombinationUnitRespirator_01_F {
 	Author = "Shrike";
     displayName = "Backpack - Fish";
     maximumLoad = 380;
+    mass = 50;
     hiddenSelectionsTextures[] = {"rtgEquipment\tex\fishPack.paa"};
 };
 

@@ -130,6 +130,7 @@ class rtg_c7a2: arifle_SPAR_01_blk_f {
 	ACE_barrelTwist = 203.2;
 	ACE_barrelLength = 406.4;
 	ace_railHeightAboveBore = 2.5;
+	
 	model = "hlc_wp_ar15\mesh\pbear\car15.p3d";
 	reloadAction = "NIA_GestureReload416";
 	picture = "\hlc_wp_ar15\tex\ui\gear_vendimus_ca";
