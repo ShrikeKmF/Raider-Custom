@@ -210,4 +210,12 @@ class CfgMagazineWells
 			"rtg_rpg_hedp_mag";
         };
 	}
+
+	class 25XM25
+	{
+		RTG_Magazines[] = 
+        {
+            "rtg_25mm_HE_Mag";
+        };
+	}
 };

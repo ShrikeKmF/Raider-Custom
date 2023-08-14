@@ -75,7 +75,7 @@ class CfgAmmo
 		model = "\A3\Weapons_f\Data\bullettracer\tracer_red";
 		ACE_bulletMass = 6.4176;
 		AB_ballisticCoefficients[] = { 0.122 };
-		ACE_muzzleVelocities[] = { 300, 400, 452 };
+		ACE_muzzleVelocities[] = { 500, 600, 700 };
 		ACE_barrelLengths[] = { 254.0, 393.7, 508.0 };
     };
 
@@ -162,6 +162,20 @@ class CfgAmmo
         submunitionConeAngle	= 0.99;
         typicalSpeed = 450;
         ACE_muzzleVelocities[] = {260, 300, 340};
+    };
+
+    class rtg_25mm_hedp : rhs_ammo_12g_FRAG
+    {
+        ACE_bulletMass = 130.2176;
+        AB_ballisticCoefficients[] = { 0.87};
+        ACE_muzzleVelocities[] = {60 , 70, 80 };
+        ACE_barrelLengths[] = {254.0, 393.7, 508.0 };
+        typicalSpeed = 80;
+        ACE_caliber = 25.12;
+        hit = 25;
+        indirectHit = 25;
+		indirectHitRange = 8;
+        triggerOnImpact	 = 1;
     };
 
     class B_570x28_Ball;

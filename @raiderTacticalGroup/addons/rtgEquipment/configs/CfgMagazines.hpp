@@ -509,4 +509,18 @@ class CfgMagazines
         displaynameshort = "50Rnd 5.7x28";
         scope = 2;
     };
+
+    class UK3CB_AUG_42Rnd_556x45_Magazine;
+    class rtg_25mm_HE_Mag : UK3CB_AUG_42Rnd_556x45_Magazine
+    {
+        author = "Shrike";
+        ammo = "rtg_25mm_hedp";
+        count = 12;
+        tracersevery = 1;
+        lastroundstracer = 0;
+        descriptionshort = "Raider Tactical Standard Issue 25mm Ammo";
+        displayname = "[RTG] 12Rnd 25mm HEDP Mag";
+        displaynameshort = "12Rnd 25mm";
+        scope = 2;
+    };
 };

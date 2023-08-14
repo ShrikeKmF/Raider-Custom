@@ -287,7 +287,7 @@ class rtg_weap_m249_pip_9 : rhs_weap_m249_pip_S
 	};
 	class FullAuto: FullAuto
 	{
-		reloadTime = 0.062;
+		reloadTime = 0.068571;
 		sounds[] = {"StandardSound","SilencedSound"};
 		class BaseSoundModeType
 		{
@@ -328,7 +328,7 @@ class rtg_weap_m249_pip_9_para : rhs_weap_m249_pip_S_para
 	};
 	class FullAuto: FullAuto
 	{
-		reloadTime = 0.062;
+		reloadTime = 0.068571;
 		sounds[] = {"StandardSound","SilencedSound"};
 		class BaseSoundModeType
 		{
@@ -369,7 +369,7 @@ class rtg_weap_m249_light_9 : rhs_weap_m249_light_S
 	};
 	class FullAuto: FullAuto
 	{
-		reloadTime = 0.062;
+		reloadTime = 0.068571;
 		sounds[] = {"StandardSound","SilencedSound"};
 		class BaseSoundModeType
 		{
@@ -424,7 +424,7 @@ class rtg_249_pip_s_762 : LMG_Mk200_black_F
 		{
 			soundSetShot[] = {"mk48_silencerShot_SoundSet", "mk48_silencerTail_SoundSet"};
 		};
-		reloadTime = 0.084;
+		reloadTime = 0.08;
 		dispersion = 0.000261799;
 	};
 	class XtdGearInfo
@@ -472,7 +472,7 @@ class rtg_249_fixed_s_762 : LMG_Mk200_black_F
 		{
 			soundSetShot[] = {"mk48_silencerShot_SoundSet", "mk48_silencerTail_SoundSet"};
 		};
-		reloadTime = 0.084;
+		reloadTime = 0.08;
 		dispersion = 0.000261799;
 	};
 	class XtdGearInfo

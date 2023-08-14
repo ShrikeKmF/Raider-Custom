@@ -195,7 +195,7 @@ class rtg_50_MSBS65_F : arifle_MSBS65_Mark_F
 	magazineWell[] = {"rtg_50_bw_STANAG"};
 	magazines[] = {"rtg_10rnd_10bw"};
 	modes[] = {"Single"};
-	recoil = "rhs_recoil_mk18";
+	recoil = "rhs_weap_scarl_folded_recoil";
 	class CowsSlot: asdg_OpticRail1913RTG
 	{
 		iconPosition[] = {0.37,0.24};
@@ -239,7 +239,7 @@ class rtg_50_MSBS65_black_F : arifle_MSBS65_Mark_black_F
 	magazineWell[] = {"rtg_50_bw_STANAG"};
 	magazines[] = {"rtg_10rnd_10bw"};
 	modes[] = {"Single"};
-	recoil = "rhs_recoil_mk18";
+	recoil = "rhs_weap_scarl_folded_recoil";
 	class CowsSlot: asdg_OpticRail1913RTG
 	{
 		iconPosition[] = {0.37,0.24};
@@ -283,7 +283,7 @@ class rtg_50_MSBS65_camo_F : arifle_MSBS65_Mark_camo_F
 	magazineWell[] = {"rtg_50_bw_STANAG"};
 	magazines[] = {"rtg_10rnd_10bw"};
 	modes[] = {"Single"};
-	recoil = "rhs_recoil_mk18";
+	recoil = "rhs_weap_scarl_folded_recoil";
 	class CowsSlot: asdg_OpticRail1913RTG
 	{
 		iconPosition[] = {0.37,0.24};
@@ -327,7 +327,7 @@ class rtg_50_MSBS65_sand_F : arifle_MSBS65_Mark_sand_F
 	magazineWell[] = {"rtg_50_bw_STANAG"};
 	magazines[] = {"rtg_10rnd_10bw"};
 	modes[] = {"Single"};
-	recoil = "rhs_recoil_mk18";
+	recoil = "rhs_weap_scarl_folded_recoil";
 	class CowsSlot: asdg_OpticRail1913RTG
 	{
 		iconPosition[] = {0.37,0.24};
@@ -722,5 +722,40 @@ class rtg_300_MSBS65_UBS_sand_F : arifle_MSBS65_UBS_sand_F
 		camo = "sand";
 		calibre = "N300";
 		ugl = "sg";
+	};
+};
+
+class rtg_XM25_black : rtg_MSBS65_black_F
+{
+	scope = 2;
+	dlc = "raiderTactical";
+	baseWeapon = "rtg_XM25_black";
+	displayName = "XM25 (Black)";
+	Author = "Shrike";
+	magazineWell[] = {"25XM25"};
+	magazines[] = {"rtg_25mm_HE_Mag"};
+	modes[] = {"Single"};
+	discreteDistance[] = {50,100,150,200,250,300,350,375};
+	class CowsSlot: asdg_OpticRail1913
+	{
+		iconPosition[] = {0.37,0.24};
+		iconScale = 0.2;
+	};
+	class XtdGearInfo
+	{
+		model = "";
+	};
+	class Single : Single
+	{
+		sounds[]={"StandardSound"};
+		class StandardSound
+		{
+			weaponSoundEffect="DefaultRifle";
+			soundClosure[] = {};
+			begin1[]={"rhsusf\addons\rhsusf_sounds\ugl\ugl_1",1.80,1,800};
+			begin2[]={"rhsusf\addons\rhsusf_sounds\ugl\ugl_2",1.80,1,800};
+			soundBegin[]={"begin1",0.5,"begin2",0.5};
+		};
+		reloadTime = 0.33333;
 	};
 };

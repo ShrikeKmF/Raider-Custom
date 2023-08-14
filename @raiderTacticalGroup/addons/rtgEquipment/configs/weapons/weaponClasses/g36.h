@@ -5,7 +5,7 @@ class rtg_g36_v_556 : arifle_SPAR_01_blk_F {
 	baseWeapon = "rtg_g36_v_556";
     displayName="G36V 5.56mm";
 	AB_barrelTwist = 12;
-	AB_barrelLength = 18.25;
+	AB_barrelLength = 18.9;
 	ACE_barrelTwist = 178;
 	ACE_barrelLength = 480;
 	reloadAction = "NIA_GestureReloadG36V";
@@ -18,12 +18,51 @@ class rtg_g36_v_556 : arifle_SPAR_01_blk_F {
 	hiddenSelectionsTextures[] = {"hlc_wp_g36\tex\commonmaps\g36_commonmap_v_co.paa","hlc_wp_g36\tex\placeholder\g36_opticrails_co.paa","hlc_wp_g36\tex\placeholder\g36_magwell_co.paa","hlc_wp_g36\tex\placeholder\g36_stockfurniture_co.paa","hlc_wp_g36\tex\placeholder\g36_ag36_co.paa"};
 	discretedistance[] = {200};
 	discretedistanceinitindex = 0;
+	modes[] = {"Single", "FullAuto"};
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_g36";
 		barrel = "long";
 		calibre = "N556";
 		style = "full";
+	};
+	class Single: Single
+	{
+		sounds[] = {"StandardSound","SilencedSound"};
+		class BaseSoundModeType
+		{
+			weaponSoundEffect = "DefaultRifle";
+		};
+		class StandardSound: BaseSoundModeType
+		{
+			soundSetShot[] = {"ACWP_416SBR_Shot_SoundSet","ACWP_416SBR_Tail_SoundSet"};
+		};
+		class SilencedSound: BaseSoundModeType
+		{
+			soundSetShot[] = {"ACWP_416SBR_silencerShot_SoundSet","ACWP_416SBR_silencerTail_SoundSet"};
+		};
+		weaponSoundEffect = "DefaultRifle";
+		reloadTime = 0.076923;
+		dispersion = 0.00031;
+	};
+	class FullAuto: FullAuto
+	{
+		sounds[] = {"StandardSound","SilencedSound"};
+		class BaseSoundModeType
+		{
+			weaponSoundEffect = "DefaultRifle";
+		};
+		class StandardSound: BaseSoundModeType
+		{
+			soundSetShot[] = {"ACWP_416SBR_Shot_SoundSet","ACWP_416SBR_Tail_SoundSet"};
+		};
+		class SilencedSound: BaseSoundModeType
+		{
+			soundSetShot[] = {"ACWP_416SBR_silencerShot_SoundSet","ACWP_416SBR_silencerTail_SoundSet"};
+		};
+		weaponSoundEffect = "DefaultRifle";
+		reloadTime = 0.076923;
+		dispersion = 0.00031;
 	};
 };
 class rtg_g36_cv_556 : rtg_g36_v_556 {
@@ -33,9 +72,9 @@ class rtg_g36_cv_556 : rtg_g36_v_556 {
     displayName="G36CV 5.56mm";
 	baseWeapon = "rtg_g36_cv_556";
 	AB_barrelTwist = 12;
-	AB_barrelLength = 18.25;
+	AB_barrelLength = 9;
 	ACE_barrelTwist = 178;
-	ACE_barrelLength = 318;
+	ACE_barrelLength = 228 ;
 	reloadAction = "NIA_GestureReloadG36V";
 	reloadmagazinesound[] = {"hlc_wp_g36\snd\G36EV_reload",0.9,1,35};
 	model = "hlc_wp_g36\mesh\G36V\G36C.p3d";

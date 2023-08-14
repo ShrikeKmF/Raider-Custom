@@ -19,6 +19,7 @@ class Mode_FullAuto;
 class manual;
 class Single;
 class FullAuto;
+class Burst;
 class StandardSound;
 class arifle_SPAR_01_blk_F;
 class arifle_SPAR_01_khk_F;
@@ -35,6 +36,18 @@ class rtg_famas_f1_ris : UK3CB_FAMAS_F1 {
 	baseWeapon = "rtg_famas_f1_ris";
 	magazineWell[] = {"CBA_556x45_STANAG"};
 	magazines[] = {"rtg_30rnd_556_45"};
+	ACE_barrelLength = 488;
+	modes[] = {"Single", "FullAuto"};
+	class Single: Single
+	{
+		reloadTime = 0.0625;
+		dispersion = 0.00031;
+	};
+	class FullAuto: FullAuto
+	{
+		reloadTime = 0.0625;
+		dispersion = 0.00031;
+	};
 };
 
 class rtg_samr2 : arifle_SPAR_01_blk_F
@@ -45,7 +58,6 @@ class rtg_samr2 : arifle_SPAR_01_blk_F
 	Author = "Shrike";
 	displayName = "LAR-15 5.56 Carbine";
 	ACE_barrelTwist = 228.6;
-	maxZeroing = 1600;
 	ACE_barrelLength = 457.2;
 	ace_railHeightAboveBore = 2.5;
 	reloadAction = "NIA_GestureReload416";
@@ -72,7 +84,6 @@ class rtg_samr2_545 : arifle_SPAR_01_blk_F
 	magazineWell[] = {"AK_545x39"};
 	magazines[] = {"rtg_30rnd_545_49"};
 	ACE_barrelTwist = 228.6;
-	maxZeroing = 1600;
 	ACE_barrelLength = 457.2;
 	ace_railHeightAboveBore = 2.5;
 	reloadAction = "NIA_GestureReload416";
@@ -99,7 +110,6 @@ class rtg_samr2_300 : arifle_SPAR_01_blk_F
 	magazineWell[] = {"CBA_300BLK_STANAG"};
 	magazines[] = {"rtg_30rnd_300_blk"};
 	ACE_barrelTwist = 228.6;
-	maxZeroing = 1600;
 	ACE_barrelLength = 457.2;
 	ace_railHeightAboveBore = 2.5;
 	reloadAction = "NIA_GestureReload416";
@@ -145,8 +155,8 @@ class rtg_f2000_tan : arifle_Mk20_plain_F
 			soundSetShot[] = {"ACWP_416SBR_silencerShot_SoundSet","ACWP_416SBR_silencerTail_SoundSet"};
 		};
 		weaponSoundEffect = "DefaultRifle";
-		reloadTime = 0.058;
-		dispersion = 0.00029;
+		reloadTime = 0.06741;
+		dispersion = 0.0019;
 	};
 	class FullAuto: FullAuto
 	{
@@ -164,8 +174,8 @@ class rtg_f2000_tan : arifle_Mk20_plain_F
 			soundSetShot[] = {"ACWP_416SBR_silencerShot_SoundSet","ACWP_416SBR_silencerTail_SoundSet"};
 		};
 		weaponSoundEffect = "DefaultRifle";
-		reloadTime = 0.058;
-		dispersion = 0.00029;
+		reloadTime = 0.06741;
+		dispersion = 0.0019;
 	};
 	class XtdGearInfo
 	{
@@ -197,8 +207,8 @@ class rtg_f2000_camo : arifle_Mk20_F {
 			soundSetShot[] = {"ACWP_416SBR_silencerShot_SoundSet","ACWP_416SBR_silencerTail_SoundSet"};
 		};
 		weaponSoundEffect = "DefaultRifle";
-		reloadTime = 0.058;
-		dispersion = 0.00029;
+		reloadTime = 0.06741;
+		dispersion = 0.0019;
 	};
 	class FullAuto: FullAuto
 	{
@@ -216,8 +226,8 @@ class rtg_f2000_camo : arifle_Mk20_F {
 			soundSetShot[] = {"ACWP_416SBR_silencerShot_SoundSet","ACWP_416SBR_silencerTail_SoundSet"};
 		};
 		weaponSoundEffect = "DefaultRifle";
-		reloadTime = 0.058;
-		dispersion = 0.00029;
+		reloadTime = 0.06741;
+		dispersion = 0.0019;
 	};
 	class XtdGearInfo
 	{
@@ -249,8 +259,8 @@ class rtg_f2000C_tan : arifle_Mk20C_plain_F {
 			soundSetShot[] = {"ACWP_416SBR_silencerShot_SoundSet","ACWP_416SBR_silencerTail_SoundSet"};
 		};
 		weaponSoundEffect = "DefaultRifle";
-		reloadTime = 0.058;
-		dispersion = 0.00029;
+		reloadTime = 0.06741;
+		dispersion = 0.0019;
 	};
 	class FullAuto: FullAuto
 	{
@@ -268,8 +278,8 @@ class rtg_f2000C_tan : arifle_Mk20C_plain_F {
 			soundSetShot[] = {"ACWP_416SBR_silencerShot_SoundSet","ACWP_416SBR_silencerTail_SoundSet"};
 		};
 		weaponSoundEffect = "DefaultRifle";
-		reloadTime = 0.058;
-		dispersion = 0.00029;
+		reloadTime = 0.06741;
+		dispersion = 0.0019;
 	};
 	class XtdGearInfo
 	{
@@ -301,8 +311,8 @@ class rtg_f2000C_camo : arifle_Mk20C_F {
 			soundSetShot[] = {"ACWP_416SBR_silencerShot_SoundSet","ACWP_416SBR_silencerTail_SoundSet"};
 		};
 		weaponSoundEffect = "DefaultRifle";
-		reloadTime = 0.058;
-		dispersion = 0.00029;
+		reloadTime = 0.06741;
+		dispersion = 0.0019;
 	};
 	class FullAuto: FullAuto
 	{
@@ -320,8 +330,8 @@ class rtg_f2000C_camo : arifle_Mk20C_F {
 			soundSetShot[] = {"ACWP_416SBR_silencerShot_SoundSet","ACWP_416SBR_silencerTail_SoundSet"};
 		};
 		weaponSoundEffect = "DefaultRifle";
-		reloadTime = 0.058;
-		dispersion = 0.00029;
+		reloadTime = 0.06741;
+		dispersion = 0.0019;
 	};
 	class XtdGearInfo
 	{
@@ -964,7 +974,6 @@ class rtg_rifle_samr2_9mm : arifle_SPAR_01_blk_F
 	magazineWell[] = {"RTG_9x19"};
 	magazines[] = {"rtg_9mm_35Rnd_mag"};
 	ACE_barrelTwist = 228.6;
-	maxZeroing = 1600;
 	ACE_barrelLength = 457.2;
 	ace_railHeightAboveBore = 2.5;
 	reloadAction = "NIA_GestureReload416";
@@ -1071,7 +1080,6 @@ class rtg_rifle_samr2_50bw : arifle_SPAR_01_blk_F
 	magazineWell[] = {"rtg_50_bw_STANAG"};
 	magazines[] = {"rtg_10rnd_10bw"};
 	ACE_barrelTwist = 228.6;
-	maxZeroing = 1600;
 	ACE_barrelLength = 457.2;
 	ace_railHeightAboveBore = 2.5;
 	reloadAction = "NIA_GestureReload416";
@@ -1083,7 +1091,7 @@ class rtg_rifle_samr2_50bw : arifle_SPAR_01_blk_F
 	hiddenSelections[] = {"Upper", "Lower", "D-Ring", "Rails", "Panels", "VFG", "Harris", "Patch", "Stock"};
 	hiddenSelectionsTextures[] = {"hlc_wp_ar15\tex\samr\upper_co.paa", "hlc_wp_ar15\tex\samr\lower2_co.paa", "hlc_wp_ar15\tex\samr\ras_co.paa", "hlc_wp_ar15\tex\samr\risras_co.paa", "hlc_wp_ar15\tex\samr\xtm2_co.paa", "hlc_wp_ar15\tex\melon_cqbr\vgrip_co.paa", "hlc_wp_ar15\tex\samr\hbipod_co.paa", "", "rtgEquipment\tex\rtgTesting.paa"};
 	modes[] = {"Single"};
-	recoil = "rhs_recoil_mk18";
+	recoil = "rhs_weap_scarl_folded_recoil";
 	class Single : Single
 	{
 		sounds[] = {"StandardSound", "SilencedSound"};
@@ -1120,6 +1128,7 @@ class rtg_hk417_blk : arifle_SPAR_03_blk_f
 	dlc = "raiderTactical";
 	Author = "Shrike";
 	baseWeapon = "rtg_hk417_blk";
+	ACE_barrelLength = 508;
 	displayName = "HK-417 Black";
 	magazineWell[] = {"CBA_762x51_M14"};
 	magazines[] = {"rtg_20Rnd_762x51"};
@@ -1128,6 +1137,15 @@ class rtg_hk417_blk : arifle_SPAR_03_blk_f
 		model = "rtg_ace_expanded_hk417";
 		camo = "black";
 	};
+	modes[] = {"Single", "FullAuto"};
+	class Single: Single
+	{
+		reloadTime = 0.088235;
+	};
+	class FullAuto: FullAuto
+	{
+		reloadTime = 0.088235;
+	};
 };
 class rtg_hk417_khk : arifle_SPAR_03_khk_f
 {
@@ -1135,6 +1153,7 @@ class rtg_hk417_khk : arifle_SPAR_03_khk_f
 	dlc = "raiderTactical";
 	Author = "Shrike";
 	baseWeapon = "rtg_hk417_khk";
+	ACE_barrelLength = 508;
 	displayName = "HK-417 Khaki";
 	magazineWell[] = {"CBA_762x51_M14"};
 	magazines[] = {"rtg_20Rnd_762x51"};
@@ -1150,6 +1169,7 @@ class rtg_hk417_snd : arifle_SPAR_03_snd_f
 	dlc = "raiderTactical";
 	Author = "Shrike";
 	baseWeapon = "rtg_hk417_snd";
+	ACE_barrelLength = 508;
 	displayName = "HK-417 Sand";
 	magazineWell[] = {"CBA_762x51_M14"};
 	magazines[] = {"rtg_20Rnd_762x51"};
@@ -1166,12 +1186,12 @@ class rtg_G3KA4_RAS : arifle_SPAR_03_blk_f
 	dlc = "raiderTactical";
 	Author = "Shrike";
 	model = "\hlc_wp_g3\mesh\g3_rails\g3ka4.p3d";
+	ACE_barrelLength = 450;
 	picture = "\hlc_wp_g3\tex\ui\gear_g3ka4_x_ca";
 	hiddenSelections[] = {"Main", "Rail", "Stock"};
 	handAnim[] = {"OFP2_ManSkeleton", "hlc_wp_g3\anim\handgesture_G3_STD_thin.rtm"};
 	hiddenSelectionsTextures[] = {"hlc_wp_g3\tex\krycek_g3\g3_2_co.paa", "hlc_wp_g3\tex\zulmarg_tech\rail_co.paa", "hlc_wp_g3\tex\arby_mp5n\mp5_co.paa"};
 	ACE_barrelTwist = 304.8;
-	ACE_barrelLength = 314.96;
 	baseWeapon = "rtg_G3KA4_RAS";
 	displayName = "G3KA4 RAS";
 	magazineWell[] = {"CBA_762x51_M14"};
@@ -1205,6 +1225,7 @@ class rtg_G3A3_RIS : arifle_SPAR_03_blk_f
 	baseWeapon = "rtg_G3A3_RIS";
 	displayName = "G3A3 RIS";
 	magazineWell[] = {"CBA_762x51_M14"};
+	ACE_barrelLength = 450;
 	magazines[] = {"rtg_20Rnd_762x51"};
 	handAnim[] = {"OFP2_ManSkeleton", "hlc_wp_g3\anim\handgesture_G3_STD_thin.rtm"};
 	model = "\hlc_wp_g3\mesh\g3a3\g3a3_railed.p3d";
@@ -1240,6 +1261,7 @@ class rtg_G3A3_wide_RIS : arifle_SPAR_03_blk_f
 	displayName = "G3A3 Wide RIS";
 	magazineWell[] = {"CBA_762x51_M14"};
 	magazines[] = {"rtg_20Rnd_762x51"};
+	ACE_barrelLength = 450;
 	model = "\hlc_wp_g3\mesh\g3a3\g3a3_Modern_railed.p3d";
 	handAnim[] = {"OFP2_ManSkeleton", "hlc_wp_g3\anim\handgesture_G3_STD_wide.rtm"};
 	hiddenSelections[] = {"Main", "Reciever", "Rec2", "Grip", "rail"};
@@ -1276,6 +1298,7 @@ class rtg_vs121 : srifle_DMR_01_F
 	hiddenSelections[] = {"camo1","camo2"};
 	hiddenSelectionsTextures[] = {"\a3\weapons_f_epa\longrangerifles\dmr_01\data\dmr_01_co.paa","rtgEquipment\tex\vs121.paa"};
 	magazineWell[] = {"rtg_50_bw_STANAG"};
+	recoil = "rhs_weap_scarl_folded_recoil";
 	magazines[] = {"rtg_10rnd_10bw"};
 };
 
@@ -1483,7 +1506,7 @@ class rtg_mk200 : LMG_Mk200_F
 		{
 			soundSetShot[] = {"mk48_silencerShot_SoundSet", "mk48_silencerTail_SoundSet"};
 		};
-		reloadTime = 0.084;
+		reloadTime = 0.09677;
 		dispersion = 0.000261799;
 	};
 };
@@ -1521,7 +1544,7 @@ class rtg_mk200_blk : LMG_Mk200_black_F
 		{
 			soundSetShot[] = {"mk48_silencerShot_SoundSet", "mk48_silencerTail_SoundSet"};
 		};
-		reloadTime = 0.084;
+		reloadTime = 0.09677;
 		dispersion = 0.000261799;
 	};
 };
@@ -1574,7 +1597,7 @@ class rtg_m60e4 : LMG_Mk200_black_F
 		{
 			soundSetShot[] = {"M60e4_silencerShot_SoundSet", "M60e4_silencerTail_SoundSet"};
 		};
-		reloadTime = 0.105;
+		reloadTime = 0.12;
 		dispersion = 0.000261799;
 		aiRateOfFire = 0.1;
 		aiRateOfFireDistance = 50;
@@ -1657,10 +1680,10 @@ class rtg_L4 : LMG_Mk200_black_F {
 	ACE_barrelLength = 410.1;
 	deployedPivot = "deploypivot";
 	hasBipod = 1;
-	reloadAction = "HLC_GestureReload_L4A3";
-	handAnim[] = {"OFP2_ManSkeleton","NIA_wp_Bren\anim\Handgesture_L4A3.rtm"};
 	soundBipodDown[] = {"NIA_wp_Bren\snd\Bren_Bipod_down",1,1,5};
 	soundBipodUp[] = {"NIA_wp_Bren\snd\Bren_Bipod_up",1,1,5};
+	reloadAction = "HLC_GestureReload_L4A3";
+	handAnim[] = {"OFP2_ManSkeleton","NIA_wp_Bren\anim\Handgesture_L4A3.rtm"};
 	magazineWell[] = {"CBA_762x51_M14"};
 	magazines[] = {"rtg_20Rnd_762x51"};
 	displayName = "L4 'Bren' 7.62 Nato";
@@ -1765,20 +1788,25 @@ class rtg_mg3 : LMG_Zafir_F {
 	ACE_barrelTwist = 304.8;
 	ACE_barrelLength = 431.8;
 	maxZeroing = 1100;
-	modes[] = {"FullAuto"};
+	modes[] = {"FullAuto1", "FullAuto2"};
 	class WeaponSlotsInfo: WeaponSlotsInfo
 	{
 		mass = 250.7;
 	};
-	class FullAuto : FullAuto
+	class FullAuto1 : FullAuto
 	{
 		class BaseSoundModeType;
 		class StandardSound: BaseSoundModeType
 		{
 			soundSetShot[] = {"NIA_MG3_NEW_Shot_SoundSet","MG3_Tail_SoundSet"};
 		};
-		reloadTime = 0.08;
+		reloadTime = 0.085714;
 		dispersion = 0.000261799;
+	};
+	class FullAuto2 : FullAuto1
+	{
+		reloadTime = 0.06;
+		textureType = "fastAuto";
 	};
 };
 
@@ -1994,14 +2022,13 @@ class rtg_rifle_samr2_12g : arifle_SPAR_01_blk_F
 	baseWeapon = "rtg_rifle_samr2_12g";
 	displayName = "LAR-12 Shotgun";
 	ACE_barrelTwist = 228.6;
-	maxZeroing = 1600;
 	ACE_barrelLength = 457.2;
 	ace_railHeightAboveBore = 2.5;
 	reloadAction = "NIA_GestureReload416";
 	model = "hlc_wp_ar15\mesh\LAR15_samr\samr.p3d";
 	picture = "\hlc_wp_ar15\tex\ui\gear_SAMR_ca";
 	descriptionShort = "12g Shotgun AR";
-	discretedistance[] = {100, 200, 300, 400, 500};
+	discretedistance[] = {100};
 	discretedistanceinitindex = 0;
 	hiddenSelections[] = {"Upper", "Lower", "D-Ring", "Rails", "Panels", "VFG", "Harris", "Patch", "Stock"};
 	hiddenSelectionsTextures[] = {"hlc_wp_ar15\tex\samr\upper_co.paa", "hlc_wp_ar15\tex\samr\lower2_co.paa", "hlc_wp_ar15\tex\samr\ras_co.paa", "hlc_wp_ar15\tex\samr\risras_co.paa", "hlc_wp_ar15\tex\samr\xtm2_co.paa", "hlc_wp_ar15\tex\melon_cqbr\vgrip_co.paa", "hlc_wp_ar15\tex\samr\hbipod_co.paa", "", "rtgEquipment\tex\rtgTesting.paa"};
@@ -2085,6 +2112,19 @@ class rtg_12g_m4a5 : ACWP_M4A5_145_troy_base_BLK {
 		};
 	};
 };
+
+class srifle_DMR_02_F;
+class rtg_50DMR_1 : srifle_DMR_02_F {
+	cope = 2;
+	dlc = "raiderTactical";
+	Author = "Shrike";
+    displayName="M108 ULR (Black)";
+	hasBipod = 1;
+	soundBipodDown[] = {"NIA_wp_Bren\snd\Bren_Bipod_down",1,1,5};
+	soundBipodUp[] = {"NIA_wp_Bren\snd\Bren_Bipod_up",1,1,5};
+	magazineWell[] = {"CBA_50BMG_M107"};
+	magazines[] = {"rtg_10Rnd_127x99"};
+}
 
 // Custom
 class shrikeRifle : ACWP_M4A5_145_troy_base_BLK {

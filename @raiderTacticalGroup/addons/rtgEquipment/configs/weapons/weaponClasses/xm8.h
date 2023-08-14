@@ -539,6 +539,7 @@ class rtg_rifle_XM8_MWSF_DMAR_50 : hlc_rifle_XM8_MWSF_DMAR {
 	magazineWell[] = {"rtg_50_bw_STANAG"};
 	magazines[] = {"rtg_10rnd_10bw"};
 	baseWeapon = "rtg_rifle_XM8_MWSF_DMAR_50";
+	recoil = "rhs_weap_scarl_folded_recoil";
 	class WeaponSlotsInfo: WeaponSlotsInfo
 	{
 		class UnderBarrelSlot : rtgClearUnderBarrel{};
@@ -558,6 +559,7 @@ class rtg_Rifle_XM8_MWSF_DMAR_Green_50 : HLC_Rifle_XM8_MWSF_DMAR_Green {
 	magazineWell[] = {"rtg_50_bw_STANAG"};
 	magazines[] = {"rtg_10rnd_10bw"};
 	baseWeapon = "rtg_Rifle_XM8_MWSF_DMAR_Green_50";
+	recoil = "rhs_weap_scarl_folded_recoil";
 	class WeaponSlotsInfo: WeaponSlotsInfo
 	{
 		class UnderBarrelSlot : rtgClearUnderBarrel{};
@@ -577,6 +579,7 @@ class rtg_Rifle_XM8_MWSF_DMAR_OD_50 : HLC_Rifle_XM8_MWSF_DMAR_OD {
 	magazineWell[] = {"rtg_50_bw_STANAG"};
 	magazines[] = {"rtg_10rnd_10bw"};
 	baseWeapon = "rtg_Rifle_XM8_MWSF_DMAR_OD_50";
+	recoil = "rhs_weap_scarl_folded_recoil";
 	class WeaponSlotsInfo: WeaponSlotsInfo
 	{
 		class UnderBarrelSlot : rtgClearUnderBarrel{};
@@ -596,6 +599,7 @@ class rtg_Rifle_XM8_MWSF_DMAR_Tan_50 : HLC_Rifle_XM8_MWSF_DMAR_Tan {
 	magazineWell[] = {"rtg_50_bw_STANAG"};
 	magazines[] = {"rtg_10rnd_10bw"};
 	baseWeapon = "rtg_Rifle_XM8_MWSF_DMAR_Tan_50";
+	recoil = "rhs_weap_scarl_folded_recoil";
 	class WeaponSlotsInfo: WeaponSlotsInfo
 	{
 		class UnderBarrelSlot : rtgClearUnderBarrel{};

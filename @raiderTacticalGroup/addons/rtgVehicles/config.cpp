@@ -72,6 +72,8 @@ class CfgVehicles {
     class SensorTemplateActiveRadar;
     class ActiveRadarSensorComponent;
     class RHS_M119_D;
+    class Turrets;
+    class CargoTurret;
 
  // Artillery
     class rtg_artillery : RHS_M119_D
@@ -305,13 +307,12 @@ class CfgVehicles {
         canFloat = 1;
         waterSpeedFactor = 1;
         waterResistanceCoef = 0.11;
-        weapons[] = {"SmokeLauncher"};
+        weapons[] = {"SmokeLauncher", "TruckHorn"};
         magazines[] = {"SmokeLauncherMag"};
         smokeLauncherGrenadeCount = 4;
 		smokeLauncherVelocity = 14;
 		smokeLauncherOnTurret = 0;
 		smokeLauncherAngle = 160;
-
         // Water Source
         acex_field_rations_waterSupply = 50;
         // Extra Fuel (Jerry Cans on Vehicles)
@@ -365,7 +366,7 @@ class CfgVehicles {
             class rtg_alpine3
             {
                 // Display name of the texture
-                displayName = "Alpine (Cypher)";
+                displayName = "Alpine (Demon)";
                 // Author of the texture
                 author = "Fish";
                 // Paths to the texture files, in the same order as the hidden selections
@@ -422,7 +423,7 @@ class CfgVehicles {
             class rtg_black3
             {
                 // Display name of the texture
-                displayName = "Black (Cypher)";
+                displayName = "Black (Demon)";
                 // Author of the texture
                 author = "Fish";
                 // Paths to the texture files, in the same order as the hidden selections
@@ -479,7 +480,7 @@ class CfgVehicles {
             class rtg_tan3
             {
                 // Display name of the texture
-                displayName = "Tan (Cypher)";
+                displayName = "Tan (Demon)";
                 // Author of the texture
                 author = "Fish";
                 // Paths to the texture files, in the same order as the hidden selections
@@ -536,7 +537,7 @@ class CfgVehicles {
             class rtg_dazzle3
             {
                 // Display name of the texture
-                displayName = "Dazzle (Cypher)";
+                displayName = "Dazzle (Demon)";
                 // Author of the texture
                 author = "Fish";
                 // Paths to the texture files, in the same order as the hidden selections
@@ -593,7 +594,7 @@ class CfgVehicles {
             class rtg_ucp3
             {
                 // Display name of the texture
-                displayName = "UCP (Cypher)";
+                displayName = "UCP (Demon)";
                 // Author of the texture
                 author = "Fish";
                 // Paths to the texture files, in the same order as the hidden selections
@@ -610,6 +611,7 @@ class CfgVehicles {
                 };
             };
         };
+
 
         // Vehicle Inventorys
         class TransportItems
@@ -800,7 +802,7 @@ class CfgVehicles {
             class rtg_alpine3
             {
                 // Display name of the texture
-                displayName = "Alpine (Cypher)";
+                displayName = "Alpine (Demon)";
                 // Author of the texture
                 author = "Fish";
                 // Paths to the texture files, in the same order as the hidden selections
@@ -857,7 +859,7 @@ class CfgVehicles {
             class rtg_black3
             {
                 // Display name of the texture
-                displayName = "Black (Cypher)";
+                displayName = "Black (Demon)";
                 // Author of the texture
                 author = "Fish";
                 // Paths to the texture files, in the same order as the hidden selections
@@ -914,7 +916,7 @@ class CfgVehicles {
             class rtg_tan3
             {
                 // Display name of the texture
-                displayName = "Tan (Cypher)";
+                displayName = "Tan (Demon)";
                 // Author of the texture
                 author = "Fish";
                 // Paths to the texture files, in the same order as the hidden selections
@@ -971,7 +973,7 @@ class CfgVehicles {
             class rtg_dazzle3
             {
                 // Display name of the texture
-                displayName = "Dazzle (Cypher)";
+                displayName = "Dazzle (Demon)";
                 // Author of the texture
                 author = "Fish";
                 // Paths to the texture files, in the same order as the hidden selections
@@ -1028,7 +1030,7 @@ class CfgVehicles {
             class rtg_ucp3
             {
                 // Display name of the texture
-                displayName = "UCP (Cypher)";
+                displayName = "UCP (Demon)";
                 // Author of the texture
                 author = "Fish";
                 // Paths to the texture files, in the same order as the hidden selections

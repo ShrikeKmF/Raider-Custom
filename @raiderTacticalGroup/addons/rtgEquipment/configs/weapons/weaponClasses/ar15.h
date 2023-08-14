@@ -125,11 +125,7 @@ class rtg_c7a2: arifle_SPAR_01_blk_f {
 	displayName = "Colt Canada C7A2";
 	deployedPivot = "deploypivot";
 	hasBipod = 0;
-	AB_barrelTwist = 8;
-	AB_barrelLength = 16;
-	ACE_barrelTwist = 203.2;
-	ACE_barrelLength = 406.4;
-	ace_railHeightAboveBore = 2.5;
+	ACE_barrelLength = 508.4;
 	
 	model = "hlc_wp_ar15\mesh\pbear\car15.p3d";
 	reloadAction = "NIA_GestureReload416";
@@ -156,4 +152,16 @@ class rtg_c7a2: arifle_SPAR_01_blk_f {
 	{
 		model = "";
 	};
+	modes[] = {"Single", "FullAuto"};
+	class Single: Single
+	{
+		reloadTime = 0.075;
+		dispersion = 0.00031;
+	};
+	class FullAuto: FullAuto
+	{
+		reloadTime = 0.075;
+		dispersion = 0.00031;
+	};
+	
 };
