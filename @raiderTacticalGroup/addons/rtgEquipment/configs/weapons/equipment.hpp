@@ -60,7 +60,11 @@ class Project_BJC_blk_3;
 class rtg_tshirt_blue_black : Project_BJC {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_jeans";
@@ -72,7 +76,11 @@ class rtg_tshirt_blue_black : Project_BJC {
 class rtg_tshirt_blue_white : Project_BJC_1 {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_jeans";
@@ -84,7 +92,11 @@ class rtg_tshirt_blue_white : Project_BJC_1 {
 class rtg_tshirt_blue_od : Project_BJC_2 {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_jeans";
@@ -96,7 +108,11 @@ class rtg_tshirt_blue_od : Project_BJC_2 {
 class rtg_tshirt_blue_red : Project_BJC_3 {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_jeans";
@@ -110,7 +126,11 @@ class rtg_tshirt_blue_red : Project_BJC_3 {
 class rtg_shirt_blue_black : Project_BJC_Shirt_Jean {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_jeans";
@@ -122,7 +142,11 @@ class rtg_shirt_blue_black : Project_BJC_Shirt_Jean {
 class rtg_shirt_blue_blue : Project_BJC_Shirt_Jean1 {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_jeans";
@@ -134,7 +158,11 @@ class rtg_shirt_blue_blue : Project_BJC_Shirt_Jean1 {
 class rtg_shirt_blue_red : Project_BJC_Shirt_Jean2 {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_jeans";
@@ -146,7 +174,11 @@ class rtg_shirt_blue_red : Project_BJC_Shirt_Jean2 {
 class rtg_shirt_blue_white : Project_BJC_Shirt_Jean3 {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_jeans";
@@ -160,7 +192,11 @@ class rtg_shirt_blue_white : Project_BJC_Shirt_Jean3 {
 class rtg_shirtcut_blue_black : Project_BJC_Shirt_Cut_Jean {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_jeans";
@@ -172,7 +208,11 @@ class rtg_shirtcut_blue_black : Project_BJC_Shirt_Cut_Jean {
 class rtg_shirtcut_blue_blue : Project_BJC_Shirt_Cut_Jean1 {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_jeans";
@@ -184,7 +224,11 @@ class rtg_shirtcut_blue_blue : Project_BJC_Shirt_Cut_Jean1 {
 class rtg_shirtcut_blue_red : Project_BJC_Shirt_Cut_Jean2 {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_jeans";
@@ -196,7 +240,11 @@ class rtg_shirtcut_blue_red : Project_BJC_Shirt_Cut_Jean2 {
 class rtg_shirtcut_blue_white : Project_BJC_Shirt_Cut_Jean3 {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_jeans";
@@ -210,7 +258,11 @@ class rtg_shirtcut_blue_white : Project_BJC_Shirt_Cut_Jean3 {
 class rtg_jacket_blue_black : Project_BJC_PCU_Jean {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_jeans";
@@ -222,7 +274,11 @@ class rtg_jacket_blue_black : Project_BJC_PCU_Jean {
 class rtg_jacket_blue_od : Project_BJC_PCU_Jean1 {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_jeans";
@@ -234,7 +290,11 @@ class rtg_jacket_blue_od : Project_BJC_PCU_Jean1 {
 class rtg_jacket_blue_tan : Project_BJC_PCU_Jean2 {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_jeans";
@@ -246,7 +306,11 @@ class rtg_jacket_blue_tan : Project_BJC_PCU_Jean2 {
 class rtg_jacket_blue_gray : Project_BJC_PCU_Jean3 {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_jeans";
@@ -258,7 +322,11 @@ class rtg_jacket_blue_gray : Project_BJC_PCU_Jean3 {
 class rtg_jacket_blue_mc : Project_BJC_PCU_Jean4 {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_jeans";
@@ -270,7 +338,11 @@ class rtg_jacket_blue_mc : Project_BJC_PCU_Jean4 {
 class rtg_jacket_blue_mcb : Project_BJC_PCU_Jean5 {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_jeans";
@@ -285,7 +357,11 @@ class rtg_jacket_blue_mcb : Project_BJC_PCU_Jean5 {
 class rtg_tshirt_black_black : Project_BJC_blk {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_jeans";
@@ -297,7 +373,11 @@ class rtg_tshirt_black_black : Project_BJC_blk {
 class rtg_tshirt_black_white : Project_BJC_blk_1 {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_jeans";
@@ -309,7 +389,11 @@ class rtg_tshirt_black_white : Project_BJC_blk_1 {
 class rtg_tshirt_black_od : Project_BJC_blk_2 {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_jeans";
@@ -321,7 +405,11 @@ class rtg_tshirt_black_od : Project_BJC_blk_2 {
 class rtg_tshirt_black_red : Project_BJC_blk_3 {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_jeans";
@@ -337,7 +425,11 @@ class rtg_tshirt_black_red : Project_BJC_blk_3 {
 class rtg_shirt_black_black : Project_BJC_Shirt_Jean_blk {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_jeans";
@@ -349,7 +441,11 @@ class rtg_shirt_black_black : Project_BJC_Shirt_Jean_blk {
 class rtg_shirt_black_blue : Project_BJC_Shirt_Jean_blk1 {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_jeans";
@@ -361,7 +457,11 @@ class rtg_shirt_black_blue : Project_BJC_Shirt_Jean_blk1 {
 class rtg_shirt_black_red : Project_BJC_Shirt_Jean_blk2 {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_jeans";
@@ -373,7 +473,11 @@ class rtg_shirt_black_red : Project_BJC_Shirt_Jean_blk2 {
 class rtg_shirt_black_white : Project_BJC_Shirt_Jean_blk3 {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_jeans";
@@ -387,7 +491,11 @@ class rtg_shirt_black_white : Project_BJC_Shirt_Jean_blk3 {
 class rtg_shirtcut_black_black : Project_BJC_Shirt_Cut_Jean_blk {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_jeans";
@@ -399,7 +507,11 @@ class rtg_shirtcut_black_black : Project_BJC_Shirt_Cut_Jean_blk {
 class rtg_shirtcut_black_blue : Project_BJC_Shirt_Cut_Jean_blk1 {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_jeans";
@@ -411,7 +523,11 @@ class rtg_shirtcut_black_blue : Project_BJC_Shirt_Cut_Jean_blk1 {
 class rtg_shirtcut_black_red : Project_BJC_Shirt_Cut_Jean_blk2 {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_jeans";
@@ -423,7 +539,11 @@ class rtg_shirtcut_black_red : Project_BJC_Shirt_Cut_Jean_blk2 {
 class rtg_shirtcut_black_white : Project_BJC_Shirt_Cut_Jean_blk3 {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_jeans";
@@ -437,7 +557,11 @@ class rtg_shirtcut_black_white : Project_BJC_Shirt_Cut_Jean_blk3 {
 class rtg_jacket_black_black : Project_BJC_PCU_Jean_blk {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_jeans";
@@ -449,7 +573,11 @@ class rtg_jacket_black_black : Project_BJC_PCU_Jean_blk {
 class rtg_jacket_black_od : Project_BJC_PCU_Jean_blk1 {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_jeans";
@@ -461,7 +589,11 @@ class rtg_jacket_black_od : Project_BJC_PCU_Jean_blk1 {
 class rtg_jacket_black_tan : Project_BJC_PCU_Jean_blk2 {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_jeans";
@@ -473,7 +605,11 @@ class rtg_jacket_black_tan : Project_BJC_PCU_Jean_blk2 {
 class rtg_jacket_black_gray : Project_BJC_PCU_Jean_blk3 {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_jeans";
@@ -485,7 +621,11 @@ class rtg_jacket_black_gray : Project_BJC_PCU_Jean_blk3 {
 class rtg_jacket_black_mc : Project_BJC_PCU_Jean_blk4 {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_jeans";
@@ -497,7 +637,11 @@ class rtg_jacket_black_mc : Project_BJC_PCU_Jean_blk4 {
 class rtg_jacket_black_mcb : Project_BJC_PCU_Jean_blk5 {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_jeans";
@@ -521,7 +665,11 @@ class VSM_OGA_OD_Helmet1;
 class rtg_ech_dfl : H_HelmetSpecB {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
     class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_ech";
@@ -531,7 +679,11 @@ class rtg_ech_dfl : H_HelmetSpecB {
 class rtg_ech_blk : H_HelmetSpecB_blk {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
     class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_ech";
@@ -541,7 +693,11 @@ class rtg_ech_blk : H_HelmetSpecB_blk {
 class rtg_ech_pt1 : H_HelmetSpecB_paint1 {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
     class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_ech";
@@ -551,7 +707,11 @@ class rtg_ech_pt1 : H_HelmetSpecB_paint1 {
 class rtg_ech_pt2 : H_HelmetSpecB_paint2 {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
     class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_ech";
@@ -561,7 +721,11 @@ class rtg_ech_pt2 : H_HelmetSpecB_paint2 {
 class rtg_ech_snd : H_HelmetSpecB_sand {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
     class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_ech";
@@ -571,7 +735,11 @@ class rtg_ech_snd : H_HelmetSpecB_sand {
 class rtg_ech_trp : H_HelmetSpecB_tna_F {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
     class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_ech";
@@ -581,7 +749,11 @@ class rtg_ech_trp : H_HelmetSpecB_tna_F {
 class rtg_ech_wd1 : H_HelmetSpecB_wdl {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
     class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_ech";
@@ -591,7 +763,11 @@ class rtg_ech_wd1 : H_HelmetSpecB_wdl {
 class rtg_ech_oga : VSM_OGA_Helmet1 {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
     class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_ech";
@@ -601,7 +777,11 @@ class rtg_ech_oga : VSM_OGA_Helmet1 {
 class rtg_ech_od : VSM_OGA_OD_Helmet1 {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
     class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_ech";
@@ -732,7 +912,11 @@ class Project_BJC_Cargo9;
 class rtg_tshirt_cargo_mcb_black : Project_BJC_Cargo16 {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_cargo";
@@ -744,7 +928,11 @@ class rtg_tshirt_cargo_mcb_black : Project_BJC_Cargo16 {
 class rtg_tshirt_cargo_mcb_white : Project_BJC_Cargo18 {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_cargo";
@@ -756,7 +944,11 @@ class rtg_tshirt_cargo_mcb_white : Project_BJC_Cargo18 {
 class rtg_tshirt_cargo_mcb_od : Project_BJC_Cargo17 {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_cargo";
@@ -768,7 +960,11 @@ class rtg_tshirt_cargo_mcb_od : Project_BJC_Cargo17 {
 class rtg_tshirt_cargo_mcb_red : Project_BJC_Cargo19 {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_cargo";
@@ -782,7 +978,11 @@ class rtg_tshirt_cargo_mcb_red : Project_BJC_Cargo19 {
 class rtg_shirt_cargo_mcb_black : Project_BJC_Shirt_Cargo16 {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_cargo";
@@ -794,7 +994,11 @@ class rtg_shirt_cargo_mcb_black : Project_BJC_Shirt_Cargo16 {
 class rtg_shirt_cargo_mcb_blue : Project_BJC_Shirt_Cargo17 {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_cargo";
@@ -806,7 +1010,11 @@ class rtg_shirt_cargo_mcb_blue : Project_BJC_Shirt_Cargo17 {
 class rtg_shirt_cargo_mcb_red : Project_BJC_Shirt_Cargo18 {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_cargo";
@@ -818,7 +1026,11 @@ class rtg_shirt_cargo_mcb_red : Project_BJC_Shirt_Cargo18 {
 class rtg_shirt_cargo_mcb_white : Project_BJC_Shirt_Cargo19 {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_cargo";
@@ -832,7 +1044,11 @@ class rtg_shirt_cargo_mcb_white : Project_BJC_Shirt_Cargo19 {
 class rtg_shirtcut_cargo_mcb_black : Project_BJC_Shirt_Cut_Cargo16 {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_cargo";
@@ -844,7 +1060,11 @@ class rtg_shirtcut_cargo_mcb_black : Project_BJC_Shirt_Cut_Cargo16 {
 class rtg_shirtcut_cargo_mcb_blue : Project_BJC_Shirt_Cut_Cargo17 {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_cargo";
@@ -856,7 +1076,11 @@ class rtg_shirtcut_cargo_mcb_blue : Project_BJC_Shirt_Cut_Cargo17 {
 class rtg_shirtcut_cargo_mcb_red : Project_BJC_Shirt_Cut_Cargo18 {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_cargo";
@@ -868,7 +1092,11 @@ class rtg_shirtcut_cargo_mcb_red : Project_BJC_Shirt_Cut_Cargo18 {
 class rtg_shirtcut_cargo_mcb_white : Project_BJC_Shirt_Cut_Cargo19 {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_cargo";
@@ -882,7 +1110,11 @@ class rtg_shirtcut_cargo_mcb_white : Project_BJC_Shirt_Cut_Cargo19 {
 class rtg_jacket_cargo_mcb_black : Project_BJC_PCU_Cargo20 {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_cargo";
@@ -894,7 +1126,11 @@ class rtg_jacket_cargo_mcb_black : Project_BJC_PCU_Cargo20 {
 class rtg_jacket_cargo_mcb_od : Project_BJC_PCU_Cargo22 {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_cargo";
@@ -906,7 +1142,11 @@ class rtg_jacket_cargo_mcb_od : Project_BJC_PCU_Cargo22 {
 class rtg_jacket_cargo_mcb_tan : Project_BJC_PCU_Cargo21 {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_cargo";
@@ -918,7 +1158,11 @@ class rtg_jacket_cargo_mcb_tan : Project_BJC_PCU_Cargo21 {
 class rtg_jacket_cargo_mcb_gray : Project_BJC_PCU_Cargo23 {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_cargo";
@@ -930,7 +1174,11 @@ class rtg_jacket_cargo_mcb_gray : Project_BJC_PCU_Cargo23 {
 class rtg_jacket_cargo_mcb_mc : Project_BJC_PCU_Cargo24 {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_cargo";
@@ -942,7 +1190,11 @@ class rtg_jacket_cargo_mcb_mc : Project_BJC_PCU_Cargo24 {
 class rtg_jacket_cargo_mcb_mcb : Project_BJC_PCU_Cargo25 {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_cargo";
@@ -957,7 +1209,11 @@ class rtg_jacket_cargo_mcb_mcb : Project_BJC_PCU_Cargo25 {
 class rtg_tshirt_cargo_black_black : Project_BJC_Cargo2 {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_cargo";
@@ -969,7 +1225,11 @@ class rtg_tshirt_cargo_black_black : Project_BJC_Cargo2 {
 class rtg_tshirt_cargo_black_white : Project_BJC_Cargo14 {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_cargo";
@@ -981,7 +1241,11 @@ class rtg_tshirt_cargo_black_white : Project_BJC_Cargo14 {
 class rtg_tshirt_cargo_black_od : Project_BJC_Cargo6 {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_cargo";
@@ -993,7 +1257,11 @@ class rtg_tshirt_cargo_black_od : Project_BJC_Cargo6 {
 class rtg_tshirt_cargo_black_red : Project_BJC_Cargo19 {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_cargo";
@@ -1007,7 +1275,11 @@ class rtg_tshirt_cargo_black_red : Project_BJC_Cargo19 {
 class rtg_shirt_cargo_black_black : Project_BJC_Shirt_Cargo2 {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_cargo";
@@ -1019,7 +1291,11 @@ class rtg_shirt_cargo_black_black : Project_BJC_Shirt_Cargo2 {
 class rtg_shirt_cargo_black_blue : Project_BJC_Shirt_Cargo6 {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_cargo";
@@ -1031,7 +1307,11 @@ class rtg_shirt_cargo_black_blue : Project_BJC_Shirt_Cargo6 {
 class rtg_shirt_cargo_black_red : Project_BJC_Shirt_Cargo10 {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_cargo";
@@ -1043,7 +1323,11 @@ class rtg_shirt_cargo_black_red : Project_BJC_Shirt_Cargo10 {
 class rtg_shirt_cargo_black_white : Project_BJC_Shirt_Cargo14 {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_cargo";
@@ -1057,7 +1341,11 @@ class rtg_shirt_cargo_black_white : Project_BJC_Shirt_Cargo14 {
 class rtg_shirtcut_cargo_black_black : Project_BJC_Shirt_Cut_Cargo2 {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_cargo";
@@ -1069,7 +1357,11 @@ class rtg_shirtcut_cargo_black_black : Project_BJC_Shirt_Cut_Cargo2 {
 class rtg_shirtcut_cargo_black_blue : Project_BJC_Shirt_Cut_Cargo6 {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_cargo";
@@ -1081,7 +1373,11 @@ class rtg_shirtcut_cargo_black_blue : Project_BJC_Shirt_Cut_Cargo6 {
 class rtg_shirtcut_cargo_black_red : Project_BJC_Shirt_Cut_Cargo10 {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_cargo";
@@ -1093,7 +1389,11 @@ class rtg_shirtcut_cargo_black_red : Project_BJC_Shirt_Cut_Cargo10 {
 class rtg_shirtcut_cargo_black_white : Project_BJC_Shirt_Cut_Cargo14 {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_cargo";
@@ -1107,7 +1407,11 @@ class rtg_shirtcut_cargo_black_white : Project_BJC_Shirt_Cut_Cargo14 {
 class rtg_jacket_cargo_black_black : Project_BJC_PCU_Cargo2 {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_cargo";
@@ -1119,7 +1423,11 @@ class rtg_jacket_cargo_black_black : Project_BJC_PCU_Cargo2 {
 class rtg_jacket_cargo_black_od : Project_BJC_PCU_Cargo6 {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_cargo";
@@ -1131,7 +1439,11 @@ class rtg_jacket_cargo_black_od : Project_BJC_PCU_Cargo6 {
 class rtg_jacket_cargo_black_tan : Project_BJC_PCU_Cargo10 {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_cargo";
@@ -1143,7 +1455,11 @@ class rtg_jacket_cargo_black_tan : Project_BJC_PCU_Cargo10 {
 class rtg_jacket_cargo_black_gray : Project_BJC_PCU_Cargo14 {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_cargo";
@@ -1155,7 +1471,11 @@ class rtg_jacket_cargo_black_gray : Project_BJC_PCU_Cargo14 {
 class rtg_jacket_cargo_black_mc : Project_BJC_PCU_Cargo18 {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_cargo";
@@ -1167,7 +1487,11 @@ class rtg_jacket_cargo_black_mc : Project_BJC_PCU_Cargo18 {
 class rtg_jacket_cargo_black_mcb : Project_BJC_PCU_Cargo28 {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_cargo";
@@ -1182,7 +1506,11 @@ class rtg_jacket_cargo_black_mcb : Project_BJC_PCU_Cargo28 {
 class rtg_tshirt_cargo_tan_black : Project_BJC_Cargo {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_cargo";
@@ -1194,7 +1522,11 @@ class rtg_tshirt_cargo_tan_black : Project_BJC_Cargo {
 class rtg_tshirt_cargo_tan_white : Project_BJC_Cargo8 {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_cargo";
@@ -1206,7 +1538,11 @@ class rtg_tshirt_cargo_tan_white : Project_BJC_Cargo8 {
 class rtg_tshirt_cargo_tan_od : Project_BJC_Cargo4 {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_cargo";
@@ -1218,7 +1554,11 @@ class rtg_tshirt_cargo_tan_od : Project_BJC_Cargo4 {
 class rtg_tshirt_cargo_tan_red : Project_BJC_Cargo12 {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_cargo";
@@ -1232,7 +1572,11 @@ class rtg_tshirt_cargo_tan_red : Project_BJC_Cargo12 {
 class rtg_shirt_cargo_tan_black : Project_BJC_Shirt_Cargo {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_cargo";
@@ -1244,7 +1588,11 @@ class rtg_shirt_cargo_tan_black : Project_BJC_Shirt_Cargo {
 class rtg_shirt_cargo_tan_blue : Project_BJC_Shirt_Cargo4 {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_cargo";
@@ -1256,7 +1604,11 @@ class rtg_shirt_cargo_tan_blue : Project_BJC_Shirt_Cargo4 {
 class rtg_shirt_cargo_tan_red : Project_BJC_Shirt_Cargo8 {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_cargo";
@@ -1268,7 +1620,11 @@ class rtg_shirt_cargo_tan_red : Project_BJC_Shirt_Cargo8 {
 class rtg_shirt_cargo_tan_white : Project_BJC_Shirt_Cargo12 {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_cargo";
@@ -1282,7 +1638,11 @@ class rtg_shirt_cargo_tan_white : Project_BJC_Shirt_Cargo12 {
 class rtg_shirtcut_cargo_tan_black : Project_BJC_Shirt_Cut_Cargo {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_cargo";
@@ -1294,7 +1654,11 @@ class rtg_shirtcut_cargo_tan_black : Project_BJC_Shirt_Cut_Cargo {
 class rtg_shirtcut_cargo_tan_blue : Project_BJC_Shirt_Cut_Cargo4 {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_cargo";
@@ -1306,7 +1670,11 @@ class rtg_shirtcut_cargo_tan_blue : Project_BJC_Shirt_Cut_Cargo4 {
 class rtg_shirtcut_cargo_tan_red : Project_BJC_Shirt_Cut_Cargo8 {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_cargo";
@@ -1318,7 +1686,11 @@ class rtg_shirtcut_cargo_tan_red : Project_BJC_Shirt_Cut_Cargo8 {
 class rtg_shirtcut_cargo_tan_white : Project_BJC_Shirt_Cut_Cargo12 {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_cargo";
@@ -1332,7 +1704,11 @@ class rtg_shirtcut_cargo_tan_white : Project_BJC_Shirt_Cut_Cargo12 {
 class rtg_jacket_cargo_tan_black : Project_BJC_PCU_Cargo {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_cargo";
@@ -1344,7 +1720,11 @@ class rtg_jacket_cargo_tan_black : Project_BJC_PCU_Cargo {
 class rtg_jacket_cargo_tan_od : Project_BJC_PCU_Cargo4 {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_cargo";
@@ -1356,7 +1736,11 @@ class rtg_jacket_cargo_tan_od : Project_BJC_PCU_Cargo4 {
 class rtg_jacket_cargo_tan_tan : Project_BJC_PCU_Cargo8 {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_cargo";
@@ -1368,7 +1752,11 @@ class rtg_jacket_cargo_tan_tan : Project_BJC_PCU_Cargo8 {
 class rtg_jacket_cargo_tan_gray : Project_BJC_PCU_Cargo12 {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_cargo";
@@ -1380,7 +1768,11 @@ class rtg_jacket_cargo_tan_gray : Project_BJC_PCU_Cargo12 {
 class rtg_jacket_cargo_tan_mc : Project_BJC_PCU_Cargo16 {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_cargo";
@@ -1392,7 +1784,11 @@ class rtg_jacket_cargo_tan_mc : Project_BJC_PCU_Cargo16 {
 class rtg_jacket_cargo_tan_mcb : Project_BJC_PCU_Cargo20 {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_cargo";
@@ -1407,7 +1803,11 @@ class rtg_jacket_cargo_tan_mcb : Project_BJC_PCU_Cargo20 {
 class rtg_tshirt_cargo_mc_black : Project_BJC_Cargo3 {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_cargo";
@@ -1419,7 +1819,11 @@ class rtg_tshirt_cargo_mc_black : Project_BJC_Cargo3 {
 class rtg_tshirt_cargo_mc_white : Project_BJC_Cargo11 {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_cargo";
@@ -1431,7 +1835,11 @@ class rtg_tshirt_cargo_mc_white : Project_BJC_Cargo11 {
 class rtg_tshirt_cargo_mc_od : Project_BJC_Cargo7 {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_cargo";
@@ -1443,7 +1851,11 @@ class rtg_tshirt_cargo_mc_od : Project_BJC_Cargo7 {
 class rtg_tshirt_cargo_mc_red : Project_BJC_Cargo15 {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_cargo";
@@ -1457,7 +1869,11 @@ class rtg_tshirt_cargo_mc_red : Project_BJC_Cargo15 {
 class rtg_shirt_cargo_mc_black : Project_BJC_Shirt_Cargo3 {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_cargo";
@@ -1469,7 +1885,11 @@ class rtg_shirt_cargo_mc_black : Project_BJC_Shirt_Cargo3 {
 class rtg_shirt_cargo_mc_blue : Project_BJC_Shirt_Cargo7 {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_cargo";
@@ -1481,7 +1901,11 @@ class rtg_shirt_cargo_mc_blue : Project_BJC_Shirt_Cargo7 {
 class rtg_shirt_cargo_mc_red : Project_BJC_Shirt_Cargo11 {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_cargo";
@@ -1493,7 +1917,11 @@ class rtg_shirt_cargo_mc_red : Project_BJC_Shirt_Cargo11 {
 class rtg_shirt_cargo_mc_white : Project_BJC_Shirt_Cargo15 {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_cargo";
@@ -1507,7 +1935,11 @@ class rtg_shirt_cargo_mc_white : Project_BJC_Shirt_Cargo15 {
 class rtg_shirtcut_cargo_mc_black : Project_BJC_Shirt_Cut_Cargo3 {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_cargo";
@@ -1519,7 +1951,11 @@ class rtg_shirtcut_cargo_mc_black : Project_BJC_Shirt_Cut_Cargo3 {
 class rtg_shirtcut_cargo_mc_blue : Project_BJC_Shirt_Cut_Cargo7 {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_cargo";
@@ -1531,7 +1967,11 @@ class rtg_shirtcut_cargo_mc_blue : Project_BJC_Shirt_Cut_Cargo7 {
 class rtg_shirtcut_cargo_mc_red : Project_BJC_Shirt_Cut_Cargo11 {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_cargo";
@@ -1543,7 +1983,11 @@ class rtg_shirtcut_cargo_mc_red : Project_BJC_Shirt_Cut_Cargo11 {
 class rtg_shirtcut_cargo_mc_white : Project_BJC_Shirt_Cut_Cargo15 {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_cargo";
@@ -1557,7 +2001,11 @@ class rtg_shirtcut_cargo_mc_white : Project_BJC_Shirt_Cut_Cargo15 {
 class rtg_jacket_cargo_mc_black : Project_BJC_PCU_Cargo3 {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_cargo";
@@ -1569,7 +2017,11 @@ class rtg_jacket_cargo_mc_black : Project_BJC_PCU_Cargo3 {
 class rtg_jacket_cargo_mc_od : Project_BJC_PCU_Cargo7 {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_cargo";
@@ -1581,7 +2033,11 @@ class rtg_jacket_cargo_mc_od : Project_BJC_PCU_Cargo7 {
 class rtg_jacket_cargo_mc_tan : Project_BJC_PCU_Cargo11 {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_cargo";
@@ -1593,7 +2049,11 @@ class rtg_jacket_cargo_mc_tan : Project_BJC_PCU_Cargo11 {
 class rtg_jacket_cargo_mc_gray : Project_BJC_PCU_Cargo15 {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_cargo";
@@ -1605,7 +2065,11 @@ class rtg_jacket_cargo_mc_gray : Project_BJC_PCU_Cargo15 {
 class rtg_jacket_cargo_mc_mc : Project_BJC_PCU_Cargo19 {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_cargo";
@@ -1617,7 +2081,11 @@ class rtg_jacket_cargo_mc_mc : Project_BJC_PCU_Cargo19 {
 class rtg_jacket_cargo_mc_mcb : Project_BJC_PCU_Cargo29 {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_cargo";
@@ -1632,7 +2100,11 @@ class rtg_jacket_cargo_mc_mcb : Project_BJC_PCU_Cargo29 {
 class rtg_tshirt_cargo_od_black : Project_BJC_Cargo1 {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_cargo";
@@ -1644,7 +2116,11 @@ class rtg_tshirt_cargo_od_black : Project_BJC_Cargo1 {
 class rtg_tshirt_cargo_od_white : Project_BJC_Cargo9 {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_cargo";
@@ -1656,7 +2132,11 @@ class rtg_tshirt_cargo_od_white : Project_BJC_Cargo9 {
 class rtg_tshirt_cargo_od_od : Project_BJC_Cargo5 {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_cargo";
@@ -1668,7 +2148,11 @@ class rtg_tshirt_cargo_od_od : Project_BJC_Cargo5 {
 class rtg_tshirt_cargo_od_red : Project_BJC_Cargo13 {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_cargo";
@@ -1682,7 +2166,11 @@ class rtg_tshirt_cargo_od_red : Project_BJC_Cargo13 {
 class rtg_shirt_cargo_od_black : Project_BJC_Shirt_Cargo1 {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_cargo";
@@ -1694,7 +2182,11 @@ class rtg_shirt_cargo_od_black : Project_BJC_Shirt_Cargo1 {
 class rtg_shirt_cargo_od_blue : Project_BJC_Shirt_Cargo5 {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_cargo";
@@ -1706,7 +2198,11 @@ class rtg_shirt_cargo_od_blue : Project_BJC_Shirt_Cargo5 {
 class rtg_shirt_cargo_od_red : Project_BJC_Shirt_Cargo9 {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_cargo";
@@ -1718,7 +2214,11 @@ class rtg_shirt_cargo_od_red : Project_BJC_Shirt_Cargo9 {
 class rtg_shirt_cargo_od_white : Project_BJC_Shirt_Cargo13 {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_cargo";
@@ -1732,7 +2232,11 @@ class rtg_shirt_cargo_od_white : Project_BJC_Shirt_Cargo13 {
 class rtg_shirtcut_cargo_od_black : Project_BJC_Shirt_Cut_Cargo1 {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_cargo";
@@ -1744,7 +2248,11 @@ class rtg_shirtcut_cargo_od_black : Project_BJC_Shirt_Cut_Cargo1 {
 class rtg_shirtcut_cargo_od_blue : Project_BJC_Shirt_Cut_Cargo5 {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_cargo";
@@ -1756,7 +2264,11 @@ class rtg_shirtcut_cargo_od_blue : Project_BJC_Shirt_Cut_Cargo5 {
 class rtg_shirtcut_cargo_od_red : Project_BJC_Shirt_Cut_Cargo9 {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_cargo";
@@ -1768,7 +2280,11 @@ class rtg_shirtcut_cargo_od_red : Project_BJC_Shirt_Cut_Cargo9 {
 class rtg_shirtcut_cargo_od_white : Project_BJC_Shirt_Cut_Cargo13 {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_cargo";
@@ -1782,7 +2298,11 @@ class rtg_shirtcut_cargo_od_white : Project_BJC_Shirt_Cut_Cargo13 {
 class rtg_jacket_cargo_od_black : Project_BJC_PCU_Cargo1 {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_cargo";
@@ -1794,7 +2314,11 @@ class rtg_jacket_cargo_od_black : Project_BJC_PCU_Cargo1 {
 class rtg_jacket_cargo_od_od : Project_BJC_PCU_Cargo5 {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_cargo";
@@ -1806,7 +2330,11 @@ class rtg_jacket_cargo_od_od : Project_BJC_PCU_Cargo5 {
 class rtg_jacket_cargo_od_tan : Project_BJC_PCU_Cargo9 {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_cargo";
@@ -1818,7 +2346,11 @@ class rtg_jacket_cargo_od_tan : Project_BJC_PCU_Cargo9 {
 class rtg_jacket_cargo_od_gray : Project_BJC_PCU_Cargo13 {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_cargo";
@@ -1830,7 +2362,11 @@ class rtg_jacket_cargo_od_gray : Project_BJC_PCU_Cargo13 {
 class rtg_jacket_cargo_od_mc : Project_BJC_PCU_Cargo17 {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_cargo";
@@ -1842,7 +2378,11 @@ class rtg_jacket_cargo_od_mc : Project_BJC_PCU_Cargo17 {
 class rtg_jacket_cargo_od_mcb : Project_BJC_PCU_Cargo27 {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_cargo";
@@ -1897,7 +2437,11 @@ class UK3CB_ADM_B_U_Shirt_Pants_01_CC;
 class rtg_g3_alpine : Alpine_Crye_Camo {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_g3";
@@ -1908,7 +2452,11 @@ class rtg_g3_alpine : Alpine_Crye_Camo {
 class rtg_g3_arid : Arid_Crye_Camo {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_g3";
@@ -1919,7 +2467,11 @@ class rtg_g3_arid : Arid_Crye_Camo {
 class rtg_g3_m81 : VSM_M81_Crye_Camo {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_g3";
@@ -1930,7 +2482,11 @@ class rtg_g3_m81 : VSM_M81_Crye_Camo {
 class rtg_g3_mcb : black_Crye_Camo {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_g3";
@@ -1941,7 +2497,11 @@ class rtg_g3_mcb : black_Crye_Camo {
 class rtg_g3_mc : VSM_Multicam_Crye_Camo {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_g3";
@@ -1952,7 +2512,11 @@ class rtg_g3_mc : VSM_Multicam_Crye_Camo {
 class rtg_g3_mct : VSM_MulticamTropic_Crye_Camo {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_g3";
@@ -1963,7 +2527,11 @@ class rtg_g3_mct : VSM_MulticamTropic_Crye_Camo {
 class rtg_g3_tan : VSM_OGA_Crye_Camo {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_g3";
@@ -1974,7 +2542,11 @@ class rtg_g3_tan : VSM_OGA_Crye_Camo {
 class rtg_g3_grey : VSM_OGA_Crye_grey_Camo {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_g3";
@@ -1985,7 +2557,11 @@ class rtg_g3_grey : VSM_OGA_Crye_grey_Camo {
 class rtg_g3_od : VSM_OGA_Crye_od_Camo {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_g3";
@@ -1996,7 +2572,11 @@ class rtg_g3_od : VSM_OGA_Crye_od_Camo {
 class rtg_g3_ph : VSM_ProjectHonor_Crye_Camo {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_g3";
@@ -2007,7 +2587,11 @@ class rtg_g3_ph : VSM_ProjectHonor_Crye_Camo {
 class rtg_g3_choco : UK3CB_ADM_B_U_CombatUniform_01_CC {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_g3";
@@ -2020,7 +2604,11 @@ class rtg_g3_choco : UK3CB_ADM_B_U_CombatUniform_01_CC {
 class rtg_g3_alpine_SS : Alpine_Crye_SS_Camo {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_g3";
@@ -2031,7 +2619,11 @@ class rtg_g3_alpine_SS : Alpine_Crye_SS_Camo {
 class rtg_g3_arid_SS : Arid_Crye_SS_Camo {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_g3";
@@ -2042,7 +2634,11 @@ class rtg_g3_arid_SS : Arid_Crye_SS_Camo {
 class rtg_g3_m81_SS : VSM_M81_Crye_SS_Camo {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_g3";
@@ -2053,7 +2649,11 @@ class rtg_g3_m81_SS : VSM_M81_Crye_SS_Camo {
 class rtg_g3_mcb_SS : black_Crye_SS_Camo {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_g3";
@@ -2064,7 +2664,11 @@ class rtg_g3_mcb_SS : black_Crye_SS_Camo {
 class rtg_g3_mc_SS : VSM_Multicam_Crye_SS_Camo {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_g3";
@@ -2075,7 +2679,11 @@ class rtg_g3_mc_SS : VSM_Multicam_Crye_SS_Camo {
 class rtg_g3_mct_SS : VSM_MulticamTropic_Crye_SS_Camo {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_g3";
@@ -2086,7 +2694,11 @@ class rtg_g3_mct_SS : VSM_MulticamTropic_Crye_SS_Camo {
 class rtg_g3_tan_SS : VSM_OGA_Crye_SS_Camo {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_g3";
@@ -2097,7 +2709,11 @@ class rtg_g3_tan_SS : VSM_OGA_Crye_SS_Camo {
 class rtg_g3_grey_SS : VSM_OGA_Crye_SS_grey_Camo {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_g3";
@@ -2108,7 +2724,11 @@ class rtg_g3_grey_SS : VSM_OGA_Crye_SS_grey_Camo {
 class rtg_g3_od_SS : VSM_OGA_Crye_SS_od_Camo {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_g3";
@@ -2119,7 +2739,11 @@ class rtg_g3_od_SS : VSM_OGA_Crye_SS_od_Camo {
 class rtg_g3_ph_SS : VSM_ProjectHonor_Crye_SS_Camo {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_g3";
@@ -2130,7 +2754,11 @@ class rtg_g3_ph_SS : VSM_ProjectHonor_Crye_SS_Camo {
 class rtg_g3_choco_SS : UK3CB_ADM_B_U_CombatUniform_ShortSleeve_01_CC {
  	scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_g3";
@@ -2143,7 +2771,11 @@ class rtg_g3_choco_SS : UK3CB_ADM_B_U_CombatUniform_ShortSleeve_01_CC {
 class rtg_g3_casual_alpine : Multicam_Alpine_casual_Camo {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_g3";
@@ -2154,7 +2786,11 @@ class rtg_g3_casual_alpine : Multicam_Alpine_casual_Camo {
 class rtg_g3_casual_arid : Multicam_Arid_casual_Camo {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_g3";
@@ -2165,7 +2801,11 @@ class rtg_g3_casual_arid : Multicam_Arid_casual_Camo {
 class rtg_g3_casual_m81 : VSM_M81_casual_Camo {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_g3";
@@ -2176,7 +2816,11 @@ class rtg_g3_casual_m81 : VSM_M81_casual_Camo {
 class rtg_g3_casual_mcb : Multicam_black_casual_Camo {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_g3";
@@ -2187,7 +2831,11 @@ class rtg_g3_casual_mcb : Multicam_black_casual_Camo {
 class rtg_g3_casual_mc : VSM_Multicam_casual_Camo {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_g3";
@@ -2198,7 +2846,11 @@ class rtg_g3_casual_mc : VSM_Multicam_casual_Camo {
 class rtg_g3_casual_mct : VSM_MulticamTropic_casual_Camo {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_g3";
@@ -2209,7 +2861,11 @@ class rtg_g3_casual_mct : VSM_MulticamTropic_casual_Camo {
 class rtg_g3_casual_tan : VSM_OGA_tan_casual_Camo {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_g3";
@@ -2220,7 +2876,11 @@ class rtg_g3_casual_tan : VSM_OGA_tan_casual_Camo {
 class rtg_g3_casual_grey : VSM_OGA_grey_casual_Camo {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_g3";
@@ -2231,7 +2891,11 @@ class rtg_g3_casual_grey : VSM_OGA_grey_casual_Camo {
 class rtg_g3_casual_od : VSM_OGA_od_casual_Camo {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_g3";
@@ -2242,7 +2906,11 @@ class rtg_g3_casual_od : VSM_OGA_od_casual_Camo {
 class rtg_g3_casual_ph : VSM_ProjectHonor_casual_Camo {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_g3";
@@ -2253,7 +2921,11 @@ class rtg_g3_casual_ph : VSM_ProjectHonor_casual_Camo {
 class rtg_g3_casual_choco : UK3CB_ADM_B_U_Shirt_Pants_01_CC {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply70";
+    };
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_g3";
@@ -2266,10 +2938,55 @@ class rtg_g3_casual_choco : UK3CB_ADM_B_U_Shirt_Pants_01_CC {
 class shrikeHat : H_HelmetSpecB_blk {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
     displayName="Combat Helmet - Shrike";
     mass = 3.5;
     hiddenSelectionsTextures[] = {"rtgEquipment\tex\shrikeHat.paa"};
+    class ItemInfo: ItemInfo
+    {
+        class HitpointsProtectionInfo
+        {
+            class head
+            {
+                HitpointName="HitHead";
+                armor=8;
+                PassThrough=0.30000001;
+            };
+        };
+    };
+};
+
+class rhsusf_hgu56p_visor_black;
+class shrikeHat2 : rhsusf_hgu56p_visor_black
+{
+	scope = 2;
+	dlc = "raiderTactical";
+	Author = "Shrike"; 
+    displayName="Pilot Helmet - Shrike";
+    mass = 3.5;
+    hiddenSelectionsTextures[] = {"rtgEquipment\tex\shrikePilotHat.paa"};
+    class ItemInfo: ItemInfo
+    {
+        class HitpointsProtectionInfo
+        {
+            class head
+            {
+                HitpointName="HitHead";
+                armor=8;
+                PassThrough=0.30000001;
+            };
+        };
+    };
+};
+
+class cakeHat2 : rhsusf_hgu56p_visor_black
+{
+	scope = 2;
+	dlc = "raiderTactical";
+	Author = "Shrike"; 
+    displayName="Pilot Helmet - Cake";
+    mass = 3.5;
+    hiddenSelectionsTextures[] = {"rtgEquipment\tex\cakePilotHat.paa"};
     class ItemInfo: ItemInfo
     {
         class HitpointsProtectionInfo
@@ -2289,7 +3006,7 @@ class H_StrawHat;
 class cakeStrawHat : H_StrawHat {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
     displayName="Straw Hat - Cake";
     mass = 2;
     hiddenSelectionsTextures[] = {"rtgEquipment\tex\cakeHat.paa"};
@@ -2308,14 +3025,14 @@ class cakeStrawHat : H_StrawHat {
 };
 
 // Blade
-class H_Booniehat_oli;
-class bladeHat : H_Booniehat_oli {
+class H_Construction_headset_black_F;
+class bladeHat : H_Construction_headset_black_F {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
-    displayName="Boonie - Blade";
+	Author = "Shrike"; 
+    displayName="Hard Hat - Blade";
     mass = 2;
-    // hiddenSelectionsTextures[] = {"rtgEquipment\tex\patHat.paa"};
+    hiddenSelectionsTextures[] = {"rtgEquipment\tex\bladeHat.paa"};
     class ItemInfo: ItemInfo
     {
         class HitpointsProtectionInfo
@@ -2335,7 +3052,7 @@ class FP_Cap_Peltor_Olv;
 class patHat : FP_Cap_Peltor_Olv {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
     displayName="Ranger Hat - Pat";
     mass = 2;
     hiddenSelectionsTextures[] = {"rtgEquipment\tex\patHat.paa"};
@@ -2357,7 +3074,7 @@ class rhsusf_cvc_alt_helmet;
 class samHat : rhsusf_cvc_alt_helmet {
     scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
     displayName="CVC Helmet - Sam";
     mass = 2;
     hiddenSelectionsTextures[] = {"rtgEquipment\tex\samHat.paa"};
@@ -2380,7 +3097,7 @@ class rhsusf_opscore_ut_pelt_nsw_cam;
 class texHat : rhsusf_opscore_ut_pelt_nsw_cam {
 	scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
     displayName="Fast Helmet - Tex";
     mass = 2;
     hiddenSelectionsTextures[] =
@@ -2412,10 +3129,34 @@ class sorespHat : rhsgref_helmet_pasgt_altis_lizard
 {
 	scope = 2;
 	dlc = "raiderTactical";
-	Author = "Shrike";
+	Author = "Shrike"; 
     displayName="Pasgt - Soresp";
     mass = 2;
     hiddenSelectionsTextures[] ={"\rtgEquipment\tex\sore_hat.paa"};
+    class ItemInfo: ItemInfo
+    {
+        class HitpointsProtectionInfo
+        {
+            class head
+            {
+                HitpointName="HitHead";
+                armor=4.7;
+                PassThrough=0.30000001;
+            };
+        };
+    };
+};
+
+// meep
+class CADPAT_Helmet1;
+class meepHat  : CADPAT_Helmet1
+{
+	scope = 2;
+	dlc = "raiderTactical";
+	Author = "Shrike"; 
+    displayName="ECH - Meep";
+    mass = 2;
+    hiddenSelectionsTextures[] ={"\rtgEquipment\tex\meepHat.paa"};
     class ItemInfo: ItemInfo
     {
         class HitpointsProtectionInfo

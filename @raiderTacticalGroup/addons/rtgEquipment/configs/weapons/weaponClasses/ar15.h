@@ -140,7 +140,7 @@ class rtg_c7a2: arifle_SPAR_01_blk_f {
 	bg_bipod = 0;
 	class WeaponSlotsInfo: WeaponSlotsInfo
 	{
-		mass = 61.039997;
+		mass = 73.039997;
 	};
 	inertia = 0.28;
 	dexterity = 1.7388076;
@@ -163,5 +163,52 @@ class rtg_c7a2: arifle_SPAR_01_blk_f {
 		reloadTime = 0.075;
 		dispersion = 0.00031;
 	};
+};
+
+class rtg_c8a2: arifle_SPAR_01_blk_f {
+	scope = 2;
+	dlc = "raiderTactical";
+	baseWeapon = "rtg_c8a2";
+	Author = "Shrike";
+	displayName = "Colt Canada C8A2";
+	deployedPivot = "deploypivot";
+	hasBipod = 0;
+	ACE_barrelLength = 368;
 	
+	model = "hlc_wp_ar15\mesh\mill_bushmaster\car15.p3d";
+	reloadAction = "NIA_GestureReload416";
+	picture = "\hlc_wp_ar15\tex\ui\gear_bushmaster_ca";
+	discretedistance[] = {100,200,300,400,500,600};
+	discreteDistanceCameraPoint[] = {"eye_100","eye_200","eye_300","eye_400","eye_500","eye_600"};
+	discretedistanceinitindex = 0;
+	cameraDir = "look";
+	recoil = "recoil_mxc";
+	magazineWell[] = {"CBA_556x45_STANAG"};
+	magazines[] = {"rtg_30rnd_556_45"};
+	bg_bipod = 0;
+	class WeaponSlotsInfo: WeaponSlotsInfo
+	{
+		mass = 62.039997;
+	};
+	inertia = 0.28;
+	dexterity = 1.7388076;
+	aimTransitionSpeed = 1.2171652;
+	handAnim[] = {"OFP2_ManSkeleton","hlc_wp_ar15\gesture\newgesture\handpose_SMR.rtm"};
+	hiddenSelections[] = {"Main"};
+	hiddenSelectionsTextures[] = {"rtgEquipment\tex\c8.paa"};
+	class XtdGearInfo
+	{
+		model = "";
+	};
+	modes[] = {"Single", "FullAuto"};
+	class Single: Single
+	{
+		reloadTime = 0.075;
+		dispersion = 0.00031;
+	};
+	class FullAuto: FullAuto
+	{
+		reloadTime = 0.075;
+		dispersion = 0.00031;
+	};
 };

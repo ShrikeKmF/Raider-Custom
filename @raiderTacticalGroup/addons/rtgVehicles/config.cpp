@@ -8,7 +8,7 @@ class CfgPatches
     class rtgVehicles 
     {
         name = "rtgVehicles";
-        units[] = {"raider_bushmaster_armed", "raider_bushmaster_unarmed", "raider_huey_armed", "raider_huey_transport"};
+        units[] = {"rtg_BasicSupply", "rtg_medicalSupply", "rtg_atSupply", "rtg_artillery", "rtg_loaf", "rtg_damper", "rtg_heavyLift_Cargo", "rtg_cargoTransport", "rtg_cargoTransport_F", "rtg_rhic", "raider_strike_car", "raider_bushmaster_armed", "raider_bushmaster_unarmed", "raider_huey_armed", "raider_huey_transport"};
         weapons[] = {};
         version = "1";
         requiredAddons[] = {"a3_characters_F","a3_characters_F_beta","A3_Characters_F_Common","a3_characters_f_beta","a3_characters_f_gamma","A3_Soft_F_epc","bma3_bushmaster", "uk3cb_factions_fia"};
@@ -23,6 +23,13 @@ class cfgFactionClasses {
         displayName = "Raider Tactical";
         priority = 0;
         side = 1;
+    };
+
+    class Raider_Tactical_Civi
+    {
+        displayName = "Raider Tactical [Civi]";
+		priority = 0;
+        side = 3;
     };
 };
 
@@ -1051,6 +1058,7 @@ class CfgVehicles {
 
 // Helicopters
     class ej_UH92_NATO;
+    class MainTurret;
     class rtg_loaf : ej_UH92_NATO
     {
         displayName = "Loaf (4/12)";
@@ -1083,11 +1091,367 @@ class CfgVehicles {
 
         // Fast Ropping
         ace_fastroping_enabled = 1;
+        ace_fastroping_ropeOrigins[] = {"ropeOriginLeft","ropeOriginRight"};
 
         // Water Source
         acex_field_rations_waterSupply = 50;
         // Extra Fuel (Jerry Cans on Vehicles)
         ace_refuel_fuelCargo = 80;
+
+        class Turrets: Turrets
+		{
+			class RightDoorGun: MainTurret
+			{
+				isCopilot = 0;
+				body = "Turret2";
+				gun = "Gun_2";
+				minElev = -60;
+				maxElev = 18;
+				initElev = -45;
+				minTurn = -160;
+				maxTurn = 5;
+				initTurn = -90;
+				soundServo[] = {"",0.01,1};
+				animationSourceHatch = "";
+				animationSourceBody = "Turret_2";
+				animationSourceGun = "Gun_2";
+				stabilizedInAxes = 0;
+				gunBeg = "muzzle_2";
+				gunEnd = "chamber_2";
+				weapons[]=
+				{
+					"rhs_weap_m134_minigun_1"
+				};
+				magazines[]=
+				{
+					"rhs_mag_762x51_m80a1_4000"
+				};
+				gunnerName = "Right M134 Gunner";
+				memoryPointGun = "machinegun_1";
+				memoryPointGunnerOptics = "gunnerview_2";
+				gunnerOpticsModel = "\uh-60\Misc\optika_empty";
+				gunnerOutOpticsShowCursor = 1;
+				gunnerOpticsShowCursor = 1;
+				gunnerAction = "gunner_Heli_Transport_01";
+				gunnerInAction = "gunner_Heli_Transport_01";
+				primaryGunner = 0;
+				selectionFireAnim = "zasleh_1";
+				proxyIndex = 2;
+				gunnerCompartments = "Compartment3";
+				commanding = -3;
+				hasGunner = 1;
+				hasCrew = 1;
+				class ViewOptics
+				{
+					initAngleX = 0;
+					minAngleX = -30;
+					maxAngleX = 30;
+					initAngleY = 0;
+					minAngleY = -100;
+					maxAngleY = 100;
+					initFov = 0.7;
+					minFov = 0.25;
+					maxFov = 1.1;
+				};
+			};
+			class MainTurret: MainTurret
+			{
+				isCopilot = 0;
+				body = "mainTurret";
+				gun = "mainGun";
+				minElev = -60;
+				maxElev = 18;
+				initElev = -30;
+				minTurn = -5;
+				maxTurn = 160;
+				initTurn = 90;
+				soundServo[] = {"",0.01,1};
+				animationSourceHatch = "";
+				animationSourceBody = "mainTurret";
+				animationSourceGun = "mainGun";
+				stabilizedInAxes = 0;
+				gunBeg = "muzzle_1";
+				gunEnd = "chamber_1";
+				discreteDistance[] = {100,200,300,400,500,600,700,800,1000,1200,1500,1800,2100};
+				discreteDistanceInitIndex = 5;
+				weapons[]=
+				{
+					"rhs_weap_m134_minigun_1"
+				};
+				magazines[]=
+				{
+					"rhs_mag_762x51_m80a1_4000"
+				};
+				gunnerName = "Left M134 Gunner";
+				memoryPointGun = "machinegun";
+				memoryPointGunnerOptics = "gunnerview";
+				gunnerOpticsModel = "\uh-60\Misc\optika_empty";
+				gunnerOutOpticsShowCursor = 0;
+				gunnerOpticsShowCursor = 0;
+				gunnerAction = "gunner_Heli_Transport_01";
+				gunnerInAction = "gunner_Heli_Transport_01";
+				commanding = -2;
+				primaryGunner = 0;
+				gunnerCompartments = "Compartment2";
+			};
+			class CoPilotObs: MainTurret
+			{
+				ace_laser_selfdesignate_Enabled = 1;
+				isCopilot = 1;
+				body = "ObsTurret";
+				gun = "ObsGun";
+				gunnerAction = "pilot_Heli_Transport_01";
+				gunnerInAction = "pilot_Heli_Light_03_Enter";
+				memoryPointsGetInGunner = "pos copilot";
+				memoryPointsGetInGunnerDir = "pos copilot dir";
+				gunnerGetInAction = "GetInHeli_Transport_01Cargo";
+				gunnerGetOutAction = "GetOutLow";
+				minElev = -80;
+				maxElev = 25;
+				initElev = 0;
+				minTurn = -190;
+				maxTurn = 190;
+				initTurn = 180;
+				gunBeg = "gun_end";
+				gunEnd = "gun_begin";
+				memoryPointGunnerOptics = "commanderview";
+				animationSourceBody = "ObsTurret";
+				animationSourceGun = "ObsGun";
+				showHMD = 1;
+				CanEject = 1;
+				startEngine = 0;
+				soundServo[] = {"",0.01,1};
+				outGunnerMayFire = 1;
+				gunnerCompartments = "Compartment2";
+				commanding = -1;
+				primaryGunner = 1;
+				selectionFireAnim = "";
+				castGunnerShadow = 1;
+				viewGunnerShadow = 1;
+				gunnerOpticsModel = "";
+				gunnerOpticsEffect[] = {"TankCommanderOptics1"};
+				gunnerForceOptics = 0;
+				gunnerOpticsShowCursor = 1;
+				turretInfoType = "Rsc_HMDs_Kimi_Helo_UI_Turret";
+				showAllTargets = 2;
+				copilotHasFlares = 1;
+				weapons[] = {"ej_master_arms_safe","Laserdesignator_mounted","EricJ_CMFlareLauncherDAP"};
+				magazines[] = {"Laserbatteries","168Rnd_CMFlare_Chaff_Magazine"};
+				stabilizedInAxes = "StabilizedInAxesBoth";
+				proxyIndex = 3;
+				gunnerName = "Co-Pilot";
+				class OpticsIn
+				{
+					class WideNGS
+					{
+						opticsDisplayName = "W";
+						initAngleX = 0;
+						minAngleX = -35;
+						maxAngleX = 10;
+						initAngleY = 0;
+						minAngleY = -100;
+						maxAngleY = 100;
+						initFov = 0.466;
+						minFov = 0.466;
+						maxFov = 0.466;
+						visionMode[] = {"Normal","NVG","Ti"};
+						thermalMode[] = {0,1};
+						gunnerOpticsColor[] = {0.15,1,0.15,1};
+						gunnerOpticsModel = "A3\Weapons_F\Reticle\Optics_Gunner_MBT_03_w_F.p3d";
+						directionStabilized = 0;
+						opticsPPEffects[] = {"OpticsCHAbera2","OpticsBlur2"};
+					};
+					class Wide
+					{
+						opticsDisplayName = "W";
+						initAngleX = 0;
+						minAngleX = -35;
+						maxAngleX = 10;
+						initAngleY = 0;
+						minAngleY = -100;
+						maxAngleY = 100;
+						initFov = 0.466;
+						minFov = 0.466;
+						maxFov = 0.466;
+						visionMode[] = {"Normal","NVG","Ti"};
+						thermalMode[] = {0,1};
+						gunnerOpticsColor[] = {0.15,1,0.15,1};
+						gunnerOpticsModel = "A3\Weapons_F\Reticle\Optics_Gunner_MBT_02_w_F.p3d";
+						directionStabilized = 1;
+						opticsPPEffects[] = {"OpticsCHAbera2","OpticsBlur2"};
+						gunnerOpticsEffect[] = {"TankCommanderOptics1"};
+					};
+					class WideL: Wide
+					{
+						opticsDisplayName = "WL";
+						initFov = 0.2;
+						minFov = 0.2;
+						maxFov = 0.2;
+						gunnerOpticsModel = "A3\Weapons_F\Reticle\Optics_Gunner_MBT_02_m_F.p3d";
+						gunnerOpticsColor[] = {0,0,0,1};
+						directionStabilized = 1;
+						opticsPPEffects[] = {"OpticsCHAbera2","OpticsBlur2"};
+					};
+					class Medium: Wide
+					{
+						opticsDisplayName = "M";
+						initFov = 0.1;
+						minFov = 0.1;
+						maxFov = 0.1;
+						directionStabilized = 1;
+						gunnerOpticsColor[] = {0,0,0,1};
+						gunnerOpticsModel = "A3\Weapons_F\Reticle\Optics_Gunner_MBT_02_m_F.p3d";
+					};
+					class Narrow: Wide
+					{
+						opticsDisplayName = "N";
+						gunnerOpticsColor[] = {0,0,0,1};
+						gunnerOpticsModel = "A3\Weapons_F\Reticle\Optics_Gunner_MBT_02_n_F.p3d";
+						directionStabilized = 1;
+						initFov = 0.02;
+						minFov = 0.02;
+						maxFov = 0.02;
+					};
+					class Narrower: Wide
+					{
+						opticsDisplayName = "N";
+						gunnerOpticsColor[] = {0,0,0,1};
+						gunnerOpticsModel = "A3\Weapons_F\Reticle\Optics_Gunner_MBT_02_n_F.p3d";
+						directionStabilized = 1;
+						initFov = 0.01;
+						minFov = 0.01;
+						maxFov = 0.01;
+					};
+				};
+				class OpticsOut
+				{
+					class Monocular
+					{
+						initAngleX = 0;
+						minAngleX = -30;
+						maxAngleX = 30;
+						initAngleY = 0;
+						minAngleY = -100;
+						maxAngleY = 100;
+						initFov = 1.1;
+						minFov = 0.133;
+						maxFov = 1.1;
+						visionMode[] = {"Normal","NVG","Ti"};
+						thermalMode[] = {2,3};
+						gunnerOpticsModel = "";
+						gunnerOpticsEffect[] = {};
+					};
+				};
+				class ViewOptics
+				{
+					initAngleX = 0;
+					minAngleX = -30;
+					maxAngleX = 30;
+					initAngleY = 40;
+					minAngleY = -100;
+					maxAngleY = 100;
+					initFov = 1.4;
+					minFov = 0.3;
+					maxFov = 1;
+				};
+			};
+			class CargoTurret_01: CargoTurret
+			{
+				gunnerAction = "passenger_inside_1";
+				gunnerCompartments = "Compartment3";
+				memoryPointsGetInGunner = "pos side";
+				memoryPointsGetInGunnerDir = "pos side dir";
+				gunnerName = "Left Side FFV Position";
+				proxyIndex = 11;
+				maxElev = 15;
+				minElev = -80;
+				maxTurn = 0;
+				minTurn = -75;
+				isPersonTurret = 1;
+				ejectDeadGunner = 0;
+				enabledByAnimationSource = "LDoor";
+				usepip = 0;
+				gunnerOutOpticsModel = "";
+				gunnerOpticsModel = "";
+				startEngine = 0;
+				outGunnerMayFire = 1;
+				inGunnerMayFire = 0;
+				commanding = -2;
+				memoryPointGunnerOptics = "";
+			};
+			class CargoTurret_02: CargoTurret
+			{
+				gunnerAction = "passenger_inside_1";
+				gunnerCompartments = "Compartment3";
+				memoryPointsGetInGunner = "pos side 4";
+				memoryPointsGetInGunnerDir = "pos side dir 4";
+				gunnerName = "Left Side FFV Position 2";
+				proxyIndex = 12;
+				maxElev = 10;
+				minElev = -80;
+				maxTurn = 65;
+				minTurn = 0;
+				isPersonTurret = 1;
+				ejectDeadGunner = 0;
+				enabledByAnimationSource = "LDoor";
+				usepip = 0;
+				gunnerOutOpticsModel = "";
+				gunnerOpticsModel = "";
+				startEngine = 0;
+				outGunnerMayFire = 1;
+				inGunnerMayFire = 0;
+				commanding = -2;
+				memoryPointGunnerOptics = "";
+			};
+			class CargoTurret_03: CargoTurret
+			{
+				gunnerAction = "passenger_inside_1";
+				gunnerCompartments = "Compartment2";
+				memoryPointsGetInGunner = "pos side 2";
+				memoryPointsGetInGunnerDir = "pos side dir 2";
+				gunnerName = "Right Side FFV Position";
+				proxyIndex = 10;
+				maxElev = 15;
+				minElev = -80;
+				maxTurn = 75;
+				minTurn = -1;
+				isPersonTurret = 1;
+				ejectDeadGunner = 0;
+				enabledByAnimationSource = "RDoor";
+				usepip = 0;
+				gunnerOutOpticsModel = "";
+				gunnerOpticsModel = "";
+				startEngine = 0;
+				outGunnerMayFire = 1;
+				inGunnerMayFire = 0;
+				commanding = -2;
+				memoryPointGunnerOptics = "";
+			};
+			class CargoTurret_04: CargoTurret
+			{
+				gunnerAction = "passenger_inside_1";
+				gunnerCompartments = "Compartment2";
+				memoryPointsGetInGunner = "pos side 3";
+				memoryPointsGetInGunnerDir = "pos side dir 3";
+				gunnerName = "Right Side FFV Position 2";
+				proxyIndex = 9;
+				maxElev = 15;
+				minElev = -80;
+				maxTurn = 0;
+				minTurn = -54;
+				isPersonTurret = 1;
+				ejectDeadGunner = 0;
+				enabledByAnimationSource = "RDoor";
+				usepip = 0;
+				gunnerOutOpticsModel = "";
+				gunnerOpticsModel = "";
+				startEngine = 0;
+				outGunnerMayFire = 1;
+				inGunnerMayFire = 0;
+				commanding = -2;
+				memoryPointGunnerOptics = "";
+			};
+		};
 
         class Components: Components
 		{
@@ -1215,81 +1579,6 @@ class CfgVehicles {
 
         class Components: Components
 		{
-            class SensorsManagerComponent
-			{
-				class Components
-				{
-					class PassiveRadarSensorComponent: SensorTemplatePassiveRadar
-					{
-						class AirTarget
-						{
-							minRange = 2500;
-							maxRange = 2500;
-							objectDistanceLimitCoef = -1;
-							viewDistanceLimitCoef = -1;
-						};
-						class GroundTarget
-						{
-							minRange = 2500;
-							maxRange = 2500;
-							objectDistanceLimitCoef = -1;
-							viewDistanceLimitCoef = -1;
-						};
-					};
-					class ActiveRadarSensorComponent: SensorTemplateActiveRadar
-					{
-						class AirTarget
-						{
-							minRange = 3500;
-							maxRange = 3500;
-							objectDistanceLimitCoef = -1;
-							viewDistanceLimitCoef = -1;
-						};
-						class GroundTarget
-						{
-							minRange = 2500;
-							maxRange = 2500;
-							objectDistanceLimitCoef = -1;
-							viewDistanceLimitCoef = -1;
-						};
-						groundNoiseDistanceCoef = 0.0005;
-						maxGroundNoiseDistance = 50;
-						minSpeedThreshold = 0;
-						maxSpeedThreshold = 0;
-						angleRangeHorizontal = 60;
-						angleRangeVertical = 60;
-						typeRecognitionDistance = 20000;
-						maxFogSeeThrough = 1;
-						maxTrackableSpeed = 830;
-					};
-					class ActiveRadarSensorComponent_Wide: ActiveRadarSensorComponent
-					{
-						class AirTarget
-						{
-							minRange = 4000;
-							maxRange = 4000;
-							objectDistanceLimitCoef = -1;
-							viewDistanceLimitCoef = -1;
-						};
-						class GroundTarget
-						{
-							minRange = 4000;
-							maxRange = 4000;
-							objectDistanceLimitCoef = -1;
-							viewDistanceLimitCoef = -1;
-						};
-						groundNoiseDistanceCoef = 0.0005;
-						maxGroundNoiseDistance = 50;
-						minSpeedThreshold = 0;
-						maxSpeedThreshold = 0;
-						angleRangeHorizontal = 110;
-						angleRangeVertical = 110;
-						typeRecognitionDistance = 10000;
-						maxFogSeeThrough = 1;
-						maxTrackableSpeed = 830;
-					};
-				};
-			};
             class TransportPylonsComponent
 			{
 				uiPicture = "\UH-60\Data\UI\Heli_attack_AH_96.paa";
@@ -1300,25 +1589,25 @@ class CfgVehicles {
 						attachment = "PylonRack_12Rnd_PG_missiles";
 						priority = 5;
 						bay = 1;
-						hardpoints[] = {"B_MISSILE_PYLON","UNI_SCALPEL","DAR","DAGR"};
+						hardpoints[] = {"B_MISSILE_PYLON","UNI_SCALPEL","DAR","DAGR", "RHS_weap_m134_pylon"};
 						turret[] = {0};
-						maxweight = 500;
+						maxweight = 800;
 						UIposition[] = {0.06,0.4};
 					};
 					class PylonLeft2: PylonLeft1
 					{
 						attachment = "PylonRack_12Rnd_PG_missiles";
 						priority = 4;
-						hardpoints[] = {"B_MISSILE_PYLON","UNI_SCALPEL","DAR","DAGR"};
-						maxweight = 500;
+						hardpoints[] = {"B_MISSILE_PYLON","UNI_SCALPEL","DAR","DAGR", "RHS_weap_m134_pylon"};
+						maxweight = 800;
 						UIposition[] = {0.08,0.35};
 					};
 					class PylonLeft3: PylonLeft1
 					{
 						attachment = "PylonRack_12Rnd_PG_missiles";
 						priority = 3;
-						hardpoints[] = {"B_MISSILE_PYLON","UNI_SCALPEL","DAR","DAGR"};
-						maxweight = 500;
+						hardpoints[] = {"B_MISSILE_PYLON","UNI_SCALPEL","DAR","DAGR", "RHS_weap_m134_pylon"};
+						maxweight = 800;
 						UIposition[] = {0.1,0.3};
 					};
 					class PylonRight3: PylonLeft3
@@ -1662,12 +1951,12 @@ class CfgVehicles {
     class ej_MQ17C;
     class rtg_cargoTransport : ej_MQ17C
     {
-        displayName = "Mohawk (Cargo/Drone)";
+        displayName = "Mohawk (AI/Drone)";
         editorSubcategory = "Helicopters";
         author = "Shrike";
         scope = 2;
-        side = 1;
-        faction = "Raider_Tactical_F";
+        faction = "Raider_Tactical_Civi";
+        side = 3;
         maximumLoad = 20000;
         ace_cargo_space = 16;
         acre_hasInfantryPhone = 0;
@@ -1687,6 +1976,16 @@ class CfgVehicles {
 		reportOwnPosition = 1;
 		laserScanner = 1;
         armor = 80;
+    };
+
+    class rtg_cargoTransport_F : rtg_cargoTransport
+    {
+        displayName = "Mohawk (Cargo/Drone)";
+        editorSubcategory = "Helicopters";
+        side = 1;
+        author = "Shrike";
+        scope = 2;
+        faction = "Raider_Tactical_F";
     };
 
     class raider_huey_transport: UK3CB_I_G_UH1H_M240_FIA 

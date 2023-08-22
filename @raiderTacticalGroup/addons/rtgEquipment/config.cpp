@@ -28,6 +28,17 @@ class raiderTactical: Mod_Base
 };
 
 class asdg_OpticRail;
+class cfgRecoils
+{
+    class 700Nitro
+    {
+        muzzleOuter[]	= { 22.0,  28.0,  6,  0.2 };
+        kickBack[]	= { 0.03, 0.12 };
+        permanent	= 0.1;
+        temporary	= 0.01;
+    };
+};
+
 class asdg_OpticRail1913 : asdg_OpticRail {
     class compatibleItems
 	{
@@ -42,17 +53,6 @@ class asdg_OpticRail1913RTG : asdg_OpticRail1913 {
         rtg_optic_MRCO = 1;
         rtg_optic_DMS = 1;
         rtg_night_sight = 1;
-    };
-};
-
-class cfgRecoils
-{
-    class 700Nitro
-    {
-        muzzleOuter[]	= { 22.0,  28.0,  6,  0.2 };
-        kickBack[]	= { 0.03, 0.12 };
-        permanent	= 0.1;
-        temporary	= 0.01;
     };
 };
 

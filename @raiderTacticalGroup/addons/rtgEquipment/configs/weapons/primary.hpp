@@ -28,14 +28,40 @@ class arifle_SPAR_02_blk_F;
 class arifle_SPAR_02_khk_F;
 class arifle_SPAR_02_snd_F;
 class UK3CB_FAMAS_F1;
+class UK3CB_FAMAS_F1_GLM203;
+
 class rtg_famas_f1_ris : UK3CB_FAMAS_F1 {
 	scope = 2;
 	dlc = "raiderTactical";
 	Author = "Shrike";
-    displayName="FAMAS 5.56 Nato";
+    displayName="FAMAS (Nato)";
 	baseWeapon = "rtg_famas_f1_ris";
 	magazineWell[] = {"CBA_556x45_STANAG"};
 	magazines[] = {"rtg_30rnd_556_45"};
+	recoil = "recoil_mp5a2";
+	ACE_barrelLength = 488;
+	modes[] = {"Single", "FullAuto"};
+	class Single: Single
+	{
+		reloadTime = 0.0625;
+		dispersion = 0.00031;
+	};
+	class FullAuto: FullAuto
+	{
+		reloadTime = 0.0625;
+		dispersion = 0.00031;
+	};
+};
+
+class rtg_famas_f1_ris_GL : UK3CB_FAMAS_F1_GLM203 {
+	scope = 2;
+	dlc = "raiderTactical";
+	Author = "Shrike";
+    displayName="FAMAS (Nato/GL)";
+	baseWeapon = "rtg_famas_f1_ris_GL";
+	magazineWell[] = {"CBA_556x45_STANAG"};
+	magazines[] = {"rtg_30rnd_556_45"};
+	recoil = "recoil_mp5a2";
 	ACE_barrelLength = 488;
 	modes[] = {"Single", "FullAuto"};
 	class Single: Single
@@ -1558,8 +1584,8 @@ class rtg_m60e4 : LMG_Mk200_black_F
 	displayName = "M60E4 RIS";
 	magazineWell[] = {"CBA_762x51_LINKS"};
 	magazines[] = {"rtg_200Rnd_762x51"};
+	recoil = "recoil_mp5a2";
 	modes[] = {"FullAuto"};
-	recoil = "rhs_recoil_mk18";
 	model = "\hlc_wp_M60E4\mesh\M60e4.p3d";
 	hiddenSelections[] = {"Main", "rail"};
 	hiddenSelectionsTextures[] = {"hlc_wp_m60e4\tex\m60e4_co.paa", "hlc_wp_m60e4\tex\m249_para_co.paa"};
@@ -1788,6 +1814,45 @@ class rtg_mg3 : LMG_Zafir_F {
 	ACE_barrelTwist = 304.8;
 	ACE_barrelLength = 431.8;
 	maxZeroing = 1100;
+	modes[] = {"FullAuto1"};
+	class WeaponSlotsInfo: WeaponSlotsInfo
+	{
+		mass = 250.7;
+	};
+	class FullAuto1 : FullAuto
+	{
+		class BaseSoundModeType;
+		class StandardSound: BaseSoundModeType
+		{
+			soundSetShot[] = {"NIA_MG3_NEW_Shot_SoundSet","MG3_Tail_SoundSet"};
+		};
+		reloadTime = 0.085714;
+		dispersion = 0.000261799;
+	};
+};
+
+class rtg_mg3_funny : rtg_mg3
+{
+	scope = 2;
+	dlc = "raiderTactical";
+	Author = "Shrike";
+	baseWeapon = "rtg_mg3_funny";
+	recoil = "rhs_recoil_mk18";
+	magazineWell[] = {"CBA_762x51_LINKS"};
+	magazines[] = {"rtg_200Rnd_762x51"};
+	reloadaction = "HLC_GestureReloadMG3";
+	displayName = "MG3 RIS";
+	hiddenSelections[] = {"Camo1","Camo2","Camo3","Camo4","Camo5"};
+	hiddenSelectionsTextures[] = {"\hlc_wp_mg3\tex\Standard\mg3recieverkws_black_co.paa","\hlc_wp_mg3\tex\Standard\partsmap1kws_black_co.paa","\hlc_wp_mg3\tex\Standard\partsmap2kws_black_co.paa","\hlc_wp_mg3\tex\Standard\partsmap3_black_co.paa","\hlc_wp_mg3\tex\standard\MG3_drum_co.paa"};
+	handanim[] = {"OFP2_ManSkeleton","\hlc_wp_MG3\anim\handpose_MG3kws.rtm"};
+	model = "\hlc_wp_MG3\mesh\mg3\mg3kws.p3d";
+	picture = "\hlc_wp_mg3\tex\ui\gear_mg3kws_ca";
+	discretedistance[] = {200,300,400,500,600,700,800,900,1000,1100};
+	distanceZoomMin = 100;
+	distanceZoomMax = 1100;
+	ACE_barrelTwist = 304.8;
+	ACE_barrelLength = 431.8;
+	maxZeroing = 1100;
 	modes[] = {"FullAuto1", "FullAuto2"};
 	class WeaponSlotsInfo: WeaponSlotsInfo
 	{
@@ -1805,8 +1870,57 @@ class rtg_mg3 : LMG_Zafir_F {
 	};
 	class FullAuto2 : FullAuto1
 	{
-		reloadTime = 0.06;
+		reloadTime = 0.0521739;
 		textureType = "fastAuto";
+	};
+};
+
+class rtg_ameli : rtg_mg3 {
+	scope = 2;
+	dlc = "raiderTactical";
+	Author = "Shrike";
+	baseWeapon = "rtg_ameli";
+	magazineWell[] = {"CBA_556x45_MINIMI"};
+	magazines[] = {"rtg_200rnd_556_45"};
+	recoil = "recoil_mp5a2";
+	reloadaction = "HLC_GestureReloadMG3";
+	displayName = "CETME Ameli";
+	hiddenSelections[] = {"Camo1","Camo2","Camo3","Camo4","Camo5"};
+	hiddenSelectionsTextures[] = {"\hlc_wp_mg3\tex\Standard\mg3recieverkws_green_co.paa","\hlc_wp_mg3\tex\Standard\partsmap1kws_green_co.paa","\hlc_wp_mg3\tex\Standard\partsmap2kws_green_co.paa","\hlc_wp_mg3\tex\Standard\partsmap3_green_co.paa","\hlc_wp_mg3\tex\standard\MG3_drum_co.paa"};
+	handanim[] = {"OFP2_ManSkeleton","\hlc_wp_MG3\anim\handpose_MG3kws.rtm"};
+	model = "\hlc_wp_MG3\mesh\mg3\mg3kws.p3d";
+	picture = "\hlc_wp_mg3\tex\ui\gear_mg3kws_ca";
+	discretedistance[] = {200,300,400,500,600,700,800,900,1000,1100};
+	distanceZoomMin = 100;
+	distanceZoomMax = 1100;
+	ACE_barrelTwist = 304.8;
+	ACE_barrelLength = 431.8;
+	maxZeroing = 1100;
+	modes[] = {"FullAuto1"};
+	class WeaponSlotsInfo: WeaponSlotsInfo
+	{
+		mass = 184.7;
+	};
+	class FullAuto1 : FullAuto
+	{
+		sounds[] = {"StandardSound","SilencedSound"};
+		class BaseSoundModeType
+		{
+			weaponSoundEffect = "DefaultRifle";
+			closure1[] = {"\hlc_wp_saw\snd\saw_first",0.7,1,10};
+			closure2[] = {"\hlc_wp_saw\snd\saw_first",0.7,1,10};
+			soundClosure[] = {"closure1",0.5,"closure2",0.5};
+		};
+		class StandardSound: BaseSoundModeType
+		{
+			soundSetShot[] = {"NIA_M249_NEW_Shot_SoundSet","saw_Tail_SoundSet"};
+		};
+		class SilencedSound: BaseSoundModeType
+		{
+			soundSetShot[] = {"saw_silencerShot_SoundSet","saw_silencerTail_SoundSet"};
+		};
+		reloadTime = 0.0521739;
+		dispersion = 0.000261799;
 	};
 };
 

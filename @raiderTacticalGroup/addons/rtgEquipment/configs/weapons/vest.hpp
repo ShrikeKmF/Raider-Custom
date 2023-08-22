@@ -11,7 +11,7 @@ class tactec: Vest_Camo_Base
 	};
 	class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -51,7 +51,7 @@ class tactecFG: Vest_Camo_Base
 	};
 	class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -91,7 +91,7 @@ class tactecAU: Vest_Camo_Base
 	};
 	class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -131,7 +131,7 @@ class tactecBlack: Vest_Camo_Base
 	};
 	class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -172,7 +172,7 @@ class tactecgp: Vest_Camo_Base
 	};
 	class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -212,7 +212,7 @@ class tactecgpFG: Vest_Camo_Base
 	};
 	class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -252,7 +252,7 @@ class tactecgpAU: Vest_Camo_Base
 	};
 	class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -292,7 +292,7 @@ class tactecgpBlack: Vest_Camo_Base
 	};
 	class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -333,7 +333,7 @@ class tactec762: Vest_Camo_Base
 	};
 	class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -373,7 +373,7 @@ class tactec762FG: Vest_Camo_Base
 	};
 	class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -413,7 +413,7 @@ class tactec762AU: Vest_Camo_Base
 	};
 	class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -453,7 +453,7 @@ class tactec762Black: Vest_Camo_Base
 	};
 	class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -494,7 +494,7 @@ class tactec762gp: Vest_Camo_Base
 	};
 	class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -534,7 +534,7 @@ class tactec762gpFG: Vest_Camo_Base
 	};
 	class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -574,7 +574,7 @@ class tactec762gpAU: Vest_Camo_Base
 	};
 	class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -614,7 +614,7 @@ class tactec762gpBlack: Vest_Camo_Base
 	};
 	class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -655,7 +655,7 @@ class tactecSVD: Vest_Camo_Base
 	};
 	class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -695,7 +695,7 @@ class tactecSVDFG: Vest_Camo_Base
 	};
 	class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -735,7 +735,7 @@ class tactecSVDAU: Vest_Camo_Base
 	};
 	class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -775,7 +775,7 @@ class tactecSVDBlack: Vest_Camo_Base
 	};
 	class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -816,7 +816,7 @@ class tactecPKP: Vest_Camo_Base
 	};
 	class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -856,7 +856,7 @@ class tactecPKPFG: Vest_Camo_Base
 	};
 	class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -896,7 +896,7 @@ class tactecPKPAU: Vest_Camo_Base
 	};
 	class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -936,7 +936,7 @@ class tactecPKPBlack: Vest_Camo_Base
 	};
 	class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -978,7 +978,7 @@ class tactecfull: Vest_Camo_Base
 	};
 	class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -1018,7 +1018,7 @@ class tactecfullFG: Vest_Camo_Base
 	};
 	class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -1058,7 +1058,7 @@ class tactecfullAU: Vest_Camo_Base
 	};
 	class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -1098,7 +1098,7 @@ class tactecfullBlack: Vest_Camo_Base
 	};
 	class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -1139,7 +1139,47 @@ class tactecfullgp: Vest_Camo_Base
 	};
 	class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
+        class HitpointsProtectionInfo
+		{
+			class Chest
+			{
+				HitpointName = "HitChest";
+				armor = 25;
+				PassThrough = 0.3;
+			};
+			class Diaphragm
+			{
+				HitpointName = "HitDiaphragm";
+				armor = 25;
+				PassThrough = 0.3;
+			};
+			class Abdomen
+			{
+				hitpointName = "HitAbdomen";
+				armor = 25;
+				passThrough = 0.3;
+			};
+			class Body
+			{
+				hitpointName = "HitBody";
+				passThrough = 0.3;
+			};
+		};
+    };
+}
+class tactecfullgpBlack: Vest_Camo_Base
+{
+	class XtdGearInfo
+	{
+		model = "rtg_ace_expanded_akvest";
+		equipment =  "N545gl";
+        type =    "heavy";
+        camo =  "blk";
+	};
+	class ItemInfo: ItemInfo
+    {
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -1179,7 +1219,7 @@ class tactecfullgpFG: Vest_Camo_Base
 	};
 	class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -1219,7 +1259,7 @@ class tactecfullgpAU: Vest_Camo_Base
 	};
 	class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -1259,7 +1299,7 @@ class tactefullgpBlack: Vest_Camo_Base
 	};
 	class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -1300,7 +1340,7 @@ class tactecfull762: Vest_Camo_Base
 	};
 	class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -1340,7 +1380,7 @@ class tactecfull762FG: Vest_Camo_Base
 	};
 	class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -1380,7 +1420,7 @@ class tactecfull762AU: Vest_Camo_Base
 	};
 	class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -1420,7 +1460,7 @@ class tactecfull762Black: Vest_Camo_Base
 	};
 	class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -1461,7 +1501,7 @@ class tactecfull762gp: Vest_Camo_Base
 	};
 	class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -1501,7 +1541,7 @@ class tactecfull762gpFG: Vest_Camo_Base
 	};
 	class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -1541,7 +1581,7 @@ class tactecfull762gpAU: Vest_Camo_Base
 	};
 	class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -1581,7 +1621,7 @@ class tactecfull762gpBlack: Vest_Camo_Base
 	};
 	class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -1622,7 +1662,7 @@ class tactecfullSVD: Vest_Camo_Base
 	};
 	class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -1662,7 +1702,7 @@ class tactecfullSVDFG: Vest_Camo_Base
 	};
 	class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -1702,7 +1742,7 @@ class tactecfullSVDAU: Vest_Camo_Base
 	};
 	class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -1742,7 +1782,7 @@ class tactecfullSVDBlack: Vest_Camo_Base
 	};
 	class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -1783,7 +1823,7 @@ class tactecfullPKP: Vest_Camo_Base
 	};
 	class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -1823,7 +1863,7 @@ class tactecfullPKPFG: Vest_Camo_Base
 	};
 	class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -1863,7 +1903,7 @@ class tactecfullPKPAU: Vest_Camo_Base
 	};
 	class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -1903,7 +1943,7 @@ class tactecfullPKPBlack: Vest_Camo_Base
 	};
 	class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -1968,7 +2008,7 @@ class rtg_dr_Alpinefacp_br : dr_Alpinefacp_br {
 	Author = "Shrike";
 class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -2010,7 +2050,7 @@ class rtg_dr_Alpinefacp_mg : dr_Alpinefacp_mg {
 	Author = "Shrike";
 class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -2052,7 +2092,7 @@ class rtg_dr_Alpinefacp_op : dr_Alpinefacp_op {
 	Author = "Shrike";
 class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -2094,7 +2134,7 @@ class rtg_CarrierRig_Breacher_Alpine : CarrierRig_Breacher_Alpine {
 	Author = "Shrike";
 class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -2136,7 +2176,7 @@ class rtg_CarrierRig_Gunner_Alpine : CarrierRig_Gunner_Alpine {
 	Author = "Shrike";
 class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -2178,7 +2218,7 @@ class rtg_CarrierRig_Operator_Alpine : CarrierRig_Operator_Alpine {
 	Author = "Shrike";
 class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -2220,7 +2260,7 @@ class rtg_dr_Alpinelbt_br : dr_Alpinelbt_br {
 	Author = "Shrike";
 class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -2262,7 +2302,7 @@ class rtg_dr_Alpinelbt_mg : dr_Alpinelbt_mg {
 	Author = "Shrike";
 class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -2304,7 +2344,7 @@ class rtg_dr_Alpinelbt_op : dr_Alpinelbt_op {
 	Author = "Shrike";
 class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -2346,7 +2386,7 @@ class rtg_dr_Alpinepar_br : dr_Alpinepar_br {
 	Author = "Shrike";
 class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -2388,7 +2428,7 @@ class rtg_dr_Alpinepar_mg : dr_Alpinepar_mg {
 	Author = "Shrike";
 class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -2430,7 +2470,7 @@ class rtg_dr_Alpinepar_op : dr_Alpinepar_op {
 	Author = "Shrike";
 class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -2473,7 +2513,7 @@ class rtg_dr_ARDfacp_br : dr_ARDfacp_br {
 	Author = "Shrike";
 class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -2515,7 +2555,7 @@ class rtg_dr_ARDfacp_mg : dr_ARDfacp_mg {
 	Author = "Shrike";
 class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -2557,7 +2597,7 @@ class rtg_dr_ARDfacp_op : dr_ARDfacp_op {
 	Author = "Shrike";
 class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -2599,7 +2639,7 @@ class rtg_CarrierRig_Breacher_Arid : CarrierRig_Breacher_Arid {
 	Author = "Shrike";
 class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -2641,7 +2681,7 @@ class rtg_CarrierRig_Gunner_Arid : CarrierRig_Gunner_Arid {
 	Author = "Shrike";
 class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -2683,7 +2723,7 @@ class rtg_CarrierRig_Operator_Arid : CarrierRig_Operator_Arid {
 	Author = "Shrike";
 class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -2725,7 +2765,7 @@ class rtg_dr_ARDlbt_br : dr_ARDlbt_br {
 	Author = "Shrike";
 class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -2767,7 +2807,7 @@ class rtg_dr_ARDlbt_mg : dr_ARDlbt_mg {
 	Author = "Shrike";
 class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -2809,7 +2849,7 @@ class rtg_dr_ARDlbt_op : dr_ARDlbt_op {
 	Author = "Shrike";
 class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -2851,7 +2891,7 @@ class rtg_dr_ARDpar_br : dr_ARDpar_br {
 	Author = "Shrike";
 class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -2893,7 +2933,7 @@ class rtg_dr_ARDpar_mg : dr_ARDpar_mg {
 	Author = "Shrike";
 class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -2935,7 +2975,7 @@ class rtg_dr_ARDpar_op : dr_ARDpar_op {
 	Author = "Shrike";
 class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -2981,7 +3021,7 @@ class rtg_VSM_FAPC_Breacher_M81 : VSM_FAPC_Breacher_M81 {
 	Author = "Shrike";
 class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -3023,7 +3063,7 @@ class rtg_VSM_FAPC_Gunner_M81 : VSM_FAPC_MG_M81 {
 	Author = "Shrike";
 class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -3065,7 +3105,7 @@ class rtg_VSM_FAPC_Operator_M81 : VSM_FAPC_Operator_M81 {
 	Author = "Shrike";
 class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -3110,7 +3150,7 @@ class rtg_VSM_CarrierRig_Breacher_M81 : VSM_CarrierRig_Breacher_M81 {
 	Author = "Shrike";
 class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -3152,7 +3192,7 @@ class rtg_VSM_CarrierRig_Gunner_M81 : VSM_CarrierRig_Gunner_M81 {
 	Author = "Shrike";
 class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -3194,7 +3234,7 @@ class rtg_VSM_CarrierRig_Operator_M81 : VSM_CarrierRig_Operator_M81 {
 	Author = "Shrike";
 class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -3239,7 +3279,7 @@ class rtg_VSM_LBT6094_Breacher_M81 : VSM_LBT6094_Breacher_M81 {
 	Author = "Shrike";
 class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -3281,7 +3321,7 @@ class rtg_VSM_LBT6094_Gunner_M81 : VSM_LBT6094_MG_M81 {
 	Author = "Shrike";
 class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -3323,7 +3363,7 @@ class rtg_VSM_LBT6094_Operator_M81 : VSM_LBT6094_Operator_M81 {
 	Author = "Shrike";
 class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -3368,7 +3408,7 @@ class rtg_VSM_RAV_Breacher_M81 : VSM_RAV_Breacher_M81 {
 	Author = "Shrike";
 class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -3410,7 +3450,7 @@ class rtg_VSM_RAV_Gunner_M81 : VSM_RAV_MG_M81 {
 	Author = "Shrike";
 class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -3452,7 +3492,7 @@ class rtg_VSM_RAV_Operator_M81 : VSM_RAV_Operator_M81 {
 	Author = "Shrike";
 class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -3498,7 +3538,7 @@ class rtg_dr_BLKfacp_br : dr_BLKfacp_br {
 	Author = "Shrike";
 class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -3540,7 +3580,7 @@ class rtg_dr_BLKfacp_mg : dr_BLKfacp_mg {
 	Author = "Shrike";
 class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -3582,7 +3622,7 @@ class rtg_dr_BLKfacp_op : dr_BLKfacp_op {
 	Author = "Shrike";
 class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -3627,7 +3667,7 @@ class rtg_dr_BLKlbt_br : dr_BLKlbt_br {
 	Author = "Shrike";
 class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -3669,7 +3709,7 @@ class rtg_dr_BLKlbt_mg : dr_BLKlbt_mg {
 	Author = "Shrike";
 class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -3711,7 +3751,7 @@ class rtg_dr_BLKlbt_op : dr_BLKlbt_op {
 	Author = "Shrike";
 class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -3756,7 +3796,7 @@ class rtg_dr_BLKpar_br : dr_BLKpar_br {
 	Author = "Shrike";
 class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -3798,7 +3838,7 @@ class rtg_dr_BLKpar_mg : dr_BLKpar_mg {
 	Author = "Shrike";
 class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -3840,7 +3880,7 @@ class rtg_dr_BLKpar_op : dr_BLKpar_op {
 	Author = "Shrike";
 class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -3886,7 +3926,7 @@ class rtg_VSM_FAPC_Breacher_MultiCam : VSM_FAPC_Breacher_MultiCam {
 	Author = "Shrike";
 class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -3928,7 +3968,7 @@ class rtg_VSM_FAPC_Gunner_MultiCam : VSM_FAPC_MG_MultiCam {
 	Author = "Shrike";
 class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -3970,7 +4010,7 @@ class rtg_VSM_FAPC_Operator_MultiCam : VSM_FAPC_Operator_MultiCam {
 	Author = "Shrike";
 class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -4015,7 +4055,7 @@ class rtg_VSM_CarrierRig_Breacher_MultiCam : VSM_CarrierRig_Breacher_MultiCam {
 	Author = "Shrike";
 class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -4057,7 +4097,7 @@ class rtg_VSM_CarrierRig_Gunner_MultiCam : VSM_CarrierRig_Gunner_MultiCam {
 	Author = "Shrike";
 class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -4099,7 +4139,7 @@ class rtg_VSM_CarrierRig_Operator_MultiCam : VSM_CarrierRig_Operator_MultiCam {
 	Author = "Shrike";
 class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -4144,7 +4184,7 @@ class rtg_VSM_LBT6094_Breacher_MultiCam : VSM_LBT6094_Breacher_MultiCam {
 	Author = "Shrike";
 class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -4186,7 +4226,7 @@ class rtg_VSM_LBT6094_Gunner_MultiCam : VSM_LBT6094_MG_MultiCam {
 	Author = "Shrike";
 class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -4228,7 +4268,7 @@ class rtg_VSM_LBT6094_Operator_MultiCam : VSM_LBT6094_Operator_MultiCam {
 	Author = "Shrike";
 class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -4273,7 +4313,7 @@ class rtg_VSM_RAV_Breacher_MultiCam : VSM_RAV_Breacher_MultiCam {
 	Author = "Shrike";
 class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -4315,7 +4355,7 @@ class rtg_VSM_RAV_Gunner_MultiCam : VSM_RAV_MG_MultiCam {
 	Author = "Shrike";
 class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -4357,7 +4397,7 @@ class rtg_VSM_RAV_Operator_MultiCam : VSM_RAV_Operator_MultiCam {
 	Author = "Shrike";
 class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -4403,7 +4443,7 @@ class rtg_VSM_FAPC_Breacher_MultiCamTropic : VSM_FAPC_Breacher_MultiCamTropic {
 	Author = "Shrike";
 class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -4445,7 +4485,7 @@ class rtg_VSM_FAPC_Gunner_MultiCamTropic : VSM_FAPC_MG_MultiCamTropic {
 	Author = "Shrike";
 class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -4487,7 +4527,7 @@ class rtg_VSM_FAPC_Operator_MultiCamTropic : VSM_FAPC_Operator_MultiCamTropic {
 	Author = "Shrike";
 class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -4532,7 +4572,7 @@ class rtg_VSM_CarrierRig_Breacher_MultiCamTropic : VSM_CarrierRig_Breacher_Multi
 	Author = "Shrike";
 class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -4574,7 +4614,7 @@ class rtg_VSM_CarrierRig_Gunner_MultiCamTropic : VSM_CarrierRig_Gunner_MultiCamT
 	Author = "Shrike";
 class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -4616,7 +4656,7 @@ class rtg_VSM_CarrierRig_Operator_MultiCamTropic : VSM_CarrierRig_Operator_Multi
 	Author = "Shrike";
 class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -4661,7 +4701,7 @@ class rtg_VSM_LBT6094_Breacher_MultiCamTropic : VSM_LBT6094_Breacher_MultiCamTro
 	Author = "Shrike";
 class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -4703,7 +4743,7 @@ class rtg_VSM_LBT6094_Gunner_MultiCamTropic : VSM_LBT6094_MG_MultiCamTropic {
 	Author = "Shrike";
 class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -4745,7 +4785,7 @@ class rtg_VSM_LBT6094_Operator_MultiCamTropic : VSM_LBT6094_Operator_MultiCamTro
 	Author = "Shrike";
 class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -4790,7 +4830,7 @@ class rtg_VSM_RAV_Breacher_MultiCamTropic : VSM_RAV_Breacher_MultiCamTropic {
 	Author = "Shrike";
 class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -4832,7 +4872,7 @@ class rtg_VSM_RAV_Gunner_MultiCamTropic : VSM_RAV_MG_MultiCamTropic {
 	Author = "Shrike";
 class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -4874,7 +4914,7 @@ class rtg_VSM_RAV_Operator_MultiCamTropic : VSM_RAV_Operator_MultiCamTropic {
 	Author = "Shrike";
 class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -4920,7 +4960,7 @@ class rtg_VSM_FAPC_Breacher_OGA : VSM_FAPC_Breacher_OGA {
 	Author = "Shrike";
 class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -4962,7 +5002,7 @@ class rtg_VSM_FAPC_Gunner_OGA : VSM_FAPC_MG_OGA {
 	Author = "Shrike";
 class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -5004,7 +5044,7 @@ class rtg_VSM_FAPC_Operator_OGA : VSM_FAPC_Operator_OGA {
 	Author = "Shrike";
 class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -5049,7 +5089,7 @@ class rtg_VSM_CarrierRig_Breacher_OGA : VSM_CarrierRig_Breacher_OGA {
 	Author = "Shrike";
 class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -5091,7 +5131,7 @@ class rtg_VSM_CarrierRig_Gunner_OGA : VSM_CarrierRig_Gunner_OGA {
 	Author = "Shrike";
 class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -5133,7 +5173,7 @@ class rtg_VSM_CarrierRig_Operator_OGA : VSM_CarrierRig_Operator_OGA {
 	Author = "Shrike";
 class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -5178,7 +5218,7 @@ class rtg_VSM_LBT6094_Breacher_OGA : VSM_LBT6094_Breacher_OGA {
 	Author = "Shrike";
 class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -5220,7 +5260,7 @@ class rtg_VSM_LBT6094_Gunner_OGA : VSM_LBT6094_MG_OGA {
 	Author = "Shrike";
 class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -5262,7 +5302,7 @@ class rtg_VSM_LBT6094_Operator_OGA : VSM_LBT6094_Operator_OGA {
 	Author = "Shrike";
 class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -5307,7 +5347,7 @@ class rtg_VSM_RAV_Breacher_OGA : VSM_RAV_Breacher_OGA {
 	Author = "Shrike";
 class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -5349,7 +5389,7 @@ class rtg_VSM_RAV_Gunner_OGA : VSM_RAV_MG_OGA {
 	Author = "Shrike";
 class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -5391,7 +5431,7 @@ class rtg_VSM_RAV_Operator_OGA : VSM_RAV_Operator_OGA {
 	Author = "Shrike";
 class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -5437,7 +5477,7 @@ class rtg_VSM_FAPC_Breacher_OGA_OD : VSM_FAPC_Breacher_OGA_OD {
 	Author = "Shrike";
 class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -5479,7 +5519,7 @@ class rtg_VSM_FAPC_MG_OGA_OD : VSM_FAPC_MG_OGA_OD {
 	Author = "Shrike";
 class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -5521,7 +5561,7 @@ class rtg_VSM_FAPC_operator_OGA_OD : VSM_FAPC_Operator_OGA_OD {
 	Author = "Shrike";
 class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -5566,7 +5606,7 @@ class rtg_VSM_CarrierRig_Breacher_OGA_OD : VSM_CarrierRig_Breacher_OGA_OD {
 	Author = "Shrike";
 class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -5608,7 +5648,7 @@ class rtg_VSM_CarrierRig_MG_OGA_OD : VSM_CarrierRig_Gunner_OGA_OD {
 	Author = "Shrike";
 class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -5650,7 +5690,7 @@ class rtg_VSM_CarrierRig_operator_OGA_OD : VSM_CarrierRig_Operator_OGA_OD {
 	Author = "Shrike";
 class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -5695,7 +5735,7 @@ class rtg_VSM_LBT6094_Breacher_OGA_OD : VSM_LBT6094_Breacher_OGA_OD {
 	Author = "Shrike";
 class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -5737,7 +5777,7 @@ class rtg_VSM_LBT6094_MG_OGA_OD : VSM_LBT6094_MG_OGA_OD {
 	Author = "Shrike";
 class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -5779,7 +5819,7 @@ class rtg_VSM_LBT6094_operator_OGA_OD : VSM_LBT6094_operator_OGA_OD {
 	Author = "Shrike";
 class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -5824,7 +5864,7 @@ class rtg_VSM_RAV_Breacher_OGA_OD : VSM_RAV_Breacher_OGA_OD {
 	Author = "Shrike";
 class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -5866,7 +5906,7 @@ class rtg_VSM_RAV_MG_OGA_OD : VSM_RAV_MG_OGA_OD {
 	Author = "Shrike";
 class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -5908,7 +5948,7 @@ class rtg_VSM_RAV_operator_OGA_OD : VSM_RAV_operator_OGA_OD {
 	Author = "Shrike";
 class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -5954,7 +5994,7 @@ class rtg_VSM_FAPC_Breacher_ProjectHonor : VSM_FAPC_Breacher_ProjectHonor {
 	Author = "Shrike";
 class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -5996,7 +6036,7 @@ class rtg_VSM_FAPC_Gunner_ProjectHonor : VSM_FAPC_MG_ProjectHonor {
 	Author = "Shrike";
 class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -6038,7 +6078,7 @@ class rtg_VSM_FAPC_Operator_ProjectHonor : VSM_FAPC_Operator_ProjectHonor {
 	Author = "Shrike";
 class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -6083,7 +6123,7 @@ class rtg_VSM_CarrierRig_Breacher_ProjectHonor : VSM_CarrierRig_Breacher_Project
 	Author = "Shrike";
 class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -6125,7 +6165,7 @@ class rtg_VSM_CarrierRig_Gunner_ProjectHonor : VSM_CarrierRig_Gunner_ProjectHono
 	Author = "Shrike";
 class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -6167,7 +6207,7 @@ class rtg_VSM_CarrierRig_Operator_ProjectHonor : VSM_CarrierRig_Operator_Project
 	Author = "Shrike";
 class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -6212,7 +6252,7 @@ class rtg_VSM_LBT6094_Breacher_ProjectHonor : VSM_LBT6094_Breacher_ProjectHonor 
 	Author = "Shrike";
 class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -6254,7 +6294,7 @@ class rtg_VSM_LBT6094_Gunner_ProjectHonor : VSM_LBT6094_MG_ProjectHonor {
 	Author = "Shrike";
 class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -6296,7 +6336,7 @@ class rtg_VSM_LBT6094_Operator_ProjectHonor : VSM_LBT6094_Operator_ProjectHonor 
 	Author = "Shrike";
 class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -6341,7 +6381,7 @@ class rtg_VSM_RAV_Breacher_ProjectHonor : VSM_RAV_Breacher_ProjectHonor {
 	Author = "Shrike";
 class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -6383,7 +6423,7 @@ class rtg_VSM_RAV_Gunner_ProjectHonor : VSM_RAV_MG_ProjectHonor {
 	Author = "Shrike";
 class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -6425,7 +6465,7 @@ class rtg_VSM_RAV_Operator_ProjectHonor : VSM_RAV_Operator_ProjectHonor {
 	Author = "Shrike";
 class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -6472,7 +6512,7 @@ class badgerVest : M81_Vest_5 {
     hiddenSelectionsTextures[] = {"\rtgEquipment\tex\badgerVest.paa"};
     class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -6518,7 +6558,7 @@ class patVest : VSM_CarrierRig_Gunner_OGA_OD {
 	};
     class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -6549,32 +6589,32 @@ class patVest : VSM_CarrierRig_Gunner_OGA_OD {
 };
 
 // Shrike
-class Crye_AVS_3_2_RG;
-class shrike_crye : Crye_AVS_3_2_RG {
+class Crye_AVS_3_3_GRY;
+class shrike_crye : Crye_AVS_3_3_GRY {
     scope = 2;
 	dlc = "raiderTactical";
 	Author = "Shrike";
     displayName="AVS Comms - Shrike";
     hiddenSelectionsTextures[]=
-    {
-        "AVS\data\Vest\RG_co.paa",
-        "rtgEquipment\tex\shrikeCrye.paa",
-        "AVS\data\Belt556\RG_co.paa",
-        "AVS\data\BluforMed\RG_co.paa",
-        "AVS\data\Cumberbands\RG_co.paa",
-        "AVS\data\BeltGBRS\RG_co.paa",
-        "AVS\data\GPpouch\RG_co.paa",
-        "AVS\data\Radio\RG_co.paa",
-        "AVS\data\Radio\RG_co.paa",
-        "AVS\data\glockMags\RG_co.paa",
-        "AVS\data\pouch556\RG_co.paa",
-        "AVS\data\SFL_Holster\RG_co.paa",
-        "AVS\data\Sideplate\RG_co.paa",
-        "AVS\data\S20\S20_co.paa"
-    };
+		{
+			"MoreAVS\data\Vest\GRY_co.paa",
+			"MoreAVS\data\AVSPouchT\GRY_co.paa",
+			"MoreAVS\data\Belt556\GRY_co.paa",
+			"MoreAVS\data\BluforMed\GRY_co.paa",
+			"MoreAVS\data\Cumberbands\GRY_co.paa",
+			"MoreAVS\data\BeltGBRS\GRY_co.paa",
+			"MoreAVS\data\GPpouch\GRY_co.paa",
+			"MoreAVS\data\Radio\GRY_co.paa",
+			"MoreAVS\data\Radio\GRY_co.paa",
+			"MoreAVS\data\glockMags\GRY_co.paa",
+			"MoreAVS\data\pouch556\GRY_co.paa",
+			"MoreAVS\data\SFL_Holster\mcb_co.paa",
+			"MoreAVS\data\Sideplate\GRY_co.paa",
+			"MoreAVS\data\S20\S20_co.paa"
+		};
     class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -6659,9 +6699,9 @@ class Crye_AVS_3_2_GRY;
 class Crye_AVS_3_2;
 class Crye_AVS_3_2_MCB;
 class Crye_AVS_3_2_MCT;
+class Crye_AVS_3_2_RG;
 class Crye_AVS_3_2_Tan;
 
-class Crye_AVS_3_3_GRY;
 class Crye_AVS_3_3;
 class Crye_AVS_3_3_MCB;
 class Crye_AVS_3_3_MCT;
@@ -6682,7 +6722,7 @@ class rtg_Crye_AVS_1_GRY : Crye_AVS_1_GRY {
 	};
 	class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -6724,7 +6764,7 @@ class rtg_Crye_AVS_1 : Crye_AVS_1 {
 	};
 	class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -6766,7 +6806,7 @@ class rtg_Crye_AVS_1_MCB : Crye_AVS_1_MCB {
 	};
 	class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -6808,7 +6848,7 @@ class rtg_Crye_AVS_1_MCT : Crye_AVS_1_MCT {
 	};
 	class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -6850,7 +6890,7 @@ class rtg_Crye_AVS_1_RG : Crye_AVS_1_RG {
 	};
 	class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -6892,7 +6932,7 @@ class rtg_Crye_AVS_1_Tan : Crye_AVS_1_Tan {
 	};
 	class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -6935,7 +6975,7 @@ class rtg_Crye_AVS_1_1_GRY : Crye_AVS_1_1_GRY {
 	};
 	class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -6977,7 +7017,7 @@ class rtg_Crye_AVS_1_1 : Crye_AVS_1_1 {
 	};
 	class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -7019,7 +7059,7 @@ class rtg_Crye_AVS_1_1_MCB : Crye_AVS_1_1_MCB {
 	};
 	class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -7061,7 +7101,7 @@ class rtg_Crye_AVS_1_1_MCT : Crye_AVS_1_1_MCT {
 	};
 	class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -7103,7 +7143,7 @@ class rtg_Crye_AVS_1_1_RG : Crye_AVS_1_1_RG {
 	};
 	class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -7145,7 +7185,7 @@ class rtg_Crye_AVS_1_1_Tan : Crye_AVS_1_1_Tan {
 	};
 	class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -7188,7 +7228,7 @@ class rtg_Crye_AVS_1_2_GRY : Crye_AVS_1_2_GRY {
 	};
 	class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -7230,7 +7270,7 @@ class rtg_Crye_AVS_1_2 : Crye_AVS_1_2 {
 	};
 	class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -7272,7 +7312,7 @@ class rtg_Crye_AVS_1_2_MCB : Crye_AVS_1_2_MCB {
 	};
 	class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -7314,7 +7354,7 @@ class rtg_Crye_AVS_1_2_MCT : Crye_AVS_1_2_MCT {
 	};
 	class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -7356,7 +7396,7 @@ class rtg_Crye_AVS_1_2_RG : Crye_AVS_1_2_RG {
 	};
 	class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -7398,7 +7438,7 @@ class rtg_Crye_AVS_1_2_Tan : Crye_AVS_1_2_Tan {
 	};
 	class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -7441,7 +7481,7 @@ class rtg_Crye_AVS_1_3_GRY : Crye_AVS_1_3_GRY {
 	};
 	class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -7483,7 +7523,7 @@ class rtg_Crye_AVS_1_3 : Crye_AVS_1_3 {
 	};
 	class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -7525,7 +7565,7 @@ class rtg_Crye_AVS_1_3_MCB : Crye_AVS_1_3_MCB {
 	};
 	class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -7567,7 +7607,7 @@ class rtg_Crye_AVS_1_3_MCT : Crye_AVS_1_3_MCT {
 	};
 	class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -7609,7 +7649,7 @@ class rtg_Crye_AVS_1_3_RG : Crye_AVS_1_3_RG {
 	};
 	class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -7651,7 +7691,7 @@ class rtg_Crye_AVS_1_3_Tan : Crye_AVS_1_3_Tan {
 	};
 	class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -7695,7 +7735,7 @@ class rtg_Crye_AVS_2_GRY : Crye_AVS_2_GRY {
 	};
 	class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -7737,7 +7777,7 @@ class rtg_Crye_AVS_2 : Crye_AVS_2 {
 	};
 	class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -7779,7 +7819,7 @@ class rtg_Crye_AVS_2_MCB : Crye_AVS_2_MCB {
 	};
 	class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -7821,7 +7861,7 @@ class rtg_Crye_AVS_2_MCT : Crye_AVS_2_MCT {
 	};
 	class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -7863,7 +7903,7 @@ class rtg_Crye_AVS_2_RG : Crye_AVS_2_RG {
 	};
 	class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -7905,7 +7945,7 @@ class rtg_Crye_AVS_2_Tan : Crye_AVS_2_Tan {
 	};
 	class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -7949,7 +7989,7 @@ class rtg_Crye_AVS_3_GRY : Crye_AVS_3_GRY {
 	};
 	class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -7991,7 +8031,7 @@ class rtg_Crye_AVS_3 : Crye_AVS_3 {
 	};
 	class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -8033,7 +8073,7 @@ class rtg_Crye_AVS_3_MCB : Crye_AVS_3_MCB {
 	};
 	class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -8075,7 +8115,7 @@ class rtg_Crye_AVS_3_MCT : Crye_AVS_3_MCT {
 	};
 	class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -8117,7 +8157,7 @@ class rtg_Crye_AVS_3_RG : Crye_AVS_3_RG {
 	};
 	class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -8159,7 +8199,7 @@ class rtg_Crye_AVS_3_Tan : Crye_AVS_3_Tan {
 	};
 	class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -8202,7 +8242,7 @@ class rtg_Crye_AVS_3_1_GRY : Crye_AVS_3_1_GRY {
 	};
 	class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -8244,7 +8284,7 @@ class rtg_Crye_AVS_3_1 : Crye_AVS_3_1 {
 	};
 	class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -8286,7 +8326,7 @@ class rtg_Crye_AVS_3_1_MCB : Crye_AVS_3_1_MCB {
 	};
 	class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -8328,7 +8368,7 @@ class rtg_Crye_AVS_3_1_MCT : Crye_AVS_3_1_MCT {
 	};
 	class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -8370,7 +8410,7 @@ class rtg_Crye_AVS_3_1_RG : Crye_AVS_3_1_RG {
 	};
 	class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -8412,7 +8452,7 @@ class rtg_Crye_AVS_3_1_Tan : Crye_AVS_3_1_Tan {
 	};
 	class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -8455,7 +8495,7 @@ class rtg_Crye_AVS_3_2_GRY : Crye_AVS_3_2_GRY {
 	};
 	class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -8497,7 +8537,7 @@ class rtg_Crye_AVS_3_2 : Crye_AVS_3_2 {
 	};
 	class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -8539,7 +8579,7 @@ class rtg_Crye_AVS_3_2_MCB : Crye_AVS_3_2_MCB {
 	};
 	class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -8581,7 +8621,7 @@ class rtg_Crye_AVS_3_2_MCT : Crye_AVS_3_2_MCT {
 	};
 	class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -8623,7 +8663,7 @@ class rtg_Crye_AVS_3_2_RG : Crye_AVS_3_2_RG {
 	};
 	class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -8665,7 +8705,7 @@ class rtg_Crye_AVS_3_2_Tan : Crye_AVS_3_2_Tan {
 	};
 	class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -8708,7 +8748,7 @@ class rtg_Crye_AVS_3_3_GRY : Crye_AVS_3_3_GRY {
 	};
 	class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -8750,7 +8790,7 @@ class rtg_Crye_AVS_3_3 : Crye_AVS_3_3 {
 	};
 	class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -8792,7 +8832,7 @@ class rtg_Crye_AVS_3_3_MCB : Crye_AVS_3_3_MCB {
 	};
 	class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -8834,7 +8874,7 @@ class rtg_Crye_AVS_3_3_MCT : Crye_AVS_3_3_MCT {
 	};
 	class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -8876,7 +8916,7 @@ class rtg_Crye_AVS_3_3_RG : Crye_AVS_3_3_RG {
 	};
 	class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
@@ -8918,7 +8958,7 @@ class rtg_Crye_AVS_3_3_Tan : Crye_AVS_3_3_Tan {
 	};
 	class ItemInfo: ItemInfo
     {
-		containerClass = "Supply160";
+		containerClass = "Supply180";
         class HitpointsProtectionInfo
 		{
 			class Chest
