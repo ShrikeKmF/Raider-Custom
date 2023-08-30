@@ -444,3 +444,21 @@ class rtg_medical_grabpack : B_Kitbag_rgr {
         TRANSPORT_ITEM(kat_Pervitin, 2)
     };    
 };
+
+class rhs_assault_umbts_engineer_empty;
+class rtg_engineer_grabpack : rhs_assault_umbts_engineer_empty
+{
+    scope = 1;
+    author = "Shrike";
+    displayname = "Engineer Grabbag";
+    maximumLoad = 450;
+
+    class TransportItems {
+        TRANSPORT_ITEM(Toolkit, 1)
+        TRANSPORT_ITEM(ACE_DefusalKit, 1)
+        TRANSPORT_ITEM(MineDetector, 1)
+        TRANSPORT_ITEM(ACE_EntrenchingTool, 1)
+        TRANSPORT_ITEM(ACE_rope12, 3)
+        TRANSPORT_ITEM(ACE_wirecutter, 1)        
+    };    
+};

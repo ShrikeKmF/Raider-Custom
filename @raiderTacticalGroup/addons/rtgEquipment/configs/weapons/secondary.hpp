@@ -270,43 +270,62 @@ class rtg_g17_40 : acwp_glock17_black {
 	};
 };
 
-class rhs_weap_M320;
-/*
- class rtg_xm25 : RH_deagle {
-	 scope = 2;
-	 dlc = "raiderTactical";
-	 Author = "Shike";
-	 baseWeapon = "rtg_xm25";
-	 displayName = "XM 245";
-	 magazines[] = {"30Rnd_65x39_caseless_msbs_mag"};
-	 magazineWell[] = {"MX_65x39_MSBS"};
-	 magazineReloadSwitchPhase = 0.48;
-	 recoil = "recoil_MSBS65";
-	 model = "a3\Weapons_F_Enoch\Rifles\MSBS\MSBS65_F";
-	 hiddenSelections[] = {"Camo1","Camo2","Camo3"};
-	 hiddenSelectionsTextures[] = {"a3\Weapons_F_Enoch\Rifles\MSBS\Data\MSBS_01_black_CO.paa","a3\Weapons_F_Enoch\Rifles\MSBS\Data\MSBS_02_black_CO.paa","a3\Weapons_F_Enoch\Rifles\MSBS\Data\MSBS_03_black_CO.paa"};
-	 handAnim[] = {"OFP2_ManSkeleton","\a3\Anims_F_Enoch\Data\Anim\handanims\MSBS65.rtm"};
-	 initSpeed = -1.05;
-	 inertia = 0.48;
-	 dexterity = 1.5;
-	 aimTransitionSpeed = 1.1;
-	 maxZeroing = 500;
-	 discreteDistance[] = {100,150,200,300,400,500};
-	 discreteDistanceInitIndex = 1;
-	 modes[] = {"Single"};
-	 class Single: Single
-	 {
-		 reloadTime = 0.075;
-		 dispersion = 0.00073;
-		 minRange = 2;
-		 minRangeProbab = 0.5;
-		 midRange = 150;
-		 midRangeProbab = 0.7;
-		 maxRange = 250;
-		 maxRangeProbab = 0.2;
-	 };
- };*/
+class rhsusf_weap_m9;
+class rtg_m93R : rhsusf_weap_m9
+{
+	scope = 2;
+	dlc = "raiderTactical";
+	Author = "Shike";
+	baseWeapon = "rtg_m93R";
+	displayName = "M93R Barreta";
+	modes[] = {"Burst", "Single1"};
+	class Single1 : Single
+	{
+		sounds[] = {"StandardSound", "SilencedSound"};
+		class BaseSoundModeType
+		{
+			weaponSoundEffect = "DefaultRifle";
+			closure1[] = {"\hlc_wp_p226\snd\p226_dryfire", 0.75, 1, 10};
+			closure2[] = {"\hlc_wp_p226\snd\p226_dryfire", 0.75, 1, 10};
+			soundClosure[] = {"closure1", 0.5, "closure2", 0.5};
+		};
+		class StandardSound : BaseSoundModeType
+		{
+			soundSetShot[] = {"NIA_P226_NEW_Shot_SoundSet", "nia_p2269mm_tail_SoundSet"};
+		};
+		class SilencedSound : BaseSoundModeType
+		{
+			soundSetShot[] = {"nia_p2269mm_silencerTail_SoundSet", "nia_p2269mm_silencerShot_SoundSet"};
+		};
+		reloadTime = 0.070588235;
+		dispersion = 0.0029;
+	};
+	class Burst : Single1
+	{
+		sounds[] = {"StandardSound", "SilencedSound"};
+		class BaseSoundModeType
+		{
+			weaponSoundEffect = "DefaultRifle";
+			closure1[] = {"\hlc_wp_p226\snd\p226_dryfire", 0.75, 1, 10};
+			closure2[] = {"\hlc_wp_p226\snd\p226_dryfire", 0.75, 1, 10};
+			soundClosure[] = {"closure1", 0.5, "closure2", 0.5};
+		};
+		class StandardSound : BaseSoundModeType
+		{
+			soundSetShot[] = {"NIA_P226_NEW_Shot_SoundSet", "nia_p2269mm_tail_SoundSet"};
+		};
+		class SilencedSound : BaseSoundModeType
+		{
+			soundSetShot[] = {"nia_p2269mm_silencerTail_SoundSet", "nia_p2269mm_silencerShot_SoundSet"};
+		};
+		reloadTime = 0.070588235;
+		dispersion = 0.0029;
+		burst = 3;
+		textureType = "burst";
+	};
+};
 
+class rhs_weap_M320;
 class rtg_weap_m79 : rhs_weap_M320 {
 	scope = 2;
 	dlc = "raiderTactical";
@@ -318,12 +337,69 @@ class rtg_weap_m79 : rhs_weap_M320 {
 	handAnim[] = {"OFP2_ManSkeleton", "\rhsgref\addons\rhsgref_c_weapons\anims\rhs_hand_M79.rtm"};
 };
 
-class ACE_VMH3;
-class bladesBlade : ACE_VMH3 {
+class hgun_Pistol_heavy_02_F;
+class rtg_rhino : hgun_Pistol_heavy_02_F 
+{
 	scope = 2;
 	dlc = "raiderTactical";
 	Author = "Shike";
-	baseWeapon = "bladesBlade";
-	displayName = "Blade";
-	model = "\rtgEquipment\Data\bladesBlade.p3d";
+	displayName = "Chiappa Rhino";
+	magazineWell[] = {"RTG_50_AE"};
+	magazines[] = {"rtg_50_ae_8rnd_mag"};
+	baseWeapon = "rtg_rhino";
+	modes[] = {"Single"};
+	class Single : Single
+	{
+		sounds[]={"StandardSound","SilencedSound"};
+			class BaseSoundModeType
+			{
+				weaponSoundEffect="DefaultHandgun";
+				closure1[]={"A3\sounds_f\weapons\closure\closure_handgun_6",1.0351422,1,30};
+				closure2[]={"A3\sounds_f\weapons\closure\closure_handgun_6",1.0351422,1.1,30};
+				soundClosure[]={"closure1",0.5,"closure2",0.5};
+			};
+			class StandardSound: BaseSoundModeType
+			{
+				begin1[]={"\RH_de\sound\desert_eagle_shot.wss",1,1,700};
+				soundBegin[]={"begin1",1};
+				class SoundTails
+				{
+					class TailInterior
+					{
+						sound[]={"A3\Sounds_F\arsenal\weapons\Pistols\Zubr\Zubr_tail_interior",1.4125376,1,1400};
+						frequency=1;
+						volume="interior";
+					};
+					class TailTrees
+					{
+						sound[]={"A3\Sounds_F\arsenal\weapons\Pistols\Zubr\Zubr_tail_trees",1,1,1400};
+						frequency=1;
+						volume="(1-interior/1.4)*trees";
+					};
+					class TailForest
+					{
+						sound[]={"A3\Sounds_F\arsenal\weapons\Pistols\Zubr\Zubr_tail_forest",1,1,1400};
+						frequency=1;
+						volume="(1-interior/1.4)*forest";
+					};
+					class TailMeadows
+					{
+						sound[]={"A3\Sounds_F\arsenal\weapons\Pistols\Zubr\Zubr_tail_meadows",1,1,1400};
+						frequency=1;
+						volume="(1-interior/1.4)*(meadows/2 max sea/2)";
+					};
+					class TailHouses
+					{
+						sound[]={"A3\Sounds_F\arsenal\weapons\Pistols\Zubr\Zubr_tail_houses",1,1,1400};
+						frequency=1;
+						volume="(1-interior/1.4)*houses";
+					};
+				};
+			};
+			class SilencedSound: BaseSoundModeType{};
+			recoil="RH_deagleBase";
+			recoilProne="RH_deagleBase";
+			reloadTime=0.2;
+			dispersion=0.0085000005;
+		};
 };

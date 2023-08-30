@@ -758,4 +758,17 @@ class rtg_XM25_black : rtg_MSBS65_black_F
 		};
 		reloadTime = 0.33333;
 	};
+	class linkedItems
+    {
+      class LinkedItemsOptic
+      {
+        slot="CowsSlot";
+        itom="optic_holosight_smg_blk_f";
+      };
+      class LinkedItemsMuzzle
+      {
+        slot="MuzzleSlot";
+        item="ace_muzzle_mzls_h";
+      };
+    };
 };

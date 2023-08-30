@@ -61,6 +61,32 @@ class CfgMagazines
         mass = 40;
     };
 
+    class 32Rnd_155mm_Mo_shells;
+	class RHS_mag_m1_he_12: 32Rnd_155mm_Mo_shells
+	{
+		scope = 2;
+		count = 12;
+		displayname = "HE-FRAG M1";
+		displaynameshort = "HE-FRAG";
+		nameSound = "heat";
+		ammo = "rhs_ammo_m1_he";
+		muzzleImpulseFactor[] = {0.1,0.1};
+	};
+	class rhs_mag_m314_ilum_4: RHS_mag_m1_he_12
+	{
+		count = 4;
+		displayname = "Illumination M314";
+		displaynameshort = "Illumination";
+		ammo = "rhs_ammo_m314_ilum";
+	};
+    class rhs_mag_m60a2_smoke_4: RHS_mag_m1_he_12
+	{
+		count = 4;
+		displayname = "Smoke M60A2";
+		displaynameshort = "Smoke";
+		ammo = "rhs_ammo_m60a2_smoke";
+	};
+
 	// References
     class hlc_30rnd_556x45_SOST_PMAG;
 	class ACE_20Rnd_762x51_M118LR_Mag;
@@ -157,7 +183,7 @@ class CfgMagazines
     class rtg_100rnd_58x42 : 100Rnd_580x42_Mag_F {
         author = "Shrike";
         ammo = "rtg_580";
-        count = 10;
+        count = 100;
         tracersevery = 3;
         lastroundstracer = 4;
         descriptionshort = "Raider Tactical Standard Issue 5.8mm Ammo";

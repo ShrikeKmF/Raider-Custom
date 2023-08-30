@@ -4,6 +4,37 @@ class hlc_rifle_aug : hlc_aug_base
 {
 	magazineWell[] = {"CBA_556x45_STANAG"};
 	magazines[] = {"rtg_30rnd_556_45"};
+	class XtdGearInfo
+	{
+		model = "rtg_ace_expanded_aug";
+		barrel = "a1";
+		camo = "khaki";
+		gl = "no";
+	};
+};
+class hlc_rifle_auga1_b : hlc_rifle_aug
+{
+	magazineWell[] = {"CBA_556x45_STANAG"};
+	magazines[] = {"rtg_30rnd_556_45"};
+	class XtdGearInfo
+	{
+		model = "rtg_ace_expanded_aug";
+		barrel = "a1";
+		camo = "black";
+		gl = "no";
+	};
+};
+class hlc_rifle_auga1_t : hlc_rifle_aug
+{
+	magazineWell[] = {"CBA_556x45_STANAG"};
+	magazines[] = {"rtg_30rnd_556_45"};
+	class XtdGearInfo
+	{
+		model = "rtg_ace_expanded_aug";
+		barrel = "a1";
+		camo = "sand";
+		gl = "no";
+	};
 };
 class hlc_rifle_auga3 : hlc_aug_base
 {
@@ -111,5 +142,33 @@ class hlc_rifle_auga2para_b : hlc_rifle_auga2para
 		barrel = "para";
 		camo = "black";
 		gl = "no";
+	};
+};
+class hlc_rifle_auga1carb : hlc_rifle_aug
+{
+	class XtdGearInfo
+	{
+		model = "";
+	};
+};
+class hlc_rifle_aughbar : hlc_rifle_aug
+{
+	class XtdGearInfo
+	{
+		model = "";
+	};
+};
+class hlc_rifle_augpara : hlc_rifle_aug
+{
+	class XtdGearInfo
+	{
+		model = "";
+	};
+};
+class hlc_rifle_auga2 : hlc_rifle_aug
+{
+	class XtdGearInfo
+	{
+		model = "";
 	};
 };

@@ -117,7 +117,7 @@ class hlc_rifle_mk18mod0: hlc_rifle_CQBR {
 	};
 };
 
-class rtg_c7a2: arifle_SPAR_01_blk_f {
+class rtg_c7a2: arifle_SPAR_02_blk_f {
 	scope = 2;
 	dlc = "raiderTactical";
 	baseWeapon = "rtg_c7a2";
@@ -134,7 +134,6 @@ class rtg_c7a2: arifle_SPAR_01_blk_f {
 	discreteDistanceCameraPoint[] = {"eye_100","eye_200","eye_300","eye_400","eye_500","eye_600"};
 	discretedistanceinitindex = 0;
 	cameraDir = "look";
-	recoil = "recoil_mx";
 	magazineWell[] = {"CBA_556x45_STANAG"};
 	magazines[] = {"rtg_30rnd_556_45"};
 	bg_bipod = 0;
@@ -182,7 +181,6 @@ class rtg_c8a2: arifle_SPAR_01_blk_f {
 	discreteDistanceCameraPoint[] = {"eye_100","eye_200","eye_300","eye_400","eye_500","eye_600"};
 	discretedistanceinitindex = 0;
 	cameraDir = "look";
-	recoil = "recoil_mxc";
 	magazineWell[] = {"CBA_556x45_STANAG"};
 	magazines[] = {"rtg_30rnd_556_45"};
 	bg_bipod = 0;
@@ -211,4 +209,23 @@ class rtg_c8a2: arifle_SPAR_01_blk_f {
 		reloadTime = 0.075;
 		dispersion = 0.00031;
 	};
+};
+
+class rtg_C7NLD : arifle_SPAR_02_blk_f
+{
+	scope = 2;
+	dlc = "raiderTactical";
+	baseWeapon = "rtg_C7NLD";
+	Author = "Shrike";
+	displayName = "Colt C7NLD";
+	deployedPivot = "deploypivot";
+	hasBipod = 0;
+	ACE_barrelLength = 508.4;
+
+	model = "hlc_wp_ar15\mesh\JackCarbine\samr.p3d";
+	picture = "\hlc_wp_ar15\tex\ui\gear_jack_ca";
+	discretedistance[] = {100,200,300,400,500};
+	handAnim[] = {"OFP2_ManSkeleton","hlc_wp_ar15\gesture\newgesture\handpose_SMR.rtm"};
+	hiddenSelections[] = {"Upper","Lower","Foregrip","foregrip_rail","Sights","Stock"};
+	hiddenSelectionsTextures[] = {"\hlc_wp_ar15\tex\toadie_Blackjack\upper_co.paa","hlc_wp_ar15\tex\toadie_Blackjack\lower2_co.paa","rtgEquipment\tex\smr_co.paa","hlc_wp_ar15\tex\toadie_Blackjack\smr_toprail_co.paa","hlc_wp_ar15\tex\tenoyl_tbs\tbs_co.paa","rtgEquipment\tex\b5sopmod_co.paa"};
 };

@@ -91,6 +91,8 @@ class CfgVehicles {
         scope = 2;
         side = 1;
         faction = "Raider_Tactical_F";
+        crew="RTG_Crewman";
+        typicalCargo[]={"RTG_Crewman"};
     };
 
 // Ground Vics
@@ -134,6 +136,8 @@ class CfgVehicles {
 		smokeLauncherVelocity = 14;
 		smokeLauncherOnTurret = 0;
 		smokeLauncherAngle = 30;
+        crew="RTG_Crewman";
+        typicalCargo[]={"RTG_Crewman"};
 
         // Water Source
         acex_field_rations_waterSupply = 50;
@@ -239,12 +243,9 @@ class CfgVehicles {
         class TransportItems
         {
             TRANSPORT_ITEM(ACE_NVG_Gen4_black, 8)
-            TRANSPORT_ITEM(ToolKit, 2)
             TRANSPORT_ITEM(ACRE_PRC343, 2)
             TRANSPORT_ITEM(ACRE_PRC152, 2)
             TRANSPORT_ITEM(ACE_personalAidKit, 8)
-            TRANSPORT_ITEM(ACE_wirecutter, 1)
-            TRANSPORT_ITEM(ACE_rope12, 4)
             TRANSPORT_ITEM(ACE_Canteen, 5)
             TRANSPORT_ITEM(ACE_Can_Franta, 9)
             TRANSPORT_ITEM(ACE_MRE_BeefStew, 5)
@@ -252,7 +253,8 @@ class CfgVehicles {
         };
         class TransportBackpacks
         {
-            TRANSPORT_BACKPACK(rtg_medical_grabpack, 2)
+            TRANSPORT_BACKPACK(rtg_medical_grabpack, 1)
+            TRANSPORT_BACKPACK(rtg_engineer_grabpack, 1)
         };
         class TransportWeapons
         {
@@ -324,6 +326,8 @@ class CfgVehicles {
         acex_field_rations_waterSupply = 50;
         // Extra Fuel (Jerry Cans on Vehicles)
         ace_refuel_fuelCargo = 80;
+        crew="RTG_Crewman";
+        typicalCargo[]={"RTG_Crewman"};
 
         textureList[] = 
 		{
@@ -624,12 +628,9 @@ class CfgVehicles {
         class TransportItems
         {
             TRANSPORT_ITEM(ACE_NVG_Gen4_black, 8)
-            TRANSPORT_ITEM(ToolKit, 2)
             TRANSPORT_ITEM(ACRE_PRC343, 2)
             TRANSPORT_ITEM(ACRE_PRC152, 2)
             TRANSPORT_ITEM(ACE_personalAidKit, 8)
-            TRANSPORT_ITEM(ACE_wirecutter, 1)
-            TRANSPORT_ITEM(ACE_rope12, 4)
             TRANSPORT_ITEM(ACE_Canteen, 5)
             TRANSPORT_ITEM(ACE_Can_Franta, 9)
             TRANSPORT_ITEM(ACE_MRE_BeefStew, 5)
@@ -637,7 +638,8 @@ class CfgVehicles {
         };
         class TransportBackpacks
         {
-            TRANSPORT_BACKPACK(rtg_medical_grabpack, 2)
+            TRANSPORT_BACKPACK(rtg_medical_grabpack, 1)
+            TRANSPORT_BACKPACK(rtg_engineer_grabpack, 1)
         };
         class TransportWeapons
         {
@@ -703,6 +705,8 @@ class CfgVehicles {
 		smokeLauncherVelocity = 14;
 		smokeLauncherOnTurret = 1;
 		smokeLauncherAngle = 160;
+        crew="RTG_Crewman";
+        typicalCargo[]={"RTG_Crewman"};
 
         // Water Source
         acex_field_rations_waterSupply = 50;
@@ -713,12 +717,9 @@ class CfgVehicles {
         class TransportItems
         {
             TRANSPORT_ITEM(ACE_NVG_Gen4_black, 8)
-            TRANSPORT_ITEM(ToolKit, 2)
             TRANSPORT_ITEM(ACRE_PRC343, 2)
             TRANSPORT_ITEM(ACRE_PRC152, 2)
             TRANSPORT_ITEM(ACE_personalAidKit, 8)
-            TRANSPORT_ITEM(ACE_wirecutter, 1)
-            TRANSPORT_ITEM(ACE_rope12, 4)
             TRANSPORT_ITEM(ACE_Canteen, 5)
             TRANSPORT_ITEM(ACE_Can_Franta, 9)
             TRANSPORT_ITEM(ACE_MRE_BeefStew, 5)
@@ -726,7 +727,8 @@ class CfgVehicles {
         };
         class TransportBackpacks
         {
-            TRANSPORT_BACKPACK(rtg_medical_grabpack, 2)
+            TRANSPORT_BACKPACK(rtg_medical_grabpack, 1)
+            TRANSPORT_BACKPACK(rtg_engineer_grabpack, 1)
         };
         class TransportWeapons
         {
@@ -1092,6 +1094,9 @@ class CfgVehicles {
         // Fast Ropping
         ace_fastroping_enabled = 1;
         ace_fastroping_ropeOrigins[] = {"ropeOriginLeft","ropeOriginRight"};
+
+        crew="RTG_Firebrand";
+        typicalCargo[]={"RTG_Firebrand"};
 
         // Water Source
         acex_field_rations_waterSupply = 50;
@@ -1568,6 +1573,8 @@ class CfgVehicles {
         liftForceCoef = 1.1;
         minMainRotorDive = -12;
         maxMainRotorDive = 16;
+        crew="RTG_Firebrand";
+        typicalCargo[]={"RTG_Firebrand"};
 
         // Fast Ropping
         ace_fastroping_enabled = 1;
@@ -1660,17 +1667,16 @@ class CfgVehicles {
         armor = 80;
         weapons[] = {"CMFlareLauncher"};
 		magazines[] = {"168Rnd_CMFlare_Chaff_Magazine"};
+        crew="RTG_Firebrand";
+        typicalCargo[]={"RTG_Firebrand"};
 
         // Vehicle Inventorys
         class TransportItems
         {
             TRANSPORT_ITEM(ACE_NVG_Gen4_black, 8)
-            TRANSPORT_ITEM(ToolKit, 2)
             TRANSPORT_ITEM(ACRE_PRC343, 2)
             TRANSPORT_ITEM(ACRE_PRC152, 2)
             TRANSPORT_ITEM(ACE_personalAidKit, 8)
-            TRANSPORT_ITEM(ACE_wirecutter, 1)
-            TRANSPORT_ITEM(ACE_rope12, 4)
             TRANSPORT_ITEM(ACE_Canteen, 5)
             TRANSPORT_ITEM(ACE_Can_Franta, 9)
             TRANSPORT_ITEM(ACE_MRE_BeefStew, 5)
@@ -1678,7 +1684,8 @@ class CfgVehicles {
         };
         class TransportBackpacks
         {
-            TRANSPORT_BACKPACK(rtg_medical_grabpack, 2)
+            TRANSPORT_BACKPACK(rtg_medical_grabpack, 1)
+            TRANSPORT_BACKPACK(rtg_engineer_grabpack, 1)
         };
         class TransportWeapons
         {
@@ -1809,6 +1816,8 @@ class CfgVehicles {
         armor = 80;
         weapons[] = {"CMFlareLauncher"};
 		magazines[] = {"168Rnd_CMFlare_Chaff_Magazine"};
+        crew="RTG_Firebrand";
+        typicalCargo[]={"RTG_Firebrand"};
 
         // Fast Ropping
         ace_fastroping_enabled = 1;
@@ -1901,12 +1910,9 @@ class CfgVehicles {
         class TransportItems
         {
             TRANSPORT_ITEM(ACE_NVG_Gen4_black, 8)
-            TRANSPORT_ITEM(ToolKit, 2)
             TRANSPORT_ITEM(ACRE_PRC343, 2)
             TRANSPORT_ITEM(ACRE_PRC152, 2)
             TRANSPORT_ITEM(ACE_personalAidKit, 8)
-            TRANSPORT_ITEM(ACE_wirecutter, 1)
-            TRANSPORT_ITEM(ACE_rope12, 4)
             TRANSPORT_ITEM(ACE_Canteen, 5)
             TRANSPORT_ITEM(ACE_Can_Franta, 9)
             TRANSPORT_ITEM(ACE_MRE_BeefStew, 5)
@@ -1914,7 +1920,8 @@ class CfgVehicles {
         };
         class TransportBackpacks
         {
-            TRANSPORT_BACKPACK(rtg_medical_grabpack, 2)
+            TRANSPORT_BACKPACK(rtg_medical_grabpack, 1)
+            TRANSPORT_BACKPACK(rtg_engineer_grabpack, 1)
         };
         class TransportWeapons
         {
@@ -2109,12 +2116,9 @@ class CfgVehicles {
         class TransportItems
         {
             TRANSPORT_ITEM(ACE_NVG_Gen4_black, 8)
-            TRANSPORT_ITEM(ToolKit, 2)
             TRANSPORT_ITEM(ACRE_PRC343, 2)
             TRANSPORT_ITEM(ACRE_PRC152, 2)
             TRANSPORT_ITEM(ACE_personalAidKit, 8)
-            TRANSPORT_ITEM(ACE_wirecutter, 1)
-            TRANSPORT_ITEM(ACE_rope12, 4)
             TRANSPORT_ITEM(ACE_Canteen, 5)
             TRANSPORT_ITEM(ACE_Can_Franta, 9)
             TRANSPORT_ITEM(ACE_MRE_BeefStew, 5)
@@ -2122,7 +2126,8 @@ class CfgVehicles {
         };
         class TransportBackpacks
         {
-            TRANSPORT_BACKPACK(rtg_medical_grabpack, 2)
+            TRANSPORT_BACKPACK(rtg_medical_grabpack, 1)
+            TRANSPORT_BACKPACK(rtg_engineer_grabpack, 1)
         };
         class TransportWeapons
         {
@@ -2274,12 +2279,9 @@ class CfgVehicles {
         class TransportItems
         {
             TRANSPORT_ITEM(ACE_NVG_Gen4_black, 8)
-            TRANSPORT_ITEM(ToolKit, 2)
             TRANSPORT_ITEM(ACRE_PRC343, 2)
             TRANSPORT_ITEM(ACRE_PRC152, 2)
             TRANSPORT_ITEM(ACE_personalAidKit, 8)
-            TRANSPORT_ITEM(ACE_wirecutter, 1)
-            TRANSPORT_ITEM(ACE_rope12, 4)
             TRANSPORT_ITEM(ACE_Canteen, 5)
             TRANSPORT_ITEM(ACE_Can_Franta, 9)
             TRANSPORT_ITEM(ACE_MRE_BeefStew, 5)
@@ -2287,7 +2289,8 @@ class CfgVehicles {
         };
         class TransportBackpacks
         {
-            TRANSPORT_BACKPACK(rtg_medical_grabpack, 2)
+            TRANSPORT_BACKPACK(rtg_medical_grabpack, 1)
+            TRANSPORT_BACKPACK(rtg_engineer_grabpack, 1)
         };
         class TransportWeapons
         {
@@ -2346,12 +2349,9 @@ class CfgVehicles {
         class TransportItems
         {
             TRANSPORT_ITEM(ACE_NVG_Gen4_black, 8)
-            TRANSPORT_ITEM(ToolKit, 2)
             TRANSPORT_ITEM(ACRE_PRC343, 2)
             TRANSPORT_ITEM(ACRE_PRC152, 2)
             TRANSPORT_ITEM(ACE_personalAidKit, 8)
-            TRANSPORT_ITEM(ACE_wirecutter, 1)
-            TRANSPORT_ITEM(ACE_rope12, 4)
             TRANSPORT_ITEM(ACE_Canteen, 5)
             TRANSPORT_ITEM(ACE_Can_Franta, 9)
             TRANSPORT_ITEM(ACE_MRE_BeefStew, 5)
@@ -2359,7 +2359,8 @@ class CfgVehicles {
         };
         class TransportBackpacks
         {
-            TRANSPORT_BACKPACK(rtg_medical_grabpack, 2)
+            TRANSPORT_BACKPACK(rtg_medical_grabpack, 1)
+            TRANSPORT_BACKPACK(rtg_engineer_grabpack, 1)
         };
         class TransportWeapons
         {

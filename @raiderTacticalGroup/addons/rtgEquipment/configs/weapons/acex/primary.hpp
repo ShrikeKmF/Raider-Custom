@@ -152,7 +152,7 @@ class rtg_ace_expanded_aug {
     class barrel
     {
         label = "Barrel";
-        values[] = {"para", "rifle", "hbar"};
+        values[] = {"para", "rifle", "a1"};
         class para
         {
             label = "Para";
@@ -163,10 +163,10 @@ class rtg_ace_expanded_aug {
             label = "Rifle";
             description = "Rifle";
         };
-        class hbar
+        class a1
         {
-            label = "HBAR";
-            description = "HBAR";
+            label = "A1";
+            description = "A1";
         };
     };
     class camo
