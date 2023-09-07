@@ -2043,24 +2043,6 @@ class rtg_MX_9mm_LMG_B : arifle_MX_SW_Black_F
 	magazines[] = {"rtg_200Rnd_9mm"};
 	baseWeapon = "rtg_MX_9mm_LMG_B";
 	modes[] = {"FullAuto"};
-	class FullAuto: FullAuto
-	{
-		reloadTime = 0.068571;
-		sounds[] = {"StandardSound","SilencedSound"};
-		class BaseSoundModeType
-		{
-			weaponSoundEffect = "DefaultRifle";
-		};
-		class StandardSound: BaseSoundModeType
-		{
-			soundSetShot[] = {"ACWP_416SBR_Shot_SoundSet","ACWP_416SBR_Tail_SoundSet"};
-		};
-		class SilencedSound: BaseSoundModeType
-		{
-			soundSetShot[] = {"ACWP_416SBR_silencerShot_SoundSet","ACWP_416SBR_silencerTail_SoundSet"};
-		};
-		weaponSoundEffect = "DefaultRifle";
-	};
 };
 
 class arifle_MX_SW_F;
@@ -2074,25 +2056,6 @@ class rtg_MX_9mm_LMG_T : arifle_MX_SW_F
 	magazineWell[] = {"RTG_LMG_9x19"};
 	magazines[] = {"rtg_200Rnd_9mm"};
 	baseWeapon = "rtg_MX_9mm_LMG_T";
-	modes[] = {"FullAuto"};
-	class FullAuto: FullAuto
-	{
-		reloadTime = 0.068571;
-		sounds[] = {"StandardSound","SilencedSound"};
-		class BaseSoundModeType
-		{
-			weaponSoundEffect = "DefaultRifle";
-		};
-		class StandardSound: BaseSoundModeType
-		{
-			soundSetShot[] = {"ACWP_416SBR_Shot_SoundSet","ACWP_416SBR_Tail_SoundSet"};
-		};
-		class SilencedSound: BaseSoundModeType
-		{
-			soundSetShot[] = {"ACWP_416SBR_silencerShot_SoundSet","ACWP_416SBR_silencerTail_SoundSet"};
-		};
-		weaponSoundEffect = "DefaultRifle";
-	};
 };
 
 class rtg_G8A1 : arifle_SPAR_03_blk_f
@@ -2151,22 +2114,6 @@ class rtg_hmg_black : MMG_02_black_f
 	recoil = "rhs_recoil_mk18";
 	class FullAuto : manual
 	{
-		sounds[] = {"StandardSound", "SilencedSound"};
-		class BaseSoundModeType
-		{
-			weaponSoundEffect = "DefaultRifle";
-			closure1[] = {"\hlc_wp_M60E4\snd\m60_first", 1, 1, 10};
-			closure2[] = {"\hlc_wp_M60E4\snd\m60_first", 1, 1, 10};
-			soundClosure[] = {"closure1", 0.5, "closure2", 0.5};
-		};
-		class StandardSound : BaseSoundModeType
-		{
-			soundSetShot[] = {"NIA_M60E4_NEW_Shot_SoundSet", "M60E4_Tail_SoundSet"};
-		};
-		class SilencedSound : BaseSoundModeType
-		{
-			soundSetShot[] = {"M60e4_silencerShot_SoundSet", "M60e4_silencerTail_SoundSet"};
-		};
 		reloadTime = 0.091;
 		dispersion = 0.000261799;
 		aiRateOfFire = 0.1;
@@ -2192,22 +2139,6 @@ class rtg_hmg_sand : MMG_02_sand_f
 	recoil = "rhs_recoil_mk18";
 	class FullAuto : manual
 	{
-		sounds[] = {"StandardSound", "SilencedSound"};
-		class BaseSoundModeType
-		{
-			weaponSoundEffect = "DefaultRifle";
-			closure1[] = {"\hlc_wp_M60E4\snd\m60_first", 1, 1, 10};
-			closure2[] = {"\hlc_wp_M60E4\snd\m60_first", 1, 1, 10};
-			soundClosure[] = {"closure1", 0.5, "closure2", 0.5};
-		};
-		class StandardSound : BaseSoundModeType
-		{
-			soundSetShot[] = {"NIA_M60E4_NEW_Shot_SoundSet", "M60E4_Tail_SoundSet"};
-		};
-		class SilencedSound : BaseSoundModeType
-		{
-			soundSetShot[] = {"M60e4_silencerShot_SoundSet", "M60e4_silencerTail_SoundSet"};
-		};
 		reloadTime = 0.091;
 		dispersion = 0.000261799;
 		aiRateOfFire = 0.1;
@@ -2412,7 +2343,7 @@ class rtg_12g_m4a5 : ACWP_M4A5_145_troy_base_BLK {
 
 class srifle_DMR_02_F;
 class rtg_50DMR_1 : srifle_DMR_02_F {
-	cope = 2;
+	scope = 2;
 	dlc = "raiderTactical";
 	Author = "Shrike";
     displayName="M108 ULR (Black)";

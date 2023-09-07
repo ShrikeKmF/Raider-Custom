@@ -373,6 +373,34 @@ class bladesBackpack : B_Kitbag_rgr {
     hiddenSelectionsTextures[] = {"rtgEquipment\tex\bladesKitbag.paa"};
 };
 
+class fizzAlpineCarryAll : rtg_Alpine_Carryall {
+    scope = 2;
+	dlc = "raiderTactical";
+	Author = "Fizz";
+    displayName = "Carryall Alpine - Fizz";
+    maximumLoad = 380;
+    mass = 50;
+    hiddenSelectionsTextures[] = {"rtgEquipment\tex\Alpine_carryall_Fizz.paa"};
+    class XtdGearInfo
+	{
+		model = "";
+	};
+};
+
+class fizzBlackCarryAll : rtg_Alpine_Carryall {
+    scope = 2;
+	dlc = "raiderTactical";
+	Author = "Fizz";
+    displayName = "Carryall Black - Fizz";
+    maximumLoad = 380;
+    mass = 50;
+    hiddenSelectionsTextures[] = {"rtgEquipment\tex\Multicam_Black_carryall_Fizz.paa"};
+    class XtdGearInfo
+	{
+		model = "";
+	};
+};
+
 class patsBackpack : B_Kitbag_rgr {
     scope = 2;
 	dlc = "raiderTactical";

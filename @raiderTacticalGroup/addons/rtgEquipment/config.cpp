@@ -1,3 +1,15 @@
+/*
+Raider Tacical Group Custom Content
+rtgEquipment
+Author: Shrike
+
+Repo:
+https://github.com/ShrikeKmF/Raider-Custom
+
+Discord:
+https://discord.gg/D55THJWxn4
+*/
+
 class CfgPatches {
     class rtgEquipment {
         name = "rtgEquipment";
@@ -63,15 +75,3 @@ class asdg_OpticRail1913RTG : asdg_OpticRail1913 {
 #include "configs\CfgVehicles.hpp"
 #include "configs\CfgMagazines.hpp"
 #include "configs\XtdGearModels.hpp"
-
-/*
-Raider Tacical Group Custom Content
-rtgEquipment
-Author: Shrike
-
-Repo:
-https://github.com/ShrikeKmF/Raider-Custom
-
-Discord:
-https://discord.gg/D55THJWxn4
-*/

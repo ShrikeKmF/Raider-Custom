@@ -3147,6 +3147,28 @@ class sorespHat : rhsgref_helmet_pasgt_altis_lizard
     };
 };
 
+class badgerHat : rhsgref_helmet_pasgt_altis_lizard
+{
+	scope = 2;
+	dlc = "raiderTactical";
+	Author = "Shrike"; 
+    displayName="Pasgt - Badger";
+    mass = 2;
+    hiddenSelectionsTextures[] ={"\rtgEquipment\tex\badgerHat.paa"};
+    class ItemInfo: ItemInfo
+    {
+        class HitpointsProtectionInfo
+        {
+            class head
+            {
+                HitpointName="HitHead";
+                armor=4.7;
+                PassThrough=0.30000001;
+            };
+        };
+    };
+}; 
+
 // meep
 class CADPAT_Helmet1;
 class meepHat  : CADPAT_Helmet1

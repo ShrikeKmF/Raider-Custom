@@ -172,3 +172,32 @@ class hlc_rifle_auga2 : hlc_rifle_aug
 		model = "";
 	};
 };
+
+class hlc_rifle_auga2_b;
+class rtg_shrike_aug : hlc_rifle_auga2_b
+{
+	scope = 2;
+	dlc = "raiderTactical";
+	Author = "Shrike";
+    displayName="AUG A2 - Shrike";
+	hiddenSelections[] = {"Camo"};
+	hiddenSelectionsTextures[] = {"\rtgEquipment\tex\shrikeAug.paa"};
+	class XtdGearInfo
+	{
+		model = "";
+	};
+};
+
+class rtg_pat_aug : hlc_rifle_auga1_b
+{
+	scope = 2;
+	dlc = "raiderTactical";
+	Author = "Shrike";
+    displayName="AUG A1 - Pat";
+	hiddenSelections[] = {"Camo"};
+	hiddenSelectionsTextures[] = {"\rtgEquipment\tex\patAug.paa"};
+	class XtdGearInfo
+	{
+		model = "";
+	};
+};
