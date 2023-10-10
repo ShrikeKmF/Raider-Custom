@@ -2509,6 +2509,23 @@ class rtg_g3_mc : VSM_Multicam_Crye_Camo {
         camo =    "mc";
 	};
 };
+class rtg_g3_amcu : VSM_Multicam_Crye_Camo {
+    scope = 2;
+	dlc = "raiderTactical";
+	displayName = "[VSM] Crye G3 (AMCU)";
+	Author = "Shrike"; 
+    class ItemInfo: ItemInfo
+    {
+		uniformClass = "amcu_uniform";
+		containerClass = "Supply70";
+    };
+	class XtdGearInfo
+	{
+		model = "rtg_ace_expanded_g3";
+		top =  "shirt";
+        camo = "amcu";
+	};
+};
 class rtg_g3_mct : VSM_MulticamTropic_Crye_Camo {
     scope = 2;
 	dlc = "raiderTactical";
@@ -3146,6 +3163,27 @@ class sorespHat : rhsgref_helmet_pasgt_altis_lizard
         };
     };
 };
+class sorespHat2 : sorespHat
+{
+	scope = 2;
+	dlc = "raiderTactical";
+	Author = "Shrike"; 
+    displayName="Pasgt - Soresp (2)";
+    mass = 2;
+    hiddenSelectionsTextures[] ={"\rtgEquipment\tex\sore_hat2.paa"};
+    class ItemInfo: ItemInfo
+    {
+        class HitpointsProtectionInfo
+        {
+            class head
+            {
+                HitpointName="HitHead";
+                armor=4.7;
+                PassThrough=0.30000001;
+            };
+        };
+    };
+};
 
 class badgerHat : rhsgref_helmet_pasgt_altis_lizard
 {
@@ -3179,6 +3217,48 @@ class meepHat  : CADPAT_Helmet1
     displayName="ECH - Meep";
     mass = 2;
     hiddenSelectionsTextures[] ={"\rtgEquipment\tex\meepHat.paa"};
+    class ItemInfo: ItemInfo
+    {
+        class HitpointsProtectionInfo
+        {
+            class head
+            {
+                HitpointName="HitHead";
+                armor=4.7;
+                PassThrough=0.30000001;
+            };
+        };
+    };
+};
+
+class Alpine_opscore;
+class kebaHat_Alpine : Alpine_opscore {
+	scope = 2;
+	dlc = "raiderTactical";
+	Author = "Shrike"; 
+    displayName="Ops Alpine - Keba";
+    mass = 2;
+    hiddenSelectionsTextures[] ={"\rtgEquipment\tex\alpine_ops_KEBAergo.paa"};
+    class ItemInfo: ItemInfo
+    {
+        class HitpointsProtectionInfo
+        {
+            class head
+            {
+                HitpointName="HitHead";
+                armor=4.7;
+                PassThrough=0.30000001;
+            };
+        };
+    };
+};
+class kebaHat_Black : Alpine_opscore {
+	scope = 2;
+	dlc = "raiderTactical";
+	Author = "Shrike"; 
+    displayName="Ops Black - Keba";
+    mass = 2;
+    hiddenSelectionsTextures[] ={"\rtgEquipment\tex\Ops_black_KEBAergo.paa"};
     class ItemInfo: ItemInfo
     {
         class HitpointsProtectionInfo

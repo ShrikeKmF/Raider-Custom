@@ -333,6 +333,26 @@ class cakeBackpack : B_Kitbag_rgr {
     hiddenSelectionsTextures[] = {"rtgEquipment\tex\cakeKitbag.paa"};
 };
 
+class kebaCarryAll_MCB : VSM_OGA_carryall {
+    scope = 2;
+	dlc = "raiderTactical";
+	Author = "Shrike";
+    displayName = "Carryall Black - Keba";
+    maximumLoad = 380;
+    mass = 50;
+    hiddenSelectionsTextures[] = {"rtgEquipment\tex\Multicam_Black_carryall_KEBAergo.paa"};
+};
+
+class kebaCarryAll_ALP : VSM_OGA_carryall {
+    scope = 2;
+	dlc = "raiderTactical";
+	Author = "Shrike";
+    displayName = "Carryall Alpine - Keba";
+    maximumLoad = 380;
+    mass = 50;
+    hiddenSelectionsTextures[] = {"rtgEquipment\tex\Alpine_carryall_KEBAergo.paa"};
+};
+
 class lynxKitbag : B_Kitbag_rgr {
     scope = 2;
 	dlc = "raiderTactical";
@@ -489,4 +509,18 @@ class rtg_engineer_grabpack : rhs_assault_umbts_engineer_empty
         TRANSPORT_ITEM(ACE_rope12, 3)
         TRANSPORT_ITEM(ACE_wirecutter, 1)        
     };    
+};
+
+// AMCU
+class VSM_Multicam_Crye_Uniform;
+class amcu_uniform : VSM_Multicam_Crye_Uniform
+{
+    author = "Shrike";
+	_generalMacro = "B_soldier_F";
+	scope = 2;
+    uniformClass = "amcu_uniform";
+    hiddenSelections[] = {"Camo","Insignia"};
+    displayName = "[VSM] AMCU (Crye)";
+	hiddenSelectionsTextures[] = {"rtgEquipment\tex\amcu_uniform.paa"};
+    hiddenSelectionsMaterials[] = {"VSM_ProjectHonor\Data\VSM_ARD.RVMAT"};
 };

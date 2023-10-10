@@ -372,12 +372,47 @@ class SMG_01_F;
 class rtg_vector_9mm : SMG_01_F
 {
 	scope = 2;
+	recoil = "recoil_mp5a2";
 	dlc = "raiderTactical";
 	baseWeapon = "rtg_vector_9mm";
 	Author = "Shrike";
 	displayName = "Vector 9mm SMG";
 	magazineWell[] = {"RTG_9x19"};
 	magazines[] = {"rtg_9mm_35Rnd_mag"};
+};
+
+class rtg_vector_9mm_carbon : rtg_vector_9mm
+{
+	scope = 2;
+	recoil = "recoil_mp5a2";
+	dlc = "raiderTactical";
+	baseWeapon = "rtg_vector_9mm_carbon";
+	Author = "Shrike";
+	displayName = "Vector 9mm SMG (Carbon)";
+	hiddenSelections[] = {"camo1","camo2","camo3"};
+	hiddenSelectionsTextures[] = {"rtgEquipment\tex\vectorSkin.paa","\a3\weapons_f\data\vectoratt_co.paa","\a3\weapons_f\acc\data\battlesight_co.paa"};
+};
+
+class PRACS_UZI;
+class rtg_uzi : PRACS_UZI
+{
+	scope = 2;
+	dlc = "raiderTactical";
+	baseWeapon = "rtg_uzi";
+	Author = "Shrike";
+	recoil = "recoil_mp5a2";
+	displayName = "IMI UZI";
+	magazineWell[] = {"RTG_9x19"};
+	magazines[] = {"rtg_9mm_35Rnd_mag"};
+	modes[] = {"Single","FullAuto"};
+	class Single: Single
+	{
+		reloadTime = 0.109091;
+	};
+	class FullAuto: FullAuto
+	{
+		reloadTime = 0.109091;
+	};
 };
 
 class KA_UMP9;
@@ -1313,6 +1348,98 @@ class rtg_G3A3_wide_RIS : arifle_SPAR_03_blk_f
 	};
 };
 
+class hlc_rifle_hk53RAS;
+class rtg_hk51a3 : hlc_rifle_hk53RAS
+{
+	scope = 2;
+	dlc = "raiderTactical";
+	Author = "Shrike";
+	baseWeapon = "rtg_hk51a1";
+	displayName = "HK51A3 (RIS)";
+	magazineWell[] = {"CBA_762x51_M14"};
+	magazines[] = {"rtg_20Rnd_762x51"};
+	modes[] = {"Single", "FullAuto"};
+	class Single: Single
+	{
+		reloadTime = 0.0625;
+		dispersion = 0.076923;
+	};
+	class FullAuto: FullAuto
+	{
+		reloadTime = 0.0625;
+		dispersion = 0.076923;
+	};
+	class WeaponSlotsInfo: WeaponSlotsInfo
+	{
+		class UnderBarrelSlot : rtgM249BipodOnly{};
+		class GripodSlot: rtgM249BipodOnly {};
+	};
+	class XtdGearInfo
+	{
+		model = "rtg_ace_expanded_hk51";
+		variant = "a3";
+	};
+};
+class hlc_rifle_hk33a2RIS;
+class rtg_hk51a2 : hlc_rifle_hk33a2RIS
+{
+	scope = 2;
+	dlc = "raiderTactical";
+	Author = "Shrike";
+	baseWeapon = "rtg_hk51a2";
+	displayName = "HK51A2 (RIS)";
+	magazineWell[] = {"CBA_762x51_M14"};
+	magazines[] = {"rtg_20Rnd_762x51"};
+	modes[] = {"Single", "FullAuto"};
+	class Single: Single
+	{
+		reloadTime = 0.0625;
+		dispersion = 0.076923;
+	};
+	class FullAuto: FullAuto
+	{
+		reloadTime = 0.0625;
+		dispersion = 0.076923;
+	};
+	class WeaponSlotsInfo: WeaponSlotsInfo
+	{
+		class UnderBarrelSlot : rtgM249BipodOnly{};
+		class GripodSlot: rtgM249BipodOnly {};
+	};
+	class XtdGearInfo
+	{
+		model = "rtg_ace_expanded_hk51";
+		variant = "a2";
+	};
+};
+class hlc_rifle_hk33a2RIS_GL;
+class rtg_hk41a2_gl : hlc_rifle_hk33a2RIS_GL
+{
+	scope = 2;
+	dlc = "raiderTactical";
+	Author = "Shrike";
+	baseWeapon = "rtg_hk41a2_gl";
+	displayName = "HK51A2 (RIS/GL)";
+	magazineWell[] = {"CBA_762x51_M14"};
+	magazines[] = {"rtg_20Rnd_762x51"};
+	modes[] = {"Single", "FullAuto"};
+	class Single: Single
+	{
+		reloadTime = 0.0625;
+		dispersion = 0.076923;
+	};
+	class FullAuto: FullAuto
+	{
+		reloadTime = 0.0625;
+		dispersion = 0.076923;
+	};
+	class XtdGearInfo
+	{
+		model = "rtg_ace_expanded_hk51";
+		variant = "a2gl";
+	};
+};
+
 class srifle_DMR_01_F;
 class rtg_vs121 : srifle_DMR_01_F
 {
@@ -1639,7 +1766,8 @@ class rtg_mk200_blk : LMG_Mk200_black_F
 	};
 };
 
-class rtg_m60e4 : LMG_Mk200_black_F
+class PRACS_M60E4;
+class rtg_m60e4 : PRACS_M60E4
 {
 	scope = 2;
 	dlc = "raiderTactical";
@@ -1655,7 +1783,6 @@ class rtg_m60e4 : LMG_Mk200_black_F
 	hiddenSelectionsTextures[] = {"hlc_wp_m60e4\tex\m60e4_co.paa", "hlc_wp_m60e4\tex\m249_para_co.paa"};
 	reloadaction = "HLC_GestureReloadM60";
 	picture = "\hlc_wp_M60E4\tex\ui\gear_m60e4_x_ca";
-	handanim[] = {"OFP2_ManSkeleton", "\hlc_wp_m60e4\gesture\m60e4.rtm"};
 	AB_barrelTwist = 12;
 	AB_barrelLength = 17;
 	ACE_barrelTwist = 304.8;
@@ -1671,7 +1798,12 @@ class rtg_m60e4 : LMG_Mk200_black_F
 	tmr_autorest_deployable = 1;
 	TMR_acc_bipod = 1;
 	inertia = 0.700;
-	class FullAuto : manual
+	class CowsSlot: asdg_OpticRail1913RTG
+	{
+		iconPosition[] = {0.37,0.24};
+		iconScale = 0.2;
+	};
+	class FullAuto : FullAuto
 	{
 		sounds[] = {"StandardSound", "SilencedSound"};
 		class BaseSoundModeType
@@ -1712,7 +1844,7 @@ class rtg_m60e6 : rtg_m60e4
 	hiddenSelectionsTextures[] = {"rtgEquipment\tex\m60e6.paa", "hlc_wp_m60e4\tex\m249_para_co.paa"};
 	mass = 204;
 	inertia = 0.765;
-	class FullAuto : manual
+	class FullAuto : FullAuto
 	{
 		sounds[] = {"StandardSound", "SilencedSound"};
 		class BaseSoundModeType
@@ -1742,6 +1874,16 @@ class rtg_m60e6 : rtg_m60e4
 		maxRangeProbab = 0.1;
 	};
 };
+class rtg_m60e6_camo : rtg_m60e6
+{
+	scope = 2;
+	dlc = "raiderTactical";
+	baseWeapon = "rtg_m60e6_camo";
+	Author = "Shrike";
+	displayName = "M60E6 (RIS/Camo)";
+	hiddenSelections[] = {"Main", "rail"};
+	hiddenSelectionsTextures[] = {"rtgEquipment\tex\m60e6_camo.paa", "hlc_wp_m60e4\tex\m249_para_co.paa"};
+}
 class rtg_brrrt : rtg_m60e4
 {
 	cope = 2;
@@ -1757,7 +1899,6 @@ class rtg_brrrt : rtg_m60e4
 	hiddenSelectionsTextures[] = {"hlc_wp_m60e4\tex\m60e4_co.paa", "hlc_wp_m60e4\tex\m249_para_co.paa"};
 	reloadaction = "HLC_GestureReloadM60";
 	picture = "\hlc_wp_M60E4\tex\ui\gear_m60e4_x_ca";
-	handanim[] = {"OFP2_ManSkeleton", "\hlc_wp_m60e4\gesture\m60e4.rtm"};
 	AB_barrelTwist = 12;
 	AB_barrelLength = 17;
 	ACE_barrelTwist = 304.8;
@@ -1771,7 +1912,7 @@ class rtg_brrrt : rtg_m60e4
 	cse_bipod = 1;
 	tmr_autorest_deployable = 1;
 	TMR_acc_bipod = 1;
-	class FullAuto : manual
+	class FullAuto : FullAuto
 	{
 		sounds[] = {"StandardSound", "SilencedSound"};
 		class BaseSoundModeType
@@ -1791,6 +1932,79 @@ class rtg_brrrt : rtg_m60e4
 		};
 		reloadTime = 0.001;
 		dispersion = 0.000261799;
+		aiRateOfFire = 0.1;
+		aiRateOfFireDistance = 50;
+		minRange = 0;
+		minRangeProbab = 0.9;
+		midRange = 10;
+		midRangeProbab = 0.7;
+		maxRange = 20;
+		maxRangeProbab = 0.1;
+	};
+};
+
+class rhs_weap_m240G;
+class rtg_mag60_20 : rhs_weap_m240G
+{
+	scope = 2;
+	dlc = "raiderTactical";
+	baseWeapon = "rtg_mag60_20";
+	Author = "Shrike";
+	displayName = "MAG 60-20";
+	magazineWell[] = {"CBA_762x51_LINKS"};
+	magazines[] = {"rtg_200Rnd_762x51"};
+	recoil = "recoil_mp5a2";
+	modes[] = {"FullAuto"};
+	AB_barrelTwist = 12;
+	AB_barrelLength = 17;
+	ACE_barrelTwist = 304.8;
+	ACE_barrelLength = 630.8;
+	mass = 260.1;
+	bg_bipod = 1;
+	cse_bipod = 1;
+	tmr_autorest_deployable = 1;
+	TMR_acc_bipod = 1;
+	inertia = 0.95;
+	class FullAuto : manual
+	{
+		reloadTime = 0.070588;
+		dispersion = 0.000421799;
+		aiRateOfFire = 0.1;
+		aiRateOfFireDistance = 50;
+		minRange = 0;
+		minRangeProbab = 0.9;
+		midRange = 10;
+		midRangeProbab = 0.7;
+		maxRange = 20;
+		maxRangeProbab = 0.1;
+	};
+};
+class rhs_weap_fnmag;
+class rtg_mag60_20_t3 : rhs_weap_fnmag
+{
+	scope = 2;
+	dlc = "raiderTactical";
+	baseWeapon = "rtg_mag60_20_t3";
+	Author = "Shrike";
+	displayName = "MAG 60-20 (T3)";
+	magazineWell[] = {"CBA_762x51_LINKS"};
+	magazines[] = {"rtg_200Rnd_762x51"};
+	recoil = "recoil_mp5a2";
+	modes[] = {"FullAuto"};
+	AB_barrelTwist = 12;
+	AB_barrelLength = 17;
+	ACE_barrelTwist = 304.8;
+	ACE_barrelLength = 630.8;
+	mass = 285.1;
+	bg_bipod = 1;
+	cse_bipod = 1;
+	tmr_autorest_deployable = 1;
+	TMR_acc_bipod = 1;
+	inertia = 0.95;
+	class FullAuto : manual
+	{
+		reloadTime = 0.070588;
+		dispersion = 0.000421799;
 		aiRateOfFire = 0.1;
 		aiRateOfFireDistance = 50;
 		minRange = 0;
@@ -2374,6 +2588,34 @@ class shrikeRifle : ACWP_M4A5_145_troy_base_BLK {
 		"rtgEquipment\tex\shrikeStock.paa",
 		"","","","",
 		"acwp_core\tex\roe_co.paa"
+	};
+	class XtdGearInfo
+	{
+		model = "";
+	};
+};
+
+
+class texRifle : ACWP_M4A5_145_troy_base_BLK {
+	scope = 2;
+	dlc = "raiderTactical";
+	Author = "Shrike";
+    displayName="M4A5 .50 BW (Tex)";
+	magazineWell[] = {"rtg_50_bw_STANAG"};
+	recoil = "rhs_weap_scarl_folded_recoil";
+	magazines[] = {"rtg_10rnd_10bw"};
+	hiddenSelectionsTextures[] = 
+	{
+		"m4A5_troy\tex\m4A5\barrel_co.paa",
+		"rtgEquipment\tex\texRifle.paa",
+		"M4A5_Troy\tex\troy_cut_black_co.paa",
+		"ACWP_Core\tex\ctr\ctr_co.paa",
+		"m4A5_troy\tex\m4A5\mlok_co.paa",
+		"m4A5_troy\tex\m4A5\mloklong_co.paa",
+		"",
+		"rtgEquipment\tex\shrikeStock.paa",
+		"","","","",
+		""
 	};
 	class XtdGearInfo
 	{

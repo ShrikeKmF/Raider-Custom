@@ -2428,7 +2428,7 @@ class CfgVehicles {
             TRANSPORT_MAGAZINE(rtg_9mm_35Rnd_mag, 30)
             TRANSPORT_MAGAZINE(rtg_12g_15Rnd, 18)
             //GL
-            TRANSPORT_MAGAZINE(rhs_mag_M433_HEDP, 35)
+            TRANSPORT_MAGAZINE(rhs_mag_M433_HEDP, 40)
             TRANSPORT_MAGAZINE(ACE_HuntIR_M203, 12)
             TRANSPORT_MAGAZINE(1Rnd_SmokeRed_Grenade_shell, 15)
             TRANSPORT_MAGAZINE(1Rnd_Smoke_Grenade_shell, 35)

@@ -90,7 +90,7 @@ class CfgMagazines
 	// References
     class hlc_30rnd_556x45_SOST_PMAG;
 	class ACE_20Rnd_762x51_M118LR_Mag;
-	class hlc_200Rnd_762x51_T_M60E4;
+	class rhsusf_50Rnd_762x51;
 	class hlc_30Rnd_545x39_EP_ak_Black;
 	class rhs_60Rnd_545X39_7N22_AK;
 	class rhsusf_200Rnd_556x45_M855_soft_pouch_coyote;
@@ -141,30 +141,30 @@ class CfgMagazines
         scope = 2;
     };
 	
-    class rtg_200Rnd_762x51 : hlc_200Rnd_762x51_T_M60E4 {
+    class rtg_200Rnd_762x51 : rhsusf_50Rnd_762x51 {
         author = "Shrike";
         ammo = "rtg_762_nato";
-        count = 200;
+        count = 100;
         tracersevery = 3;
         lastroundstracer = 4;
         descriptionshort = "Raider Tactical Standard Issue 7.62mm Ammo";
-        displayname = "[RTG] 200rnd 7.62mm MAG";
-        displaynameshort = "200Rnd 7.62x51";
+        displayname = "[RTG] 100rnd 7.62mm MAG";
+        displaynameshort = "100Rnd 7.62x51";
         scope = 2;
-        mass = 80;
+        mass = 68;
     };
 	
-	class rtg_200Rnd_762x51_t : hlc_200Rnd_762x51_T_M60E4 {
+	class rtg_200Rnd_762x51_t : rhsusf_50Rnd_762x51 {
         author = "Shrike";
         ammo = "rtg_762_nato";
-        count = 200;
+        count = 100;
         tracersevery = 1;
         lastroundstracer = 4;
         descriptionshort = "Raider Tactical Standard Issue 7.62mm Ammo";
-        displayname = "[RTG] 200rnd Tracer 7.62mm MAG";
-        displaynameshort = "200Rnd Tracer 7.62x51";
+        displayname = "[RTG] 100rnd Tracer 7.62mm MAG";
+        displaynameshort = "100Rnd Tracer 7.62x51";
         scope = 2;
-        mass = 80;
+        mass = 68;
     };
 
     // 5.8

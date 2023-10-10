@@ -188,6 +188,20 @@ class rtg_shrike_aug : hlc_rifle_auga2_b
 	};
 };
 
+class rtg_shrike_aug_camo : rtg_shrike_aug
+{
+	scope = 2;
+	dlc = "raiderTactical";
+	Author = "Shrike";
+    displayName="AUG A2 - Shrike (Camo)";
+	hiddenSelections[] = {"Camo"};
+	hiddenSelectionsTextures[] = {"\rtgEquipment\tex\shrikeAugCamo.paa"};
+	class XtdGearInfo
+	{
+		model = "";
+	};
+};
+
 class rtg_pat_aug : hlc_rifle_auga1_b
 {
 	scope = 2;
@@ -196,6 +210,20 @@ class rtg_pat_aug : hlc_rifle_auga1_b
     displayName="AUG A1 - Pat";
 	hiddenSelections[] = {"Camo"};
 	hiddenSelectionsTextures[] = {"\rtgEquipment\tex\patAug.paa"};
+	class XtdGearInfo
+	{
+		model = "";
+	};
+};
+
+class rtg_pat_aug_camo : rtg_pat_aug
+{
+	scope = 2;
+	dlc = "raiderTactical";
+	Author = "Shrike";
+    displayName="AUG A1 - Pat (Camo)";
+	hiddenSelections[] = {"Camo"};
+	hiddenSelectionsTextures[] = {"\rtgEquipment\tex\patAugCamo.paa"};
 	class XtdGearInfo
 	{
 		model = "";

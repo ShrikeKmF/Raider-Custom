@@ -364,6 +364,32 @@ class rtg_ace_expanded_g3a3 {
     };
 };
 
+class rtg_ace_expanded_hk51 {
+    label = "HK51";
+    author = "Shrike";
+    options[] = {"variant"};
+    class variant
+    {
+        label = "Variant";
+        values[] = {"a3","a2", "a2gl"};
+        class a3
+        {
+            label = "A3";
+            description = "Para Stock";
+        };
+        class a2
+        {
+            label = "A2";
+            description = "Full Stock";
+        };
+        class a2gl
+        {
+            label = "A2 GL";
+            description = "Full Stock GL";
+        };
+    };
+};
+
 // SAMR2
 class rtg_ace_expanded_samr {
     label = "LAR-15";

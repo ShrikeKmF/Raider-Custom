@@ -293,7 +293,7 @@ class rtg_ace_expanded_g3 {
     class camo
     {
         label = "Camo";
-        values[] = {"alpine", "arid", "m81", "mcb", "mc", "mct", "tan", "grey", "od", "ph", "choco"};
+        values[] = {"alpine", "arid", "m81", "mcb", "mc", "mct", "tan", "grey", "od", "ph", "choco", "amcu"};
         class alpine
         {
             label = "Alpine";
@@ -348,6 +348,11 @@ class rtg_ace_expanded_g3 {
         {
             label = "Choc-Chip";
             description = "Choculate Chip";
+        };
+        class amcu
+        {
+            label = "AMCU";
+            description = "AMCU";
         };
     };
 };
