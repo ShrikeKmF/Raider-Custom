@@ -636,15 +636,15 @@ class ace_medical_treatment {
     };
     class IV {
         // volume is in millileters
-        volume = 1000;
+        volume = 800;
         ratio[] = {};
         type = "Blood";
         class BloodIV {
-            volume = 1600;
+            volume = 1500;
             ratio[] = {"Plasma", 1};
         };
         class BloodIV_500: BloodIV {
-            volume = 800;
+            volume = 650;
         };
         class PlasmaIV: BloodIV {
             volume = 2000;

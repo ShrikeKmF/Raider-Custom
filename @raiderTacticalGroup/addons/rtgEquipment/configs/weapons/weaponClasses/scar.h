@@ -136,7 +136,7 @@ class hlc_wp_SCARL_STD_camo : hlc_wp_SCARL_STD
 		variant = "base";
 	};
 };
-class hlc_wp_SCAR_PDW : hlc_SCARL_Base
+class hlc_wp_SCAR_PDW : hlc_wp_SCARL_STD
 {
 	class XtdGearInfo
 	{

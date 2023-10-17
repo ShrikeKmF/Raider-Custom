@@ -53,6 +53,103 @@ class CfgWeapons
 		};
     };
 
+	class hlc_SCARL_Base;
+	class hlc_wp_SCARL_STD : hlc_SCARL_Base
+	{
+		caseless[] = {"", 1, 1, 1};
+		soundBullet[] = {"caseless", 1};					
+		class Single : Single {
+			class BaseSoundModeType;
+			class StandardSound: BaseSoundModeType{
+				soundSetShot[] = {"Squad_ACR_Sets","Medium_Reflection_SoundSet","Squad556_BulletCasings_Sets","SPAR01_tail_SoundSet"};
+			};
+			class SilencedSound: BaseSoundModeType{
+				soundSetShot[] = {"Squad_AKMSuppressed_Sets","Medium_SD_Reflection_SoundSet","Squad762_BulletCasings_Sets","MX_silencerTail_SoundSet"};
+			};
+		};	
+		class FullAuto : FullAuto {
+			class BaseSoundModeType;
+			class StandardSound : BaseSoundModeType {
+				soundSetShot[] = {"Squad_ACR_Sets","Medium_Reflection_SoundSet","Squad556_BulletCasings_Sets","SPAR01_tail_SoundSet"};
+			};
+			class SilencedSound: BaseSoundModeType{
+				soundSetShot[] = {"Squad_AKMSuppressed_Sets","Medium_SD_Reflection_SoundSet","Squad762_BulletCasings_Sets","MX_silencerTail_SoundSet"};
+			};
+		};
+	};
+
+	class hlc_wp_SCAR_PDW : hlc_wp_SCARL_STD
+	{
+		caseless[] = {"", 1, 1, 1};
+		soundBullet[] = {"caseless", 1};					
+		class Single : Single {
+			class BaseSoundModeType;
+			class StandardSound: BaseSoundModeType{
+				soundSetShot[] = {"Squad_ACR_Sets","Medium_Reflection_SoundSet","Squad556_BulletCasings_Sets","SPAR01_tail_SoundSet"};
+			};
+			class SilencedSound: BaseSoundModeType{
+				soundSetShot[] = {"Squad_AKMSuppressed_Sets","Medium_SD_Reflection_SoundSet","Squad762_BulletCasings_Sets","MX_silencerTail_SoundSet"};
+			};
+		};	
+		class FullAuto : FullAuto {
+			class BaseSoundModeType;
+			class StandardSound : BaseSoundModeType {
+				soundSetShot[] = {"Squad_ACR_Sets","Medium_Reflection_SoundSet","Squad556_BulletCasings_Sets","SPAR01_tail_SoundSet"};
+			};
+			class SilencedSound: BaseSoundModeType{
+				soundSetShot[] = {"Squad_AKMSuppressed_Sets","Medium_SD_Reflection_SoundSet","Squad762_BulletCasings_Sets","MX_silencerTail_SoundSet"};
+			};
+		};
+	};
+
+	class hlc_wp_SCARL_STD_300AAC : hlc_SCARL_Base
+	{
+		caseless[] = {"", 1, 1, 1};
+		soundBullet[] = {"caseless", 1};					
+		class Single : Single {
+			class BaseSoundModeType;
+			class StandardSound: BaseSoundModeType{
+				soundSetShot[] = {"Squad_ACR_Sets","Medium_Reflection_SoundSet","Squad556_BulletCasings_Sets","SPAR01_tail_SoundSet"};
+			};
+			class SilencedSound: BaseSoundModeType{
+				soundSetShot[] = {"Squad_AKMSuppressed_Sets","Medium_SD_Reflection_SoundSet","Squad762_BulletCasings_Sets","MX_silencerTail_SoundSet"};
+			};
+		};	
+		class FullAuto : FullAuto {
+			class BaseSoundModeType;
+			class StandardSound : BaseSoundModeType {
+				soundSetShot[] = {"Squad_ACR_Sets","Medium_Reflection_SoundSet","Squad556_BulletCasings_Sets","SPAR01_tail_SoundSet"};
+			};
+			class SilencedSound: BaseSoundModeType{
+				soundSetShot[] = {"Squad_AKMSuppressed_Sets","Medium_SD_Reflection_SoundSet","Squad762_BulletCasings_Sets","MX_silencerTail_SoundSet"};
+			};
+		};
+	};
+
+	class hlc_wp_SCARL_STD_EGLM : hlc_SCARL_Base
+	{
+		caseless[] = {"", 1, 1, 1};
+		soundBullet[] = {"caseless", 1};					
+		class Single : Single {
+			class BaseSoundModeType;
+			class StandardSound: BaseSoundModeType{
+				soundSetShot[] = {"Squad_ACR_Sets","Medium_Reflection_SoundSet","Squad556_BulletCasings_Sets","SPAR01_tail_SoundSet"};
+			};
+			class SilencedSound: BaseSoundModeType{
+				soundSetShot[] = {"Squad_AKMSuppressed_Sets","Medium_SD_Reflection_SoundSet","Squad762_BulletCasings_Sets","MX_silencerTail_SoundSet"};
+			};
+		};	
+		class FullAuto : FullAuto {
+			class BaseSoundModeType;
+			class StandardSound : BaseSoundModeType {
+				soundSetShot[] = {"Squad_ACR_Sets","Medium_Reflection_SoundSet","Squad556_BulletCasings_Sets","SPAR01_tail_SoundSet"};
+			};
+			class SilencedSound: BaseSoundModeType{
+				soundSetShot[] = {"Squad_AKMSuppressed_Sets","Medium_SD_Reflection_SoundSet","Squad762_BulletCasings_Sets","MX_silencerTail_SoundSet"};
+			};
+		};
+	};
+
 	class arifle_SPAR_01_blk_F;
 	class rtg_g36_v_556 : arifle_SPAR_01_blk_F
 	{
