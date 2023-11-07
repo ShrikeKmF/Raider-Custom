@@ -135,7 +135,7 @@ class CfgAmmo
 	
     class B_50BW_Ball_F;
 	class rtg_50bw : B_50BW_Ball_F {
-        hit = 25;
+        hit = 26;
         model = "\A3\Weapons_f\Data\bullettracer\tracer_red";
     };
 

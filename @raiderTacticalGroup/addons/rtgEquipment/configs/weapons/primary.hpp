@@ -1362,12 +1362,12 @@ class rtg_hk51a3 : hlc_rifle_hk53RAS
 	class Single: Single
 	{
 		reloadTime = 0.0625;
-		dispersion = 0.076923;
+		dispersion = 0.000261799;
 	};
 	class FullAuto: FullAuto
 	{
 		reloadTime = 0.0625;
-		dispersion = 0.076923;
+		dispersion = 0.000261799;
 	};
 	class WeaponSlotsInfo: WeaponSlotsInfo
 	{
@@ -1394,12 +1394,12 @@ class rtg_hk51a2 : hlc_rifle_hk33a2RIS
 	class Single: Single
 	{
 		reloadTime = 0.0625;
-		dispersion = 0.076923;
+		dispersion = 0.000261799;
 	};
 	class FullAuto: FullAuto
 	{
 		reloadTime = 0.0625;
-		dispersion = 0.076923;
+		dispersion = 0.000261799;
 	};
 	class WeaponSlotsInfo: WeaponSlotsInfo
 	{
@@ -1426,12 +1426,12 @@ class rtg_hk41a2_gl : hlc_rifle_hk33a2RIS_GL
 	class Single: Single
 	{
 		reloadTime = 0.0625;
-		dispersion = 0.076923;
+		dispersion = 0.000261799;
 	};
 	class FullAuto: FullAuto
 	{
 		reloadTime = 0.0625;
-		dispersion = 0.076923;
+		dispersion = 0.000261799;
 	};
 	class XtdGearInfo
 	{

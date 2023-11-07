@@ -139,6 +139,7 @@ class CfgMagazines
         displayname = "[RTG] 35rnd 7.62mm MAG";
         displaynameshort = "35Rnd 7.62x51";
         scope = 2;
+        mass = 14;
     };
 	
     class rtg_200Rnd_762x51 : rhsusf_50Rnd_762x51 {
@@ -151,7 +152,7 @@ class CfgMagazines
         displayname = "[RTG] 100rnd 7.62mm MAG";
         displaynameshort = "100Rnd 7.62x51";
         scope = 2;
-        mass = 68;
+        mass = 47;
     };
 	
 	class rtg_200Rnd_762x51_t : rhsusf_50Rnd_762x51 {
@@ -164,7 +165,7 @@ class CfgMagazines
         displayname = "[RTG] 100rnd Tracer 7.62mm MAG";
         displaynameshort = "100Rnd Tracer 7.62x51";
         scope = 2;
-        mass = 68;
+        mass = 47;
     };
 
     // 5.8

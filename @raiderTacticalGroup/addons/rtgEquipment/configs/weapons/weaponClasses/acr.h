@@ -617,3 +617,16 @@ class hlc_rifle_ACR_GL_SBR_cliffhanger : hlc_rifle_ACR_GL_SBR_black {
 		model = "";
 	};
 };
+
+class rtg_type22 : hlc_rifle_ACR_CARB_black
+{
+	scope = 1;
+	dlc = "raiderTactical";
+	Author = "Shrike";
+	displayName = "Howa Type 20";
+	baseWeapon = "rtg_type22";
+	class XtdGearInfo
+	{
+		model = "";
+	};
+}

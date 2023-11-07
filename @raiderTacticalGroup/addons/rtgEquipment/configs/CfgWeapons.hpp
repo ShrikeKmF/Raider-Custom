@@ -20,4 +20,5 @@ class CfgWeapons{
     #include "weapons\equipment.hpp"
     #include "weapons\vest.hpp"
     #include "weapons\optics.hpp"
+    #include "weapons\nightVision.hpp"
 };

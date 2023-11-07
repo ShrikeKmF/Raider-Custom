@@ -2,7 +2,7 @@
 
 class CfgPatches
 {
-	class MCIWF_MyStaminaMod
+	class rtgCharacterChanges
 	{
 		requiredAddons[] = {"A3_Data_F"};
 		requiredVersion = 0.1;
@@ -12,7 +12,18 @@ class CfgPatches
 };
 class CfgInventoryGlobalVariable
 {
-	maxSoldierLoad = 1580;
+	maxSoldierLoad = 1650;
+};
+class CfgImprecision
+{
+    class Primary
+    {
+        verticalRadius=0.4;
+    };
+    class Secondary
+    {
+        horizontalRadius=0.2;
+    };
 };
 class cfgMods
 {

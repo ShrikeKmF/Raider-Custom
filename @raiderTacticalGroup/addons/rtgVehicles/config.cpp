@@ -8,63 +8,55 @@ class CfgPatches
     class rtgVehicles 
     {
         name = "rtgVehicles";
-        units[] = {"rtg_BasicSupply", "rtg_medicalSupply", "rtg_atSupply", "rtg_artillery", "rtg_loaf", "rtg_damper", "rtg_heavyLift_Cargo", "rtg_cargoTransport", "rtg_cargoTransport_F", "rtg_rhic", "raider_strike_car", "raider_bushmaster_armed", "raider_bushmaster_unarmed", "raider_huey_armed", "raider_huey_transport"};
-        weapons[] = {};
         version = "1";
-        requiredAddons[] = {"a3_characters_F","a3_characters_F_beta","A3_Characters_F_Common","a3_characters_f_beta","a3_characters_f_gamma","A3_Soft_F_epc","bma3_bushmaster", "uk3cb_factions_fia"};
         author = "Shrike";
         url="";
+        requiredAddons[] = {"a3_characters_F","a3_characters_F_beta","A3_Characters_F_Common","a3_characters_f_beta","a3_characters_f_gamma","A3_Soft_F_epc","bma3_bushmaster", "uk3cb_factions_fia", "rhsusf_c_weapons"};
+        units[] = {"rtg_artillery", "raider_strike_car", "raider_bushmaster_unarmed", "raider_bushmaster_armed", "rtg_loaf", "rtg_damper", "rtg_heavyLift_Cargo", "rtg_heavyLift_Transport", "rtg_cargoTransport", "raider_huey_transport", "raider_huey_armed", "rtg_rhic", "rtg_BasicSupply", "rtg_atSupply", "rtg_medicalSupply"};
     };
 };
 
 class cfgFactionClasses {
     class Raider_Tactical_F
     {
-        displayName = "Raider Tactical";
+        displayName = "[RTG] Vehicles";
         priority = 0;
         side = 1;
-    };
-
-    class Raider_Tactical_Civi
-    {
-        displayName = "Raider Tactical [Civi]";
-		priority = 0;
-        side = 3;
+        scope = 2;
     };
 };
 
 class cfgEditorCategories {
     class Raider_Tactical
     {
-        displayName = "Raider Tactical";
-        side = 1;
+        displayName = "[RTG] Objects";
+        scope = 2;
     };
 };
 
 class cfgEditorSubcategories {
-    class rtg_Supply
-    {
-        displayName = "Supplies";
-    };
-
-    class Cars
+    class RTGCars
     {
         displayName = "Cars";
+        scope = 2;
     };
 
-    class Boats
+    class RTGBoats
     {
         displayName = "Boats";
+        scope = 2;
     };
 
-    class Helicopters
+    class RTGHelicopters
     {
         displayName = "Helicopters";
+        scope = 2;
     };
 
-    class Artillery
+    class RTGArtillery
     {
         displayName = "Artillery";
+        scope = 2;
     };
 };
 
@@ -86,21 +78,18 @@ class CfgVehicles {
     class rtg_artillery : RHS_M119_D
     {
         displayName = "M119A3 [1/2]";
-        editorSubcategory = "Artillery";
+        editorSubcategory = "RTGArtillery";
         author = "Shrike";
         scope = 2;
         side = 1;
         faction = "Raider_Tactical_F";
-        crew="RTG_Crewman";
-        typicalCargo[]={"RTG_Crewman"};
     };
 
 // Ground Vics
     class raider_strike_car: I_MRAP_03_F
     {
         displayName = "Hawkei Transport [1/3]";
-        simulation="CarX";
-        editorSubcategory = "Cars";
+        editorSubcategory = "RTGCars";
         author = "Shrike";
         scope = 2;
         side = 1;
@@ -136,8 +125,6 @@ class CfgVehicles {
 		smokeLauncherVelocity = 14;
 		smokeLauncherOnTurret = 0;
 		smokeLauncherAngle = 30;
-        crew="RTG_Crewman";
-        typicalCargo[]={"RTG_Crewman"};
 
         // Water Source
         acex_field_rations_waterSupply = 50;
@@ -146,7 +133,7 @@ class CfgVehicles {
 
         textureList[] = 
 		{
-			"rtg", 1.0,
+			"rtg_blk", 1.0,
 		};
 
         class textureSources
@@ -242,7 +229,7 @@ class CfgVehicles {
         // Vehicle Inventorys
         class TransportItems
         {
-            TRANSPORT_ITEM(ACE_NVG_Gen4_black, 8)
+            TRANSPORT_ITEM(rtg_pvs_15_black_gh, 8)
             TRANSPORT_ITEM(ACRE_PRC343, 2)
             TRANSPORT_ITEM(ACRE_PRC152, 2)
             TRANSPORT_ITEM(ACE_personalAidKit, 8)
@@ -299,8 +286,7 @@ class CfgVehicles {
     class raider_bushmaster_unarmed: bma3_bushmaster_unarmed_F
     {
         displayName = "Bushmaster Transport [1/7]";
-        simulation="CarX";
-        editorSubcategory = "Cars";
+        editorSubcategory = "RTGCars";
         author = "Shrike";
         scope = 2;
         side = 1;
@@ -326,8 +312,6 @@ class CfgVehicles {
         acex_field_rations_waterSupply = 50;
         // Extra Fuel (Jerry Cans on Vehicles)
         ace_refuel_fuelCargo = 80;
-        crew="RTG_Crewman";
-        typicalCargo[]={"RTG_Crewman"};
 
         textureList[] = 
 		{
@@ -627,7 +611,7 @@ class CfgVehicles {
         // Vehicle Inventorys
         class TransportItems
         {
-            TRANSPORT_ITEM(ACE_NVG_Gen4_black, 8)
+            TRANSPORT_ITEM(rtg_pvs_15_black_gh, 8)
             TRANSPORT_ITEM(ACRE_PRC343, 2)
             TRANSPORT_ITEM(ACRE_PRC152, 2)
             TRANSPORT_ITEM(ACE_personalAidKit, 8)
@@ -684,7 +668,7 @@ class CfgVehicles {
     class raider_bushmaster_armed: bma3_bushmaster_pws127mm_F
     {
         displayName = "Bushmaster Armed .50 [2/6]";
-        editorSubcategory = "Cars";
+        editorSubcategory = "RTGCars";
         author = "Shrike";
         scope = 2;
         faction = "Raider_Tactical_F";
@@ -705,8 +689,6 @@ class CfgVehicles {
 		smokeLauncherVelocity = 14;
 		smokeLauncherOnTurret = 1;
 		smokeLauncherAngle = 160;
-        crew="RTG_Crewman";
-        typicalCargo[]={"RTG_Crewman"};
 
         // Water Source
         acex_field_rations_waterSupply = 50;
@@ -716,7 +698,7 @@ class CfgVehicles {
         // Vehicle Inventorys
         class TransportItems
         {
-            TRANSPORT_ITEM(ACE_NVG_Gen4_black, 8)
+            TRANSPORT_ITEM(rtg_pvs_15_black_gh, 8)
             TRANSPORT_ITEM(ACRE_PRC343, 2)
             TRANSPORT_ITEM(ACRE_PRC152, 2)
             TRANSPORT_ITEM(ACE_personalAidKit, 8)
@@ -1064,7 +1046,7 @@ class CfgVehicles {
     class rtg_loaf : ej_UH92_NATO
     {
         displayName = "Loaf (4/12)";
-        editorSubcategory = "Helicopters";
+        editorSubcategory = "RTGHelicopters";
         author = "Shrike";
         scope = 2;
         side = 1;
@@ -1094,9 +1076,6 @@ class CfgVehicles {
         // Fast Ropping
         ace_fastroping_enabled = 1;
         ace_fastroping_ropeOrigins[] = {"ropeOriginLeft","ropeOriginRight"};
-
-        crew="RTG_Firebrand";
-        typicalCargo[]={"RTG_Firebrand"};
 
         // Water Source
         acex_field_rations_waterSupply = 50;
@@ -1542,7 +1521,7 @@ class CfgVehicles {
     class rtg_damper : ej_AH96_NATO
     {
         displayName = "Damper (2/0)";
-        editorSubcategory = "Helicopters";
+        editorSubcategory = "RTGHelicopters";
         author = "Shrike";
         scope = 2;
         side = 1;
@@ -1573,8 +1552,6 @@ class CfgVehicles {
         liftForceCoef = 1.1;
         minMainRotorDive = -12;
         maxMainRotorDive = 16;
-        crew="RTG_Firebrand";
-        typicalCargo[]={"RTG_Firebrand"};
 
         // Fast Ropping
         ace_fastroping_enabled = 1;
@@ -1641,7 +1618,7 @@ class CfgVehicles {
     class rtg_heavyLift_Cargo : FP_GLD_Taru_S0
     {
         displayName = "Crumpet Cargo [3/0]";
-        editorSubcategory = "Helicopters";
+        editorSubcategory = "RTGHelicopters";
         author = "Shrike";
         scope = 2;
         side = 1;
@@ -1667,13 +1644,10 @@ class CfgVehicles {
         armor = 80;
         weapons[] = {"CMFlareLauncher"};
 		magazines[] = {"168Rnd_CMFlare_Chaff_Magazine"};
-        crew="RTG_Firebrand";
-        typicalCargo[]={"RTG_Firebrand"};
-
         // Vehicle Inventorys
         class TransportItems
         {
-            TRANSPORT_ITEM(ACE_NVG_Gen4_black, 8)
+            TRANSPORT_ITEM(rtg_pvs_15_black_gh, 8)
             TRANSPORT_ITEM(ACRE_PRC343, 2)
             TRANSPORT_ITEM(ACRE_PRC152, 2)
             TRANSPORT_ITEM(ACE_personalAidKit, 8)
@@ -1790,7 +1764,7 @@ class CfgVehicles {
     class rtg_heavyLift_Transport : FP_GLD_TaruTransport_S0
     {
         displayName = "Crumpet Transport [3/16]";
-        editorSubcategory = "Helicopters";
+        editorSubcategory = "RTGHelicopters";
         author = "Shrike";
         scope = 2;
         side = 1;
@@ -1816,8 +1790,6 @@ class CfgVehicles {
         armor = 80;
         weapons[] = {"CMFlareLauncher"};
 		magazines[] = {"168Rnd_CMFlare_Chaff_Magazine"};
-        crew="RTG_Firebrand";
-        typicalCargo[]={"RTG_Firebrand"};
 
         // Fast Ropping
         ace_fastroping_enabled = 1;
@@ -1909,7 +1881,7 @@ class CfgVehicles {
         // Vehicle Inventorys
         class TransportItems
         {
-            TRANSPORT_ITEM(ACE_NVG_Gen4_black, 8)
+            TRANSPORT_ITEM(rtg_pvs_15_black_gh, 8)
             TRANSPORT_ITEM(ACRE_PRC343, 2)
             TRANSPORT_ITEM(ACRE_PRC152, 2)
             TRANSPORT_ITEM(ACE_personalAidKit, 8)
@@ -1958,12 +1930,12 @@ class CfgVehicles {
     class ej_MQ17C;
     class rtg_cargoTransport : ej_MQ17C
     {
-        displayName = "Mohawk (AI/Drone)";
-        editorSubcategory = "Helicopters";
+        displayName = "Mohawk (Cargo/Drone)";
+        editorSubcategory = "RTGHelicopters";
+        side = 1;
         author = "Shrike";
         scope = 2;
-        faction = "Raider_Tactical_Civi";
-        side = 3;
+        faction = "Raider_Tactical_F";
         maximumLoad = 20000;
         ace_cargo_space = 16;
         acre_hasInfantryPhone = 0;
@@ -1985,20 +1957,10 @@ class CfgVehicles {
         armor = 80;
     };
 
-    class rtg_cargoTransport_F : rtg_cargoTransport
-    {
-        displayName = "Mohawk (Cargo/Drone)";
-        editorSubcategory = "Helicopters";
-        side = 1;
-        author = "Shrike";
-        scope = 2;
-        faction = "Raider_Tactical_F";
-    };
-
     class raider_huey_transport: UK3CB_I_G_UH1H_M240_FIA 
     {
         displayName = "Huey Transport [4/8]";
-        editorSubcategory = "Helicopters";
+        editorSubcategory = "RTGHelicopters";
         author = "Shrike";
         scope = 2;
         side = 1;
@@ -2115,7 +2077,7 @@ class CfgVehicles {
         // Vehicle Inventorys
         class TransportItems
         {
-            TRANSPORT_ITEM(ACE_NVG_Gen4_black, 8)
+            TRANSPORT_ITEM(rtg_pvs_15_black_gh, 8)
             TRANSPORT_ITEM(ACRE_PRC343, 2)
             TRANSPORT_ITEM(ACRE_PRC152, 2)
             TRANSPORT_ITEM(ACE_personalAidKit, 8)
@@ -2164,7 +2126,7 @@ class CfgVehicles {
     class raider_huey_armed: UK3CB_I_G_UH1H_GUNSHIP_FIA 
     {
         displayName = "Huey Gunship [4/8]";
-        editorSubcategory = "Helicopters";
+        editorSubcategory = "RTGHelicopters";
         author = "Shrike";
         scope = 2;
         side = 1;
@@ -2278,7 +2240,7 @@ class CfgVehicles {
         // Vehicle Inventorys
         class TransportItems
         {
-            TRANSPORT_ITEM(ACE_NVG_Gen4_black, 8)
+            TRANSPORT_ITEM(rtg_pvs_15_black_gh, 8)
             TRANSPORT_ITEM(ACRE_PRC343, 2)
             TRANSPORT_ITEM(ACRE_PRC152, 2)
             TRANSPORT_ITEM(ACE_personalAidKit, 8)
@@ -2329,7 +2291,7 @@ class CfgVehicles {
     class rtg_rhic : RHICC_GREY
     {
         displayName = "Rhib Armed [7/10]";
-        editorSubcategory = "Boats";
+        editorSubcategory = "RTGBoats";
         author = "Shrike";
         scope = 2;
         side = 1;
@@ -2345,10 +2307,11 @@ class CfgVehicles {
 
         // Extra Fuel (Jerry Cans on Vehicles)
         ace_refuel_fuelCargo = 80;
+        canPush = 2;
         // Vehicle Inventorys
         class TransportItems
         {
-            TRANSPORT_ITEM(ACE_NVG_Gen4_black, 8)
+            TRANSPORT_ITEM(rtg_pvs_15_black_gh, 8)
             TRANSPORT_ITEM(ACRE_PRC343, 2)
             TRANSPORT_ITEM(ACRE_PRC152, 2)
             TRANSPORT_ITEM(ACE_personalAidKit, 8)
@@ -2381,15 +2344,15 @@ class CfgVehicles {
     {
         displayName = "[RTG] Basic Supply Crate";
         editorCategory = "Raider_Tactical";
-        editorSubcategory = "rtg_Supply";
         scope = 2;
+        dlc = "raiderTactical";
 
         // Extra Fuel (Jerry Cans on Crate)
         ace_refuel_fuelCargo = 80;
 
         class TransportItems
         {
-            TRANSPORT_ITEM(ACE_NVG_Gen4_black, 8)
+            TRANSPORT_ITEM(rtg_pvs_15_black_gh, 8)
             TRANSPORT_ITEM(ToolKit, 2)
             TRANSPORT_ITEM(ACRE_PRC343, 6)
             TRANSPORT_ITEM(ACE_personalAidKit, 12)
@@ -2461,8 +2424,8 @@ class CfgVehicles {
     {
         displayName = "[RTG] Anti Tank Crate";
         editorCategory = "Raider_Tactical";
-        editorSubcategory = "rtg_Supply";
         scope = 2;
+        dlc = "raiderTactical";
 
         class TransportWeapons
         {
@@ -2487,7 +2450,8 @@ class CfgVehicles {
     {
         displayName = "[RTG] Medical Crate";
         editorCategory = "Raider_Tactical";
-        editorSubcategory = "rtg_Supply";
+        scope = 2;
+        dlc = "raiderTactical";
 
         class TransportItems
         {
