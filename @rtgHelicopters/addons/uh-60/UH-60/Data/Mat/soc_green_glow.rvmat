@@ -1,0 +1,63 @@
+
+diffuse[] = {
+		1, 1, 1, 1
+};
+PixelShaderID = "NormalMapSpecularDIMap";
+VertexShaderID = "NormalMap";
+
+class Stage1 
+{
+	uvSource = "tex";
+
+	class uvTransform 
+	{
+		aside[] = {
+				1, 0, 0
+		};
+		up[] = {
+				0, 1, 0
+		};
+		dir[] = {
+				0, 0, 1
+		};
+		pos[] = {
+				0, 0, 0
+		};
+	};
+	texture = "";
+};
+
+class Stage2 
+{
+	uvSource = "tex";
+
+	class uvTransform 
+	{
+		aside[] = {
+				1, 0, 0
+		};
+		up[] = {
+				0, 1, 0
+		};
+		dir[] = {
+				0, 0, 1
+		};
+		pos[] = {
+				0, 0, 0
+		};
+	};
+	texture = "";
+};
+forcedDiffuse[] = {
+		0.172000, 0.886999, 0.000001, 0.495000
+};
+emmisive[] = {
+		0.500000, 0.925000, 0, 0.108000
+};
+specular[] = {
+		0, 0.683000, 0, 0
+};
+specularPower = 25.400000;
+ambient[] = {
+		10, 10, 10, 5
+};

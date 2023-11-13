@@ -12,7 +12,7 @@ class CfgPatches
         author = "Shrike";
         url="";
         requiredAddons[] = {"a3_characters_F","a3_characters_F_beta","A3_Characters_F_Common","a3_characters_f_beta","a3_characters_f_gamma","A3_Soft_F_epc","bma3_bushmaster", "uk3cb_factions_fia", "rhsusf_c_weapons"};
-        units[] = {"rtg_artillery", "raider_strike_car", "raider_bushmaster_unarmed", "raider_bushmaster_armed", "rtg_loaf", "rtg_damper", "rtg_heavyLift_Cargo", "rtg_heavyLift_Transport", "rtg_cargoTransport", "raider_huey_transport", "raider_huey_armed", "rtg_rhic", "rtg_BasicSupply", "rtg_atSupply", "rtg_medicalSupply"};
+        units[] = {"raider_fast_rhib", "raider_A4_skyhawk", "raider_mobile_gun_system_tracked", "raider_mobile_gun_system_wheeled", "rtg_artillery", "raider_strike_car", "raider_bushmaster_unarmed", "raider_bushmaster_armed", "rtg_loaf", "rtg_damper", "rtg_heavyLift_Cargo", "rtg_heavyLift_Transport", "rtg_cargoTransport", "raider_huey_transport", "raider_huey_armed", "rtg_rhic", "rtg_BasicSupply", "rtg_atSupply", "rtg_medicalSupply"};
     };
 };
 
@@ -53,6 +53,12 @@ class cfgEditorSubcategories {
         scope = 2;
     };
 
+    class RTGAircraft
+    {
+        displayName = "Planes";
+        scope = 2;
+    };
+
     class RTGArtillery
     {
         displayName = "Artillery";
@@ -73,6 +79,7 @@ class CfgVehicles {
     class RHS_M119_D;
     class Turrets;
     class CargoTurret;
+    class MainTurret;
 
  // Artillery
     class rtg_artillery : RHS_M119_D
@@ -86,6 +93,125 @@ class CfgVehicles {
     };
 
 // Ground Vics
+    class PRACS_VEC_MGS;
+    class raider_mobile_gun_system_wheeled : PRACS_VEC_MGS
+    {
+        displayName = "MGS Test Bed Wheeled [3/2]";
+        editorSubcategory = "RTGCars";
+        author = "Shrike";
+        scope = 2;
+        side = 1;
+        faction = "Raider_Tactical_F";
+
+        // Armor
+        armor = 150;
+        armorEngine = 40;
+        armorGun = 40;
+        armorGlass = 50;
+        armorFuel = 20;
+        armorStructural = 150;
+        armorLights = 0.5;
+
+        damageResistance = 0.00719;
+		crewVulnerable = 0;
+		crewCrashProtection = 0.15;
+		crewExplosionProtection = 0.9999;
+		threat[] = {0.8,0.6,0.3};
+
+        // Raider Vehicle Engine
+        maxSpeed = 160;
+        enginePower = 382;
+
+        fuelConsumptionRate = 0.03;
+        fuelCapacity = 84;
+        maximumLoad = 20000;
+        ace_cargo_space = 24;
+        ace_vehicles_engineStartDelay = 5;
+        acre_hasInfantryPhone = 1;
+        canFloat = 1;
+        waterSpeedFactor = 1;
+        waterResistanceCoef = 0.11;
+        weapons[] = {"SmokeLauncher", "TruckHorn"};
+        magazines[] = {"SmokeLauncherMag"};
+        smokeLauncherGrenadeCount = 6;
+		smokeLauncherVelocity = 14;
+		smokeLauncherOnTurret = 0;
+		smokeLauncherAngle = 30;
+
+        // Water Source
+        acex_field_rations_waterSupply = 50;
+        // Extra Fuel (Jerry Cans on Vehicles)
+        ace_refuel_fuelCargo = 80;
+        // Vehicle Inventorys
+        class TransportItems
+        {
+            TRANSPORT_ITEM(rtg_pvs_15_black_gh, 8)
+            TRANSPORT_ITEM(ACRE_PRC343, 2)
+            TRANSPORT_ITEM(ACRE_PRC152, 2)
+            TRANSPORT_ITEM(ACE_personalAidKit, 8)
+            TRANSPORT_ITEM(ACE_Canteen, 5)
+            TRANSPORT_ITEM(ACE_Can_Franta, 9)
+            TRANSPORT_ITEM(ACE_MRE_BeefStew, 5)
+            TRANSPORT_ITEM(ACE_bodyBag, 9)
+        };
+        class TransportBackpacks
+        {
+            TRANSPORT_BACKPACK(rtg_medical_grabpack, 1)
+            TRANSPORT_BACKPACK(rtg_engineer_grabpack, 1)
+        };
+        class TransportWeapons
+        {
+            TRANSPORT_WEAPON(rhs_weap_m16a4_carryhandle, 2)
+            TRANSPORT_WEAPON(rhs_weap_m72a7, 2)
+        };
+        class TransportMagazines 
+        {
+            TRANSPORT_MAGAZINE(rtg_30rnd_556_45, 10)
+            TRANSPORT_MAGAZINE(rtg_200Rnd_762x51, 5)
+        };
+        class AcreIntercoms {
+            class Intercom_1 {
+                displayName = "Intercom";
+                shortName = "Intercom";
+                allowedPositions[] = {"driver", "commander", "gunner"};
+                limitedPositions[] = {};
+                numLimitedPositions = 0;
+                masterPositions[] = {"driver"};
+                connectedByDefault = 1;
+            };
+        };
+        class AcreRacks {
+            class Rack_1 {
+                allowedPositions[] = {"driver", "commander", "gunner"};
+                componentName = "ACRE_PRC152";
+                displayName = "Dash";
+                mountedRadio = "ACRE_PRC152";
+                shortName = "Dash";
+            };
+        };
+        class ace_cargo {       
+            class Cargo {
+                class ACE_Wheel {
+                    type = "ACE_Wheel";
+                    amount = 10;
+                };
+            }; 
+        };
+        class Turrets: Turrets
+		{
+			class MainTurret: MainTurret
+			{
+                weapons[] = {"cannon_120mm_long","LMG_coax"};
+				magazines[] = {"12Rnd_120mm_HE_shells_Tracer_Yellow", "12Rnd_120mm_HE_shells_Tracer_Yellow","12Rnd_120mm_HEAT_MP_T_Yellow","200Rnd_762x51_Belt_Yellow","200Rnd_762x51_Belt_Yellow","200Rnd_762x51_Belt_Yellow","200Rnd_762x51_Belt_Yellow","200Rnd_762x51_Belt_Yellow","200Rnd_762x51_Belt_Yellow","200Rnd_762x51_Belt_Yellow","200Rnd_762x51_Belt_Yellow","200Rnd_762x51_Belt_Yellow","200Rnd_762x51_Belt_Yellow"};
+				soundServo[] = {"A3\Sounds_F\vehicles\armor\noises\servo_armor_gunner",0.15848932,1,50};
+				soundServoVertical[] = {"A3\Sounds_F\vehicles\armor\noises\servo_armor_gunner_vertical",0.15848932,1,50};
+				discreteDistance[] = {100,200,300,400,500,600,700,800,900,1000,1100,1200,1300,1400,1500,1600,1700,1800,1900,2000,2100,2200,2300,2400,2500,2600,2700,2800,2900,3000,3100,3200,3300,3400,3500,3600,3700,3800,3900,4000,4100,4200,4300,4400,4500,4600,4700,4800,4900,5000};
+				discreteDistanceInitIndex = 5;
+				
+            };
+        };
+    };
+
     class raider_strike_car: I_MRAP_03_F
     {
         displayName = "Hawkei Transport [1/3]";
@@ -112,6 +238,7 @@ class CfgVehicles {
 		threat[] = {0.8,0.6,0.3};
 
         maxSpeed = 125;
+        enginePower = 275;
         maximumLoad = 20000;
         ace_cargo_space = 16;
         ace_vehicles_engineStartDelay = 3;
@@ -295,6 +422,7 @@ class CfgVehicles {
         fuelCapacity = 84;
         armor = 300;
         maxSpeed = 110;
+        enginePower = 281;
         maximumLoad = 20000;
         ace_cargo_space = 16;
         ace_vehicles_engineStartDelay = 3;
@@ -676,6 +804,7 @@ class CfgVehicles {
         fuelCapacity = 84;
         armor = 300;
         maxSpeed = 110;
+        enginePower = 281;
         maximumLoad = 20000;
         ace_cargo_space = 16;
         ace_vehicles_engineStartDelay = 3;
@@ -1042,7 +1171,6 @@ class CfgVehicles {
 
 // Helicopters
     class ej_UH92_NATO;
-    class MainTurret;
     class rtg_loaf : ej_UH92_NATO
     {
         displayName = "Loaf (4/12)";
@@ -2286,6 +2414,48 @@ class CfgVehicles {
         }; 
     };
 
+// Planes
+    class PRACS_A4M;
+    class raider_A4_skyhawk : PRACS_A4M
+    {
+        displayName = "Skyhawk [1/0]";
+        editorSubcategory = "RTGAircraft";
+        author = "Shrike";
+        scope = 2;
+        side = 1;
+        faction = "Raider_Tactical_F";
+        ace_cargo_space = 16;
+        acre_hasInfantryPhone = 0;
+
+        // Vehicle Inventorys
+        class TransportItems
+        {
+            TRANSPORT_ITEM(rtg_pvs_15_black_gh, 8)
+            TRANSPORT_ITEM(ACRE_PRC343, 2)
+            TRANSPORT_ITEM(ACRE_PRC152, 2)
+            TRANSPORT_ITEM(ACE_personalAidKit, 8)
+            TRANSPORT_ITEM(ACE_Canteen, 5)
+            TRANSPORT_ITEM(ACE_Can_Franta, 9)
+            TRANSPORT_ITEM(ACE_MRE_BeefStew, 5)
+            TRANSPORT_ITEM(ACE_bodyBag, 9)
+        };
+        class TransportBackpacks
+        {
+            TRANSPORT_BACKPACK(rtg_medical_grabpack, 1)
+            TRANSPORT_BACKPACK(rtg_engineer_grabpack, 1)
+        };
+        class TransportWeapons
+        {
+            TRANSPORT_WEAPON(rhs_weap_m16a4_carryhandle, 2)
+            TRANSPORT_WEAPON(rhs_weap_m72a7, 2)
+        };
+        class TransportMagazines 
+        {
+            TRANSPORT_MAGAZINE(rtg_30rnd_556_45, 10)
+            TRANSPORT_MAGAZINE(rtg_200Rnd_762x51, 5)
+        };
+    };
+
 // Boats
     class RHICC_GREY;
     class rtg_rhic : RHICC_GREY
@@ -2299,7 +2469,7 @@ class CfgVehicles {
         fuelConsumptionRate = 0.03;
         fuelCapacity = 84;
         armor = 300;
-        maxSpeed = 110;
+        maxSpeed = 95;
         maximumLoad = 20000;
         ace_cargo_space = 16;
         ace_vehicles_engineStartDelay = 3;
@@ -2307,7 +2477,60 @@ class CfgVehicles {
 
         // Extra Fuel (Jerry Cans on Vehicles)
         ace_refuel_fuelCargo = 80;
-        canPush = 2;
+        canPush = 1;
+        // Vehicle Inventorys
+        class TransportItems
+        {
+            TRANSPORT_ITEM(rtg_pvs_15_black_gh, 8)
+            TRANSPORT_ITEM(ACRE_PRC343, 2)
+            TRANSPORT_ITEM(ACRE_PRC152, 2)
+            TRANSPORT_ITEM(ACE_personalAidKit, 8)
+            TRANSPORT_ITEM(ACE_Canteen, 5)
+            TRANSPORT_ITEM(ACE_Can_Franta, 9)
+            TRANSPORT_ITEM(ACE_MRE_BeefStew, 5)
+            TRANSPORT_ITEM(ACE_bodyBag, 9)
+        };
+        class TransportBackpacks
+        {
+            TRANSPORT_BACKPACK(rtg_medical_grabpack, 1)
+            TRANSPORT_BACKPACK(rtg_engineer_grabpack, 1)
+        };
+        class TransportWeapons
+        {
+            TRANSPORT_WEAPON(rhs_weap_m16a4_carryhandle, 2)
+            TRANSPORT_WEAPON(rhs_weap_m72a7, 2)
+        };
+        class TransportMagazines 
+        {
+            TRANSPORT_MAGAZINE(rtg_30rnd_556_45, 10)
+            TRANSPORT_MAGAZINE(rtg_200Rnd_762x51, 5)
+        };
+    };
+
+    class UK3CB_MDF_B_Skiff;
+    class raider_fast_rhib : UK3CB_MDF_B_Skiff
+    {
+        displayName = "Rhib Fast [1/8]";
+        editorSubcategory = "RTGBoats";
+        author = "Shrike";
+        scope = 2;
+        side = 1;
+        faction = "Raider_Tactical_F";
+        fuelConsumptionRate = 0.03;
+        fuelCapacity = 84;
+        armor = 300;
+        maxSpeed = 130;
+        enginePower = 382;
+        maximumLoad = 20000;
+        ace_cargo_space = 16;
+        ace_vehicles_engineStartDelay = 3;
+        acre_hasInfantryPhone = 0;
+        
+
+        // Extra Fuel (Jerry Cans on Vehicles)
+        ace_refuel_fuelCargo = 80;
+        canPush = 1;
+
         // Vehicle Inventorys
         class TransportItems
         {
@@ -2342,7 +2565,7 @@ class CfgVehicles {
     class B_CargoNet_01_ammo_F;
     class rtg_BasicSupply : B_CargoNet_01_ammo_F 
     {
-        displayName = "[RTG] Basic Supply Crate";
+        displayName = "Basic Supply Crate";
         editorCategory = "Raider_Tactical";
         scope = 2;
         dlc = "raiderTactical";
@@ -2422,7 +2645,7 @@ class CfgVehicles {
 
     class rtg_atSupply : B_CargoNet_01_ammo_F 
     {
-        displayName = "[RTG] Anti Tank Crate";
+        displayName = "Anti Tank Crate";
         editorCategory = "Raider_Tactical";
         scope = 2;
         dlc = "raiderTactical";
@@ -2448,7 +2671,7 @@ class CfgVehicles {
     class C_IDAP_supplyCrate_F;
     class rtg_medicalSupply : C_IDAP_supplyCrate_F
     {
-        displayName = "[RTG] Medical Crate";
+        displayName = "Medical Crate";
         editorCategory = "Raider_Tactical";
         scope = 2;
         dlc = "raiderTactical";
