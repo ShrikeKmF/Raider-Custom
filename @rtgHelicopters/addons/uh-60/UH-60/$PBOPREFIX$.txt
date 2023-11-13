@@ -1,4 +1,0 @@
-//<'uh-60.pbo' properties via Mikero's dos tools, dll version 8.35>
-prefix=UH-60;
-//PboType=Arma Addon;
-//</properties>
