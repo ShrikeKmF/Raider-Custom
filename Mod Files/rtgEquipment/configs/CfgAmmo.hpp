@@ -66,9 +66,9 @@ class CfgAmmo
 		model						= "rhsusf\addons\rhsusf_airweapons\submunitions\rhsusf_r_m257_drogue";
 		brightness					= 4000;
 		lightColor[]				= {100, 100, 100, 100};
-		timeToLive					= 120;
+		timeToLive					= 240;
 		intensity					= 40000;
-		flareSize					= 60;
+		flareSize					= 90;
 		flareMaxDistance			= 3000;
 		affectedByWind				= 1;
 	};
@@ -110,7 +110,8 @@ class CfgAmmo
     class rhsusf_ammo_127x99_M33_Ball;
     class rtg_127x99 : rhsusf_ammo_127x99_M33_Ball {
         hit = 90;
-        model = "\A3\Weapons_f\Data\bullettracer\tracer_red";
+        effectFly = "TracerTY_4s";
+        model = "\z\ace\addons\tracers\ace_TracerYellow2.p3d";
         ACE_bulletMass = 49.2176;
         AB_ballisticCoefficients[] = { 0.692 };
         ACE_muzzleVelocities[] = { 1000, 1200, 1500 };
@@ -120,7 +121,8 @@ class CfgAmmo
     class B_556x45_Ball;
     class rtg_556x45 : B_556x45_Ball {
         hit = 10;
-        model = "\A3\Weapons_f\Data\bullettracer\tracer_red";
+        effectFly = "TracerTY_4s";
+        model = "\z\ace\addons\tracers\ace_TracerYellow2.p3d";
         caliber = 0.684;
         AB_muzzleVelocities[] = { 820, 910, 1050 };
         AB_barrelLengths[] = { 280.0, 393.7, 508.0 };
@@ -134,13 +136,15 @@ class CfgAmmo
     class B_50BW_Ball_F;
 	class rtg_50bw : B_50BW_Ball_F {
         hit = 26;
-        model = "\A3\Weapons_f\Data\bullettracer\tracer_red";
+        effectFly = "TracerTY_4s";
+        model = "\z\ace\addons\tracers\ace_TracerYellow2.p3d";
     };
 
     class ACE_762x51_Ball_M118LR;
     class rtg_nitro : ACE_762x51_Ball_M118LR {
         hit = 4000;
-        model = "\A3\Weapons_f\Data\bullettracer\tracer_red";
+        effectFly = "TracerTY_4s";
+        model = "\z\ace\addons\tracers\ace_TracerYellow2.p3d";
         indirectHit = 2000;
 		indirectHitRange = 2;
         ACE_bulletMass = 90.2176;
@@ -151,7 +155,8 @@ class CfgAmmo
 
     class rtg_762_nato : ACE_762x51_Ball_M118LR {
         hit = 19;
-        model = "\A3\Weapons_f\Data\bullettracer\tracer_red";
+        effectFly = "TracerTY_4s";
+        model = "\z\ace\addons\tracers\ace_TracerYellow2.p3d";
         ACE_bulletMass = 11.2176;
         AB_ballisticCoefficients[] = { 0.692 };
         ACE_muzzleVelocities[] = { 910, 1000, 1200 };
@@ -163,23 +168,26 @@ class CfgAmmo
         hit = 9;
         ACE_muzzleVelocities[] = { 910, 1000, 1150 };
         ACE_barrelLengths[] = { 254.0, 393.7, 508.0 };
-        model = "\A3\Weapons_f\Data\bullettracer\tracer_red";
-    }
+        effectFly = "TracerTY_4s";
+        model = "\z\ace\addons\tracers\ace_TracerYellow2.p3d";
+    };
 
     class B_762x39_Ball_F;
     class rtg_762 : B_762x39_Ball_F {
         hit = 11;
-        model = "\A3\Weapons_f\Data\bullettracer\tracer_red";
+        effectFly = "TracerTY_4s";
+        model = "\z\ace\addons\tracers\ace_TracerYellow2.p3d";
         AB_muzzleVelocities[] = { 820, 910, 1050 };
         AB_barrelLengths[] = { 280.0, 393.7, 508.0 };
         ACE_muzzleVelocities[] = { 820, 910, 1050 };
         ACE_barrelLengths[] = { 280.0, 393.7, 508.0 };
-    }
+    };
 
     class HLC_300Blackout_Ball;
     class rtg_300blk : HLC_300Blackout_Ball{
 		hit = 12;
-		model = "\A3\Weapons_f\Data\bullettracer\tracer_red";
+		effectFly = "TracerTY_4s";
+        model = "\z\ace\addons\tracers\ace_TracerYellow2.p3d";
 		ACE_bulletMass = 6.4176;
 		AB_ballisticCoefficients[] = { 0.122 };
 		ACE_muzzleVelocities[] = { 500, 600, 700 };
@@ -191,29 +199,34 @@ class CfgAmmo
         hit = 9;
         ACE_muzzleVelocities[] = { 910, 1000, 1150 };
         ACE_barrelLengths[] = { 254.0, 393.7, 508.0 };
-        model = "\A3\Weapons_f\Data\bullettracer\tracer_red";
+        effectFly = "TracerTY_4s";
+        model = "\z\ace\addons\tracers\ace_TracerYellow2.p3d";
     };
 
     class ACE_9x19_Ball;
     class rtg_9mm : ACE_9x19_Ball {
         hit = 8;
-        model = "\A3\Weapons_f\Data\bullettracer\tracer_red";
+        effectFly = "TracerTY_4s";
+        model = "\z\ace\addons\tracers\ace_TracerYellow2.p3d";
     };
 
     class B_45ACP_Ball;
     class rtg_45 : B_45ACP_Ball{
         hit = 12;
         ACE_muzzleVelocities[] = {200, 250, 300};
+        effectFly = "TracerTR_2s";
     };
 
     class rtg_40 : B_45ACP_Ball{
         hit = 10;
         ACE_muzzleVelocities[] = {220, 280, 320};
+        effectFly = "TracerTR_2s";
     };
 
     class RH_50_AE_Ball;
     class rtg_50_AE : RH_50_AE_Ball{
         hit = 14;
+        effectFly = "TracerTR_2s";
     };
 
     class rhs_ammo_12g_FRAG;
@@ -286,12 +299,14 @@ class CfgAmmo
         explosive = 0.6;
         explosionTime = -1;
         fuseDistance = 35;
-        model = "\A3\Weapons_f\Data\bullettracer\tracer_red";
+        effectFly = "TracerTY_4s";
+        model = "\z\ace\addons\tracers\ace_TracerYellow2.p3d";
     };
 
     class B_570x28_Ball;
     class rtg_57 : B_570x28_Ball {
         hit = 8;
+        effectFly = "TracerTR_2s";
     };
 
     class R_MRAAWS_HEAT_F;
@@ -372,5 +387,16 @@ class CfgAmmo
         hit = 90;
         indirectHit = 45;
 		indirectHitRange = 9;
-    }
+    };
+
+    class SmokeShell;
+	class Chemlight_base: SmokeShell
+	{
+		timeToLive = 1200;
+		deflecting = 5;
+		explosionTime = 1;
+		grenadeFireSound[] = {};
+		grenadeBurningSound[] = {};
+		aiAmmoUsageFlags = "2 + 1";
+	};
 };

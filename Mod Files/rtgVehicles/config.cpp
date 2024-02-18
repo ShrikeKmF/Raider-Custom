@@ -7,7 +7,7 @@ class CfgPatches
 		author = "Shrike";
 		url = "";
 		requiredAddons[] = {"a3_characters_F","a3_characters_F_beta","A3_Characters_F_Common","a3_characters_f_beta","a3_characters_f_gamma","A3_Soft_F_epc","bma3_bushmaster","uk3cb_factions_fia","rhsusf_c_weapons"};
-		units[] = {"rtg_wheelsBox","hitman_light_vehicle","raider_light_strike_vehicle","raider_fast_rhib","rtg_artillery","raider_strike_car","raider_bushmaster_unarmed","rtg_loaf","rtg_damper","rtg_heavyLift_Cargo","rtg_heavyLift_Transport","rtg_cargoTransport","rtg_rhic","rtg_BasicSupply","rtg_atSupply","rtg_medicalSupply"};
+		units[] = {"raider_racecar", "rtg_wheelsBox","hitman_light_vehicle","raider_light_strike_vehicle","raider_fast_rhib","rtg_artillery","raider_strike_car","raider_bushmaster_unarmed","rtg_loaf","rtg_damper","rtg_heavyLift_Cargo","rtg_heavyLift_Transport","rtg_cargoTransport","rtg_rhic","rtg_BasicSupply","rtg_atSupply","rtg_medicalSupply"};
 	};
 };
 class cfgFactionClasses
@@ -56,6 +56,7 @@ class cfgEditorSubcategories
 		scope = 2;
 	};
 };
+
 class CfgVehicles
 {
 	class bma3_bushmaster_unarmed_F;
@@ -256,7 +257,7 @@ class CfgVehicles
 	class rhsusf_m998_d_s_2dr_halftop;
 	class hitman_light_vehicle: rhsusf_m998_d_s_2dr_halftop
 	{
-		displayName = "LV (Hitman) [2/3]";
+		displayName = "LV [1/7]";
 		editorSubcategory = "RTGCars";
 		author = "Shrike";
 		scope = 2;
@@ -264,16 +265,145 @@ class CfgVehicles
 		faction = "Raider_Tactical_F";
 		fuelConsumptionRate = 0.03;
 		fuelCapacity = 84;
-		ace_cargo_space = 16;
+		ace_cargo_space = 25;
 		ace_vehicles_engineStartDelay = 3;
 		acre_hasInfantryPhone = 0;
 		canFloat = 0;
 		weapons[] = {"SmokeLauncher","TruckHorn"};
 		magazines[] = {"SmokeLauncherMag"};
+
+		// Movement Config
+		simulation = "carx";
+		maxSpeed = 115;
+		brakeIdleSpeed = 0.87;
+		switchTime	= 0.5;
+		latency		= 1.0;
+		changeGearType 			= "effective";		// condition for switching gears
+		changeGearOmegaRatios[] = {						// rpm ratio max/min pair
+			__EVAL(3400/3400)	, __EVAL(1000/3400),
+			__EVAL(700/3400)	, __EVAL(500/3400),
+			__EVAL(3150/3400)	, __EVAL(1600/3400),
+			__EVAL(2600/3400)	, __EVAL(1200/3400),
+			__EVAL(2900/3400)	, __EVAL(1700/3400),
+			__EVAL(3400/3400)	, __EVAL(2200/3400)
+		};		
+		class complexGearbox
+		{
+			GearboxRatios[] = {
+				"R1",	-3.07,
+				"N",	0,
+				"D1",	2.78,
+				"D2",	1.48,
+				"D3",	1.0,
+				"D4",	0.75
+			};
+			TransmissionRatios[] = {"High",6.0};
+			gearBoxMode = "auto";
+			moveOffGear = 1;
+			driveString = "D";
+			neutralString = "N";
+			reverseString = "R";
+		};
+
+		differentialType = "all_limited";
+		frontRearSplit=0.5;
+		frontBias=2.7;
+		rearBias=1.9;
+		centreBias=1.5;
+		clutchStrength=85;
+		transmissionLosses = 20;
+		dampingRateFullThrottle					= 0.15;
+		dampingRateZeroThrottleClutchEngaged	= 2.8;
+		dampingRateZeroThrottleClutchDisengaged	= 0.35;
+		torqueCurve[] = {
+		{__EVAL(650/3400),__EVAL(420/597)},
+		{__EVAL(1000/3400),__EVAL(465/597)},
+		{__EVAL(1400/3400),__EVAL(544/597)},
+		{__EVAL(1800/3400),__EVAL(597/597)},
+		{__EVAL(2400/3400),__EVAL(583/597)},
+		{__EVAL(2600/3400),__EVAL(499/597)},
+		{__EVAL(3200/3400),__EVAL(472/597)},
+		{__EVAL(3603/3400),__EVAL(0/597)}
+		};		
+
+		enginePower = 191;
+		peakTorque = 597;
+		minOmega = 41;
+		maxOmega = 356.05;
+		idleRPM = 650;
+		redRPM = 3400;
+
+		engineLosses = 12;
+		thrustDelay=0.8;
+		engineBrakeCoef = 0.8;
+
+		antiRollbarForceCoef=20;
+		antiRollbarForceLimit=5.5;
+		antiRollbarSpeedMin=10;
+		antiRollbarSpeedMax=80;
+
+		accelAidForceYOffset = -1.25;
+	
+		// Wheels
+		class Wheels
+		{
+			class LF
+			{
+				side = "left";
+				boneName = "wheel_1_1_damper";
+				center = "axis_wheel_1_1";
+				boundary = "bound_wheel_1_1";
+				suspForceAppPointOffset = "axis_wheel_1_1";
+				tireForceAppPointOffset = "axis_wheel_1_1";
+				suspTravelDirection[] = {0,-1,0};
+				steering = 1;
+				width = 0.25;
+				mass = 80;
+				MOI = 10.9;
+				maxBrakeTorque = 7500;
+				maxHandBrakeTorque = 0;
+				longitudinalStiffnessPerUnitGravity = 1250;
+				latStiffX = 24.1;
+				latStiffY = 16.1;
+				frictionVsSlipGraph[] = {{0,0.3},{0.5,1},{0.8,0.7},{1,0.6}};
+			};
+			class LR: LF
+			{
+				boneName = "wheel_1_2_damper";
+				steering = 0;
+				center = "axis_wheel_3_1";
+				boundary = "bound_wheel_3_1";
+				suspForceAppPointOffset = "axis_wheel_3_1";
+				tireForceAppPointOffset = "axis_wheel_3_1";
+				maxHandBrakeTorque = 18500;
+			};
+			class RF: LF
+			{
+				boneName = "wheel_2_1_damper";
+				center = "axis_wheel_2_1";
+				boundary = "bound_wheel_2_1";
+				suspForceAppPointOffset = "axis_wheel_2_1";
+				tireForceAppPointOffset = "axis_wheel_2_1";
+				steering = 1;
+				side = "right";
+				suspTravelDirection[] = {0,-1,0};
+			};
+			class RR: RF
+			{
+				boneName = "wheel_2_2_damper";
+				steering = 0;
+				center = "axis_wheel_4_1";
+				boundary = "bound_wheel_4_1";
+				suspForceAppPointOffset = "axis_wheel_4_1";
+				tireForceAppPointOffset = "axis_wheel_4_1";
+				maxHandBrakeTorque = 18500;
+			};
+		};
+
 		ace_tagging_canTag = 1;
 		smokeLauncherGrenadeCount = 4;
 		smokeLauncherVelocity = 14;
-		smokeLauncherOnTurret = 1;
+		smokeLauncherOnTurret = 0;
 		smokeLauncherAngle = 160;
 		ace_refuel_fuelCargo = 80;
 		armor = 25;
@@ -403,6 +533,145 @@ class CfgVehicles
 			};
 		};
 	};
+
+	class raider_racecar : hitman_light_vehicle
+	{
+		displayName = "LV-10R  [1/7]";
+		editorSubcategory = "RTGCars";
+		author = "Shrike";
+		scope = 2;
+		side = 1;
+		faction = "Raider_Tactical_F";
+
+		// Movement Config
+		simulation = "carx";
+		maxSpeed = 115;
+		brakeIdleSpeed = 0.87;
+		switchTime	= 0.5;
+		latency		= 1.0;
+		changeGearType 			= "effective";		// condition for switching gears
+		changeGearOmegaRatios[] = {						// rpm ratio max/min pair
+			__EVAL(3400/3400)	, __EVAL(1000/3400),
+			__EVAL(700/3400)	, __EVAL(500/3400),
+			__EVAL(3150/3400)	, __EVAL(1600/3400),
+			__EVAL(2600/3400)	, __EVAL(1200/3400),
+			__EVAL(2900/3400)	, __EVAL(1700/3400),
+			__EVAL(3400/3400)	, __EVAL(2200/3400)
+		};		
+		class complexGearbox
+		{
+			GearboxRatios[] = {
+				"R1",	-3.07,
+				"N",	0,
+				"D1",	2.78,
+				"D2",	1.48,
+				"D3",	1.0,
+				"D4",	0.75
+			};
+			TransmissionRatios[] = {"High",6.0};
+			gearBoxMode = "auto";
+			moveOffGear = 1;
+			driveString = "D";
+			neutralString = "N";
+			reverseString = "R";
+		};
+
+		differentialType = "all_limited";
+		frontRearSplit=0.5;
+		frontBias=2.7;
+		rearBias=1.9;
+		centreBias=1.5;
+		clutchStrength=85;
+		transmissionLosses = 20;
+		dampingRateFullThrottle					= 0.15;
+		dampingRateZeroThrottleClutchEngaged	= 2.8;
+		dampingRateZeroThrottleClutchDisengaged	= 0.35;
+		torqueCurve[] = {
+		{__EVAL(650/3400),__EVAL(420/597)},
+		{__EVAL(1000/3400),__EVAL(465/597)},
+		{__EVAL(1400/3400),__EVAL(544/597)},
+		{__EVAL(1800/3400),__EVAL(597/597)},
+		{__EVAL(2400/3400),__EVAL(583/597)},
+		{__EVAL(2600/3400),__EVAL(499/597)},
+		{__EVAL(3200/3400),__EVAL(472/597)},
+		{__EVAL(3603/3400),__EVAL(0/597)}
+		};		
+
+		enginePower = 292;
+		peakTorque = 597;
+		minOmega = 41;
+		maxOmega = 356.05;
+		idleRPM = 650;
+		redRPM = 3400;
+
+		engineLosses = 12;
+		thrustDelay=0.8;
+		engineBrakeCoef = 0.8;
+
+		antiRollbarForceCoef=20;
+		antiRollbarForceLimit=5.5;
+		antiRollbarSpeedMin=10;
+		antiRollbarSpeedMax=80;
+
+		accelAidForceYOffset = -1.25;
+	
+		// Wheels
+		class Wheels
+		{
+			class LF
+			{
+				side = "left";
+				boneName = "wheel_1_1_damper";
+				center = "axis_wheel_1_1";
+				boundary = "bound_wheel_1_1";
+				suspForceAppPointOffset = "axis_wheel_1_1";
+				tireForceAppPointOffset = "axis_wheel_1_1";
+				suspTravelDirection[] = {0,-1,0};
+				steering = 1;
+				width = 0.25;
+				mass = 80;
+				MOI = 10.9;
+				maxBrakeTorque = 7500;
+				maxHandBrakeTorque = 0;
+				longitudinalStiffnessPerUnitGravity = 1250;
+				latStiffX = 24.5;
+				latStiffY = 16.1;
+				frictionVsSlipGraph[] = {{0,0.3},{0.5,1},{0.8,0.7},{1,0.6}};
+			};
+			class LR: LF
+			{
+				boneName = "wheel_1_2_damper";
+				steering = 0;
+				center = "axis_wheel_3_1";
+				boundary = "bound_wheel_3_1";
+				suspForceAppPointOffset = "axis_wheel_3_1";
+				tireForceAppPointOffset = "axis_wheel_3_1";
+				maxHandBrakeTorque = 18500;
+			};
+			class RF: LF
+			{
+				boneName = "wheel_2_1_damper";
+				center = "axis_wheel_2_1";
+				boundary = "bound_wheel_2_1";
+				suspForceAppPointOffset = "axis_wheel_2_1";
+				tireForceAppPointOffset = "axis_wheel_2_1";
+				steering = 1;
+				side = "right";
+				suspTravelDirection[] = {0,-1,0};
+			};
+			class RR: RF
+			{
+				boneName = "wheel_2_2_damper";
+				steering = 0;
+				center = "axis_wheel_4_1";
+				boundary = "bound_wheel_4_1";
+				suspForceAppPointOffset = "axis_wheel_4_1";
+				tireForceAppPointOffset = "axis_wheel_4_1";
+				maxHandBrakeTorque = 18500;
+			};
+		};
+	};
+
 	class raider_light_strike_vehicle: rhsusf_m1025_d_m2
 	{
 		displayName = "LSV Armed [2/3]";
@@ -425,6 +694,135 @@ class CfgVehicles
 		smokeLauncherOnTurret = 1;
 		smokeLauncherAngle = 160;
 		ace_refuel_fuelCargo = 80;
+
+		// Movement Config
+		simulation = "carx";
+		maxSpeed = 115;
+		brakeIdleSpeed = 0.87;
+		switchTime	= 0.5;
+		latency		= 1.0;
+		changeGearType 			= "effective";		// condition for switching gears
+		changeGearOmegaRatios[] = {						// rpm ratio max/min pair
+			__EVAL(3400/3400)	, __EVAL(1000/3400),
+			__EVAL(700/3400)	, __EVAL(500/3400),
+			__EVAL(3150/3400)	, __EVAL(1600/3400),
+			__EVAL(2600/3400)	, __EVAL(1200/3400),
+			__EVAL(2900/3400)	, __EVAL(1700/3400),
+			__EVAL(3400/3400)	, __EVAL(2200/3400)
+		};		
+		class complexGearbox
+		{
+			GearboxRatios[] = {
+				"R1",	-3.07,
+				"N",	0,
+				"D1",	2.78,
+				"D2",	1.48,
+				"D3",	1.0,
+				"D4",	0.75
+			};
+			TransmissionRatios[] = {"High",6.0};
+			gearBoxMode = "auto";
+			moveOffGear = 1;
+			driveString = "D";
+			neutralString = "N";
+			reverseString = "R";
+		};
+
+		differentialType = "all_limited";
+		frontRearSplit=0.5;
+		frontBias=2.7;
+		rearBias=1.9;
+		centreBias=1.5;
+		clutchStrength=85;
+		transmissionLosses = 20;
+		dampingRateFullThrottle					= 0.15;
+		dampingRateZeroThrottleClutchEngaged	= 2.8;
+		dampingRateZeroThrottleClutchDisengaged	= 0.35;
+		torqueCurve[] = {
+		{__EVAL(650/3400),__EVAL(420/597)},
+		{__EVAL(1000/3400),__EVAL(465/597)},
+		{__EVAL(1400/3400),__EVAL(544/597)},
+		{__EVAL(1800/3400),__EVAL(597/597)},
+		{__EVAL(2400/3400),__EVAL(583/597)},
+		{__EVAL(2600/3400),__EVAL(499/597)},
+		{__EVAL(3200/3400),__EVAL(472/597)},
+		{__EVAL(3603/3400),__EVAL(0/597)}
+		};		
+
+		enginePower = 191;
+		peakTorque = 597;
+		minOmega = 41;
+		maxOmega = 356.05;
+		idleRPM = 650;
+		redRPM = 3400;
+
+		engineLosses = 12;
+		thrustDelay=0.8;
+		engineBrakeCoef = 0.8;
+
+		antiRollbarForceCoef=20;
+		antiRollbarForceLimit=5.5;
+		antiRollbarSpeedMin=10;
+		antiRollbarSpeedMax=80;
+
+		accelAidForceYOffset = -1.25;
+	
+		// Wheels
+		class Wheels
+		{
+			class LF
+			{
+				side = "left";
+				boneName = "wheel_1_1_damper";
+				center = "axis_wheel_1_1";
+				boundary = "bound_wheel_1_1";
+				suspForceAppPointOffset = "axis_wheel_1_1";
+				tireForceAppPointOffset = "axis_wheel_1_1";
+				suspTravelDirection[] = {0,-1,0};
+				steering = 1;
+				width = 0.25;
+				mass = 80;
+				MOI = 10.9;
+				maxBrakeTorque = 7500;
+				maxHandBrakeTorque = 0;
+				longitudinalStiffnessPerUnitGravity = 1250;
+				latStiffX = 24.1;
+				latStiffY = 16.1;
+				frictionVsSlipGraph[] = {{0,0.3},{0.5,1},{0.8,0.7},{1,0.6}};
+			};
+			class LR: LF
+			{
+				boneName = "wheel_1_2_damper";
+				steering = 0;
+				center = "axis_wheel_3_1";
+				boundary = "bound_wheel_3_1";
+				suspForceAppPointOffset = "axis_wheel_3_1";
+				tireForceAppPointOffset = "axis_wheel_3_1";
+				maxHandBrakeTorque = 18500;
+			};
+			class RF: LF
+			{
+				boneName = "wheel_2_1_damper";
+				center = "axis_wheel_2_1";
+				boundary = "bound_wheel_2_1";
+				suspForceAppPointOffset = "axis_wheel_2_1";
+				tireForceAppPointOffset = "axis_wheel_2_1";
+				steering = 1;
+				side = "right";
+				suspTravelDirection[] = {0,-1,0};
+			};
+			class RR: RF
+			{
+				boneName = "wheel_2_2_damper";
+				steering = 0;
+				center = "axis_wheel_4_1";
+				boundary = "bound_wheel_4_1";
+				suspForceAppPointOffset = "axis_wheel_4_1";
+				tireForceAppPointOffset = "axis_wheel_4_1";
+				maxHandBrakeTorque = 18500;
+			};
+		};
+
 		armor = 25;
 		armorStructural = 2;
 		armorFuel = 1.4;
@@ -482,9 +880,9 @@ class CfgVehicles
 				gunnerForceOptics = 0;
 				gunnerOutOpticsShowCursor = 0;
 				weapons[] = {"RHS_M2"};
-				magazines[] = {"rhs_mag_100rnd_127x99_mag_Tracer_Red","rhs_mag_100rnd_127x99_mag_Tracer_Red","rhs_mag_100rnd_127x99_mag_Tracer_Red","rhs_mag_100rnd_127x99_mag_Tracer_Red","rhs_mag_100rnd_127x99_mag_Tracer_Red","rhs_mag_100rnd_127x99_mag_Tracer_Red","rhs_mag_100rnd_127x99_mag_Tracer_Red","rhs_mag_100rnd_127x99_mag_Tracer_Red","rhs_mag_100rnd_127x99_mag_Tracer_Red","rhs_mag_100rnd_127x99_mag_Tracer_Red"};
-				minElev = -11;
-				maxElev = 40;
+				magazines[] = {"rhs_mag_100rnd_127x99_mag_Tracer_Yellow","rhs_mag_100rnd_127x99_mag_Tracer_Yellow","rhs_mag_100rnd_127x99_mag_Tracer_Yellow","rhs_mag_100rnd_127x99_mag_Tracer_Yellow","rhs_mag_100rnd_127x99_mag_Tracer_Yellow","rhs_mag_100rnd_127x99_mag_Tracer_Yellow","rhs_mag_100rnd_127x99_mag_Tracer_Yellow","rhs_mag_100rnd_127x99_mag_Tracer_Yellow","rhs_mag_100rnd_127x99_mag_Tracer_Yellow","rhs_mag_100rnd_127x99_mag_Tracer_Yellow"};
+				minElev = -12;
+				maxElev = 45;
 				soundServo[] = {"A3\sounds_f\dummysound",1e-06,1};
 				soundAttenuationTurret = "HeliAttenuationGunner";
 				disableSoundAttenuation = 1;
@@ -638,16 +1036,116 @@ class CfgVehicles
 		damageResistance = 0.00619;
 		fuelExplosionPower = 5;
 		destrType = "DestructWreck";
-		maxSpeed = 110;
-		enginePower = 281;
-		maximumLoad = 20000;
-		brakeDistance = 14;
 		ace_cargo_space = 16;
 		ace_vehicles_engineStartDelay = 3;
 		acre_hasInfantryPhone = 0;
 		canFloat = 1;
 		waterSpeedFactor = 1;
 		waterResistanceCoef = 0.11;
+
+		// Movement Config
+		simulation = "carx";
+		maxSpeed = 115;
+		brakeIdleSpeed = 0.87;
+		switchTime = 0.4;
+		latency = 2.0;
+		changeGearType = "effective";
+		changeGearOmegaRatios[] = {1,0.294118,0.205882,0.147059,0.926471,0.470588,0.764706,0.352941,0.852941,0.5,1,0.647059};
+		class complexGearbox
+		{
+			GearboxRatios[] = {"R1",-3.8,"N",0,"D1",3.0,"D2",2.0,"D3",1.2,"D4",0.8,"D5",0.6};
+			TransmissionRatios[] = {"High",4.137};
+			gearBoxMode = "auto";
+			moveOffGear = 1;
+			driveString = "D";
+			neutralString = "N";
+			reverseString = "R";
+		};
+		differentialType = "front_limited";
+		clutchStrength = 2500;
+		transmissionLosses = 20;
+		dampingRateFullThrottle = 0.15;
+		dampingRateZeroThrottleClutchEngaged = 2.8;
+		dampingRateZeroThrottleClutchDisengaged = 0.35;
+		torqueCurve[] = {{0.191176,0.703518},{0.294118,0.778894},{0.411765,0.911223},{0.529412,1},{0.705882,0.976549},{0.764706,0.835846},{0.941176,0.79062},{1.05971,0}};
+		engineMOI = 7;
+		enginePower = 382;
+		peakTorque = 617;
+		minOmega = 41;
+		maxOmega = 376.05;
+		idleRPM = 700;
+		redRPM = 3550;
+		engineLosses = 12;
+		thrustDelay = 0.2;
+		engineBrakeCoef = 0.8;
+		antiRollbarForceCoef = 0.7;
+		antiRollbarForceLimit = 5;
+		antiRollbarSpeedMin = 10;
+		antiRollbarSpeedMax = 80;
+		
+		// Wheels
+		class Wheels
+		{
+			class LF
+			{
+				boneName = "wheel_1_1";
+				steering = 1;
+				side = "left";
+				center = "wheel_1_1_axis";
+				boundary = "wheel_1_1_bound";
+				width = "0.2";
+				mass = 150;
+				suspTravelDirection[] = {0.25,-1,0};
+				maxHandBrakeTorque = 0;
+				suspForceAppPointOffset = "wheel_1_1_axis";
+				tireForceAppPointOffset = "wheel_1_1_axis";
+				maxCompression = 0.15;
+				mMaxDroop = 0.15;
+				sprungMass = 2066;
+				springStrength = 201234;
+				springDamperRate = 20600.6;
+				MOI = 10.9;
+				dampingRate = 0.1;
+				maxBrakeTorque = 8000;
+				maxHandBrakeTorque = 0;
+				longitudinalStiffnessPerUnitGravity = 990;
+				latStiffX = 42.6;
+				latStiffY = 32.8;
+				frictionVsSlipGraph[] = {{0,0.3},{0.5,1},{0.8,0.7},{1,0.6}};
+			};
+			class LR: LF
+			{
+				boneName = "wheel_1_2";
+				steering = 0;
+				center = "wheel_1_2_axis";
+				boundary = "wheel_1_2_bound";
+				suspForceAppPointOffset = "wheel_1_2_axis";
+				tireForceAppPointOffset = "wheel_1_2_axis";
+				maxHandBrakeTorque = 18000;
+			};
+			class RF: LF
+			{
+				boneName = "wheel_2_1";
+				center = "wheel_2_1_axis";
+				boundary = "wheel_2_1_bound";
+				suspForceAppPointOffset = "wheel_2_1_axis";
+				tireForceAppPointOffset = "wheel_2_1_axis";
+				steering = 1;
+				side = "right";
+				suspTravelDirection[] = {-0.25,-1,0};
+			};
+			class RR: RF
+			{
+				boneName = "wheel_2_2";
+				steering = 0;
+				center = "wheel_2_2_axis";
+				boundary = "wheel_2_2_bound";
+				suspForceAppPointOffset = "wheel_2_2_axis";
+				tireForceAppPointOffset = "wheel_2_2_axis";
+				maxHandBrakeTorque = 18000;
+			};
+		};
+
 		weapons[] = {"SmokeLauncher","TruckHorn"};
 		magazines[] = {"SmokeLauncherMag"};
 		smokeLauncherGrenadeCount = 4;
@@ -662,21 +1160,21 @@ class CfgVehicles
 			{
 				displayName = "Black (Sabre)";
 				author = "Fish";
-				textures[] = {"rtgVehicles\tex\bushmaster\bm2_S.paa","","",""};
+				textures[] = {"rtgVehicles\tex\bushmaster\bm2_S.paa","rtgVehicles\tex\bushmaster\rtg_co.paa","bma3\bma3_bushmaster_data\camo3\camo3_co.paa",""};
 				factions[] = {"Raider_Tactical_F"};
 			};
 			class rtg_black2
 			{
 				displayName = "Black (Ares)";
 				author = "Fish";
-				textures[] = {"rtgVehicles\tex\bushmaster\bm2_A.paa","","",""};
+				textures[] = {"rtgVehicles\tex\bushmaster\bm2_A.paa","rtgVehicles\tex\bushmaster\rtg_co.paa","bma3\bma3_bushmaster_data\camo3\camo3_co.paa",""};
 				factions[] = {"Raider_Tactical_F"};
 			};
 			class rtg_black3
 			{
 				displayName = "Black (Demon)";
 				author = "Fish";
-				textures[] = {"rtgVehicles\tex\bushmaster\bm2_C.paa","","",""};
+				textures[] = {"rtgVehicles\tex\bushmaster\bm2_C.paa","rtgVehicles\tex\bushmaster\rtg_co.paa","bma3\bma3_bushmaster_data\camo3\camo3_co.paa",""};
 				factions[] = {"Raider_Tactical_F"};
 			};
 		};
@@ -823,7 +1321,8 @@ class CfgVehicles
 		armor = 20;
 		weapons[] = {"CMFlareLauncher"};
 		magazines[] = {"168Rnd_CMFlare_Chaff_Magazine"};
-		ace_fastroping_enabled = 1;
+		ace_fastroping_enabled = 2;
+		ace_fastroping_friesType = "ACE_friesAnchorBar";
 		ace_refuel_fuelCargo = 80;
 		class Turrets: Turrets
 		{
