@@ -1,2 +1,3 @@
 # Auto detect text files and perform LF normalization
 *.sqf linguist-detectable=true
+*.c++ linguist-detectable=false
