@@ -609,4 +609,18 @@ class CfgMagazines
 		displayNameShort = "$STR_A3_CFGMAGAZINES_CHEMLIGHTT_BLUE_DNS";
 		picture = "\A3\Weapons_F\Data\UI\M_chemlight_blue_CA.paa";
 	};
+
+    class VehicleMagazine;
+    class rhs_mag_1100Rnd_762x51_M240: VehicleMagazine
+	{
+		scope			= 2;
+		ammo			= "rhs_ammo_762x51_M80A1EPR_Ball";
+		displayname		= "7.62x51mm EPR";
+		displaynameshort= "M80A1 EPR";
+		namesound		= "mgun";
+		initspeed		= 930;
+		maxleadspeed	= 100;
+		count			= 1100;
+		tracersevery	= 1;
+	};
 };

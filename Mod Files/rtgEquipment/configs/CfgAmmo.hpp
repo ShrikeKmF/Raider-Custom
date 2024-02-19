@@ -110,7 +110,7 @@ class CfgAmmo
     class rhsusf_ammo_127x99_M33_Ball;
     class rtg_127x99 : rhsusf_ammo_127x99_M33_Ball {
         hit = 90;
-        effectFly = "TracerTY_4s";
+        
         model = "\z\ace\addons\tracers\ace_TracerYellow2.p3d";
         ACE_bulletMass = 49.2176;
         AB_ballisticCoefficients[] = { 0.692 };
@@ -121,7 +121,7 @@ class CfgAmmo
     class B_556x45_Ball;
     class rtg_556x45 : B_556x45_Ball {
         hit = 10;
-        effectFly = "TracerTY_4s";
+        
         model = "\z\ace\addons\tracers\ace_TracerYellow2.p3d";
         caliber = 0.684;
         AB_muzzleVelocities[] = { 820, 910, 1050 };
@@ -136,14 +136,14 @@ class CfgAmmo
     class B_50BW_Ball_F;
 	class rtg_50bw : B_50BW_Ball_F {
         hit = 26;
-        effectFly = "TracerTY_4s";
+        
         model = "\z\ace\addons\tracers\ace_TracerYellow2.p3d";
     };
 
     class ACE_762x51_Ball_M118LR;
     class rtg_nitro : ACE_762x51_Ball_M118LR {
         hit = 4000;
-        effectFly = "TracerTY_4s";
+        
         model = "\z\ace\addons\tracers\ace_TracerYellow2.p3d";
         indirectHit = 2000;
 		indirectHitRange = 2;
@@ -155,7 +155,7 @@ class CfgAmmo
 
     class rtg_762_nato : ACE_762x51_Ball_M118LR {
         hit = 19;
-        effectFly = "TracerTY_4s";
+        
         model = "\z\ace\addons\tracers\ace_TracerYellow2.p3d";
         ACE_bulletMass = 11.2176;
         AB_ballisticCoefficients[] = { 0.692 };
@@ -168,14 +168,14 @@ class CfgAmmo
         hit = 9;
         ACE_muzzleVelocities[] = { 910, 1000, 1150 };
         ACE_barrelLengths[] = { 254.0, 393.7, 508.0 };
-        effectFly = "TracerTY_4s";
+        
         model = "\z\ace\addons\tracers\ace_TracerYellow2.p3d";
     };
 
     class B_762x39_Ball_F;
     class rtg_762 : B_762x39_Ball_F {
         hit = 11;
-        effectFly = "TracerTY_4s";
+        
         model = "\z\ace\addons\tracers\ace_TracerYellow2.p3d";
         AB_muzzleVelocities[] = { 820, 910, 1050 };
         AB_barrelLengths[] = { 280.0, 393.7, 508.0 };
@@ -186,7 +186,7 @@ class CfgAmmo
     class HLC_300Blackout_Ball;
     class rtg_300blk : HLC_300Blackout_Ball{
 		hit = 12;
-		effectFly = "TracerTY_4s";
+		
         model = "\z\ace\addons\tracers\ace_TracerYellow2.p3d";
 		ACE_bulletMass = 6.4176;
 		AB_ballisticCoefficients[] = { 0.122 };
@@ -199,14 +199,14 @@ class CfgAmmo
         hit = 9;
         ACE_muzzleVelocities[] = { 910, 1000, 1150 };
         ACE_barrelLengths[] = { 254.0, 393.7, 508.0 };
-        effectFly = "TracerTY_4s";
+        
         model = "\z\ace\addons\tracers\ace_TracerYellow2.p3d";
     };
 
     class ACE_9x19_Ball;
     class rtg_9mm : ACE_9x19_Ball {
         hit = 8;
-        effectFly = "TracerTY_4s";
+        
         model = "\z\ace\addons\tracers\ace_TracerYellow2.p3d";
     };
 
@@ -299,7 +299,7 @@ class CfgAmmo
         explosive = 0.6;
         explosionTime = -1;
         fuseDistance = 35;
-        effectFly = "TracerTY_4s";
+        
         model = "\z\ace\addons\tracers\ace_TracerYellow2.p3d";
     };
 
@@ -398,5 +398,50 @@ class CfgAmmo
 		grenadeFireSound[] = {};
 		grenadeBurningSound[] = {};
 		aiAmmoUsageFlags = "2 + 1";
+	};
+
+    class B_30mm_HE;
+	class B_20mm;
+	class ej_B_20mm_AP: B_20mm
+	{
+		hit = 61.242485;
+		indirectHit = 20;
+		indirectHitRange = 3;
+		visibleFire = 28;
+		audibleFire = 28;
+		visibleFireTime = 3;
+		cost = 25;
+		airLock = 1;
+		explosive = 0.3;
+		model = "\z\ace\addons\tracers\ace_TracerYellow2.p3d";
+		tracerScale = 1.8;
+		tracerStartTime = 0.1;
+		tracerEndTime = 2;
+		airFriction = -0.000633942;
+		caliber = 2.33;
+	};
+	class B_30x113mm_M789_HEDP: B_30mm_HE
+	{
+		hit = 82.39158;
+		indirectHit = 24;
+		indirectHitRange = 1;
+		model = "\z\ace\addons\tracers\ace_TracerYellow2.p3d";
+		tracerScale = 2;
+		tracerStartTime = 0.1;
+		tracerEndTime = 2.3;
+		explosive = 0.3;
+		airFriction = -0.0010785541;
+		caliber = 1.242236;
+		allowAgainstInfantry = 1;
+	};
+
+    class rhs_ammo_762x51_M80_Ball;
+    class rhs_ammo_762x51_M80A1EPR_Ball: rhs_ammo_762x51_M80_Ball
+	{
+        model = "\z\ace\addons\tracers\ace_TracerYellow2.p3d";
+		hit = 10.5;
+		caliber = 0.55;
+		airFriction = -0.0007114;
+		typicalSpeed = 930;
 	};
 };

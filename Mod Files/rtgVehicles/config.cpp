@@ -7,7 +7,7 @@ class CfgPatches
 		author = "Shrike";
 		url = "";
 		requiredAddons[] = {"a3_characters_F","a3_characters_F_beta","A3_Characters_F_Common","a3_characters_f_beta","a3_characters_f_gamma","A3_Soft_F_epc","bma3_bushmaster","uk3cb_factions_fia","rhsusf_c_weapons"};
-		units[] = {"raider_racecar", "rtg_wheelsBox","hitman_light_vehicle","raider_light_strike_vehicle","raider_fast_rhib","rtg_artillery","raider_strike_car","raider_bushmaster_unarmed","rtg_loaf","rtg_damper","rtg_heavyLift_Cargo","rtg_heavyLift_Transport","rtg_cargoTransport","rtg_rhic","rtg_BasicSupply","rtg_atSupply","rtg_medicalSupply"};
+		units[] = {"raider_racecar", "rtg_wheelsBox","hitman_light_vehicle","raider_light_strike_vehicle","raider_fast_rhib","rtg_artillery","raider_strike_car","raider_bushmaster_unarmed","rtg_loaf","rtg_damper","rtg_heavyLift_Cargo","rtg_heavyLift_Transport","rtg_BasicSupply","rtg_atSupply","rtg_medicalSupply"};
 	};
 };
 class cfgFactionClasses
@@ -415,7 +415,18 @@ class CfgVehicles
 		armorHull = 1;
 		armorEngine = 2;
 		hiddenSelections[] = {"exterior","interior","A2","wheels","mainbody","hood gratting","interior_wood","2drcargocomplete","camo1","unitdecals_1","unitdecals_2"};
-		hiddenSelectionsTextures[] = {"rtgVehicles\tex\LSV\a_exterior_black.paa","rtgVehicles\tex\LSV\b_interior_black.paa","rtgVehicles\tex\LSV\c_a2_black.paa","rtgVehicles\tex\LSV\d_wheels_black.paa","rtgVehicles\tex\LSV\e_mainbody_black.paa","rtgVehicles\tex\LSV\f_gratting_black.paa","rtgVehicles\tex\LSV\l_interior_wood_black.paa","rtgVehicles\tex\LSV\k_2drcargocomplete_black.paa","rtgVehicles\tex\LSV\i_unitdecals1.paa","rtgVehicles\tex\LSV\j_unitdecals2.paa"};
+		hiddenSelectionsTextures[] = {"rtgVehicles\tex\LSV\a_exterior_black.paa","rtgVehicles\tex\LSV\b_interior_black.paa","rtgVehicles\tex\LSV\c_a2_black.paa","rtgVehicles\tex\LSV\d_wheels_black.paa","rtgVehicles\tex\LSV\e_mainbody_black.paa","rtgVehicles\tex\LSV\f_gratting_black.paa","","rtgVehicles\tex\LSV\k_2drcargocomplete_black_with_logoshitman.paa","rtgVehicles\tex\LSV\i_unitdecals1.paa","rtgVehicles\tex\LSV\j_unitdecals2.paa"};
+		class textureSources
+		{
+			class rtg_hitman
+			{
+				displayName = "Hitman";
+				author = "Shrike";
+				textures[] = {"rtgVehicles\tex\LSV\a_exterior_black.paa","rtgVehicles\tex\LSV\b_interior_black.paa","rtgVehicles\tex\LSV\c_a2_black.paa","rtgVehicles\tex\LSV\d_wheels_black.paa","rtgVehicles\tex\LSV\e_mainbody_black.paa","rtgVehicles\tex\LSV\f_gratting_black.paa","","rtgVehicles\tex\LSV\k_2drcargocomplete_black_with_logoshitman.paa","rtgVehicles\tex\LSV\i_unitdecals1.paa","rtgVehicles\tex\LSV\j_unitdecals2.paa"};
+				factions[] = {"Raider_Tactical_F"};
+			};
+		};
+		
 		class HitPoints: HitPoints
 		{
 			class hitwindshield_1: hitwindshield_1
@@ -545,7 +556,7 @@ class CfgVehicles
 
 		// Movement Config
 		simulation = "carx";
-		maxSpeed = 115;
+		maxSpeed = 240;
 		brakeIdleSpeed = 0.87;
 		switchTime	= 0.5;
 		latency		= 1.0;
@@ -597,7 +608,7 @@ class CfgVehicles
 		{__EVAL(3603/3400),__EVAL(0/597)}
 		};		
 
-		enginePower = 292;
+		enginePower = 421;
 		peakTorque = 597;
 		minOmega = 41;
 		maxOmega = 356.05;
@@ -634,8 +645,8 @@ class CfgVehicles
 				maxBrakeTorque = 7500;
 				maxHandBrakeTorque = 0;
 				longitudinalStiffnessPerUnitGravity = 1250;
-				latStiffX = 24.5;
-				latStiffY = 16.1;
+				latStiffX = 38.5;
+				latStiffY = 24.1;
 				frictionVsSlipGraph[] = {{0,0.3},{0.5,1},{0.8,0.7},{1,0.6}};
 			};
 			class LR: LF
@@ -833,6 +844,44 @@ class CfgVehicles
 		armorEngine = 2;
 		hiddenSelections[] = {"exterior","interior","A2","wheels","mainbody","hood gratting","camo1","camo2","unitdecals_1","unitdecals_2"};
 		hiddenSelectionsTextures[] = {"rtgVehicles\tex\LSV\a_exterior_black.paa","rtgVehicles\tex\LSV\b_interior_black.paa","rtgVehicles\tex\LSV\c_a2_black.paa","rtgVehicles\tex\LSV\d_wheels_black.paa","rtgVehicles\tex\LSV\e_mainbody_black.paa","rtgVehicles\tex\LSV\f_gratting_black.paa","rtgVehicles\tex\LSV\g_camo1_tile_black.paa","rtgVehicles\tex\LSV\h_camo2_m1025_black.paa","rtgVehicles\tex\LSV\i_unitdecals1.paa","rtgVehicles\tex\LSV\j_unitdecals2.paa"};
+		class textureSources
+		{
+			class rtg_empty
+			{
+				displayName = "Clear";
+				author = "Fish & Shrike";
+				textures[] = {"rtgVehicles\tex\LSV\a_exterior_black.paa","rtgVehicles\tex\LSV\b_interior_black.paa","rtgVehicles\tex\LSV\c_a2_black.paa","rtgVehicles\tex\LSV\d_wheels_black.paa","rtgVehicles\tex\LSV\e_mainbody_black.paa","rtgVehicles\tex\LSV\f_gratting_black.paa","rtgVehicles\tex\LSV\g_camo1_tile_black.paa","rtgVehicles\tex\LSV\h_camo2_m1025_black.paa","rtgVehicles\tex\LSV\i_unitdecals1.paa","rtgVehicles\tex\LSV\j_unitdecals2.paa"};
+				factions[] = {"Raider_Tactical_F"};
+			};
+			class rtg_sabre
+			{
+				displayName = "Sabre";
+				author = "Fish & Shrike";
+				textures[] = {"rtgVehicles\tex\LSV\a_exterior_black.paa","rtgVehicles\tex\LSV\b_interior_black.paa","rtgVehicles\tex\LSV\c_a2_black.paa","rtgVehicles\tex\LSV\d_wheels_black.paa","rtgVehicles\tex\LSV\e_mainbody_black.paa","rtgVehicles\tex\LSV\f_gratting_black.paa","rtgVehicles\tex\LSV\g_camo1_tile_black.paa","rtgVehicles\tex\LSV\h_camo2_m1025_black_with_logosSabre.paa","rtgVehicles\tex\LSV\i_unitdecals1.paa","rtgVehicles\tex\LSV\j_unitdecals2.paa"};
+				factions[] = {"Raider_Tactical_F"};
+			};
+			class rtg_demon
+			{
+				displayName = "Demon";
+				author = "Fish & Shrike";
+				textures[] = {"rtgVehicles\tex\LSV\a_exterior_black.paa","rtgVehicles\tex\LSV\b_interior_black.paa","rtgVehicles\tex\LSV\c_a2_black.paa","rtgVehicles\tex\LSV\d_wheels_black.paa","rtgVehicles\tex\LSV\e_mainbody_black.paa","rtgVehicles\tex\LSV\f_gratting_black.paa","rtgVehicles\tex\LSV\g_camo1_tile_black.paa","rtgVehicles\tex\LSV\h_camo2_m1025_black_with_logosDemon.paa","rtgVehicles\tex\LSV\i_unitdecals1.paa","rtgVehicles\tex\LSV\j_unitdecals2.paa"};
+				factions[] = {"Raider_Tactical_F"};
+			};
+			class rtg_ares
+			{
+				displayName = "Ares";
+				author = "Fish & Shrike";
+				textures[] = {"rtgVehicles\tex\LSV\a_exterior_black.paa","rtgVehicles\tex\LSV\b_interior_black.paa","rtgVehicles\tex\LSV\c_a2_black.paa","rtgVehicles\tex\LSV\d_wheels_black.paa","rtgVehicles\tex\LSV\e_mainbody_black.paa","rtgVehicles\tex\LSV\f_gratting_black.paa","rtgVehicles\tex\LSV\g_camo1_tile_black.paa","rtgVehicles\tex\LSV\h_camo2_m1025_black_with_logosAres.paa","rtgVehicles\tex\LSV\i_unitdecals1.paa","rtgVehicles\tex\LSV\j_unitdecals2.paa"};
+				factions[] = {"Raider_Tactical_F"};
+			};
+			class rtg_hitman
+			{
+				displayName = "Hitman";
+				author = "Fish & Shrike";
+				textures[] = {"rtgVehicles\tex\LSV\a_exterior_black.paa","rtgVehicles\tex\LSV\b_interior_black.paa","rtgVehicles\tex\LSV\c_a2_black.paa","rtgVehicles\tex\LSV\d_wheels_black.paa","rtgVehicles\tex\LSV\e_mainbody_black.paa","rtgVehicles\tex\LSV\f_gratting_black.paa","rtgVehicles\tex\LSV\g_camo1_tile_black.paa","rtgVehicles\tex\LSV\h_camo2_m1025_black_with_logosHitman.paa","rtgVehicles\tex\LSV\i_unitdecals1.paa","rtgVehicles\tex\LSV\j_unitdecals2.paa"};
+				factions[] = {"Raider_Tactical_F"};
+			};
+		};
 		class HitPoints: HitPoints
 		{
 			class hitwindshield_1: hitwindshield_1
@@ -1046,42 +1095,8 @@ class CfgVehicles
 		// Movement Config
 		simulation = "carx";
 		maxSpeed = 115;
-		brakeIdleSpeed = 0.87;
-		switchTime = 0.4;
-		latency = 2.0;
-		changeGearType = "effective";
-		changeGearOmegaRatios[] = {1,0.294118,0.205882,0.147059,0.926471,0.470588,0.764706,0.352941,0.852941,0.5,1,0.647059};
-		class complexGearbox
-		{
-			GearboxRatios[] = {"R1",-3.8,"N",0,"D1",3.0,"D2",2.0,"D3",1.2,"D4",0.8,"D5",0.6};
-			TransmissionRatios[] = {"High",4.137};
-			gearBoxMode = "auto";
-			moveOffGear = 1;
-			driveString = "D";
-			neutralString = "N";
-			reverseString = "R";
-		};
-		differentialType = "front_limited";
-		clutchStrength = 2500;
-		transmissionLosses = 20;
-		dampingRateFullThrottle = 0.15;
-		dampingRateZeroThrottleClutchEngaged = 2.8;
-		dampingRateZeroThrottleClutchDisengaged = 0.35;
-		torqueCurve[] = {{0.191176,0.703518},{0.294118,0.778894},{0.411765,0.911223},{0.529412,1},{0.705882,0.976549},{0.764706,0.835846},{0.941176,0.79062},{1.05971,0}};
-		engineMOI = 7;
-		enginePower = 382;
-		peakTorque = 617;
-		minOmega = 41;
-		maxOmega = 376.05;
-		idleRPM = 700;
-		redRPM = 3550;
-		engineLosses = 12;
-		thrustDelay = 0.2;
-		engineBrakeCoef = 0.8;
-		antiRollbarForceCoef = 0.7;
-		antiRollbarForceLimit = 5;
-		antiRollbarSpeedMin = 10;
-		antiRollbarSpeedMax = 80;
+		differentialType = "all_limited";
+		enginePower = 429;
 		
 		// Wheels
 		class Wheels
@@ -1108,9 +1123,9 @@ class CfgVehicles
 				dampingRate = 0.1;
 				maxBrakeTorque = 8000;
 				maxHandBrakeTorque = 0;
-				longitudinalStiffnessPerUnitGravity = 990;
-				latStiffX = 42.6;
-				latStiffY = 32.8;
+				longitudinalStiffnessPerUnitGravity = 1150;
+				latStiffX = 45.6;
+				latStiffY = 23.8;
 				frictionVsSlipGraph[] = {{0,0.3},{0.5,1},{0.8,0.7},{1,0.6}};
 			};
 			class LR: LF
@@ -2233,132 +2248,6 @@ class CfgVehicles
 			};
 		};
 	};
-	class ej_MQ17C;
-	class rtg_cargoTransport: ej_MQ17C
-	{
-		displayName = "Mohawk (Cargo/Drone)";
-		editorSubcategory = "RTGHelicopters";
-		side = 1;
-		author = "Shrike";
-		scope = 2;
-		faction = "Raider_Tactical_F";
-		maximumLoad = 20000;
-		ace_cargo_space = 16;
-		acre_hasInfantryPhone = 0;
-		camouflage = 3;
-		canFloat = 1;
-		irTarget = 1;
-		irTargetSize = 0.5;
-		visualTarget = 1;
-		visualTargetSize = 1;
-		radarTarget = 1;
-		radarTargetSize = 0.3;
-		radarType = 4;
-		LockDetectionSystem = 8;
-		incomingMissileDetectionSystem = 16;
-		receiveRemoteTargets = 1;
-		reportRemoteTargets = 1;
-		reportOwnPosition = 1;
-		laserScanner = 1;
-		armor = 80;
-	};
-	class RHICC_GREY;
-	class rtg_rhic: RHICC_GREY
-	{
-		displayName = "Rhib Armed [7/10]";
-		editorSubcategory = "RTGBoats";
-		author = "Shrike";
-		scope = 2;
-		side = 1;
-		faction = "Raider_Tactical_F";
-		fuelConsumptionRate = 0.03;
-		fuelCapacity = 84;
-		armor = 300;
-		maxSpeed = 115;
-		maximumLoad = 20000;
-		ace_cargo_space = 16;
-		ace_vehicles_engineStartDelay = 3;
-		acre_hasInfantryPhone = 0;
-		ace_refuel_fuelCargo = 80;
-		canPush = 1;
-		class TransportItems
-		{
-			class _xx_rtg_pvs_15_black_gh
-			{
-				name = "rtg_pvs_15_black_gh";
-				count = 8;
-			};
-			class _xx_ACRE_PRC343
-			{
-				name = "ACRE_PRC343";
-				count = 2;
-			};
-			class _xx_ACRE_PRC152
-			{
-				name = "ACRE_PRC152";
-				count = 2;
-			};
-			class _xx_ACE_personalAidKit
-			{
-				name = "ACE_personalAidKit";
-				count = 8;
-			};
-			class _xx_ACE_Canteen
-			{
-				name = "ACE_Canteen";
-				count = 5;
-			};
-			class _xx_ACE_Can_Franta
-			{
-				name = "ACE_Can_Franta";
-				count = 9;
-			};
-			class _xx_ACE_MRE_BeefStew
-			{
-				name = "ACE_MRE_BeefStew";
-				count = 5;
-			};
-			class _xx_ACE_bodyBag
-			{
-				name = "ACE_bodyBag";
-				count = 9;
-			};
-		};
-		class TransportBackpacks
-		{
-			class _xx_rtg_medical_grabpack
-			{
-				backpack = "rtg_medical_grabpack";
-				count = 1;
-			};
-			class _xx_rtg_engineer_grabpack
-			{
-				backpack = "rtg_engineer_grabpack";
-				count = 1;
-			};
-		};
-		class TransportWeapons
-		{
-			class _xx_rhs_weap_m16a4_carryhandle
-			{
-				weapon = "rhs_weap_m16a4_carryhandle";
-				count = 2;
-			};
-		};
-		class TransportMagazines
-		{
-			class _xx_rtg_30rnd_556_45
-			{
-				magazine = "rtg_30rnd_556_45";
-				count = 10;
-			};
-			class _xx_rtg_200Rnd_762x51
-			{
-				magazine = "rtg_200Rnd_762x51";
-				count = 5;
-			};
-		};
-	};
 	class UK3CB_MDF_B_Skiff;
 	class raider_fast_rhib: UK3CB_MDF_B_Skiff
 	{
@@ -2610,7 +2499,7 @@ class CfgVehicles
 			class _xx_rhs_mag_M433_HEDP
 			{
 				magazine = "rhs_mag_M433_HEDP";
-				count = 30;
+				count = 40;
 			};
 			class _xx_ACE_HuntIR_M203
 			{
@@ -2625,7 +2514,7 @@ class CfgVehicles
 			class _xx_1Rnd_Smoke_Grenade_shell
 			{
 				magazine = "1Rnd_Smoke_Grenade_shell";
-				count = 35;
+				count = 40;
 			};
 			class _xx_rtg_200rnd_556_45_t
 			{
@@ -2893,11 +2782,6 @@ class CfgVehicles
 		editorCategory = "Raider_Tactical";
 		scope = 2;
 		dlc = "raiderTactical";
-		ace_repair_spareWheels = 12;
+		ace_repair_spareWheels = 16;
 	};
-};
-class cfgMods
-{
-	author = "Shrike";
-	timepacked = "1706293972";
 };
