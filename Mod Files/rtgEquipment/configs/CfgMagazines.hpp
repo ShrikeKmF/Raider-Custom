@@ -433,6 +433,16 @@ class CfgMagazines
         scope = 2;
     };
 
+    class rtg_50_ae_5rnd_mag : rtg_50_ae_8rnd_mag {
+        author = "Shrike";
+        ammo = "rtg_50_AE";
+        count = 5;
+        descriptionshort = "Raider Tactical Standard Issue 50 AE Ammo";
+        displayname = "[RTG] 5rnd 50 AE Mag";
+        displaynameshort = "5Rnd 50AE";
+        scope = 2;
+    };
+
     class rtg_50_ae_20rnd_mag : ACWP_19Rnd_9x21_Mag_glock {
         author = "Shrike";
         ammo = "rtg_50_AE";

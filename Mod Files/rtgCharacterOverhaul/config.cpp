@@ -12,6 +12,45 @@ class CfgPatches
 	};
 };
 
+class ViewPilot;
+class ViewCargo;
+class ViewOptics;
+class CfgVehicles
+{
+	class Man;
+	class CAManBase: Man
+	{
+		class ViewPilot: ViewPilot
+		{
+			initFov = 0.95; 
+			minFov = 0.95;
+			maxFov = 0.95;
+		};
+	};
+	class Car;
+	class Car_F: Car
+	{
+		class ViewPilot: ViewPilot
+		{
+		initFov = 0.95; 
+		minFov = 0.95;
+		maxFov = 0.95;
+		};
+		class ViewCargo: ViewCargo
+		{
+		initFov = 0.75;
+		minFov = 0.75;
+		maxFov = 0.75;
+		};
+		class ViewOptics: ViewOptics
+		{
+		initFov = 0.75;
+		minFov = 0.75;
+		maxFov = 0.75;
+		};
+	};
+};
+
 class CfgInventoryGlobalVariable {
 	maxSoldierLoad = 1785;
 };
@@ -20,7 +59,7 @@ class CfgMovesFatigue {
 	staminaDuration = 27;
 	staminaCooldown = 6;
 	staminaRestoration = 3;
-	aimPrecisionSpeedCoef = 5.2;
+	aimPrecisionSpeedCoef = 5;
 	terrainDrainSprint = 0.0;
 	terrainDrainRun = 0.0;
 	terrainSpeedCoef = 0.9;
@@ -40,15 +79,25 @@ class CfgImprecision
 	};
 };
 
-class CfgAISkill
-{
-	aimingAccuracy[] = { 0, 0.5, 1, 0.9 };
-	aimingShake[] = { 0, 0.6, 1, 0.9 };
-	aimingSpeed[] = { 0, 0.1, 1, 0.75 };
-	commanding[] = { 0, 0.6, 1, 0.9 };
-	courage[] = { 0, 0.6, 1, 0.9 };
-	general[] = { 0, 0.6, 1, 0.9 };
-	reloadSpeed[] = { 0, 0.6, 1, 0.9 };
-	spotDistance[] = { 0, 0.05, 1, 0.15 };
-	spotTime[] = { 0, 0.3, 1, 0.9 };
-}
+class RscControlsGroupNoScrollbars;
+class RscStandardDisplay;
+class RscDisplayMain: RscStandardDisplay {
+    class controls {
+        class GroupSingleplayer: RscControlsGroupNoScrollbars {
+            class Controls;
+        };
+        class GroupMultiplayer: GroupSingleplayer {
+			h = "(6 * 	1.5) * 	(pixelH * pixelGrid * 2)";
+            class Controls: Controls {
+                class ServerBrowser;
+                class JoinMainServer: ServerBrowser {
+                    idc = -1;
+                    text = "RTG Main Server";
+                    tooltip = "Connect to RTG Main Server";
+                    y = "(3 * 	1.5) * 	(pixelH * pixelGrid * 2) + 	(pixelH)";
+                    onbuttonclick = "connectToServer ['144.6.36.191', 2302, '']";
+                };
+            };
+        };
+    };
+};

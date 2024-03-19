@@ -110,7 +110,6 @@ class CfgAmmo
     class rhsusf_ammo_127x99_M33_Ball;
     class rtg_127x99 : rhsusf_ammo_127x99_M33_Ball {
         hit = 90;
-        
         model = "\z\ace\addons\tracers\ace_TracerYellow2.p3d";
         ACE_bulletMass = 49.2176;
         AB_ballisticCoefficients[] = { 0.692 };
@@ -199,14 +198,12 @@ class CfgAmmo
         hit = 9;
         ACE_muzzleVelocities[] = { 910, 1000, 1150 };
         ACE_barrelLengths[] = { 254.0, 393.7, 508.0 };
-        
         model = "\z\ace\addons\tracers\ace_TracerYellow2.p3d";
     };
 
     class ACE_9x19_Ball;
     class rtg_9mm : ACE_9x19_Ball {
         hit = 8;
-        
         model = "\z\ace\addons\tracers\ace_TracerYellow2.p3d";
     };
 
@@ -284,7 +281,7 @@ class CfgAmmo
         ACE_muzzleVelocities[] = {260, 300, 340};
     };
 
-    class rtg_25mm_hedp : rhs_ammo_12g_FRAG
+    class rtg_25mm_hedp : rtg_50bw
     {
         ACE_bulletMass = 130.2176;
         AB_ballisticCoefficients[] = { 0.87};
@@ -293,13 +290,13 @@ class CfgAmmo
         typicalSpeed = 0;
         ACE_caliber = 25.12;
         hit = 30;
-        indirectHit = 35;
-		indirectHitRange = 10;
+        indirectHit = 20;
+		indirectHitRange = 4;
         triggerOnImpact	 = 1;
         explosive = 0.6;
         explosionTime = -1;
-        fuseDistance = 35;
-        
+        fuseDistance = 12;
+        ACE_damageType = "explosive";
         model = "\z\ace\addons\tracers\ace_TracerYellow2.p3d";
     };
 
@@ -307,6 +304,7 @@ class CfgAmmo
     class rtg_57 : B_570x28_Ball {
         hit = 8;
         effectFly = "TracerTR_2s";
+        model = "\z\ace\addons\tracers\ace_TracerYellow2.p3d";
     };
 
     class R_MRAAWS_HEAT_F;
@@ -359,7 +357,7 @@ class CfgAmmo
     class rtg_rpg_heat : rhs_rpg7v2_pg7vm
     {
         hit = 150;
-        indirectHit = 35;
+        indirectHit = 40;
 		indirectHitRange = 4;
     };
 

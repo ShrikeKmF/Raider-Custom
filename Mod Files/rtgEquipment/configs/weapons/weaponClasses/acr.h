@@ -9,6 +9,9 @@ class hlc_rifle_ACR68_SBR_tan : hlc_acr_base {
 	recoil = "rtg_300_pdw";
 	magazineWell[] = {"CBA_300BLK_STANAG"};
 	magazines[] = {"rtg_30rnd_300_blk"};
+	opticsZoomInit= 0.75;
+	opticsZoomMax=0.75;
+	opticsZoomMin=0.75;
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_acr";

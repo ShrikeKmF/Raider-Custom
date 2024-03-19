@@ -95,7 +95,7 @@ class hlc_rifle_honeybase: hlc_rifle_Bushmaster300 {
 	scope = 2;
 	dlc = "raiderTactical";
 	Author = "Shrike";
-	magazines[] = {"rtg_30rnd_556_45"};
+	magazines[] = {"rtg_30rnd_300_blk"};
 	class XtdGearInfo
 	{
 		model = "";
@@ -123,55 +123,6 @@ class hlc_rifle_mk18mod0: hlc_rifle_CQBR {
 	class XtdGearInfo
 	{
 		model = "";
-	};
-};
-
-class rtg_c7a2: arifle_SPAR_02_blk_f {
-	scope = 2;
-	dlc = "raiderTactical";
-	baseWeapon = "rtg_c7a2";
-	Author = "Shrike";
-	displayName = "Colt Canada C7A2";
-	deployedPivot = "deploypivot";
-	hasBipod = 0;
-	ACE_barrelLength = 508.4;
-	recoil = "rtg_556_rifle";
-	model = "hlc_wp_ar15\mesh\pbear\car15.p3d";
-	reloadAction = "NIA_GestureReload416";
-	picture = "\hlc_wp_ar15\tex\ui\gear_vendimus_ca";
-	discretedistance[] = {100,200,300,400,500,600};
-	discreteDistanceCameraPoint[] = {"eye_100","eye_200","eye_300","eye_400","eye_500","eye_600"};
-	discretedistanceinitindex = 0;
-	cameraDir = "look";
-	magazineWell[] = {"CBA_556x45_STANAG"};
-	magazines[] = {"rtg_30rnd_556_45"};
-	bg_bipod = 0;
-	class WeaponSlotsInfo: WeaponSlotsInfo
-	{
-		mass = 73.039997;
-	};
-	inertia = 0.28;
-	dexterity = 1.7388076;
-	aimTransitionSpeed = 1.2171652;
-	handAnim[] = {"OFP2_ManSkeleton","hlc_wp_ar15\gesture\newgesture\handpose_STD.rtm"};
-	hiddenSelections[] = {"Main","Stock","Sights"};
-	hiddenSelectionsTextures[] = {"hlc_wp_ar15\tex\mill_bmar15\PBER_co.paa","rtgEquipment\tex\c7.paa","hlc_wp_ar15\tex\badger\hb_co.paa"};
-	modes[] = {"Single", "FullAuto"};
-	class Single: Single
-	{
-		reloadTime = 0.075;
-		dispersion = 0.00031;
-	};
-	class FullAuto: FullAuto
-	{
-		reloadTime = 0.075;
-		dispersion = 0.00031;
-	};
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_ar15";
-		form = "C7";
-		calibre = "N556";
 	};
 };
 
@@ -221,32 +172,5 @@ class rtg_c8a2: arifle_SPAR_01_blk_f {
 		model = "rtg_ace_expanded_ar15";
 		form = "C8";
 		calibre = "N556";
-	};
-};
-
-class rtg_C7NLD : arifle_SPAR_02_blk_f
-{
-	scope = 2;
-	dlc = "raiderTactical";
-	baseWeapon = "rtg_C7NLD";
-	Author = "Shrike";
-	displayName = "Colt C7NLD";
-	deployedPivot = "deploypivot";
-	hasBipod = 0;
-	ACE_barrelLength = 508.4;
-	recoil = "rtg_300_rifle";
-	magazineWell[] = {"CBA_300BLK_STANAG"};
-	magazines[] = {"rtg_30rnd_300_blk"};
-	model = "hlc_wp_ar15\mesh\JackCarbine\samr.p3d";
-	picture = "\hlc_wp_ar15\tex\ui\gear_jack_ca";
-	discretedistance[] = {100,200,300,400,500};
-	handAnim[] = {"OFP2_ManSkeleton","hlc_wp_ar15\gesture\newgesture\handpose_SMR.rtm"};
-	hiddenSelections[] = {"Upper","Lower","Foregrip","foregrip_rail","Sights","Stock"};
-	hiddenSelectionsTextures[] = {"\hlc_wp_ar15\tex\toadie_Blackjack\upper_co.paa","hlc_wp_ar15\tex\toadie_Blackjack\lower2_co.paa","rtgEquipment\tex\smr_co.paa","hlc_wp_ar15\tex\toadie_Blackjack\smr_toprail_co.paa","hlc_wp_ar15\tex\tenoyl_tbs\tbs_co.paa","rtgEquipment\tex\b5sopmod_co.paa"};
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_ar15";
-		form = "C7";
-		calibre = "N300";
 	};
 };

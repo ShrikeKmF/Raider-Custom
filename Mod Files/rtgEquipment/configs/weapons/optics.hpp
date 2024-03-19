@@ -27,8 +27,8 @@ class rtg_optic_MRCO: optic_MRCO
 				opticsPPEffects[] = {"Default"};
 				opticsFlare = 0;
 				opticsDisablePeripherialVision = 0;
-				opticsZoomMin = 0.25;
-				opticsZoomMax = 1.25;
+				opticsZoomMin = 0.75;
+				opticsZoomMax = 0.75;
 				opticsZoomInit = 0.75;
 				memoryPointCamera = "eye";
 				visionMode[] = {};
@@ -99,7 +99,7 @@ class rtg_optic_DMS: optic_DMS
                 opticsPPEffects[] = {"",""};
                 opticsFlare = 0;
                 opticsDisablePeripherialVision = 0;
-                opticsZoomMin = 0.25;
+                opticsZoomMin = 0.75;
                 opticsZoomMax = 0.75;
                 opticsZoomInit = 0.75;
                 memoryPointCamera = "eye";
@@ -156,7 +156,7 @@ class rtg_night_sight: optic_tws
                 opticsPPEffects[] = {"",""};
                 opticsFlare = 0;
                 opticsDisablePeripherialVision = 0;
-                opticsZoomMin = 0.25;
+                opticsZoomMin = 0.75;
                 opticsZoomMax = 0.75;
                 opticsZoomInit = 0.75;
                 memoryPointCamera = "eye";
@@ -202,7 +202,7 @@ class rtg_night_sight: optic_tws
 					};
 					opticsFlare=0;
 					opticsDisablePeripherialVision=0;
-					opticsZoomMin = 0.25;
+					opticsZoomMin = 0.75;
                     opticsZoomMax = 0.75;
                     opticsZoomInit = 0.75;
 					memoryPointCamera="eye";
@@ -228,7 +228,7 @@ class rtg_night_sight: optic_tws
 					distanceZoomMin=100;
 					distanceZoomMax=100;
 				};
-				class RedDotSight: IronSight // Iron Sight
+				class RedDotSight: IronSight // Top Sight
 				{
 					opticsID=1;
 					useModelOptics=0;
@@ -236,7 +236,7 @@ class rtg_night_sight: optic_tws
 					{
 						""
 					};
-					opticsZoomMin= 0.25;
+					opticsZoomMin= 0.75;
 					opticsZoomMax= 0.75;
 					opticsZoomInit= 0.75;
 					memoryPointCamera="iron_eye";
@@ -306,7 +306,7 @@ class rtg_night_sight: optic_tws
 					opticsID=1;
 					useModelOptics=0;
 					opticsZoomMin="1.5 call (uiNamespace getVariable 'cba_optics_fnc_setOpticMagnificationHelper')";
-					opticsZoomMax=1.25;
+					opticsZoomMax=0.75;
 					opticsZoomInit=0.75;
 					memoryPointCamera="eye";
 					opticsFlare=0;
@@ -370,8 +370,8 @@ class rtg_night_sight: optic_tws
 					};
 					opticsFlare=0;
 					opticsDisablePeripherialVision=0;
-					opticsZoomMin=0.25;
-					opticsZoomMax=1.25;
+					opticsZoomMin=0.75;
+					opticsZoomMax=0.75;
 					opticsZoomInit=0.75;
 					memoryPointCamera="eye";
 					visionMode[]={};
@@ -381,3 +381,106 @@ class rtg_night_sight: optic_tws
 			};
 		};
 	}
+
+// Reduced Zoom
+	class optic_Arco;
+	class acwp_optic_base : optic_Arco {
+		class ItemInfo : InventoryOpticsItem_Base_F {
+			class OpticsModes {
+				class ACO {
+					opticsZoomMin = 0.75;
+					opticsZoomMax = 0.75;
+					opticsZoomInit = 0.75;
+					memoryPointCamera = "RDeye";
+					distanceZoomMin = 100;
+					distanceZoomMax = 100;
+				};
+			};
+		};
+	};
+
+	class acwp_t2_g33_down;
+	class acwp_t2_g33: acwp_t2_g33_down {
+			class ItemInfo : InventoryOpticsItem_Base_F {
+			class OpticsModes {
+				class ACO {
+					distanceZoomMin = 100;
+					distanceZoomMax = 100; 
+				};
+			};
+		};
+	};
+
+	class rhsusf_acc_compm4 : ItemCore {
+			class ItemInfo : InventoryOpticsItem_Base_F {
+			class OpticsModes {
+				class ACO {
+					opticsZoomMin = 0.75;
+					opticsZoomMax = 0.75;
+					opticsZoomInit = 0.75;
+					distanceZoomMin = 100;
+					distanceZoomMax = 100; 
+				};
+			};
+		};
+	};
+
+	class ptv_eot552: ItemCore
+	{
+		class ItemInfo : InventoryOpticsItem_Base_F {
+			class OpticsModes {
+				class EOT {
+					opticsZoomMin = 0.75;
+					opticsZoomMax = 0.75;
+					opticsZoomInit = 0.75;
+					distanceZoomMin = 100;
+					distanceZoomMax = 100; 
+				};
+			};
+		};
+	};
+
+	class HLC_optic_DocterR : optic_Arco
+	{
+		class ItemInfo : InventoryOpticsItem_Base_F {
+			class OpticsModes {
+				class ACO {
+					opticsZoomMin = 0.75;
+					opticsZoomMax = 0.75;
+					opticsZoomInit = 0.75;
+					distanceZoomMin = 100;
+					distanceZoomMax = 100; 
+				};
+			};
+		};
+	};
+
+	class optic_Holosight: ItemCore
+	{
+		class ItemInfo : InventoryOpticsItem_Base_F {
+			class OpticsModes {
+				class ACO {
+					opticsZoomMin = 0.75;
+					opticsZoomMax = 0.75;
+					opticsZoomInit = 0.75;
+					distanceZoomMin = 100;
+					distanceZoomMax = 100; 
+				};
+			};
+		};
+	};
+
+	class optic_Yorris: ItemCore
+	{
+		class ItemInfo : InventoryOpticsItem_Base_F {
+			class OpticsModes {
+				class ACO {
+					opticsZoomMin = 0.75;
+					opticsZoomMax = 0.75;
+					opticsZoomInit = 0.75;
+					distanceZoomMin = 100;
+					distanceZoomMax = 100; 
+				};
+			};
+		};
+	};

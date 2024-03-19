@@ -1336,8 +1336,6 @@ class CfgVehicles
 		armor = 20;
 		weapons[] = {"CMFlareLauncher"};
 		magazines[] = {"168Rnd_CMFlare_Chaff_Magazine"};
-		ace_fastroping_enabled = 2;
-		ace_fastroping_friesType = "ACE_friesAnchorBar";
 		ace_refuel_fuelCargo = 80;
 		class Turrets: Turrets
 		{
@@ -2260,7 +2258,7 @@ class CfgVehicles
 		fuelConsumptionRate = 0.03;
 		fuelCapacity = 84;
 		armor = 300;
-		maxSpeed = 130;
+		maxSpeed = 110;
 		maximumLoad = 20000;
 		ace_cargo_space = 16;
 		ace_vehicles_engineStartDelay = 3;

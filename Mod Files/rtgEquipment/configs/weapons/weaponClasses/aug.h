@@ -5,6 +5,9 @@ class hlc_rifle_aug : hlc_aug_base
 	magazineWell[] = {"CBA_556x45_STANAG"};
 	magazines[] = {"rtg_30rnd_556_45"};
 	recoil = "rtg_556_rifle";
+	opticsZoomInit= 0.75;
+	opticsZoomMax=0.75;
+	opticsZoomMin=0.75;
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_aug";

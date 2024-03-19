@@ -1,6 +1,5 @@
 // M416A4
 // 5.56
-class rhs_weap_m4_Base;
 class rhs_weap_m16a4 : rhs_weap_m4_Base
 {
 	scope = 2;
@@ -624,4 +623,43 @@ class UK3CB_M16A1 : rhs_weap_m16a4_carryhandle
 	{
 		model = "";
 	};
+};
+
+class UK3CB_AR10_Porto_Sup_ALU : rhs_weap_m16a4_carryhandle
+{
+	recoil = "rtg_556_rifle";
+	scope = 2;
+	dlc = "raiderTactical";
+	Author = "Shrike";
+	class XtdGearInfo
+	{
+		model = "";
+	};
+};
+
+// Nugg's Gun 
+class rtg_nugg : rhs_weap_m4a1_blockII
+{
+	recoil = "rtg_556_rifle";
+	displayName = "M4 Block II [Nugg]";
+	scope = 2;
+	dlc = "raiderTactical";
+	Author = "Shrike";
+	hiddenSelectionsTextures[] =
+	{
+		"rhsusf\addons\rhsusf_weapons\m4\data\m4a1_actual_co.paa",
+		"\rhsusf\addons\rhsusf_weapons3\M4BII\Data\rhs_block2rail_t_co.paa",
+		"rhsusf\addons\rhsusf_weapons\acc\grips\grippod\data\acc_co.paa",
+		"rhsusf\addons\rhsusf_weapons\m4\data\m4acc_co.paa",
+		"rhsusf\addons\rhsusf_weapons2\sr25\data\buttstock2_co.paa"
+	};
+	class XtdGearInfo
+	{
+		model = "";
+	};
+	rhs_grip1_change = "rtg_nugg";
+	rhs_grip2_change = "rtg_nugg";
+	rhs_grip3_change = "rtg_nugg";
+
+	baseWeapon = "rtg_nugg";
 };

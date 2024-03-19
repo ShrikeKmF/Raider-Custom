@@ -188,4 +188,126 @@ class CfgWeapons
 			};
 		};
 	};
+
+	// F2000
+	class arifle_Mk20_plain_F;
+	class rtg_f2000_tan : arifle_Mk20_plain_F
+	{
+		class Single : Single {
+			class BaseSoundModeType;	// External class reference
+			
+			class StandardSound: BaseSoundModeType{
+				SoundSetShot[] = {"Squad_Scorpion_Sets","Small_Reflection_SoundSet","Squad556_BulletCasings_Sets","4Five_Tail_SoundSet"};
+			};
+			class SilencedSound: BaseSoundModeType{
+				soundSetShot[] = {"Squad_AKMSuppressed_Sets","Medium_SD_Reflection_SoundSet","Squad762_BulletCasings_Sets","MX_silencerTail_SoundSet"};
+			};
+		};	
+		class FullAuto : FullAuto {
+			class BaseSoundModeType;	// External class reference
+			
+			class StandardSound: BaseSoundModeType{
+				SoundSetShot[] = {"Squad_Scorpion_Sets","Small_Reflection_SoundSet","Squad556_BulletCasings_Sets","4Five_Tail_SoundSet"};
+			};
+			class SilencedSound: BaseSoundModeType{
+				soundSetShot[] = {"Squad_AKMSuppressed_Sets","Medium_SD_Reflection_SoundSet","Squad762_BulletCasings_Sets","MX_silencerTail_SoundSet"};
+			};
+		};
+	};
+	class arifle_Mk20_F;
+	class rtg_f2000_camo : arifle_Mk20_F {
+		class Single : Single {
+			class BaseSoundModeType;	// External class reference
+			
+			class StandardSound: BaseSoundModeType{
+				SoundSetShot[] = {"Squad_Scorpion_Sets","Small_Reflection_SoundSet","Squad556_BulletCasings_Sets","4Five_Tail_SoundSet"};
+			};
+			class SilencedSound: BaseSoundModeType{
+				soundSetShot[] = {"Squad_AKMSuppressed_Sets","Medium_SD_Reflection_SoundSet","Squad762_BulletCasings_Sets","MX_silencerTail_SoundSet"};
+			};
+		};	
+		class FullAuto : FullAuto {
+			class BaseSoundModeType;	// External class reference
+			
+			class StandardSound: BaseSoundModeType{
+				SoundSetShot[] = {"Squad_Scorpion_Sets","Small_Reflection_SoundSet","Squad556_BulletCasings_Sets","4Five_Tail_SoundSet"};
+			};
+			class SilencedSound: BaseSoundModeType{
+				soundSetShot[] = {"Squad_AKMSuppressed_Sets","Medium_SD_Reflection_SoundSet","Squad762_BulletCasings_Sets","MX_silencerTail_SoundSet"};
+			};
+		};
+	};
+	class arifle_Mk20C_plain_F;
+	class rtg_f2000C_tan : arifle_Mk20C_plain_F
+	{
+		class Single : Single {
+			class BaseSoundModeType;	// External class reference
+			
+			class StandardSound: BaseSoundModeType{
+				SoundSetShot[] = {"Squad_Scorpion_Sets","Small_Reflection_SoundSet","Squad556_BulletCasings_Sets","4Five_Tail_SoundSet"};
+			};
+			class SilencedSound: BaseSoundModeType{
+				soundSetShot[] = {"Squad_AKMSuppressed_Sets","Medium_SD_Reflection_SoundSet","Squad762_BulletCasings_Sets","MX_silencerTail_SoundSet"};
+			};
+		};	
+		class FullAuto : FullAuto {
+			class BaseSoundModeType;	// External class reference
+			
+			class StandardSound: BaseSoundModeType{
+				SoundSetShot[] = {"Squad_Scorpion_Sets","Small_Reflection_SoundSet","Squad556_BulletCasings_Sets","4Five_Tail_SoundSet"};
+			};
+			class SilencedSound: BaseSoundModeType{
+				soundSetShot[] = {"Squad_AKMSuppressed_Sets","Medium_SD_Reflection_SoundSet","Squad762_BulletCasings_Sets","MX_silencerTail_SoundSet"};
+			};
+		};
+	};
+	class arifle_Mk20C_F;
+	class rtg_f2000C_camo : arifle_Mk20C_F {
+		class Single : Single {
+			class BaseSoundModeType;	// External class reference
+			
+			class StandardSound: BaseSoundModeType{
+				SoundSetShot[] = {"Squad_Scorpion_Sets","Small_Reflection_SoundSet","Squad556_BulletCasings_Sets","4Five_Tail_SoundSet"};
+			};
+			class SilencedSound: BaseSoundModeType{
+				soundSetShot[] = {"Squad_AKMSuppressed_Sets","Medium_SD_Reflection_SoundSet","Squad762_BulletCasings_Sets","MX_silencerTail_SoundSet"};
+			};
+		};	
+		class FullAuto : FullAuto {
+			class BaseSoundModeType;	// External class reference
+			
+			class StandardSound: BaseSoundModeType{
+				SoundSetShot[] = {"Squad_Scorpion_Sets","Small_Reflection_SoundSet","Squad556_BulletCasings_Sets","4Five_Tail_SoundSet"};
+			};
+			class SilencedSound: BaseSoundModeType{
+				soundSetShot[] = {"Squad_AKMSuppressed_Sets","Medium_SD_Reflection_SoundSet","Squad762_BulletCasings_Sets","MX_silencerTail_SoundSet"};
+			};
+		};
+	};
+
+	// 50 BW 
+	class ACWP_M4A5_145_troy_base_BLK;
+	class texRifle : ACWP_M4A5_145_troy_base_BLK {
+		class Single: Single{
+			class BaseSoundModeType;
+			class StandardSound: BaseSoundModeType{
+				soundSetShot[] = {"Squad_M110_Sets","Squad556_BulletCasings_Sets","SPAR_17_Tail_SoundSet"};		
+				};
+			class SilencedSound: BaseSoundModeType{
+				soundSetShot[] = {"Squad_M110Suppressed_Sets","Squad556_BulletCasings_Sets"};
+			};
+		};
+	};
+
+	class rtg_rifle_samr2_50bw : arifle_SPAR_01_blk_F {
+		class Single: Single{
+			class BaseSoundModeType;
+			class StandardSound: BaseSoundModeType{
+				soundSetShot[] = {"Squad_M110_Sets","Squad556_BulletCasings_Sets","SPAR_17_Tail_SoundSet"};		
+				};
+			class SilencedSound: BaseSoundModeType{
+				soundSetShot[] = {"Squad_M110Suppressed_Sets","Squad556_BulletCasings_Sets"};
+			};
+		};
+	};
 };

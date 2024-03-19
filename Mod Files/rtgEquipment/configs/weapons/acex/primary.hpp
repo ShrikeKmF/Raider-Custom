@@ -810,7 +810,7 @@ class rtg_ace_expanded_p90 {
     class style
     {
         label = "Style";
-        values[] = {"tac", "optic"};
+        values[] = {"tac", "optic", "Ltac", "Loptic"};
         class tac
         {
             label = "Rail";
@@ -819,6 +819,16 @@ class rtg_ace_expanded_p90 {
         class optic
         {
             label = "Optic";
+            description = "Inbuilt Rail";
+        };
+        class Ltac
+        {
+            label = "Long Rail";
+            description = "Picatinny Rail";
+        };
+        class Loptic
+        {
+            label = "Long Optic";
             description = "Inbuilt Rail";
         };
     };

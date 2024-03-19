@@ -344,62 +344,123 @@ class rtg_rhino : hgun_Pistol_heavy_02_F
 	dlc = "raiderTactical";
 	Author = "Shike";
 	displayName = "Chiappa Rhino";
-	magazineWell[] = {"RTG_50_AE"};
-	magazines[] = {"rtg_50_ae_8rnd_mag"};
+	magazineWell[] = {"RTG_50_Small_AE"};
+	magazines[] = {"rtg_50_ae_5rnd_mag"};
 	baseWeapon = "rtg_rhino";
 	modes[] = {"Single"};
 	class Single : Single
 	{
-		sounds[]={"StandardSound","SilencedSound"};
-			class BaseSoundModeType
+	sounds[]={"StandardSound","SilencedSound"};
+		class BaseSoundModeType
+		{
+			weaponSoundEffect="DefaultHandgun";
+			closure1[]={"A3\sounds_f\weapons\closure\closure_handgun_6",1.0351422,1,30};
+			closure2[]={"A3\sounds_f\weapons\closure\closure_handgun_6",1.0351422,1.1,30};
+			soundClosure[]={"closure1",0.5,"closure2",0.5};
+		};
+		class StandardSound: BaseSoundModeType
+		{
+			begin1[]={"\RH_de\sound\desert_eagle_shot.wss",1,1,700};
+			soundBegin[]={"begin1",1};
+			class SoundTails
 			{
-				weaponSoundEffect="DefaultHandgun";
-				closure1[]={"A3\sounds_f\weapons\closure\closure_handgun_6",1.0351422,1,30};
-				closure2[]={"A3\sounds_f\weapons\closure\closure_handgun_6",1.0351422,1.1,30};
-				soundClosure[]={"closure1",0.5,"closure2",0.5};
-			};
-			class StandardSound: BaseSoundModeType
-			{
-				begin1[]={"\RH_de\sound\desert_eagle_shot.wss",1,1,700};
-				soundBegin[]={"begin1",1};
-				class SoundTails
+				class TailInterior
 				{
-					class TailInterior
-					{
-						sound[]={"A3\Sounds_F\arsenal\weapons\Pistols\Zubr\Zubr_tail_interior",1.4125376,1,1400};
-						frequency=1;
-						volume="interior";
-					};
-					class TailTrees
-					{
-						sound[]={"A3\Sounds_F\arsenal\weapons\Pistols\Zubr\Zubr_tail_trees",1,1,1400};
-						frequency=1;
-						volume="(1-interior/1.4)*trees";
-					};
-					class TailForest
-					{
-						sound[]={"A3\Sounds_F\arsenal\weapons\Pistols\Zubr\Zubr_tail_forest",1,1,1400};
-						frequency=1;
-						volume="(1-interior/1.4)*forest";
-					};
-					class TailMeadows
-					{
-						sound[]={"A3\Sounds_F\arsenal\weapons\Pistols\Zubr\Zubr_tail_meadows",1,1,1400};
-						frequency=1;
-						volume="(1-interior/1.4)*(meadows/2 max sea/2)";
-					};
-					class TailHouses
-					{
-						sound[]={"A3\Sounds_F\arsenal\weapons\Pistols\Zubr\Zubr_tail_houses",1,1,1400};
-						frequency=1;
-						volume="(1-interior/1.4)*houses";
-					};
+					sound[]={"A3\Sounds_F\arsenal\weapons\Pistols\Zubr\Zubr_tail_interior",1.4125376,1,1400};
+					frequency=1;
+					volume="interior";
+				};
+				class TailTrees
+				{
+					sound[]={"A3\Sounds_F\arsenal\weapons\Pistols\Zubr\Zubr_tail_trees",1,1,1400};
+					frequency=1;
+					volume="(1-interior/1.4)*trees";
+				};
+				class TailForest
+				{
+					sound[]={"A3\Sounds_F\arsenal\weapons\Pistols\Zubr\Zubr_tail_forest",1,1,1400};
+					frequency=1;
+					volume="(1-interior/1.4)*forest";
+				};
+				class TailMeadows
+				{
+					sound[]={"A3\Sounds_F\arsenal\weapons\Pistols\Zubr\Zubr_tail_meadows",1,1,1400};
+					frequency=1;
+					volume="(1-interior/1.4)*(meadows/2 max sea/2)";
+				};
+				class TailHouses
+				{
+					sound[]={"A3\Sounds_F\arsenal\weapons\Pistols\Zubr\Zubr_tail_houses",1,1,1400};
+					frequency=1;
+					volume="(1-interior/1.4)*houses";
 				};
 			};
-			class SilencedSound: BaseSoundModeType{};
-			recoil="RH_deagleBase";
-			recoilProne="RH_deagleBase";
-			reloadTime=0.2;
-			dispersion=0.0085000005;
 		};
+		class SilencedSound: BaseSoundModeType{};
+		recoil="RH_deagleBase";
+		recoilProne="RH_deagleBase";
+		reloadTime=0.2;
+		dispersion=0.0085000005;
+	};
+};
+
+class MWB_RSH12;
+class rtg_RSH12 : MWB_RSH12
+{
+	scope = 2;
+	dlc = "raiderTactical";
+	Author = "Shike";
+	magazineWell[] = {"RTG_50_Small_AE"};
+	magazines[] = {"rtg_50_ae_5rnd_mag"};
+	baseWeapon = "rtg_RSH12";
+	modes[] = {"Single"};
+	class Single : Single
+	{
+	sounds[]={"StandardSound","SilencedSound"};
+		class BaseSoundModeType
+		{
+			weaponSoundEffect="DefaultHandgun";
+			closure1[]={"A3\sounds_f\weapons\closure\closure_handgun_6",1.0351422,1,30};
+			closure2[]={"A3\sounds_f\weapons\closure\closure_handgun_6",1.0351422,1.1,30};
+			soundClosure[]={"closure1",0.5,"closure2",0.5};
+		};
+		class StandardSound: BaseSoundModeType
+		{
+			begin1[]={"\RH_de\sound\desert_eagle_shot.wss",1,1,700};
+			soundBegin[]={"begin1",1};
+			class SoundTails
+			{
+				class TailInterior
+				{
+					sound[]={"A3\Sounds_F\arsenal\weapons\Pistols\Zubr\Zubr_tail_interior",1.4125376,1,1400};
+					frequency=1;
+					volume="interior";
+				};
+				class TailTrees
+				{
+					sound[]={"A3\Sounds_F\arsenal\weapons\Pistols\Zubr\Zubr_tail_trees",1,1,1400};
+					frequency=1;
+					volume="(1-interior/1.4)*trees";
+				};
+				class TailForest
+				{
+					sound[]={"A3\Sounds_F\arsenal\weapons\Pistols\Zubr\Zubr_tail_forest",1,1,1400};
+					frequency=1;
+					volume="(1-interior/1.4)*forest";
+				};
+				class TailMeadows
+				{
+					sound[]={"A3\Sounds_F\arsenal\weapons\Pistols\Zubr\Zubr_tail_meadows",1,1,1400};
+					frequency=1;
+					volume="(1-interior/1.4)*(meadows/2 max sea/2)";
+				};
+				class TailHouses
+				{
+					sound[]={"A3\Sounds_F\arsenal\weapons\Pistols\Zubr\Zubr_tail_houses",1,1,1400};
+					frequency=1;
+					volume="(1-interior/1.4)*houses";
+				};
+			};
+		};
+	};
 };
