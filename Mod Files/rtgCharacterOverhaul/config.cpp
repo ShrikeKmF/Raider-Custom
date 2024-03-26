@@ -22,9 +22,9 @@ class CfgVehicles
 	{
 		class ViewPilot: ViewPilot
 		{
-			initFov = 0.95; 
-			minFov = 0.95;
-			maxFov = 0.95;
+			initFov = 0.75; 
+			minFov = 0.75;
+			maxFov = 0.75;
 		};
 	};
 	class Car;
@@ -32,9 +32,9 @@ class CfgVehicles
 	{
 		class ViewPilot: ViewPilot
 		{
-		initFov = 0.95; 
-		minFov = 0.95;
-		maxFov = 0.95;
+		initFov = 0.75; 
+		minFov = 0.75;
+		maxFov = 0.75;
 		};
 		class ViewCargo: ViewCargo
 		{

@@ -342,7 +342,7 @@ class CfgVehicles
 		antiRollbarSpeedMin=10;
 		antiRollbarSpeedMax=80;
 
-		accelAidForceYOffset = -1.25;
+		accelAidForceYOffset = 0;
 	
 		// Wheels
 		class Wheels
@@ -362,9 +362,9 @@ class CfgVehicles
 				MOI = 10.9;
 				maxBrakeTorque = 7500;
 				maxHandBrakeTorque = 0;
-				longitudinalStiffnessPerUnitGravity = 1250;
-				latStiffX = 24.1;
-				latStiffY = 16.1;
+				longitudinalStiffnessPerUnitGravity = 2500;
+				latStiffX = 40.1;
+				latStiffY = 34.1;
 				frictionVsSlipGraph[] = {{0,0.3},{0.5,1},{0.8,0.7},{1,0.6}};
 			};
 			class LR: LF
@@ -644,9 +644,9 @@ class CfgVehicles
 				MOI = 10.9;
 				maxBrakeTorque = 7500;
 				maxHandBrakeTorque = 0;
-				longitudinalStiffnessPerUnitGravity = 1250;
-				latStiffX = 38.5;
-				latStiffY = 24.1;
+				longitudinalStiffnessPerUnitGravity = 2500;
+				latStiffX = 62.5;
+				latStiffY = 48.1;
 				frictionVsSlipGraph[] = {{0,0.3},{0.5,1},{0.8,0.7},{1,0.6}};
 			};
 			class LR: LF
@@ -796,9 +796,9 @@ class CfgVehicles
 				MOI = 10.9;
 				maxBrakeTorque = 7500;
 				maxHandBrakeTorque = 0;
-				longitudinalStiffnessPerUnitGravity = 1250;
-				latStiffX = 24.1;
-				latStiffY = 16.1;
+				longitudinalStiffnessPerUnitGravity = 2500;
+				latStiffX = 48.1;
+				latStiffY = 34.1;
 				frictionVsSlipGraph[] = {{0,0.3},{0.5,1},{0.8,0.7},{1,0.6}};
 			};
 			class LR: LF
@@ -1114,18 +1114,18 @@ class CfgVehicles
 				maxHandBrakeTorque = 0;
 				suspForceAppPointOffset = "wheel_1_1_axis";
 				tireForceAppPointOffset = "wheel_1_1_axis";
-				maxCompression = 0.15;
-				mMaxDroop = 0.15;
-				sprungMass = 2066;
-				springStrength = 201234;
-				springDamperRate = 20600.6;
+				//maxCompression = 0.15;
+				//mMaxDroop = 0.15;
+				//sprungMass = 2066;
+				//springStrength = 201234;
+				//springDamperRate = 20600.6;
 				MOI = 10.9;
 				dampingRate = 0.1;
 				maxBrakeTorque = 8000;
 				maxHandBrakeTorque = 0;
-				longitudinalStiffnessPerUnitGravity = 1150;
-				latStiffX = 45.6;
-				latStiffY = 23.8;
+				longitudinalStiffnessPerUnitGravity = 2200;
+				latStiffX = 80.6;
+				latStiffY = 46.8;
 				frictionVsSlipGraph[] = {{0,0.3},{0.5,1},{0.8,0.7},{1,0.6}};
 			};
 			class LR: LF
