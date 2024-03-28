@@ -393,6 +393,16 @@ class bladesBackpack : B_Kitbag_rgr {
     hiddenSelectionsTextures[] = {"rtgEquipment\tex\bladesKitbag.paa"};
 };
 
+class ozzyBackpack : B_Kitbag_rgr {
+    scope = 2;
+	dlc = "raiderTactical";
+	Author = "Shrike";
+    displayName = "Kitbag - Ozzy";
+    maximumLoad = 380;
+    mass = 50;
+    hiddenSelectionsTextures[] = {"rtgEquipment\tex\ozzybag.paa"};
+};
+
 class fizzAlpineCarryAll : rtg_Alpine_Carryall {
     scope = 2;
 	dlc = "raiderTactical";

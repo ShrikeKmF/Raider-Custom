@@ -222,9 +222,23 @@ class CfgAmmo
 
     class RH_50_AE_Ball;
     class rtg_50_AE : RH_50_AE_Ball{
-        hit = 14;
+        hit = 16;
         effectFly = "TracerTR_2s";
     };
+
+    class RH_357mag_ball;
+    class rtg_357mag : RH_357mag_ball
+    {
+        hit = 14;
+        effectFly = "TracerTR_2s";
+    }
+
+    class RH_44mag_ball;
+    class rtg_44mag : RH_44mag_ball
+    {
+        hit = 15;
+        effectFly = "TracerTR_2s";
+    }
 
     class rhs_ammo_12g_FRAG;
     class rtg_doomrounds : rhs_ammo_12g_FRAG
@@ -280,6 +294,23 @@ class CfgAmmo
         typicalSpeed = 450;
         ACE_muzzleVelocities[] = {260, 300, 340};
     };
+
+    class rtg_buckshot_sub_14g : rtg_buckshot_sub_pump {
+        hit = 14;
+        typicalSpeed = 500.86;
+        indirectHit = 0;
+		indirectHitRange = 0;
+        ACE_muzzleVelocities[] = {260, 300, 340};
+    };
+    class rtg_buckshot_pump_14g : rtg_buckshot_pump
+    {
+        hit = 35;
+        submunitionAmmo			= rtg_buckshot_sub_14g;
+        submunitionConeType[] = {"poissondisc", 6};
+        submunitionConeAngle	= 0.99;
+        typicalSpeed = 450;
+        ACE_muzzleVelocities[] = {260, 300, 340};
+    }
 
     class rtg_25mm_hedp : rtg_50bw
     {

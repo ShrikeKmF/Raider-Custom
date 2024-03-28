@@ -3046,12 +3046,12 @@ class bladeHat : H_Construction_headset_black_F {
 };
 
 // Patrick
-class FP_Cap_Peltor_Olv;
-class patHat : FP_Cap_Peltor_Olv {
+class H_HelmetCrew_B;
+class patHat : H_HelmetCrew_B {
     scope = 2;
 	dlc = "raiderTactical";
 	Author = "Shrike"; 
-    displayName="Ranger Hat - Pat";
+    displayName="Crew Helmet - Pat";
     mass = 2;
     hiddenSelectionsTextures[] = {"rtgEquipment\tex\patHat.paa"};
     class ItemInfo: ItemInfo

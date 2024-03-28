@@ -44,42 +44,6 @@ class CfgMagazineWells
 			"rtg_35Rnd_762x51";
 		};
     };
-
-    class CBA_545x39_AK	// 5.45 AK
-	{
-		RTG_Magazines[] =
-		{
-			"rtg_30rnd_545_49";
-			"rtg_60rnd_545_49";
-		};
-	};
-
-	class CTAR_580x42
-	{
-		RTG_Magazines[] =
-		{
-			"rtg_30rnd_58x42";
-			"rtg_100rnd_58x42";
-		};
-	};
-
-    class CBA_762x39_AK // 7.62 AK
-	{
-		RTG_Magazines[] =
-		{
-			"rtg_30rnd_762_39";
-			"rtg_60rnd_762_39";
-		};
-	};
-
-    class CBA_762x39_RPK // 7.62 RPK
-	{
-		RTG_Magazines[] =
-		{
-			"rtg_30rnd_762_39";
-			"rtg_60rnd_762_39";
-		};
-	};	
 	
 	class rtg_50_bw_STANAG { // .50 BW
         RTG_Magazines[] =
@@ -122,21 +86,10 @@ class CfgMagazineWells
 		};
     };
 
-	class RTG_LMG_9x19 { // 9mm Nato
-		RTG_Magazines[] = 
-        {
-            "rtg_9mm_35Rnd_mag";
-            "rtg_9mm_21Rnd_mag";
-			"rtg_200Rnd_9mm";
-			"rtg_200Rnd_9mm_T";
-        };
-	};
-
     class RTG_9x19 {
 		RTG_Magazines[] = 
         {
             "rtg_9mm_35Rnd_mag";
-            "rtg_9mm_21Rnd_mag";
         };
 	};
 
@@ -206,7 +159,7 @@ class CfgMagazineWells
         {
             "rtg_10Rnd_127x99";
         };
-	}
+	};
 
 	class RPG7
 	{
@@ -215,14 +168,6 @@ class CfgMagazineWells
             "rtg_rpg_smk_mag";
 			"rtg_rpg_heat_mag";
 			"rtg_rpg_hedp_mag";
-        };
-	}
-
-	class 25XM25
-	{
-		RTG_Magazines[] = 
-        {
-            "rtg_25mm_HE_Mag";
         };
 	}
 

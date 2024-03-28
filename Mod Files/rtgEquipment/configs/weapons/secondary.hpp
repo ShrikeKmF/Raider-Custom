@@ -103,6 +103,11 @@ class rtg_hgun_heavy : hgun_Pistol_heavy_01_F
 		reloadTime = 0.15;
 		dispersion = 0.0029;
 	};
+	class XtdGearInfo
+	{
+		model = "rtg_ace_expanded_fnx45";
+		camo = "tan";
+	};
 };
 class rtg_hgun_heavy_green : hgun_Pistol_heavy_01_green_F
 {
@@ -135,6 +140,11 @@ class rtg_hgun_heavy_green : hgun_Pistol_heavy_01_green_F
 		};
 		reloadTime = 0.15;
 		dispersion = 0.0029;
+	};
+	class XtdGearInfo
+	{
+		model = "rtg_ace_expanded_fnx45";
+		camo = "grn";
 	};
 };
 class rtg_1911a1 : rhsusf_weap_m1911a1
@@ -169,7 +179,8 @@ class rtg_1911a1 : rhsusf_weap_m1911a1
 		dispersion = 0.0029;
 	};
 };
-class rtg_1911_modern : hgun_ACPC2_F {
+class RH_kimber;
+class rtg_1911_modern : RH_kimber {
 	scope = 2;
 	dlc = "raiderTactical";
 	Author = "Shike";
@@ -202,8 +213,8 @@ class rtg_1911_modern : hgun_ACPC2_F {
 	};
 };
 
-class UK3CB_USP;
-class rtg_hk_45 : UK3CB_USP {
+class RH_usp;
+class rtg_hk_45 : RH_usp {
 	scope = 2;
 	dlc = "raiderTactical";
 	Author = "Shike";
@@ -337,6 +348,220 @@ class rtg_weap_m79 : rhs_weap_M320 {
 	handAnim[] = {"OFP2_ManSkeleton", "\rhsgref\addons\rhsgref_c_weapons\anims\rhs_hand_M79.rtm"};
 };
 
+class RH_fn57;
+class rtg_fn57 : RH_fn57
+{
+	scope = 2;
+	dlc = "raiderTactical";
+	Author = "Shike";
+	magazineWell[] = {"rtg_fn57_20Rnd"};
+	magazines[] = {"rtg_fn57_20Rnd"};
+	baseWeapon = "rtg_fn57";
+	modes[] = {"Single"};
+	class Single : Single
+	{
+		sounds[] = {"StandardSound", "SilencedSound"};
+		class BaseSoundModeType
+		{
+			weaponSoundEffect = "DefaultRifle";
+			closure1[] = {"\hlc_wp_p226\snd\p226_dryfire", 0.75, 1, 10};
+			closure2[] = {"\hlc_wp_p226\snd\p226_dryfire", 0.75, 1, 10};
+			soundClosure[] = {"closure1", 0.5, "closure2", 0.5};
+		};
+		class StandardSound : BaseSoundModeType
+		{
+			soundSetShot[] = {"NIA_P226_NEW_Shot_SoundSet", "nia_p2269mm_tail_SoundSet"};
+		};
+		class SilencedSound : BaseSoundModeType
+		{
+			soundSetShot[] = {"nia_p2269mm_silencerTail_SoundSet", "nia_p2269mm_silencerShot_SoundSet"};
+		};
+	};
+	class XtdGearInfo
+	{
+		model = "rtg_ace_expanded_fn57";
+		camo = "blk";
+	};
+}
+
+class RH_fn57_t;
+class rtg_fn57_t : RH_fn57_t
+{
+	scope = 2;
+	dlc = "raiderTactical";
+	Author = "Shike";
+	magazineWell[] = {"rtg_fn57_20Rnd"};
+	magazines[] = {"rtg_fn57_20Rnd"};
+	baseWeapon = "rtg_fn57_t";
+	modes[] = {"Single"};
+	class Single : Single
+	{
+		sounds[] = {"StandardSound", "SilencedSound"};
+		class BaseSoundModeType
+		{
+			weaponSoundEffect = "DefaultRifle";
+			closure1[] = {"\hlc_wp_p226\snd\p226_dryfire", 0.75, 1, 10};
+			closure2[] = {"\hlc_wp_p226\snd\p226_dryfire", 0.75, 1, 10};
+			soundClosure[] = {"closure1", 0.5, "closure2", 0.5};
+		};
+		class StandardSound : BaseSoundModeType
+		{
+			soundSetShot[] = {"NIA_P226_NEW_Shot_SoundSet", "nia_p2269mm_tail_SoundSet"};
+		};
+		class SilencedSound : BaseSoundModeType
+		{
+			soundSetShot[] = {"nia_p2269mm_silencerTail_SoundSet", "nia_p2269mm_silencerShot_SoundSet"};
+		};
+	};
+	class XtdGearInfo
+	{
+		model = "rtg_ace_expanded_fn57";
+		camo = "fde";
+	};
+}
+
+class RH_fn57_g;
+class rtg_fn57_g : RH_fn57_g
+{
+	scope = 2;
+	dlc = "raiderTactical";
+	Author = "Shike";
+	magazineWell[] = {"rtg_fn57_20Rnd"};
+	magazines[] = {"rtg_fn57_20Rnd"};
+	baseWeapon = "rtg_fn57_g";
+	modes[] = {"Single"};
+	class Single : Single
+	{
+		sounds[] = {"StandardSound", "SilencedSound"};
+		class BaseSoundModeType
+		{
+			weaponSoundEffect = "DefaultRifle";
+			closure1[] = {"\hlc_wp_p226\snd\p226_dryfire", 0.75, 1, 10};
+			closure2[] = {"\hlc_wp_p226\snd\p226_dryfire", 0.75, 1, 10};
+			soundClosure[] = {"closure1", 0.5, "closure2", 0.5};
+		};
+		class StandardSound : BaseSoundModeType
+		{
+			soundSetShot[] = {"NIA_P226_NEW_Shot_SoundSet", "nia_p2269mm_tail_SoundSet"};
+		};
+		class SilencedSound : BaseSoundModeType
+		{
+			soundSetShot[] = {"nia_p2269mm_silencerTail_SoundSet", "nia_p2269mm_silencerShot_SoundSet"};
+		};
+	};
+	class XtdGearInfo
+	{
+		model = "rtg_ace_expanded_fn57";
+		camo = "odg";
+	};
+}
+
+class RH_python;
+class rtg_coltPython : RH_python
+{
+	scope = 2;
+	dlc = "raiderTactical";
+	Author = "Shike";
+	magazineWell[] = {"rtg_357_6Rnd"};
+	magazines[] = {"rtg_357_6Rnd"};
+	baseWeapon = "rtg_coltPython";
+};
+
+class RH_mateba;
+class rtg_mateba : RH_mateba
+{
+	scope = 2;
+	dlc = "raiderTactical";
+	Author = "Shike";
+	magazineWell[] = {"rtg_44_6Rnd"};
+	magazines[] = {"rtg_44_6Rnd"};
+	baseWeapon = "rtg_mateba";
+};
+
+class RH_bull;
+class rtg_bull : RH_bull
+{
+	scope = 2;
+	dlc = "raiderTactical";
+	Author = "Shike";
+	magazineWell[] = {"rtg_44_6Rnd"};
+	magazines[] = {"rtg_44_6Rnd"};
+	baseWeapon = "rtg_bull";
+	class XtdGearInfo
+	{
+		model = "rtg_ace_expanded_ragbull";
+		camo = "slv";
+	};
+};
+class RH_bullb;
+class rtg_bull_b : RH_bullb
+{
+	scope = 2;
+	dlc = "raiderTactical";
+	Author = "Shike";
+	magazineWell[] = {"rtg_44_6Rnd"};
+	magazines[] = {"rtg_44_6Rnd"};
+	baseWeapon = "rtg_bull_b";
+	class XtdGearInfo
+	{
+		model = "rtg_ace_expanded_ragbull";
+		camo = "blk";
+	};
+};
+
+class RH_ttracker;
+class rtg_tracker : RH_ttracker
+{
+	scope = 2;
+	dlc = "raiderTactical";
+	Author = "Shike";
+	magazineWell[] = {"rtg_357_6Rnd"};
+	magazines[] = {"rtg_357_6Rnd"};
+	baseWeapon = "rtg_tracker";
+	class XtdGearInfo
+	{
+		model = "rtg_ace_expanded_track";
+		camo = "slv";
+	};
+};
+class RH_ttracker_g;
+class rtg_tracker_g : RH_ttracker_g
+{
+	scope = 2;
+	dlc = "raiderTactical";
+	Author = "Shike";
+	magazineWell[] = {"rtg_357_6Rnd"};
+	magazines[] = {"rtg_357_6Rnd"};
+	baseWeapon = "rtg_tracker_g";
+	class XtdGearInfo
+	{
+		model = "rtg_ace_expanded_track";
+		camo = "gld";
+	};
+};
+
+class RH_mp412;
+class rtg_rex : RH_mp412
+{
+	scope = 2;
+	dlc = "raiderTactical";
+	Author = "Shike";
+	magazineWell[] = {"rtg_357_6Rnd"};
+	magazines[] = {"rtg_357_6Rnd"};
+	baseWeapon = "rtg_rex";
+};
+
+class hgun_Pistol_Signal_F;
+class rtg_pellet_handgun : hgun_Pistol_Signal_F
+{
+	scope = 2;
+	dlc = "raiderTactical";
+	Author = "Shike";
+	magazineWell[] = {"rtg_1Rnd_14g"};
+	magazines[] = {"rtg_1Rnd_14g"};
+	baseWeapon = "rtg_pellet_handgun";
+};
+
 class hgun_Pistol_heavy_02_F;
 class rtg_rhino : hgun_Pistol_heavy_02_F 
 {
@@ -344,8 +569,8 @@ class rtg_rhino : hgun_Pistol_heavy_02_F
 	dlc = "raiderTactical";
 	Author = "Shike";
 	displayName = "Chiappa Rhino";
-	magazineWell[] = {"RTG_50_Small_AE"};
-	magazines[] = {"rtg_50_ae_5rnd_mag"};
+	magazineWell[] = {"rtg_44_6Rnd"};
+	magazines[] = {"rtg_44_6Rnd"};
 	baseWeapon = "rtg_rhino";
 	modes[] = {"Single"};
 	class Single : Single

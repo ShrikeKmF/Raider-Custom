@@ -1491,28 +1491,6 @@ class rtg_ace_expanded_vector {
     };
 };
 
-// UMP 
-class rtg_ace_expanded_ump {
-    label = "UMP";
-    author = "Shrike";
-    options[] = {"calibre"};
-    class calibre
-    {
-        label = "Calibre";
-        values[] = {"N9", "N50"};
-        class N9
-        {
-            label = "9mm";
-            description = "9mm Nato";
-        };
-        class N50
-        {
-            label = "50 AE";
-            description = "50 AE";
-        };
-    };
-};
-
 // CBJ
 class rtg_ace_expanded_cbj {
     label = "CBJ-MS";
