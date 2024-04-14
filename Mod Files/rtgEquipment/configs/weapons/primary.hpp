@@ -32,19 +32,19 @@ class Launcher_Base_F : Launcher
 {
 	opticsZoomInit= 0.75;
 	opticsZoomMax=0.75;
-	opticsZoomMin=0.75;
+	opticsZoomMin= 0.50;
 };
 class Pistol_Base_F : Pistol 
 {
 	opticsZoomInit= 0.75;
 	opticsZoomMax=0.75;
-	opticsZoomMin=0.75;
+	opticsZoomMin= 0.50;
 };
 class Rifle_Base_F : Rifle
 {
 	opticsZoomInit= 0.75;
 	opticsZoomMax=0.75;
-	opticsZoomMin=0.75;
+	opticsZoomMin= 0.50;
 };
 class SMG_03_TR_BASE: Rifle_Base_F
 {
@@ -55,7 +55,7 @@ class SMG_03_TR_BASE: Rifle_Base_F
 			opticsID = 1;
 			useModelOptics = 0;
 			opticsPPEffects[] = {"OpticsCHAbera1","OpticsBlur1"};
-			opticsZoomMin = 0.75;
+			opticsZoomMin= 0.50;
 			opticsZoomMax = 0.75;
 			opticsZoomInit = 0.75;
 			memoryPointCamera = "opticView";
@@ -71,100 +71,100 @@ class rhs_weap_M320_Base_F: Pistol_Base_F
 {
 	opticsZoomInit= 0.75;
 	opticsZoomMax=0.75;
-	opticsZoomMin=0.75;
+	opticsZoomMin= 0.50;
 };
 class rhs_weap_XM2010_Base_F: Rifle_Base_F
 {
 	opticsZoomInit= 0.75;
 	opticsZoomMax=0.75;
-	opticsZoomMin=0.75;
+	opticsZoomMin= 0.50;
 };
 class arifle_MX_Base_F;
 class rhs_weap_m4_Base : arifle_MX_Base_F
 {
 	opticsZoomInit= 0.75;
 	opticsZoomMax=0.75;
-	opticsZoomMin=0.75;
+	opticsZoomMin= 0.50;
 };
 class rhs_weap_saw_base : Rifle_Base_F
 {
 	opticsZoomInit= 0.75;
 	opticsZoomMax=0.75;
-	opticsZoomMin=0.75;
+	opticsZoomMin= 0.50;
 };
 class rhs_weap_M107_Base_F: GM6_base_F
 {
 	opticsZoomInit= 0.75;
 	opticsZoomMax=0.75;
-	opticsZoomMin=0.75;
+	opticsZoomMin= 0.50;
 };
 class rhs_weap_M590_5RD : Rifle_Base_F
 {
 	opticsZoomInit= 0.75;
 	opticsZoomMax=0.75;
-	opticsZoomMin=0.75;
+	opticsZoomMin= 0.50;
 };
 class rhs_weap_m32_Base_F: Rifle_Base_F
 {
 	opticsZoomInit= 0.75;
 	opticsZoomMax=0.75;
-	opticsZoomMin=0.75;
+	opticsZoomMin= 0.50;
 };
 class rhsusf_weap_MP7A1_base_f: SMG_02_base_F
 {
 	opticsZoomInit= 0.75;
 	opticsZoomMax=0.75;
-	opticsZoomMin=0.75;
+	opticsZoomMin= 0.50;
 };
 class rhs_weap_SCAR_Base : arifle_MX_Base_F
 {
 	opticsZoomInit= 0.75;
 	opticsZoomMax=0.75;
-	opticsZoomMin=0.75;
+	opticsZoomMin= 0.50;
 };
 class rhs_weap_ak74m_Base_F: Rifle_Base_F
 {
 	opticsZoomInit= 0.75;
 	opticsZoomMax=0.75;
-	opticsZoomMin=0.75;
+	opticsZoomMin= 0.50;
 };
 class rhs_weap_an94_base: Rifle_Base_F
 {
 	opticsZoomInit= 0.75;
 	opticsZoomMax=0.75;
-	opticsZoomMin=0.75;
+	opticsZoomMin= 0.50;
 };
 class rhs_weap_orsis_Base_F: Rifle_Base_F
 {
 	opticsZoomInit= 0.75;
 	opticsZoomMax=0.75;
-	opticsZoomMin=0.75;
+	opticsZoomMin= 0.50;
 };
 class rhs_weap_vhs2_base: Rifle_Base_F
 {
 	opticsZoomInit= 0.75;
 	opticsZoomMax=0.75;
-	opticsZoomMin=0.75;
+	opticsZoomMin= 0.50;
 };
 class acwp_rifle_base: Rifle_Base_F
 {
 	opticsZoomInit= 0.75;
 	opticsZoomMax=0.75;
-	opticsZoomMin=0.75;
+	opticsZoomMin= 0.50;
 };
 class srifle_EBR_F;
 class rhs_weap_m14_base : srifle_EBR_F
 {
 	opticsZoomInit= 0.75;
 	opticsZoomMax=0.75;
-	opticsZoomMin=0.75;
+	opticsZoomMin= 0.50;
 };
 class srifle_DMR_06_camo_F;
 class ACWP_sr25: srifle_DMR_06_camo_F
 {
 	opticsZoomInit= 0.75;
 	opticsZoomMax=0.75;
-	opticsZoomMin=0.75;
+	opticsZoomMin= 0.50;
 };
 
 // M1 Garand
@@ -187,7 +187,7 @@ class ACWP_sr25: srifle_DMR_06_camo_F
 
 		opticsZoomInit= 0.75;
 		opticsZoomMax=0.75;
-		opticsZoomMin=0.75;
+		opticsZoomMin= 0.50;
 	}
 
 // SVD
@@ -234,7 +234,7 @@ class ACWP_sr25: srifle_DMR_06_camo_F
 		};
 		opticsZoomInit= 0.75;
 		opticsZoomMax=0.75;
-		opticsZoomMin=0.75;
+		opticsZoomMin= 0.50;
 	};
 
 // VHS2
@@ -648,7 +648,7 @@ class ACWP_sr25: srifle_DMR_06_camo_F
 		displayName="L85A2";
 		opticsZoomInit= 0.75;
 		opticsZoomMax=0.75;
-		opticsZoomMin=0.75;
+		opticsZoomMin= 0.50;
 		class XtdGearInfo
 		{
 			model = "rtg_ace_expanded_L85";
@@ -662,7 +662,7 @@ class ACWP_sr25: srifle_DMR_06_camo_F
 		displayName="L85A2";
 		opticsZoomInit= 0.75;
 		opticsZoomMax=0.75;
-		opticsZoomMin=0.75;
+		opticsZoomMin= 0.50;
 		class XtdGearInfo
 		{
 			model = "rtg_ace_expanded_L85";
@@ -676,7 +676,7 @@ class ACWP_sr25: srifle_DMR_06_camo_F
 		displayName="L85A2";
 		opticsZoomInit= 0.75;
 		opticsZoomMax=0.75;
-		opticsZoomMin=0.75;
+		opticsZoomMin= 0.50;
 		class XtdGearInfo
 		{
 			model = "rtg_ace_expanded_L85";
@@ -690,7 +690,7 @@ class ACWP_sr25: srifle_DMR_06_camo_F
 		displayName="L85A2";
 		opticsZoomInit= 0.75;
 		opticsZoomMax=0.75;
-		opticsZoomMin=0.75;
+		opticsZoomMin= 0.50;
 		class XtdGearInfo
 		{
 			model = "rtg_ace_expanded_L85";
@@ -2443,7 +2443,7 @@ class rtg_vs121 : srifle_DMR_01_F
 		recoil = "rtg_762n_carbine";
 		opticsZoomInit= 0.75;
 		opticsZoomMax=0.75;
-		opticsZoomMin=0.75;
+		opticsZoomMin= 0.50;
 		class XtdGearInfo
 		{
 			model = "rtg_ace_expanded_m14";
@@ -2461,7 +2461,7 @@ class rtg_vs121 : srifle_DMR_01_F
 		recoil = "rtg_762n_rifle";
 		opticsZoomInit= 0.75;
 		opticsZoomMax=0.75;
-		opticsZoomMin=0.75;
+		opticsZoomMin= 0.50;
 		class XtdGearInfo
 		{
 			model = "rtg_ace_expanded_m14";
@@ -2478,7 +2478,7 @@ class rtg_vs121 : srifle_DMR_01_F
 		recoil = "rtg_762n_rifle";
 		opticsZoomInit= 0.75;
 		opticsZoomMax=0.75;
-		opticsZoomMin=0.75;
+		opticsZoomMin= 0.50;
 		class XtdGearInfo
 		{
 			model = "rtg_ace_expanded_m14";
@@ -2495,7 +2495,7 @@ class rtg_vs121 : srifle_DMR_01_F
 		recoil = "rtg_762n_rifle";
 		opticsZoomInit= 0.75;
 		opticsZoomMax=0.75;
-		opticsZoomMin=0.75;
+		opticsZoomMin= 0.50;
 		class XtdGearInfo
 		{
 			model = "rtg_ace_expanded_m14";
@@ -2512,7 +2512,7 @@ class rtg_vs121 : srifle_DMR_01_F
 		recoil = "rtg_762n_rifle";
 		opticsZoomInit= 0.75;
 		opticsZoomMax=0.75;
-		opticsZoomMin=0.75;
+		opticsZoomMin= 0.50;
 		class XtdGearInfo
 		{
 			model = "rtg_ace_expanded_m14";
@@ -2592,7 +2592,7 @@ class rtg_mag60_20 : rhs_weap_m240G
 	ACE_barrelLength = 630.8;
 	opticsZoomInit= 0.75;
 	opticsZoomMax=0.75;
-	opticsZoomMin=0.75;
+	opticsZoomMin= 0.50;
 	mass = 260.1;
 	bg_bipod = 1;
 	cse_bipod = 1;
@@ -2636,7 +2636,7 @@ class rtg_mag60_20_t3 : rhs_weap_fnmag
 	ACE_barrelLength = 630.8;
 	opticsZoomInit= 0.75;
 	opticsZoomMax=0.75;
-	opticsZoomMin=0.75;
+	opticsZoomMin= 0.50;
 	mass = 285.1;
 	bg_bipod = 1;
 	cse_bipod = 1;
@@ -2853,7 +2853,7 @@ class rtg_UKM2000_F : rhs_weap_pkp
 	handAnim[] = {"OFP2_ManSkeleton","\rhsafrf\addons\rhs_c_weapons\anims\pkm.rtm"};
 	opticsZoomInit= 0.75;
 	opticsZoomMax=0.75;
-	opticsZoomMin=0.75;
+	opticsZoomMin= 0.50;
 	class WeaponSlotsInfo: WeaponSlotsInfo
 	{
 		class CowsSlot: asdg_OpticRail1913{};
@@ -3036,7 +3036,7 @@ class rtg_pslr1_rpg7 : launch_RPG7_F
 	magazineWell[] = {"RPG7"};
 	opticsZoomInit= 0.75;
 	opticsZoomMax=0.75;
-	opticsZoomMin=0.75;
+	opticsZoomMin= 0.50;
 }
 
 // shotguns

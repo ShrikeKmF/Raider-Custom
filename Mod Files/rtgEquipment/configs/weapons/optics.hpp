@@ -27,7 +27,7 @@ class rtg_optic_MRCO: optic_MRCO
 				opticsPPEffects[] = {"Default"};
 				opticsFlare = 0;
 				opticsDisablePeripherialVision = 0;
-				opticsZoomMin = 0.75;
+				opticsZoomMin= 0.50;
 				opticsZoomMax = 0.75;
 				opticsZoomInit = 0.75;
 				memoryPointCamera = "eye";
@@ -99,7 +99,7 @@ class rtg_optic_DMS: optic_DMS
                 opticsPPEffects[] = {"",""};
                 opticsFlare = 0;
                 opticsDisablePeripherialVision = 0;
-                opticsZoomMin = 0.75;
+                opticsZoomMin= 0.50;
                 opticsZoomMax = 0.75;
                 opticsZoomInit = 0.75;
                 memoryPointCamera = "eye";
@@ -156,7 +156,7 @@ class rtg_night_sight: optic_tws
                 opticsPPEffects[] = {"",""};
                 opticsFlare = 0;
                 opticsDisablePeripherialVision = 0;
-                opticsZoomMin = 0.75;
+                opticsZoomMin= 0.50;
                 opticsZoomMax = 0.75;
                 opticsZoomInit = 0.75;
                 memoryPointCamera = "eye";
@@ -202,7 +202,7 @@ class rtg_night_sight: optic_tws
 					};
 					opticsFlare=0;
 					opticsDisablePeripherialVision=0;
-					opticsZoomMin = 0.75;
+					opticsZoomMin= 0.50;
                     opticsZoomMax = 0.75;
                     opticsZoomInit = 0.75;
 					memoryPointCamera="eye";
@@ -236,7 +236,7 @@ class rtg_night_sight: optic_tws
 					{
 						""
 					};
-					opticsZoomMin= 0.75;
+					opticsZoomMin= 0.50;
 					opticsZoomMax= 0.75;
 					opticsZoomInit= 0.75;
 					memoryPointCamera="iron_eye";
@@ -349,7 +349,7 @@ class rtg_night_sight: optic_tws
 						"ptv_ta11_Blur"
 					};
 					opticsZoomMin="1.5 call (uiNamespace getVariable 'cba_optics_fnc_setOpticMagnificationHelper')";
-					opticsZoomMax="1.1 call (uiNamespace getVariable 'cba_optics_fnc_setOpticMagnificationHelper')";
+					opticsZoomMax=0.50;
 					opticsZoomInit="1.2 call (uiNamespace getVariable 'cba_optics_fnc_setOpticMagnificationHelper')";
 					discreteInitIndex=0;
 					memoryPointCamera="opticView";
@@ -388,7 +388,7 @@ class rtg_night_sight: optic_tws
 		class ItemInfo : InventoryOpticsItem_Base_F {
 			class OpticsModes {
 				class ACO {
-					opticsZoomMin = 0.75;
+					opticsZoomMin= 0.50;
 					opticsZoomMax = 0.75;
 					opticsZoomInit = 0.75;
 					memoryPointCamera = "RDeye";
@@ -415,7 +415,7 @@ class rtg_night_sight: optic_tws
 			class ItemInfo : InventoryOpticsItem_Base_F {
 			class OpticsModes {
 				class ACO {
-					opticsZoomMin = 0.75;
+					opticsZoomMin= 0.50;
 					opticsZoomMax = 0.75;
 					opticsZoomInit = 0.75;
 					distanceZoomMin = 100;
@@ -430,7 +430,7 @@ class rtg_night_sight: optic_tws
 		class ItemInfo : InventoryOpticsItem_Base_F {
 			class OpticsModes {
 				class EOT {
-					opticsZoomMin = 0.75;
+					opticsZoomMin= 0.50;
 					opticsZoomMax = 0.75;
 					opticsZoomInit = 0.75;
 					distanceZoomMin = 100;
@@ -445,7 +445,7 @@ class rtg_night_sight: optic_tws
 		class ItemInfo : InventoryOpticsItem_Base_F {
 			class OpticsModes {
 				class ACO {
-					opticsZoomMin = 0.75;
+					opticsZoomMin= 0.50;
 					opticsZoomMax = 0.75;
 					opticsZoomInit = 0.75;
 					distanceZoomMin = 100;
@@ -460,7 +460,7 @@ class rtg_night_sight: optic_tws
 		class ItemInfo : InventoryOpticsItem_Base_F {
 			class OpticsModes {
 				class ACO {
-					opticsZoomMin = 0.75;
+					opticsZoomMin= 0.50;
 					opticsZoomMax = 0.75;
 					opticsZoomInit = 0.75;
 					distanceZoomMin = 100;
@@ -475,7 +475,7 @@ class rtg_night_sight: optic_tws
 		class ItemInfo : InventoryOpticsItem_Base_F {
 			class OpticsModes {
 				class ACO {
-					opticsZoomMin = 0.75;
+					opticsZoomMin= 0.50;
 					opticsZoomMax = 0.75;
 					opticsZoomInit = 0.75;
 					distanceZoomMin = 100;

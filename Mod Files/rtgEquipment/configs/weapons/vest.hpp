@@ -9,7 +9,8 @@ class tactec: Vest_Camo_Base
         type =    "light";
         camo =  "mc";
 	};
-	class ItemInfo: ItemInfo
+	armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -17,19 +18,19 @@ class tactec: Vest_Camo_Base
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -49,7 +50,8 @@ class tactecFG: Vest_Camo_Base
         type =    "light";
         camo =  "fg";
 	};
-	class ItemInfo: ItemInfo
+	armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -57,19 +59,19 @@ class tactecFG: Vest_Camo_Base
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -89,7 +91,8 @@ class tactecAU: Vest_Camo_Base
         type =    "light";
         camo =  "au";
 	};
-	class ItemInfo: ItemInfo
+	armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -97,19 +100,19 @@ class tactecAU: Vest_Camo_Base
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -129,7 +132,8 @@ class tactecBlack: Vest_Camo_Base
         type =    "light";
         camo =  "blk";
 	};
-	class ItemInfo: ItemInfo
+	armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -137,19 +141,19 @@ class tactecBlack: Vest_Camo_Base
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -170,7 +174,8 @@ class tactecgp: Vest_Camo_Base
         type =    "light";
         camo =  "mc";
 	};
-	class ItemInfo: ItemInfo
+	armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -178,19 +183,19 @@ class tactecgp: Vest_Camo_Base
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -210,7 +215,8 @@ class tactecgpFG: Vest_Camo_Base
         type =    "light";
         camo =  "fg";
 	};
-	class ItemInfo: ItemInfo
+	armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -218,19 +224,19 @@ class tactecgpFG: Vest_Camo_Base
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -250,7 +256,8 @@ class tactecgpAU: Vest_Camo_Base
         type =    "light";
         camo =  "au";
 	};
-	class ItemInfo: ItemInfo
+	armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -258,19 +265,19 @@ class tactecgpAU: Vest_Camo_Base
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -290,7 +297,8 @@ class tactecgpBlack: Vest_Camo_Base
         type =    "light";
         camo =  "blk";
 	};
-	class ItemInfo: ItemInfo
+	armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -298,19 +306,19 @@ class tactecgpBlack: Vest_Camo_Base
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -331,7 +339,8 @@ class tactec762: Vest_Camo_Base
         type =    "light";
         camo =  "mc";
 	};
-	class ItemInfo: ItemInfo
+	armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -339,19 +348,19 @@ class tactec762: Vest_Camo_Base
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -371,7 +380,8 @@ class tactec762FG: Vest_Camo_Base
         type =    "light";
         camo =  "fg";
 	};
-	class ItemInfo: ItemInfo
+	armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -379,19 +389,19 @@ class tactec762FG: Vest_Camo_Base
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -411,7 +421,8 @@ class tactec762AU: Vest_Camo_Base
         type =    "light";
         camo =  "au";
 	};
-	class ItemInfo: ItemInfo
+	armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -419,19 +430,19 @@ class tactec762AU: Vest_Camo_Base
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -451,7 +462,8 @@ class tactec762Black: Vest_Camo_Base
         type =    "light";
         camo =  "blk";
 	};
-	class ItemInfo: ItemInfo
+	armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -459,19 +471,19 @@ class tactec762Black: Vest_Camo_Base
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -492,7 +504,8 @@ class tactec762gp: Vest_Camo_Base
         type =    "light";
         camo =  "mc";
 	};
-	class ItemInfo: ItemInfo
+	armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -500,19 +513,19 @@ class tactec762gp: Vest_Camo_Base
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -532,7 +545,8 @@ class tactec762gpFG: Vest_Camo_Base
         type =    "light";
         camo =  "fg";
 	};
-	class ItemInfo: ItemInfo
+	armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -540,19 +554,19 @@ class tactec762gpFG: Vest_Camo_Base
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -572,7 +586,8 @@ class tactec762gpAU: Vest_Camo_Base
         type =    "light";
         camo =  "au";
 	};
-	class ItemInfo: ItemInfo
+	armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -580,19 +595,19 @@ class tactec762gpAU: Vest_Camo_Base
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -612,7 +627,8 @@ class tactec762gpBlack: Vest_Camo_Base
         type =    "light";
         camo =  "blk";
 	};
-	class ItemInfo: ItemInfo
+	armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -620,19 +636,19 @@ class tactec762gpBlack: Vest_Camo_Base
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -653,7 +669,8 @@ class tactecSVD: Vest_Camo_Base
         type =    "light";
         camo =  "mc";
 	};
-	class ItemInfo: ItemInfo
+	armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -661,19 +678,19 @@ class tactecSVD: Vest_Camo_Base
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -693,7 +710,8 @@ class tactecSVDFG: Vest_Camo_Base
         type =    "light";
         camo =  "fg";
 	};
-	class ItemInfo: ItemInfo
+	armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -701,19 +719,19 @@ class tactecSVDFG: Vest_Camo_Base
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -733,7 +751,8 @@ class tactecSVDAU: Vest_Camo_Base
         type =    "light";
         camo =  "au";
 	};
-	class ItemInfo: ItemInfo
+	armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -741,19 +760,19 @@ class tactecSVDAU: Vest_Camo_Base
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -773,7 +792,8 @@ class tactecSVDBlack: Vest_Camo_Base
         type =    "light";
         camo =  "blk";
 	};
-	class ItemInfo: ItemInfo
+	armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -781,19 +801,19 @@ class tactecSVDBlack: Vest_Camo_Base
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -814,7 +834,8 @@ class tactecPKP: Vest_Camo_Base
         type =    "light";
         camo =  "mc";
 	};
-	class ItemInfo: ItemInfo
+	armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -822,19 +843,19 @@ class tactecPKP: Vest_Camo_Base
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -854,7 +875,8 @@ class tactecPKPFG: Vest_Camo_Base
         type =    "light";
         camo =  "fg";
 	};
-	class ItemInfo: ItemInfo
+	armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -862,19 +884,19 @@ class tactecPKPFG: Vest_Camo_Base
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -894,7 +916,8 @@ class tactecPKPAU: Vest_Camo_Base
         type =    "light";
         camo =  "au";
 	};
-	class ItemInfo: ItemInfo
+	armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -902,19 +925,19 @@ class tactecPKPAU: Vest_Camo_Base
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -934,7 +957,8 @@ class tactecPKPBlack: Vest_Camo_Base
         type =    "light";
         camo =  "blk";
 	};
-	class ItemInfo: ItemInfo
+	armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -942,19 +966,19 @@ class tactecPKPBlack: Vest_Camo_Base
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -976,7 +1000,8 @@ class tactecfull: Vest_Camo_Base
         type =    "heavy";
         camo =  "mc";
 	};
-	class ItemInfo: ItemInfo
+	armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -984,19 +1009,19 @@ class tactecfull: Vest_Camo_Base
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -1016,7 +1041,8 @@ class tactecfullFG: Vest_Camo_Base
         type =    "heavy";
         camo =  "fg";
 	};
-	class ItemInfo: ItemInfo
+	armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -1024,19 +1050,19 @@ class tactecfullFG: Vest_Camo_Base
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -1056,7 +1082,8 @@ class tactecfullAU: Vest_Camo_Base
         type =    "heavy";
         camo =  "au";
 	};
-	class ItemInfo: ItemInfo
+	armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -1064,19 +1091,19 @@ class tactecfullAU: Vest_Camo_Base
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -1096,7 +1123,8 @@ class tactecfullBlack: Vest_Camo_Base
         type =    "heavy";
         camo =  "blk";
 	};
-	class ItemInfo: ItemInfo
+	armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -1104,19 +1132,19 @@ class tactecfullBlack: Vest_Camo_Base
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -1137,7 +1165,8 @@ class tactecfullgp: Vest_Camo_Base
         type =    "heavy";
         camo =  "mc";
 	};
-	class ItemInfo: ItemInfo
+	armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -1145,19 +1174,19 @@ class tactecfullgp: Vest_Camo_Base
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -1177,7 +1206,8 @@ class tactecfullgpBlack: Vest_Camo_Base
         type =    "heavy";
         camo =  "blk";
 	};
-	class ItemInfo: ItemInfo
+	armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -1185,19 +1215,19 @@ class tactecfullgpBlack: Vest_Camo_Base
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -1217,7 +1247,8 @@ class tactecfullgpFG: Vest_Camo_Base
         type =    "heavy";
         camo =  "fg";
 	};
-	class ItemInfo: ItemInfo
+	armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -1225,19 +1256,19 @@ class tactecfullgpFG: Vest_Camo_Base
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -1257,7 +1288,8 @@ class tactecfullgpAU: Vest_Camo_Base
         type =    "heavy";
         camo =  "au";
 	};
-	class ItemInfo: ItemInfo
+	armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -1265,19 +1297,19 @@ class tactecfullgpAU: Vest_Camo_Base
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -1297,7 +1329,8 @@ class tactefullgpBlack: Vest_Camo_Base
         type =    "heavy";
         camo =  "blk";
 	};
-	class ItemInfo: ItemInfo
+	armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -1305,19 +1338,19 @@ class tactefullgpBlack: Vest_Camo_Base
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -1338,7 +1371,8 @@ class tactecfull762: Vest_Camo_Base
         type =    "heavy";
         camo =  "mc";
 	};
-	class ItemInfo: ItemInfo
+	armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -1346,19 +1380,19 @@ class tactecfull762: Vest_Camo_Base
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -1378,7 +1412,8 @@ class tactecfull762FG: Vest_Camo_Base
         type =    "heavy";
         camo =  "fg";
 	};
-	class ItemInfo: ItemInfo
+	armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -1386,19 +1421,19 @@ class tactecfull762FG: Vest_Camo_Base
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -1418,7 +1453,8 @@ class tactecfull762AU: Vest_Camo_Base
         type =    "heavy";
         camo =  "au";
 	};
-	class ItemInfo: ItemInfo
+	armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -1426,19 +1462,19 @@ class tactecfull762AU: Vest_Camo_Base
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -1458,7 +1494,8 @@ class tactecfull762Black: Vest_Camo_Base
         type =    "heavy";
         camo =  "blk";
 	};
-	class ItemInfo: ItemInfo
+	armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -1466,19 +1503,19 @@ class tactecfull762Black: Vest_Camo_Base
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -1499,7 +1536,8 @@ class tactecfull762gp: Vest_Camo_Base
         type =    "heavy";
         camo =  "mc";
 	};
-	class ItemInfo: ItemInfo
+	armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -1507,19 +1545,19 @@ class tactecfull762gp: Vest_Camo_Base
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -1539,7 +1577,8 @@ class tactecfull762gpFG: Vest_Camo_Base
         type =    "heavy";
         camo =  "fg";
 	};
-	class ItemInfo: ItemInfo
+	armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -1547,19 +1586,19 @@ class tactecfull762gpFG: Vest_Camo_Base
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -1579,7 +1618,8 @@ class tactecfull762gpAU: Vest_Camo_Base
         type =    "heavy";
         camo =  "au";
 	};
-	class ItemInfo: ItemInfo
+	armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -1587,19 +1627,19 @@ class tactecfull762gpAU: Vest_Camo_Base
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -1619,7 +1659,8 @@ class tactecfull762gpBlack: Vest_Camo_Base
         type =    "heavy";
         camo =  "blk";
 	};
-	class ItemInfo: ItemInfo
+	armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -1627,19 +1668,19 @@ class tactecfull762gpBlack: Vest_Camo_Base
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -1660,7 +1701,8 @@ class tactecfullSVD: Vest_Camo_Base
         type =    "heavy";
         camo =  "mc";
 	};
-	class ItemInfo: ItemInfo
+	armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -1668,19 +1710,19 @@ class tactecfullSVD: Vest_Camo_Base
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -1700,7 +1742,8 @@ class tactecfullSVDFG: Vest_Camo_Base
         type =    "heavy";
         camo =  "fg";
 	};
-	class ItemInfo: ItemInfo
+	armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -1708,19 +1751,19 @@ class tactecfullSVDFG: Vest_Camo_Base
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -1740,7 +1783,8 @@ class tactecfullSVDAU: Vest_Camo_Base
         type =    "heavy";
         camo =  "au";
 	};
-	class ItemInfo: ItemInfo
+	armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -1748,19 +1792,19 @@ class tactecfullSVDAU: Vest_Camo_Base
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -1780,7 +1824,8 @@ class tactecfullSVDBlack: Vest_Camo_Base
         type =    "heavy";
         camo =  "blk";
 	};
-	class ItemInfo: ItemInfo
+	armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -1788,19 +1833,19 @@ class tactecfullSVDBlack: Vest_Camo_Base
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -1821,7 +1866,8 @@ class tactecfullPKP: Vest_Camo_Base
         type =    "heavy";
         camo =  "mc";
 	};
-	class ItemInfo: ItemInfo
+	armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -1829,19 +1875,19 @@ class tactecfullPKP: Vest_Camo_Base
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -1861,7 +1907,8 @@ class tactecfullPKPFG: Vest_Camo_Base
         type =    "heavy";
         camo =  "fg";
 	};
-	class ItemInfo: ItemInfo
+	armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -1869,19 +1916,19 @@ class tactecfullPKPFG: Vest_Camo_Base
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -1901,7 +1948,8 @@ class tactecfullPKPAU: Vest_Camo_Base
         type =    "heavy";
         camo =  "au";
 	};
-	class ItemInfo: ItemInfo
+	armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -1909,19 +1957,19 @@ class tactecfullPKPAU: Vest_Camo_Base
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -1941,7 +1989,8 @@ class tactecfullPKPBlack: Vest_Camo_Base
         type =    "heavy";
         camo =  "blk";
 	};
-	class ItemInfo: ItemInfo
+	armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -1949,19 +1998,19 @@ class tactecfullPKPBlack: Vest_Camo_Base
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -2006,7 +2055,8 @@ class rtg_dr_Alpinefacp_br : dr_Alpinefacp_br {
     scope = 2;
 	dlc = "raiderTactical";
 	Author = "Shrike";
-class ItemInfo: ItemInfo
+armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -2014,19 +2064,19 @@ class ItemInfo: ItemInfo
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -2048,7 +2098,8 @@ class rtg_dr_Alpinefacp_mg : dr_Alpinefacp_mg {
     scope = 2;
 	dlc = "raiderTactical";
 	Author = "Shrike";
-class ItemInfo: ItemInfo
+armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -2056,19 +2107,19 @@ class ItemInfo: ItemInfo
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -2090,7 +2141,8 @@ class rtg_dr_Alpinefacp_op : dr_Alpinefacp_op {
     scope = 2;
 	dlc = "raiderTactical";
 	Author = "Shrike";
-class ItemInfo: ItemInfo
+armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -2098,19 +2150,19 @@ class ItemInfo: ItemInfo
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -2132,7 +2184,8 @@ class rtg_CarrierRig_Breacher_Alpine : CarrierRig_Breacher_Alpine {
     scope = 2;
 	dlc = "raiderTactical";
 	Author = "Shrike";
-class ItemInfo: ItemInfo
+armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -2140,19 +2193,19 @@ class ItemInfo: ItemInfo
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -2174,7 +2227,8 @@ class rtg_CarrierRig_Gunner_Alpine : CarrierRig_Gunner_Alpine {
     scope = 2;
 	dlc = "raiderTactical";
 	Author = "Shrike";
-class ItemInfo: ItemInfo
+armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -2182,19 +2236,19 @@ class ItemInfo: ItemInfo
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -2216,7 +2270,8 @@ class rtg_CarrierRig_Operator_Alpine : CarrierRig_Operator_Alpine {
     scope = 2;
 	dlc = "raiderTactical";
 	Author = "Shrike";
-class ItemInfo: ItemInfo
+armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -2224,19 +2279,19 @@ class ItemInfo: ItemInfo
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -2258,7 +2313,8 @@ class rtg_dr_Alpinelbt_br : dr_Alpinelbt_br {
     scope = 2;
 	dlc = "raiderTactical";
 	Author = "Shrike";
-class ItemInfo: ItemInfo
+armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -2266,19 +2322,19 @@ class ItemInfo: ItemInfo
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -2300,7 +2356,8 @@ class rtg_dr_Alpinelbt_mg : dr_Alpinelbt_mg {
     scope = 2;
 	dlc = "raiderTactical";
 	Author = "Shrike";
-class ItemInfo: ItemInfo
+armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -2308,19 +2365,19 @@ class ItemInfo: ItemInfo
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -2342,7 +2399,8 @@ class rtg_dr_Alpinelbt_op : dr_Alpinelbt_op {
     scope = 2;
 	dlc = "raiderTactical";
 	Author = "Shrike";
-class ItemInfo: ItemInfo
+armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -2350,19 +2408,19 @@ class ItemInfo: ItemInfo
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -2384,7 +2442,8 @@ class rtg_dr_Alpinepar_br : dr_Alpinepar_br {
     scope = 2;
 	dlc = "raiderTactical";
 	Author = "Shrike";
-class ItemInfo: ItemInfo
+armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -2392,19 +2451,19 @@ class ItemInfo: ItemInfo
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -2426,7 +2485,8 @@ class rtg_dr_Alpinepar_mg : dr_Alpinepar_mg {
     scope = 2;
 	dlc = "raiderTactical";
 	Author = "Shrike";
-class ItemInfo: ItemInfo
+armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -2434,19 +2494,19 @@ class ItemInfo: ItemInfo
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -2468,7 +2528,8 @@ class rtg_dr_Alpinepar_op : dr_Alpinepar_op {
     scope = 2;
 	dlc = "raiderTactical";
 	Author = "Shrike";
-class ItemInfo: ItemInfo
+armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -2476,19 +2537,19 @@ class ItemInfo: ItemInfo
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -2511,7 +2572,8 @@ class rtg_dr_ARDfacp_br : dr_ARDfacp_br {
     scope = 2;
 	dlc = "raiderTactical";
 	Author = "Shrike";
-class ItemInfo: ItemInfo
+armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -2519,19 +2581,19 @@ class ItemInfo: ItemInfo
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -2553,7 +2615,8 @@ class rtg_dr_ARDfacp_mg : dr_ARDfacp_mg {
     scope = 2;
 	dlc = "raiderTactical";
 	Author = "Shrike";
-class ItemInfo: ItemInfo
+armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -2561,19 +2624,19 @@ class ItemInfo: ItemInfo
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -2595,7 +2658,8 @@ class rtg_dr_ARDfacp_op : dr_ARDfacp_op {
     scope = 2;
 	dlc = "raiderTactical";
 	Author = "Shrike";
-class ItemInfo: ItemInfo
+armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -2603,19 +2667,19 @@ class ItemInfo: ItemInfo
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -2637,7 +2701,8 @@ class rtg_CarrierRig_Breacher_Arid : CarrierRig_Breacher_Arid {
     scope = 2;
 	dlc = "raiderTactical";
 	Author = "Shrike";
-class ItemInfo: ItemInfo
+armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -2645,19 +2710,19 @@ class ItemInfo: ItemInfo
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -2679,7 +2744,8 @@ class rtg_CarrierRig_Gunner_Arid : CarrierRig_Gunner_Arid {
     scope = 2;
 	dlc = "raiderTactical";
 	Author = "Shrike";
-class ItemInfo: ItemInfo
+armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -2687,19 +2753,19 @@ class ItemInfo: ItemInfo
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -2721,7 +2787,8 @@ class rtg_CarrierRig_Operator_Arid : CarrierRig_Operator_Arid {
     scope = 2;
 	dlc = "raiderTactical";
 	Author = "Shrike";
-class ItemInfo: ItemInfo
+armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -2729,19 +2796,19 @@ class ItemInfo: ItemInfo
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -2763,7 +2830,8 @@ class rtg_dr_ARDlbt_br : dr_ARDlbt_br {
     scope = 2;
 	dlc = "raiderTactical";
 	Author = "Shrike";
-class ItemInfo: ItemInfo
+armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -2771,19 +2839,19 @@ class ItemInfo: ItemInfo
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -2805,7 +2873,8 @@ class rtg_dr_ARDlbt_mg : dr_ARDlbt_mg {
     scope = 2;
 	dlc = "raiderTactical";
 	Author = "Shrike";
-class ItemInfo: ItemInfo
+armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -2813,19 +2882,19 @@ class ItemInfo: ItemInfo
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -2847,7 +2916,8 @@ class rtg_dr_ARDlbt_op : dr_ARDlbt_op {
     scope = 2;
 	dlc = "raiderTactical";
 	Author = "Shrike";
-class ItemInfo: ItemInfo
+armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -2855,19 +2925,19 @@ class ItemInfo: ItemInfo
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -2889,7 +2959,8 @@ class rtg_dr_ARDpar_br : dr_ARDpar_br {
     scope = 2;
 	dlc = "raiderTactical";
 	Author = "Shrike";
-class ItemInfo: ItemInfo
+armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -2897,19 +2968,19 @@ class ItemInfo: ItemInfo
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -2931,7 +3002,8 @@ class rtg_dr_ARDpar_mg : dr_ARDpar_mg {
     scope = 2;
 	dlc = "raiderTactical";
 	Author = "Shrike";
-class ItemInfo: ItemInfo
+armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -2939,19 +3011,19 @@ class ItemInfo: ItemInfo
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -2973,7 +3045,8 @@ class rtg_dr_ARDpar_op : dr_ARDpar_op {
     scope = 2;
 	dlc = "raiderTactical";
 	Author = "Shrike";
-class ItemInfo: ItemInfo
+armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -2981,19 +3054,19 @@ class ItemInfo: ItemInfo
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -3019,7 +3092,8 @@ class rtg_VSM_FAPC_Breacher_M81 : VSM_FAPC_Breacher_M81 {
     scope = 2;
 	dlc = "raiderTactical";
 	Author = "Shrike";
-class ItemInfo: ItemInfo
+armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -3027,19 +3101,19 @@ class ItemInfo: ItemInfo
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -3061,7 +3135,8 @@ class rtg_VSM_FAPC_Gunner_M81 : VSM_FAPC_MG_M81 {
     scope = 2;
 	dlc = "raiderTactical";
 	Author = "Shrike";
-class ItemInfo: ItemInfo
+armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -3069,19 +3144,19 @@ class ItemInfo: ItemInfo
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -3103,7 +3178,8 @@ class rtg_VSM_FAPC_Operator_M81 : VSM_FAPC_Operator_M81 {
     scope = 2;
 	dlc = "raiderTactical";
 	Author = "Shrike";
-class ItemInfo: ItemInfo
+armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -3111,19 +3187,19 @@ class ItemInfo: ItemInfo
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -3148,7 +3224,8 @@ class rtg_VSM_CarrierRig_Breacher_M81 : VSM_CarrierRig_Breacher_M81 {
     scope = 2;
 	dlc = "raiderTactical";
 	Author = "Shrike";
-class ItemInfo: ItemInfo
+armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -3156,19 +3233,19 @@ class ItemInfo: ItemInfo
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -3190,7 +3267,8 @@ class rtg_VSM_CarrierRig_Gunner_M81 : VSM_CarrierRig_Gunner_M81 {
     scope = 2;
 	dlc = "raiderTactical";
 	Author = "Shrike";
-class ItemInfo: ItemInfo
+armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -3198,19 +3276,19 @@ class ItemInfo: ItemInfo
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -3232,7 +3310,8 @@ class rtg_VSM_CarrierRig_Operator_M81 : VSM_CarrierRig_Operator_M81 {
     scope = 2;
 	dlc = "raiderTactical";
 	Author = "Shrike";
-class ItemInfo: ItemInfo
+armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -3240,19 +3319,19 @@ class ItemInfo: ItemInfo
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -3277,7 +3356,8 @@ class rtg_VSM_LBT6094_Breacher_M81 : VSM_LBT6094_Breacher_M81 {
     scope = 2;
 	dlc = "raiderTactical";
 	Author = "Shrike";
-class ItemInfo: ItemInfo
+armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -3285,19 +3365,19 @@ class ItemInfo: ItemInfo
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -3319,7 +3399,8 @@ class rtg_VSM_LBT6094_Gunner_M81 : VSM_LBT6094_MG_M81 {
     scope = 2;
 	dlc = "raiderTactical";
 	Author = "Shrike";
-class ItemInfo: ItemInfo
+armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -3327,19 +3408,19 @@ class ItemInfo: ItemInfo
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -3361,7 +3442,8 @@ class rtg_VSM_LBT6094_Operator_M81 : VSM_LBT6094_Operator_M81 {
     scope = 2;
 	dlc = "raiderTactical";
 	Author = "Shrike";
-class ItemInfo: ItemInfo
+armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -3369,19 +3451,19 @@ class ItemInfo: ItemInfo
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -3406,7 +3488,8 @@ class rtg_VSM_RAV_Breacher_M81 : VSM_RAV_Breacher_M81 {
     scope = 2;
 	dlc = "raiderTactical";
 	Author = "Shrike";
-class ItemInfo: ItemInfo
+armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -3414,19 +3497,19 @@ class ItemInfo: ItemInfo
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -3448,7 +3531,8 @@ class rtg_VSM_RAV_Gunner_M81 : VSM_RAV_MG_M81 {
     scope = 2;
 	dlc = "raiderTactical";
 	Author = "Shrike";
-class ItemInfo: ItemInfo
+armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -3456,19 +3540,19 @@ class ItemInfo: ItemInfo
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -3490,7 +3574,8 @@ class rtg_VSM_RAV_Operator_M81 : VSM_RAV_Operator_M81 {
     scope = 2;
 	dlc = "raiderTactical";
 	Author = "Shrike";
-class ItemInfo: ItemInfo
+armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -3498,19 +3583,19 @@ class ItemInfo: ItemInfo
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -3536,7 +3621,8 @@ class rtg_dr_BLKfacp_br : dr_BLKfacp_br {
     scope = 2;
 	dlc = "raiderTactical";
 	Author = "Shrike";
-class ItemInfo: ItemInfo
+armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -3544,19 +3630,19 @@ class ItemInfo: ItemInfo
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -3578,7 +3664,8 @@ class rtg_dr_BLKfacp_mg : dr_BLKfacp_mg {
     scope = 2;
 	dlc = "raiderTactical";
 	Author = "Shrike";
-class ItemInfo: ItemInfo
+armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -3586,19 +3673,19 @@ class ItemInfo: ItemInfo
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -3620,7 +3707,8 @@ class rtg_dr_BLKfacp_op : dr_BLKfacp_op {
     scope = 2;
 	dlc = "raiderTactical";
 	Author = "Shrike";
-class ItemInfo: ItemInfo
+armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -3628,19 +3716,19 @@ class ItemInfo: ItemInfo
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -3665,7 +3753,8 @@ class rtg_dr_BLKlbt_br : dr_BLKlbt_br {
     scope = 2;
 	dlc = "raiderTactical";
 	Author = "Shrike";
-class ItemInfo: ItemInfo
+armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -3673,19 +3762,19 @@ class ItemInfo: ItemInfo
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -3707,7 +3796,8 @@ class rtg_dr_BLKlbt_mg : dr_BLKlbt_mg {
     scope = 2;
 	dlc = "raiderTactical";
 	Author = "Shrike";
-class ItemInfo: ItemInfo
+armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -3715,19 +3805,19 @@ class ItemInfo: ItemInfo
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -3749,7 +3839,8 @@ class rtg_dr_BLKlbt_op : dr_BLKlbt_op {
     scope = 2;
 	dlc = "raiderTactical";
 	Author = "Shrike";
-class ItemInfo: ItemInfo
+armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -3757,19 +3848,19 @@ class ItemInfo: ItemInfo
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -3794,7 +3885,8 @@ class rtg_dr_BLKpar_br : dr_BLKpar_br {
     scope = 2;
 	dlc = "raiderTactical";
 	Author = "Shrike";
-class ItemInfo: ItemInfo
+armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -3802,19 +3894,19 @@ class ItemInfo: ItemInfo
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -3836,7 +3928,8 @@ class rtg_dr_BLKpar_mg : dr_BLKpar_mg {
     scope = 2;
 	dlc = "raiderTactical";
 	Author = "Shrike";
-class ItemInfo: ItemInfo
+armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -3844,19 +3937,19 @@ class ItemInfo: ItemInfo
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -3878,7 +3971,8 @@ class rtg_dr_BLKpar_op : dr_BLKpar_op {
     scope = 2;
 	dlc = "raiderTactical";
 	Author = "Shrike";
-class ItemInfo: ItemInfo
+armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -3886,19 +3980,19 @@ class ItemInfo: ItemInfo
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -3924,7 +4018,8 @@ class rtg_VSM_FAPC_Breacher_MultiCam : VSM_FAPC_Breacher_MultiCam {
     scope = 2;
 	dlc = "raiderTactical";
 	Author = "Shrike";
-class ItemInfo: ItemInfo
+armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -3932,19 +4027,19 @@ class ItemInfo: ItemInfo
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -3966,7 +4061,8 @@ class rtg_VSM_FAPC_Gunner_MultiCam : VSM_FAPC_MG_MultiCam {
     scope = 2;
 	dlc = "raiderTactical";
 	Author = "Shrike";
-class ItemInfo: ItemInfo
+armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -3974,19 +4070,19 @@ class ItemInfo: ItemInfo
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -4008,7 +4104,8 @@ class rtg_VSM_FAPC_Operator_MultiCam : VSM_FAPC_Operator_MultiCam {
     scope = 2;
 	dlc = "raiderTactical";
 	Author = "Shrike";
-class ItemInfo: ItemInfo
+armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -4016,19 +4113,19 @@ class ItemInfo: ItemInfo
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -4053,7 +4150,8 @@ class rtg_VSM_CarrierRig_Breacher_MultiCam : VSM_CarrierRig_Breacher_MultiCam {
     scope = 2;
 	dlc = "raiderTactical";
 	Author = "Shrike";
-class ItemInfo: ItemInfo
+armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -4061,19 +4159,19 @@ class ItemInfo: ItemInfo
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -4095,7 +4193,8 @@ class rtg_VSM_CarrierRig_Gunner_MultiCam : VSM_CarrierRig_Gunner_MultiCam {
     scope = 2;
 	dlc = "raiderTactical";
 	Author = "Shrike";
-class ItemInfo: ItemInfo
+armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -4103,19 +4202,19 @@ class ItemInfo: ItemInfo
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -4137,7 +4236,8 @@ class rtg_VSM_CarrierRig_Operator_MultiCam : VSM_CarrierRig_Operator_MultiCam {
     scope = 2;
 	dlc = "raiderTactical";
 	Author = "Shrike";
-class ItemInfo: ItemInfo
+armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -4145,19 +4245,19 @@ class ItemInfo: ItemInfo
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -4182,7 +4282,8 @@ class rtg_VSM_LBT6094_Breacher_MultiCam : VSM_LBT6094_Breacher_MultiCam {
     scope = 2;
 	dlc = "raiderTactical";
 	Author = "Shrike";
-class ItemInfo: ItemInfo
+armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -4190,19 +4291,19 @@ class ItemInfo: ItemInfo
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -4224,7 +4325,8 @@ class rtg_VSM_LBT6094_Gunner_MultiCam : VSM_LBT6094_MG_MultiCam {
     scope = 2;
 	dlc = "raiderTactical";
 	Author = "Shrike";
-class ItemInfo: ItemInfo
+armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -4232,19 +4334,19 @@ class ItemInfo: ItemInfo
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -4266,7 +4368,8 @@ class rtg_VSM_LBT6094_Operator_MultiCam : VSM_LBT6094_Operator_MultiCam {
     scope = 2;
 	dlc = "raiderTactical";
 	Author = "Shrike";
-class ItemInfo: ItemInfo
+armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -4274,19 +4377,19 @@ class ItemInfo: ItemInfo
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -4311,7 +4414,8 @@ class rtg_VSM_RAV_Breacher_MultiCam : VSM_RAV_Breacher_MultiCam {
     scope = 2;
 	dlc = "raiderTactical";
 	Author = "Shrike";
-class ItemInfo: ItemInfo
+armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -4319,19 +4423,19 @@ class ItemInfo: ItemInfo
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -4353,7 +4457,8 @@ class rtg_VSM_RAV_Gunner_MultiCam : VSM_RAV_MG_MultiCam {
     scope = 2;
 	dlc = "raiderTactical";
 	Author = "Shrike";
-class ItemInfo: ItemInfo
+armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -4361,19 +4466,19 @@ class ItemInfo: ItemInfo
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -4395,7 +4500,8 @@ class rtg_VSM_RAV_Operator_MultiCam : VSM_RAV_Operator_MultiCam {
     scope = 2;
 	dlc = "raiderTactical";
 	Author = "Shrike";
-class ItemInfo: ItemInfo
+armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -4403,19 +4509,19 @@ class ItemInfo: ItemInfo
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -4441,7 +4547,8 @@ class rtg_VSM_FAPC_Breacher_MultiCamTropic : VSM_FAPC_Breacher_MultiCamTropic {
     scope = 2;
 	dlc = "raiderTactical";
 	Author = "Shrike";
-class ItemInfo: ItemInfo
+armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -4449,19 +4556,19 @@ class ItemInfo: ItemInfo
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -4483,7 +4590,8 @@ class rtg_VSM_FAPC_Gunner_MultiCamTropic : VSM_FAPC_MG_MultiCamTropic {
     scope = 2;
 	dlc = "raiderTactical";
 	Author = "Shrike";
-class ItemInfo: ItemInfo
+armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -4491,19 +4599,19 @@ class ItemInfo: ItemInfo
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -4525,7 +4633,8 @@ class rtg_VSM_FAPC_Operator_MultiCamTropic : VSM_FAPC_Operator_MultiCamTropic {
     scope = 2;
 	dlc = "raiderTactical";
 	Author = "Shrike";
-class ItemInfo: ItemInfo
+armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -4533,19 +4642,19 @@ class ItemInfo: ItemInfo
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -4570,7 +4679,8 @@ class rtg_VSM_CarrierRig_Breacher_MultiCamTropic : VSM_CarrierRig_Breacher_Multi
     scope = 2;
 	dlc = "raiderTactical";
 	Author = "Shrike";
-class ItemInfo: ItemInfo
+armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -4578,19 +4688,19 @@ class ItemInfo: ItemInfo
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -4612,7 +4722,8 @@ class rtg_VSM_CarrierRig_Gunner_MultiCamTropic : VSM_CarrierRig_Gunner_MultiCamT
     scope = 2;
 	dlc = "raiderTactical";
 	Author = "Shrike";
-class ItemInfo: ItemInfo
+armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -4620,19 +4731,19 @@ class ItemInfo: ItemInfo
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -4654,7 +4765,8 @@ class rtg_VSM_CarrierRig_Operator_MultiCamTropic : VSM_CarrierRig_Operator_Multi
     scope = 2;
 	dlc = "raiderTactical";
 	Author = "Shrike";
-class ItemInfo: ItemInfo
+armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -4662,19 +4774,19 @@ class ItemInfo: ItemInfo
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -4699,7 +4811,8 @@ class rtg_VSM_LBT6094_Breacher_MultiCamTropic : VSM_LBT6094_Breacher_MultiCamTro
     scope = 2;
 	dlc = "raiderTactical";
 	Author = "Shrike";
-class ItemInfo: ItemInfo
+armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -4707,19 +4820,19 @@ class ItemInfo: ItemInfo
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -4741,7 +4854,8 @@ class rtg_VSM_LBT6094_Gunner_MultiCamTropic : VSM_LBT6094_MG_MultiCamTropic {
     scope = 2;
 	dlc = "raiderTactical";
 	Author = "Shrike";
-class ItemInfo: ItemInfo
+armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -4749,19 +4863,19 @@ class ItemInfo: ItemInfo
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -4783,7 +4897,8 @@ class rtg_VSM_LBT6094_Operator_MultiCamTropic : VSM_LBT6094_Operator_MultiCamTro
     scope = 2;
 	dlc = "raiderTactical";
 	Author = "Shrike";
-class ItemInfo: ItemInfo
+armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -4791,19 +4906,19 @@ class ItemInfo: ItemInfo
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -4828,7 +4943,8 @@ class rtg_VSM_RAV_Breacher_MultiCamTropic : VSM_RAV_Breacher_MultiCamTropic {
     scope = 2;
 	dlc = "raiderTactical";
 	Author = "Shrike";
-class ItemInfo: ItemInfo
+armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -4836,19 +4952,19 @@ class ItemInfo: ItemInfo
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -4870,7 +4986,8 @@ class rtg_VSM_RAV_Gunner_MultiCamTropic : VSM_RAV_MG_MultiCamTropic {
     scope = 2;
 	dlc = "raiderTactical";
 	Author = "Shrike";
-class ItemInfo: ItemInfo
+armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -4878,19 +4995,19 @@ class ItemInfo: ItemInfo
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -4912,7 +5029,8 @@ class rtg_VSM_RAV_Operator_MultiCamTropic : VSM_RAV_Operator_MultiCamTropic {
     scope = 2;
 	dlc = "raiderTactical";
 	Author = "Shrike";
-class ItemInfo: ItemInfo
+armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -4920,19 +5038,19 @@ class ItemInfo: ItemInfo
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -4958,7 +5076,8 @@ class rtg_VSM_FAPC_Breacher_OGA : VSM_FAPC_Breacher_OGA {
     scope = 2;
 	dlc = "raiderTactical";
 	Author = "Shrike";
-class ItemInfo: ItemInfo
+armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -4966,19 +5085,19 @@ class ItemInfo: ItemInfo
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -5000,7 +5119,8 @@ class rtg_VSM_FAPC_Gunner_OGA : VSM_FAPC_MG_OGA {
     scope = 2;
 	dlc = "raiderTactical";
 	Author = "Shrike";
-class ItemInfo: ItemInfo
+armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -5008,19 +5128,19 @@ class ItemInfo: ItemInfo
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -5042,7 +5162,8 @@ class rtg_VSM_FAPC_Operator_OGA : VSM_FAPC_Operator_OGA {
     scope = 2;
 	dlc = "raiderTactical";
 	Author = "Shrike";
-class ItemInfo: ItemInfo
+armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -5050,19 +5171,19 @@ class ItemInfo: ItemInfo
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -5087,7 +5208,8 @@ class rtg_VSM_CarrierRig_Breacher_OGA : VSM_CarrierRig_Breacher_OGA {
     scope = 2;
 	dlc = "raiderTactical";
 	Author = "Shrike";
-class ItemInfo: ItemInfo
+armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -5095,19 +5217,19 @@ class ItemInfo: ItemInfo
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -5129,7 +5251,8 @@ class rtg_VSM_CarrierRig_Gunner_OGA : VSM_CarrierRig_Gunner_OGA {
     scope = 2;
 	dlc = "raiderTactical";
 	Author = "Shrike";
-class ItemInfo: ItemInfo
+armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -5137,19 +5260,19 @@ class ItemInfo: ItemInfo
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -5171,7 +5294,8 @@ class rtg_VSM_CarrierRig_Operator_OGA : VSM_CarrierRig_Operator_OGA {
     scope = 2;
 	dlc = "raiderTactical";
 	Author = "Shrike";
-class ItemInfo: ItemInfo
+armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -5179,19 +5303,19 @@ class ItemInfo: ItemInfo
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -5216,7 +5340,8 @@ class rtg_VSM_LBT6094_Breacher_OGA : VSM_LBT6094_Breacher_OGA {
     scope = 2;
 	dlc = "raiderTactical";
 	Author = "Shrike";
-class ItemInfo: ItemInfo
+armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -5224,19 +5349,19 @@ class ItemInfo: ItemInfo
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -5258,7 +5383,8 @@ class rtg_VSM_LBT6094_Gunner_OGA : VSM_LBT6094_MG_OGA {
     scope = 2;
 	dlc = "raiderTactical";
 	Author = "Shrike";
-class ItemInfo: ItemInfo
+armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -5266,19 +5392,19 @@ class ItemInfo: ItemInfo
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -5300,7 +5426,8 @@ class rtg_VSM_LBT6094_Operator_OGA : VSM_LBT6094_Operator_OGA {
     scope = 2;
 	dlc = "raiderTactical";
 	Author = "Shrike";
-class ItemInfo: ItemInfo
+armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -5308,19 +5435,19 @@ class ItemInfo: ItemInfo
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -5345,7 +5472,8 @@ class rtg_VSM_RAV_Breacher_OGA : VSM_RAV_Breacher_OGA {
     scope = 2;
 	dlc = "raiderTactical";
 	Author = "Shrike";
-class ItemInfo: ItemInfo
+armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -5353,19 +5481,19 @@ class ItemInfo: ItemInfo
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -5387,7 +5515,8 @@ class rtg_VSM_RAV_Gunner_OGA : VSM_RAV_MG_OGA {
     scope = 2;
 	dlc = "raiderTactical";
 	Author = "Shrike";
-class ItemInfo: ItemInfo
+armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -5395,19 +5524,19 @@ class ItemInfo: ItemInfo
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -5429,7 +5558,8 @@ class rtg_VSM_RAV_Operator_OGA : VSM_RAV_Operator_OGA {
     scope = 2;
 	dlc = "raiderTactical";
 	Author = "Shrike";
-class ItemInfo: ItemInfo
+armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -5437,19 +5567,19 @@ class ItemInfo: ItemInfo
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -5475,7 +5605,8 @@ class rtg_VSM_FAPC_Breacher_OGA_OD : VSM_FAPC_Breacher_OGA_OD {
     scope = 2;
 	dlc = "raiderTactical";
 	Author = "Shrike";
-class ItemInfo: ItemInfo
+armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -5483,19 +5614,19 @@ class ItemInfo: ItemInfo
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -5517,7 +5648,8 @@ class rtg_VSM_FAPC_MG_OGA_OD : VSM_FAPC_MG_OGA_OD {
     scope = 2;
 	dlc = "raiderTactical";
 	Author = "Shrike";
-class ItemInfo: ItemInfo
+armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -5525,19 +5657,19 @@ class ItemInfo: ItemInfo
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -5559,7 +5691,8 @@ class rtg_VSM_FAPC_operator_OGA_OD : VSM_FAPC_Operator_OGA_OD {
     scope = 2;
 	dlc = "raiderTactical";
 	Author = "Shrike";
-class ItemInfo: ItemInfo
+armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -5567,19 +5700,19 @@ class ItemInfo: ItemInfo
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -5604,7 +5737,8 @@ class rtg_VSM_CarrierRig_Breacher_OGA_OD : VSM_CarrierRig_Breacher_OGA_OD {
     scope = 2;
 	dlc = "raiderTactical";
 	Author = "Shrike";
-class ItemInfo: ItemInfo
+armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -5612,19 +5746,19 @@ class ItemInfo: ItemInfo
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -5646,7 +5780,8 @@ class rtg_VSM_CarrierRig_MG_OGA_OD : VSM_CarrierRig_Gunner_OGA_OD {
     scope = 2;
 	dlc = "raiderTactical";
 	Author = "Shrike";
-class ItemInfo: ItemInfo
+armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -5654,19 +5789,19 @@ class ItemInfo: ItemInfo
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -5688,7 +5823,8 @@ class rtg_VSM_CarrierRig_operator_OGA_OD : VSM_CarrierRig_Operator_OGA_OD {
     scope = 2;
 	dlc = "raiderTactical";
 	Author = "Shrike";
-class ItemInfo: ItemInfo
+armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -5696,19 +5832,19 @@ class ItemInfo: ItemInfo
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -5733,7 +5869,8 @@ class rtg_VSM_LBT6094_Breacher_OGA_OD : VSM_LBT6094_Breacher_OGA_OD {
     scope = 2;
 	dlc = "raiderTactical";
 	Author = "Shrike";
-class ItemInfo: ItemInfo
+armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -5741,19 +5878,19 @@ class ItemInfo: ItemInfo
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -5775,7 +5912,8 @@ class rtg_VSM_LBT6094_MG_OGA_OD : VSM_LBT6094_MG_OGA_OD {
     scope = 2;
 	dlc = "raiderTactical";
 	Author = "Shrike";
-class ItemInfo: ItemInfo
+armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -5783,19 +5921,19 @@ class ItemInfo: ItemInfo
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -5817,7 +5955,8 @@ class rtg_VSM_LBT6094_operator_OGA_OD : VSM_LBT6094_operator_OGA_OD {
     scope = 2;
 	dlc = "raiderTactical";
 	Author = "Shrike";
-class ItemInfo: ItemInfo
+armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -5825,19 +5964,19 @@ class ItemInfo: ItemInfo
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -5862,7 +6001,8 @@ class rtg_VSM_RAV_Breacher_OGA_OD : VSM_RAV_Breacher_OGA_OD {
     scope = 2;
 	dlc = "raiderTactical";
 	Author = "Shrike";
-class ItemInfo: ItemInfo
+armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -5870,19 +6010,19 @@ class ItemInfo: ItemInfo
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -5904,7 +6044,8 @@ class rtg_VSM_RAV_MG_OGA_OD : VSM_RAV_MG_OGA_OD {
     scope = 2;
 	dlc = "raiderTactical";
 	Author = "Shrike";
-class ItemInfo: ItemInfo
+armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -5912,19 +6053,19 @@ class ItemInfo: ItemInfo
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -5946,7 +6087,8 @@ class rtg_VSM_RAV_operator_OGA_OD : VSM_RAV_operator_OGA_OD {
     scope = 2;
 	dlc = "raiderTactical";
 	Author = "Shrike";
-class ItemInfo: ItemInfo
+armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -5954,19 +6096,19 @@ class ItemInfo: ItemInfo
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -5992,7 +6134,8 @@ class rtg_VSM_FAPC_Breacher_ProjectHonor : VSM_FAPC_Breacher_ProjectHonor {
     scope = 2;
 	dlc = "raiderTactical";
 	Author = "Shrike";
-class ItemInfo: ItemInfo
+armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -6000,19 +6143,19 @@ class ItemInfo: ItemInfo
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -6034,7 +6177,8 @@ class rtg_VSM_FAPC_Gunner_ProjectHonor : VSM_FAPC_MG_ProjectHonor {
     scope = 2;
 	dlc = "raiderTactical";
 	Author = "Shrike";
-class ItemInfo: ItemInfo
+armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -6042,19 +6186,19 @@ class ItemInfo: ItemInfo
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -6076,7 +6220,8 @@ class rtg_VSM_FAPC_Operator_ProjectHonor : VSM_FAPC_Operator_ProjectHonor {
     scope = 2;
 	dlc = "raiderTactical";
 	Author = "Shrike";
-class ItemInfo: ItemInfo
+armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -6084,19 +6229,19 @@ class ItemInfo: ItemInfo
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -6121,7 +6266,8 @@ class rtg_VSM_CarrierRig_Breacher_ProjectHonor : VSM_CarrierRig_Breacher_Project
     scope = 2;
 	dlc = "raiderTactical";
 	Author = "Shrike";
-class ItemInfo: ItemInfo
+armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -6129,19 +6275,19 @@ class ItemInfo: ItemInfo
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -6163,7 +6309,8 @@ class rtg_VSM_CarrierRig_Gunner_ProjectHonor : VSM_CarrierRig_Gunner_ProjectHono
     scope = 2;
 	dlc = "raiderTactical";
 	Author = "Shrike";
-class ItemInfo: ItemInfo
+armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -6171,19 +6318,19 @@ class ItemInfo: ItemInfo
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -6205,7 +6352,8 @@ class rtg_VSM_CarrierRig_Operator_ProjectHonor : VSM_CarrierRig_Operator_Project
     scope = 2;
 	dlc = "raiderTactical";
 	Author = "Shrike";
-class ItemInfo: ItemInfo
+armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -6213,19 +6361,19 @@ class ItemInfo: ItemInfo
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -6250,7 +6398,8 @@ class rtg_VSM_LBT6094_Breacher_ProjectHonor : VSM_LBT6094_Breacher_ProjectHonor 
     scope = 2;
 	dlc = "raiderTactical";
 	Author = "Shrike";
-class ItemInfo: ItemInfo
+armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -6258,19 +6407,19 @@ class ItemInfo: ItemInfo
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -6292,7 +6441,8 @@ class rtg_VSM_LBT6094_Gunner_ProjectHonor : VSM_LBT6094_MG_ProjectHonor {
     scope = 2;
 	dlc = "raiderTactical";
 	Author = "Shrike";
-class ItemInfo: ItemInfo
+armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -6300,19 +6450,19 @@ class ItemInfo: ItemInfo
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -6334,7 +6484,8 @@ class rtg_VSM_LBT6094_Operator_ProjectHonor : VSM_LBT6094_Operator_ProjectHonor 
     scope = 2;
 	dlc = "raiderTactical";
 	Author = "Shrike";
-class ItemInfo: ItemInfo
+armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -6342,19 +6493,19 @@ class ItemInfo: ItemInfo
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -6379,7 +6530,8 @@ class rtg_VSM_RAV_Breacher_ProjectHonor : VSM_RAV_Breacher_ProjectHonor {
     scope = 2;
 	dlc = "raiderTactical";
 	Author = "Shrike";
-class ItemInfo: ItemInfo
+armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -6387,19 +6539,19 @@ class ItemInfo: ItemInfo
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -6421,7 +6573,8 @@ class rtg_VSM_RAV_Gunner_ProjectHonor : VSM_RAV_MG_ProjectHonor {
     scope = 2;
 	dlc = "raiderTactical";
 	Author = "Shrike";
-class ItemInfo: ItemInfo
+armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -6429,19 +6582,19 @@ class ItemInfo: ItemInfo
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -6463,7 +6616,8 @@ class rtg_VSM_RAV_Operator_ProjectHonor : VSM_RAV_Operator_ProjectHonor {
     scope = 2;
 	dlc = "raiderTactical";
 	Author = "Shrike";
-class ItemInfo: ItemInfo
+armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -6471,19 +6625,19 @@ class ItemInfo: ItemInfo
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -6510,7 +6664,8 @@ class badgerVest : M81_Vest_5 {
 	Author = "Shrike";
     displayName = "IOTV M81 - Rorey";
     hiddenSelectionsTextures[] = {"\rtgEquipment\tex\BadgerVest.paa"};
-    class ItemInfo: ItemInfo
+    armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -6518,19 +6673,19 @@ class badgerVest : M81_Vest_5 {
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -6556,7 +6711,8 @@ class patVest : VSM_CarrierRig_Gunner_OGA_OD {
 		"\rtgEquipment\tex\patVest\radio_pouch_green.paa",
 		"\rtgEquipment\tex\patVest\patPlate.paa"
 	};
-    class ItemInfo: ItemInfo
+    armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -6564,19 +6720,19 @@ class patVest : VSM_CarrierRig_Gunner_OGA_OD {
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -6612,7 +6768,8 @@ class shrike_crye : Crye_AVS_3_3_GRY {
 			"MoreAVS\data\Sideplate\GRY_co.paa",
 			"MoreAVS\data\S20\S20_co.paa"
 		};
-    class ItemInfo: ItemInfo
+    armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -6620,19 +6777,19 @@ class shrike_crye : Crye_AVS_3_3_GRY {
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -6662,7 +6819,8 @@ class torbsVest : rhsusf_plateframe_medic
 		"rhsusf\addons\rhsusf_weapons\mag_proxies\data\rhs_30rn_magpul_drab_co.paa",
 		"rhsusf\addons\rhsusf_weapons3\mk17\data\mk17_co.paa"
 	};
-    class ItemInfo: ItemInfo
+    armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -6670,19 +6828,19 @@ class torbsVest : rhsusf_plateframe_medic
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -6702,7 +6860,8 @@ class cjVest :  tactecfullpkpBlack
     displayName = "Tactec - CJ";
 	hiddenSelections[] = {"camo","camo6","_gen2bb","_1961apouches","nade","camo2","fartuk","korob"};
 	hiddenSelectionsTextures[] = {"\rtgEquipment\tex\cjVest.paa","tactecSSO\tex\gear_fde.paa","tactecSSO\tex\VSM_Gen2_BattleBelt_black.paa","tactecSSO\tex\VSM_LBT_1961a_Black.paa","tactecSSO\tex\grenade_fde.paa","tactecSSO\tex\armorBlack_co.paa","tactecSSO\tex\fartukBlack_co.paa","tactecSSO\tex\vest1_black.paa"};
-    class ItemInfo: ItemInfo
+    armor = 12;
+		class ItemInfo: ItemInfo
     {
 		containerClass = "Supply180";
         class HitpointsProtectionInfo
@@ -6710,19 +6869,19 @@ class cjVest :  tactecfullpkpBlack
 			class Chest
 			{
 				HitpointName = "HitChest";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				HitpointName = "HitDiaphragm";
-				armor = 17;
+				armor = 14;
 				PassThrough = 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 17;
+				armor = 14;
 				passThrough = 0.3;
 			};
 			class Body
@@ -6815,6 +6974,7 @@ class cjVest :  tactecfullpkpBlack
 			type =    "assaulter";
 			camo =  "grey";
 		};
+		armor = 12;
 		class ItemInfo: ItemInfo
 		{
 			containerClass = "Supply180";
@@ -6823,19 +6983,19 @@ class cjVest :  tactecfullpkpBlack
 				class Chest
 				{
 					HitpointName = "HitChest";
-					armor = 17;
+					armor = 14;
 					PassThrough = 0.3;
 				};
 				class Diaphragm
 				{
 					HitpointName = "HitDiaphragm";
-					armor = 17;
+					armor = 14;
 					PassThrough = 0.3;
 				};
 				class Abdomen
 				{
 					hitpointName = "HitAbdomen";
-					armor = 17;
+					armor = 14;
 					passThrough = 0.3;
 				};
 				class Body
@@ -6857,6 +7017,7 @@ class cjVest :  tactecfullpkpBlack
 			type =    "assaulter";
 			camo =  "mc";
 		};
+		armor = 12;
 		class ItemInfo: ItemInfo
 		{
 			containerClass = "Supply180";
@@ -6865,19 +7026,19 @@ class cjVest :  tactecfullpkpBlack
 				class Chest
 				{
 					HitpointName = "HitChest";
-					armor = 17;
+					armor = 14;
 					PassThrough = 0.3;
 				};
 				class Diaphragm
 				{
 					HitpointName = "HitDiaphragm";
-					armor = 17;
+					armor = 14;
 					PassThrough = 0.3;
 				};
 				class Abdomen
 				{
 					hitpointName = "HitAbdomen";
-					armor = 17;
+					armor = 14;
 					passThrough = 0.3;
 				};
 				class Body
@@ -6899,6 +7060,7 @@ class cjVest :  tactecfullpkpBlack
 			type =    "assaulter";
 			camo =  "mcb";
 		};
+		armor = 12;
 		class ItemInfo: ItemInfo
 		{
 			containerClass = "Supply180";
@@ -6907,19 +7069,19 @@ class cjVest :  tactecfullpkpBlack
 				class Chest
 				{
 					HitpointName = "HitChest";
-					armor = 17;
+					armor = 14;
 					PassThrough = 0.3;
 				};
 				class Diaphragm
 				{
 					HitpointName = "HitDiaphragm";
-					armor = 17;
+					armor = 14;
 					PassThrough = 0.3;
 				};
 				class Abdomen
 				{
 					hitpointName = "HitAbdomen";
-					armor = 17;
+					armor = 14;
 					passThrough = 0.3;
 				};
 				class Body
@@ -6941,6 +7103,7 @@ class cjVest :  tactecfullpkpBlack
 			type =    "assaulter";
 			camo =  "mct";
 		};
+		armor = 12;
 		class ItemInfo: ItemInfo
 		{
 			containerClass = "Supply180";
@@ -6949,19 +7112,19 @@ class cjVest :  tactecfullpkpBlack
 				class Chest
 				{
 					HitpointName = "HitChest";
-					armor = 17;
+					armor = 14;
 					PassThrough = 0.3;
 				};
 				class Diaphragm
 				{
 					HitpointName = "HitDiaphragm";
-					armor = 17;
+					armor = 14;
 					PassThrough = 0.3;
 				};
 				class Abdomen
 				{
 					hitpointName = "HitAbdomen";
-					armor = 17;
+					armor = 14;
 					passThrough = 0.3;
 				};
 				class Body
@@ -6983,6 +7146,7 @@ class cjVest :  tactecfullpkpBlack
 			type =    "assaulter";
 			camo =  "od";
 		};
+		armor = 12;
 		class ItemInfo: ItemInfo
 		{
 			containerClass = "Supply180";
@@ -6991,19 +7155,19 @@ class cjVest :  tactecfullpkpBlack
 				class Chest
 				{
 					HitpointName = "HitChest";
-					armor = 17;
+					armor = 14;
 					PassThrough = 0.3;
 				};
 				class Diaphragm
 				{
 					HitpointName = "HitDiaphragm";
-					armor = 17;
+					armor = 14;
 					PassThrough = 0.3;
 				};
 				class Abdomen
 				{
 					hitpointName = "HitAbdomen";
-					armor = 17;
+					armor = 14;
 					passThrough = 0.3;
 				};
 				class Body
@@ -7025,6 +7189,7 @@ class cjVest :  tactecfullpkpBlack
 			type =    "assaulter";
 			camo =  "tan";
 		};
+		armor = 12;
 		class ItemInfo: ItemInfo
 		{
 			containerClass = "Supply180";
@@ -7033,19 +7198,19 @@ class cjVest :  tactecfullpkpBlack
 				class Chest
 				{
 					HitpointName = "HitChest";
-					armor = 17;
+					armor = 14;
 					PassThrough = 0.3;
 				};
 				class Diaphragm
 				{
 					HitpointName = "HitDiaphragm";
-					armor = 17;
+					armor = 14;
 					PassThrough = 0.3;
 				};
 				class Abdomen
 				{
 					hitpointName = "HitAbdomen";
-					armor = 17;
+					armor = 14;
 					passThrough = 0.3;
 				};
 				class Body
@@ -7068,6 +7233,7 @@ class cjVest :  tactecfullpkpBlack
 			type =    "assaulter";
 			camo =  "grey";
 		};
+		armor = 12;
 		class ItemInfo: ItemInfo
 		{
 			containerClass = "Supply180";
@@ -7076,19 +7242,19 @@ class cjVest :  tactecfullpkpBlack
 				class Chest
 				{
 					HitpointName = "HitChest";
-					armor = 17;
+					armor = 14;
 					PassThrough = 0.3;
 				};
 				class Diaphragm
 				{
 					HitpointName = "HitDiaphragm";
-					armor = 17;
+					armor = 14;
 					PassThrough = 0.3;
 				};
 				class Abdomen
 				{
 					hitpointName = "HitAbdomen";
-					armor = 17;
+					armor = 14;
 					passThrough = 0.3;
 				};
 				class Body
@@ -7110,6 +7276,7 @@ class cjVest :  tactecfullpkpBlack
 			type =    "assaulter";
 			camo =  "mc";
 		};
+		armor = 12;
 		class ItemInfo: ItemInfo
 		{
 			containerClass = "Supply180";
@@ -7118,19 +7285,19 @@ class cjVest :  tactecfullpkpBlack
 				class Chest
 				{
 					HitpointName = "HitChest";
-					armor = 17;
+					armor = 14;
 					PassThrough = 0.3;
 				};
 				class Diaphragm
 				{
 					HitpointName = "HitDiaphragm";
-					armor = 17;
+					armor = 14;
 					PassThrough = 0.3;
 				};
 				class Abdomen
 				{
 					hitpointName = "HitAbdomen";
-					armor = 17;
+					armor = 14;
 					passThrough = 0.3;
 				};
 				class Body
@@ -7152,6 +7319,7 @@ class cjVest :  tactecfullpkpBlack
 			type =    "assaulter";
 			camo =  "mcb";
 		};
+		armor = 12;
 		class ItemInfo: ItemInfo
 		{
 			containerClass = "Supply180";
@@ -7160,19 +7328,19 @@ class cjVest :  tactecfullpkpBlack
 				class Chest
 				{
 					HitpointName = "HitChest";
-					armor = 17;
+					armor = 14;
 					PassThrough = 0.3;
 				};
 				class Diaphragm
 				{
 					HitpointName = "HitDiaphragm";
-					armor = 17;
+					armor = 14;
 					PassThrough = 0.3;
 				};
 				class Abdomen
 				{
 					hitpointName = "HitAbdomen";
-					armor = 17;
+					armor = 14;
 					passThrough = 0.3;
 				};
 				class Body
@@ -7194,6 +7362,7 @@ class cjVest :  tactecfullpkpBlack
 			type =    "assaulter";
 			camo =  "mct";
 		};
+		armor = 12;
 		class ItemInfo: ItemInfo
 		{
 			containerClass = "Supply180";
@@ -7202,19 +7371,19 @@ class cjVest :  tactecfullpkpBlack
 				class Chest
 				{
 					HitpointName = "HitChest";
-					armor = 17;
+					armor = 14;
 					PassThrough = 0.3;
 				};
 				class Diaphragm
 				{
 					HitpointName = "HitDiaphragm";
-					armor = 17;
+					armor = 14;
 					PassThrough = 0.3;
 				};
 				class Abdomen
 				{
 					hitpointName = "HitAbdomen";
-					armor = 17;
+					armor = 14;
 					passThrough = 0.3;
 				};
 				class Body
@@ -7236,6 +7405,7 @@ class cjVest :  tactecfullpkpBlack
 			type =    "assaulter";
 			camo =  "od";
 		};
+		armor = 12;
 		class ItemInfo: ItemInfo
 		{
 			containerClass = "Supply180";
@@ -7244,19 +7414,19 @@ class cjVest :  tactecfullpkpBlack
 				class Chest
 				{
 					HitpointName = "HitChest";
-					armor = 17;
+					armor = 14;
 					PassThrough = 0.3;
 				};
 				class Diaphragm
 				{
 					HitpointName = "HitDiaphragm";
-					armor = 17;
+					armor = 14;
 					PassThrough = 0.3;
 				};
 				class Abdomen
 				{
 					hitpointName = "HitAbdomen";
-					armor = 17;
+					armor = 14;
 					passThrough = 0.3;
 				};
 				class Body
@@ -7278,6 +7448,7 @@ class cjVest :  tactecfullpkpBlack
 			type =    "assaulter";
 			camo =  "tan";
 		};
+		armor = 12;
 		class ItemInfo: ItemInfo
 		{
 			containerClass = "Supply180";
@@ -7286,19 +7457,19 @@ class cjVest :  tactecfullpkpBlack
 				class Chest
 				{
 					HitpointName = "HitChest";
-					armor = 17;
+					armor = 14;
 					PassThrough = 0.3;
 				};
 				class Diaphragm
 				{
 					HitpointName = "HitDiaphragm";
-					armor = 17;
+					armor = 14;
 					PassThrough = 0.3;
 				};
 				class Abdomen
 				{
 					hitpointName = "HitAbdomen";
-					armor = 17;
+					armor = 14;
 					passThrough = 0.3;
 				};
 				class Body
@@ -7321,6 +7492,7 @@ class cjVest :  tactecfullpkpBlack
 			type =    "assaulter";
 			camo =  "grey";
 		};
+		armor = 12;
 		class ItemInfo: ItemInfo
 		{
 			containerClass = "Supply180";
@@ -7329,19 +7501,19 @@ class cjVest :  tactecfullpkpBlack
 				class Chest
 				{
 					HitpointName = "HitChest";
-					armor = 17;
+					armor = 14;
 					PassThrough = 0.3;
 				};
 				class Diaphragm
 				{
 					HitpointName = "HitDiaphragm";
-					armor = 17;
+					armor = 14;
 					PassThrough = 0.3;
 				};
 				class Abdomen
 				{
 					hitpointName = "HitAbdomen";
-					armor = 17;
+					armor = 14;
 					passThrough = 0.3;
 				};
 				class Body
@@ -7363,6 +7535,7 @@ class cjVest :  tactecfullpkpBlack
 			type =    "assaulter";
 			camo =  "mc";
 		};
+		armor = 12;
 		class ItemInfo: ItemInfo
 		{
 			containerClass = "Supply180";
@@ -7371,19 +7544,19 @@ class cjVest :  tactecfullpkpBlack
 				class Chest
 				{
 					HitpointName = "HitChest";
-					armor = 17;
+					armor = 14;
 					PassThrough = 0.3;
 				};
 				class Diaphragm
 				{
 					HitpointName = "HitDiaphragm";
-					armor = 17;
+					armor = 14;
 					PassThrough = 0.3;
 				};
 				class Abdomen
 				{
 					hitpointName = "HitAbdomen";
-					armor = 17;
+					armor = 14;
 					passThrough = 0.3;
 				};
 				class Body
@@ -7405,6 +7578,7 @@ class cjVest :  tactecfullpkpBlack
 			type =    "assaulter";
 			camo =  "mcb";
 		};
+		armor = 12;
 		class ItemInfo: ItemInfo
 		{
 			containerClass = "Supply180";
@@ -7413,19 +7587,19 @@ class cjVest :  tactecfullpkpBlack
 				class Chest
 				{
 					HitpointName = "HitChest";
-					armor = 17;
+					armor = 14;
 					PassThrough = 0.3;
 				};
 				class Diaphragm
 				{
 					HitpointName = "HitDiaphragm";
-					armor = 17;
+					armor = 14;
 					PassThrough = 0.3;
 				};
 				class Abdomen
 				{
 					hitpointName = "HitAbdomen";
-					armor = 17;
+					armor = 14;
 					passThrough = 0.3;
 				};
 				class Body
@@ -7447,6 +7621,7 @@ class cjVest :  tactecfullpkpBlack
 			type =    "assaulter";
 			camo =  "mct";
 		};
+		armor = 12;
 		class ItemInfo: ItemInfo
 		{
 			containerClass = "Supply180";
@@ -7455,19 +7630,19 @@ class cjVest :  tactecfullpkpBlack
 				class Chest
 				{
 					HitpointName = "HitChest";
-					armor = 17;
+					armor = 14;
 					PassThrough = 0.3;
 				};
 				class Diaphragm
 				{
 					HitpointName = "HitDiaphragm";
-					armor = 17;
+					armor = 14;
 					PassThrough = 0.3;
 				};
 				class Abdomen
 				{
 					hitpointName = "HitAbdomen";
-					armor = 17;
+					armor = 14;
 					passThrough = 0.3;
 				};
 				class Body
@@ -7489,6 +7664,7 @@ class cjVest :  tactecfullpkpBlack
 			type =    "assaulter";
 			camo =  "od";
 		};
+		armor = 12;
 		class ItemInfo: ItemInfo
 		{
 			containerClass = "Supply180";
@@ -7497,19 +7673,19 @@ class cjVest :  tactecfullpkpBlack
 				class Chest
 				{
 					HitpointName = "HitChest";
-					armor = 17;
+					armor = 14;
 					PassThrough = 0.3;
 				};
 				class Diaphragm
 				{
 					HitpointName = "HitDiaphragm";
-					armor = 17;
+					armor = 14;
 					PassThrough = 0.3;
 				};
 				class Abdomen
 				{
 					hitpointName = "HitAbdomen";
-					armor = 17;
+					armor = 14;
 					passThrough = 0.3;
 				};
 				class Body
@@ -7531,6 +7707,7 @@ class cjVest :  tactecfullpkpBlack
 			type =    "assaulter";
 			camo =  "tan";
 		};
+		armor = 12;
 		class ItemInfo: ItemInfo
 		{
 			containerClass = "Supply180";
@@ -7539,19 +7716,19 @@ class cjVest :  tactecfullpkpBlack
 				class Chest
 				{
 					HitpointName = "HitChest";
-					armor = 17;
+					armor = 14;
 					PassThrough = 0.3;
 				};
 				class Diaphragm
 				{
 					HitpointName = "HitDiaphragm";
-					armor = 17;
+					armor = 14;
 					PassThrough = 0.3;
 				};
 				class Abdomen
 				{
 					hitpointName = "HitAbdomen";
-					armor = 17;
+					armor = 14;
 					passThrough = 0.3;
 				};
 				class Body
@@ -7574,6 +7751,7 @@ class cjVest :  tactecfullpkpBlack
 			type =    "assaulter";
 			camo =  "grey";
 		};
+		armor = 12;
 		class ItemInfo: ItemInfo
 		{
 			containerClass = "Supply180";
@@ -7582,19 +7760,19 @@ class cjVest :  tactecfullpkpBlack
 				class Chest
 				{
 					HitpointName = "HitChest";
-					armor = 17;
+					armor = 14;
 					PassThrough = 0.3;
 				};
 				class Diaphragm
 				{
 					HitpointName = "HitDiaphragm";
-					armor = 17;
+					armor = 14;
 					PassThrough = 0.3;
 				};
 				class Abdomen
 				{
 					hitpointName = "HitAbdomen";
-					armor = 17;
+					armor = 14;
 					passThrough = 0.3;
 				};
 				class Body
@@ -7616,6 +7794,7 @@ class cjVest :  tactecfullpkpBlack
 			type =    "assaulter";
 			camo =  "mc";
 		};
+		armor = 12;
 		class ItemInfo: ItemInfo
 		{
 			containerClass = "Supply180";
@@ -7624,19 +7803,19 @@ class cjVest :  tactecfullpkpBlack
 				class Chest
 				{
 					HitpointName = "HitChest";
-					armor = 17;
+					armor = 14;
 					PassThrough = 0.3;
 				};
 				class Diaphragm
 				{
 					HitpointName = "HitDiaphragm";
-					armor = 17;
+					armor = 14;
 					PassThrough = 0.3;
 				};
 				class Abdomen
 				{
 					hitpointName = "HitAbdomen";
-					armor = 17;
+					armor = 14;
 					passThrough = 0.3;
 				};
 				class Body
@@ -7658,6 +7837,7 @@ class cjVest :  tactecfullpkpBlack
 			type =    "assaulter";
 			camo =  "mcb";
 		};
+		armor = 12;
 		class ItemInfo: ItemInfo
 		{
 			containerClass = "Supply180";
@@ -7666,19 +7846,19 @@ class cjVest :  tactecfullpkpBlack
 				class Chest
 				{
 					HitpointName = "HitChest";
-					armor = 17;
+					armor = 14;
 					PassThrough = 0.3;
 				};
 				class Diaphragm
 				{
 					HitpointName = "HitDiaphragm";
-					armor = 17;
+					armor = 14;
 					PassThrough = 0.3;
 				};
 				class Abdomen
 				{
 					hitpointName = "HitAbdomen";
-					armor = 17;
+					armor = 14;
 					passThrough = 0.3;
 				};
 				class Body
@@ -7700,6 +7880,7 @@ class cjVest :  tactecfullpkpBlack
 			type =    "assaulter";
 			camo =  "mct";
 		};
+		armor = 12;
 		class ItemInfo: ItemInfo
 		{
 			containerClass = "Supply180";
@@ -7708,19 +7889,19 @@ class cjVest :  tactecfullpkpBlack
 				class Chest
 				{
 					HitpointName = "HitChest";
-					armor = 17;
+					armor = 14;
 					PassThrough = 0.3;
 				};
 				class Diaphragm
 				{
 					HitpointName = "HitDiaphragm";
-					armor = 17;
+					armor = 14;
 					PassThrough = 0.3;
 				};
 				class Abdomen
 				{
 					hitpointName = "HitAbdomen";
-					armor = 17;
+					armor = 14;
 					passThrough = 0.3;
 				};
 				class Body
@@ -7742,6 +7923,7 @@ class cjVest :  tactecfullpkpBlack
 			type =    "assaulter";
 			camo =  "od";
 		};
+		armor = 12;
 		class ItemInfo: ItemInfo
 		{
 			containerClass = "Supply180";
@@ -7750,19 +7932,19 @@ class cjVest :  tactecfullpkpBlack
 				class Chest
 				{
 					HitpointName = "HitChest";
-					armor = 17;
+					armor = 14;
 					PassThrough = 0.3;
 				};
 				class Diaphragm
 				{
 					HitpointName = "HitDiaphragm";
-					armor = 17;
+					armor = 14;
 					PassThrough = 0.3;
 				};
 				class Abdomen
 				{
 					hitpointName = "HitAbdomen";
-					armor = 17;
+					armor = 14;
 					passThrough = 0.3;
 				};
 				class Body
@@ -7784,6 +7966,7 @@ class cjVest :  tactecfullpkpBlack
 			type =    "assaulter";
 			camo =  "tan";
 		};
+		armor = 12;
 		class ItemInfo: ItemInfo
 		{
 			containerClass = "Supply180";
@@ -7792,19 +7975,19 @@ class cjVest :  tactecfullpkpBlack
 				class Chest
 				{
 					HitpointName = "HitChest";
-					armor = 17;
+					armor = 14;
 					PassThrough = 0.3;
 				};
 				class Diaphragm
 				{
 					HitpointName = "HitDiaphragm";
-					armor = 17;
+					armor = 14;
 					PassThrough = 0.3;
 				};
 				class Abdomen
 				{
 					hitpointName = "HitAbdomen";
-					armor = 17;
+					armor = 14;
 					passThrough = 0.3;
 				};
 				class Body
@@ -7828,6 +8011,7 @@ class cjVest :  tactecfullpkpBlack
 			type =    "gunner";
 			camo =  "grey";
 		};
+		armor = 12;
 		class ItemInfo: ItemInfo
 		{
 			containerClass = "Supply180";
@@ -7836,19 +8020,19 @@ class cjVest :  tactecfullpkpBlack
 				class Chest
 				{
 					HitpointName = "HitChest";
-					armor = 17;
+					armor = 14;
 					PassThrough = 0.3;
 				};
 				class Diaphragm
 				{
 					HitpointName = "HitDiaphragm";
-					armor = 17;
+					armor = 14;
 					PassThrough = 0.3;
 				};
 				class Abdomen
 				{
 					hitpointName = "HitAbdomen";
-					armor = 17;
+					armor = 14;
 					passThrough = 0.3;
 				};
 				class Body
@@ -7870,6 +8054,7 @@ class cjVest :  tactecfullpkpBlack
 			type =    "gunner";
 			camo =  "mc";
 		};
+		armor = 12;
 		class ItemInfo: ItemInfo
 		{
 			containerClass = "Supply180";
@@ -7878,19 +8063,19 @@ class cjVest :  tactecfullpkpBlack
 				class Chest
 				{
 					HitpointName = "HitChest";
-					armor = 17;
+					armor = 14;
 					PassThrough = 0.3;
 				};
 				class Diaphragm
 				{
 					HitpointName = "HitDiaphragm";
-					armor = 17;
+					armor = 14;
 					PassThrough = 0.3;
 				};
 				class Abdomen
 				{
 					hitpointName = "HitAbdomen";
-					armor = 17;
+					armor = 14;
 					passThrough = 0.3;
 				};
 				class Body
@@ -7912,6 +8097,7 @@ class cjVest :  tactecfullpkpBlack
 			type =    "gunner";
 			camo =  "mcb";
 		};
+		armor = 12;
 		class ItemInfo: ItemInfo
 		{
 			containerClass = "Supply180";
@@ -7920,19 +8106,19 @@ class cjVest :  tactecfullpkpBlack
 				class Chest
 				{
 					HitpointName = "HitChest";
-					armor = 17;
+					armor = 14;
 					PassThrough = 0.3;
 				};
 				class Diaphragm
 				{
 					HitpointName = "HitDiaphragm";
-					armor = 17;
+					armor = 14;
 					PassThrough = 0.3;
 				};
 				class Abdomen
 				{
 					hitpointName = "HitAbdomen";
-					armor = 17;
+					armor = 14;
 					passThrough = 0.3;
 				};
 				class Body
@@ -7954,6 +8140,7 @@ class cjVest :  tactecfullpkpBlack
 			type =    "gunner";
 			camo =  "mct";
 		};
+		armor = 12;
 		class ItemInfo: ItemInfo
 		{
 			containerClass = "Supply180";
@@ -7962,19 +8149,19 @@ class cjVest :  tactecfullpkpBlack
 				class Chest
 				{
 					HitpointName = "HitChest";
-					armor = 17;
+					armor = 14;
 					PassThrough = 0.3;
 				};
 				class Diaphragm
 				{
 					HitpointName = "HitDiaphragm";
-					armor = 17;
+					armor = 14;
 					PassThrough = 0.3;
 				};
 				class Abdomen
 				{
 					hitpointName = "HitAbdomen";
-					armor = 17;
+					armor = 14;
 					passThrough = 0.3;
 				};
 				class Body
@@ -7996,6 +8183,7 @@ class cjVest :  tactecfullpkpBlack
 			type =    "gunner";
 			camo =  "od";
 		};
+		armor = 12;
 		class ItemInfo: ItemInfo
 		{
 			containerClass = "Supply180";
@@ -8004,19 +8192,19 @@ class cjVest :  tactecfullpkpBlack
 				class Chest
 				{
 					HitpointName = "HitChest";
-					armor = 17;
+					armor = 14;
 					PassThrough = 0.3;
 				};
 				class Diaphragm
 				{
 					HitpointName = "HitDiaphragm";
-					armor = 17;
+					armor = 14;
 					PassThrough = 0.3;
 				};
 				class Abdomen
 				{
 					hitpointName = "HitAbdomen";
-					armor = 17;
+					armor = 14;
 					passThrough = 0.3;
 				};
 				class Body
@@ -8038,6 +8226,7 @@ class cjVest :  tactecfullpkpBlack
 			type =    "gunner";
 			camo =  "tan";
 		};
+		armor = 12;
 		class ItemInfo: ItemInfo
 		{
 			containerClass = "Supply180";
@@ -8046,19 +8235,19 @@ class cjVest :  tactecfullpkpBlack
 				class Chest
 				{
 					HitpointName = "HitChest";
-					armor = 17;
+					armor = 14;
 					PassThrough = 0.3;
 				};
 				class Diaphragm
 				{
 					HitpointName = "HitDiaphragm";
-					armor = 17;
+					armor = 14;
 					PassThrough = 0.3;
 				};
 				class Abdomen
 				{
 					hitpointName = "HitAbdomen";
-					armor = 17;
+					armor = 14;
 					passThrough = 0.3;
 				};
 				class Body
@@ -8082,6 +8271,7 @@ class cjVest :  tactecfullpkpBlack
 			type =    "comms";
 			camo =  "grey";
 		};
+		armor = 12;
 		class ItemInfo: ItemInfo
 		{
 			containerClass = "Supply180";
@@ -8090,19 +8280,19 @@ class cjVest :  tactecfullpkpBlack
 				class Chest
 				{
 					HitpointName = "HitChest";
-					armor = 17;
+					armor = 14;
 					PassThrough = 0.3;
 				};
 				class Diaphragm
 				{
 					HitpointName = "HitDiaphragm";
-					armor = 17;
+					armor = 14;
 					PassThrough = 0.3;
 				};
 				class Abdomen
 				{
 					hitpointName = "HitAbdomen";
-					armor = 17;
+					armor = 14;
 					passThrough = 0.3;
 				};
 				class Body
@@ -8124,6 +8314,7 @@ class cjVest :  tactecfullpkpBlack
 			type =    "comms";
 			camo =  "mc";
 		};
+		armor = 12;
 		class ItemInfo: ItemInfo
 		{
 			containerClass = "Supply180";
@@ -8132,19 +8323,19 @@ class cjVest :  tactecfullpkpBlack
 				class Chest
 				{
 					HitpointName = "HitChest";
-					armor = 17;
+					armor = 14;
 					PassThrough = 0.3;
 				};
 				class Diaphragm
 				{
 					HitpointName = "HitDiaphragm";
-					armor = 17;
+					armor = 14;
 					PassThrough = 0.3;
 				};
 				class Abdomen
 				{
 					hitpointName = "HitAbdomen";
-					armor = 17;
+					armor = 14;
 					passThrough = 0.3;
 				};
 				class Body
@@ -8166,6 +8357,7 @@ class cjVest :  tactecfullpkpBlack
 			type =    "comms";
 			camo =  "mcb";
 		};
+		armor = 12;
 		class ItemInfo: ItemInfo
 		{
 			containerClass = "Supply180";
@@ -8174,19 +8366,19 @@ class cjVest :  tactecfullpkpBlack
 				class Chest
 				{
 					HitpointName = "HitChest";
-					armor = 17;
+					armor = 14;
 					PassThrough = 0.3;
 				};
 				class Diaphragm
 				{
 					HitpointName = "HitDiaphragm";
-					armor = 17;
+					armor = 14;
 					PassThrough = 0.3;
 				};
 				class Abdomen
 				{
 					hitpointName = "HitAbdomen";
-					armor = 17;
+					armor = 14;
 					passThrough = 0.3;
 				};
 				class Body
@@ -8208,6 +8400,7 @@ class cjVest :  tactecfullpkpBlack
 			type =    "comms";
 			camo =  "mct";
 		};
+		armor = 12;
 		class ItemInfo: ItemInfo
 		{
 			containerClass = "Supply180";
@@ -8216,19 +8409,19 @@ class cjVest :  tactecfullpkpBlack
 				class Chest
 				{
 					HitpointName = "HitChest";
-					armor = 17;
+					armor = 14;
 					PassThrough = 0.3;
 				};
 				class Diaphragm
 				{
 					HitpointName = "HitDiaphragm";
-					armor = 17;
+					armor = 14;
 					PassThrough = 0.3;
 				};
 				class Abdomen
 				{
 					hitpointName = "HitAbdomen";
-					armor = 17;
+					armor = 14;
 					passThrough = 0.3;
 				};
 				class Body
@@ -8250,6 +8443,7 @@ class cjVest :  tactecfullpkpBlack
 			type =    "comms";
 			camo =  "od";
 		};
+		armor = 12;
 		class ItemInfo: ItemInfo
 		{
 			containerClass = "Supply180";
@@ -8258,19 +8452,19 @@ class cjVest :  tactecfullpkpBlack
 				class Chest
 				{
 					HitpointName = "HitChest";
-					armor = 17;
+					armor = 14;
 					PassThrough = 0.3;
 				};
 				class Diaphragm
 				{
 					HitpointName = "HitDiaphragm";
-					armor = 17;
+					armor = 14;
 					PassThrough = 0.3;
 				};
 				class Abdomen
 				{
 					hitpointName = "HitAbdomen";
-					armor = 17;
+					armor = 14;
 					passThrough = 0.3;
 				};
 				class Body
@@ -8292,6 +8486,7 @@ class cjVest :  tactecfullpkpBlack
 			type =    "comms";
 			camo =  "tan";
 		};
+		armor = 12;
 		class ItemInfo: ItemInfo
 		{
 			containerClass = "Supply180";
@@ -8300,19 +8495,19 @@ class cjVest :  tactecfullpkpBlack
 				class Chest
 				{
 					HitpointName = "HitChest";
-					armor = 17;
+					armor = 14;
 					PassThrough = 0.3;
 				};
 				class Diaphragm
 				{
 					HitpointName = "HitDiaphragm";
-					armor = 17;
+					armor = 14;
 					PassThrough = 0.3;
 				};
 				class Abdomen
 				{
 					hitpointName = "HitAbdomen";
-					armor = 17;
+					armor = 14;
 					passThrough = 0.3;
 				};
 				class Body
@@ -8335,6 +8530,7 @@ class cjVest :  tactecfullpkpBlack
 			type =    "comms";
 			camo =  "grey";
 		};
+		armor = 12;
 		class ItemInfo: ItemInfo
 		{
 			containerClass = "Supply180";
@@ -8343,19 +8539,19 @@ class cjVest :  tactecfullpkpBlack
 				class Chest
 				{
 					HitpointName = "HitChest";
-					armor = 17;
+					armor = 14;
 					PassThrough = 0.3;
 				};
 				class Diaphragm
 				{
 					HitpointName = "HitDiaphragm";
-					armor = 17;
+					armor = 14;
 					PassThrough = 0.3;
 				};
 				class Abdomen
 				{
 					hitpointName = "HitAbdomen";
-					armor = 17;
+					armor = 14;
 					passThrough = 0.3;
 				};
 				class Body
@@ -8377,6 +8573,7 @@ class cjVest :  tactecfullpkpBlack
 			type =    "comms";
 			camo =  "mc";
 		};
+		armor = 12;
 		class ItemInfo: ItemInfo
 		{
 			containerClass = "Supply180";
@@ -8385,19 +8582,19 @@ class cjVest :  tactecfullpkpBlack
 				class Chest
 				{
 					HitpointName = "HitChest";
-					armor = 17;
+					armor = 14;
 					PassThrough = 0.3;
 				};
 				class Diaphragm
 				{
 					HitpointName = "HitDiaphragm";
-					armor = 17;
+					armor = 14;
 					PassThrough = 0.3;
 				};
 				class Abdomen
 				{
 					hitpointName = "HitAbdomen";
-					armor = 17;
+					armor = 14;
 					passThrough = 0.3;
 				};
 				class Body
@@ -8419,6 +8616,7 @@ class cjVest :  tactecfullpkpBlack
 			type =    "comms";
 			camo =  "mcb";
 		};
+		armor = 12;
 		class ItemInfo: ItemInfo
 		{
 			containerClass = "Supply180";
@@ -8427,19 +8625,19 @@ class cjVest :  tactecfullpkpBlack
 				class Chest
 				{
 					HitpointName = "HitChest";
-					armor = 17;
+					armor = 14;
 					PassThrough = 0.3;
 				};
 				class Diaphragm
 				{
 					HitpointName = "HitDiaphragm";
-					armor = 17;
+					armor = 14;
 					PassThrough = 0.3;
 				};
 				class Abdomen
 				{
 					hitpointName = "HitAbdomen";
-					armor = 17;
+					armor = 14;
 					passThrough = 0.3;
 				};
 				class Body
@@ -8461,6 +8659,7 @@ class cjVest :  tactecfullpkpBlack
 			type =    "comms";
 			camo =  "mct";
 		};
+		armor = 12;
 		class ItemInfo: ItemInfo
 		{
 			containerClass = "Supply180";
@@ -8469,19 +8668,19 @@ class cjVest :  tactecfullpkpBlack
 				class Chest
 				{
 					HitpointName = "HitChest";
-					armor = 17;
+					armor = 14;
 					PassThrough = 0.3;
 				};
 				class Diaphragm
 				{
 					HitpointName = "HitDiaphragm";
-					armor = 17;
+					armor = 14;
 					PassThrough = 0.3;
 				};
 				class Abdomen
 				{
 					hitpointName = "HitAbdomen";
-					armor = 17;
+					armor = 14;
 					passThrough = 0.3;
 				};
 				class Body
@@ -8503,6 +8702,7 @@ class cjVest :  tactecfullpkpBlack
 			type =    "comms";
 			camo =  "od";
 		};
+		armor = 12;
 		class ItemInfo: ItemInfo
 		{
 			containerClass = "Supply180";
@@ -8511,19 +8711,19 @@ class cjVest :  tactecfullpkpBlack
 				class Chest
 				{
 					HitpointName = "HitChest";
-					armor = 17;
+					armor = 14;
 					PassThrough = 0.3;
 				};
 				class Diaphragm
 				{
 					HitpointName = "HitDiaphragm";
-					armor = 17;
+					armor = 14;
 					PassThrough = 0.3;
 				};
 				class Abdomen
 				{
 					hitpointName = "HitAbdomen";
-					armor = 17;
+					armor = 14;
 					passThrough = 0.3;
 				};
 				class Body
@@ -8545,6 +8745,7 @@ class cjVest :  tactecfullpkpBlack
 			type =    "comms";
 			camo =  "tan";
 		};
+		armor = 12;
 		class ItemInfo: ItemInfo
 		{
 			containerClass = "Supply180";
@@ -8553,19 +8754,19 @@ class cjVest :  tactecfullpkpBlack
 				class Chest
 				{
 					HitpointName = "HitChest";
-					armor = 17;
+					armor = 14;
 					PassThrough = 0.3;
 				};
 				class Diaphragm
 				{
 					HitpointName = "HitDiaphragm";
-					armor = 17;
+					armor = 14;
 					PassThrough = 0.3;
 				};
 				class Abdomen
 				{
 					hitpointName = "HitAbdomen";
-					armor = 17;
+					armor = 14;
 					passThrough = 0.3;
 				};
 				class Body
@@ -8588,6 +8789,7 @@ class cjVest :  tactecfullpkpBlack
 			type =    "comms";
 			camo =  "grey";
 		};
+		armor = 12;
 		class ItemInfo: ItemInfo
 		{
 			containerClass = "Supply180";
@@ -8596,19 +8798,19 @@ class cjVest :  tactecfullpkpBlack
 				class Chest
 				{
 					HitpointName = "HitChest";
-					armor = 17;
+					armor = 14;
 					PassThrough = 0.3;
 				};
 				class Diaphragm
 				{
 					HitpointName = "HitDiaphragm";
-					armor = 17;
+					armor = 14;
 					PassThrough = 0.3;
 				};
 				class Abdomen
 				{
 					hitpointName = "HitAbdomen";
-					armor = 17;
+					armor = 14;
 					passThrough = 0.3;
 				};
 				class Body
@@ -8630,6 +8832,7 @@ class cjVest :  tactecfullpkpBlack
 			type =    "comms";
 			camo =  "mc";
 		};
+		armor = 12;
 		class ItemInfo: ItemInfo
 		{
 			containerClass = "Supply180";
@@ -8638,19 +8841,19 @@ class cjVest :  tactecfullpkpBlack
 				class Chest
 				{
 					HitpointName = "HitChest";
-					armor = 17;
+					armor = 14;
 					PassThrough = 0.3;
 				};
 				class Diaphragm
 				{
 					HitpointName = "HitDiaphragm";
-					armor = 17;
+					armor = 14;
 					PassThrough = 0.3;
 				};
 				class Abdomen
 				{
 					hitpointName = "HitAbdomen";
-					armor = 17;
+					armor = 14;
 					passThrough = 0.3;
 				};
 				class Body
@@ -8672,6 +8875,7 @@ class cjVest :  tactecfullpkpBlack
 			type =    "comms";
 			camo =  "mcb";
 		};
+		armor = 12;
 		class ItemInfo: ItemInfo
 		{
 			containerClass = "Supply180";
@@ -8680,19 +8884,19 @@ class cjVest :  tactecfullpkpBlack
 				class Chest
 				{
 					HitpointName = "HitChest";
-					armor = 17;
+					armor = 14;
 					PassThrough = 0.3;
 				};
 				class Diaphragm
 				{
 					HitpointName = "HitDiaphragm";
-					armor = 17;
+					armor = 14;
 					PassThrough = 0.3;
 				};
 				class Abdomen
 				{
 					hitpointName = "HitAbdomen";
-					armor = 17;
+					armor = 14;
 					passThrough = 0.3;
 				};
 				class Body
@@ -8714,6 +8918,7 @@ class cjVest :  tactecfullpkpBlack
 			type =    "comms";
 			camo =  "mct";
 		};
+		armor = 12;
 		class ItemInfo: ItemInfo
 		{
 			containerClass = "Supply180";
@@ -8722,19 +8927,19 @@ class cjVest :  tactecfullpkpBlack
 				class Chest
 				{
 					HitpointName = "HitChest";
-					armor = 17;
+					armor = 14;
 					PassThrough = 0.3;
 				};
 				class Diaphragm
 				{
 					HitpointName = "HitDiaphragm";
-					armor = 17;
+					armor = 14;
 					PassThrough = 0.3;
 				};
 				class Abdomen
 				{
 					hitpointName = "HitAbdomen";
-					armor = 17;
+					armor = 14;
 					passThrough = 0.3;
 				};
 				class Body
@@ -8756,6 +8961,7 @@ class cjVest :  tactecfullpkpBlack
 			type =    "comms";
 			camo =  "od";
 		};
+		armor = 12;
 		class ItemInfo: ItemInfo
 		{
 			containerClass = "Supply180";
@@ -8764,19 +8970,19 @@ class cjVest :  tactecfullpkpBlack
 				class Chest
 				{
 					HitpointName = "HitChest";
-					armor = 17;
+					armor = 14;
 					PassThrough = 0.3;
 				};
 				class Diaphragm
 				{
 					HitpointName = "HitDiaphragm";
-					armor = 17;
+					armor = 14;
 					PassThrough = 0.3;
 				};
 				class Abdomen
 				{
 					hitpointName = "HitAbdomen";
-					armor = 17;
+					armor = 14;
 					passThrough = 0.3;
 				};
 				class Body
@@ -8798,6 +9004,7 @@ class cjVest :  tactecfullpkpBlack
 			type =    "comms";
 			camo =  "tan";
 		};
+		armor = 12;
 		class ItemInfo: ItemInfo
 		{
 			containerClass = "Supply180";
@@ -8806,19 +9013,19 @@ class cjVest :  tactecfullpkpBlack
 				class Chest
 				{
 					HitpointName = "HitChest";
-					armor = 17;
+					armor = 14;
 					PassThrough = 0.3;
 				};
 				class Diaphragm
 				{
 					HitpointName = "HitDiaphragm";
-					armor = 17;
+					armor = 14;
 					PassThrough = 0.3;
 				};
 				class Abdomen
 				{
 					hitpointName = "HitAbdomen";
-					armor = 17;
+					armor = 14;
 					passThrough = 0.3;
 				};
 				class Body
@@ -8841,6 +9048,7 @@ class cjVest :  tactecfullpkpBlack
 			type =    "comms";
 			camo =  "grey";
 		};
+		armor = 12;
 		class ItemInfo: ItemInfo
 		{
 			containerClass = "Supply180";
@@ -8849,19 +9057,19 @@ class cjVest :  tactecfullpkpBlack
 				class Chest
 				{
 					HitpointName = "HitChest";
-					armor = 17;
+					armor = 14;
 					PassThrough = 0.3;
 				};
 				class Diaphragm
 				{
 					HitpointName = "HitDiaphragm";
-					armor = 17;
+					armor = 14;
 					PassThrough = 0.3;
 				};
 				class Abdomen
 				{
 					hitpointName = "HitAbdomen";
-					armor = 17;
+					armor = 14;
 					passThrough = 0.3;
 				};
 				class Body
@@ -8883,6 +9091,7 @@ class cjVest :  tactecfullpkpBlack
 			type =    "comms";
 			camo =  "mc";
 		};
+		armor = 12;
 		class ItemInfo: ItemInfo
 		{
 			containerClass = "Supply180";
@@ -8891,19 +9100,19 @@ class cjVest :  tactecfullpkpBlack
 				class Chest
 				{
 					HitpointName = "HitChest";
-					armor = 17;
+					armor = 14;
 					PassThrough = 0.3;
 				};
 				class Diaphragm
 				{
 					HitpointName = "HitDiaphragm";
-					armor = 17;
+					armor = 14;
 					PassThrough = 0.3;
 				};
 				class Abdomen
 				{
 					hitpointName = "HitAbdomen";
-					armor = 17;
+					armor = 14;
 					passThrough = 0.3;
 				};
 				class Body
@@ -8925,6 +9134,7 @@ class cjVest :  tactecfullpkpBlack
 			type =    "comms";
 			camo =  "mcb";
 		};
+		armor = 12;
 		class ItemInfo: ItemInfo
 		{
 			containerClass = "Supply180";
@@ -8933,19 +9143,19 @@ class cjVest :  tactecfullpkpBlack
 				class Chest
 				{
 					HitpointName = "HitChest";
-					armor = 17;
+					armor = 14;
 					PassThrough = 0.3;
 				};
 				class Diaphragm
 				{
 					HitpointName = "HitDiaphragm";
-					armor = 17;
+					armor = 14;
 					PassThrough = 0.3;
 				};
 				class Abdomen
 				{
 					hitpointName = "HitAbdomen";
-					armor = 17;
+					armor = 14;
 					passThrough = 0.3;
 				};
 				class Body
@@ -8967,6 +9177,7 @@ class cjVest :  tactecfullpkpBlack
 			type =    "comms";
 			camo =  "mct";
 		};
+		armor = 12;
 		class ItemInfo: ItemInfo
 		{
 			containerClass = "Supply180";
@@ -8975,19 +9186,19 @@ class cjVest :  tactecfullpkpBlack
 				class Chest
 				{
 					HitpointName = "HitChest";
-					armor = 17;
+					armor = 14;
 					PassThrough = 0.3;
 				};
 				class Diaphragm
 				{
 					HitpointName = "HitDiaphragm";
-					armor = 17;
+					armor = 14;
 					PassThrough = 0.3;
 				};
 				class Abdomen
 				{
 					hitpointName = "HitAbdomen";
-					armor = 17;
+					armor = 14;
 					passThrough = 0.3;
 				};
 				class Body
@@ -9009,6 +9220,7 @@ class cjVest :  tactecfullpkpBlack
 			type =    "comms";
 			camo =  "od";
 		};
+		armor = 12;
 		class ItemInfo: ItemInfo
 		{
 			containerClass = "Supply180";
@@ -9017,19 +9229,19 @@ class cjVest :  tactecfullpkpBlack
 				class Chest
 				{
 					HitpointName = "HitChest";
-					armor = 17;
+					armor = 14;
 					PassThrough = 0.3;
 				};
 				class Diaphragm
 				{
 					HitpointName = "HitDiaphragm";
-					armor = 17;
+					armor = 14;
 					PassThrough = 0.3;
 				};
 				class Abdomen
 				{
 					hitpointName = "HitAbdomen";
-					armor = 17;
+					armor = 14;
 					passThrough = 0.3;
 				};
 				class Body
@@ -9051,6 +9263,7 @@ class cjVest :  tactecfullpkpBlack
 			type =    "comms";
 			camo =  "tan";
 		};
+		armor = 12;
 		class ItemInfo: ItemInfo
 		{
 			containerClass = "Supply180";
@@ -9059,19 +9272,19 @@ class cjVest :  tactecfullpkpBlack
 				class Chest
 				{
 					HitpointName = "HitChest";
-					armor = 17;
+					armor = 14;
 					PassThrough = 0.3;
 				};
 				class Diaphragm
 				{
 					HitpointName = "HitDiaphragm";
-					armor = 17;
+					armor = 14;
 					PassThrough = 0.3;
 				};
 				class Abdomen
 				{
 					hitpointName = "HitAbdomen";
-					armor = 17;
+					armor = 14;
 					passThrough = 0.3;
 				};
 				class Body
@@ -9082,3 +9295,803 @@ class cjVest :  tactecfullpkpBlack
 			};
 		};
 	};
+
+// PJV Classes
+	class V_PlateCarrier1_rgr;
+	class V_thor: V_PlateCarrier1_rgr {
+		armor = 12;
+		class ItemInfo: ItemInfo
+		{
+			containerClass = "Supply180";
+			class HitpointsProtectionInfo
+			{
+				class Chest
+				{
+					HitpointName = "HitChest";
+					armor = 14;
+					PassThrough = 0.3;
+				};
+				class Diaphragm
+				{
+					HitpointName = "HitDiaphragm";
+					armor = 14;
+					PassThrough = 0.3;
+				};
+				class Abdomen
+				{
+					hitpointName = "HitAbdomen";
+					armor = 14;
+					passThrough = 0.3;
+				};
+				class Body
+				{
+					hitpointName = "HitBody";
+					passThrough = 0.3;
+				};
+			};
+		};
+	}
+	class V_thor2: V_PlateCarrier1_rgr {
+		armor = 12;
+		class ItemInfo: ItemInfo
+		{
+			containerClass = "Supply180";
+			class HitpointsProtectionInfo
+			{
+				class Chest
+				{
+					HitpointName = "HitChest";
+					armor = 14;
+					PassThrough = 0.3;
+				};
+				class Diaphragm
+				{
+					HitpointName = "HitDiaphragm";
+					armor = 14;
+					PassThrough = 0.3;
+				};
+				class Abdomen
+				{
+					hitpointName = "HitAbdomen";
+					armor = 14;
+					passThrough = 0.3;
+				};
+				class Body
+				{
+					hitpointName = "HitBody";
+					passThrough = 0.3;
+				};
+			};
+		};
+	}
+	class V_thor_rgr: V_thor {
+		armor = 12;
+		class ItemInfo: ItemInfo
+		{
+			containerClass = "Supply180";
+			class HitpointsProtectionInfo
+			{
+				class Chest
+				{
+					HitpointName = "HitChest";
+					armor = 14;
+					PassThrough = 0.3;
+				};
+				class Diaphragm
+				{
+					HitpointName = "HitDiaphragm";
+					armor = 14;
+					PassThrough = 0.3;
+				};
+				class Abdomen
+				{
+					hitpointName = "HitAbdomen";
+					armor = 14;
+					passThrough = 0.3;
+				};
+				class Body
+				{
+					hitpointName = "HitBody";
+					passThrough = 0.3;
+				};
+			};
+		};
+	}
+	class V_thor_rgr2: V_thor {
+		armor = 12;
+		class ItemInfo: ItemInfo
+		{
+			containerClass = "Supply180";
+			class HitpointsProtectionInfo
+			{
+				class Chest
+				{
+					HitpointName = "HitChest";
+					armor = 14;
+					PassThrough = 0.3;
+				};
+				class Diaphragm
+				{
+					HitpointName = "HitDiaphragm";
+					armor = 14;
+					PassThrough = 0.3;
+				};
+				class Abdomen
+				{
+					hitpointName = "HitAbdomen";
+					armor = 14;
+					passThrough = 0.3;
+				};
+				class Body
+				{
+					hitpointName = "HitBody";
+					passThrough = 0.3;
+				};
+			};
+		};
+	}
+	class V_thor_wdl: V_thor {
+		armor = 12;
+		class ItemInfo: ItemInfo
+		{
+			containerClass = "Supply180";
+			class HitpointsProtectionInfo
+			{
+				class Chest
+				{
+					HitpointName = "HitChest";
+					armor = 14;
+					PassThrough = 0.3;
+				};
+				class Diaphragm
+				{
+					HitpointName = "HitDiaphragm";
+					armor = 14;
+					PassThrough = 0.3;
+				};
+				class Abdomen
+				{
+					hitpointName = "HitAbdomen";
+					armor = 14;
+					passThrough = 0.3;
+				};
+				class Body
+				{
+					hitpointName = "HitBody";
+					passThrough = 0.3;
+				};
+			};
+		};
+	}
+	class V_thor_wdl2: V_thor {
+		armor = 12;
+		class ItemInfo: ItemInfo
+		{
+			containerClass = "Supply180";
+			class HitpointsProtectionInfo
+			{
+				class Chest
+				{
+					HitpointName = "HitChest";
+					armor = 14;
+					PassThrough = 0.3;
+				};
+				class Diaphragm
+				{
+					HitpointName = "HitDiaphragm";
+					armor = 14;
+					PassThrough = 0.3;
+				};
+				class Abdomen
+				{
+					hitpointName = "HitAbdomen";
+					armor = 14;
+					passThrough = 0.3;
+				};
+				class Body
+				{
+					hitpointName = "HitBody";
+					passThrough = 0.3;
+				};
+			};
+		};
+	}
+	class V_thor02: V_PlateCarrier1_rgr {
+		armor = 12;
+		class ItemInfo: ItemInfo
+		{
+			containerClass = "Supply180";
+			class HitpointsProtectionInfo
+			{
+				class Chest
+				{
+					HitpointName = "HitChest";
+					armor = 14;
+					PassThrough = 0.3;
+				};
+				class Diaphragm
+				{
+					HitpointName = "HitDiaphragm";
+					armor = 14;
+					PassThrough = 0.3;
+				};
+				class Abdomen
+				{
+					hitpointName = "HitAbdomen";
+					armor = 14;
+					passThrough = 0.3;
+				};
+				class Body
+				{
+					hitpointName = "HitBody";
+					passThrough = 0.3;
+				};
+			};
+		};
+	}
+	class V_thor02_rgr: V_PlateCarrier1_rgr {
+		armor = 12;
+		class ItemInfo: ItemInfo
+		{
+			containerClass = "Supply180";
+			class HitpointsProtectionInfo
+			{
+				class Chest
+				{
+					HitpointName = "HitChest";
+					armor = 14;
+					PassThrough = 0.3;
+				};
+				class Diaphragm
+				{
+					HitpointName = "HitDiaphragm";
+					armor = 14;
+					PassThrough = 0.3;
+				};
+				class Abdomen
+				{
+					hitpointName = "HitAbdomen";
+					armor = 14;
+					passThrough = 0.3;
+				};
+				class Body
+				{
+					hitpointName = "HitBody";
+					passThrough = 0.3;
+				};
+			};
+		};
+	}
+	class V_thor02_wdl: V_PlateCarrier1_rgr {
+		armor = 12;
+		class ItemInfo: ItemInfo
+		{
+			containerClass = "Supply180";
+			class HitpointsProtectionInfo
+			{
+				class Chest
+				{
+					HitpointName = "HitChest";
+					armor = 14;
+					PassThrough = 0.3;
+				};
+				class Diaphragm
+				{
+					HitpointName = "HitDiaphragm";
+					armor = 14;
+					PassThrough = 0.3;
+				};
+				class Abdomen
+				{
+					hitpointName = "HitAbdomen";
+					armor = 14;
+					passThrough = 0.3;
+				};
+				class Body
+				{
+					hitpointName = "HitBody";
+					passThrough = 0.3;
+				};
+			};
+		};
+	}
+	class V_thor03: V_PlateCarrier1_rgr {
+		armor = 12;
+		class ItemInfo: ItemInfo
+		{
+			containerClass = "Supply180";
+			class HitpointsProtectionInfo
+			{
+				class Chest
+				{
+					HitpointName = "HitChest";
+					armor = 14;
+					PassThrough = 0.3;
+				};
+				class Diaphragm
+				{
+					HitpointName = "HitDiaphragm";
+					armor = 14;
+					PassThrough = 0.3;
+				};
+				class Abdomen
+				{
+					hitpointName = "HitAbdomen";
+					armor = 14;
+					passThrough = 0.3;
+				};
+				class Body
+				{
+					hitpointName = "HitBody";
+					passThrough = 0.3;
+				};
+			};
+		};
+	}
+	class V_thor03_rgr: V_PlateCarrier1_rgr {
+		armor = 12;
+		class ItemInfo: ItemInfo
+		{
+			containerClass = "Supply180";
+			class HitpointsProtectionInfo
+			{
+				class Chest
+				{
+					HitpointName = "HitChest";
+					armor = 14;
+					PassThrough = 0.3;
+				};
+				class Diaphragm
+				{
+					HitpointName = "HitDiaphragm";
+					armor = 14;
+					PassThrough = 0.3;
+				};
+				class Abdomen
+				{
+					hitpointName = "HitAbdomen";
+					armor = 14;
+					passThrough = 0.3;
+				};
+				class Body
+				{
+					hitpointName = "HitBody";
+					passThrough = 0.3;
+				};
+			};
+		};
+	}
+	class V_thor03_wdl: V_PlateCarrier1_rgr {
+		armor = 12;
+		class ItemInfo: ItemInfo
+		{
+			containerClass = "Supply180";
+			class HitpointsProtectionInfo
+			{
+				class Chest
+				{
+					HitpointName = "HitChest";
+					armor = 14;
+					PassThrough = 0.3;
+				};
+				class Diaphragm
+				{
+					HitpointName = "HitDiaphragm";
+					armor = 14;
+					PassThrough = 0.3;
+				};
+				class Abdomen
+				{
+					hitpointName = "HitAbdomen";
+					armor = 14;
+					passThrough = 0.3;
+				};
+				class Body
+				{
+					hitpointName = "HitBody";
+					passThrough = 0.3;
+				};
+			};
+		};
+	}
+	class V_thor_r: V_PlateCarrier1_rgr {
+		armor = 12;
+		class ItemInfo: ItemInfo
+		{
+			containerClass = "Supply180";
+			class HitpointsProtectionInfo
+			{
+				class Chest
+				{
+					HitpointName = "HitChest";
+					armor = 14;
+					PassThrough = 0.3;
+				};
+				class Diaphragm
+				{
+					HitpointName = "HitDiaphragm";
+					armor = 14;
+					PassThrough = 0.3;
+				};
+				class Abdomen
+				{
+					hitpointName = "HitAbdomen";
+					armor = 14;
+					passThrough = 0.3;
+				};
+				class Body
+				{
+					hitpointName = "HitBody";
+					passThrough = 0.3;
+				};
+			};
+		};
+	}
+	class V_thor_r_rgr: V_PlateCarrier1_rgr {
+		armor = 12;
+		class ItemInfo: ItemInfo
+		{
+			containerClass = "Supply180";
+			class HitpointsProtectionInfo
+			{
+				class Chest
+				{
+					HitpointName = "HitChest";
+					armor = 14;
+					PassThrough = 0.3;
+				};
+				class Diaphragm
+				{
+					HitpointName = "HitDiaphragm";
+					armor = 14;
+					PassThrough = 0.3;
+				};
+				class Abdomen
+				{
+					hitpointName = "HitAbdomen";
+					armor = 14;
+					passThrough = 0.3;
+				};
+				class Body
+				{
+					hitpointName = "HitBody";
+					passThrough = 0.3;
+				};
+			};
+		};
+	}
+	class V_thor_r2: V_PlateCarrier1_rgr {
+		armor = 12;
+		class ItemInfo: ItemInfo
+		{
+			containerClass = "Supply180";
+			class HitpointsProtectionInfo
+			{
+				class Chest
+				{
+					HitpointName = "HitChest";
+					armor = 14;
+					PassThrough = 0.3;
+				};
+				class Diaphragm
+				{
+					HitpointName = "HitDiaphragm";
+					armor = 14;
+					PassThrough = 0.3;
+				};
+				class Abdomen
+				{
+					hitpointName = "HitAbdomen";
+					armor = 14;
+					passThrough = 0.3;
+				};
+				class Body
+				{
+					hitpointName = "HitBody";
+					passThrough = 0.3;
+				};
+			};
+		};
+	}
+	class V_thor_r2_rgr: V_PlateCarrier1_rgr {
+		armor = 12;
+		class ItemInfo: ItemInfo
+		{
+			containerClass = "Supply180";
+			class HitpointsProtectionInfo
+			{
+				class Chest
+				{
+					HitpointName = "HitChest";
+					armor = 14;
+					PassThrough = 0.3;
+				};
+				class Diaphragm
+				{
+					HitpointName = "HitDiaphragm";
+					armor = 14;
+					PassThrough = 0.3;
+				};
+				class Abdomen
+				{
+					hitpointName = "HitAbdomen";
+					armor = 14;
+					passThrough = 0.3;
+				};
+				class Body
+				{
+					hitpointName = "HitBody";
+					passThrough = 0.3;
+				};
+			};
+		};
+	}
+	class V_thor_sl: V_PlateCarrier1_rgr {
+		armor = 12;
+		class ItemInfo: ItemInfo
+		{
+			containerClass = "Supply180";
+			class HitpointsProtectionInfo
+			{
+				class Chest
+				{
+					HitpointName = "HitChest";
+					armor = 14;
+					PassThrough = 0.3;
+				};
+				class Diaphragm
+				{
+					HitpointName = "HitDiaphragm";
+					armor = 14;
+					PassThrough = 0.3;
+				};
+				class Abdomen
+				{
+					hitpointName = "HitAbdomen";
+					armor = 14;
+					passThrough = 0.3;
+				};
+				class Body
+				{
+					hitpointName = "HitBody";
+					passThrough = 0.3;
+				};
+			};
+		};
+	}
+	class V_thor_sl_rgr: V_PlateCarrier1_rgr {
+		armor = 12;
+		class ItemInfo: ItemInfo
+		{
+			containerClass = "Supply180";
+			class HitpointsProtectionInfo
+			{
+				class Chest
+				{
+					HitpointName = "HitChest";
+					armor = 14;
+					PassThrough = 0.3;
+				};
+				class Diaphragm
+				{
+					HitpointName = "HitDiaphragm";
+					armor = 14;
+					PassThrough = 0.3;
+				};
+				class Abdomen
+				{
+					hitpointName = "HitAbdomen";
+					armor = 14;
+					passThrough = 0.3;
+				};
+				class Body
+				{
+					hitpointName = "HitBody";
+					passThrough = 0.3;
+				};
+			};
+		};
+	}
+	class V_thor_tl: V_PlateCarrier1_rgr 
+	{
+		armor = 12;
+		class ItemInfo: ItemInfo
+		{
+			containerClass = "Supply180";
+			class HitpointsProtectionInfo
+			{
+				class Chest
+				{
+					HitpointName = "HitChest";
+					armor = 14;
+					PassThrough = 0.3;
+				};
+				class Diaphragm
+				{
+					HitpointName = "HitDiaphragm";
+					armor = 14;
+					PassThrough = 0.3;
+				};
+				class Abdomen
+				{
+					hitpointName = "HitAbdomen";
+					armor = 14;
+					passThrough = 0.3;
+				};
+				class Body
+				{
+					hitpointName = "HitBody";
+					passThrough = 0.3;
+				};
+			};
+		};
+	}
+	class V_thor_tl_rgr: V_PlateCarrier1_rgr 
+	{
+		armor = 12;
+		class ItemInfo: ItemInfo
+		{
+			containerClass = "Supply180";
+			class HitpointsProtectionInfo
+			{
+				class Chest
+				{
+					HitpointName = "HitChest";
+					armor = 14;
+					PassThrough = 0.3;
+				};
+				class Diaphragm
+				{
+					HitpointName = "HitDiaphragm";
+					armor = 14;
+					PassThrough = 0.3;
+				};
+				class Abdomen
+				{
+					hitpointName = "HitAbdomen";
+					armor = 14;
+					passThrough = 0.3;
+				};
+				class Body
+				{
+					hitpointName = "HitBody";
+					passThrough = 0.3;
+				};
+			};
+		};
+	}
+// Plateframes 
+	class rhsusf_iotv_ocp_base;
+	class rhsusf_plateframe_sapi: rhsusf_iotv_ocp_base {
+		armor = 12;
+		class ItemInfo: ItemInfo
+		{
+			containerClass = "Supply180";
+			class HitpointsProtectionInfo
+			{
+				class Chest
+				{
+					HitpointName = "HitChest";
+					armor = 14;
+					PassThrough = 0.3;
+				};
+				class Diaphragm
+				{
+					HitpointName = "HitDiaphragm";
+					armor = 14;
+					PassThrough = 0.3;
+				};
+				class Abdomen
+				{
+					hitpointName = "HitAbdomen";
+					armor = 14;
+					passThrough = 0.3;
+				};
+				class Body
+				{
+					hitpointName = "HitBody";
+					passThrough = 0.3;
+				};
+			};
+		};
+	}
+	class rhsusf_plateframe_light: rhsusf_plateframe_sapi {
+		armor = 12;
+		class ItemInfo: ItemInfo
+		{
+			containerClass = "Supply180";
+			class HitpointsProtectionInfo
+			{
+				class Chest
+				{
+					HitpointName = "HitChest";
+					armor = 14;
+					PassThrough = 0.3;
+				};
+				class Diaphragm
+				{
+					HitpointName = "HitDiaphragm";
+					armor = 14;
+					PassThrough = 0.3;
+				};
+				class Abdomen
+				{
+					hitpointName = "HitAbdomen";
+					armor = 14;
+					passThrough = 0.3;
+				};
+				class Body
+				{
+					hitpointName = "HitBody";
+					passThrough = 0.3;
+				};
+			};
+		};
+	}
+	class rhsusf_plateframe_rifleman: rhsusf_plateframe_sapi {
+		armor = 12;
+		class ItemInfo: ItemInfo
+		{
+			containerClass = "Supply180";
+			class HitpointsProtectionInfo
+			{
+				class Chest
+				{
+					HitpointName = "HitChest";
+					armor = 14;
+					PassThrough = 0.3;
+				};
+				class Diaphragm
+				{
+					HitpointName = "HitDiaphragm";
+					armor = 14;
+					PassThrough = 0.3;
+				};
+				class Abdomen
+				{
+					hitpointName = "HitAbdomen";
+					armor = 14;
+					passThrough = 0.3;
+				};
+				class Body
+				{
+					hitpointName = "HitBody";
+					passThrough = 0.3;
+				};
+			};
+		};
+	}
+	class rhsusf_plateframe_teamleader: rhsusf_plateframe_rifleman {
+		armor = 12;
+		armor = 12;
+		class ItemInfo: ItemInfo
+		{
+			containerClass = "Supply180";
+			class HitpointsProtectionInfo
+			{
+				class Chest
+				{
+					HitpointName = "HitChest";
+					armor = 14;
+					PassThrough = 0.3;
+				};
+				class Diaphragm
+				{
+					HitpointName = "HitDiaphragm";
+					armor = 14;
+					PassThrough = 0.3;
+				};
+				class Abdomen
+				{
+					hitpointName = "HitAbdomen";
+					armor = 14;
+					passThrough = 0.3;
+				};
+				class Body
+				{
+					hitpointName = "HitBody";
+					passThrough = 0.3;
+				};
+			};
+		};
+	}
