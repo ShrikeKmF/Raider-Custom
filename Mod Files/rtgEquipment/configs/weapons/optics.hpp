@@ -108,7 +108,65 @@ class rtg_optic_DMS: optic_DMS
                 distanceZoomMin = 100;
                 distanceZoomMax = 100;
                 discreteDistance[] = {100};
-                discreteDistanceInitIndex = 1;
+                discreteDistanceInitIndex = 0;
+            };
+        };
+    };
+    inertia = 0.2;
+};
+class rtg_torbs32: rtg_optic_DMS
+{
+    author = "Shrike";
+    _generalMacro = "optic_DMS";
+    scope = 2;
+    displayName = "Burris XTR III (80x)";
+    picture = "\a3\Weapons_F\acc\Data\UI\icon_optic_DMS_ca.paa";
+    model = "\A3\Weapons_F_EPA\Acc\acco_marksman_F.p3d";
+    descriptionShort = "LPVO";
+    class ItemInfo: InventoryOpticsItem_Base_F
+    {
+        mass = 20;
+        opticType = 2;
+        optics = 1;
+        modelOptics = "\A3\Weapons_f\acc\reticle_marksman_F";
+        class OpticsModes
+        {
+            class Snip
+            {
+                opticsID = 2;
+                useModelOptics = 1;
+                opticsPPEffects[] = {"OpticsCHAbera2"};
+                opticsZoomMin = "80 call (uiNamespace getVariable 'cba_optics_fnc_setOpticMagnificationHelper')";
+                opticsZoomMax = "80 call (uiNamespace getVariable 'cba_optics_fnc_setOpticMagnificationHelper')";
+                opticsZoomInit = "80 call (uiNamespace getVariable 'cba_optics_fnc_setOpticMagnificationHelper')";
+                discreteDistance[] = {100,200,300,400,500,600,700,800,900,1000,1100,1200};
+                discreteDistanceInitIndex = 0;
+                distanceZoomMin = 100;
+                distanceZoomMax = 100;
+                memoryPointCamera = "opticView";
+                modelOptics[] = {"\A3\Weapons_F_EPA\acc\reticle_marksman_F","\A3\Weapons_F_EPA\acc\reticle_marksman_z_F"};
+                visionMode[] = {"Normal"};
+                opticsFlare = 1;
+                opticsDisablePeripherialVision = 0;
+                cameraDir = "";
+            };
+            class Iron: Snip
+            {
+                opticsID = 3;
+                useModelOptics = 0;
+                opticsPPEffects[] = {"",""};
+                opticsFlare = 0;
+                opticsDisablePeripherialVision = 0;
+                opticsZoomMin= 0.50;
+                opticsZoomMax = 0.75;
+                opticsZoomInit = 0.75;
+                memoryPointCamera = "eye";
+                visionMode[] = {};
+                discretefov[] = {};
+                distanceZoomMin = 100;
+                distanceZoomMax = 100;
+                discreteDistance[] = {100};
+                discreteDistanceInitIndex = 0;
             };
         };
     };
@@ -165,7 +223,6 @@ class rtg_night_sight: optic_tws
                 distanceZoomMin = 100;
                 distanceZoomMax = 100;
                 discreteDistance[] = {100};
-                discreteDistanceInitIndex = 0;
             };
         };
     };

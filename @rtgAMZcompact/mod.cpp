@@ -1,4 +1,4 @@
-name = "[RTG] AMZ";
+name = "[RTG] AMZ Sounds Compact";
 description = "Raider tactical Group";
 picture = "logo_rtg.paa";
 actionName = "Website";

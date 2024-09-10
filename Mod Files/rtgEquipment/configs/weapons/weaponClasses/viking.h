@@ -1,3 +1,176 @@
+// HK433
+	class ptv_hk433 : Rifle_Base_F
+	{
+		magazineWell[] = {"CBA_556x45_STANAG"};
+		magazines[] = {"rtg_30rnd_556_45"};
+		recoil = "rtg_556_carbine";
+		class XtdGearInfo
+		{
+			model = "rtg_ace_expanded_hk433";
+			camo = "grn";
+			barrel = "long";
+		};
+	};
+
+	class ptv_hk433_b: ptv_hk433
+	{
+		magazineWell[] = {"CBA_556x45_STANAG"};
+		magazines[] = {"rtg_30rnd_556_45"};
+		recoil = "rtg_556_carbine";
+		class XtdGearInfo
+		{
+			model = "rtg_ace_expanded_hk433";
+			camo = "blk";
+			barrel = "long";
+		};
+	};
+	class ptv_hk433_t: ptv_hk433
+	{
+		magazineWell[] = {"CBA_556x45_STANAG"};
+		magazines[] = {"rtg_30rnd_556_45"};
+		recoil = "rtg_556_carbine";
+		class XtdGearInfo
+		{
+			model = "rtg_ace_expanded_hk433";
+			camo = "tan";
+			barrel = "long";
+		};
+	};
+
+	class ptv_hk433s: ptv_hk433
+	{
+		magazineWell[] = {"CBA_556x45_STANAG"};
+		magazines[] = {"rtg_30rnd_556_45"};
+		recoil = "rtg_556_carbine";
+		class XtdGearInfo
+		{
+			model = "rtg_ace_expanded_hk433";
+			camo = "grn";
+			barrel = "short";
+		};
+	};
+	class ptv_hk433s_b: ptv_hk433s
+	{
+		magazineWell[] = {"CBA_556x45_STANAG"};
+		magazines[] = {"rtg_30rnd_556_45"};
+		recoil = "rtg_556_carbine";
+		class XtdGearInfo
+		{
+			model = "rtg_ace_expanded_hk433";
+			camo = "blk";
+			barrel = "short";
+		};
+	};
+	class ptv_hk433s_t: ptv_hk433s
+	{
+		magazineWell[] = {"CBA_556x45_STANAG"};
+		magazines[] = {"rtg_30rnd_556_45"};
+		recoil = "rtg_556_carbine";
+		class XtdGearInfo
+		{
+			model = "rtg_ace_expanded_hk433";
+			camo = "tan";
+			barrel = "short";
+		};
+	};
+
+	class ptv_hk433_VG: ptv_hk433
+	{
+		scope = 1;
+		class XtdGearInfo
+		{
+			model = "";
+		};
+	};
+	class ptv_hk433_t_VG: ptv_hk433
+	{
+		scope = 1;
+		class XtdGearInfo
+		{
+			model = "";
+		};
+	};
+	class ptv_hk433_b_VG: ptv_hk433
+	{
+		scope = 1;
+		class XtdGearInfo
+		{
+			model = "";
+		};
+	};
+	class ptv_hk433_AFG: ptv_hk433
+	{
+		scope = 1;
+		class XtdGearInfo
+		{
+			model = "";
+		};
+	};
+	class ptv_hk433_t_AFG: ptv_hk433
+	{
+		scope = 1;
+		class XtdGearInfo
+		{
+			model = "";
+		};
+	};
+	class ptv_hk433_t_AFG: ptv_hk433
+	{
+		scope = 1;
+		class XtdGearInfo
+		{
+			model = "";
+		};
+	};
+	class ptv_hk433s_VG: ptv_hk433
+	{
+		scope = 1;
+		class XtdGearInfo
+		{
+			model = "";
+		};
+	};
+	class ptv_hk433s_t_VG: ptv_hk433
+	{
+		scope = 1;
+		class XtdGearInfo
+		{
+			model = "";
+		};
+	};
+	class ptv_hk433s_b_VG: ptv_hk433
+	{
+		scope = 1;
+		class XtdGearInfo
+		{
+			model = "";
+		};
+	};
+	class ptv_hk433s_AFG: ptv_hk433
+	{
+		scope = 1;
+		class XtdGearInfo
+		{
+			model = "";
+		};
+	};
+	class ptv_hk433s_t_AFG: ptv_hk433
+	{
+		scope = 1;
+		class XtdGearInfo
+		{
+			model = "";
+		};
+	};
+	class ptv_hk433s_t_AFG: ptv_hk433
+	{
+		scope = 1;
+		class XtdGearInfo
+		{
+			model = "";
+		};
+	};
+
 // M/23
 	class ptv_rs556: Rifle_Base_F{
 		magazineWell[] = {"CBA_556x45_STANAG"};
@@ -10,7 +183,7 @@
 			barrel = "long";
 			launcher = "no";
 		};
-	}
+	};
 	class ptv_rs556_b : ptv_rs556{
 		class XtdGearInfo
 		{
@@ -19,7 +192,7 @@
 			barrel = "long";
 			launcher = "no";
 		};
-	}
+	};
 	class ptv_rs556_t : ptv_rs556{
 		class XtdGearInfo
 		{
@@ -28,7 +201,7 @@
 			barrel = "long";
 			launcher = "no";
 		};
-	}
+	};
 	class ptv_rs556_gl : ptv_rs556{
 		class XtdGearInfo
 		{
@@ -37,7 +210,7 @@
 			barrel = "long";
 			launcher = "gl";
 		};
-	}
+	};
 	class ptv_rs556_gl_b : ptv_rs556_gl{
 		class XtdGearInfo
 		{
@@ -46,7 +219,7 @@
 			barrel = "long";
 			launcher = "gl";
 		};
-	}
+	};
 	class ptv_rs556_gl_t : ptv_rs556_gl{
 		class XtdGearInfo
 		{
@@ -55,7 +228,7 @@
 			barrel = "long";
 			launcher = "gl";
 		};
-	}
+	};
 	class ptv_rs556s: ptv_rs556{
 		magazineWell[] = {"CBA_556x45_STANAG"};
 		magazines[] = {"rtg_30rnd_556_45"};
@@ -67,7 +240,7 @@
 			barrel = "short";
 			launcher = "no";
 		};
-	}
+	};
 	class ptv_rs556s_b : ptv_rs556s{
 		class XtdGearInfo
 		{
@@ -76,7 +249,7 @@
 			barrel = "short";
 			launcher = "no";
 		};
-	}
+	};
 	class ptv_rs556s_t : ptv_rs556s{
 		class XtdGearInfo
 		{
@@ -85,7 +258,7 @@
 			barrel = "short";
 			launcher = "no";
 		};
-	}
+	};
 
 
 // M/90

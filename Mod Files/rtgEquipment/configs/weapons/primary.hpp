@@ -751,6 +751,37 @@ class ACWP_sr25: srifle_DMR_06_camo_F
 			calibre = "N300";
 		};
 	};
+// HK 416C
+	class hlc_rifle_416D10;
+	class hlc_rifle_416C: hlc_rifle_416D10
+	{
+		scope = 2;
+		dlc = "raiderTactical";
+		baseWeapon = "hlc_rifle_416C";
+		Author = "Shrike";
+		displayName = "HK416C";
+		magazineWell[] = {"CBA_300BLK_STANAG"};
+		recoil = "rtg_300_carbine";
+		magazines[] = {"rtg_30rnd_300_blk"};
+	};
+
+// HK 416 20in
+	class hlc_rifle_416D145;
+	class hlc_rifle_416D20: hlc_rifle_416D145
+	{
+		scope = 2;
+		dlc = "raiderTactical";
+		baseWeapon = "hlc_rifle_416C";
+		Author = "Shrike";
+		displayName = "HK416 D20";
+		recoil = "rtg_300_rifle";
+		class WeaponSlotsInfo: WeaponSlotsInfo
+		{
+			class MuzzleSlot: asdg_MuzzleSlot{};
+			class CowsSlot: asdg_OpticRail1913{};
+			class PointerSlot: asdg_FrontSideRail{};
+		};
+	};
 
 // F-2000
 	class arifle_Mk20_plain_F;
@@ -2598,7 +2629,7 @@ class rtg_mag60_20 : rhs_weap_m240G
 	cse_bipod = 1;
 	tmr_autorest_deployable = 1;
 	TMR_acc_bipod = 1;
-	inertia = 0.95;
+	inertia = 0.92;
 	class FullAuto : manual
 	{
 		reloadTime = 0.070588;
@@ -2672,7 +2703,33 @@ class rtg_mag10_10 : rtg_mag60_20
 	displayName = "MAG 10-10";
 	recoil = "rtg_762n_lmg";
 	model = "rtgEquipment\lods\MAG\MAG_F";
-	
+	modes[] = {"FullAuto"};
+	AB_barrelTwist = 12;
+	AB_barrelLength = 15;
+	ACE_barrelTwist = 304.8;
+	ACE_barrelLength = 481.2;
+	opticsZoomInit= 0.75;
+	opticsZoomMax=0.75;
+	opticsZoomMin= 0.50;
+	mass = 172.3;
+	bg_bipod = 0;
+	cse_bipod = 0;
+	tmr_autorest_deployable = 1;
+	TMR_acc_bipod = 0;
+	inertia = 0.85;
+	class FullAuto : manual
+	{
+		reloadTime = 0.1;
+		dispersion = 0.000421799;
+		aiRateOfFire = 0.1;
+		aiRateOfFireDistance = 50;
+		minRange = 0;
+		minRangeProbab = 0.9;
+		midRange = 10;
+		midRangeProbab = 0.7;
+		maxRange = 20;
+		maxRangeProbab = 0.1;
+	};
 	handAnim[]=
 	{
 		"OFP2_ManSkeleton",
@@ -2680,7 +2737,8 @@ class rtg_mag10_10 : rtg_mag60_20
 	};
 	class WeaponSlotsInfo: WeaponSlotsInfo
 	{
-		mass = 207.1;
+		mass = 172.3;
+		class PointerSlot: asdg_FrontSideRail{};
 	};
 	class XtdGearInfo
 	{

@@ -663,3 +663,62 @@ class rtg_nugg : rhs_weap_m4a1_blockII
 
 	baseWeapon = "rtg_nugg";
 };
+
+// m16a4
+class rtg_shrike_m16a4 : rhs_weap_m16a4
+{
+	scope = 2;
+	dlc = "raiderTactical";
+	Author = "Shrike";
+	Author = "Shrike";
+	recoil = "rtg_556_rifle";
+	class XtdGearInfo
+	{
+		model = "";
+	};
+	magazineWell[] = {"CBA_300BLK_STANAG"};
+	magazines[] = {"rtg_30rnd_300_blk"};
+	rhs_grip1_change = "rtg_shrike_m16a4";
+	rhs_grip2_change = "rtg_shrike_m16a4";
+	rhs_grip3_change = "rtg_shrike_m16a4";
+	baseWeapon = "rtg_shrike_m16a4";
+	modes[] = {"Single","FullAuto"};
+	class Single: Single
+	{
+		sounds[] = {"StandardSound","SilencedSound"};
+		class BaseSoundModeType
+		{
+			weaponSoundEffect = "DefaultRifle";
+		};
+		class StandardSound: BaseSoundModeType
+		{
+			soundSetShot[] = {"ACWP_416SBR_Shot_SoundSet","ACWP_416SBR_Tail_SoundSet"};
+		};
+		class SilencedSound: BaseSoundModeType
+		{
+			soundSetShot[] = {"ACWP_416SBR_silencerShot_SoundSet","ACWP_416SBR_silencerTail_SoundSet"};
+		};
+		weaponSoundEffect = "DefaultRifle";
+		reloadTime = 0.06741;
+		dispersion = 0.0019;
+	};
+	class FullAuto: FullAuto
+	{
+		sounds[] = {"StandardSound","SilencedSound"};
+		class BaseSoundModeType
+		{
+			weaponSoundEffect = "DefaultRifle";
+		};
+		class StandardSound: BaseSoundModeType
+		{
+			soundSetShot[] = {"ACWP_416SBR_Shot_SoundSet","ACWP_416SBR_Tail_SoundSet"};
+		};
+		class SilencedSound: BaseSoundModeType
+		{
+			soundSetShot[] = {"ACWP_416SBR_silencerShot_SoundSet","ACWP_416SBR_silencerTail_SoundSet"};
+		};
+		weaponSoundEffect = "DefaultRifle";
+		reloadTime = 0.06741;
+		dispersion = 0.0019;
+	};
+};

@@ -14,6 +14,30 @@ class HLC_Rifle_XM8_MWSF_Carbine : HLC_rifle_XM8_Carbine {
 		camo = "black";
 		calibre = "N556";
 	};
+	class nia_gripSwitch
+	{
+		VFG = "";
+		default = "";
+	};
+	class Eventhandlers
+	{
+		class NIArms_Alt_Reloads
+		{
+			reload = "";
+			Reloaded = "";
+		};
+	};
+	class NIArms_Alt_Reloads
+	{
+		class HLC_rifle_XM8_MWSF_DMAR_Tan
+		{
+			condition = "";
+		};
+		class HLC_rifle_XM8_MWSF_DMAR_Tan_TacReload
+		{
+			condition = "";
+		};
+	};
 };
 class HLC_rifle_XM8_MWSF_Carbine_Green : HLC_Rifle_XM8_MWSF_Carbine {
 	scope = 2;
@@ -28,6 +52,30 @@ class HLC_rifle_XM8_MWSF_Carbine_Green : HLC_Rifle_XM8_MWSF_Carbine {
 		barrel = "carbine";		
 		camo = "green";
 		calibre = "N556";
+	};
+	class nia_gripSwitch
+	{
+		VFG = "";
+		default = "";
+	};
+	class Eventhandlers
+	{
+		class NIArms_Alt_Reloads
+		{
+			reload = "";
+			Reloaded = "";
+		};
+	};
+	class NIArms_Alt_Reloads
+	{
+		class HLC_rifle_XM8_MWSF_DMAR_Tan
+		{
+			condition = "";
+		};
+		class HLC_rifle_XM8_MWSF_DMAR_Tan_TacReload
+		{
+			condition = "";
+		};
 	};
 };
 class HLC_rifle_XM8_MWSF_Carbine_OD : HLC_Rifle_XM8_MWSF_Carbine {
@@ -44,6 +92,30 @@ class HLC_rifle_XM8_MWSF_Carbine_OD : HLC_Rifle_XM8_MWSF_Carbine {
 		camo = "khaki";
 		calibre = "N556";
 	};
+	class nia_gripSwitch
+	{
+		VFG = "";
+		default = "";
+	};
+	class Eventhandlers
+	{
+		class NIArms_Alt_Reloads
+		{
+			reload = "";
+			Reloaded = "";
+		};
+	};
+	class NIArms_Alt_Reloads
+	{
+		class HLC_rifle_XM8_MWSF_DMAR_Tan
+		{
+			condition = "";
+		};
+		class HLC_rifle_XM8_MWSF_DMAR_Tan_TacReload
+		{
+			condition = "";
+		};
+	};
 };
 class HLC_rifle_XM8_MWSF_Carbine_Tan : HLC_Rifle_XM8_MWSF_Carbine {
 	scope = 2;
@@ -58,6 +130,30 @@ class HLC_rifle_XM8_MWSF_Carbine_Tan : HLC_Rifle_XM8_MWSF_Carbine {
 		barrel = "carbine";
 		camo = "sand";
 		calibre = "N556";
+	};
+	class nia_gripSwitch
+	{
+		VFG = "";
+		default = "";
+	};
+	class Eventhandlers
+	{
+		class NIArms_Alt_Reloads
+		{
+			reload = "";
+			Reloaded = "";
+		};
+	};
+	class NIArms_Alt_Reloads
+	{
+		class HLC_rifle_XM8_MWSF_DMAR_Tan
+		{
+			condition = "";
+		};
+		class HLC_rifle_XM8_MWSF_DMAR_Tan_TacReload
+		{
+			condition = "";
+		};
 	};
 };
 class hlc_rifle_XM8_Compact;
@@ -75,6 +171,30 @@ class hlc_rifle_XM8_MWSF_Compact : hlc_rifle_XM8_Compact {
 		camo = "black";
 		calibre = "N556";
 	};
+	class nia_gripSwitch
+	{
+		VFG = "";
+		default = "";
+	};
+	class Eventhandlers
+	{
+		class NIArms_Alt_Reloads
+		{
+			reload = "";
+			Reloaded = "";
+		};
+	};
+	class NIArms_Alt_Reloads
+	{
+		class HLC_rifle_XM8_MWSF_DMAR_Tan
+		{
+			condition = "";
+		};
+		class HLC_rifle_XM8_MWSF_DMAR_Tan_TacReload
+		{
+			condition = "";
+		};
+	};
 };
 class HLC_Rifle_XM8_MWSF_Compact_Green : hlc_rifle_XM8_MWSF_Compact {
 	scope = 2;
@@ -89,6 +209,30 @@ class HLC_Rifle_XM8_MWSF_Compact_Green : hlc_rifle_XM8_MWSF_Compact {
 		barrel = "compact";
 		camo = "green";
 		calibre = "N556";
+	};
+	class nia_gripSwitch
+	{
+		VFG = "";
+		default = "";
+	};
+	class Eventhandlers
+	{
+		class NIArms_Alt_Reloads
+		{
+			reload = "";
+			Reloaded = "";
+		};
+	};
+	class NIArms_Alt_Reloads
+	{
+		class HLC_rifle_XM8_MWSF_DMAR_Tan
+		{
+			condition = "";
+		};
+		class HLC_rifle_XM8_MWSF_DMAR_Tan_TacReload
+		{
+			condition = "";
+		};
 	};
 };
 class HLC_Rifle_XM8_MWSF_Compact_OD : hlc_rifle_XM8_MWSF_Compact {
@@ -261,6 +405,30 @@ class rtg_Rifle_XM8_MWSF_Carbine : HLC_Rifle_XM8_MWSF_Carbine {
 		camo = "black";
 		calibre = "N300";
 	};
+	class nia_gripSwitch
+	{
+		VFG = "";
+		default = "";
+	};
+	class Eventhandlers
+	{
+		class NIArms_Alt_Reloads
+		{
+			reload = "";
+			Reloaded = "";
+		};
+	};
+	class NIArms_Alt_Reloads
+	{
+		class HLC_rifle_XM8_MWSF_DMAR_Tan
+		{
+			condition = "";
+		};
+		class HLC_rifle_XM8_MWSF_DMAR_Tan_TacReload
+		{
+			condition = "";
+		};
+	};
 };
 class rtg_rifle_XM8_MWSF_Carbine_Green : HLC_rifle_XM8_MWSF_Carbine_Green {
 	scope = 2;
@@ -281,6 +449,30 @@ class rtg_rifle_XM8_MWSF_Carbine_Green : HLC_rifle_XM8_MWSF_Carbine_Green {
 		camo = "green";
 		calibre = "N300";
 	};
+	class nia_gripSwitch
+	{
+		VFG = "";
+		default = "";
+	};
+	class Eventhandlers
+	{
+		class NIArms_Alt_Reloads
+		{
+			reload = "";
+			Reloaded = "";
+		};
+	};
+	class NIArms_Alt_Reloads
+	{
+		class HLC_rifle_XM8_MWSF_DMAR_Tan
+		{
+			condition = "";
+		};
+		class HLC_rifle_XM8_MWSF_DMAR_Tan_TacReload
+		{
+			condition = "";
+		};
+	};
 };
 class rtg_rifle_XM8_MWSF_Carbine_OD : HLC_rifle_XM8_MWSF_Carbine_OD {
 	scope = 2;
@@ -300,6 +492,30 @@ class rtg_rifle_XM8_MWSF_Carbine_OD : HLC_rifle_XM8_MWSF_Carbine_OD {
 		barrel = "carbine";		
 		camo = "khaki";
 		calibre = "N300";
+	};
+	class nia_gripSwitch
+	{
+		VFG = "";
+		default = "";
+	};
+	class Eventhandlers
+	{
+		class NIArms_Alt_Reloads
+		{
+			reload = "";
+			Reloaded = "";
+		};
+	};
+	class NIArms_Alt_Reloads
+	{
+		class HLC_rifle_XM8_MWSF_DMAR_Tan
+		{
+			condition = "";
+		};
+		class HLC_rifle_XM8_MWSF_DMAR_Tan_TacReload
+		{
+			condition = "";
+		};
 	};
 };
 class rtg_rifle_XM8_MWSF_Carbine_Tan : HLC_rifle_XM8_MWSF_Carbine_Tan {
@@ -342,6 +558,30 @@ class rtg_rifle_XM8_MWSF_Compact : hlc_rifle_XM8_MWSF_Compact {
 		camo = "black";
 		calibre = "N300";
 	};
+	class nia_gripSwitch
+	{
+		VFG = "";
+		default = "";
+	};
+	class Eventhandlers
+	{
+		class NIArms_Alt_Reloads
+		{
+			reload = "";
+			Reloaded = "";
+		};
+	};
+	class NIArms_Alt_Reloads
+	{
+		class HLC_rifle_XM8_MWSF_DMAR_Tan
+		{
+			condition = "";
+		};
+		class HLC_rifle_XM8_MWSF_DMAR_Tan_TacReload
+		{
+			condition = "";
+		};
+	};
 };
 class rtg_Rifle_XM8_MWSF_Compact_Green : HLC_Rifle_XM8_MWSF_Compact_Green {
 	scope = 2;
@@ -361,6 +601,30 @@ class rtg_Rifle_XM8_MWSF_Compact_Green : HLC_Rifle_XM8_MWSF_Compact_Green {
 		barrel = "compact";
 		camo = "green";
 		calibre = "N300";
+	};
+	class nia_gripSwitch
+	{
+		VFG = "";
+		default = "";
+	};
+	class Eventhandlers
+	{
+		class NIArms_Alt_Reloads
+		{
+			reload = "";
+			Reloaded = "";
+		};
+	};
+	class NIArms_Alt_Reloads
+	{
+		class HLC_rifle_XM8_MWSF_DMAR_Tan
+		{
+			condition = "";
+		};
+		class HLC_rifle_XM8_MWSF_DMAR_Tan_TacReload
+		{
+			condition = "";
+		};
 	};
 };
 class rtg_Rifle_XM8_MWSF_Compact_OD : HLC_Rifle_XM8_MWSF_Compact_OD {
@@ -382,6 +646,30 @@ class rtg_Rifle_XM8_MWSF_Compact_OD : HLC_Rifle_XM8_MWSF_Compact_OD {
 		camo = "khaki";
 		calibre = "N300";
 	};
+	class nia_gripSwitch
+	{
+		VFG = "";
+		default = "";
+	};
+	class Eventhandlers
+	{
+		class NIArms_Alt_Reloads
+		{
+			reload = "";
+			Reloaded = "";
+		};
+	};
+	class NIArms_Alt_Reloads
+	{
+		class HLC_rifle_XM8_MWSF_DMAR_Tan
+		{
+			condition = "";
+		};
+		class HLC_rifle_XM8_MWSF_DMAR_Tan_TacReload
+		{
+			condition = "";
+		};
+	};
 };
 class rtg_Rifle_XM8_MWSF_Compact_Tan : HLC_Rifle_XM8_MWSF_Compact_Tan {
 	scope = 2;
@@ -401,6 +689,30 @@ class rtg_Rifle_XM8_MWSF_Compact_Tan : HLC_Rifle_XM8_MWSF_Compact_Tan {
 		barrel = "compact";
 		camo = "sand";
 		calibre = "N300";
+	};
+	class nia_gripSwitch
+	{
+		VFG = "";
+		default = "";
+	};
+	class Eventhandlers
+	{
+		class NIArms_Alt_Reloads
+		{
+			reload = "";
+			Reloaded = "";
+		};
+	};
+	class NIArms_Alt_Reloads
+	{
+		class HLC_rifle_XM8_MWSF_DMAR_Tan
+		{
+			condition = "";
+		};
+		class HLC_rifle_XM8_MWSF_DMAR_Tan_TacReload
+		{
+			condition = "";
+		};
 	};
 };
 
@@ -423,6 +735,30 @@ class rtg_rifle_XM8_MWSF_DMAR : hlc_rifle_XM8_MWSF_DMAR {
 		camo = "black";
 		calibre = "N300";
 	};
+	class nia_gripSwitch
+	{
+		VFG = "";
+		default = "";
+	};
+	class Eventhandlers
+	{
+		class NIArms_Alt_Reloads
+		{
+			reload = "";
+			Reloaded = "";
+		};
+	};
+	class NIArms_Alt_Reloads
+	{
+		class HLC_rifle_XM8_MWSF_DMAR_Tan
+		{
+			condition = "";
+		};
+		class HLC_rifle_XM8_MWSF_DMAR_Tan_TacReload
+		{
+			condition = "";
+		};
+	};
 };
 class rtg_Rifle_XM8_MWSF_DMAR_Green : HLC_Rifle_XM8_MWSF_DMAR_Green {
 	scope = 2;
@@ -443,6 +779,30 @@ class rtg_Rifle_XM8_MWSF_DMAR_Green : HLC_Rifle_XM8_MWSF_DMAR_Green {
 		camo = "green";
 		calibre = "N300";
 	};
+	class nia_gripSwitch
+	{
+		VFG = "";
+		default = "";
+	};
+	class Eventhandlers
+	{
+		class NIArms_Alt_Reloads
+		{
+			reload = "";
+			Reloaded = "";
+		};
+	};
+	class NIArms_Alt_Reloads
+	{
+		class HLC_rifle_XM8_MWSF_DMAR_Tan
+		{
+			condition = "";
+		};
+		class HLC_rifle_XM8_MWSF_DMAR_Tan_TacReload
+		{
+			condition = "";
+		};
+	};
 };
 class rtg_Rifle_XM8_MWSF_DMAR_OD : HLC_Rifle_XM8_MWSF_DMAR_OD {
 	scope = 2;
@@ -462,6 +822,30 @@ class rtg_Rifle_XM8_MWSF_DMAR_OD : HLC_Rifle_XM8_MWSF_DMAR_OD {
 		barrel = "long";
 		camo = "khaki";
 		calibre = "N300";
+	};
+	class nia_gripSwitch
+	{
+		VFG = "";
+		default = "";
+	};
+	class Eventhandlers
+	{
+		class NIArms_Alt_Reloads
+		{
+			reload = "";
+			Reloaded = "";
+		};
+	};
+	class NIArms_Alt_Reloads
+	{
+		class HLC_rifle_XM8_MWSF_DMAR_Tan
+		{
+			condition = "";
+		};
+		class HLC_rifle_XM8_MWSF_DMAR_Tan_TacReload
+		{
+			condition = "";
+		};
 	};
 };
 class rtg_Rifle_XM8_MWSF_DMAR_Tan : HLC_Rifle_XM8_MWSF_DMAR_Tan {
@@ -583,6 +967,30 @@ class rtg_rifle_XM8_MWSF_DMAR_50 : hlc_rifle_XM8_MWSF_DMAR {
 		camo = "black";
 		calibre = "N50";
 	};
+	class nia_gripSwitch
+	{
+		VFG = "";
+		default = "";
+	};
+	class Eventhandlers
+	{
+		class NIArms_Alt_Reloads
+		{
+			reload = "";
+			Reloaded = "";
+		};
+	};
+	class NIArms_Alt_Reloads
+	{
+		class HLC_rifle_XM8_MWSF_DMAR_Tan
+		{
+			condition = "";
+		};
+		class HLC_rifle_XM8_MWSF_DMAR_Tan_TacReload
+		{
+			condition = "";
+		};
+	};
 };
 class rtg_Rifle_XM8_MWSF_DMAR_Green_50 : HLC_Rifle_XM8_MWSF_DMAR_Green {
 	scope = 2;
@@ -602,6 +1010,30 @@ class rtg_Rifle_XM8_MWSF_DMAR_Green_50 : HLC_Rifle_XM8_MWSF_DMAR_Green {
 		barrel = "long";
 		camo = "green";
 		calibre = "N50";
+	};
+	class nia_gripSwitch
+	{
+		VFG = "";
+		default = "";
+	};
+	class Eventhandlers
+	{
+		class NIArms_Alt_Reloads
+		{
+			reload = "";
+			Reloaded = "";
+		};
+	};
+	class NIArms_Alt_Reloads
+	{
+		class HLC_rifle_XM8_MWSF_DMAR_Tan
+		{
+			condition = "";
+		};
+		class HLC_rifle_XM8_MWSF_DMAR_Tan_TacReload
+		{
+			condition = "";
+		};
 	};
 };
 class rtg_Rifle_XM8_MWSF_DMAR_OD_50 : HLC_Rifle_XM8_MWSF_DMAR_OD {
@@ -623,6 +1055,30 @@ class rtg_Rifle_XM8_MWSF_DMAR_OD_50 : HLC_Rifle_XM8_MWSF_DMAR_OD {
 		camo = "khaki";
 		calibre = "N50";
 	};
+	class nia_gripSwitch
+	{
+		VFG = "";
+		default = "";
+	};
+	class Eventhandlers
+	{
+		class NIArms_Alt_Reloads
+		{
+			reload = "";
+			Reloaded = "";
+		};
+	};
+	class NIArms_Alt_Reloads
+	{
+		class HLC_rifle_XM8_MWSF_DMAR_Tan
+		{
+			condition = "";
+		};
+		class HLC_rifle_XM8_MWSF_DMAR_Tan_TacReload
+		{
+			condition = "";
+		};
+	};
 };
 class rtg_Rifle_XM8_MWSF_DMAR_Tan_50 : HLC_Rifle_XM8_MWSF_DMAR_Tan {
 	scope = 2;
@@ -642,5 +1098,29 @@ class rtg_Rifle_XM8_MWSF_DMAR_Tan_50 : HLC_Rifle_XM8_MWSF_DMAR_Tan {
 		barrel = "long";
 		camo = "sand";
 		calibre = "N50";
+	};
+	class nia_gripSwitch
+	{
+		VFG = "";
+		default = "";
+	};
+	class Eventhandlers
+	{
+		class NIArms_Alt_Reloads
+		{
+			reload = "";
+			Reloaded = "";
+		};
+	};
+	class NIArms_Alt_Reloads
+	{
+		class HLC_rifle_XM8_MWSF_DMAR_Tan
+		{
+			condition = "";
+		};
+		class HLC_rifle_XM8_MWSF_DMAR_Tan_TacReload
+		{
+			condition = "";
+		};
 	};
 };

@@ -1212,6 +1212,48 @@ class rtg_ace_expanded_m23 {
     }
 };
 
+// HK433
+class rtg_ace_expanded_hk433 {
+    label = "HK-433";
+    author = "Shrike";
+    options[] = {"camo", "barrel", "launcher"};
+    class camo
+    {
+        label = "Camo";
+        values[] = {"blk", "tan", "grn"};
+        class blk
+        {
+            label = "Black";
+            description = "Black Camo";
+        };
+        class tan
+        {
+            label = "Tan";
+            description = "Tan Camo";
+        };
+        class grn
+        {
+            label = "Green";
+            description = "Green Camo";
+        };
+    };
+    class barrel 
+    {
+        label = "Barrel";
+        values[] = {"short", "long"};
+        class short
+        {
+            label = "Carbine";
+            description = "14' Barrel";
+        };
+        class long
+        {
+            label = "Rifle";
+            description = "18' Barrel";
+        };
+    };
+};
+
 // M90
 class rtg_ace_expanded_m90 {
     label = "G/M90";

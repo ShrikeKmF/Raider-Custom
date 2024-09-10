@@ -54,6 +54,11 @@ class asdg_OpticRail1913 : asdg_OpticRail {
         rtg_ELCAN_3xSpectreDR_Green_RDS = 1;
         rtg_shortdot = 1;
         rtg_acog2x = 1;
+        rtg_torbs32 = 1;
+        optic_ico_01_f = 1;
+        optic_ico_01_black_f = 1;
+        optic_ico_01_camo_f = 1;
+        optic_ico_01_sand_f = 1;
     };
 };
 class asdg_MuzzleSlot;

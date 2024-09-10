@@ -1,13 +1,131 @@
+// Defines
+	#define RTG_Vehicle_Gear \
+	class TransportItems \
+	{ \
+		class _xx_rtg_pvs_15_black_gh \
+		{ \
+			name = "rtg_pvs_15_black_gh"; \
+			count = 8; \
+		}; \
+		class _xx_ACRE_PRC343 \
+		{ \
+			name = "ACRE_PRC343"; \
+			count = 2; \
+		}; \
+		class _xx_ACRE_PRC152 \
+		{ \
+			name = "ACRE_PRC152"; \
+			count = 2; \
+		}; \
+		class _xx_ACE_personalAidKit \
+		{ \
+			name = "ACE_personalAidKit"; \
+			count = 8; \
+		}; \
+		class _xx_ACE_Canteen \
+		{ \
+			name = "ACE_Canteen"; \
+			count = 5; \
+		}; \
+		class _xx_ACE_Can_Franta \
+		{ \
+			name = "ACE_Can_Franta"; \
+			count = 9; \
+		}; \
+		class _xx_ACE_MRE_BeefStew \
+		{ \
+			name = "ACE_MRE_BeefStew"; \
+			count = 5; \
+		}; \
+		class _xx_ACE_bodyBag \
+		{ \
+			name = "ACE_bodyBag"; \
+			count = 9; \
+		}; \
+	}; \
+	class TransportBackpacks \
+	{ \
+		class _xx_rtg_medical_grabpack \
+		{ \
+			backpack = "rtg_medical_grabpack"; \
+			count = 1; \
+		}; \
+		class _xx_rtg_engineer_grabpack \
+		{ \
+			backpack = "rtg_engineer_grabpack"; \
+			count = 1; \
+		}; \
+	}; \
+	class TransportWeapons \
+	{ \
+		class _xx_rhs_weap_m16a4_carryhandle \
+		{ \
+			weapon = "rhs_weap_m16a4_carryhandle"; \
+			count = 2; \
+		}; \
+	}; \
+	class TransportMagazines \
+	{ \
+		class _xx_rtg_30rnd_556_45 \
+		{ \
+			magazine = "rtg_30rnd_556_45"; \
+			count = 10; \
+		}; \
+		class _xx_rtg_200Rnd_762x51 \
+		{ \
+			magazine = "rtg_200Rnd_762x51"; \
+			count = 5; \
+		}; \
+	}; \
+	class ace_cargo \
+	{ \
+		class Cargo \
+		{ \
+			class ACE_Wheel \
+			{ \
+				type = "ACE_Wheel"; \
+				amount = 4; \
+			}; \
+		}; \
+	}
+
+	#define RTG_Vehicle_Radios \
+	class AcreIntercoms \
+	{ \
+		class Intercom_1 \
+		{ \
+			displayName = "Crew Intercom"; \
+			shortName = "Crew"; \
+			allowedPositions[] = {"driver","commander",{"turret","all"}}; \
+			limitedPositions[] = {}; \
+			numLimitedPositions = 0; \
+			masterPositions[] = {"driver"}; \
+			connectedByDefault = 1; \
+		}; \
+	}; \
+	class AcreRacks \
+	{ \
+		class Rack_1 \
+		{ \
+			allowedPositions[] = {"driver","commander",{"turret","all"}}; \
+			componentName = "ACRE_PRC152"; \
+			displayName = "Dash"; \
+			mountedRadio = "ACRE_PRC152"; \
+			shortName = "Dash"; \
+		}; \
+	}
+
+
 class CfgPatches
 {
 	class rtgVehicles
 	{
 		name = "rtgVehicles";
-		version = "1";
+		version = "1.1";
 		author = "Shrike";
 		url = "";
 		requiredAddons[] = {"a3_characters_F","a3_characters_F_beta","A3_Characters_F_Common","a3_characters_f_beta","a3_characters_f_gamma","A3_Soft_F_epc","bma3_bushmaster","uk3cb_factions_fia","rhsusf_c_weapons"};
-		units[] = {"raider_racecar", "rtg_wheelsBox","hitman_light_vehicle","raider_light_strike_vehicle","raider_fast_rhib","rtg_artillery","raider_strike_car","raider_bushmaster_unarmed","rtg_loaf","rtg_damper","rtg_heavyLift_Cargo","rtg_heavyLift_Transport","rtg_BasicSupply","rtg_atSupply","rtg_medicalSupply"};
+		units[] = {"rtg_UH60M_DAP_Magpie", "raider_undercover_vehicle", "raider_heavy_attack_boat", "raider_light_strike_vehicle", "rtg_wheelsBox","hitman_light_vehicle","raider_fast_rhib","raider_strike_car","raider_bushmaster_unarmed","rtg_UH60M_Magpie","rtg_AH1Z_Hawk","rtg_heavyLift_Cargo","rtg_heavyLift_Transport","rtg_BasicSupply","rtg_atSupply","rtg_medicalSupply"};
 	};
 };
 class cfgFactionClasses
@@ -60,12 +178,10 @@ class cfgEditorSubcategories
 class CfgVehicles
 {
 	class bma3_bushmaster_unarmed_F;
-	class I_MRAP_03_F;
 	class Components;
 	class SensorTemplatePassiveRadar;
 	class SensorTemplateActiveRadar;
 	class ActiveRadarSensorComponent;
-	class RHS_M119_D;
 	class Turrets;
 	class HitPoints;
 	class hitwindshield_1;
@@ -80,180 +196,48 @@ class CfgVehicles
 	class CargoTurret_03;
 	class MainTurret;
 	class ViewOptics;
+	class SensorTemplateIR;
+	class SensorTemplateVisual;
+	class SensorTemplateActiveRadar;
+	class SensorTemplatePassiveRadar;
+	class SensorTemplateLaser;
+	class SensorTemplateNV;
 	class rhsusf_m1025_d_m2;
-	class rtg_artillery: RHS_M119_D
+
+	class UK3CB_C_SUV;
+	class raider_undercover_vehicle : UK3CB_C_SUV
 	{
-		displayName = "M119A3 [1/2]";
-		editorSubcategory = "RTGArtillery";
-		author = "Shrike";
-		scope = 2;
-		side = 1;
-		faction = "Raider_Tactical_F";
-	};
-	class raider_strike_car: I_MRAP_03_F
-	{
-		displayName = "Hawkei Transport [1/3]";
+		displayName = "SUV [1/5]";
 		editorSubcategory = "RTGCars";
 		author = "Shrike";
 		scope = 2;
 		side = 1;
 		faction = "Raider_Tactical_F";
 		fuelConsumptionRate = 0.03;
-		fuelCapacity = 84;
-		armor = 350;
-		armorEngine = 100;
-		armorGun = 100;
-		armorGlass = 250;
-		armorFuel = 20;
-		armorStructural = 400;
-		armorLights = 0.5;
-		damageResistance = 0.00719;
-		crewVulnerable = 0;
-		crewCrashProtection = 0.15;
-		crewExplosionProtection = 0.9999;
-		threat[] = {0.8,0.6,0.3};
-		maxSpeed = 125;
-		enginePower = 275;
-		ace_cargo_space = 16;
+		fuelCapacity = 55;
+		ace_cargo_space = 28;
 		ace_vehicles_engineStartDelay = 3;
 		acre_hasInfantryPhone = 0;
-		canFloat = 1;
-		waterSpeedFactor = 1;
-		waterResistanceCoef = 0.11;
-		weapons[] = {"SmokeLauncher","TruckHorn"};
-		magazines[] = {"SmokeLauncherMag"};
-		smokeLauncherGrenadeCount = 6;
-		smokeLauncherVelocity = 14;
-		smokeLauncherOnTurret = 0;
-		smokeLauncherAngle = 30;
+		canFloat = 0;
+
+		simulation = "carx";
+		maxSpeed = 115;
+		brakeIdleSpeed = 0.87;
 		ace_refuel_fuelCargo = 80;
-		textureList[] = {"rtg_blk",1};
-		HiddenSelectionsTextures[] = {"rtgVehicles\tex\hawkei\rtg_hawkei.paa"};
-		ace_tagging_canTag = 1;
-		class textureSources
-		{
-			class rtg_blk
-			{
-				displayName = "Black";
-				author = "Shrike";
-				textures[] = {"rtgVehicles\tex\hawkei\rtg_hawkei.paa"};
-				factions[] = {"Raider_Tactical_F"};
-			};
-		};
+		armor = 25;
+		armorStructural = 2;
+		armorFuel = 1.4;
+		armorGlass = 4;
+		armorLights = 0.4;
+		armorWheels = 0.05;
+		armorHull = 1;
+		armorEngine = 2;
+		
 		maximumLoad = 20000;
-		class TransportItems
-		{
-			class _xx_rtg_pvs_15_black_gh
-			{
-				name = "rtg_pvs_15_black_gh";
-				count = 8;
-			};
-			class _xx_ACRE_PRC343
-			{
-				name = "ACRE_PRC343";
-				count = 2;
-			};
-			class _xx_ACRE_PRC152
-			{
-				name = "ACRE_PRC152";
-				count = 2;
-			};
-			class _xx_ACE_personalAidKit
-			{
-				name = "ACE_personalAidKit";
-				count = 8;
-			};
-			class _xx_ACE_Canteen
-			{
-				name = "ACE_Canteen";
-				count = 5;
-			};
-			class _xx_ACE_Can_Franta
-			{
-				name = "ACE_Can_Franta";
-				count = 9;
-			};
-			class _xx_ACE_MRE_BeefStew
-			{
-				name = "ACE_MRE_BeefStew";
-				count = 5;
-			};
-			class _xx_ACE_bodyBag
-			{
-				name = "ACE_bodyBag";
-				count = 9;
-			};
-		};
-		class TransportBackpacks
-		{
-			class _xx_rtg_medical_grabpack
-			{
-				backpack = "rtg_medical_grabpack";
-				count = 1;
-			};
-			class _xx_rtg_engineer_grabpack
-			{
-				backpack = "rtg_engineer_grabpack";
-				count = 1;
-			};
-		};
-		class TransportWeapons
-		{
-			class _xx_rhs_weap_m16a4_carryhandle
-			{
-				weapon = "rhs_weap_m16a4_carryhandle";
-				count = 2;
-			};
-		};
-		class TransportMagazines
-		{
-			class _xx_rtg_30rnd_556_45
-			{
-				magazine = "rtg_30rnd_556_45";
-				count = 10;
-			};
-			class _xx_rtg_200Rnd_762x51
-			{
-				magazine = "rtg_200Rnd_762x51";
-				count = 5;
-			};
-		};
-		class AcreIntercoms
-		{
-			class Intercom_1
-			{
-				displayName = "Intercom";
-				shortName = "Intercom";
-				allowedPositions[] = {"driver","commander","gunner"};
-				limitedPositions[] = {};
-				numLimitedPositions = 0;
-				masterPositions[] = {"driver"};
-				connectedByDefault = 1;
-			};
-		};
-		class AcreRacks
-		{
-			class Rack_1
-			{
-				allowedPositions[] = {"driver","commander","gunner"};
-				componentName = "ACRE_PRC152";
-				displayName = "Dash";
-				mountedRadio = "ACRE_PRC152";
-				shortName = "Dash";
-			};
-		};
-		class ace_cargo
-		{
-			class Cargo
-			{
-				class ACE_Wheel
-				{
-					type = "ACE_Wheel";
-					amount = 4;
-				};
-			};
-		};
-	};
+		RTG_Vehicle_Gear;
+		RTG_Vehicle_Radios;
+	}
+	
 	class rhsusf_m998_d_s_2dr_halftop;
 	class hitman_light_vehicle: rhsusf_m998_d_s_2dr_halftop
 	{
@@ -274,31 +258,31 @@ class CfgVehicles
 
 		// Movement Config
 		simulation = "carx";
-		maxSpeed = 115;
+		maxSpeed = 115; // Top speed remains the same
 		brakeIdleSpeed = 0.87;
-		switchTime	= 0.5;
-		latency		= 1.0;
-		changeGearType 			= "effective";		// condition for switching gears
-		changeGearOmegaRatios[] = {						// rpm ratio max/min pair
-			__EVAL(3400/3400)	, __EVAL(1000/3400),
-			__EVAL(700/3400)	, __EVAL(500/3400),
-			__EVAL(3150/3400)	, __EVAL(1600/3400),
-			__EVAL(2600/3400)	, __EVAL(1200/3400),
-			__EVAL(2900/3400)	, __EVAL(1700/3400),
-			__EVAL(3400/3400)	, __EVAL(2200/3400)
-		};		
+		switchTime = 0.5;
+		latency = 1.0;
+		changeGearType = "effective";
+		changeGearOmegaRatios[] = {
+			__EVAL(3400/3400), __EVAL(1000/3400),
+			__EVAL(700/3400), __EVAL(500/3400),
+			__EVAL(3150/3400), __EVAL(1600/3400),
+			__EVAL(2600/3400), __EVAL(1200/3400),
+			__EVAL(2900/3400), __EVAL(1700/3400),
+			__EVAL(3400/3400), __EVAL(2200/3400)
+		};      
 		class complexGearbox
 		{
 			GearboxRatios[] = {
-				"R1",	-3.07,
-				"N",	0,
-				"D1",	2.78,
-				"D2",	1.48,
-				"D3",	1.0,
-				"D4",	0.75
+				"R1", -3.50, // Increased reverse ratio for better reverse speed
+				"N", 0,
+				"D1", 3.00, // Increased first gear ratio for better acceleration
+				"D2", 1.80, // Adjusted second gear ratio for smoother transition
+				"D3", 1.20, // Adjusted third gear ratio for a balanced performance
+				"D4", 0.90  // Adjusted fourth gear ratio for high-speed driving
 			};
-			TransmissionRatios[] = {"High",6.0};
-			gearBoxMode = "auto";
+			TransmissionRatios[] = {"High", 6.5}; // Increased to improve high-speed performance
+			gearBoxMode = "manual"; // Changed to manual for direct control
 			moveOffGear = 1;
 			driveString = "D";
 			neutralString = "N";
@@ -306,44 +290,44 @@ class CfgVehicles
 		};
 
 		differentialType = "all_limited";
-		frontRearSplit=0.5;
-		frontBias=2.7;
-		rearBias=1.9;
-		centreBias=1.5;
-		clutchStrength=85;
-		transmissionLosses = 20;
-		dampingRateFullThrottle					= 0.15;
-		dampingRateZeroThrottleClutchEngaged	= 2.8;
-		dampingRateZeroThrottleClutchDisengaged	= 0.35;
+		frontRearSplit = 0.55;
+		frontBias = 2.5;
+		rearBias = 2.0;
+		centreBias = 1.6;
+		clutchStrength = 85;
+		transmissionLosses = 15;
+		dampingRateFullThrottle = 0.12;
+		dampingRateZeroThrottleClutchEngaged = 2.5;
+		dampingRateZeroThrottleClutchDisengaged = 0.40;
 		torqueCurve[] = {
-		{__EVAL(650/3400),__EVAL(420/597)},
-		{__EVAL(1000/3400),__EVAL(465/597)},
-		{__EVAL(1400/3400),__EVAL(544/597)},
-		{__EVAL(1800/3400),__EVAL(597/597)},
-		{__EVAL(2400/3400),__EVAL(583/597)},
-		{__EVAL(2600/3400),__EVAL(499/597)},
-		{__EVAL(3200/3400),__EVAL(472/597)},
-		{__EVAL(3603/3400),__EVAL(0/597)}
-		};		
+			{__EVAL(650/3400), __EVAL(470/597)},
+			{__EVAL(1000/3400), __EVAL(550/597)},
+			{__EVAL(1400/3400), __EVAL(610/597)},
+			{__EVAL(1800/3400), __EVAL(620/597)},
+			{__EVAL(2400/3400), __EVAL(580/597)},
+			{__EVAL(2600/3400), __EVAL(500/597)},
+			{__EVAL(3200/3400), __EVAL(450/597)},
+			{__EVAL(3603/3400), __EVAL(0/597)}
+		};      
 
-		enginePower = 191;
-		peakTorque = 597;
+		enginePower = 200; // Increased for faster acceleration
+		peakTorque = 620;
 		minOmega = 41;
 		maxOmega = 356.05;
 		idleRPM = 650;
 		redRPM = 3400;
 
-		engineLosses = 12;
-		thrustDelay=0.8;
-		engineBrakeCoef = 0.8;
+		engineLosses = 10; // Reduced losses for better performance
+		thrustDelay = 0.7;
+		engineBrakeCoef = 0.6;
 
-		antiRollbarForceCoef=20;
-		antiRollbarForceLimit=5.5;
-		antiRollbarSpeedMin=10;
-		antiRollbarSpeedMax=80;
+		antiRollbarForceCoef = 10; // Reduced for less aggressive stabilization
+		antiRollbarForceLimit = 4.0; // Adjusted for improved balance
+		antiRollbarSpeedMin = 5;
+		antiRollbarSpeedMax = 60;
 
 		accelAidForceYOffset = 0;
-	
+		
 		// Wheels
 		class Wheels
 		{
@@ -358,13 +342,13 @@ class CfgVehicles
 				suspTravelDirection[] = {0,-1,0};
 				steering = 1;
 				width = 0.25;
-				mass = 80;
-				MOI = 10.9;
-				maxBrakeTorque = 7500;
+				mass = 70; // Reduced for better handling
+				MOI = 8.5; // Reduced for quicker response
+				maxBrakeTorque = 12000;
 				maxHandBrakeTorque = 0;
 				longitudinalStiffnessPerUnitGravity = 2500;
-				latStiffX = 40.1;
-				latStiffY = 34.1;
+				latStiffX = 35.0;
+				latStiffY = 75.0;
 				frictionVsSlipGraph[] = {{0,0.3},{0.5,1},{0.8,0.7},{1,0.6}};
 			};
 			class LR: LF
@@ -426,261 +410,7 @@ class CfgVehicles
 				factions[] = {"Raider_Tactical_F"};
 			};
 		};
-		
-		class HitPoints: HitPoints
-		{
-			class hitwindshield_1: hitwindshield_1
-			{
-				armor = 4.29;
-			};
-			class hitwindshield_2: hitwindshield_2
-			{
-				armor = 4.29;
-			};
-			class HitGlass1: HitGlass1
-			{
-				armor = 4.09;
-			};
-			class HitGlass2: HitGlass2
-			{
-				armor = 4.09;
-			};
-			class HitGlass3: HitGlass3
-			{
-				armor = 4.09;
-			};
-			class HitGlass4: HitGlass4
-			{
-				armor = 4.09;
-			};
-		};
-		class ace_cargo
-		{
-			class Cargo
-			{
-				class ACE_Wheel
-				{
-					type = "ACE_Wheel";
-					amount = 4;
-				};
-			};
-		};
-		maximumLoad = 20000;
-		class TransportItems
-		{
-			class _xx_rtg_pvs_15_black_gh
-			{
-				name = "rtg_pvs_15_black_gh";
-				count = 8;
-			};
-			class _xx_ACRE_PRC343
-			{
-				name = "ACRE_PRC343";
-				count = 2;
-			};
-			class _xx_ACRE_PRC152
-			{
-				name = "ACRE_PRC152";
-				count = 2;
-			};
-			class _xx_ACE_personalAidKit
-			{
-				name = "ACE_personalAidKit";
-				count = 8;
-			};
-			class _xx_ACE_Canteen
-			{
-				name = "ACE_Canteen";
-				count = 5;
-			};
-			class _xx_ACE_Can_Franta
-			{
-				name = "ACE_Can_Franta";
-				count = 9;
-			};
-			class _xx_ACE_MRE_BeefStew
-			{
-				name = "ACE_MRE_BeefStew";
-				count = 5;
-			};
-			class _xx_ACE_bodyBag
-			{
-				name = "ACE_bodyBag";
-				count = 9;
-			};
-		};
-		class TransportBackpacks
-		{
-			class _xx_rtg_medical_grabpack
-			{
-				backpack = "rtg_medical_grabpack";
-				count = 1;
-			};
-			class _xx_rtg_engineer_grabpack
-			{
-				backpack = "rtg_engineer_grabpack";
-				count = 1;
-			};
-		};
-		class TransportWeapons
-		{
-			class _xx_rhs_weap_m16a4_carryhandle
-			{
-				weapon = "rhs_weap_m16a4_carryhandle";
-				count = 2;
-			};
-		};
-		class TransportMagazines
-		{
-			class _xx_rtg_30rnd_556_45
-			{
-				magazine = "rtg_30rnd_556_45";
-				count = 10;
-			};
-			class _xx_rtg_200Rnd_762x51
-			{
-				magazine = "rtg_200Rnd_762x51";
-				count = 5;
-			};
-		};
-	};
-
-	class raider_racecar : hitman_light_vehicle
-	{
-		displayName = "LV-10R  [1/7]";
-		editorSubcategory = "RTGCars";
-		author = "Shrike";
-		scope = 2;
-		side = 1;
-		faction = "Raider_Tactical_F";
-
-		// Movement Config
-		simulation = "carx";
-		maxSpeed = 240;
-		brakeIdleSpeed = 0.87;
-		switchTime	= 0.5;
-		latency		= 1.0;
-		changeGearType 			= "effective";		// condition for switching gears
-		changeGearOmegaRatios[] = {						// rpm ratio max/min pair
-			__EVAL(3400/3400)	, __EVAL(1000/3400),
-			__EVAL(700/3400)	, __EVAL(500/3400),
-			__EVAL(3150/3400)	, __EVAL(1600/3400),
-			__EVAL(2600/3400)	, __EVAL(1200/3400),
-			__EVAL(2900/3400)	, __EVAL(1700/3400),
-			__EVAL(3400/3400)	, __EVAL(2200/3400)
-		};		
-		class complexGearbox
-		{
-			GearboxRatios[] = {
-				"R1",	-3.07,
-				"N",	0,
-				"D1",	2.78,
-				"D2",	1.48,
-				"D3",	1.0,
-				"D4",	0.75
-			};
-			TransmissionRatios[] = {"High",6.0};
-			gearBoxMode = "auto";
-			moveOffGear = 1;
-			driveString = "D";
-			neutralString = "N";
-			reverseString = "R";
-		};
-
-		differentialType = "all_limited";
-		frontRearSplit=0.5;
-		frontBias=2.7;
-		rearBias=1.9;
-		centreBias=1.5;
-		clutchStrength=85;
-		transmissionLosses = 20;
-		dampingRateFullThrottle					= 0.15;
-		dampingRateZeroThrottleClutchEngaged	= 2.8;
-		dampingRateZeroThrottleClutchDisengaged	= 0.35;
-		torqueCurve[] = {
-		{__EVAL(650/3400),__EVAL(420/597)},
-		{__EVAL(1000/3400),__EVAL(465/597)},
-		{__EVAL(1400/3400),__EVAL(544/597)},
-		{__EVAL(1800/3400),__EVAL(597/597)},
-		{__EVAL(2400/3400),__EVAL(583/597)},
-		{__EVAL(2600/3400),__EVAL(499/597)},
-		{__EVAL(3200/3400),__EVAL(472/597)},
-		{__EVAL(3603/3400),__EVAL(0/597)}
-		};		
-
-		enginePower = 421;
-		peakTorque = 597;
-		minOmega = 41;
-		maxOmega = 356.05;
-		idleRPM = 650;
-		redRPM = 3400;
-
-		engineLosses = 12;
-		thrustDelay=0.8;
-		engineBrakeCoef = 0.8;
-
-		antiRollbarForceCoef=20;
-		antiRollbarForceLimit=5.5;
-		antiRollbarSpeedMin=10;
-		antiRollbarSpeedMax=80;
-
-		accelAidForceYOffset = -1.25;
-	
-		// Wheels
-		class Wheels
-		{
-			class LF
-			{
-				side = "left";
-				boneName = "wheel_1_1_damper";
-				center = "axis_wheel_1_1";
-				boundary = "bound_wheel_1_1";
-				suspForceAppPointOffset = "axis_wheel_1_1";
-				tireForceAppPointOffset = "axis_wheel_1_1";
-				suspTravelDirection[] = {0,-1,0};
-				steering = 1;
-				width = 0.25;
-				mass = 80;
-				MOI = 10.9;
-				maxBrakeTorque = 7500;
-				maxHandBrakeTorque = 0;
-				longitudinalStiffnessPerUnitGravity = 2500;
-				latStiffX = 62.5;
-				latStiffY = 48.1;
-				frictionVsSlipGraph[] = {{0,0.3},{0.5,1},{0.8,0.7},{1,0.6}};
-			};
-			class LR: LF
-			{
-				boneName = "wheel_1_2_damper";
-				steering = 0;
-				center = "axis_wheel_3_1";
-				boundary = "bound_wheel_3_1";
-				suspForceAppPointOffset = "axis_wheel_3_1";
-				tireForceAppPointOffset = "axis_wheel_3_1";
-				maxHandBrakeTorque = 18500;
-			};
-			class RF: LF
-			{
-				boneName = "wheel_2_1_damper";
-				center = "axis_wheel_2_1";
-				boundary = "bound_wheel_2_1";
-				suspForceAppPointOffset = "axis_wheel_2_1";
-				tireForceAppPointOffset = "axis_wheel_2_1";
-				steering = 1;
-				side = "right";
-				suspTravelDirection[] = {0,-1,0};
-			};
-			class RR: RF
-			{
-				boneName = "wheel_2_2_damper";
-				steering = 0;
-				center = "axis_wheel_4_1";
-				boundary = "bound_wheel_4_1";
-				suspForceAppPointOffset = "axis_wheel_4_1";
-				tireForceAppPointOffset = "axis_wheel_4_1";
-				maxHandBrakeTorque = 18500;
-			};
-		};
+		hiddenSelectionsTextures[] = {"rtgVehicles\tex\LSV\a_exterior_black.paa","rtgVehicles\tex\LSV\b_interior_black.paa","rtgVehicles\tex\LSV\c_a2_black.paa","rtgVehicles\tex\LSV\d_wheels_black.paa","rtgVehicles\tex\LSV\e_mainbody_black.paa","rtgVehicles\tex\LSV\f_gratting_black.paa","","rtgVehicles\tex\LSV\k_2drcargocomplete_black_with_logoshitman.paa","rtgVehicles\tex\LSV\i_unitdecals1.paa","rtgVehicles\tex\LSV\j_unitdecals2.paa"};
 	};
 
 	class raider_light_strike_vehicle: rhsusf_m1025_d_m2
@@ -710,55 +440,60 @@ class CfgVehicles
 		simulation = "carx";
 		maxSpeed = 115;
 		brakeIdleSpeed = 0.87;
-		switchTime	= 0.5;
-		latency		= 1.0;
-		changeGearType 			= "effective";		// condition for switching gears
-		changeGearOmegaRatios[] = {						// rpm ratio max/min pair
-			__EVAL(3400/3400)	, __EVAL(1000/3400),
-			__EVAL(700/3400)	, __EVAL(500/3400),
-			__EVAL(3150/3400)	, __EVAL(1600/3400),
-			__EVAL(2600/3400)	, __EVAL(1200/3400),
-			__EVAL(2900/3400)	, __EVAL(1700/3400),
-			__EVAL(3400/3400)	, __EVAL(2200/3400)
-		};		
+		switchTime = 0.5;
+		latency = 1.0;
+		changeGearType = "effective"; // condition for switching gears
+		changeGearOmegaRatios[] = {
+			__EVAL(3400/3400), __EVAL(1000/3400),
+			__EVAL(700/3400), __EVAL(500/3400),
+			__EVAL(3150/3400), __EVAL(1600/3400),
+			__EVAL(2600/3400), __EVAL(1200/3400),
+			__EVAL(2900/3400), __EVAL(1700/3400),
+			__EVAL(3400/3400), __EVAL(2200/3400)
+		};
 		class complexGearbox
 		{
 			GearboxRatios[] = {
-				"R1",	-3.07,
-				"N",	0,
-				"D1",	2.78,
-				"D2",	1.48,
-				"D3",	1.0,
-				"D4",	0.75
+				"R1", -3.07,       // Reverse gear
+				"N", 0,            // Neutral
+				"D1", 4.00,        // 1st gear - adjusted for better low-speed acceleration
+				"D2", 2.50,        // 2nd gear - adjusted for smooth transition from 1st
+				"D3", 1.60,        // 3rd gear - balanced for mid-range speeds
+				"D4", 1.00         // 4th gear - suitable for higher speeds
 			};
-			TransmissionRatios[] = {"High",6.0};
-			gearBoxMode = "auto";
-			moveOffGear = 1;
-			driveString = "D";
-			neutralString = "N";
-			reverseString = "R";
+			
+			TransmissionRatios[] = {
+				"High", 5.0       // Adjusted to match gearbox ratios
+			};
+			
+			gearBoxMode = "auto";  // Automatic transmission mode
+			moveOffGear = 1;       // Gear to start moving in
+			driveString = "D";     // Drive mode string
+			neutralString = "N";   // Neutral mode string
+			reverseString = "R";   // Reverse mode string
 		};
 
+
 		differentialType = "all_limited";
-		frontRearSplit=0.5;
-		frontBias=2.7;
-		rearBias=1.9;
-		centreBias=1.5;
-		clutchStrength=85;
+		frontRearSplit = 0.5;
+		frontBias = 2.7;
+		rearBias = 1.9;
+		centreBias = 1.5;
+		clutchStrength = 85;
 		transmissionLosses = 20;
-		dampingRateFullThrottle					= 0.15;
-		dampingRateZeroThrottleClutchEngaged	= 2.8;
-		dampingRateZeroThrottleClutchDisengaged	= 0.35;
+		dampingRateFullThrottle = 0.15;
+		dampingRateZeroThrottleClutchEngaged = 2.5; 
+		dampingRateZeroThrottleClutchDisengaged = 0.4;
 		torqueCurve[] = {
-		{__EVAL(650/3400),__EVAL(420/597)},
-		{__EVAL(1000/3400),__EVAL(465/597)},
-		{__EVAL(1400/3400),__EVAL(544/597)},
-		{__EVAL(1800/3400),__EVAL(597/597)},
-		{__EVAL(2400/3400),__EVAL(583/597)},
-		{__EVAL(2600/3400),__EVAL(499/597)},
-		{__EVAL(3200/3400),__EVAL(472/597)},
-		{__EVAL(3603/3400),__EVAL(0/597)}
-		};		
+			{__EVAL(650/3400), __EVAL(420/597)},
+			{__EVAL(1000/3400), __EVAL(465/597)},
+			{__EVAL(1400/3400), __EVAL(544/597)},
+			{__EVAL(1800/3400), __EVAL(597/597)},
+			{__EVAL(2400/3400), __EVAL(583/597)},
+			{__EVAL(2600/3400), __EVAL(499/597)},
+			{__EVAL(3200/3400), __EVAL(472/597)},
+			{__EVAL(3603/3400), __EVAL(0/597)}
+		};
 
 		enginePower = 191;
 		peakTorque = 597;
@@ -768,16 +503,16 @@ class CfgVehicles
 		redRPM = 3400;
 
 		engineLosses = 12;
-		thrustDelay=0.8;
+		thrustDelay = 0.8;
 		engineBrakeCoef = 0.8;
 
-		antiRollbarForceCoef=20;
-		antiRollbarForceLimit=5.5;
-		antiRollbarSpeedMin=10;
-		antiRollbarSpeedMax=80;
+		antiRollbarForceCoef = 20;
+		antiRollbarForceLimit = 5.5;
+		antiRollbarSpeedMin = 10;
+		antiRollbarSpeedMax = 80;
 
 		accelAidForceYOffset = -1.25;
-	
+
 		// Wheels
 		class Wheels
 		{
@@ -792,13 +527,13 @@ class CfgVehicles
 				suspTravelDirection[] = {0,-1,0};
 				steering = 1;
 				width = 0.25;
-				mass = 80;
-				MOI = 10.9;
+				mass = 90; // Increased mass
+				MOI = 12.0; // Increased Moment of Inertia
 				maxBrakeTorque = 7500;
 				maxHandBrakeTorque = 0;
-				longitudinalStiffnessPerUnitGravity = 2500;
-				latStiffX = 48.1;
-				latStiffY = 34.1;
+				longitudinalStiffnessPerUnitGravity = 3000; // Increased stiffness
+				latStiffX = 50.0; // Increased stiffness
+				latStiffY = 90.0; // Increased stiffness
 				frictionVsSlipGraph[] = {{0,0.3},{0.5,1},{0.8,0.7},{1,0.6}};
 			};
 			class LR: LF
@@ -851,64 +586,9 @@ class CfgVehicles
 				displayName = "Clear";
 				author = "Fish & Shrike";
 				textures[] = {"rtgVehicles\tex\LSV\a_exterior_black.paa","rtgVehicles\tex\LSV\b_interior_black.paa","rtgVehicles\tex\LSV\c_a2_black.paa","rtgVehicles\tex\LSV\d_wheels_black.paa","rtgVehicles\tex\LSV\e_mainbody_black.paa","rtgVehicles\tex\LSV\f_gratting_black.paa","rtgVehicles\tex\LSV\g_camo1_tile_black.paa","rtgVehicles\tex\LSV\h_camo2_m1025_black.paa","rtgVehicles\tex\LSV\i_unitdecals1.paa","rtgVehicles\tex\LSV\j_unitdecals2.paa"};
-				factions[] = {"Raider_Tactical_F"};
-			};
-			class rtg_sabre
-			{
-				displayName = "Sabre";
-				author = "Fish & Shrike";
-				textures[] = {"rtgVehicles\tex\LSV\a_exterior_black.paa","rtgVehicles\tex\LSV\b_interior_black.paa","rtgVehicles\tex\LSV\c_a2_black.paa","rtgVehicles\tex\LSV\d_wheels_black.paa","rtgVehicles\tex\LSV\e_mainbody_black.paa","rtgVehicles\tex\LSV\f_gratting_black.paa","rtgVehicles\tex\LSV\g_camo1_tile_black.paa","rtgVehicles\tex\LSV\h_camo2_m1025_black_with_logosSabre.paa","rtgVehicles\tex\LSV\i_unitdecals1.paa","rtgVehicles\tex\LSV\j_unitdecals2.paa"};
-				factions[] = {"Raider_Tactical_F"};
-			};
-			class rtg_demon
-			{
-				displayName = "Demon";
-				author = "Fish & Shrike";
-				textures[] = {"rtgVehicles\tex\LSV\a_exterior_black.paa","rtgVehicles\tex\LSV\b_interior_black.paa","rtgVehicles\tex\LSV\c_a2_black.paa","rtgVehicles\tex\LSV\d_wheels_black.paa","rtgVehicles\tex\LSV\e_mainbody_black.paa","rtgVehicles\tex\LSV\f_gratting_black.paa","rtgVehicles\tex\LSV\g_camo1_tile_black.paa","rtgVehicles\tex\LSV\h_camo2_m1025_black_with_logosDemon.paa","rtgVehicles\tex\LSV\i_unitdecals1.paa","rtgVehicles\tex\LSV\j_unitdecals2.paa"};
-				factions[] = {"Raider_Tactical_F"};
-			};
-			class rtg_ares
-			{
-				displayName = "Ares";
-				author = "Fish & Shrike";
-				textures[] = {"rtgVehicles\tex\LSV\a_exterior_black.paa","rtgVehicles\tex\LSV\b_interior_black.paa","rtgVehicles\tex\LSV\c_a2_black.paa","rtgVehicles\tex\LSV\d_wheels_black.paa","rtgVehicles\tex\LSV\e_mainbody_black.paa","rtgVehicles\tex\LSV\f_gratting_black.paa","rtgVehicles\tex\LSV\g_camo1_tile_black.paa","rtgVehicles\tex\LSV\h_camo2_m1025_black_with_logosAres.paa","rtgVehicles\tex\LSV\i_unitdecals1.paa","rtgVehicles\tex\LSV\j_unitdecals2.paa"};
-				factions[] = {"Raider_Tactical_F"};
-			};
-			class rtg_hitman
-			{
-				displayName = "Hitman";
-				author = "Fish & Shrike";
-				textures[] = {"rtgVehicles\tex\LSV\a_exterior_black.paa","rtgVehicles\tex\LSV\b_interior_black.paa","rtgVehicles\tex\LSV\c_a2_black.paa","rtgVehicles\tex\LSV\d_wheels_black.paa","rtgVehicles\tex\LSV\e_mainbody_black.paa","rtgVehicles\tex\LSV\f_gratting_black.paa","rtgVehicles\tex\LSV\g_camo1_tile_black.paa","rtgVehicles\tex\LSV\h_camo2_m1025_black_with_logosHitman.paa","rtgVehicles\tex\LSV\i_unitdecals1.paa","rtgVehicles\tex\LSV\j_unitdecals2.paa"};
-				factions[] = {"Raider_Tactical_F"};
 			};
 		};
-		class HitPoints: HitPoints
-		{
-			class hitwindshield_1: hitwindshield_1
-			{
-				armor = 4.29;
-			};
-			class hitwindshield_2: hitwindshield_2
-			{
-				armor = 4.29;
-			};
-			class HitGlass1: HitGlass1
-			{
-				armor = 4.09;
-			};
-			class HitGlass2: HitGlass2
-			{
-				armor = 4.09;
-			};
-			class HitGlass3: HitGlass3
-			{
-				armor = 4.09;
-			};
-			class HitGlass4: HitGlass4
-			{
-				armor = 4.09;
-			};
-		};
+
 		class Turrets: Turrets
 		{
 			class M2_Turret: MainTurret
@@ -929,9 +609,9 @@ class CfgVehicles
 				gunnerForceOptics = 0;
 				gunnerOutOpticsShowCursor = 0;
 				weapons[] = {"RHS_M2"};
-				magazines[] = {"rhs_mag_100rnd_127x99_mag_Tracer_Yellow","rhs_mag_100rnd_127x99_mag_Tracer_Yellow","rhs_mag_100rnd_127x99_mag_Tracer_Yellow","rhs_mag_100rnd_127x99_mag_Tracer_Yellow","rhs_mag_100rnd_127x99_mag_Tracer_Yellow","rhs_mag_100rnd_127x99_mag_Tracer_Yellow","rhs_mag_100rnd_127x99_mag_Tracer_Yellow","rhs_mag_100rnd_127x99_mag_Tracer_Yellow","rhs_mag_100rnd_127x99_mag_Tracer_Yellow","rhs_mag_100rnd_127x99_mag_Tracer_Yellow"};
-				minElev = -12;
-				maxElev = 45;
+				magazines[] = {"rhs_mag_100rnd_127x99_mag_Tracer_Red","rhs_mag_100rnd_127x99_mag_Tracer_Red","rhs_mag_100rnd_127x99_mag_Tracer_Red","rhs_mag_100rnd_127x99_mag_Tracer_Red","rhs_mag_100rnd_127x99_mag_Tracer_Red","rhs_mag_100rnd_127x99_mag_Tracer_Red"};
+				minElev = -11;
+				maxElev = 41;
 				soundServo[] = {"A3\sounds_f\dummysound",1e-06,1};
 				soundAttenuationTurret = "HeliAttenuationGunner";
 				disableSoundAttenuation = 1;
@@ -948,7 +628,7 @@ class CfgVehicles
 				gunnerCompartments = "Compartment1";
 				ejectDeadGunner = 0;
 				castGunnerShadow = 1;
-				stabilizedInAxes = 0;
+				stabilizedInAxes = 1;
 				gunBeg = "usti hlavne";
 				gunEnd = "konec hlavne";
 				memoryPointGunnerOptics = "";
@@ -961,105 +641,19 @@ class CfgVehicles
 				class ViewOptics: ViewOptics
 				{
 					initFov = 0.7;
-					minFov = 0.3;
+					minFov = 0.25;
 					maxFov = 1.1;
 				};
 				class ViewGunner: ViewOptics{};
+				maxVerticalRotSpeed  = 0.75;
+        		maxHorizontalRotSpeed  = 2.051282;
 			};
 			class CargoTurret_01: CargoTurret_01{};
 			class CargoTurret_02: CargoTurret_02{};
 			class CargoTurret_03: CargoTurret_03{};
 		};
-		class ace_cargo
-		{
-			class Cargo
-			{
-				class ACE_Wheel
-				{
-					type = "ACE_Wheel";
-					amount = 4;
-				};
-			};
-		};
-		maximumLoad = 20000;
-		class TransportItems
-		{
-			class _xx_rtg_pvs_15_black_gh
-			{
-				name = "rtg_pvs_15_black_gh";
-				count = 8;
-			};
-			class _xx_ACRE_PRC343
-			{
-				name = "ACRE_PRC343";
-				count = 2;
-			};
-			class _xx_ACRE_PRC152
-			{
-				name = "ACRE_PRC152";
-				count = 2;
-			};
-			class _xx_ACE_personalAidKit
-			{
-				name = "ACE_personalAidKit";
-				count = 8;
-			};
-			class _xx_ACE_Canteen
-			{
-				name = "ACE_Canteen";
-				count = 5;
-			};
-			class _xx_ACE_Can_Franta
-			{
-				name = "ACE_Can_Franta";
-				count = 9;
-			};
-			class _xx_ACE_MRE_BeefStew
-			{
-				name = "ACE_MRE_BeefStew";
-				count = 5;
-			};
-			class _xx_ACE_bodyBag
-			{
-				name = "ACE_bodyBag";
-				count = 9;
-			};
-		};
-		class TransportBackpacks
-		{
-			class _xx_rtg_medical_grabpack
-			{
-				backpack = "rtg_medical_grabpack";
-				count = 1;
-			};
-			class _xx_rtg_engineer_grabpack
-			{
-				backpack = "rtg_engineer_grabpack";
-				count = 1;
-			};
-		};
-		class TransportWeapons
-		{
-			class _xx_rhs_weap_m16a4_carryhandle
-			{
-				weapon = "rhs_weap_m16a4_carryhandle";
-				count = 2;
-			};
-		};
-		class TransportMagazines
-		{
-			class _xx_rtg_30rnd_556_45
-			{
-				magazine = "rtg_30rnd_556_45";
-				count = 10;
-			};
-			class _xx_rtg_200Rnd_762x51
-			{
-				magazine = "rtg_200Rnd_762x51";
-				count = 5;
-			};
-		};
 	};
+
 	class raider_bushmaster_unarmed: bma3_bushmaster_unarmed_F
 	{
 		displayName = "Bushmaster Transport [1/7]";
@@ -1094,9 +688,9 @@ class CfgVehicles
 
 		// Movement Config
 		simulation = "carx";
-		maxSpeed = 115;
+		maxSpeed = 120;
+		enginePower = 600;
 		differentialType = "all_limited";
-		enginePower = 429;
 		
 		// Wheels
 		class Wheels
@@ -1114,19 +708,13 @@ class CfgVehicles
 				maxHandBrakeTorque = 0;
 				suspForceAppPointOffset = "wheel_1_1_axis";
 				tireForceAppPointOffset = "wheel_1_1_axis";
-				//maxCompression = 0.15;
-				//mMaxDroop = 0.15;
-				//sprungMass = 2066;
-				//springStrength = 201234;
-				//springDamperRate = 20600.6;
 				MOI = 10.9;
-				dampingRate = 0.1;
+				dampingRate = 0.15;
 				maxBrakeTorque = 8000;
-				maxHandBrakeTorque = 0;
-				longitudinalStiffnessPerUnitGravity = 2200;
-				latStiffX = 80.6;
-				latStiffY = 46.8;
-				frictionVsSlipGraph[] = {{0,0.3},{0.5,1},{0.8,0.7},{1,0.6}};
+				longitudinalStiffnessPerUnitGravity = 2700;
+				latStiffX = 90.8;
+				latStiffY = 70.0;
+				frictionVsSlipGraph[] = {{0,0.25},{0.5,0.85},{0.8,0.65},{1,0.55}};
 			};
 			class LR: LF
 			{
@@ -1193,123 +781,14 @@ class CfgVehicles
 				factions[] = {"Raider_Tactical_F"};
 			};
 		};
-		class TransportItems
-		{
-			class _xx_rtg_pvs_15_black_gh
-			{
-				name = "rtg_pvs_15_black_gh";
-				count = 8;
-			};
-			class _xx_ACRE_PRC343
-			{
-				name = "ACRE_PRC343";
-				count = 2;
-			};
-			class _xx_ACRE_PRC152
-			{
-				name = "ACRE_PRC152";
-				count = 2;
-			};
-			class _xx_ACE_personalAidKit
-			{
-				name = "ACE_personalAidKit";
-				count = 8;
-			};
-			class _xx_ACE_Canteen
-			{
-				name = "ACE_Canteen";
-				count = 5;
-			};
-			class _xx_ACE_Can_Franta
-			{
-				name = "ACE_Can_Franta";
-				count = 9;
-			};
-			class _xx_ACE_MRE_BeefStew
-			{
-				name = "ACE_MRE_BeefStew";
-				count = 5;
-			};
-			class _xx_ACE_bodyBag
-			{
-				name = "ACE_bodyBag";
-				count = 9;
-			};
-		};
-		class TransportBackpacks
-		{
-			class _xx_rtg_medical_grabpack
-			{
-				backpack = "rtg_medical_grabpack";
-				count = 1;
-			};
-			class _xx_rtg_engineer_grabpack
-			{
-				backpack = "rtg_engineer_grabpack";
-				count = 1;
-			};
-		};
-		class TransportWeapons
-		{
-			class _xx_rhs_weap_m16a4_carryhandle
-			{
-				weapon = "rhs_weap_m16a4_carryhandle";
-				count = 2;
-			};
-		};
-		class TransportMagazines
-		{
-			class _xx_rtg_30rnd_556_45
-			{
-				magazine = "rtg_30rnd_556_45";
-				count = 10;
-			};
-			class _xx_rtg_200Rnd_762x51
-			{
-				magazine = "rtg_200Rnd_762x51";
-				count = 5;
-			};
-		};
-		class AcreIntercoms
-		{
-			class Intercom_1
-			{
-				displayName = "Intercom";
-				shortName = "Intercom";
-				allowedPositions[] = {"driver","commander","gunner"};
-				limitedPositions[] = {};
-				numLimitedPositions = 0;
-				masterPositions[] = {"driver"};
-				connectedByDefault = 1;
-			};
-		};
-		class AcreRacks
-		{
-			class Rack_1
-			{
-				allowedPositions[] = {"driver","commander","gunner"};
-				componentName = "ACRE_PRC152";
-				displayName = "Dash";
-				mountedRadio = "ACRE_PRC152";
-				shortName = "Dash";
-			};
-		};
-		class ace_cargo
-		{
-			class Cargo
-			{
-				class ACE_Wheel
-				{
-					type = "ACE_Wheel";
-					amount = 4;
-				};
-			};
-		};
+		RTG_Vehicle_Gear;
+		RTG_Vehicle_Radios;
 	};
-	class ej_UH92_NATO;
-	class rtg_loaf: ej_UH92_NATO
+
+	class RHS_UH60M_ESSS2_D;
+	class rtg_UH60M_DAP_Magpie : RHS_UH60M_ESSS2_D
 	{
-		displayName = "Magpie (4/12)";
+		displayName = "Magpie DAP (2/14)";
 		editorSubcategory = "RTGHelicopters";
 		author = "Shrike";
 		scope = 2;
@@ -1317,449 +796,126 @@ class CfgVehicles
 		faction = "Raider_Tactical_F";
 		maximumLoad = 20000;
 		ace_cargo_space = 16;
-		acre_hasInfantryPhone = 0;
-		camouflage = 3;
-		canFloat = 1;
-		irTarget = 1;
-		irTargetSize = 0.5;
-		visualTarget = 1;
-		visualTargetSize = 1;
-		radarTarget = 1;
-		radarTargetSize = 0.3;
-		radarType = 4;
-		LockDetectionSystem = 8;
-		incomingMissileDetectionSystem = 16;
-		receiveRemoteTargets = 1;
-		reportRemoteTargets = 1;
-		reportOwnPosition = 1;
-		laserScanner = 1;
-		armor = 20;
-		weapons[] = {"CMFlareLauncher"};
-		magazines[] = {"168Rnd_CMFlare_Chaff_Magazine"};
-		ace_refuel_fuelCargo = 80;
-		class Turrets: Turrets
+		helmetMountedDisplay=1;
+		RTG_Vehicle_Gear;
+		
+		hiddenSelectionsTextures[]=
 		{
-			class RightDoorGun: MainTurret
+			"\rtgVehicles\tex\Magpie\uh60m_fuselage_co.paa",
+			"\rtgVehicles\tex\Magpie\uh60m_engine_co.paa",
+			"\rtgVehicles\tex\Magpie\default_co.paa",
+			"\rtgVehicles\tex\Magpie\uh60m_dust_filter_co.paa"
+		};
+		class textureSources
+		{
+			class raider
 			{
-				isCopilot = 0;
-				body = "Turret2";
-				gun = "Gun_2";
-				minElev = -60;
-				maxElev = 18;
-				initElev = -45;
-				minTurn = -160;
-				maxTurn = 5;
-				initTurn = -90;
-				soundServo[] = {"",0.01,1};
-				animationSourceHatch = "";
-				animationSourceBody = "Turret_2";
-				animationSourceGun = "Gun_2";
-				stabilizedInAxes = 0;
-				gunBeg = "muzzle_2";
-				gunEnd = "chamber_2";
-				weapons[] = {"rhs_weap_m134_minigun_1"};
-				magazines[] = {"rhs_mag_762x51_m80a1_4000"};
-				gunnerName = "Right M134 Gunner";
-				memoryPointGun = "machinegun_1";
-				memoryPointGunnerOptics = "gunnerview_2";
-				gunnerOpticsModel = "\uh-60\Misc\optika_empty";
-				gunnerOutOpticsShowCursor = 1;
-				gunnerOpticsShowCursor = 1;
-				gunnerAction = "gunner_Heli_Transport_01";
-				gunnerInAction = "gunner_Heli_Transport_01";
-				primaryGunner = 0;
-				selectionFireAnim = "zasleh_1";
-				proxyIndex = 2;
-				gunnerCompartments = "Compartment3";
-				commanding = -3;
-				hasGunner = 1;
-				hasCrew = 1;
-				class ViewOptics
+				displayName="Raider";
+				author = "Shrike";
+				textures[]=
 				{
-					initAngleX = 0;
-					minAngleX = -30;
-					maxAngleX = 30;
-					initAngleY = 0;
-					minAngleY = -100;
-					maxAngleY = 100;
-					initFov = 0.7;
-					minFov = 0.25;
-					maxFov = 1.1;
+					"\rtgVehicles\tex\Magpie\uh60m_fuselage_co.paa",
+					"\rtgVehicles\tex\Magpie\uh60m_engine_co.paa",
+					"\rtgVehicles\tex\Magpie\default_co.paa",
+					"\rtgVehicles\tex\Magpie\uh60m_dust_filter_co.paa"
 				};
-			};
-			class MainTurret: MainTurret
-			{
-				isCopilot = 0;
-				body = "mainTurret";
-				gun = "mainGun";
-				minElev = -60;
-				maxElev = 18;
-				initElev = -30;
-				minTurn = -5;
-				maxTurn = 160;
-				initTurn = 90;
-				soundServo[] = {"",0.01,1};
-				animationSourceHatch = "";
-				animationSourceBody = "mainTurret";
-				animationSourceGun = "mainGun";
-				stabilizedInAxes = 0;
-				gunBeg = "muzzle_1";
-				gunEnd = "chamber_1";
-				discreteDistance[] = {100,200,300,400,500,600,700,800,1000,1200,1500,1800,2100};
-				discreteDistanceInitIndex = 5;
-				weapons[] = {"rhs_weap_m134_minigun_1"};
-				magazines[] = {"rhs_mag_762x51_m80a1_4000"};
-				gunnerName = "Left M134 Gunner";
-				memoryPointGun = "machinegun";
-				memoryPointGunnerOptics = "gunnerview";
-				gunnerOpticsModel = "\uh-60\Misc\optika_empty";
-				gunnerOutOpticsShowCursor = 0;
-				gunnerOpticsShowCursor = 0;
-				gunnerAction = "gunner_Heli_Transport_01";
-				gunnerInAction = "gunner_Heli_Transport_01";
-				commanding = -2;
-				primaryGunner = 0;
-				gunnerCompartments = "Compartment2";
-			};
-			class CoPilotObs: MainTurret
-			{
-				ace_laser_selfdesignate_Enabled = 1;
-				isCopilot = 1;
-				body = "ObsTurret";
-				gun = "ObsGun";
-				gunnerAction = "pilot_Heli_Transport_01";
-				gunnerInAction = "pilot_Heli_Light_03_Enter";
-				memoryPointsGetInGunner = "pos copilot";
-				memoryPointsGetInGunnerDir = "pos copilot dir";
-				gunnerGetInAction = "GetInHeli_Transport_01Cargo";
-				gunnerGetOutAction = "GetOutLow";
-				minElev = -80;
-				maxElev = 25;
-				initElev = 0;
-				minTurn = -190;
-				maxTurn = 190;
-				initTurn = 180;
-				gunBeg = "gun_end";
-				gunEnd = "gun_begin";
-				memoryPointGunnerOptics = "commanderview";
-				animationSourceBody = "ObsTurret";
-				animationSourceGun = "ObsGun";
-				showHMD = 1;
-				CanEject = 1;
-				startEngine = 0;
-				soundServo[] = {"",0.01,1};
-				outGunnerMayFire = 1;
-				gunnerCompartments = "Compartment2";
-				commanding = -1;
-				primaryGunner = 1;
-				selectionFireAnim = "";
-				castGunnerShadow = 1;
-				viewGunnerShadow = 1;
-				gunnerOpticsModel = "";
-				gunnerOpticsEffect[] = {"TankCommanderOptics1"};
-				gunnerForceOptics = 0;
-				gunnerOpticsShowCursor = 1;
-				turretInfoType = "Rsc_HMDs_Kimi_Helo_UI_Turret";
-				showAllTargets = 2;
-				copilotHasFlares = 1;
-				weapons[] = {"ej_master_arms_safe","Laserdesignator_mounted","EricJ_CMFlareLauncherDAP"};
-				magazines[] = {"Laserbatteries","168Rnd_CMFlare_Chaff_Magazine"};
-				stabilizedInAxes = "StabilizedInAxesBoth";
-				proxyIndex = 3;
-				gunnerName = "Co-Pilot";
-				class OpticsIn
+				factions[]=
 				{
-					class WideNGS
-					{
-						opticsDisplayName = "W";
-						initAngleX = 0;
-						minAngleX = -35;
-						maxAngleX = 10;
-						initAngleY = 0;
-						minAngleY = -100;
-						maxAngleY = 100;
-						initFov = 0.466;
-						minFov = 0.466;
-						maxFov = 0.466;
-						visionMode[] = {"Normal","NVG","Ti"};
-						thermalMode[] = {0,1};
-						gunnerOpticsColor[] = {0.15,1,0.15,1};
-						gunnerOpticsModel = "A3\Weapons_F\Reticle\Optics_Gunner_MBT_03_w_F.p3d";
-						directionStabilized = 0;
-						opticsPPEffects[] = {"OpticsCHAbera2","OpticsBlur2"};
-					};
-					class Wide
-					{
-						opticsDisplayName = "W";
-						initAngleX = 0;
-						minAngleX = -35;
-						maxAngleX = 10;
-						initAngleY = 0;
-						minAngleY = -100;
-						maxAngleY = 100;
-						initFov = 0.466;
-						minFov = 0.466;
-						maxFov = 0.466;
-						visionMode[] = {"Normal","NVG","Ti"};
-						thermalMode[] = {0,1};
-						gunnerOpticsColor[] = {0.15,1,0.15,1};
-						gunnerOpticsModel = "A3\Weapons_F\Reticle\Optics_Gunner_MBT_02_w_F.p3d";
-						directionStabilized = 1;
-						opticsPPEffects[] = {"OpticsCHAbera2","OpticsBlur2"};
-						gunnerOpticsEffect[] = {"TankCommanderOptics1"};
-					};
-					class WideL: Wide
-					{
-						opticsDisplayName = "WL";
-						initFov = 0.2;
-						minFov = 0.2;
-						maxFov = 0.2;
-						gunnerOpticsModel = "A3\Weapons_F\Reticle\Optics_Gunner_MBT_02_m_F.p3d";
-						gunnerOpticsColor[] = {0,0,0,1};
-						directionStabilized = 1;
-						opticsPPEffects[] = {"OpticsCHAbera2","OpticsBlur2"};
-					};
-					class Medium: Wide
-					{
-						opticsDisplayName = "M";
-						initFov = 0.1;
-						minFov = 0.1;
-						maxFov = 0.1;
-						directionStabilized = 1;
-						gunnerOpticsColor[] = {0,0,0,1};
-						gunnerOpticsModel = "A3\Weapons_F\Reticle\Optics_Gunner_MBT_02_m_F.p3d";
-					};
-					class Narrow: Wide
-					{
-						opticsDisplayName = "N";
-						gunnerOpticsColor[] = {0,0,0,1};
-						gunnerOpticsModel = "A3\Weapons_F\Reticle\Optics_Gunner_MBT_02_n_F.p3d";
-						directionStabilized = 1;
-						initFov = 0.02;
-						minFov = 0.02;
-						maxFov = 0.02;
-					};
-					class Narrower: Wide
-					{
-						opticsDisplayName = "N";
-						gunnerOpticsColor[] = {0,0,0,1};
-						gunnerOpticsModel = "A3\Weapons_F\Reticle\Optics_Gunner_MBT_02_n_F.p3d";
-						directionStabilized = 1;
-						initFov = 0.01;
-						minFov = 0.01;
-						maxFov = 0.01;
-					};
+					Raider_Tactical_F
 				};
-				class OpticsOut
-				{
-					class Monocular
-					{
-						initAngleX = 0;
-						minAngleX = -30;
-						maxAngleX = 30;
-						initAngleY = 0;
-						minAngleY = -100;
-						maxAngleY = 100;
-						initFov = 1.1;
-						minFov = 0.133;
-						maxFov = 1.1;
-						visionMode[] = {"Normal","NVG","Ti"};
-						thermalMode[] = {2,3};
-						gunnerOpticsModel = "";
-						gunnerOpticsEffect[] = {};
-					};
-				};
-				class ViewOptics
-				{
-					initAngleX = 0;
-					minAngleX = -30;
-					maxAngleX = 30;
-					initAngleY = 40;
-					minAngleY = -100;
-					maxAngleY = 100;
-					initFov = 1.4;
-					minFov = 0.3;
-					maxFov = 1;
-				};
-			};
-			class CargoTurret_01: CargoTurret
-			{
-				gunnerAction = "passenger_inside_1";
-				gunnerCompartments = "Compartment3";
-				memoryPointsGetInGunner = "pos side";
-				memoryPointsGetInGunnerDir = "pos side dir";
-				gunnerName = "Left Side FFV Position";
-				proxyIndex = 11;
-				maxElev = 15;
-				minElev = -80;
-				maxTurn = 0;
-				minTurn = -75;
-				isPersonTurret = 1;
-				ejectDeadGunner = 0;
-				enabledByAnimationSource = "LDoor";
-				usepip = 0;
-				gunnerOutOpticsModel = "";
-				gunnerOpticsModel = "";
-				startEngine = 0;
-				outGunnerMayFire = 1;
-				inGunnerMayFire = 0;
-				commanding = -2;
-				memoryPointGunnerOptics = "";
-			};
-			class CargoTurret_02: CargoTurret
-			{
-				gunnerAction = "passenger_inside_1";
-				gunnerCompartments = "Compartment3";
-				memoryPointsGetInGunner = "pos side 4";
-				memoryPointsGetInGunnerDir = "pos side dir 4";
-				gunnerName = "Left Side FFV Position 2";
-				proxyIndex = 12;
-				maxElev = 10;
-				minElev = -80;
-				maxTurn = 65;
-				minTurn = 0;
-				isPersonTurret = 1;
-				ejectDeadGunner = 0;
-				enabledByAnimationSource = "LDoor";
-				usepip = 0;
-				gunnerOutOpticsModel = "";
-				gunnerOpticsModel = "";
-				startEngine = 0;
-				outGunnerMayFire = 1;
-				inGunnerMayFire = 0;
-				commanding = -2;
-				memoryPointGunnerOptics = "";
-			};
-			class CargoTurret_03: CargoTurret
-			{
-				gunnerAction = "passenger_inside_1";
-				gunnerCompartments = "Compartment2";
-				memoryPointsGetInGunner = "pos side 2";
-				memoryPointsGetInGunnerDir = "pos side dir 2";
-				gunnerName = "Right Side FFV Position";
-				proxyIndex = 10;
-				maxElev = 15;
-				minElev = -80;
-				maxTurn = 75;
-				minTurn = -1;
-				isPersonTurret = 1;
-				ejectDeadGunner = 0;
-				enabledByAnimationSource = "RDoor";
-				usepip = 0;
-				gunnerOutOpticsModel = "";
-				gunnerOpticsModel = "";
-				startEngine = 0;
-				outGunnerMayFire = 1;
-				inGunnerMayFire = 0;
-				commanding = -2;
-				memoryPointGunnerOptics = "";
-			};
-			class CargoTurret_04: CargoTurret
-			{
-				gunnerAction = "passenger_inside_1";
-				gunnerCompartments = "Compartment2";
-				memoryPointsGetInGunner = "pos side 3";
-				memoryPointsGetInGunnerDir = "pos side dir 3";
-				gunnerName = "Right Side FFV Position 2";
-				proxyIndex = 9;
-				maxElev = 15;
-				minElev = -80;
-				maxTurn = 0;
-				minTurn = -54;
-				isPersonTurret = 1;
-				ejectDeadGunner = 0;
-				enabledByAnimationSource = "RDoor";
-				usepip = 0;
-				gunnerOutOpticsModel = "";
-				gunnerOpticsModel = "";
-				startEngine = 0;
-				outGunnerMayFire = 1;
-				inGunnerMayFire = 0;
-				commanding = -2;
-				memoryPointGunnerOptics = "";
 			};
 		};
+		textureList[]=
+		{
+			"raider", 1
+		};
+
 		class Components: Components
 		{
-			class SensorsManagerComponent
+			class TransportPylonsComponent
 			{
-				class Components
+				UIPicture = "\rhsusf\addons\rhsusf_a2port_air\data\loadouts\RHS_UH60_EWS_EDEN_CA.paa";
+				class pylons
 				{
-					class PassiveRadarSensorComponent: SensorTemplatePassiveRadar
+					class pylon1
 					{
-						class AirTarget
-						{
-							minRange = 2500;
-							maxRange = 2500;
-							objectDistanceLimitCoef = -1;
-							viewDistanceLimitCoef = -1;
-						};
-						class GroundTarget
-						{
-							minRange = 2500;
-							maxRange = 2500;
-							objectDistanceLimitCoef = -1;
-							viewDistanceLimitCoef = -1;
-						};
+						hardpoints[]		= {"RHS_HP_HELLFIRE_RACK","RHS_HP_FFAR_ARMY","RHS_HP_Fuel_ARMY","RHS_HP_ATAS", "20MM_TWIN_CANNON"};
+						priority			= 1;
+						attachment			= "20MM_TWIN_CANNON";
+						maxweight			= 1200;
+						UIposition[]		= {0.555,0.37};
+						bay					= -1;
+						hitpoint 			= HitPylon1;
 					};
-					class ActiveRadarSensorComponent: SensorTemplateActiveRadar
+					class pylon2 : pylon1
 					{
-						class AirTarget
-						{
-							minRange = 3500;
-							maxRange = 3500;
-							objectDistanceLimitCoef = -1;
-							viewDistanceLimitCoef = -1;
-						};
-						class GroundTarget
-						{
-							minRange = 2500;
-							maxRange = 2500;
-							objectDistanceLimitCoef = -1;
-							viewDistanceLimitCoef = -1;
-						};
-						groundNoiseDistanceCoef = 0.0005;
-						maxGroundNoiseDistance = 50;
-						minSpeedThreshold = 0;
-						maxSpeedThreshold = 0;
-						angleRangeHorizontal = 60;
-						angleRangeVertical = 60;
-						typeRecognitionDistance = 20000;
-						maxFogSeeThrough = 1;
-						maxTrackableSpeed = 830;
+						UIposition[]		= {0.11,0.37};
+						attachment			= "20MM_TWIN_CANNON";
+						mirroredMissilePos	= 1;
+						hitpoint 			= HitPylon2;
 					};
-					class ActiveRadarSensorComponent_Wide: ActiveRadarSensorComponent
+					class cmDispenser
 					{
-						class AirTarget
-						{
-							minRange = 4000;
-							maxRange = 4000;
-							objectDistanceLimitCoef = -1;
-							viewDistanceLimitCoef = -1;
-						};
-						class GroundTarget
-						{
-							minRange = 4000;
-							maxRange = 4000;
-							objectDistanceLimitCoef = -1;
-							viewDistanceLimitCoef = -1;
-						};
-						groundNoiseDistanceCoef = 0.0005;
-						maxGroundNoiseDistance = 50;
-						minSpeedThreshold = 0;
-						maxSpeedThreshold = 0;
-						angleRangeHorizontal = 110;
-						angleRangeVertical = 110;
-						typeRecognitionDistance = 10000;
-						maxFogSeeThrough = 1;
-						maxTrackableSpeed = 830;
+						hardpoints[]	= {"RHSUSF_cm_M130","RHSUSF_cm_M130_x2"};
+						priority		= 1;
+						attachment		= "rhsusf_M130_CMFlare_Chaff_Magazine_x2";
+						maxweight		= 800;
+						UIposition[]	= {0.33,0.0};
 					};
 				};
 			};
 		};
 	};
-	class ej_AH96_NATO;
-	class rtg_damper: ej_AH96_NATO
+
+	class RHS_UH60M;
+	class rtg_UH60M_Magpie : RHS_UH60M
+	{
+		displayName = "Magpie (2/14)";
+		editorSubcategory = "RTGHelicopters";
+		author = "Shrike";
+		scope = 2;
+		side = 1;
+		faction = "Raider_Tactical_F";
+		maximumLoad = 20000;
+		ace_cargo_space = 16;
+		helmetMountedDisplay=1;
+		RTG_Vehicle_Gear;
+		
+		hiddenSelectionsTextures[]=
+		{
+			"\rtgVehicles\tex\Magpie\uh60m_fuselage_co.paa",
+			"\rtgVehicles\tex\Magpie\uh60m_engine_co.paa",
+			"\rtgVehicles\tex\Magpie\default_co.paa",
+			"\rtgVehicles\tex\Magpie\uh60m_dust_filter_co.paa"
+		};
+		class textureSources
+		{
+			class raider
+			{
+				displayName="Raider";
+				author = "Shrike";
+				textures[]=
+				{
+					"\rtgVehicles\tex\Magpie\uh60m_fuselage_co.paa",
+					"\rtgVehicles\tex\Magpie\uh60m_engine_co.paa",
+					"\rtgVehicles\tex\Magpie\default_co.paa",
+					"\rtgVehicles\tex\Magpie\uh60m_dust_filter_co.paa"
+				};
+				factions[]=
+				{
+					Raider_Tactical_F
+				};
+			};
+		};
+		textureList[]=
+		{
+			"raider", 1
+		};
+	};
+
+	class RHS_AH1Z;
+	class ViewPilot;
+	class rtg_AH1Z_Hawk : RHS_AH1Z
 	{
 		displayName = "Hawk (2/0)";
 		editorSubcategory = "RTGHelicopters";
@@ -1768,86 +924,50 @@ class CfgVehicles
 		side = 1;
 		faction = "Raider_Tactical_F";
 		maximumLoad = 20000;
-		ace_cargo_space = 16;
-		acre_hasInfantryPhone = 0;
-		camouflage = 3;
-		canFloat = 1;
-		irTarget = 1;
-		irTargetSize = 0.5;
-		visualTarget = 1;
-		visualTargetSize = 1;
-		radarTarget = 1;
-		radarTargetSize = 0.3;
-		radarType = 4;
-		LockDetectionSystem = 8;
-		incomingMissileDetectionSystem = 16;
-		receiveRemoteTargets = 1;
-		reportRemoteTargets = 1;
-		reportOwnPosition = 1;
+		ace_cargo_space = 4;
+
+		RTG_Vehicle_Gear;
+		lockDetectionSystem = "2 + 8";
+		incomingMissileDetectionSystem = "2 + 16";
 		laserScanner = 1;
-		armor = 20;
-		weapons[] = {"CMFlareLauncher"};
-		magazines[] = {"168Rnd_CMFlare_Chaff_Magazine"};
-		bodyFrictionCoef = 0.7;
-		liftForceCoef = 1.1;
-		minMainRotorDive = -12;
-		maxMainRotorDive = 16;
-		ace_fastroping_enabled = 1;
-		ace_refuel_fuelCargo = 80;
-		class Components: Components
+		showAllTargets = 4;
+
+		hiddenSelectionsTextures[] =
 		{
-			class TransportPylonsComponent
+			"\rtgVehicles\tex\Hawk\ah1z_body_co.paa",
+			"\rtgVehicles\tex\Hawk\ah1z_engines_co.paa",
+			"#(argb,8,8,3)color(0,0,0,1.0,co)",
+			"#(argb,8,8,3)color(0,0,0,1.0,co)",
+			"#(argb,8,8,3)color(0,0,0,1.0,co)",
+			"#(argb,8,8,3)color(0,0,0,1.0,co)"
+		};
+		
+		class textureSources
+		{
+			class raider
 			{
-				uiPicture = "\UH-60\Data\UI\Heli_attack_AH_96.paa";
-				class Pylons
+				displayName = "Raider";
+				author = "Shrike";
+				textures[] =
 				{
-					class PylonLeft1
-					{
-						attachment = "PylonRack_12Rnd_PG_missiles";
-						priority = 5;
-						bay = 1;
-						hardpoints[] = {"B_MISSILE_PYLON","UNI_SCALPEL","DAR","DAGR","RHS_weap_m134_pylon"};
-						turret[] = {0};
-						maxweight = 800;
-						UIposition[] = {0.06,0.4};
-					};
-					class PylonLeft2: PylonLeft1
-					{
-						attachment = "PylonRack_12Rnd_PG_missiles";
-						priority = 4;
-						hardpoints[] = {"B_MISSILE_PYLON","UNI_SCALPEL","DAR","DAGR","RHS_weap_m134_pylon"};
-						maxweight = 800;
-						UIposition[] = {0.08,0.35};
-					};
-					class PylonLeft3: PylonLeft1
-					{
-						attachment = "PylonRack_12Rnd_PG_missiles";
-						priority = 3;
-						hardpoints[] = {"B_MISSILE_PYLON","UNI_SCALPEL","DAR","DAGR","RHS_weap_m134_pylon"};
-						maxweight = 800;
-						UIposition[] = {0.1,0.3};
-					};
-					class PylonRight3: PylonLeft3
-					{
-						mirroredMissilePos = 3;
-						UIposition[] = {0.55,0.3};
-					};
-					class PylonRight2: PylonLeft2
-					{
-						mirroredMissilePos = 2;
-						UIposition[] = {0.57,0.35};
-					};
-					class PylonRight1: PylonLeft1
-					{
-						mirroredMissilePos = 1;
-						UIposition[] = {0.59,0.4};
-					};
+					"\rtgVehicles\tex\Hawk\ah1z_body_co.paa",
+					"\rtgVehicles\tex\Hawk\ah1z_engines_co.paa"
+				};
+				factions[] =
+				{
+					"Raider_Tactical_F"
 				};
 			};
 		};
+		
+		textureList[] =
+		{
+			"raider", 1
+		};
 	};
-	class FP_GLD_Taru_S0;
-	class rtg_heavyLift_Cargo: FP_GLD_Taru_S0
+
+	class O_Heli_Transport_04_F;
+	class rtg_heavyLift_Cargo: O_Heli_Transport_04_F
 	{
 		displayName = "Pelican Cargo [3/0]";
 		editorSubcategory = "RTGHelicopters";
@@ -1876,83 +996,18 @@ class CfgVehicles
 		armor = 80;
 		weapons[] = {"CMFlareLauncher"};
 		magazines[] = {"168Rnd_CMFlare_Chaff_Magazine"};
-		class TransportItems
+		hiddenSelectionsTextures[] = {"A3\Air_F_Heli\Heli_Transport_04\Data\heli_transport_04_base_01_Black_co.paa","A3\Air_F_Heli\Heli_Transport_04\Data\heli_transport_04_base_02_Black_co.paa"};
+		class TextureSources
 		{
-			class _xx_rtg_pvs_15_black_gh
+			class Black
 			{
-				name = "rtg_pvs_15_black_gh";
-				count = 8;
-			};
-			class _xx_ACRE_PRC343
-			{
-				name = "ACRE_PRC343";
-				count = 2;
-			};
-			class _xx_ACRE_PRC152
-			{
-				name = "ACRE_PRC152";
-				count = 2;
-			};
-			class _xx_ACE_personalAidKit
-			{
-				name = "ACE_personalAidKit";
-				count = 8;
-			};
-			class _xx_ACE_Canteen
-			{
-				name = "ACE_Canteen";
-				count = 5;
-			};
-			class _xx_ACE_Can_Franta
-			{
-				name = "ACE_Can_Franta";
-				count = 9;
-			};
-			class _xx_ACE_MRE_BeefStew
-			{
-				name = "ACE_MRE_BeefStew";
-				count = 5;
-			};
-			class _xx_ACE_bodyBag
-			{
-				name = "ACE_bodyBag";
-				count = 9;
+				displayName = "Raider";
+				author = "Shrike";
+				textures[] = {"A3\Air_F_Heli\Heli_Transport_04\Data\heli_transport_04_base_01_Black_co.paa","A3\Air_F_Heli\Heli_Transport_04\Data\heli_transport_04_base_02_Black_co.paa"};
+				factions[] = {"Raider_Tactical_F"};
 			};
 		};
-		class TransportBackpacks
-		{
-			class _xx_rtg_medical_grabpack
-			{
-				backpack = "rtg_medical_grabpack";
-				count = 1;
-			};
-			class _xx_rtg_engineer_grabpack
-			{
-				backpack = "rtg_engineer_grabpack";
-				count = 1;
-			};
-		};
-		class TransportWeapons
-		{
-			class _xx_rhs_weap_m16a4_carryhandle
-			{
-				weapon = "rhs_weap_m16a4_carryhandle";
-				count = 2;
-			};
-		};
-		class TransportMagazines
-		{
-			class _xx_rtg_30rnd_556_45
-			{
-				magazine = "rtg_30rnd_556_45";
-				count = 10;
-			};
-			class _xx_rtg_200Rnd_762x51
-			{
-				magazine = "rtg_200Rnd_762x51";
-				count = 5;
-			};
-		};
+		RTG_Vehicle_Gear;
 		ace_fastroping_enabled = 1;
 		ace_refuel_fuelCargo = 80;
 		class Components: Components
@@ -2034,8 +1089,8 @@ class CfgVehicles
 			};
 		};
 	};
-	class FP_GLD_TaruTransport_S0;
-	class rtg_heavyLift_Transport: FP_GLD_TaruTransport_S0
+	class O_Heli_Transport_04_covered_F;
+	class rtg_heavyLift_Transport: O_Heli_Transport_04_covered_F
 	{
 		displayName = "Pelican Transport [3/16]";
 		editorSubcategory = "RTGHelicopters";
@@ -2066,6 +1121,18 @@ class CfgVehicles
 		magazines[] = {"168Rnd_CMFlare_Chaff_Magazine"};
 		ace_fastroping_enabled = 1;
 		ace_refuel_fuelCargo = 80;
+		hiddenSelectionsTextures[] = {"A3\Air_F_Heli\Heli_Transport_04\Data\heli_transport_04_base_01_Black_co.paa","A3\Air_F_Heli\Heli_Transport_04\Data\heli_transport_04_base_02_Black_co.paa"};
+		class TextureSources
+		{
+			class Black
+			{
+				displayName = "Raider";
+				author = "Shrike";
+				textures[] = {"A3\Air_F_Heli\Heli_Transport_04\Data\heli_transport_04_base_01_Black_co.paa","A3\Air_F_Heli\Heli_Transport_04\Data\heli_transport_04_base_02_Black_co.paa"};
+				factions[] = {"Raider_Tactical_F"};
+			};
+		};
+		textureList[] = {"Opfor",1};
 		class Components: Components
 		{
 			class SensorsManagerComponent
@@ -2144,108 +1211,24 @@ class CfgVehicles
 				};
 			};
 		};
-		class TransportItems
-		{
-			class _xx_rtg_pvs_15_black_gh
-			{
-				name = "rtg_pvs_15_black_gh";
-				count = 8;
-			};
-			class _xx_ACRE_PRC343
-			{
-				name = "ACRE_PRC343";
-				count = 2;
-			};
-			class _xx_ACRE_PRC152
-			{
-				name = "ACRE_PRC152";
-				count = 2;
-			};
-			class _xx_ACE_personalAidKit
-			{
-				name = "ACE_personalAidKit";
-				count = 8;
-			};
-			class _xx_ACE_Canteen
-			{
-				name = "ACE_Canteen";
-				count = 5;
-			};
-			class _xx_ACE_Can_Franta
-			{
-				name = "ACE_Can_Franta";
-				count = 9;
-			};
-			class _xx_ACE_MRE_BeefStew
-			{
-				name = "ACE_MRE_BeefStew";
-				count = 5;
-			};
-			class _xx_ACE_bodyBag
-			{
-				name = "ACE_bodyBag";
-				count = 9;
-			};
-		};
-		class TransportBackpacks
-		{
-			class _xx_rtg_medical_grabpack
-			{
-				backpack = "rtg_medical_grabpack";
-				count = 1;
-			};
-			class _xx_rtg_engineer_grabpack
-			{
-				backpack = "rtg_engineer_grabpack";
-				count = 1;
-			};
-		};
-		class TransportWeapons
-		{
-			class _xx_rhs_weap_m16a4_carryhandle
-			{
-				weapon = "rhs_weap_m16a4_carryhandle";
-				count = 2;
-			};
-		};
-		class TransportMagazines
-		{
-			class _xx_rtg_30rnd_556_45
-			{
-				magazine = "rtg_30rnd_556_45";
-				count = 10;
-			};
-			class _xx_rtg_200Rnd_762x51
-			{
-				magazine = "rtg_200Rnd_762x51";
-				count = 5;
-			};
-		};
-		class AcreIntercoms
-		{
-			class Intercom_1
-			{
-				displayName = "Crew Intercom";
-				shortName = "Crew";
-				allowedPositions[] = {"driver","commander",{"turret","all"}};
-				limitedPositions[] = {};
-				numLimitedPositions = 0;
-				masterPositions[] = {"driver"};
-				connectedByDefault = 1;
-			};
-		};
-		class AcreRacks
-		{
-			class Rack_1
-			{
-				allowedPositions[] = {"driver","commander",{"turret","all"}};
-				componentName = "ACRE_PRC152";
-				displayName = "Dash";
-				mountedRadio = "ACRE_PRC152";
-				shortName = "Dash";
-			};
-		};
+		RTG_Vehicle_Gear;
+		RTG_Vehicle_Radios;
 	};
+	class BAE_FIC;
+	class raider_heavy_attack_boat : BAE_FIC
+	{
+		displayName = "Heavy Attack Boat [4/8]";
+		editorSubcategory = "RTGBoats";
+		author = "Shrike";
+		scope = 2;
+		side = 1;
+		faction = "Raider_Tactical_F";
+		ace_cargo_space = 16;
+		ace_vehicles_engineStartDelay = 3;
+		acre_hasInfantryPhone = 0;
+		canPush = 1;
+		RTG_Vehicle_Gear;
+	}
 	class UK3CB_MDF_B_Skiff;
 	class raider_fast_rhib: UK3CB_MDF_B_Skiff
 	{
@@ -2265,83 +1248,7 @@ class CfgVehicles
 		acre_hasInfantryPhone = 0;
 		ace_refuel_fuelCargo = 80;
 		canPush = 1;
-		class TransportItems
-		{
-			class _xx_rtg_pvs_15_black_gh
-			{
-				name = "rtg_pvs_15_black_gh";
-				count = 8;
-			};
-			class _xx_ACRE_PRC343
-			{
-				name = "ACRE_PRC343";
-				count = 2;
-			};
-			class _xx_ACRE_PRC152
-			{
-				name = "ACRE_PRC152";
-				count = 2;
-			};
-			class _xx_ACE_personalAidKit
-			{
-				name = "ACE_personalAidKit";
-				count = 8;
-			};
-			class _xx_ACE_Canteen
-			{
-				name = "ACE_Canteen";
-				count = 5;
-			};
-			class _xx_ACE_Can_Franta
-			{
-				name = "ACE_Can_Franta";
-				count = 9;
-			};
-			class _xx_ACE_MRE_BeefStew
-			{
-				name = "ACE_MRE_BeefStew";
-				count = 5;
-			};
-			class _xx_ACE_bodyBag
-			{
-				name = "ACE_bodyBag";
-				count = 9;
-			};
-		};
-		class TransportBackpacks
-		{
-			class _xx_rtg_medical_grabpack
-			{
-				backpack = "rtg_medical_grabpack";
-				count = 1;
-			};
-			class _xx_rtg_engineer_grabpack
-			{
-				backpack = "rtg_engineer_grabpack";
-				count = 1;
-			};
-		};
-		class TransportWeapons
-		{
-			class _xx_rhs_weap_m16a4_carryhandle
-			{
-				weapon = "rhs_weap_m16a4_carryhandle";
-				count = 2;
-			};
-		};
-		class TransportMagazines
-		{
-			class _xx_rtg_30rnd_556_45
-			{
-				magazine = "rtg_30rnd_556_45";
-				count = 10;
-			};
-			class _xx_rtg_200Rnd_762x51
-			{
-				magazine = "rtg_200Rnd_762x51";
-				count = 5;
-			};
-		};
+		RTG_Vehicle_Gear;
 	};
 	class B_CargoNet_01_ammo_F;
 	class rtg_BasicSupply: B_CargoNet_01_ammo_F
@@ -2780,6 +1687,17 @@ class CfgVehicles
 		editorCategory = "Raider_Tactical";
 		scope = 2;
 		dlc = "raiderTactical";
-		ace_repair_spareWheels = 16;
+		ace_cargo_space = 16;
+		class ace_cargo
+		{
+			class Cargo
+			{
+				class ACE_Wheel
+				{
+					type = "ACE_Wheel"; 
+					amount = 16;
+				};
+			};
+		};
 	};
 };

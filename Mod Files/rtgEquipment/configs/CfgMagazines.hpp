@@ -569,6 +569,6 @@ class CfgMagazines
 		initspeed		= 930;
 		maxleadspeed	= 100;
 		count			= 1100;
-		tracersevery	= 1;
+		tracersevery	= 5;
 	};
 };

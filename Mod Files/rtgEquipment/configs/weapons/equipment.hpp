@@ -3210,6 +3210,21 @@ class roreyHat : rhsusf_hgu56p_visor_mask_black
     };
 }; 
 
+// Kim
+class VSM_Scorpion_Crye_SS_grey_shirt_Camo;
+class rtg_kimUniform : VSM_Scorpion_Crye_SS_grey_shirt_Camo
+{
+	author = "Shrike";
+	scope = 2;
+	displayName = "[RTG] Kim (Crye)";
+	hiddenSelections[] = {"Camo"};
+	hiddenSelectionsTextures[] ={"\rtgEquipment\tex\kimUniform.paa"};
+	class ItemInfo : ItemInfo
+	{
+		uniformClass = rtg_kimUniform_soldier;
+	};
+};
+
 // meep
 class CADPAT_Helmet1;
 class meepHat  : CADPAT_Helmet1
