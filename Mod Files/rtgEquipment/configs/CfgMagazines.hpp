@@ -3,7 +3,7 @@ class CfgMagazines
 // MAAWS
     class MRAWS_HEAT_F;
     class rtg_MRAWS_HEAT_F : MRAWS_HEAT_F {
-        author = "Shrike";
+        
         ammo = "rtg_heat_MRAAWS";
         scope = 2;
         displayname = "[RTG] MAAWS HEAT";
@@ -13,7 +13,7 @@ class CfgMagazines
 
     class MRAWS_HE_F;
     class rtg_MRAWS_HE_F : MRAWS_HE_F {
-        author = "Shrike";
+        
         ammo = "rtg_hedp_MRAAWS";
         scope = 2;
         displayname = "[RTG] MAAWS HEDP";
@@ -22,7 +22,7 @@ class CfgMagazines
     };
 
     class rtg_MRAWS_SMK_F : rtg_MRAWS_HE_F {
-        author = "Shrike";
+        
         ammo = "rtg_smoke_MRAAWS";
         scope = 2;
         displayname = "[RTG] MAAWS Smoke";
@@ -34,7 +34,7 @@ class CfgMagazines
     class rhs_rpg7_PG7VM_mag;
     class rtg_rpg_smk_mag : rhs_rpg7_PG7VM_mag
     {
-        author = "Shrike";
+        
         ammo = "rtg_rpg_smoke";
         scope = 2;
         displayname = "[RTG] SM-7VM Smoke";
@@ -44,7 +44,7 @@ class CfgMagazines
 
     class rtg_rpg_heat_mag : rhs_rpg7_PG7VM_mag
     {
-        author = "Shrike";
+        
         ammo = "rtg_rpg_heat";
         scope = 2;
         displayname = "[RTG] PG-7VM HEAT";
@@ -55,7 +55,7 @@ class CfgMagazines
     class rhs_rpg7_OG7V_mag;
     class rtg_rpg_hedp_mag : rhs_rpg7_OG7V_mag 
     {
-        author = "Shrike";
+        
         ammo = "rtg_rpg_hedp";
         scope = 2;
         displayname = "[RTG] OG-7VM HEDP";
@@ -109,7 +109,7 @@ class CfgMagazines
     
 // 50 BMG 
     class rtg_10Rnd_127x99 : rhsusf_mag_10Rnd_STD_50BMG_M33 {
-        author = "Shrike";
+        
         ammo = "rtg_127x99";
         count = 10;
         tracersevery = 1;
@@ -121,7 +121,7 @@ class CfgMagazines
 
 // 7.62 Nato
     class rtg_20Rnd_762x51 : ACE_20Rnd_762x51_M118LR_Mag {
-        author = "Shrike";
+        
         ammo = "rtg_762_nato";
         count = 20;
         tracersevery = 3;
@@ -134,7 +134,7 @@ class CfgMagazines
 
     class rhsgref_8Rnd_762x63_Tracer_M1T_M1rifle;
     class rtg_8Rnd_762x51 : rhsgref_8Rnd_762x63_Tracer_M1T_M1rifle {
-        author = "Shrike";
+        
         ammo = "rtg_762_nato";
         count = 8;
         tracersevery = 1;
@@ -145,7 +145,7 @@ class CfgMagazines
     };
 
     class rtg_35Rnd_762x51 : hlc_30Rnd_762x51_B_L4 {
-        author = "Shrike";
+        
         ammo = "rtg_762_nato";
         count = 35;
         tracersevery = 3;
@@ -158,7 +158,7 @@ class CfgMagazines
     };
 	
     class rtg_200Rnd_762x51 : rhsusf_50Rnd_762x51 {
-        author = "Shrike";
+        
         ammo = "rtg_762_nato";
         count = 100;
         tracersevery = 3;
@@ -167,11 +167,11 @@ class CfgMagazines
         displayname = "[RTG] 100rnd 7.62mm MAG";
         displaynameshort = "100Rnd 7.62x51";
         scope = 2;
-        mass = 47;
+        mass = 44;
     };
 	
 	class rtg_200Rnd_762x51_t : rhsusf_50Rnd_762x51 {
-        author = "Shrike";
+        
         ammo = "rtg_762_nato";
         count = 100;
         tracersevery = 1;
@@ -180,12 +180,50 @@ class CfgMagazines
         displayname = "[RTG] 100rnd Tracer 7.62mm MAG";
         displaynameshort = "100Rnd Tracer 7.62x51";
         scope = 2;
-        mass = 47;
+        mass = 44.1;
+    };
+
+// .277 Fury
+    class rtg_20Rnd_68x51 : rtg_20Rnd_762x51 {
+        
+        ammo = "rtg_277";
+        count = 20;
+        tracersevery = 3;
+        lastroundstracer = 4;
+        descriptionshort = "Raider Tactical Standard Issue 6.8mm Ammo";
+        displayname = "[RTG] 20rnd 6.8mm MAG";
+        displaynameshort = "20Rnd 6.8x51";
+        scope = 2;
+    };
+
+    class rtg_100Rnd_68x51 : rtg_200Rnd_762x51 {
+        
+        ammo = "rtg_277";
+        count = 100;
+        tracersevery = 3;
+        lastroundstracer = 4;
+        descriptionshort = "Raider Tactical Standard Issue 6.8mm Ammo";
+        displayname = "[RTG] 100rnd 6.8mm MAG";
+        displaynameshort = "100Rnd 6.8x51";
+        scope = 2;
+        mass = 41;
+    };
+
+    class rtg_100Rnd_68x51_t : rtg_200Rnd_762x51 {
+        
+        ammo = "rtg_277";
+        count = 100;
+        tracersevery = 1;
+        descriptionshort = "Raider Tactical Standard Issue 6.8mm Tracer Ammo";
+        displayname = "[RTG] 100rnd Tracer 6.8mm MAG";
+        displaynameshort = "100Rnd Tracer 6.8x51";
+        scope = 2;
+        mass = 41.1;
     };
 	
 // .50 BW
 	class rtg_10rnd_10bw : rhs_mag_20Rnd_556x45_M855_Stanag {
-        author = "Shrike";
+        
         ammo = "rtg_50bw";
         count = 15;
         tracersevery = 1;
@@ -199,7 +237,7 @@ class CfgMagazines
 	
 // 5.56
     class rtg_30rnd_556_45 : ptv_30Rnd_556x45_L5awmc_pull {
-        author = "Shrike";
+        
         ammo = "rtg_556x45";
         count = 30;
         tracersevery = 3;
@@ -211,7 +249,7 @@ class CfgMagazines
     };
 
     class rtg_200rnd_556_45 : rhsusf_200Rnd_556x45_M855_soft_pouch_coyote {
-        author = "Shrike";
+        
         ammo = "rtg_556x45";
         count = 200;
         tracersevery = 3;
@@ -223,7 +261,7 @@ class CfgMagazines
     };
 	
 	class rtg_200rnd_556_45_t : rhsusf_200Rnd_556x45_M855_soft_pouch_coyote {
-        author = "Shrike";
+        
         ammo = "rtg_556x45";
         count = 200;
         tracersevery = 1;
@@ -235,7 +273,7 @@ class CfgMagazines
     };
 
     class rtg_100rnd_556_45 : rhs_mag_100Rnd_556x45_m855_cmag {
-        author = "Shrike";
+        
         ammo = "rtg_556x45";
         count = 100;
         tracersevery = 3;
@@ -248,7 +286,7 @@ class CfgMagazines
 	
 // .300 Blackout
     class rtg_200rnd_300_blk : rhsusf_200Rnd_556x45_M855_soft_pouch_ucp {
-        author = "Shrike";
+        
         ammo = "rtg_300blk";
         count = 200;
         tracersevery = 3;
@@ -260,7 +298,7 @@ class CfgMagazines
     };
 	
 	class rtg_200rnd_300_blk_t : rhsusf_200Rnd_556x45_M855_soft_pouch_ucp {
-        author = "Shrike";
+        
         ammo = "rtg_300blk";
         count = 200;
         tracersevery = 1;
@@ -272,7 +310,7 @@ class CfgMagazines
     };
 	
     class rtg_30rnd_300_blk : ptv_30Rnd_556x45_L5awmc_pull {
-        author = "Shrike";
+        
         ammo = "rtg_300blk";
         count = 30;
         tracersevery = 3;
@@ -284,7 +322,7 @@ class CfgMagazines
     };
 
     class rtg_100rnd_300_blk : rhs_mag_100Rnd_556x45_m855_cmag {
-        author = "Shrike";
+        
         ammo = "rtg_300blk";
         count = 100;
         tracersevery = 3;
@@ -297,7 +335,7 @@ class CfgMagazines
 
 // 9mm
     class rtg_9mm_35Rnd_mag : ACWP_19Rnd_9x21_Mag_glock {
-        author = "Shrike";
+        
         ammo = "rtg_9mm";
         count = 35;
         tracersevery = 3;
@@ -313,7 +351,7 @@ class CfgMagazines
 // 50AE
     class RH_7Rnd_50_AE;
     class rtg_50_ae_8rnd_mag : RH_7Rnd_50_AE {
-        author = "Shrike";
+        
         ammo = "rtg_50_AE";
         count = 8;
         tracersevery = 0;
@@ -325,7 +363,7 @@ class CfgMagazines
     };
 
     class rtg_50_ae_5rnd_mag : rtg_50_ae_8rnd_mag {
-        author = "Shrike";
+        
         ammo = "rtg_50_AE";
         count = 5;
         descriptionshort = "Raider Tactical Standard Issue 50 AE Ammo";
@@ -335,7 +373,7 @@ class CfgMagazines
     };
 
     class rtg_50_ae_20rnd_mag : ACWP_19Rnd_9x21_Mag_glock {
-        author = "Shrike";
+        
         ammo = "rtg_50_AE";
         count = 20;
         tracersevery = 0;
@@ -351,7 +389,7 @@ class CfgMagazines
 // 12 Gauge
     class rhsusf_5Rnd_00Buck;
     class rtg_6Rnd_00Buck : rhsusf_5Rnd_00Buck {
-        author = "Shrike";
+        
         ammo = "rtg_buckshot_pump";
         count = 6;
         tracersevery = 0;
@@ -363,7 +401,7 @@ class CfgMagazines
     };
 
     class rtg_6Rnd_Doom : rhsusf_5Rnd_00Buck {
-        author = "Shrike";
+        
         ammo = "rtg_doomrounds_pump";
         count = 6;
         tracersevery = 0;
@@ -376,7 +414,7 @@ class CfgMagazines
 
     class 30Rnd_762x39_AK12_Mag_F;
     class rtg_12g_15Rnd : 30Rnd_762x39_AK12_Mag_F {
-        author = "Shrike";
+        
         ammo = "rtg_buckshot";
         count = 15;
         tracersevery = 0;
@@ -388,7 +426,7 @@ class CfgMagazines
     };
 
     class rtg_12g_15Rnd_doom : rtg_12g_15Rnd {
-        author = "Shrike";
+        
         ammo = "rtg_doomrounds";
         count = 15;
         tracersevery = 0;
@@ -401,7 +439,7 @@ class CfgMagazines
 
     class 2Rnd_12Gauge_Slug;
     class rtg_nitroSlug : 2Rnd_12Gauge_Slug {
-        author = "Shrike";
+        
         ammo = "rtg_nitro";
         count = 2;
         tracersevery = 1;
@@ -415,7 +453,7 @@ class CfgMagazines
 // 45 ACP
     class rhsusf_mag_7x45acp_MHP;
     class rtg_8Rnd_45 : rhsusf_mag_7x45acp_MHP {
-        author = "Shrike";
+        
         ammo = "rtg_45";
         count = 9;
         tracersevery = 0;
@@ -429,7 +467,7 @@ class CfgMagazines
 // 40 SW
     class hlc_12Rnd_40SW_B_P226;
     class rtg_40SW : hlc_12Rnd_40SW_B_P226 {
-        author = "Shrike";
+        
         ammo = "rtg_40";
         count = 12;
         tracersevery = 0;
@@ -443,7 +481,7 @@ class CfgMagazines
 // 5.7 FN
     class 50Rnd_570x28_SMG_03;
     class rtg_p90 : 50Rnd_570x28_SMG_03 {
-        author = "Shrike";
+        
         ammo = "rtg_57";
         count = 50;
         tracersevery = 1;
@@ -457,7 +495,7 @@ class CfgMagazines
     class RH_20Rnd_57x28_FN;
     class rtg_fn57_20Rnd : RH_20Rnd_57x28_FN
     {
-        author = "Shrike";
+        
         ammo = "rtg_57";
         count = 20;
         tracersevery = 1;
@@ -472,7 +510,7 @@ class CfgMagazines
     class RH_6Rnd_454_Mag;
     class rtg_357_6Rnd : RH_6Rnd_454_Mag
     {
-        author = "Shrike";
+        
         ammo = "rtg_357mag";
         count = 6;
         tracersevery = 1;
@@ -486,7 +524,7 @@ class CfgMagazines
 // .44 Mag
     class rtg_44_6Rnd : rtg_357_6Rnd
     {
-        author = "Shrike";
+        
         ammo = "rtg_44mag";
         count = 6;
         tracersevery = 1;
@@ -499,7 +537,7 @@ class CfgMagazines
 
 // 14 Gauge
     class rtg_1Rnd_14g : rtg_6Rnd_00Buck {
-        author = "Shrike";
+        
         ammo = "rtg_buckshot_pump_14g";
         count = 1;
         tracersevery = 0;

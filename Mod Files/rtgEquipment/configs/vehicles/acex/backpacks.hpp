@@ -1,6 +1,6 @@
 class rtg_ace_expanded_backpack {
     label = "Backpack";
-    author = "Shrike";
+    
     options[] = {"style", "camo"};
     class style
     {

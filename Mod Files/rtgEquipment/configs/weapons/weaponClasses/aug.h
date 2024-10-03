@@ -161,59 +161,38 @@ class hlc_rifle_auga2para_b : hlc_rifle_auga2para
 };
 class hlc_rifle_auga1carb : hlc_rifle_aug
 {
-	class XtdGearInfo
-	{
-		model = "";
-	};
+	RTG_ACEAX_EMPTY 
 };
 class hlc_rifle_aughbar : hlc_rifle_aug
 {
-	class XtdGearInfo
-	{
-		model = "";
-	};
+	RTG_ACEAX_EMPTY 
 };
 class hlc_rifle_augpara : hlc_rifle_aug
 {
-	class XtdGearInfo
-	{
-		model = "";
-	};
+	RTG_ACEAX_EMPTY 
 };
 class hlc_rifle_auga2 : hlc_rifle_aug
 {
-	class XtdGearInfo
-	{
-		model = "";
-	};
+	RTG_ACEAX_EMPTY 
 };
 
 class rtg_pat_aug : hlc_rifle_auga1_b
 {
-	scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+	RTG_WEAPON_BASE
 	recoil = "rtg_556_rifle";
     displayName="AUG A1 - Pat";
 	hiddenSelections[] = {"Camo"};
 	hiddenSelectionsTextures[] = {"\rtgEquipment\tex\patAug.paa"};
-	class XtdGearInfo
-	{
-		model = "";
-	};
+	RTG_ACEAX_EMPTY 
 };
 
 class rtg_pat_aug_camo : rtg_pat_aug
 {
-	scope = 2;
-	dlc = "raiderTactical";
+	RTG_WEAPON_BASE
 	recoil = "rtg_556_rifle";
-	Author = "Shrike";
+	
     displayName="AUG A1 - Pat (Camo)";
 	hiddenSelections[] = {"Camo"};
 	hiddenSelectionsTextures[] = {"\rtgEquipment\tex\patAugCamo.paa"};
-	class XtdGearInfo
-	{
-		model = "";
-	};
+	RTG_ACEAX_EMPTY 
 };

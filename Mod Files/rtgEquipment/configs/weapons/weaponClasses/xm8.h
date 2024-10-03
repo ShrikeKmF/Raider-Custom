@@ -1,9 +1,7 @@
 // 556
 class HLC_rifle_XM8_Carbine;
 class HLC_Rifle_XM8_MWSF_Carbine : HLC_rifle_XM8_Carbine {
-	scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+	RTG_WEAPON_BASE
 	magazineWell[] = {"CBA_556x45_STANAG"};
 	magazines[] = {"rtg_30rnd_556_45"};
 	recoil = "rtg_556_carbine";
@@ -40,9 +38,7 @@ class HLC_Rifle_XM8_MWSF_Carbine : HLC_rifle_XM8_Carbine {
 	};
 };
 class HLC_rifle_XM8_MWSF_Carbine_Green : HLC_Rifle_XM8_MWSF_Carbine {
-	scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+	RTG_WEAPON_BASE
 	magazineWell[] = {"CBA_556x45_STANAG"};
 	magazines[] = {"rtg_30rnd_556_45"};
 	recoil = "rtg_556_carbine";
@@ -79,9 +75,7 @@ class HLC_rifle_XM8_MWSF_Carbine_Green : HLC_Rifle_XM8_MWSF_Carbine {
 	};
 };
 class HLC_rifle_XM8_MWSF_Carbine_OD : HLC_Rifle_XM8_MWSF_Carbine {
-	scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+	RTG_WEAPON_BASE
 	magazineWell[] = {"CBA_556x45_STANAG"};
 	magazines[] = {"rtg_30rnd_556_45"};
 	recoil = "rtg_556_carbine";
@@ -118,9 +112,7 @@ class HLC_rifle_XM8_MWSF_Carbine_OD : HLC_Rifle_XM8_MWSF_Carbine {
 	};
 };
 class HLC_rifle_XM8_MWSF_Carbine_Tan : HLC_Rifle_XM8_MWSF_Carbine {
-	scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+	RTG_WEAPON_BASE
 	magazineWell[] = {"CBA_556x45_STANAG"};
 	magazines[] = {"rtg_30rnd_556_45"};
 	recoil = "rtg_556_carbine";
@@ -158,9 +150,7 @@ class HLC_rifle_XM8_MWSF_Carbine_Tan : HLC_Rifle_XM8_MWSF_Carbine {
 };
 class hlc_rifle_XM8_Compact;
 class hlc_rifle_XM8_MWSF_Compact : hlc_rifle_XM8_Compact {
-	scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+	RTG_WEAPON_BASE
 	magazineWell[] = {"CBA_556x45_STANAG"};
 	magazines[] = {"rtg_30rnd_556_45"};
 	recoil = "rtg_556_pdw";
@@ -197,9 +187,7 @@ class hlc_rifle_XM8_MWSF_Compact : hlc_rifle_XM8_Compact {
 	};
 };
 class HLC_Rifle_XM8_MWSF_Compact_Green : hlc_rifle_XM8_MWSF_Compact {
-	scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+	RTG_WEAPON_BASE
 	magazineWell[] = {"CBA_556x45_STANAG"};
 	magazines[] = {"rtg_30rnd_556_45"};
 	recoil = "rtg_556_pdw";
@@ -236,9 +224,7 @@ class HLC_Rifle_XM8_MWSF_Compact_Green : hlc_rifle_XM8_MWSF_Compact {
 	};
 };
 class HLC_Rifle_XM8_MWSF_Compact_OD : hlc_rifle_XM8_MWSF_Compact {
-	scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+	RTG_WEAPON_BASE
 	magazineWell[] = {"CBA_556x45_STANAG"};
 	magazines[] = {"rtg_30rnd_556_45"};
 	recoil = "rtg_556_pdw";
@@ -251,9 +237,7 @@ class HLC_Rifle_XM8_MWSF_Compact_OD : hlc_rifle_XM8_MWSF_Compact {
 	};
 };
 class HLC_Rifle_XM8_MWSF_Compact_Tan : hlc_rifle_XM8_MWSF_Compact {
-	scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+	RTG_WEAPON_BASE
 	magazineWell[] = {"CBA_556x45_STANAG"};
 	magazines[] = {"rtg_30rnd_556_45"};
 	recoil = "rtg_556_pdw";
@@ -267,9 +251,7 @@ class HLC_Rifle_XM8_MWSF_Compact_Tan : hlc_rifle_XM8_MWSF_Compact {
 };
 class hlc_rifle_XM8_DMAR;
 class hlc_rifle_XM8_MWSF_DMAR : hlc_rifle_XM8_DMAR {
-	scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+	RTG_WEAPON_BASE
 	magazineWell[] = {"CBA_556x45_STANAG"};
 	magazines[] = {"rtg_30rnd_556_45"};
 	recoil = "rtg_556_rifle";
@@ -282,9 +264,7 @@ class hlc_rifle_XM8_MWSF_DMAR : hlc_rifle_XM8_DMAR {
 	};
 };
 class HLC_Rifle_XM8_MWSF_DMAR_Green : hlc_rifle_XM8_MWSF_DMAR {
-	scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+	RTG_WEAPON_BASE
 	magazineWell[] = {"CBA_556x45_STANAG"};
 	magazines[] = {"rtg_30rnd_556_45"};
 	recoil = "rtg_556_rifle";
@@ -297,9 +277,7 @@ class HLC_Rifle_XM8_MWSF_DMAR_Green : hlc_rifle_XM8_MWSF_DMAR {
 	};
 };
 class HLC_Rifle_XM8_MWSF_DMAR_OD : hlc_rifle_XM8_MWSF_DMAR {
-	scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+	RTG_WEAPON_BASE
 	magazineWell[] = {"CBA_556x45_STANAG"};
 	magazines[] = {"rtg_30rnd_556_45"};
 	recoil = "rtg_556_rifle";
@@ -312,9 +290,7 @@ class HLC_Rifle_XM8_MWSF_DMAR_OD : hlc_rifle_XM8_MWSF_DMAR {
 	};
 };
 class HLC_Rifle_XM8_MWSF_DMAR_Tan : hlc_rifle_XM8_MWSF_DMAR {
-	scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+	RTG_WEAPON_BASE
 	magazineWell[] = {"CBA_556x45_STANAG"};
 	magazines[] = {"rtg_30rnd_556_45"};
 	recoil = "rtg_556_rifle";
@@ -329,9 +305,7 @@ class HLC_Rifle_XM8_MWSF_DMAR_Tan : hlc_rifle_XM8_MWSF_DMAR {
 
 // GL
 class HLC_Rifle_XM8_MWSF_Carbine_GL : HLC_Rifle_XM8_MWSF_Carbine {
-	scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+	RTG_WEAPON_BASE
 	magazineWell[] = {"CBA_556x45_STANAG"};
 	magazines[] = {"rtg_30rnd_556_45"};
 	recoil = "rtg_556_carbine";
@@ -343,9 +317,7 @@ class HLC_Rifle_XM8_MWSF_Carbine_GL : HLC_Rifle_XM8_MWSF_Carbine {
 	};
 };
 class HLC_Rifle_XM8_MWSF_Carbine_GL_Green : HLC_Rifle_XM8_MWSF_Carbine_GL {
-	scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+	RTG_WEAPON_BASE
 	magazineWell[] = {"CBA_556x45_STANAG"};
 	magazines[] = {"rtg_30rnd_556_45"};
 	recoil = "rtg_556_carbine";
@@ -357,9 +329,7 @@ class HLC_Rifle_XM8_MWSF_Carbine_GL_Green : HLC_Rifle_XM8_MWSF_Carbine_GL {
 	};
 };
 class HLC_Rifle_XM8_MWSF_Carbine_GL_OD : HLC_Rifle_XM8_MWSF_Carbine_GL {
-	scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+	RTG_WEAPON_BASE
 	magazineWell[] = {"CBA_556x45_STANAG"};
 	magazines[] = {"rtg_30rnd_556_45"};
 	recoil = "rtg_556_carbine";
@@ -371,9 +341,7 @@ class HLC_Rifle_XM8_MWSF_Carbine_GL_OD : HLC_Rifle_XM8_MWSF_Carbine_GL {
 	};
 };
 class HLC_Rifle_XM8_MWSF_Carbine_GL_Tan : HLC_Rifle_XM8_MWSF_Carbine_GL {
-	scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+	RTG_WEAPON_BASE
 	magazineWell[] = {"CBA_556x45_STANAG"};
 	magazines[] = {"rtg_30rnd_556_45"};
 	recoil = "rtg_556_carbine";
@@ -387,9 +355,7 @@ class HLC_Rifle_XM8_MWSF_Carbine_GL_Tan : HLC_Rifle_XM8_MWSF_Carbine_GL {
 
 // 300 BLK 
 class rtg_Rifle_XM8_MWSF_Carbine : HLC_Rifle_XM8_MWSF_Carbine {
-	scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+	RTG_WEAPON_BASE
 	magazineWell[] = {"CBA_300BLK_STANAG"};
 	magazines[] = {"rtg_30rnd_300_blk"};
 	baseWeapon = "rtg_Rifle_XM8_MWSF_Carbine";
@@ -431,9 +397,7 @@ class rtg_Rifle_XM8_MWSF_Carbine : HLC_Rifle_XM8_MWSF_Carbine {
 	};
 };
 class rtg_rifle_XM8_MWSF_Carbine_Green : HLC_rifle_XM8_MWSF_Carbine_Green {
-	scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+	RTG_WEAPON_BASE
 	magazineWell[] = {"CBA_300BLK_STANAG"};
 	magazines[] = {"rtg_30rnd_300_blk"};
 	baseWeapon = "rtg_rifle_XM8_MWSF_Carbine_Green";
@@ -475,9 +439,7 @@ class rtg_rifle_XM8_MWSF_Carbine_Green : HLC_rifle_XM8_MWSF_Carbine_Green {
 	};
 };
 class rtg_rifle_XM8_MWSF_Carbine_OD : HLC_rifle_XM8_MWSF_Carbine_OD {
-	scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+	RTG_WEAPON_BASE
 	magazineWell[] = {"CBA_300BLK_STANAG"};
 	magazines[] = {"rtg_30rnd_300_blk"};
 	baseWeapon = "rtg_rifle_XM8_MWSF_Carbine_OD";
@@ -519,9 +481,7 @@ class rtg_rifle_XM8_MWSF_Carbine_OD : HLC_rifle_XM8_MWSF_Carbine_OD {
 	};
 };
 class rtg_rifle_XM8_MWSF_Carbine_Tan : HLC_rifle_XM8_MWSF_Carbine_Tan {
-	scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+	RTG_WEAPON_BASE
 	magazineWell[] = {"CBA_300BLK_STANAG"};
 	magazines[] = {"rtg_30rnd_300_blk"};
 	baseWeapon = "rtg_rifle_XM8_MWSF_Carbine_Tan";
@@ -540,9 +500,7 @@ class rtg_rifle_XM8_MWSF_Carbine_Tan : HLC_rifle_XM8_MWSF_Carbine_Tan {
 };
 
 class rtg_rifle_XM8_MWSF_Compact : hlc_rifle_XM8_MWSF_Compact {
-	scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+	RTG_WEAPON_BASE
 	magazineWell[] = {"CBA_300BLK_STANAG"};
 	magazines[] = {"rtg_30rnd_300_blk"};
 	baseWeapon = "rtg_rifle_XM8_MWSF_Compact";
@@ -584,9 +542,7 @@ class rtg_rifle_XM8_MWSF_Compact : hlc_rifle_XM8_MWSF_Compact {
 	};
 };
 class rtg_Rifle_XM8_MWSF_Compact_Green : HLC_Rifle_XM8_MWSF_Compact_Green {
-	scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+	RTG_WEAPON_BASE
 	magazineWell[] = {"CBA_300BLK_STANAG"};
 	magazines[] = {"rtg_30rnd_300_blk"};
 	baseWeapon = "rtg_Rifle_XM8_MWSF_Compact_Green";
@@ -628,9 +584,7 @@ class rtg_Rifle_XM8_MWSF_Compact_Green : HLC_Rifle_XM8_MWSF_Compact_Green {
 	};
 };
 class rtg_Rifle_XM8_MWSF_Compact_OD : HLC_Rifle_XM8_MWSF_Compact_OD {
-	scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+	RTG_WEAPON_BASE
 	magazineWell[] = {"CBA_300BLK_STANAG"};
 	magazines[] = {"rtg_30rnd_300_blk"};
 	baseWeapon = "rtg_Rifle_XM8_MWSF_Compact_OD";
@@ -672,9 +626,7 @@ class rtg_Rifle_XM8_MWSF_Compact_OD : HLC_Rifle_XM8_MWSF_Compact_OD {
 	};
 };
 class rtg_Rifle_XM8_MWSF_Compact_Tan : HLC_Rifle_XM8_MWSF_Compact_Tan {
-	scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+	RTG_WEAPON_BASE
 	magazineWell[] = {"CBA_300BLK_STANAG"};
 	magazines[] = {"rtg_30rnd_300_blk"};
 	baseWeapon = "rtg_Rifle_XM8_MWSF_Compact_Tan";
@@ -717,9 +669,7 @@ class rtg_Rifle_XM8_MWSF_Compact_Tan : HLC_Rifle_XM8_MWSF_Compact_Tan {
 };
 
 class rtg_rifle_XM8_MWSF_DMAR : hlc_rifle_XM8_MWSF_DMAR {
-	scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+	RTG_WEAPON_BASE
 	magazineWell[] = {"CBA_300BLK_STANAG"};
 	magazines[] = {"rtg_30rnd_300_blk"};
 	baseWeapon = "rtg_rifle_XM8_MWSF_DMAR";
@@ -761,9 +711,7 @@ class rtg_rifle_XM8_MWSF_DMAR : hlc_rifle_XM8_MWSF_DMAR {
 	};
 };
 class rtg_Rifle_XM8_MWSF_DMAR_Green : HLC_Rifle_XM8_MWSF_DMAR_Green {
-	scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+	RTG_WEAPON_BASE
 	magazineWell[] = {"CBA_300BLK_STANAG"};
 	magazines[] = {"rtg_30rnd_300_blk"};
 	baseWeapon = "rtg_Rifle_XM8_MWSF_DMAR_Green";
@@ -805,9 +753,7 @@ class rtg_Rifle_XM8_MWSF_DMAR_Green : HLC_Rifle_XM8_MWSF_DMAR_Green {
 	};
 };
 class rtg_Rifle_XM8_MWSF_DMAR_OD : HLC_Rifle_XM8_MWSF_DMAR_OD {
-	scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+	RTG_WEAPON_BASE
 	magazineWell[] = {"CBA_300BLK_STANAG"};
 	magazines[] = {"rtg_30rnd_300_blk"};
 	baseWeapon = "rtg_Rifle_XM8_MWSF_DMAR_OD";
@@ -849,9 +795,7 @@ class rtg_Rifle_XM8_MWSF_DMAR_OD : HLC_Rifle_XM8_MWSF_DMAR_OD {
 	};
 };
 class rtg_Rifle_XM8_MWSF_DMAR_Tan : HLC_Rifle_XM8_MWSF_DMAR_Tan {
-	scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+	RTG_WEAPON_BASE
 	magazineWell[] = {"CBA_300BLK_STANAG"};
 	magazines[] = {"rtg_30rnd_300_blk"};
 	baseWeapon = "rtg_Rifle_XM8_MWSF_DMAR_Tan";
@@ -871,9 +815,7 @@ class rtg_Rifle_XM8_MWSF_DMAR_Tan : HLC_Rifle_XM8_MWSF_DMAR_Tan {
 
 // GL
 class rtg_Rifle_XM8_MWSF_Carbine_GL : HLC_Rifle_XM8_MWSF_Carbine_GL {
-	scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+	RTG_WEAPON_BASE
 	magazineWell[] = {"CBA_300BLK_STANAG"};
 	magazines[] = {"rtg_30rnd_300_blk"};
 	baseWeapon = "rtg_Rifle_XM8_MWSF_Carbine_GL";
@@ -890,9 +832,7 @@ class rtg_Rifle_XM8_MWSF_Carbine_GL : HLC_Rifle_XM8_MWSF_Carbine_GL {
 	};
 };
 class rtg_Rifle_XM8_MWSF_Carbine_GL_Green : HLC_Rifle_XM8_MWSF_Carbine_GL_Green {
-	scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+	RTG_WEAPON_BASE
 	magazineWell[] = {"CBA_300BLK_STANAG"};
 	magazines[] = {"rtg_30rnd_300_blk"};
 	baseWeapon = "rtg_Rifle_XM8_MWSF_Carbine_GL_Green";
@@ -909,9 +849,7 @@ class rtg_Rifle_XM8_MWSF_Carbine_GL_Green : HLC_Rifle_XM8_MWSF_Carbine_GL_Green 
 	};
 };
 class rtg_Rifle_XM8_MWSF_Carbine_GL_OD : HLC_Rifle_XM8_MWSF_Carbine_GL_OD {
-	scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+	RTG_WEAPON_BASE
 	magazineWell[] = {"CBA_300BLK_STANAG"};
 	magazines[] = {"rtg_30rnd_300_blk"};
 	baseWeapon = "rtg_Rifle_XM8_MWSF_Carbine_GL_OD";
@@ -928,9 +866,7 @@ class rtg_Rifle_XM8_MWSF_Carbine_GL_OD : HLC_Rifle_XM8_MWSF_Carbine_GL_OD {
 	};
 };
 class rtg_Rifle_XM8_MWSF_Carbine_GL_Tan : HLC_Rifle_XM8_MWSF_Carbine_GL_Tan {
-	scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+	RTG_WEAPON_BASE
 	magazineWell[] = {"CBA_300BLK_STANAG"};
 	magazines[] = {"rtg_30rnd_300_blk"};
 	baseWeapon = "rtg_Rifle_XM8_MWSF_Carbine_GL_Tan";
@@ -949,9 +885,7 @@ class rtg_Rifle_XM8_MWSF_Carbine_GL_Tan : HLC_Rifle_XM8_MWSF_Carbine_GL_Tan {
 
 // 50 BW 
 class rtg_rifle_XM8_MWSF_DMAR_50 : hlc_rifle_XM8_MWSF_DMAR {
-	scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+	RTG_WEAPON_BASE
 	magazineWell[] = {"rtg_50_bw_STANAG"};
 	magazines[] = {"rtg_10rnd_10bw"};
 	baseWeapon = "rtg_rifle_XM8_MWSF_DMAR_50";
@@ -993,9 +927,7 @@ class rtg_rifle_XM8_MWSF_DMAR_50 : hlc_rifle_XM8_MWSF_DMAR {
 	};
 };
 class rtg_Rifle_XM8_MWSF_DMAR_Green_50 : HLC_Rifle_XM8_MWSF_DMAR_Green {
-	scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+	RTG_WEAPON_BASE
 	magazineWell[] = {"rtg_50_bw_STANAG"};
 	magazines[] = {"rtg_10rnd_10bw"};
 	baseWeapon = "rtg_Rifle_XM8_MWSF_DMAR_Green_50";
@@ -1037,9 +969,7 @@ class rtg_Rifle_XM8_MWSF_DMAR_Green_50 : HLC_Rifle_XM8_MWSF_DMAR_Green {
 	};
 };
 class rtg_Rifle_XM8_MWSF_DMAR_OD_50 : HLC_Rifle_XM8_MWSF_DMAR_OD {
-	scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+	RTG_WEAPON_BASE
 	magazineWell[] = {"rtg_50_bw_STANAG"};
 	magazines[] = {"rtg_10rnd_10bw"};
 	baseWeapon = "rtg_Rifle_XM8_MWSF_DMAR_OD_50";
@@ -1081,9 +1011,7 @@ class rtg_Rifle_XM8_MWSF_DMAR_OD_50 : HLC_Rifle_XM8_MWSF_DMAR_OD {
 	};
 };
 class rtg_Rifle_XM8_MWSF_DMAR_Tan_50 : HLC_Rifle_XM8_MWSF_DMAR_Tan {
-	scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+	RTG_WEAPON_BASE
 	magazineWell[] = {"rtg_50_bw_STANAG"};
 	magazines[] = {"rtg_10rnd_10bw"};
 	baseWeapon = "rtg_Rifle_XM8_MWSF_DMAR_Tan_50";

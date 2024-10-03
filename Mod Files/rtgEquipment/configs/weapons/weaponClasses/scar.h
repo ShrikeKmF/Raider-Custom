@@ -594,127 +594,73 @@ class hlc_wp_SSR_camo : hlc_WP_SSR
 // SCAR Other
 class hlc_wp_SCARH_STD_SRX : hlc_wp_SCARH_STD
 {
-	class XtdGearInfo
-	{
-		model = "";
-	};
+	RTG_ACEAX_EMPTY 
 };
 class hlc_wp_SCARH_STD_SRX_Blk : hlc_wp_SCARH_STD_SRX
 {
-	class XtdGearInfo
-	{
-		model = "";
-	};
+	RTG_ACEAX_EMPTY 
 };
 class hlc_wp_SCARH_CQC_SRX : hlc_wp_SCARH_STD
 {
-	class XtdGearInfo
-	{
-		model = "";
-	};
+	RTG_ACEAX_EMPTY 
 };
 class hlc_wp_SCARH_CQC_SRX_Blk : hlc_wp_SCARH_CQC_SRX
 {
-	class XtdGearInfo
-	{
-		model = "";
-	};
+	RTG_ACEAX_EMPTY 
 };
 class hlc_wp_SCARH_STD_SRX_camo : hlc_wp_SCARH_STD_SRX
 {
-	class XtdGearInfo
-	{
-		model = "";
-	};
+	RTG_ACEAX_EMPTY 
 };
 class hlc_wp_SCARL_STD_SRX : hlc_wp_SCARL_STD
 {
-	class XtdGearInfo
-	{
-		model = "";
-	};
+	RTG_ACEAX_EMPTY 
 };
 class hlc_wp_SCARL_STD_SRX_Blk : hlc_wp_SCARL_STD_SRX
 {
-	class XtdGearInfo
-	{
-		model = "";
-	};
+	RTG_ACEAX_EMPTY 
 };
 class hlc_wp_SCARL_STD_SRX_camo : hlc_wp_SCARL_STD_SRX
 {
-	class XtdGearInfo
-	{
-		model = "";
-	};
+	RTG_ACEAX_EMPTY 
 };
 class hlc_wp_SCARL_STD_300AAC_SRX : hlc_wp_SCARL_STD
 {
-	class XtdGearInfo
-	{
-		model = "";
-	};
+	RTG_ACEAX_EMPTY 
 };
 class hlc_wp_SCARL_STD_300AAC_SRX_Blk : hlc_wp_SCARL_STD_300AAC_SRX
 {
-	class XtdGearInfo
-	{
-		model = "";
-	};
+	RTG_ACEAX_EMPTY 
 };
 class hlc_wp_MK17 : hlc_wp_SCARH_STD
 {
-	class XtdGearInfo
-	{
-		model = "";
-	};
+	RTG_ACEAX_EMPTY 
 };
 class hlc_wp_MK17_CQC : hlc_wp_MK17
 {
-	class XtdGearInfo
-	{
-		model = "";
-	};
+	RTG_ACEAX_EMPTY 
 };
 class hlc_wp_MK17_CQC_AGC : hlc_wp_MK17_CQC
 {
-	class XtdGearInfo
-	{
-		model = "";
-	};
+	RTG_ACEAX_EMPTY 
 };
 class hlc_wp_MK17_CQC_AGC_camo : hlc_wp_MK17_CQC_AGC
 {
-	class XtdGearInfo
-	{
-		model = "";
-	};
+	RTG_ACEAX_EMPTY 
 };
 class hlc_WP_Mk17IUR : hlc_wp_MK17
 {
-	class XtdGearInfo
-	{
-		model = "";
-	};
+	RTG_ACEAX_EMPTY 
 };
 class hlc_wp_MK17IUR_AGC : hlc_WP_Mk17IUR
 {
-	class XtdGearInfo
-	{
-		model = "";
-	};
+	RTG_ACEAX_EMPTY 
 };
 class hlc_wp_MK17IUR_AGC_blk : hlc_wp_MK17IUR_AGC
 {
-	class XtdGearInfo
-	{
-		model = "";
-	};
+	RTG_ACEAX_EMPTY 
 };
 class hlc_wp_MK17IUR_AGC_camo : hlc_wp_MK17IUR_AGC
 {
-	class XtdGearInfo
-	{
-		model = "";
-	};
+	RTG_ACEAX_EMPTY 
 };

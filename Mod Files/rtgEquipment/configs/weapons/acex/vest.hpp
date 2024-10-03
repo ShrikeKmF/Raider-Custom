@@ -1,6 +1,6 @@
 class rtg_ace_expanded_vest {
     label = "VSM Vest";
-    author = "Shrike";
+    
     options[] = {"role", "type", "camo"};
     class role
     {
@@ -106,7 +106,7 @@ class rtg_ace_expanded_vest {
 
 class rtg_ace_expanded_avs {
     label = "AVS Vest";
-    author = "Shrike";
+    
     options[] = {"variant", "type", "camo"};
     class variant
     {
@@ -192,7 +192,7 @@ class rtg_ace_expanded_avs {
 
 class rtg_ace_expanded_akvest {
     label = "Eastern Vests";
-    author = "Shrike";
+    
     options[] = {"equipment", "type", "camo"};
     class equipment
     {

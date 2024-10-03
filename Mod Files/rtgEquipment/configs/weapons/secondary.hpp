@@ -5,9 +5,8 @@ class RH_deagleg;
 class RH_tec9;
 class rtg_deagle_black : RH_deagle
 {
-	scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shike";
+	RTG_WEAPON_BASE
+	
 	displayName = "Desert Eagle Black";
 	baseWeapon = "rtg_deagle_black";
 	magazineWell[] = {"RTG_50_AE"};
@@ -20,9 +19,8 @@ class rtg_deagle_black : RH_deagle
 };
 class rtg_deagle_gold : RH_deagleg
 {
-	scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shike";
+	RTG_WEAPON_BASE
+	
 	displayName = "Desert Eagle Gold";
 	baseWeapon = "rtg_deagle_gold";
 	magazineWell[] = {"RTG_50_AE"};
@@ -35,9 +33,8 @@ class rtg_deagle_gold : RH_deagleg
 };
 class rtg_deagle_silver : RH_deagles
 {
-	scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shike";
+	RTG_WEAPON_BASE
+	
 	displayName = "Desert Eagle Silver";
 	baseWeapon = "rtg_deagle_silver";
 	magazineWell[] = {"RTG_50_AE"};
@@ -50,9 +47,8 @@ class rtg_deagle_silver : RH_deagles
 };
 class rtg_tec9 : RH_tec9
 {
-	scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shike";
+	RTG_WEAPON_BASE
+	
 	displayName = "Tec9 Black";
 	baseWeapon = "rtg_tec9";
 	magazineWell[] = {"RTG_9x19"};
@@ -73,9 +69,8 @@ class rhsusf_weap_m1911a1;
 class hgun_ACPC2_F;
 class rtg_hgun_heavy : hgun_Pistol_heavy_01_F
 {
-	scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shike";
+	RTG_WEAPON_BASE
+	
 	displayName = "FNX-45 Tan";
 	baseWeapon = "rtg_hgun_heavy";
 	magazineWell[] = {"CBA_45ACP_1911"};
@@ -111,9 +106,8 @@ class rtg_hgun_heavy : hgun_Pistol_heavy_01_F
 };
 class rtg_hgun_heavy_green : hgun_Pistol_heavy_01_green_F
 {
-	scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shike";
+	RTG_WEAPON_BASE
+	
 	displayName = "FNX-45 Green";
 	baseWeapon = "rtg_hgun_heavy_green";
 	magazineWell[] = {"CBA_45ACP_1911"};
@@ -149,9 +143,8 @@ class rtg_hgun_heavy_green : hgun_Pistol_heavy_01_green_F
 };
 class rtg_1911a1 : rhsusf_weap_m1911a1
 {
-	scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shike";
+	RTG_WEAPON_BASE
+	
 	displayName = "M1911A1";
 	baseWeapon = "rtg_1911a1";
 	magazineWell[] = {"CBA_45ACP_1911"};
@@ -181,9 +174,8 @@ class rtg_1911a1 : rhsusf_weap_m1911a1
 };
 class RH_kimber;
 class rtg_1911_modern : RH_kimber {
-	scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shike";
+	RTG_WEAPON_BASE
+	
 	displayName = "M1911A3";
 	baseWeapon = "rtg_1911_modern";
 	magazineWell[] = {"CBA_45ACP_1911"};
@@ -215,9 +207,8 @@ class rtg_1911_modern : RH_kimber {
 
 class RH_usp;
 class rtg_hk_45 : RH_usp {
-	scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shike";
+	RTG_WEAPON_BASE
+	
 	displayName = "USP .45";
 	baseWeapon = "rtg_hk_45";
 	magazineWell[] = {"CBA_45ACP_1911"};
@@ -249,9 +240,8 @@ class rtg_hk_45 : RH_usp {
 
 class acwp_glock17_black;
 class rtg_g17_40 : acwp_glock17_black {
-	scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shike";
+	RTG_WEAPON_BASE
+	
 	displayName = "Glock 17 .40 SW";
 	baseWeapon = "rtg_g17_40";
 	magazineWell[] = {"CBA_40SW_P229"};
@@ -284,9 +274,8 @@ class rtg_g17_40 : acwp_glock17_black {
 class rhsusf_weap_m9;
 class rtg_m93R : rhsusf_weap_m9
 {
-	scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shike";
+	RTG_WEAPON_BASE
+	
 	baseWeapon = "rtg_m93R";
 	displayName = "M93R Barreta";
 	modes[] = {"Burst", "Single1"};
@@ -338,9 +327,8 @@ class rtg_m93R : rhsusf_weap_m9
 
 class rhs_weap_M320;
 class rtg_weap_m79 : rhs_weap_M320 {
-	scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shike";
+	RTG_WEAPON_BASE
+	
 	baseWeapon = "rtg_weap_m79";
 	displayName = "M79 Grenade Launcher";
 	model = "\rhsgref\addons\rhsgref_weapons2\m79\rhs_M79";
@@ -351,9 +339,8 @@ class rtg_weap_m79 : rhs_weap_M320 {
 class RH_fn57;
 class rtg_fn57 : RH_fn57
 {
-	scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shike";
+	RTG_WEAPON_BASE
+	
 	magazineWell[] = {"rtg_fn57_20Rnd"};
 	magazines[] = {"rtg_fn57_20Rnd"};
 	baseWeapon = "rtg_fn57";
@@ -387,9 +374,8 @@ class rtg_fn57 : RH_fn57
 class RH_fn57_t;
 class rtg_fn57_t : RH_fn57_t
 {
-	scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shike";
+	RTG_WEAPON_BASE
+	
 	magazineWell[] = {"rtg_fn57_20Rnd"};
 	magazines[] = {"rtg_fn57_20Rnd"};
 	baseWeapon = "rtg_fn57_t";
@@ -423,9 +409,8 @@ class rtg_fn57_t : RH_fn57_t
 class RH_fn57_g;
 class rtg_fn57_g : RH_fn57_g
 {
-	scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shike";
+	RTG_WEAPON_BASE
+	
 	magazineWell[] = {"rtg_fn57_20Rnd"};
 	magazines[] = {"rtg_fn57_20Rnd"};
 	baseWeapon = "rtg_fn57_g";
@@ -459,9 +444,8 @@ class rtg_fn57_g : RH_fn57_g
 class RH_python;
 class rtg_coltPython : RH_python
 {
-	scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shike";
+	RTG_WEAPON_BASE
+	
 	magazineWell[] = {"rtg_357_6Rnd"};
 	magazines[] = {"rtg_357_6Rnd"};
 	baseWeapon = "rtg_coltPython";
@@ -470,9 +454,8 @@ class rtg_coltPython : RH_python
 class RH_mateba;
 class rtg_mateba : RH_mateba
 {
-	scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shike";
+	RTG_WEAPON_BASE
+	
 	magazineWell[] = {"rtg_44_6Rnd"};
 	magazines[] = {"rtg_44_6Rnd"};
 	baseWeapon = "rtg_mateba";
@@ -481,9 +464,8 @@ class rtg_mateba : RH_mateba
 class RH_bull;
 class rtg_bull : RH_bull
 {
-	scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shike";
+	RTG_WEAPON_BASE
+	
 	magazineWell[] = {"rtg_44_6Rnd"};
 	magazines[] = {"rtg_44_6Rnd"};
 	baseWeapon = "rtg_bull";
@@ -496,9 +478,8 @@ class rtg_bull : RH_bull
 class RH_bullb;
 class rtg_bull_b : RH_bullb
 {
-	scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shike";
+	RTG_WEAPON_BASE
+	
 	magazineWell[] = {"rtg_44_6Rnd"};
 	magazines[] = {"rtg_44_6Rnd"};
 	baseWeapon = "rtg_bull_b";
@@ -512,9 +493,8 @@ class rtg_bull_b : RH_bullb
 class RH_ttracker;
 class rtg_tracker : RH_ttracker
 {
-	scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shike";
+	RTG_WEAPON_BASE
+	
 	magazineWell[] = {"rtg_357_6Rnd"};
 	magazines[] = {"rtg_357_6Rnd"};
 	baseWeapon = "rtg_tracker";
@@ -527,9 +507,8 @@ class rtg_tracker : RH_ttracker
 class RH_ttracker_g;
 class rtg_tracker_g : RH_ttracker_g
 {
-	scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shike";
+	RTG_WEAPON_BASE
+	
 	magazineWell[] = {"rtg_357_6Rnd"};
 	magazines[] = {"rtg_357_6Rnd"};
 	baseWeapon = "rtg_tracker_g";
@@ -543,9 +522,8 @@ class rtg_tracker_g : RH_ttracker_g
 class RH_mp412;
 class rtg_rex : RH_mp412
 {
-	scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shike";
+	RTG_WEAPON_BASE
+	
 	magazineWell[] = {"rtg_357_6Rnd"};
 	magazines[] = {"rtg_357_6Rnd"};
 	baseWeapon = "rtg_rex";
@@ -554,9 +532,8 @@ class rtg_rex : RH_mp412
 class hgun_Pistol_Signal_F;
 class rtg_pellet_handgun : hgun_Pistol_Signal_F
 {
-	scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shike";
+	RTG_WEAPON_BASE
+	
 	magazineWell[] = {"rtg_1Rnd_14g"};
 	magazines[] = {"rtg_1Rnd_14g"};
 	baseWeapon = "rtg_pellet_handgun";
@@ -565,9 +542,8 @@ class rtg_pellet_handgun : hgun_Pistol_Signal_F
 class hgun_Pistol_heavy_02_F;
 class rtg_rhino : hgun_Pistol_heavy_02_F 
 {
-	scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shike";
+	RTG_WEAPON_BASE
+	
 	displayName = "Chiappa Rhino";
 	magazineWell[] = {"rtg_44_6Rnd"};
 	magazines[] = {"rtg_44_6Rnd"};
@@ -632,9 +608,8 @@ class rtg_rhino : hgun_Pistol_heavy_02_F
 class MWB_RSH12;
 class rtg_RSH12 : MWB_RSH12
 {
-	scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shike";
+	RTG_WEAPON_BASE
+	
 	magazineWell[] = {"RTG_50_Small_AE"};
 	magazines[] = {"rtg_50_ae_5rnd_mag"};
 	baseWeapon = "rtg_RSH12";

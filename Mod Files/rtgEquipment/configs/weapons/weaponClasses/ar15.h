@@ -1,8 +1,6 @@
 class hlc_ar15_base;
 class hlc_rifle_RU556 : hlc_ar15_base {
-	scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+	RTG_WEAPON_BASE
 	magazines[] = {"rtg_30rnd_556_45"};
 	recoil = "rtg_556_pdw";
 	class XtdGearInfo
@@ -13,9 +11,7 @@ class hlc_rifle_RU556 : hlc_ar15_base {
 	};
 };
 class hlc_rifle_RU5562: hlc_rifle_RU556 {
-	scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+	RTG_WEAPON_BASE
 	magazineWell[] = {"CBA_300BLK_STANAG"};
 	magazines[] = {"rtg_30rnd_300_blk"};
 	recoil = "rtg_300_pdw";
@@ -27,9 +23,7 @@ class hlc_rifle_RU5562: hlc_rifle_RU556 {
 	};
 };
 class hlc_rifle_CQBR: hlc_rifle_RU556 {
-	scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+	RTG_WEAPON_BASE
 	magazines[] = {"rtg_30rnd_556_45"};
 	recoil = "rtg_556_pdw";
 	class XtdGearInfo
@@ -40,9 +34,7 @@ class hlc_rifle_CQBR: hlc_rifle_RU556 {
 	};
 };
 class hlc_rifle_bcmjack: hlc_ar15_base {
-	scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+	RTG_WEAPON_BASE
 	magazines[] = {"rtg_30rnd_556_45"};
 	recoil = "rtg_556_rifle";
 	class XtdGearInfo
@@ -53,9 +45,7 @@ class hlc_rifle_bcmjack: hlc_ar15_base {
 	};
 };
 class hlc_rifle_bcmblackjack: hlc_rifle_bcmjack {
-	scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+	RTG_WEAPON_BASE
 	magazines[] = {"rtg_30rnd_300_blk"};
 	recoil = "rtg_300_rifle";
 	class XtdGearInfo
@@ -66,9 +56,7 @@ class hlc_rifle_bcmblackjack: hlc_rifle_bcmjack {
 	};
 };	
 class hlc_rifle_Bushmaster300: hlc_ar15_base {
-	scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+	RTG_WEAPON_BASE
 	magazines[] = {"rtg_30rnd_300_blk"};
 	recoil = "rtg_300_rifle";
 	class XtdGearInfo
@@ -79,9 +67,7 @@ class hlc_rifle_Bushmaster300: hlc_ar15_base {
 	};
 };
 class hlc_rifle_vendimus: hlc_rifle_Bushmaster300 {
-	scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+	RTG_WEAPON_BASE
 	magazines[] = {"rtg_30rnd_300_blk"};
 	recoil = "rtg_300_rifle";
 	class XtdGearInfo
@@ -92,19 +78,12 @@ class hlc_rifle_vendimus: hlc_rifle_Bushmaster300 {
 	};
 };
 class hlc_rifle_honeybase: hlc_rifle_Bushmaster300 {
-	scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+	RTG_WEAPON_BASE
 	magazines[] = {"rtg_30rnd_300_blk"};
-	class XtdGearInfo
-	{
-		model = "";
-	};
+	RTG_ACEAX_EMPTY 
 };
 class hlc_rifle_honeybadger : hlc_rifle_honeybase {
-	scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+	RTG_WEAPON_BASE
 	magazines[] = {"rtg_30rnd_300_blk"};
 	recoil = "rtg_300_carbine";
 	class XtdGearInfo
@@ -115,22 +94,16 @@ class hlc_rifle_honeybadger : hlc_rifle_honeybase {
 	};
 };
 class hlc_rifle_mk18mod0: hlc_rifle_CQBR {
-	scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+	RTG_WEAPON_BASE
 	magazines[] = {"rtg_30rnd_556_45"};
 	recoil = "rtg_556_pdw";
-	class XtdGearInfo
-	{
-		model = "";
-	};
+	RTG_ACEAX_EMPTY 
 };
 
 class rtg_c8a2: arifle_SPAR_01_blk_f {
-	scope = 2;
-	dlc = "raiderTactical";
+	RTG_WEAPON_BASE
 	baseWeapon = "rtg_c8a2";
-	Author = "Shrike";
+	
 	displayName = "Colt Canada C8A2";
 	deployedPivot = "deploypivot";
 	hasBipod = 0;

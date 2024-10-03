@@ -1,9 +1,8 @@
 class rtg_hk416_blk_s : arifle_SPAR_01_blk_F
 {
-	scope = 2;
-	dlc = "raiderTactical";
+	RTG_WEAPON_BASE
 	baseWeapon = "rtg_hk416_blk_s";
-	Author = "Shrike";
+	
 	recoil = "rtg_556_pdw";
 	class XtdGearInfo
 	{
@@ -15,10 +14,9 @@ class rtg_hk416_blk_s : arifle_SPAR_01_blk_F
 };
 class rtg_hk416_khk_s : arifle_SPAR_01_khk_F
 {
-	scope = 2;
-	dlc = "raiderTactical";
+	RTG_WEAPON_BASE
 	baseWeapon = "rtg_hk416_khk_s";
-	Author = "Shrike";
+	
 	recoil = "rtg_556_pdw";
 	class XtdGearInfo
 	{
@@ -30,10 +28,9 @@ class rtg_hk416_khk_s : arifle_SPAR_01_khk_F
 };
 class rtg_hk416_snd_s : arifle_SPAR_01_snd_F
 {
-	scope = 2;
-	dlc = "raiderTactical";
+	RTG_WEAPON_BASE
 	baseWeapon = "rtg_hk416_snd_s";
-	Author = "Shrike";
+	
 	recoil = "rtg_556_pdw";
 	class XtdGearInfo
 	{
@@ -45,10 +42,9 @@ class rtg_hk416_snd_s : arifle_SPAR_01_snd_F
 };
 class rtg_hk416_blk_l : arifle_SPAR_02_blk_F
 {
-	scope = 2;
-	dlc = "raiderTactical";
+	RTG_WEAPON_BASE
 	baseWeapon = "rtg_hk416_blk_l";
-	Author = "Shrike";
+	
 	recoil = "rtg_556_carbine";
 	class XtdGearInfo
 	{
@@ -60,10 +56,9 @@ class rtg_hk416_blk_l : arifle_SPAR_02_blk_F
 };
 class rtg_hk416_khk_l : arifle_SPAR_02_khk_F
 {
-	scope = 2;
-	dlc = "raiderTactical";
+	RTG_WEAPON_BASE
 	baseWeapon = "rtg_hk416_khk_l";
-	Author = "Shrike";
+	
 	recoil = "rtg_556_carbine";
 	class XtdGearInfo
 	{
@@ -75,10 +70,9 @@ class rtg_hk416_khk_l : arifle_SPAR_02_khk_F
 };
 class rtg_hk416_snd_l : arifle_SPAR_02_snd_F
 {
-	scope = 2;
-	dlc = "raiderTactical";
+	RTG_WEAPON_BASE
 	baseWeapon = "rtg_hk416_snd_l";
-	Author = "Shrike";
+	
 	recoil = "rtg_556_carbine";
 	class XtdGearInfo
 	{
@@ -91,10 +85,9 @@ class rtg_hk416_snd_l : arifle_SPAR_02_snd_F
 
 class rtg_hk416_blk_9 : arifle_SPAR_01_blk_F
 {
-	scope = 2;
-	dlc = "raiderTactical";
+	RTG_WEAPON_BASE
 	baseWeapon = "rtg_hk416_blk_9";
-	Author = "Shrike";
+	
 	displayName = "HK-416 9mm Black Carbine";
 	magazineWell[] = {"RTG_9x19"};
 	magazines[] = {"rtg_9mm_35Rnd_mag"};
@@ -109,10 +102,9 @@ class rtg_hk416_blk_9 : arifle_SPAR_01_blk_F
 };
 class rtg_hk416_khk_9 : arifle_SPAR_01_khk_F
 {
-	scope = 2;
-	dlc = "raiderTactical";
+	RTG_WEAPON_BASE
 	baseWeapon = "rth_hk416_khk_9";
-	Author = "Shrike";
+	
 	displayName = "HK-416 9mm Khaki Carbine";
 	magazineWell[] = {"RTG_9x19"};
 	magazines[] = {"rtg_9mm_35Rnd_mag"};
@@ -127,10 +119,9 @@ class rtg_hk416_khk_9 : arifle_SPAR_01_khk_F
 };
 class rtg_hk416_snd_9 : arifle_SPAR_01_snd_F
 {
-	scope = 2;
-	dlc = "raiderTactical";
+	RTG_WEAPON_BASE
 	baseWeapon = "rth_hk416_snd_9";
-	Author = "Shrike";
+	
 	displayName = "HK-416 9mm Sand Carbine";
 	magazineWell[] = {"RTG_9x19"};
 	magazines[] = {"rtg_9mm_35Rnd_mag"};
@@ -146,10 +137,9 @@ class rtg_hk416_snd_9 : arifle_SPAR_01_snd_F
 
 class rtg_hk416_blk_300_s : arifle_SPAR_01_blk_F
 {
-	scope = 2;
-	dlc = "raiderTactical";
+	RTG_WEAPON_BASE
 	baseWeapon = "rtg_hk416_blk_300_s";
-	Author = "Shrike";
+	
 	displayName = "HK-416 .300 BLK Black Short";
 	magazineWell[] = {"CBA_300BLK_STANAG"};
 	magazines[] = {"rtg_30rnd_300_blk"};
@@ -204,10 +194,9 @@ class rtg_hk416_blk_300_s : arifle_SPAR_01_blk_F
 };
 class rtg_hk416_khk_300_s : arifle_SPAR_01_khk_F
 {
-	scope = 2;
-	dlc = "raiderTactical";
+	RTG_WEAPON_BASE
 	baseWeapon = "rtg_hk416_khk_300_s";
-	Author = "Shrike";
+	
 	displayName = "HK-416 .300 BLK Khaki Short";
 	magazineWell[] = {"CBA_300BLK_STANAG"};
 	magazines[] = {"rtg_30rnd_300_blk"};
@@ -262,10 +251,9 @@ class rtg_hk416_khk_300_s : arifle_SPAR_01_khk_F
 };
 class rtg_hk416_snd_300_s : arifle_SPAR_01_snd_F
 {
-	scope = 2;
-	dlc = "raiderTactical";
+	RTG_WEAPON_BASE
 	baseWeapon = "rtg_hk416_snd_300_s";
-	Author = "Shrike";
+	
 	displayName = "HK-416 .300 BLK Sand Short";
 	magazineWell[] = {"CBA_300BLK_STANAG"};
 	magazines[] = {"rtg_30rnd_300_blk"};
@@ -320,10 +308,9 @@ class rtg_hk416_snd_300_s : arifle_SPAR_01_snd_F
 };
 class rtg_hk416_blk_300 : arifle_SPAR_02_blk_F
 {
-	scope = 2;
-	dlc = "raiderTactical";
+	RTG_WEAPON_BASE
 	baseWeapon = "rtg_hk416_blk_300";
-	Author = "Shrike";
+	
 	displayName = "HK-416 .300 BLK Black Carbine";
 	magazineWell[] = {"CBA_300BLK_STANAG"};
 	magazines[] = {"rtg_30rnd_300_blk"};
@@ -379,10 +366,9 @@ class rtg_hk416_blk_300 : arifle_SPAR_02_blk_F
 };
 class rtg_hk416_blk_300_khk : arifle_SPAR_02_khk_F
 {
-	scope = 2;
-	dlc = "raiderTactical";
+	RTG_WEAPON_BASE
 	baseWeapon = "rtg_hk416_blk_300_khk";
-	Author = "Shrike";
+	
 	displayName = "HK-416 .300 BLK Khaki Carbine";
 	magazineWell[] = {"CBA_300BLK_STANAG"};
 	magazines[] = {"rtg_30rnd_300_blk"};
@@ -438,10 +424,9 @@ class rtg_hk416_blk_300_khk : arifle_SPAR_02_khk_F
 };
 class rtg_hk416_blk_300_snd : arifle_SPAR_02_snd_F
 {
-	scope = 2;
-	dlc = "raiderTactical";
+	RTG_WEAPON_BASE
 	baseWeapon = "rtg_hk416_blk_300_snd";
-	Author = "Shrike";
+	
 	displayName = "HK-416 .300 BLK Sand Carbine";
 	magazineWell[] = {"CBA_300BLK_STANAG"};
 	magazines[] = {"rtg_30rnd_300_blk"};

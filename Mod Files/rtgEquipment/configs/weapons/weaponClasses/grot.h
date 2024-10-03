@@ -7,10 +7,9 @@ class arifle_MSBS65_sand_F;
 // 556
 class rtg_MSBS65_F : arifle_MSBS65_F
 {
-	scope = 2;
-	dlc = "raiderTactical";
+	RTG_WEAPON_BASE
+	
 	baseWeapon = "rtg_MSBS65_F";
-	Author = "Shrike";
 	magazineWell[] = {"CBA_556x45_STANAG"};
 	magazines[] = {"rtg_30rnd_556_45"};
 	recoil = "rtg_556_carbine";
@@ -23,15 +22,13 @@ class rtg_MSBS65_F : arifle_MSBS65_F
 		model = "rtg_ace_expanded_grot";
 		camo = "khaki";
 		calibre = "N556";
-		
 	};
 };
 class rtg_MSBS65_black_F : arifle_MSBS65_black_F
 {
-	scope = 2;
-	dlc = "raiderTactical";
+	RTG_WEAPON_BASE
+	
 	baseWeapon = "rtg_MSBS65_black_F";
-	Author = "Shrike";
 	magazineWell[] = {"CBA_556x45_STANAG"};
 	magazines[] = {"rtg_30rnd_556_45"};
 	recoil = "rtg_556_carbine";
@@ -44,15 +41,13 @@ class rtg_MSBS65_black_F : arifle_MSBS65_black_F
 		model = "rtg_ace_expanded_grot";
 		camo = "black";
 		calibre = "N556";
-		
 	};
 };
 class rtg_MSBS65_camo_F : arifle_MSBS65_camo_F
 {
-	scope = 2;
-	dlc = "raiderTactical";
+	RTG_WEAPON_BASE
+	
 	baseWeapon = "rtg_MSBS65_camo_F";
-	Author = "Shrike";
 	magazineWell[] = {"CBA_556x45_STANAG"};
 	magazines[] = {"rtg_30rnd_556_45"};
 	recoil = "rtg_556_carbine";
@@ -70,10 +65,9 @@ class rtg_MSBS65_camo_F : arifle_MSBS65_camo_F
 };
 class rtg_MSBS65_sand_F : arifle_MSBS65_sand_F
 {
-	scope = 2;
-	dlc = "raiderTactical";
+	RTG_WEAPON_BASE
 	baseWeapon = "rtg_MSBS65_sand_F";
-	Author = "Shrike";
+	
 	magazineWell[] = {"CBA_556x45_STANAG"};
 	magazines[] = {"rtg_30rnd_556_45"};
 	recoil = "rtg_556_carbine";
@@ -93,10 +87,9 @@ class rtg_MSBS65_sand_F : arifle_MSBS65_sand_F
 // 300
 class rtg_300_MSBS65_F : arifle_MSBS65_F
 {
-	scope = 2;
-	dlc = "raiderTactical";
+	RTG_WEAPON_BASE
 	baseWeapon = "rtg_300_MSBS65_F";
-	Author = "Shrike";
+	
 	displayName = "MSBS Grot (300)";
 	magazineWell[] = {"CBA_300BLK_STANAG"};
 	magazines[] = {"rtg_30rnd_300_blk"};
@@ -115,10 +108,9 @@ class rtg_300_MSBS65_F : arifle_MSBS65_F
 };
 class rtg_300_MSBS65_black_F : arifle_MSBS65_black_F
 {
-	scope = 2;
-	dlc = "raiderTactical";
+	RTG_WEAPON_BASE
 	baseWeapon = "rtg_300_MSBS65_black_F";
-	Author = "Shrike";
+	
 	displayName = "MSBS Grot (Black/300)";
 	magazineWell[] = {"CBA_300BLK_STANAG"};
 	magazines[] = {"rtg_30rnd_300_blk"};
@@ -137,10 +129,9 @@ class rtg_300_MSBS65_black_F : arifle_MSBS65_black_F
 };
 class rtg_300_MSBS65_camo_F : arifle_MSBS65_camo_F
 {
-	scope = 2;
-	dlc = "raiderTactical";
+	RTG_WEAPON_BASE
 	baseWeapon = "rtg_300_MSBS65_camo_F";
-	Author = "Shrike";
+	
 	displayName = "MSBS Grot (Camo/300)";
 	magazineWell[] = {"CBA_300BLK_STANAG"};
 	magazines[] = {"rtg_30rnd_300_blk"};
@@ -159,10 +150,9 @@ class rtg_300_MSBS65_camo_F : arifle_MSBS65_camo_F
 };
 class rtg_300_MSBS65_sand_F : arifle_MSBS65_sand_F
 {
-	scope = 2;
-	dlc = "raiderTactical";
+	RTG_WEAPON_BASE
 	baseWeapon = "rtg_300_MSBS65_sand_F";
-	Author = "Shrike";
+	
 	displayName = "MSBS Grot (Sand/300)";
 	magazineWell[] = {"CBA_300BLK_STANAG"};
 	magazines[] = {"rtg_30rnd_300_blk"};
@@ -187,10 +177,9 @@ class arifle_MSBS65_Mark_camo_F;
 class arifle_MSBS65_Mark_sand_F;
 class rtg_50_MSBS65_F : arifle_MSBS65_Mark_F
 {
-	scope = 2;
-	dlc = "raiderTactical";
+	RTG_WEAPON_BASE
 	baseWeapon = "rtg_50_MSBS65_F";
-	Author = "Shrike";
+	
 	displayName = "MSBS Grot (50)";
 	magazineWell[] = {"rtg_50_bw_STANAG"};
 	magazines[] = {"rtg_10rnd_10bw"};
@@ -230,10 +219,9 @@ class rtg_50_MSBS65_F : arifle_MSBS65_Mark_F
 };
 class rtg_50_MSBS65_black_F : arifle_MSBS65_Mark_black_F
 {
-	scope = 2;
-	dlc = "raiderTactical";
+	RTG_WEAPON_BASE
 	baseWeapon = "rtg_50_MSBS65_black_F";
-	Author = "Shrike";
+	
 	displayName = "MSBS Grot (Black/50)";
 	magazineWell[] = {"rtg_50_bw_STANAG"};
 	magazines[] = {"rtg_10rnd_10bw"};
@@ -273,10 +261,9 @@ class rtg_50_MSBS65_black_F : arifle_MSBS65_Mark_black_F
 };
 class rtg_50_MSBS65_camo_F : arifle_MSBS65_Mark_camo_F
 {
-	scope = 2;
-	dlc = "raiderTactical";
+	RTG_WEAPON_BASE
 	baseWeapon = "rtg_50_MSBS65_camo_F";
-	Author = "Shrike";
+	
 	displayName = "MSBS Grot (Camo/50)";
 	magazineWell[] = {"rtg_50_bw_STANAG"};
 	magazines[] = {"rtg_10rnd_10bw"};
@@ -316,10 +303,9 @@ class rtg_50_MSBS65_camo_F : arifle_MSBS65_Mark_camo_F
 };
 class rtg_50_MSBS65_sand_F : arifle_MSBS65_Mark_sand_F
 {
-	scope = 2;
-	dlc = "raiderTactical";
+	RTG_WEAPON_BASE
 	baseWeapon = "rtg_50_MSBS65_sand_F";
-	Author = "Shrike";
+	
 	displayName = "MSBS Grot (Sand/50)";
 	magazineWell[] = {"rtg_50_bw_STANAG"};
 	magazines[] = {"rtg_10rnd_10bw"};

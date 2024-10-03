@@ -1,6 +1,6 @@
 class rtg_ace_expanded_jeans {
     label = "Jeans";
-    author = "Shrike";
+    
     options[] = {"bottom", "top", "style"};
     class bottom
     {
@@ -96,7 +96,7 @@ class rtg_ace_expanded_jeans {
 
 class rtg_ace_expanded_ech {
     label = "ECH";
-    author = "Shrike";
+    
     options[] = {"camo"};
     class camo
     {
@@ -157,7 +157,7 @@ class rtg_ace_expanded_ech {
 
 class rtg_ace_expanded_cargo {
     label = "Cargo";
-    author = "Shrike";
+    
     options[] = {"bottom", "top", "style"};
     class bottom
     {
@@ -268,7 +268,7 @@ class rtg_ace_expanded_cargo {
 
 class rtg_ace_expanded_g3 {
     label = "G3";
-    author = "Shrike";
+    
     options[] = {"top", "camo"};
     class top
     {

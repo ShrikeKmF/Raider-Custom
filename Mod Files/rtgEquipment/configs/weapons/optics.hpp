@@ -4,7 +4,7 @@ class optic_MRCO;
 class InventoryOpticsItem_Base_F;
 class rtg_optic_MRCO: optic_MRCO
 {
-	author = "Shrike";
+	
 	_generalMacro = "optic_MRCO";
 	scope = 2;
 	displayName = "IOR Pitbull 3";
@@ -58,7 +58,7 @@ class rtg_optic_MRCO: optic_MRCO
 class optic_DMS;
 class rtg_optic_DMS: optic_DMS
 {
-    author = "Shrike";
+    
     _generalMacro = "optic_DMS";
     scope = 2;
     displayName = "Burris XTR III";
@@ -116,7 +116,7 @@ class rtg_optic_DMS: optic_DMS
 };
 class rtg_torbs32: rtg_optic_DMS
 {
-    author = "Shrike";
+    
     _generalMacro = "optic_DMS";
     scope = 2;
     displayName = "Burris XTR III (80x)";
@@ -176,7 +176,7 @@ class rtg_torbs32: rtg_optic_DMS
 class optic_tws;
 class rtg_night_sight: optic_tws
 {
-    author = "Shrike";
+    
     _generalMacro = "optic_tws";
     scope = 2;
     displayName = "Night Vision Sight";

@@ -30,21 +30,15 @@ class Rifle_Long_Base_F;
 
 class Launcher_Base_F : Launcher
 {
-	opticsZoomInit= 0.75;
-	opticsZoomMax=0.75;
-	opticsZoomMin= 0.50;
+	RTG_STANDARD_ZOOM
 };
 class Pistol_Base_F : Pistol 
 {
-	opticsZoomInit= 0.75;
-	opticsZoomMax=0.75;
-	opticsZoomMin= 0.50;
+	RTG_STANDARD_ZOOM
 };
 class Rifle_Base_F : Rifle
 {
-	opticsZoomInit= 0.75;
-	opticsZoomMax=0.75;
-	opticsZoomMin= 0.50;
+	RTG_STANDARD_ZOOM
 };
 class SMG_03_TR_BASE: Rifle_Base_F
 {
@@ -69,111 +63,77 @@ class SMG_03_TR_BASE: Rifle_Base_F
 };
 class rhs_weap_M320_Base_F: Pistol_Base_F
 {
-	opticsZoomInit= 0.75;
-	opticsZoomMax=0.75;
-	opticsZoomMin= 0.50;
+	RTG_STANDARD_ZOOM
 };
 class rhs_weap_XM2010_Base_F: Rifle_Base_F
 {
-	opticsZoomInit= 0.75;
-	opticsZoomMax=0.75;
-	opticsZoomMin= 0.50;
+	RTG_STANDARD_ZOOM
 };
 class arifle_MX_Base_F;
 class rhs_weap_m4_Base : arifle_MX_Base_F
 {
-	opticsZoomInit= 0.75;
-	opticsZoomMax=0.75;
-	opticsZoomMin= 0.50;
+	RTG_STANDARD_ZOOM
 };
 class rhs_weap_saw_base : Rifle_Base_F
 {
-	opticsZoomInit= 0.75;
-	opticsZoomMax=0.75;
-	opticsZoomMin= 0.50;
+	RTG_STANDARD_ZOOM
 };
 class rhs_weap_M107_Base_F: GM6_base_F
 {
-	opticsZoomInit= 0.75;
-	opticsZoomMax=0.75;
-	opticsZoomMin= 0.50;
+	RTG_STANDARD_ZOOM
 };
 class rhs_weap_M590_5RD : Rifle_Base_F
 {
-	opticsZoomInit= 0.75;
-	opticsZoomMax=0.75;
-	opticsZoomMin= 0.50;
+	RTG_STANDARD_ZOOM
 };
 class rhs_weap_m32_Base_F: Rifle_Base_F
 {
-	opticsZoomInit= 0.75;
-	opticsZoomMax=0.75;
-	opticsZoomMin= 0.50;
+	RTG_STANDARD_ZOOM
 };
 class rhsusf_weap_MP7A1_base_f: SMG_02_base_F
 {
-	opticsZoomInit= 0.75;
-	opticsZoomMax=0.75;
-	opticsZoomMin= 0.50;
+	RTG_STANDARD_ZOOM
 };
 class rhs_weap_SCAR_Base : arifle_MX_Base_F
 {
-	opticsZoomInit= 0.75;
-	opticsZoomMax=0.75;
-	opticsZoomMin= 0.50;
+	RTG_STANDARD_ZOOM
 };
 class rhs_weap_ak74m_Base_F: Rifle_Base_F
 {
-	opticsZoomInit= 0.75;
-	opticsZoomMax=0.75;
-	opticsZoomMin= 0.50;
+	RTG_STANDARD_ZOOM
 };
 class rhs_weap_an94_base: Rifle_Base_F
 {
-	opticsZoomInit= 0.75;
-	opticsZoomMax=0.75;
-	opticsZoomMin= 0.50;
+	RTG_STANDARD_ZOOM
 };
 class rhs_weap_orsis_Base_F: Rifle_Base_F
 {
-	opticsZoomInit= 0.75;
-	opticsZoomMax=0.75;
-	opticsZoomMin= 0.50;
+	RTG_STANDARD_ZOOM
 };
 class rhs_weap_vhs2_base: Rifle_Base_F
 {
-	opticsZoomInit= 0.75;
-	opticsZoomMax=0.75;
-	opticsZoomMin= 0.50;
+	RTG_STANDARD_ZOOM
 };
 class acwp_rifle_base: Rifle_Base_F
 {
-	opticsZoomInit= 0.75;
-	opticsZoomMax=0.75;
-	opticsZoomMin= 0.50;
+	RTG_STANDARD_ZOOM
 };
 class srifle_EBR_F;
 class rhs_weap_m14_base : srifle_EBR_F
 {
-	opticsZoomInit= 0.75;
-	opticsZoomMax=0.75;
-	opticsZoomMin= 0.50;
+	RTG_STANDARD_ZOOM
 };
 class srifle_DMR_06_camo_F;
 class ACWP_sr25: srifle_DMR_06_camo_F
 {
-	opticsZoomInit= 0.75;
-	opticsZoomMax=0.75;
-	opticsZoomMin= 0.50;
+	RTG_STANDARD_ZOOM
 };
 
 // M1 Garand
 	class rhs_weap_m1garand_sa43;
 	class rtg_M1M : rhs_weap_m1garand_sa43
 	{
-		scope = 2;
-		dlc = "raiderTactical";
-		Author = "Shrike";
+		RTG_WEAPON_BASE
 		displayName="T35 Garand";
 		baseWeapon = "rtg_M1M";
 		model="rtgEquipment\lods\m1\M1M_F.p3d";
@@ -185,18 +145,14 @@ class ACWP_sr25: srifle_DMR_06_camo_F
 			class UnderBarrelSlot : rtgBipods{};
 		};
 
-		opticsZoomInit= 0.75;
-		opticsZoomMax=0.75;
-		opticsZoomMin= 0.50;
+		RTG_STANDARD_ZOOM
 	}
 
 // SVD
 	class rhs_weap_svds;
 	class rtg_svd : rhs_weap_svds 
 	{
-		scope = 2;
-		dlc = "raiderTactical";
-		Author = "Shrike";
+		RTG_WEAPON_BASE
 		displayName="SVD";
 		baseWeapon = "rtg_svd";
 		model="rtgEquipment\lods\svd\SVD_F.p3d";
@@ -212,9 +168,7 @@ class ACWP_sr25: srifle_DMR_06_camo_F
 // Famas
 	class UK3CB_FAMAS_F1;
 	class rtg_famas_f1_ris : UK3CB_FAMAS_F1 {
-		scope = 2;
-		dlc = "raiderTactical";
-		Author = "Shrike";
+		RTG_WEAPON_BASE
 		displayName="FAMAS F1";
 		baseWeapon = "rtg_famas_f1_ris";
 		magazineWell[] = {"CBA_556x45_STANAG"};
@@ -232,18 +186,14 @@ class ACWP_sr25: srifle_DMR_06_camo_F
 			reloadTime = 0.0625;
 			dispersion = 0.00031;
 		};
-		opticsZoomInit= 0.75;
-		opticsZoomMax=0.75;
-		opticsZoomMin= 0.50;
+		RTG_STANDARD_ZOOM
 	};
 
 // VHS2
 	class rhs_weap_vhsd2;
 	class rtg_vhsd2 : rhs_weap_vhsd2 
 	{
-		scope = 2;
-		dlc = "raiderTactical";
-		Author = "Shrike";
+		RTG_WEAPON_BASE
 		displayName="VHS-D2";
 		baseWeapon = "rtg_vhsd2";
 		magazineWell[] = {"CBA_556x45_STANAG"};
@@ -263,9 +213,7 @@ class ACWP_sr25: srifle_DMR_06_camo_F
 	class rhs_weap_vhsk2;
 	class rtg_vhsk2 : rhs_weap_vhsk2 
 	{
-		scope = 2;
-		dlc = "raiderTactical";
-		Author = "Shrike";
+		RTG_WEAPON_BASE
 		displayName="VHS-K2";
 		baseWeapon = "rtg_vhsk2";
 		magazineWell[] = {"CBA_556x45_STANAG"};
@@ -287,9 +235,7 @@ class ACWP_sr25: srifle_DMR_06_camo_F
 	class arifle_AK12_F;
 	class rtg_AK19_F : arifle_AK12_F
 	{
-		scope = 2;
-		dlc = "raiderTactical";
-		Author = "Shrike";
+		RTG_WEAPON_BASE
 		displayName="AK-19";
 		baseWeapon = "rtg_AK19_F";
 		magazineWell[] = {"CBA_556x45_STANAG"};
@@ -320,9 +266,7 @@ class ACWP_sr25: srifle_DMR_06_camo_F
 
 	class rtg_ak308 : rtg_AK19_F
 	{
-		scope = 2;
-		dlc = "raiderTactical";
-		Author = "Shrike";
+		RTG_WEAPON_BASE
 		displayName="AK-308";
 		baseWeapon = "rtg_ak308";
 		magazineWell[] = {"CBA_762x51_M14"};
@@ -349,10 +293,7 @@ class ACWP_sr25: srifle_DMR_06_camo_F
 			class UnderBarrelSlot : rtgBipods{};
 			mass=83.8;
 		};
-		class XtdGearInfo
-		{
-			model = "";
-		};
+		RTG_ACEAX_EMPTY 
 		modes[]={"Single","Burst"};
 		class Single: Single
 		{
@@ -481,9 +422,7 @@ class ACWP_sr25: srifle_DMR_06_camo_F
 	class rhs_weap_ak103_zenitco01_b33;
 	class rtg_AK101_F : rhs_weap_ak103_zenitco01_b33
 	{
-		scope = 2;
-		dlc = "raiderTactical";
-		Author = "Shrike";
+		RTG_WEAPON_BASE
 		displayName="AK-101";
 		baseWeapon = "rtg_AK101_F";
 		magazineWell[] = {"CBA_556x45_STANAG"};
@@ -504,9 +443,7 @@ class ACWP_sr25: srifle_DMR_06_camo_F
 	class rhs_weap_ak105_zenitco01_b33;
 	class rtg_AK102_F : rhs_weap_ak105_zenitco01_b33
 	{
-		scope = 2;
-		dlc = "raiderTactical";
-		Author = "Shrike";
+		RTG_WEAPON_BASE
 		displayName="AK-102";
 		baseWeapon = "rtg_AK102_F";
 		magazineWell[] = {"CBA_556x45_STANAG"};
@@ -527,9 +464,7 @@ class ACWP_sr25: srifle_DMR_06_camo_F
 	class rhs_weap_aks74u;
 	class rtg_AKS102U_F : rhs_weap_aks74u
 	{
-		scope = 2;
-		dlc = "raiderTactical";
-		Author = "Shrike";
+		RTG_WEAPON_BASE
 		displayName="AKS-102U";
 		baseWeapon = "rtg_AKS102U_F";
 		magazineWell[] = {"CBA_556x45_STANAG"};
@@ -546,9 +481,7 @@ class ACWP_sr25: srifle_DMR_06_camo_F
 	class arifle_RPK12_F;
 	class rtg_RPK19_F : arifle_RPK12_F
 	{
-		scope = 2;
-		dlc = "raiderTactical";
-		Author = "Shrike";
+		RTG_WEAPON_BASE
 		displayName="RPK-19";
 		baseWeapon = "rtg_RPK19_F";
 		magazineWell[] = {"CBA_556x45_STANAG"};
@@ -566,9 +499,7 @@ class ACWP_sr25: srifle_DMR_06_camo_F
 	class rhs_weap_asval;
 	class rtg_asval : rhs_weap_asval
 	{
-		scope = 2;
-		dlc = "raiderTactical";
-		Author = "Shrike";
+		RTG_WEAPON_BASE
 		displayName="ASM-VAL";
 		baseWeapon = "rtg_asval";
 		magazineWell[] = {"CBA_300BLK_STANAG"};
@@ -587,9 +518,7 @@ class ACWP_sr25: srifle_DMR_06_camo_F
 
 	class rtg_vssm : rtg_asval
 	{
-		scope = 2;
-		dlc = "raiderTactical";
-		Author = "Shrike";
+		RTG_WEAPON_BASE
 		displayName="VSSM Vintorez";
 		baseWeapon = "rtg_vssm";
 		magazineWell[] = {"CBA_762x51_M14"};
@@ -646,9 +575,7 @@ class ACWP_sr25: srifle_DMR_06_camo_F
 	{
 		recoil = "rtg_556_rifle";
 		displayName="L85A2";
-		opticsZoomInit= 0.75;
-		opticsZoomMax=0.75;
-		opticsZoomMin= 0.50;
+		RTG_STANDARD_ZOOM
 		class XtdGearInfo
 		{
 			model = "rtg_ace_expanded_L85";
@@ -660,9 +587,7 @@ class ACWP_sr25: srifle_DMR_06_camo_F
 	{
 		recoil = "rtg_556_rifle";
 		displayName="L85A2";
-		opticsZoomInit= 0.75;
-		opticsZoomMax=0.75;
-		opticsZoomMin= 0.50;
+		RTG_STANDARD_ZOOM
 		class XtdGearInfo
 		{
 			model = "rtg_ace_expanded_L85";
@@ -674,9 +599,7 @@ class ACWP_sr25: srifle_DMR_06_camo_F
 	{
 		recoil = "rtg_556_rifle";
 		displayName="L85A2";
-		opticsZoomInit= 0.75;
-		opticsZoomMax=0.75;
-		opticsZoomMin= 0.50;
+		RTG_STANDARD_ZOOM
 		class XtdGearInfo
 		{
 			model = "rtg_ace_expanded_L85";
@@ -688,9 +611,7 @@ class ACWP_sr25: srifle_DMR_06_camo_F
 	{
 		recoil = "rtg_556_rifle";
 		displayName="L85A2";
-		opticsZoomInit= 0.75;
-		opticsZoomMax=0.75;
-		opticsZoomMin= 0.50;
+		RTG_STANDARD_ZOOM
 		class XtdGearInfo
 		{
 			model = "rtg_ace_expanded_L85";
@@ -703,10 +624,9 @@ class ACWP_sr25: srifle_DMR_06_camo_F
 	class rtg_samr2 : arifle_SPAR_01_blk_F
 	{
 		recoil = "rtg_556_rifle";
-		scope = 2;
-		dlc = "raiderTactical";
+		RTG_WEAPON_BASE
 		baseWeapon = "rtg_samr2";
-		Author = "Shrike";
+		
 		displayName = "LAR-15 5.56 Carbine";
 		ACE_barrelTwist = 228.6;
 		ACE_barrelLength = 457.2;
@@ -727,10 +647,9 @@ class ACWP_sr25: srifle_DMR_06_camo_F
 
 	class rtg_samr2_300 : arifle_SPAR_01_blk_F
 	{
-		scope = 2;
-		dlc = "raiderTactical";
+		RTG_WEAPON_BASE
 		baseWeapon = "rtg_samr2_300";
-		Author = "Shrike";
+		
 		displayName = "LAR-15 .300 Carbine";
 		magazineWell[] = {"CBA_300BLK_STANAG"};
 		recoil = "rtg_300_rifle";
@@ -755,10 +674,9 @@ class ACWP_sr25: srifle_DMR_06_camo_F
 	class hlc_rifle_416D10;
 	class hlc_rifle_416C: hlc_rifle_416D10
 	{
-		scope = 2;
-		dlc = "raiderTactical";
+		RTG_WEAPON_BASE
 		baseWeapon = "hlc_rifle_416C";
-		Author = "Shrike";
+		
 		displayName = "HK416C";
 		magazineWell[] = {"CBA_300BLK_STANAG"};
 		recoil = "rtg_300_carbine";
@@ -769,10 +687,8 @@ class ACWP_sr25: srifle_DMR_06_camo_F
 	class hlc_rifle_416D145;
 	class hlc_rifle_416D20: hlc_rifle_416D145
 	{
-		scope = 2;
-		dlc = "raiderTactical";
+		RTG_WEAPON_BASE
 		baseWeapon = "hlc_rifle_416C";
-		Author = "Shrike";
 		displayName = "HK416 D20";
 		recoil = "rtg_300_rifle";
 		class WeaponSlotsInfo: WeaponSlotsInfo
@@ -790,10 +706,9 @@ class ACWP_sr25: srifle_DMR_06_camo_F
 	class arifle_Mk20C_F;
 	class rtg_f2000_tan : arifle_Mk20_plain_F
 	{
-		scope = 2;
-		dlc = "raiderTactical";
+		RTG_WEAPON_BASE
 		baseWeapon = "rtg_f2000_tan";
-		Author = "Shrike";
+		
 		displayName = "F2000 Tan";
 		modes[] = {"Single","FullAuto"};
 		recoil = "rtg_556_rifle";
@@ -843,10 +758,9 @@ class ACWP_sr25: srifle_DMR_06_camo_F
 		};
 	};
 	class rtg_f2000_camo : arifle_Mk20_F {
-		scope = 2;
-		dlc = "raiderTactical";
+		RTG_WEAPON_BASE
 		baseWeapon = "rtg_f2000_camo";
-		Author = "Shrike";
+		
 		displayName = "F2000 Camo";
 		modes[] = {"Single","FullAuto"};
 		recoil = "rtg_556_rifle";
@@ -896,10 +810,9 @@ class ACWP_sr25: srifle_DMR_06_camo_F
 		};
 	};
 	class rtg_f2000C_tan : arifle_Mk20C_plain_F {
-		scope = 2;
-		dlc = "raiderTactical";
+		RTG_WEAPON_BASE
 		baseWeapon = "rtg_f2000C_tan";
-		Author = "Shrike";
+		
 		displayName = "F2000 Carbine Tan";
 		modes[] = {"Single","FullAuto"};
 		recoil = "rtg_556_carbine";
@@ -949,10 +862,9 @@ class ACWP_sr25: srifle_DMR_06_camo_F
 		};
 	};
 	class rtg_f2000C_camo : arifle_Mk20C_F {
-		scope = 2;
-		dlc = "raiderTactical";
+		RTG_WEAPON_BASE
 		baseWeapon = "rtg_f2000C_camo";
-		Author = "Shrike";
+		
 		displayName = "F2000 Carbine Camo";
 		modes[] = {"Single","FullAuto"};
 		recoil = "rtg_556_carbine";
@@ -1006,11 +918,10 @@ class ACWP_sr25: srifle_DMR_06_camo_F
 class SMG_01_F;
 class rtg_vector_9mm : SMG_01_F
 {
-	scope = 2;
+	RTG_WEAPON_BASE
 	recoil = "rtg_9mm_primary";
-	dlc = "raiderTactical";
 	baseWeapon = "rtg_vector_9mm";
-	Author = "Shrike";
+	
 	displayName = "Vector 9mm SMG";
 	magazineWell[] = {"RTG_9x19"};
 	magazines[] = {"rtg_9mm_35Rnd_mag"};
@@ -1023,42 +934,33 @@ class rtg_vector_9mm : SMG_01_F
 
 class rtg_vector_9mm_carbon : rtg_vector_9mm
 {
-	scope = 2;
+	RTG_WEAPON_BASE
 	recoil = "rtg_9mm_primary";
-	dlc = "raiderTactical";
 	baseWeapon = "rtg_vector_9mm_carbon";
-	Author = "Shrike";
+	
 	displayName = "Vector 9mm SMG (Carbon)";
 	hiddenSelections[] = {"camo1","camo2","camo3"};
 	hiddenSelectionsTextures[] = {"rtgEquipment\tex\vectorSkin.paa","\a3\weapons_f\data\vectoratt_co.paa","\a3\weapons_f\acc\data\battlesight_co.paa"};
-	class XtdGearInfo
-	{
-		model = "";
-	};
+	RTG_ACEAX_EMPTY 
 };
 
 class rtg_vector_9mm_fish : rtg_vector_9mm
 {
-	scope = 2;
+	RTG_WEAPON_BASE
 	recoil = "rtg_9mm_primary";
-	dlc = "raiderTactical";
 	baseWeapon = "rtg_vector_9mm_fish";
-	Author = "Shrike";
+	
 	displayName = "Vector 9mm SMG (Fish)";
 	hiddenSelections[] = {"camo1","camo2","camo3"};
 	hiddenSelectionsTextures[] = {"rtgEquipment\tex\fishvectorSkin.paa","\a3\weapons_f\data\vectoratt_co.paa","\a3\weapons_f\acc\data\battlesight_co.paa"};
-	class XtdGearInfo
-	{
-		model = "";
-	};
+	RTG_ACEAX_EMPTY 
 };
 
 class rtg_vector_50ae : SMG_01_F
 {
-	scope = 2;
-	dlc = "raiderTactical";
+	RTG_WEAPON_BASE
 	baseWeapon = "rtg_vector_50ae";
-	Author = "Shrike";
+	
 	displayName = "Vector .50 SMG";
 	recoil = "rtg_50ae_primary";
 	magazineWell[] = {"RTG_50_AE"};
@@ -1114,9 +1016,7 @@ class rtg_vector_50ae : SMG_01_F
 class hgun_PDW2000_F;
 class rtg_pdw2000_9mm : hgun_PDW2000_F
 {
-	scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+	RTG_WEAPON_BASE
 	baseWeapon = "rtg_pdw2000_9mm";
 	displayName = "CPW 9mm SMG";
 	magazineWell[] = {"RTG_9x19"};
@@ -1134,9 +1034,7 @@ class rtg_pdw2000_9mm : hgun_PDW2000_F
 	class SMG_03C_TR_hex;
 	class SMG_03C_TR_khaki;
 	class rtg_SMG_03C_black : SMG_03C_black {
-		scope = 2;
-		dlc = "raiderTactical";
-		Author = "Shrike";
+		RTG_WEAPON_BASE
 		baseWeapon = "rtg_SMG_03C_black";
 		magazines[] = {"rtg_p90"};
 		mode[] = {"Single", "FullAuto"};
@@ -1189,9 +1087,7 @@ class rtg_pdw2000_9mm : hgun_PDW2000_F
 		};
 	};
 	class rtg_SMG_03C_camo : SMG_03C_camo {
-		scope = 2;
-		dlc = "raiderTactical";
-		Author = "Shrike";
+		RTG_WEAPON_BASE
 		baseWeapon = "rtg_SMG_03C_camo";
 		magazines[] = {"rtg_p90"};
 		mode[] = {"Single", "FullAuto"};
@@ -1244,9 +1140,7 @@ class rtg_pdw2000_9mm : hgun_PDW2000_F
 		};
 	};
 	class rtg_SMG_03C_hex : SMG_03C_hex {
-		scope = 2;
-		dlc = "raiderTactical";
-		Author = "Shrike";
+		RTG_WEAPON_BASE
 		baseWeapon = "rtg_SMG_03C_hex";
 		magazines[] = {"rtg_p90"};
 		mode[] = {"Single", "FullAuto"};
@@ -1299,9 +1193,7 @@ class rtg_pdw2000_9mm : hgun_PDW2000_F
 		};
 	};
 	class rtg_SMG_03C_khaki : SMG_03C_khaki {
-		scope = 2;
-		dlc = "raiderTactical";
-		Author = "Shrike";
+		RTG_WEAPON_BASE
 		baseWeapon = "rtg_SMG_03C_khaki";
 		magazines[] = {"rtg_p90"};
 		mode[] = {"Single", "FullAuto"};
@@ -1354,9 +1246,7 @@ class rtg_pdw2000_9mm : hgun_PDW2000_F
 		};
 	};
 	class rtg_SMG_03C_TR_black : SMG_03C_TR_black {
-		scope = 2;
-		dlc = "raiderTactical";
-		Author = "Shrike";
+		RTG_WEAPON_BASE
 		baseWeapon = "rtg_SMG_03C_TR_black";
 		magazines[] = {"rtg_p90"};
 		mode[] = {"Single", "FullAuto"};
@@ -1409,9 +1299,7 @@ class rtg_pdw2000_9mm : hgun_PDW2000_F
 		};
 	};
 	class rtg_SMG_03C_TR_camo : SMG_03C_TR_camo {
-		scope = 2;
-		dlc = "raiderTactical";
-		Author = "Shrike";
+		RTG_WEAPON_BASE
 		baseWeapon = "rtg_SMG_03C_TR_camo";
 		magazines[] = {"rtg_p90"};
 		mode[] = {"Single", "FullAuto"};
@@ -1464,9 +1352,7 @@ class rtg_pdw2000_9mm : hgun_PDW2000_F
 		};
 	};
 	class rtg_SMG_03C_TR_hex : SMG_03C_TR_hex {
-		scope = 2;
-		dlc = "raiderTactical";
-		Author = "Shrike";
+		RTG_WEAPON_BASE
 		baseWeapon = "rtg_SMG_03C_TR_hex";
 		magazines[] = {"rtg_p90"};
 		mode[] = {"Single", "FullAuto"};
@@ -1519,9 +1405,7 @@ class rtg_pdw2000_9mm : hgun_PDW2000_F
 		};
 	};
 	class rtg_SMG_03C_TR_khaki : SMG_03C_TR_khaki {
-		scope = 2;
-		dlc = "raiderTactical";
-		Author = "Shrike";
+		RTG_WEAPON_BASE
 		baseWeapon = "rtg_SMG_03C_TR_khaki";
 		magazines[] = {"rtg_p90"};
 		mode[] = {"Single", "FullAuto"};
@@ -1583,9 +1467,7 @@ class rtg_pdw2000_9mm : hgun_PDW2000_F
 	class UK3CB_P90_TR_hex;
 	class UK3CB_P90_TR_khaki;
 	class rtg_SMG_03_black : UK3CB_P90_black {
-		scope = 2;
-		dlc = "raiderTactical";
-		Author = "Shrike";
+		RTG_WEAPON_BASE
 		baseWeapon = "rtg_SMG_03_black";
 		magazines[] = {"rtg_p90"};
 		mode[] = {"Single", "FullAuto"};
@@ -1638,9 +1520,7 @@ class rtg_pdw2000_9mm : hgun_PDW2000_F
 		};
 	};
 	class rtg_SMG_03_camo : UK3CB_P90_camo {
-		scope = 2;
-		dlc = "raiderTactical";
-		Author = "Shrike";
+		RTG_WEAPON_BASE
 		baseWeapon = "rtg_SMG_03_camo";
 		magazines[] = {"rtg_p90"};
 		mode[] = {"Single", "FullAuto"};
@@ -1693,9 +1573,7 @@ class rtg_pdw2000_9mm : hgun_PDW2000_F
 		};
 	};
 	class rtg_SMG_03_hex : UK3CB_P90_hex {
-		scope = 2;
-		dlc = "raiderTactical";
-		Author = "Shrike";
+		RTG_WEAPON_BASE
 		baseWeapon = "rtg_SMG_03_hex";
 		magazines[] = {"rtg_p90"};
 		mode[] = {"Single", "FullAuto"};
@@ -1748,9 +1626,7 @@ class rtg_pdw2000_9mm : hgun_PDW2000_F
 		};
 	};
 	class rtg_SMG_03_khaki : UK3CB_P90_khaki {
-		scope = 2;
-		dlc = "raiderTactical";
-		Author = "Shrike";
+		RTG_WEAPON_BASE
 		baseWeapon = "rtg_SMG_03_khaki";
 		magazines[] = {"rtg_p90"};
 		mode[] = {"Single", "FullAuto"};
@@ -1803,9 +1679,7 @@ class rtg_pdw2000_9mm : hgun_PDW2000_F
 		};
 	};
 	class rtg_SMG_03_TR_black : UK3CB_P90_TR_black {
-		scope = 2;
-		dlc = "raiderTactical";
-		Author = "Shrike";
+		RTG_WEAPON_BASE
 		baseWeapon = "rtg_SMG_03_TR_black";
 		magazines[] = {"rtg_p90"};
 		mode[] = {"Single", "FullAuto"};
@@ -1858,9 +1732,7 @@ class rtg_pdw2000_9mm : hgun_PDW2000_F
 		};
 	};
 	class rtg_SMG_03_TR_camo : UK3CB_P90_TR_camo {
-		scope = 2;
-		dlc = "raiderTactical";
-		Author = "Shrike";
+		RTG_WEAPON_BASE
 		baseWeapon = "rtg_SMG_03_TR_camo";
 		magazines[] = {"rtg_p90"};
 		mode[] = {"Single", "FullAuto"};
@@ -1913,9 +1785,7 @@ class rtg_pdw2000_9mm : hgun_PDW2000_F
 		};
 	};
 	class rtg_SMG_03_TR_hex : UK3CB_P90_TR_hex {
-		scope = 2;
-		dlc = "raiderTactical";
-		Author = "Shrike";
+		RTG_WEAPON_BASE
 		baseWeapon = "rtg_SMG_03_TR_hex";
 		magazines[] = {"rtg_p90"};
 		mode[] = {"Single", "FullAuto"};
@@ -1968,9 +1838,7 @@ class rtg_pdw2000_9mm : hgun_PDW2000_F
 		};
 	};
 	class rtg_SMG_03_TR_khaki : UK3CB_P90_TR_khaki {
-		scope = 2;
-		dlc = "raiderTactical";
-		Author = "Shrike";
+		RTG_WEAPON_BASE
 		baseWeapon = "rtg_SMG_03_TR_khaki";
 		magazines[] = {"rtg_p90"};
 		mode[] = {"Single", "FullAuto"};
@@ -2025,9 +1893,7 @@ class rtg_pdw2000_9mm : hgun_PDW2000_F
 
 class rtg_rifle_samr2_9mm : arifle_SPAR_01_blk_F
 {
-	scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+	RTG_WEAPON_BASE
 	recoil = "rtg_9mm_primary";
 	baseWeapon = "rtg_rifle_samr2_9mm";
 	displayName = "LAR-9 Carbine";
@@ -2058,10 +1924,9 @@ class rtg_rifle_samr2_9mm : arifle_SPAR_01_blk_F
 	class rhsusf_weap_MP7A2_winter;
 	class rtg_weap_mp7a2 : rhsusf_weap_MP7A2
 	{
-		scope = 2;
-		dlc = "raiderTactical";
+		RTG_WEAPON_BASE
 		baseWeapon = "rtg_weap_mp7a2";
-		Author = "Shrike";
+		
 		recoil = "rtg_9mm_primary";
 		class XtdGearInfo
 		{
@@ -2071,10 +1936,9 @@ class rtg_rifle_samr2_9mm : arifle_SPAR_01_blk_F
 	};
 	class rtg_weap_mp7a2_aor1 : rhsusf_weap_MP7A2_aor1
 	{
-		scope = 2;
-		dlc = "raiderTactical";
+		RTG_WEAPON_BASE
 		baseWeapon = "rtg_weap_mp7a2_aor1";
-		Author = "Shrike";
+		
 		recoil = "rtg_9mm_primary";
 		class XtdGearInfo
 		{
@@ -2084,10 +1948,9 @@ class rtg_rifle_samr2_9mm : arifle_SPAR_01_blk_F
 	};
 	class rtg_weap_mp7a2_desert : rhsusf_weap_MP7A2_desert
 	{
-		scope = 2;
-		dlc = "raiderTactical";
+		RTG_WEAPON_BASE
 		baseWeapon = "rtg_weap_mp7a2_desert";
-		Author = "Shrike";
+		
 		recoil = "rtg_9mm_primary";
 		class XtdGearInfo
 		{
@@ -2097,10 +1960,9 @@ class rtg_rifle_samr2_9mm : arifle_SPAR_01_blk_F
 	};
 	class rtg_weap_mp7a2_winter : rhsusf_weap_MP7A2_winter
 	{
-		scope = 2;
-		dlc = "raiderTactical";
+		RTG_WEAPON_BASE
 		baseWeapon = "rtg_weap_mp7a2_winter";
-		Author = "Shrike";
+		
 		recoil = "rtg_9mm_primary";
 		class XtdGearInfo
 		{
@@ -2112,10 +1974,9 @@ class rtg_rifle_samr2_9mm : arifle_SPAR_01_blk_F
 class SMG_02_F;
 class rtg_smg_02 : SMG_02_F
 {
-	scope = 2;
-	dlc = "raiderTactical";
+	RTG_WEAPON_BASE
 	baseWeapon = "rtg_smg_02";
-	Author = "Shrike";
+	
 	recoil = "rtg_9mm_primary";
 	displayName = "CZ EVO 9mm SMG";
 	magazineWell[] = {"RTG_9x19"};
@@ -2125,9 +1986,7 @@ class rtg_smg_02 : SMG_02_F
 // Battle Rifles
 class rtg_rifle_samr2_50bw : arifle_SPAR_01_blk_F
 {
-	scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+	RTG_WEAPON_BASE
 	baseWeapon = "rtg_rifle_samr2_50bw";
 	displayName = "LAR-50 DMR";
 	magazineWell[] = {"rtg_50_bw_STANAG"};
@@ -2178,9 +2037,7 @@ class rtg_rifle_samr2_50bw : arifle_SPAR_01_blk_F
 	class arifle_SPAR_03_snd_f;
 	class rtg_hk417_blk : arifle_SPAR_03_blk_f
 	{
-		scope = 2;
-		dlc = "raiderTactical";
-		Author = "Shrike";
+		RTG_WEAPON_BASE
 		baseWeapon = "rtg_hk417_blk";
 		ACE_barrelLength = 508;
 		displayName = "HK-417 Black";
@@ -2204,9 +2061,7 @@ class rtg_rifle_samr2_50bw : arifle_SPAR_01_blk_F
 	};
 	class rtg_hk417_khk : arifle_SPAR_03_khk_f
 	{
-		scope = 2;
-		dlc = "raiderTactical";
-		Author = "Shrike";
+		RTG_WEAPON_BASE
 		baseWeapon = "rtg_hk417_khk";
 		ACE_barrelLength = 508;
 		displayName = "HK-417 Khaki";
@@ -2221,9 +2076,7 @@ class rtg_rifle_samr2_50bw : arifle_SPAR_01_blk_F
 	};
 	class rtg_hk417_snd : arifle_SPAR_03_snd_f
 	{
-		scope = 2;
-		dlc = "raiderTactical";
-		Author = "Shrike";
+		RTG_WEAPON_BASE
 		baseWeapon = "rtg_hk417_snd";
 		ACE_barrelLength = 508;
 		displayName = "HK-417 Sand";
@@ -2240,9 +2093,7 @@ class rtg_rifle_samr2_50bw : arifle_SPAR_01_blk_F
 // G3A3
 	class rtg_G3KA4_RAS : arifle_SPAR_03_blk_f
 	{
-		scope = 2;
-		dlc = "raiderTactical";
-		Author = "Shrike";
+		RTG_WEAPON_BASE
 		model = "\hlc_wp_g3\mesh\g3_rails\g3ka4.p3d";
 		ACE_barrelLength = 450;
 		picture = "\hlc_wp_g3\tex\ui\gear_g3ka4_x_ca";
@@ -2278,9 +2129,7 @@ class rtg_rifle_samr2_50bw : arifle_SPAR_01_blk_F
 
 	class rtg_G3A3_RIS : arifle_SPAR_03_blk_f
 	{
-		scope = 2;
-		dlc = "raiderTactical";
-		Author = "Shrike";
+		RTG_WEAPON_BASE
 		baseWeapon = "rtg_G3A3_RIS";
 		displayName = "G3A3 RIS";
 		recoil = "rtg_762n_rifle";
@@ -2314,9 +2163,7 @@ class rtg_rifle_samr2_50bw : arifle_SPAR_01_blk_F
 
 	class rtg_G3A3_wide_RIS : arifle_SPAR_03_blk_f
 	{
-		scope = 2;
-		dlc = "raiderTactical";
-		Author = "Shrike";
+		RTG_WEAPON_BASE
 		baseWeapon = "rtg_G3A3_wide_RIS";
 		displayName = "G3A3 Wide RIS";
 		magazineWell[] = {"CBA_762x51_M14"};
@@ -2351,9 +2198,7 @@ class rtg_rifle_samr2_50bw : arifle_SPAR_01_blk_F
 	class hlc_rifle_hk53RAS;
 	class rtg_hk51a3 : hlc_rifle_hk53RAS
 	{
-		scope = 2;
-		dlc = "raiderTactical";
-		Author = "Shrike";
+		RTG_WEAPON_BASE
 		baseWeapon = "rtg_hk51a1";
 		displayName = "HK51A3 (RIS)";
 		magazineWell[] = {"CBA_762x51_M14"};
@@ -2384,9 +2229,7 @@ class rtg_rifle_samr2_50bw : arifle_SPAR_01_blk_F
 	class hlc_rifle_hk33a2RIS;
 	class rtg_hk51a2 : hlc_rifle_hk33a2RIS
 	{
-		scope = 2;
-		dlc = "raiderTactical";
-		Author = "Shrike";
+		RTG_WEAPON_BASE
 		baseWeapon = "rtg_hk51a2";
 		displayName = "HK51A2 (RIS)";
 		magazineWell[] = {"CBA_762x51_M14"};
@@ -2417,9 +2260,7 @@ class rtg_rifle_samr2_50bw : arifle_SPAR_01_blk_F
 	class hlc_rifle_hk33a2RIS_GL;
 	class rtg_hk41a2_gl : hlc_rifle_hk33a2RIS_GL
 	{
-		scope = 2;
-		dlc = "raiderTactical";
-		Author = "Shrike";
+		RTG_WEAPON_BASE
 		baseWeapon = "rtg_hk41a2_gl";
 		displayName = "HK51A2 (RIS/GL)";
 		modes[] = {"Single", "FullAuto"};
@@ -2446,9 +2287,8 @@ class rtg_rifle_samr2_50bw : arifle_SPAR_01_blk_F
 class srifle_DMR_01_F;
 class rtg_vs121 : srifle_DMR_01_F
 {
-	scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shike";
+	RTG_WEAPON_BASE
+	
 	displayName = "VS-121 50BW";
 	baseWeapon = "rtg_vs121";
 	hiddenSelections[] = {"camo1","camo2"};
@@ -2465,16 +2305,13 @@ class rtg_vs121 : srifle_DMR_01_F
 	class rhs_weap_m14_ris_wd;
 	class rtg_m14_dmr : srifle_EBR_F
 	{
-		scope = 2;
-		dlc = "raiderTactical";
+		RTG_WEAPON_BASE
 		baseWeapon = "rtg_m14_dmr";
-		Author = "Shrike";
+		
 		displayName = "M14 Mod 1 EBR";
 		modes[] = {"Single", "FullAuto"};
 		recoil = "rtg_762n_carbine";
-		opticsZoomInit= 0.75;
-		opticsZoomMax=0.75;
-		opticsZoomMin= 0.50;
+		RTG_STANDARD_ZOOM
 		class XtdGearInfo
 		{
 			model = "rtg_ace_expanded_m14";
@@ -2483,16 +2320,13 @@ class rtg_vs121 : srifle_DMR_01_F
 	};
 	class rtg_m14_dmr_blk : rhs_weap_m14ebrri
 	{
-		scope = 2;
-		dlc = "raiderTactical";
+		RTG_WEAPON_BASE
 		baseWeapon = "rtg_m14_dmr_blk";
-		Author = "Shrike";
+		
 		displayName = "M14 Mod 1 EBR Black";
 		modes[] = {"Single", "FullAuto"};
 		recoil = "rtg_762n_rifle";
-		opticsZoomInit= 0.75;
-		opticsZoomMax=0.75;
-		opticsZoomMin= 0.50;
+		RTG_STANDARD_ZOOM
 		class XtdGearInfo
 		{
 			model = "rtg_ace_expanded_m14";
@@ -2501,15 +2335,12 @@ class rtg_vs121 : srifle_DMR_01_F
 	};
 	class rtg_m14_dmr_d : rhs_weap_m14_ris_d
 	{
-		scope = 2;
-		dlc = "raiderTactical";
+		RTG_WEAPON_BASE
 		baseWeapon = "rtg_m14_dmr_d";
-		Author = "Shrike";
+		
 		displayName = "M14 Desert";
 		recoil = "rtg_762n_rifle";
-		opticsZoomInit= 0.75;
-		opticsZoomMax=0.75;
-		opticsZoomMin= 0.50;
+		RTG_STANDARD_ZOOM
 		class XtdGearInfo
 		{
 			model = "rtg_ace_expanded_m14";
@@ -2518,15 +2349,12 @@ class rtg_vs121 : srifle_DMR_01_F
 	};
 	class rtg_m14_dmr_gs : rhs_weap_m14_ris_fiberglass
 	{
-		scope = 2;
-		dlc = "raiderTactical";
+		RTG_WEAPON_BASE
 		baseWeapon = "rtg_m14_dmr_gs";
-		Author = "Shrike";
+		
 		displayName = "M14 Fiberglass";
 		recoil = "rtg_762n_rifle";
-		opticsZoomInit= 0.75;
-		opticsZoomMax=0.75;
-		opticsZoomMin= 0.50;
+		RTG_STANDARD_ZOOM
 		class XtdGearInfo
 		{
 			model = "rtg_ace_expanded_m14";
@@ -2535,15 +2363,12 @@ class rtg_vs121 : srifle_DMR_01_F
 	};
 	class rtg_m14_dmr_wd : rhs_weap_m14_ris_wd
 	{
-		scope = 2;
-		dlc = "raiderTactical";
+		RTG_WEAPON_BASE
 		baseWeapon = "rtg_m14_dmr_wd";
-		Author = "Shrike";
+		
 		displayName = "M14 Woodland";
 		recoil = "rtg_762n_rifle";
-		opticsZoomInit= 0.75;
-		opticsZoomMax=0.75;
-		opticsZoomMin= 0.50;
+		RTG_STANDARD_ZOOM
 		class XtdGearInfo
 		{
 			model = "rtg_ace_expanded_m14";
@@ -2556,9 +2381,7 @@ class rtg_vs121 : srifle_DMR_01_F
 	class hlc_rifle_FAL5061Rail : hlc_fal_base {
 		magazineWell[] = {"CBA_762x51_M14"};
 		magazines[] = {"rtg_20Rnd_762x51"};
-		scope = 2;
-		dlc = "raiderTactical";
-		Author = "Shrike";
+		RTG_WEAPON_BASE
 		recoil = "rtg_762n_rifle";
 		class XtdGearInfo
 		{
@@ -2569,9 +2392,7 @@ class rtg_vs121 : srifle_DMR_01_F
 	class hlc_rifle_FAL5000Rail : hlc_rifle_FAL5061Rail {
 		magazineWell[] = {"CBA_762x51_M14"};
 		magazines[] = {"rtg_20Rnd_762x51"};
-		scope = 2;
-		dlc = "raiderTactical";
-		Author = "Shrike";
+		RTG_WEAPON_BASE
 		recoil = "rtg_762n_rifle";
 		class XtdGearInfo
 		{
@@ -2582,9 +2403,7 @@ class rtg_vs121 : srifle_DMR_01_F
 	class hlc_rifle_falosw : hlc_fal_base {
 		magazineWell[] = {"CBA_762x51_M14"};
 		magazines[] = {"rtg_20Rnd_762x51"};
-		scope = 2;
-		dlc = "raiderTactical";
-		Author = "Shrike";
+		RTG_WEAPON_BASE
 		recoil = "rtg_762n_pdw";
 		class XtdGearInfo
 		{
@@ -2595,24 +2414,18 @@ class rtg_vs121 : srifle_DMR_01_F
 	class hlc_rifle_osw_gl : hlc_rifle_falosw {
 		magazineWell[] = {"CBA_762x51_M14"};
 		magazines[] = {"rtg_20Rnd_762x51"};
-		scope = 2;
-		dlc = "raiderTactical";
-		Author = "Shrike";
-		class XtdGearInfo
-		{
-			model = "";
-		};
+		RTG_WEAPON_BASE
+		RTG_ACEAX_EMPTY 
 	};
 
 // Machine Guns
 class rhs_weap_m240G;
 class rtg_mag60_20 : rhs_weap_m240G
 {
-	scope = 2;
-	dlc = "raiderTactical";
+	RTG_WEAPON_BASE
 	baseWeapon = "rtg_mag60_20";
-	Author = "Shrike";
-	displayName = "MAG 60-20";
+	
+	displayName = "FN MAG 60-20";
 	magazineWell[] = {"CBA_762x51_LINKS"};
 	magazines[] = {"rtg_200Rnd_762x51"};
 	recoil = "rtg_762n_mmg";
@@ -2621,9 +2434,7 @@ class rtg_mag60_20 : rhs_weap_m240G
 	AB_barrelLength = 17;
 	ACE_barrelTwist = 304.8;
 	ACE_barrelLength = 630.8;
-	opticsZoomInit= 0.75;
-	opticsZoomMax=0.75;
-	opticsZoomMin= 0.50;
+	RTG_STANDARD_ZOOM
 	mass = 260.1;
 	bg_bipod = 1;
 	cse_bipod = 1;
@@ -2647,16 +2458,16 @@ class rtg_mag60_20 : rhs_weap_m240G
 	{
 		model = "rtg_ace_expanded_mag60";
 		furniture = "metal";
+		calibre = "N762";
 	};
 };
 class rhs_weap_fnmag;
 class rtg_mag60_20_t3 : rhs_weap_fnmag
 {
-	scope = 2;
-	dlc = "raiderTactical";
+	RTG_WEAPON_BASE
 	baseWeapon = "rtg_mag60_20_t3";
-	Author = "Shrike";
-	displayName = "MAG 60-20 (T3)";
+	
+	displayName = "FN MAG 60-20 (T3)";
 	magazineWell[] = {"CBA_762x51_LINKS"};
 	magazines[] = {"rtg_200Rnd_762x51"};
 	recoil = "rtg_762n_mmg";
@@ -2665,9 +2476,7 @@ class rtg_mag60_20_t3 : rhs_weap_fnmag
 	AB_barrelLength = 17;
 	ACE_barrelTwist = 304.8;
 	ACE_barrelLength = 630.8;
-	opticsZoomInit= 0.75;
-	opticsZoomMax=0.75;
-	opticsZoomMin= 0.50;
+	RTG_STANDARD_ZOOM
 	mass = 285.1;
 	bg_bipod = 1;
 	cse_bipod = 1;
@@ -2691,16 +2500,16 @@ class rtg_mag60_20_t3 : rhs_weap_fnmag
 	{
 		model = "rtg_ace_expanded_mag60";
 		furniture = "wood";
+		calibre = "N762";
 	};
 };
 
 class rtg_mag10_10 : rtg_mag60_20
 {
-	scope = 2;
-	dlc = "raiderTactical";
+	RTG_WEAPON_BASE
 	baseWeapon = "rtg_mag10_10";
-	Author = "Shrike";
-	displayName = "MAG 10-10";
+	
+	displayName = "FN MAG 10-10";
 	recoil = "rtg_762n_lmg";
 	model = "rtgEquipment\lods\MAG\MAG_F";
 	modes[] = {"FullAuto"};
@@ -2708,9 +2517,7 @@ class rtg_mag10_10 : rtg_mag60_20
 	AB_barrelLength = 15;
 	ACE_barrelTwist = 304.8;
 	ACE_barrelLength = 481.2;
-	opticsZoomInit= 0.75;
-	opticsZoomMax=0.75;
-	opticsZoomMin= 0.50;
+	RTG_STANDARD_ZOOM
 	mass = 172.3;
 	bg_bipod = 0;
 	cse_bipod = 0;
@@ -2742,15 +2549,64 @@ class rtg_mag10_10 : rtg_mag60_20
 	};
 	class XtdGearInfo
 	{
-		model = "";
+		model = "rtg_ace_expanded_mag60";
+		furniture = "short";
+		calibre = "N762";
 	};
+}
+
+// 277 Fury M240
+class rtg_mag10_10_277 : rtg_mag10_10
+{
+	RTG_WEAPON_BASE
+	baseWeapon = "rtg_mag10_10_277";
+	displayName = "MAG 10-10 (.277)";
+	recoil = "rtg_762n_mmg";
+	class XtdGearInfo
+	{
+		model = "rtg_ace_expanded_mag60";
+		furniture = "short";
+		calibre = "N277";
+	};
+	magazineWell[] = {"RTG_68x51_BELT_MAGWELL"};
+	magazines[] = {"rtg_100Rnd_68x51"};
+}
+
+class rtg_m240B_277 : rtg_mag60_20
+{
+	RTG_WEAPON_BASE
+	baseWeapon = "rtg_mag60_20_277";
+	displayName = "FN M240B (.277)";
+	recoil = "rtg_762n_mmg";
+	class XtdGearInfo
+	{
+		model = "rtg_ace_expanded_mag60";
+		furniture = "metal";
+		calibre = "N277";
+	}; 
+	magazineWell[] = {"RTG_68x51_BELT_MAGWELL"};
+	magazines[] = {"rtg_100Rnd_68x51"};
+}
+
+class rtg_mag60_20_t3_277 : rtg_mag60_20_t3
+{
+	RTG_WEAPON_BASE
+	baseWeapon = "rtg_mag60_20_t3_277";
+	displayName = "FN MAG 60-20 (.277)";
+	recoil = "rtg_762n_mmg";
+	class XtdGearInfo
+	{
+		model = "rtg_ace_expanded_mag60";
+		furniture = "wood";
+		calibre = "N277";
+	}; 
+	magazineWell[] = {"RTG_68x51_BELT_MAGWELL"};
+	magazines[] = {"rtg_100Rnd_68x51"};
 }
 
 class LMG_Zafir_F;
 class rtg_mg3 : LMG_Zafir_F {
-	scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+	RTG_WEAPON_BASE
 	baseWeapon = "rtg_mg3_funny";
 	recoil = "rtg_762n_mmg";
 	magazineWell[] = {"CBA_762x51_LINKS"};
@@ -2791,9 +2647,7 @@ class rtg_mg3 : LMG_Zafir_F {
 };
 
 class rtg_ameli : rtg_mg3 {
-	scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+	RTG_WEAPON_BASE
 	baseWeapon = "rtg_ameli";
 	magazineWell[] = {"CBA_556x45_MINIMI"};
 	magazines[] = {"rtg_200rnd_556_45"};
@@ -2851,9 +2705,7 @@ class rtg_ameli : rtg_mg3 {
 
 class rtg_G8A1 : arifle_SPAR_03_blk_f
 {
-	scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+	RTG_WEAPON_BASE
 	baseWeapon = "rtg_G8A1";
 	reloadAction = "HLC_GestureReloadG3SG1";
 	handAnim[] = {"OFP2_ManSkeleton", "hlc_wp_g3\anim\handgesture_G3_STD_Wide.rtm"};
@@ -2899,9 +2751,7 @@ class rtg_G8A1 : arifle_SPAR_03_blk_f
 class rhs_weap_pkp;
 class rtg_UKM2000_F : rhs_weap_pkp
 {
-	scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+	RTG_WEAPON_BASE
 	displayName="UKM2000";
 	baseWeapon = "rtg_UKM2000_F";
 	magazineWell[] = {"CBA_556x45_MINIMI"};
@@ -2909,9 +2759,7 @@ class rtg_UKM2000_F : rhs_weap_pkp
 	recoil = "rtg_556_lmg";
 	model="rtgEquipment\lods\UKM2000\UKM2000_F.p3d";
 	handAnim[] = {"OFP2_ManSkeleton","\rhsafrf\addons\rhs_c_weapons\anims\pkm.rtm"};
-	opticsZoomInit= 0.75;
-	opticsZoomMax=0.75;
-	opticsZoomMin= 0.50;
+	RTG_STANDARD_ZOOM
 	class WeaponSlotsInfo: WeaponSlotsInfo
 	{
 		class CowsSlot: asdg_OpticRail1913{};
@@ -2941,9 +2789,8 @@ class launch_MRAWS_olive_rail_F;
 class launch_MRAWS_sand_rail_F;
 class rtg_MRAWS_olive : launch_MRAWS_olive_rail_F
 {
-	scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shike";
+	RTG_WEAPON_BASE
+	
 	displayName = "M3 MAAWS (Olive)";
 	baseWeapon = "rtg_MRAWS_olive";
 	magazineWell[] = {"CBA_Carl_Gustaf"};
@@ -2979,9 +2826,8 @@ class rtg_MRAWS_olive : launch_MRAWS_olive_rail_F
 };
 class rtg_MRAWS_sand : launch_MRAWS_sand_rail_F
 {
-	scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shike";
+	RTG_WEAPON_BASE
+	
 	displayName = "M3 MAAWS (Sand)";
 	baseWeapon = "rtg_MRAWS_sand";
 	magazineWell[] = {"CBA_Carl_Gustaf"};
@@ -3017,9 +2863,8 @@ class rtg_MRAWS_sand : launch_MRAWS_sand_rail_F
 };
 class rtg_sal_Launcher : launch_MRAWS_olive_rail_F
 {
-	scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shike";
+	RTG_WEAPON_BASE
+	
 	displayName = "M3 MAAWS (Black/Sal)";
 	baseWeapon = "rtg_sal_Launcher";
 	magazineWell[] = {"CBA_Carl_Gustaf"};
@@ -3058,9 +2903,8 @@ class rtg_sal_Launcher : launch_MRAWS_olive_rail_F
 class launch_Titan_short_base;
 class launch_I_Titan_short_F : launch_Titan_short_base
 {
-	scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shike";
+	RTG_WEAPON_BASE
+	
 	displayName = "M6E2 MPRL (Olive)";
 	baseWeapon = "rtg_MPRL_olive";
 	mass = 225;
@@ -3069,9 +2913,8 @@ class launch_I_Titan_short_F : launch_Titan_short_base
 
 class launch_B_Titan_short_F : launch_Titan_short_base
 {
-	scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shike";
+	RTG_WEAPON_BASE
+	
 	displayName = "M6E2 MPRL (Sand)";
 	baseWeapon = "rtg_MPRL_sand";
 	mass = 225;
@@ -3081,9 +2924,8 @@ class launch_B_Titan_short_F : launch_Titan_short_base
 class launch_RPG7_F;
 class rtg_pslr1_rpg7 : launch_RPG7_F
 {
-	scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shike";
+	RTG_WEAPON_BASE
+	
 	displayName = "PSLR-1";
 	baseWeapon = "rtg_pslr1";
 	mass = 95.5;
@@ -3092,16 +2934,13 @@ class rtg_pslr1_rpg7 : launch_RPG7_F
 	hiddenSelectionsTextures[] = {"rtgEquipment\tex\PSLR-1.paa"};
 	magazines[] = {"RPG7_F"};
 	magazineWell[] = {"RPG7"};
-	opticsZoomInit= 0.75;
-	opticsZoomMax=0.75;
-	opticsZoomMin= 0.50;
+	RTG_STANDARD_ZOOM
 }
 
 // shotguns
 class rtg_shotgun : rhs_weap_M590_5RD {
-	scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shike";
+	RTG_WEAPON_BASE
+	
 	displayName = "Mossberg 590";
 	baseWeapon = "rtg_shotgun";
 	magazineWell[] = {"CBA_12g_6rnds"};
@@ -3111,9 +2950,7 @@ class rtg_shotgun : rhs_weap_M590_5RD {
 class ACWP_M4A5_145_troy_base_BLK;
 class rtg_rifle_samr2_12g : arifle_SPAR_01_blk_F
 {
-	scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+	RTG_WEAPON_BASE
 	baseWeapon = "rtg_rifle_samr2_12g";
 	displayName = "LAR-12 Shotgun";
 	ACE_barrelTwist = 228.6;
@@ -3160,9 +2997,7 @@ class rtg_rifle_samr2_12g : arifle_SPAR_01_blk_F
 };
 
 class rtg_12g_m4a5 : ACWP_M4A5_145_troy_base_BLK {
-	scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+	RTG_WEAPON_BASE
     displayName="M4A5 12g Auto";
 	magazineWell[] = {"rtg_12g_15"};
 	magazines[] = {"rtg_12g_15Rnd"};
@@ -3181,10 +3016,7 @@ class rtg_12g_m4a5 : ACWP_M4A5_145_troy_base_BLK {
 		"","","","",
 		"acwp_core\tex\roe_co.paa"
 	};
-	class XtdGearInfo
-	{
-		model = "";
-	};
+	RTG_ACEAX_EMPTY 
 	class Single: Single
 	{
 		reloadTime = 0.2;
@@ -3209,9 +3041,7 @@ class rtg_12g_m4a5 : ACWP_M4A5_145_troy_base_BLK {
 };
 // Custom
 class texRifle : ACWP_M4A5_145_troy_base_BLK {
-	scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+	RTG_WEAPON_BASE
     displayName="M4A5 .50 BW (Tex)";
 	magazineWell[] = {"rtg_50_bw_STANAG"};
 	recoil = "rtg_50bw_rifle";
@@ -3229,10 +3059,7 @@ class texRifle : ACWP_M4A5_145_troy_base_BLK {
 		"","","","",
 		""
 	};
-	class XtdGearInfo
-	{
-		model = "";
-	};
+	RTG_ACEAX_EMPTY 
 
 	modes[] = {"Single"};
 	class Single : Single
@@ -3259,10 +3086,9 @@ class texRifle : ACWP_M4A5_145_troy_base_BLK {
 
 class rtg_f2000_Shrike : rtg_f2000_tan
 {
-	scope = 2;
-	dlc = "raiderTactical";
+	RTG_WEAPON_BASE
 	baseWeapon = "rtg_f2000_Shrike";
-	Author = "Shrike";
+	
 	displayName = "F2000 [Shrike]";
 	modes[] = {"Single","FullAuto"};
 	recoil = "rtg_300_rifle";
@@ -3270,10 +3096,7 @@ class rtg_f2000_Shrike : rtg_f2000_tan
 	magazines[] = {"rtg_30rnd_300_blk"};
 	hiddenSelections[] = {"camo"};
 	hiddenSelectionsTextures[] = {"rtgEquipment\tex\f2000_shrike.paa"};
-	class XtdGearInfo
-	{
-		model = "";
-	};
+	RTG_ACEAX_EMPTY 
 	class WeaponSlotsInfo: WeaponSlotsInfo
 	{
 		class MuzzleSlot: asdg_MuzzleSlot{};
@@ -3286,9 +3109,7 @@ class rtg_f2000_Shrike : rtg_f2000_tan
 
 class sgun_HunterShotgun_01_F;
 class rtg_nitro : sgun_HunterShotgun_01_F {
-	scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+	RTG_WEAPON_BASE
     displayName=".700 Nitro Express";
 	magazines[] = {"rtg_nitroSlug"};
 	recoil = "700Nitro";

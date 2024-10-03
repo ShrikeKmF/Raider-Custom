@@ -59,6 +59,20 @@ class CfgMagazineWells
             "rtg_100rnd_556_45";
         };
 	};
+
+	class RTG_68x51_MAGWELL { // 277 Fury
+        RTG_Magazines[] =
+		{
+			"rtg_20Rnd_68x51";
+        };
+	};
+	class RTG_68x51_BELT_MAGWELL { // 277 Fury MG
+        RTG_Magazines[] =
+		{
+			"rtg_100Rnd_68x51";
+            "rtg_100Rnd_68x51_t";
+        };
+	};
 	
 	class CBA_556x45_MINIMI // 5.56 Nato
     {

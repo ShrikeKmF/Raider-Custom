@@ -77,98 +77,62 @@
 	class ptv_hk433_VG: ptv_hk433
 	{
 		scope = 1;
-		class XtdGearInfo
-		{
-			model = "";
-		};
+		RTG_ACEAX_EMPTY 
 	};
 	class ptv_hk433_t_VG: ptv_hk433
 	{
 		scope = 1;
-		class XtdGearInfo
-		{
-			model = "";
-		};
+		RTG_ACEAX_EMPTY 
 	};
 	class ptv_hk433_b_VG: ptv_hk433
 	{
 		scope = 1;
-		class XtdGearInfo
-		{
-			model = "";
-		};
+		RTG_ACEAX_EMPTY 
 	};
 	class ptv_hk433_AFG: ptv_hk433
 	{
 		scope = 1;
-		class XtdGearInfo
-		{
-			model = "";
-		};
+		RTG_ACEAX_EMPTY 
 	};
 	class ptv_hk433_t_AFG: ptv_hk433
 	{
 		scope = 1;
-		class XtdGearInfo
-		{
-			model = "";
-		};
+		RTG_ACEAX_EMPTY 
 	};
 	class ptv_hk433_t_AFG: ptv_hk433
 	{
 		scope = 1;
-		class XtdGearInfo
-		{
-			model = "";
-		};
+		RTG_ACEAX_EMPTY 
 	};
 	class ptv_hk433s_VG: ptv_hk433
 	{
 		scope = 1;
-		class XtdGearInfo
-		{
-			model = "";
-		};
+		RTG_ACEAX_EMPTY 
 	};
 	class ptv_hk433s_t_VG: ptv_hk433
 	{
 		scope = 1;
-		class XtdGearInfo
-		{
-			model = "";
-		};
+		RTG_ACEAX_EMPTY 
 	};
 	class ptv_hk433s_b_VG: ptv_hk433
 	{
 		scope = 1;
-		class XtdGearInfo
-		{
-			model = "";
-		};
+		RTG_ACEAX_EMPTY 
 	};
 	class ptv_hk433s_AFG: ptv_hk433
 	{
 		scope = 1;
-		class XtdGearInfo
-		{
-			model = "";
-		};
+		RTG_ACEAX_EMPTY 
 	};
 	class ptv_hk433s_t_AFG: ptv_hk433
 	{
 		scope = 1;
-		class XtdGearInfo
-		{
-			model = "";
-		};
+		RTG_ACEAX_EMPTY 
 	};
 	class ptv_hk433s_t_AFG: ptv_hk433
 	{
 		scope = 1;
-		class XtdGearInfo
-		{
-			model = "";
-		};
+		RTG_ACEAX_EMPTY 
 	};
 
 // M/23
@@ -267,26 +231,17 @@
 		magazineWell[] = {"CBA_556x45_STANAG"};
 		magazines[] = {"rtg_30rnd_556_45"};
 		recoil = "rtg_556_rifle";
-		class XtdGearInfo
-		{
-			model = "";
-		};
+		RTG_ACEAX_EMPTY 
 	}
 	class ptv_AG_k : ptv_AG
 	{
 		recoil = "rtg_556_carbine";
-		class XtdGearInfo
-		{
-			model = "";
-		};
+		RTG_ACEAX_EMPTY 
 	}
 	class ptv_AG_c: ptv_AG
 	{
 		recoil = "rtg_556_pdw";
-		class XtdGearInfo
-		{
-			model = "";
-		};
+		RTG_ACEAX_EMPTY 
 	}
 
 	class ptv_AG_r: ptv_AG
@@ -571,10 +526,7 @@
 	}
 	class ptv_ng5_sf_des : ptv_ng5_sf
 	{
-		class XtdGearInfo
-		{
-			model = "";
-		};
+		RTG_ACEAX_EMPTY 
 	}
 
 // M60E4
@@ -745,26 +697,19 @@
 	}
 	class ptv_cbj_ms2: ptv_cbj_ms
 	{
-		class XtdGearInfo
-		{
-			model = "";
-		};
+		RTG_ACEAX_EMPTY 
 	}
 	class ptv_cbj_ms2_b: ptv_cbj_ms2
 	{
-		class XtdGearInfo
-		{
-			model = "";
-		};
+		RTG_ACEAX_EMPTY 
 	}
 
 // G18
 	class ptv_g19;
 	class rtg_g18c : ptv_g19
 	{
-		scope = 2;
-		dlc = "raiderTactical";
-		Author = "Shike";
+		RTG_WEAPON_BASE
+		
 		baseWeapon = "rtg_g18c";
 		displayName = "Glock-18C";
 		modes[] = {"Burst", "Single1"};
@@ -960,9 +905,8 @@
 	class ptv_p320t;
 	class ptv_p320t_p : ptv_p320t
 	{
-		scope = 2;
-		dlc = "raiderTactical";
-		Author = "Shike";
+		RTG_WEAPON_BASE
+		
 		baseWeapon = "ptv_p320t_p";
 		displayName = "P320 Tactical (Pink)";
 		hiddenSelections[] = {"camo"};

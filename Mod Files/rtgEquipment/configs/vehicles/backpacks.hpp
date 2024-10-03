@@ -31,9 +31,8 @@ class VSM_ProjectHonor_Backpack_Kitbag;
 
 
 class rtg_Alpine_Backpack_Compact : Alpine_Backpack_Compact {
-    scope = 2;
-    dlc = "raiderTactical";
-    Author = "Shrike";
+    RTG_WEAPON_BASE
+    
     maximumLoad = 350;
     class XtdGearInfo
 	{
@@ -43,9 +42,8 @@ class rtg_Alpine_Backpack_Compact : Alpine_Backpack_Compact {
 	};
 };
 class rtg_Arid_Backpack_Compact : Arid_Backpack_Compact {
-    scope = 2;
-    dlc = "raiderTactical";
-    Author = "Shrike";
+    RTG_WEAPON_BASE
+    
     maximumLoad = 350;
     class XtdGearInfo
 	{
@@ -55,9 +53,8 @@ class rtg_Arid_Backpack_Compact : Arid_Backpack_Compact {
 	};
 };
 class rtg_Black_Backpack_Compact : Black_Backpack_Compact {
-    scope = 2;
-    dlc = "raiderTactical";
-    Author = "Shrike";
+    RTG_WEAPON_BASE
+    
     maximumLoad = 350;
     class XtdGearInfo
 	{
@@ -67,9 +64,8 @@ class rtg_Black_Backpack_Compact : Black_Backpack_Compact {
 	};
 };
 class rtg_VSM_Multicam_Backpack_Compact :VSM_Multicam_Backpack_Compact {
-    scope = 2;
-    dlc = "raiderTactical";
-    Author = "Shrike";
+    RTG_WEAPON_BASE
+    
     maximumLoad = 350;
     class XtdGearInfo
 	{
@@ -79,9 +75,8 @@ class rtg_VSM_Multicam_Backpack_Compact :VSM_Multicam_Backpack_Compact {
 	};
 };
 class rtg_VSM_MulticamTropic_Backpack_Compact : VSM_MulticamTropic_Backpack_Compact {
-    scope = 2;
-    dlc = "raiderTactical";
-    Author = "Shrike";
+    RTG_WEAPON_BASE
+    
     maximumLoad = 350;
     class XtdGearInfo
 	{
@@ -91,9 +86,8 @@ class rtg_VSM_MulticamTropic_Backpack_Compact : VSM_MulticamTropic_Backpack_Comp
 	};
 };
 class rtg_VSM_OGA_Backpack_Compact : VSM_OGA_Backpack_Compact {
-    scope = 2;
-    dlc = "raiderTactical";
-    Author = "Shrike";
+    RTG_WEAPON_BASE
+    
     maximumLoad = 350;
     class XtdGearInfo
 	{
@@ -103,9 +97,8 @@ class rtg_VSM_OGA_Backpack_Compact : VSM_OGA_Backpack_Compact {
 	};
 };
 class rtg_VSM_OGA_OD_Backpack_Compact : VSM_OGA_OD_Backpack_Compact {
-    scope = 2;
-    dlc = "raiderTactical";
-    Author = "Shrike";
+    RTG_WEAPON_BASE
+    
     maximumLoad = 350;
     class XtdGearInfo
 	{
@@ -115,9 +108,8 @@ class rtg_VSM_OGA_OD_Backpack_Compact : VSM_OGA_OD_Backpack_Compact {
 	};
 };
 class rtg_VSM_ProjectHonor_Backpack_Compact : VSM_ProjectHonor_Backpack_Compact {
-    scope = 2;
-    dlc = "raiderTactical";
-    Author = "Shrike";
+    RTG_WEAPON_BASE
+    
     maximumLoad = 350;
     class XtdGearInfo
 	{
@@ -128,9 +120,8 @@ class rtg_VSM_ProjectHonor_Backpack_Compact : VSM_ProjectHonor_Backpack_Compact 
 };
 
 class rtg_Alpine_Backpack_kitbag : Alpine_Backpack_kitbag {
-    scope = 2;
-    dlc = "raiderTactical";
-    Author = "Shrike";
+    RTG_WEAPON_BASE
+    
     maximumLoad = 350;
     class XtdGearInfo
 	{
@@ -140,9 +131,8 @@ class rtg_Alpine_Backpack_kitbag : Alpine_Backpack_kitbag {
 	};
 };
 class rtg_Arid_Backpack_kitbag : Arid_Backpack_kitbag {
-    scope = 2;
-    dlc = "raiderTactical";
-    Author = "Shrike";
+    RTG_WEAPON_BASE
+    
     maximumLoad = 350;
     class XtdGearInfo
 	{
@@ -152,9 +142,8 @@ class rtg_Arid_Backpack_kitbag : Arid_Backpack_kitbag {
 	};
 };
 class rtg_Black_Backpack_kitbag : Black_Backpack_kitbag {
-    scope = 2;
-    dlc = "raiderTactical";
-    Author = "Shrike";
+    RTG_WEAPON_BASE
+    
     maximumLoad = 350;
     class XtdGearInfo
 	{
@@ -164,9 +153,8 @@ class rtg_Black_Backpack_kitbag : Black_Backpack_kitbag {
 	};
 };
 class rtg_VSM_Multicam_Backpack_Kitbag : VSM_Multicam_Backpack_Kitbag {
-    scope = 2;
-    dlc = "raiderTactical";
-    Author = "Shrike";
+    RTG_WEAPON_BASE
+    
     maximumLoad = 350;
     class XtdGearInfo
 	{
@@ -176,9 +164,8 @@ class rtg_VSM_Multicam_Backpack_Kitbag : VSM_Multicam_Backpack_Kitbag {
 	};
 };
 class rtg_VSM_MulticamTropic_Backpack_Kitbag : VSM_MulticamTropic_Backpack_Kitbag {
-    scope = 2;
-    dlc = "raiderTactical";
-    Author = "Shrike";
+    RTG_WEAPON_BASE
+    
     maximumLoad = 350;
     class XtdGearInfo
 	{
@@ -188,9 +175,8 @@ class rtg_VSM_MulticamTropic_Backpack_Kitbag : VSM_MulticamTropic_Backpack_Kitba
 	};
 };
 class rtg_VSM_OGA_Backpack_Kitbag : VSM_OGA_Backpack_Kitbag {
-    scope = 2;
-    dlc = "raiderTactical";
-    Author = "Shrike";
+    RTG_WEAPON_BASE
+    
     maximumLoad = 350;
     class XtdGearInfo
 	{
@@ -200,9 +186,8 @@ class rtg_VSM_OGA_Backpack_Kitbag : VSM_OGA_Backpack_Kitbag {
 	};
 };
 class rtg_VSM_OGA_OD_Backpack_Kitbag : VSM_OGA_OD_Backpack_Kitbag {
-    scope = 2;
-    dlc = "raiderTactical";
-    Author = "Shrike";
+    RTG_WEAPON_BASE
+    
     maximumLoad = 350;
     class XtdGearInfo
 	{
@@ -212,9 +197,8 @@ class rtg_VSM_OGA_OD_Backpack_Kitbag : VSM_OGA_OD_Backpack_Kitbag {
 	};
 };
 class rtg_VSM_ProjectHonor_Backpack_Kitbag : VSM_ProjectHonor_Backpack_Kitbag {
-    scope = 2;
-    dlc = "raiderTactical";
-    Author = "Shrike";
+    RTG_WEAPON_BASE
+    
     maximumLoad = 350;
     class XtdGearInfo
 	{
@@ -225,9 +209,8 @@ class rtg_VSM_ProjectHonor_Backpack_Kitbag : VSM_ProjectHonor_Backpack_Kitbag {
 };
 
 class rtg_Alpine_Carryall : Alpine_Carryall {
-    scope = 2;
-    dlc = "raiderTactical";
-    Author = "Shrike";
+    RTG_WEAPON_BASE
+    
     maximumLoad = 350;
     class XtdGearInfo
 	{
@@ -237,9 +220,8 @@ class rtg_Alpine_Carryall : Alpine_Carryall {
 	};
 };
 class rtg_Arid_Carryall : Arid_Carryall {
-    scope = 2;
-    dlc = "raiderTactical";
-    Author = "Shrike";
+    RTG_WEAPON_BASE
+    
     maximumLoad = 350;
     class XtdGearInfo
 	{
@@ -249,9 +231,8 @@ class rtg_Arid_Carryall : Arid_Carryall {
 	};
 };
 class rtg_Black_Carryall : Black_Carryall {
-    scope = 2;
-    dlc = "raiderTactical";
-    Author = "Shrike";
+    RTG_WEAPON_BASE
+    
     maximumLoad = 350;
     class XtdGearInfo
 	{
@@ -261,9 +242,8 @@ class rtg_Black_Carryall : Black_Carryall {
 	};
 };
 class rtg_VSM_Multicam_carryall : VSM_Multicam_carryall {
-    scope = 2;
-    dlc = "raiderTactical";
-    Author = "Shrike";
+    RTG_WEAPON_BASE
+    
     maximumLoad = 350;
     class XtdGearInfo
 	{
@@ -273,9 +253,8 @@ class rtg_VSM_Multicam_carryall : VSM_Multicam_carryall {
 	};
 };
 class rtg_VSM_MulticamTropic_carryall : VSM_MulticamTropic_carryall {
-    scope = 2;
-    dlc = "raiderTactical";
-    Author = "Shrike";
+    RTG_WEAPON_BASE
+    
     maximumLoad = 350;
     class XtdGearInfo
 	{
@@ -285,9 +264,8 @@ class rtg_VSM_MulticamTropic_carryall : VSM_MulticamTropic_carryall {
 	};
 };
 class rtg_VSM_OGA_carryall : VSM_OGA_carryall {
-    scope = 2;
-    dlc = "raiderTactical";
-    Author = "Shrike";
+    RTG_WEAPON_BASE
+    
     maximumLoad = 350;
     class XtdGearInfo
 	{
@@ -297,9 +275,8 @@ class rtg_VSM_OGA_carryall : VSM_OGA_carryall {
 	};
 };
 class rtg_VSM_OGA_OD_carryall : VSM_OGA_OD_carryall {
-    scope = 2;
-    dlc = "raiderTactical";
-    Author = "Shrike";
+    RTG_WEAPON_BASE
+    
     maximumLoad = 350;
     class XtdGearInfo
 	{
@@ -309,9 +286,8 @@ class rtg_VSM_OGA_OD_carryall : VSM_OGA_OD_carryall {
 	};
 };
 class rtg_VSM_ProjectHonor_carryall : VSM_ProjectHonor_carryall {
-    scope = 2;
-    dlc = "raiderTactical";
-    Author = "Shrike";
+    RTG_WEAPON_BASE
+    
     maximumLoad = 350;
     class XtdGearInfo
 	{
@@ -324,9 +300,7 @@ class rtg_VSM_ProjectHonor_carryall : VSM_ProjectHonor_carryall {
 // Custom Backpacks
 class B_Kitbag_rgr;
 class cakeBackpack : B_Kitbag_rgr {
-    scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+    RTG_WEAPON_BASE
     displayName = "Kitbag - Cake";
     maximumLoad = 380;
     mass = 50;
@@ -334,9 +308,7 @@ class cakeBackpack : B_Kitbag_rgr {
 };
 
 class kebaCarryAll_MCB : VSM_OGA_carryall {
-    scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+    RTG_WEAPON_BASE
     displayName = "Carryall Black - Keba";
     maximumLoad = 380;
     mass = 50;
@@ -344,9 +316,7 @@ class kebaCarryAll_MCB : VSM_OGA_carryall {
 };
 
 class kebaCarryAll_ALP : VSM_OGA_carryall {
-    scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+    RTG_WEAPON_BASE
     displayName = "Carryall Alpine - Keba";
     maximumLoad = 380;
     mass = 50;
@@ -354,9 +324,7 @@ class kebaCarryAll_ALP : VSM_OGA_carryall {
 };
 
 class lynxKitbag : B_Kitbag_rgr {
-    scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+    RTG_WEAPON_BASE
     displayName = "Kitbag - Lynx";
     maximumLoad = 380;
     mass = 50;
@@ -364,9 +332,7 @@ class lynxKitbag : B_Kitbag_rgr {
 };
 
 class shrikeBackpack : B_Kitbag_rgr {
-    scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+    RTG_WEAPON_BASE
     displayName = "Kitbag - Shrike";
     maximumLoad = 380;
     mass = 50;
@@ -374,9 +340,7 @@ class shrikeBackpack : B_Kitbag_rgr {
 };
 
 class salBackpack : B_Kitbag_rgr {
-    scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+    RTG_WEAPON_BASE
     displayName = "Kitbag - Sal";
     maximumLoad = 380;
     mass = 50;
@@ -384,9 +348,7 @@ class salBackpack : B_Kitbag_rgr {
 };
 
 class bladesBackpack : B_Kitbag_rgr {
-    scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+    RTG_WEAPON_BASE
     displayName = "Kitbag - Blade";
     maximumLoad = 380;
     mass = 50;
@@ -394,9 +356,7 @@ class bladesBackpack : B_Kitbag_rgr {
 };
 
 class ozzyBackpack : B_Kitbag_rgr {
-    scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+    RTG_WEAPON_BASE
     displayName = "Kitbag - Ozzy";
     maximumLoad = 380;
     mass = 50;
@@ -404,37 +364,27 @@ class ozzyBackpack : B_Kitbag_rgr {
 };
 
 class fizzAlpineCarryAll : rtg_Alpine_Carryall {
-    scope = 2;
-	dlc = "raiderTactical";
+    RTG_WEAPON_BASE
 	Author = "Fizz";
     displayName = "Carryall Alpine - Fizz";
     maximumLoad = 380;
     mass = 50;
     hiddenSelectionsTextures[] = {"rtgEquipment\tex\Alpine_carryall_Fizz.paa"};
-    class XtdGearInfo
-	{
-		model = "";
-	};
+    RTG_ACEAX_EMPTY 
 };
 
 class fizzBlackCarryAll : rtg_Alpine_Carryall {
-    scope = 2;
-	dlc = "raiderTactical";
+    RTG_WEAPON_BASE
 	Author = "Fizz";
     displayName = "Carryall Black - Fizz";
     maximumLoad = 380;
     mass = 50;
     hiddenSelectionsTextures[] = {"rtgEquipment\tex\Multicam_Black_carryall_Fizz.paa"};
-    class XtdGearInfo
-	{
-		model = "";
-	};
+    RTG_ACEAX_EMPTY 
 };
 
 class patsBackpack : B_Kitbag_rgr {
-    scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+    RTG_WEAPON_BASE
     displayName = "Kitbag - Pat";
     maximumLoad = 380;
     mass = 50;
@@ -442,9 +392,7 @@ class patsBackpack : B_Kitbag_rgr {
 };
 
 class sparklesBackpack : B_Kitbag_rgr {
-    scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+    RTG_WEAPON_BASE
     displayName = "Kitbag - Sparkles";
     maximumLoad = 380;
     mass = 50;
@@ -453,9 +401,7 @@ class sparklesBackpack : B_Kitbag_rgr {
 
 class B_CombinationUnitRespirator_01_F;
 class fishPack : B_CombinationUnitRespirator_01_F {
-    scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+    RTG_WEAPON_BASE
     displayName = "Backpack - Fish";
     maximumLoad = 380;
     mass = 50;
@@ -465,9 +411,7 @@ class fishPack : B_CombinationUnitRespirator_01_F {
 class B_RadioBag_01_black_F;
 class brewPack : B_RadioBag_01_black_F
 {
-    scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+    RTG_WEAPON_BASE
     displayName = "Backpack - Brewsky";
     maximumLoad = 380;
     mass = 50;
@@ -477,7 +421,7 @@ class brewPack : B_RadioBag_01_black_F
 // Medical Grabbag For Vehicles
 class rtg_medical_grabpack : B_Kitbag_rgr {
     scope = 1;
-    author = "Shrike";
+    
     displayname = "Medical Grabbag";
     maximumLoad = 450;
 
@@ -507,7 +451,7 @@ class rhs_assault_umbts_engineer_empty;
 class rtg_engineer_grabpack : rhs_assault_umbts_engineer_empty
 {
     scope = 1;
-    author = "Shrike";
+    
     displayname = "Engineer Grabbag";
     maximumLoad = 450;
 
@@ -525,9 +469,9 @@ class rtg_engineer_grabpack : rhs_assault_umbts_engineer_empty
 class VSM_Multicam_Crye_Uniform;
 class amcu_uniform : VSM_Multicam_Crye_Uniform
 {
-    author = "Shrike";
+    
 	_generalMacro = "B_soldier_F";
-	scope = 2;
+	RTG_WEAPON_BASE
     uniformClass = "amcu_uniform";
     hiddenSelections[] = {"Camo","Insignia"};
     displayName = "[VSM] AMCU (Crye)";

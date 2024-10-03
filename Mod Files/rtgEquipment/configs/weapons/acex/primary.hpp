@@ -2,7 +2,7 @@
 // Minimi
 class rtg_ace_expanded_minimi {
     label = "Minimi";
-    author = "Shrike";
+    
     options[] = {"camo", "barrel", "calibre", "stock"};
     class camo
     {
@@ -80,7 +80,7 @@ class rtg_ace_expanded_minimi {
 // MP5
 class rtg_ace_expanded_mp5 {
     label = "MP5";
-    author = "Shrike";
+    
     options[] = {"form", "calibre", "grip"};
     class form
     {
@@ -153,7 +153,7 @@ class rtg_ace_expanded_mp5 {
 // AUG
 class rtg_ace_expanded_aug {
     label = "AUG";
-    author = "Shrike";
+    
     options[] = {"barrel", "camo", "gl"};
     class barrel
     {
@@ -220,7 +220,7 @@ class rtg_ace_expanded_aug {
 // HK-416
 class rtg_ace_expanded_hk416 {
     label = "HK-416";
-    author = "Shrike";
+    
     options[] = {"barrel", "calibre", "camo"};
     class barrel
     {
@@ -282,7 +282,7 @@ class rtg_ace_expanded_hk416 {
 // HK-417
 class rtg_ace_expanded_hk417 {
     label = "HK-417";
-    author = "Shrike";
+    
     options[] = {"camo"};
     class camo
     {
@@ -309,7 +309,7 @@ class rtg_ace_expanded_hk417 {
 // M14
 class rtg_ace_expanded_m14 {
     label = "M14";
-    author = "Shrike";
+    
     options[] = {"camo"};
     class camo
     {
@@ -346,7 +346,7 @@ class rtg_ace_expanded_m14 {
 // G3A3
 class rtg_ace_expanded_g3a3 {
     label = "G3A3";
-    author = "Shrike";
+    
     options[] = {"grip"};
     class grip
     {
@@ -377,7 +377,7 @@ class rtg_ace_expanded_g3a3 {
 
 class rtg_ace_expanded_hk51 {
     label = "HK51";
-    author = "Shrike";
+    
     options[] = {"variant"};
     class variant
     {
@@ -404,7 +404,7 @@ class rtg_ace_expanded_hk51 {
 // SAMR2
 class rtg_ace_expanded_samr {
     label = "LAR-15";
-    author = "Shrike";
+    
     options[] = {"calibre"};
     class calibre
     {
@@ -446,7 +446,7 @@ class rtg_ace_expanded_samr {
 // MSBS Grot
 class rtg_ace_expanded_grot {
     label = "Grot";
-    author = "Shrike";
+    
     options[] = {"camo", "calibre"};
     class camo
     {
@@ -503,7 +503,7 @@ class rtg_ace_expanded_grot {
 // Scar
 class rtg_ace_expanded_scar {
     label = "SCAR";
-    author = "Shrike";
+    
     options[] = {"barrel", "calibre", "camo", "variant"};
     class barrel
     {
@@ -595,7 +595,7 @@ class rtg_ace_expanded_scar {
 // M4
 class rtg_ace_expanded_m4a1 {
     label = "M4";
-    author = "Shrike";
+    
     options[] = {"form", "stock", "camo"};
     class form
     {
@@ -677,7 +677,7 @@ class rtg_ace_expanded_m4a1 {
 // MP7A2
 class rtg_ace_expanded_mp7 {
     label = "MP7A2";
-    author = "Shrike";
+    
     options[] = {"camo"};
     class camo
     {
@@ -708,7 +708,7 @@ class rtg_ace_expanded_mp7 {
 
 class rtg_ace_expanded_f2000 {
     label = "F2000";
-    author = "Shrike";
+    
     options[] = {"barrel", "camo"};
     class barrel
     {
@@ -744,7 +744,7 @@ class rtg_ace_expanded_f2000 {
 
 class rtg_ace_expanded_g36 {
     label = "G36";
-    author = "Shrike";
+    
     options[] = {"barrel", "calibre", "style"};
     class barrel
     {
@@ -805,7 +805,7 @@ class rtg_ace_expanded_g36 {
 
 class rtg_ace_expanded_p90 {
     label = "P90";
-    author = "Shrike";
+    
     options[] = {"style", "camo"};
     class style
     {
@@ -861,7 +861,7 @@ class rtg_ace_expanded_p90 {
 
 class rtg_ace_expanded_acr {
     label = "ACR";
-    author = "Shrike";
+    
     options[] = {"barrel", "calibre", "camo"};
     class barrel
     {
@@ -938,7 +938,7 @@ class rtg_ace_expanded_acr {
 // FAL
 class rtg_ace_expanded_fal {
     label = "FAL";
-    author = "Shrike";
+    
     options[] = {"form"};
     class form
     {
@@ -964,7 +964,7 @@ class rtg_ace_expanded_fal {
 
 class rtg_ace_expanded_ar15 {
     label = "AR 15";
-    author = "Shrike";
+    
     options[] = {"form", "calibre"};
     class form
     {
@@ -1035,7 +1035,7 @@ class rtg_ace_expanded_ar15 {
 
 class rtg_ace_expanded_xm8 {
     label = "XM8";
-    author = "Shrike";
+    
     options[] = {"barrel", "camo", "calibre"};
     class barrel
     {
@@ -1111,7 +1111,7 @@ class rtg_ace_expanded_xm8 {
 
 class rtg_ace_expanded_xm8_gl {
     label = "XM8 GL";
-    author = "Shrike";
+    
     options[] = {"camo", "calibre"};
     class camo
     {
@@ -1158,7 +1158,7 @@ class rtg_ace_expanded_xm8_gl {
 // M23
 class rtg_ace_expanded_m23 {
     label = "G/M23";
-    author = "Shrike";
+    
     options[] = {"camo", "barrel", "launcher"};
     class camo
     {
@@ -1215,7 +1215,7 @@ class rtg_ace_expanded_m23 {
 // HK433
 class rtg_ace_expanded_hk433 {
     label = "HK-433";
-    author = "Shrike";
+    
     options[] = {"camo", "barrel", "launcher"};
     class camo
     {
@@ -1257,7 +1257,7 @@ class rtg_ace_expanded_hk433 {
 // M90
 class rtg_ace_expanded_m90 {
     label = "G/M90";
-    author = "Shrike";
+    
     options[] = {"modern", "camo", "barrel", "launcher"};
     class modern
     {
@@ -1339,7 +1339,7 @@ class rtg_ace_expanded_m90 {
 // Negev
 class rtg_ace_expanded_negev {
     label = "Negev";
-    author = "Shrike";
+    
     options[] = {"camo", "barrel"};
     class camo
     {
@@ -1376,12 +1376,12 @@ class rtg_ace_expanded_negev {
 // Mag60
 class rtg_ace_expanded_mag60 {
     label = "FN MAG";
-    author = "Shrike";
-    options[] = {"furniture"};
+    
+    options[] = {"furniture", "calibre"};
     class furniture
     {
         label = "Furniture";
-        values[] = {"metal", "wood"};
+        values[] = {"metal", "wood", "short"};
         class metal
         {
             label = "Metal";
@@ -1392,13 +1392,33 @@ class rtg_ace_expanded_mag60 {
             label = "Wood";
             description = "Wood Furniture";
         };
+        class short
+        {
+            label = "Cut";
+            description = "Cut Furniture";
+        };
+    };
+    class calibre
+    {
+        label = "Calibre";
+        values[] = {"N762", "N277"};
+        class N762
+        {
+            label = "7.62";
+            description = "7.62 Nato";
+        };
+        class N277
+        {
+            label = ".277";
+            description = ".277 Fury";
+        };
     };
 };
 
 // Benelli
 class rtg_ace_expanded_benelli {
     label = "Benelli";
-    author = "Shrike";
+    
     options[] = {"length"};
     class length
     {
@@ -1420,7 +1440,7 @@ class rtg_ace_expanded_benelli {
 // M60E4
 class rtg_ace_expanded_m60 {
     label = "M60";
-    author = "Shrike";
+    
     options[] = {"camo", "barrel", "sight"};
     class camo
     {
@@ -1477,7 +1497,7 @@ class rtg_ace_expanded_m60 {
 // L85
 class rtg_ace_expanded_L85 {
     label = "L85A2";
-    author = "Shrike";
+    
     options[] = {"handguard", "grip"};
     class handguard
     {
@@ -1514,7 +1534,7 @@ class rtg_ace_expanded_L85 {
 // Vector 
 class rtg_ace_expanded_vector {
     label = "Vector";
-    author = "Shrike";
+    
     options[] = {"calibre"};
     class calibre
     {
@@ -1536,7 +1556,7 @@ class rtg_ace_expanded_vector {
 // CBJ
 class rtg_ace_expanded_cbj {
     label = "CBJ-MS";
-    author = "Shrike";
+    
     options[] = {"camo"};
     class camo
     {
@@ -1557,7 +1577,7 @@ class rtg_ace_expanded_cbj {
 
 class rtg_ace_expanded_hcar {
     label = "HCAR";
-    author = "Shrike";
+    
     options[] = {"camo"};
     class camo
     {
@@ -1579,7 +1599,7 @@ class rtg_ace_expanded_hcar {
 // VHS2 
 class rtg_ace_expanded_vhs2 {
     label = "VHS-2";
-    author = "Shrike";
+    
     options[] = {"length"};
     class length
     {

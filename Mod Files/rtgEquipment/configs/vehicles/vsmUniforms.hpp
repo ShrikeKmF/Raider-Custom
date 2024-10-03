@@ -2,7 +2,7 @@
 class B_Soldier_F;
 class rtg_kimUniform_soldier: B_Soldier_F
 {
-	author = "Shrike";
+	
 	_generalMacro = "B_soldier_F";
 	scope = 1;
 	displayName = "[RTG] Kim (Crye Tan Shirt)";

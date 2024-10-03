@@ -2052,9 +2052,7 @@ class dr_ARDpar_mg;
 class dr_ARDpar_op;
 // Alpine
 class rtg_dr_Alpinefacp_br : dr_Alpinefacp_br {
-    scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+    RTG_WEAPON_BASE
 armor = 12;
 		class ItemInfo: ItemInfo
     {
@@ -2095,9 +2093,7 @@ armor = 12;
 	};
 };
 class rtg_dr_Alpinefacp_mg : dr_Alpinefacp_mg {
-    scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+    RTG_WEAPON_BASE
 armor = 12;
 		class ItemInfo: ItemInfo
     {
@@ -2138,9 +2134,7 @@ armor = 12;
 	};
 };
 class rtg_dr_Alpinefacp_op : dr_Alpinefacp_op {
-    scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+    RTG_WEAPON_BASE
 armor = 12;
 		class ItemInfo: ItemInfo
     {
@@ -2181,9 +2175,7 @@ armor = 12;
 	};
 };
 class rtg_CarrierRig_Breacher_Alpine : CarrierRig_Breacher_Alpine {
-    scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+    RTG_WEAPON_BASE
 armor = 12;
 		class ItemInfo: ItemInfo
     {
@@ -2224,9 +2216,7 @@ armor = 12;
 	};
 };
 class rtg_CarrierRig_Gunner_Alpine : CarrierRig_Gunner_Alpine {
-    scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+    RTG_WEAPON_BASE
 armor = 12;
 		class ItemInfo: ItemInfo
     {
@@ -2267,9 +2257,7 @@ armor = 12;
 	};
 };
 class rtg_CarrierRig_Operator_Alpine : CarrierRig_Operator_Alpine {
-    scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+    RTG_WEAPON_BASE
 armor = 12;
 		class ItemInfo: ItemInfo
     {
@@ -2310,9 +2298,7 @@ armor = 12;
 	};
 };
 class rtg_dr_Alpinelbt_br : dr_Alpinelbt_br {
-    scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+    RTG_WEAPON_BASE
 armor = 12;
 		class ItemInfo: ItemInfo
     {
@@ -2353,9 +2339,7 @@ armor = 12;
 	};
 };
 class rtg_dr_Alpinelbt_mg : dr_Alpinelbt_mg {
-    scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+    RTG_WEAPON_BASE
 armor = 12;
 		class ItemInfo: ItemInfo
     {
@@ -2396,9 +2380,7 @@ armor = 12;
 	};
 };
 class rtg_dr_Alpinelbt_op : dr_Alpinelbt_op {
-    scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+    RTG_WEAPON_BASE
 armor = 12;
 		class ItemInfo: ItemInfo
     {
@@ -2439,9 +2421,7 @@ armor = 12;
 	};
 };
 class rtg_dr_Alpinepar_br : dr_Alpinepar_br {
-    scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+    RTG_WEAPON_BASE
 armor = 12;
 		class ItemInfo: ItemInfo
     {
@@ -2482,9 +2462,7 @@ armor = 12;
 	};
 };
 class rtg_dr_Alpinepar_mg : dr_Alpinepar_mg {
-    scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+    RTG_WEAPON_BASE
 armor = 12;
 		class ItemInfo: ItemInfo
     {
@@ -2525,9 +2503,7 @@ armor = 12;
 	};
 };
 class rtg_dr_Alpinepar_op : dr_Alpinepar_op {
-    scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+    RTG_WEAPON_BASE
 armor = 12;
 		class ItemInfo: ItemInfo
     {
@@ -2569,9 +2545,7 @@ armor = 12;
 };
 // Arid
 class rtg_dr_ARDfacp_br : dr_ARDfacp_br {
-    scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+    RTG_WEAPON_BASE
 armor = 12;
 		class ItemInfo: ItemInfo
     {
@@ -2612,9 +2586,7 @@ armor = 12;
 	};
 };
 class rtg_dr_ARDfacp_mg : dr_ARDfacp_mg {
-    scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+    RTG_WEAPON_BASE
 armor = 12;
 		class ItemInfo: ItemInfo
     {
@@ -2655,9 +2627,7 @@ armor = 12;
 	};
 }; 
 class rtg_dr_ARDfacp_op : dr_ARDfacp_op {
-    scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+    RTG_WEAPON_BASE
 armor = 12;
 		class ItemInfo: ItemInfo
     {
@@ -2698,9 +2668,7 @@ armor = 12;
 	};
 };
 class rtg_CarrierRig_Breacher_Arid : CarrierRig_Breacher_Arid {
-    scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+    RTG_WEAPON_BASE
 armor = 12;
 		class ItemInfo: ItemInfo
     {
@@ -2741,9 +2709,7 @@ armor = 12;
 	};
 };
 class rtg_CarrierRig_Gunner_Arid : CarrierRig_Gunner_Arid {
-    scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+    RTG_WEAPON_BASE
 armor = 12;
 		class ItemInfo: ItemInfo
     {
@@ -2784,9 +2750,7 @@ armor = 12;
 	};
 };
 class rtg_CarrierRig_Operator_Arid : CarrierRig_Operator_Arid {
-    scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+    RTG_WEAPON_BASE
 armor = 12;
 		class ItemInfo: ItemInfo
     {
@@ -2827,9 +2791,7 @@ armor = 12;
 	};
 };
 class rtg_dr_ARDlbt_br : dr_ARDlbt_br {
-    scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+    RTG_WEAPON_BASE
 armor = 12;
 		class ItemInfo: ItemInfo
     {
@@ -2870,9 +2832,7 @@ armor = 12;
 	};
 };
 class rtg_dr_ARDlbt_mg : dr_ARDlbt_mg {
-    scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+    RTG_WEAPON_BASE
 armor = 12;
 		class ItemInfo: ItemInfo
     {
@@ -2913,9 +2873,7 @@ armor = 12;
 	};
 };
 class rtg_dr_ARDlbt_op : dr_ARDlbt_op {
-    scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+    RTG_WEAPON_BASE
 armor = 12;
 		class ItemInfo: ItemInfo
     {
@@ -2956,9 +2914,7 @@ armor = 12;
 	};
 };
 class rtg_dr_ARDpar_br : dr_ARDpar_br {
-    scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+    RTG_WEAPON_BASE
 armor = 12;
 		class ItemInfo: ItemInfo
     {
@@ -2999,9 +2955,7 @@ armor = 12;
 	};
 };
 class rtg_dr_ARDpar_mg : dr_ARDpar_mg {
-    scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+    RTG_WEAPON_BASE
 armor = 12;
 		class ItemInfo: ItemInfo
     {
@@ -3042,9 +2996,7 @@ armor = 12;
 	};
 };
 class rtg_dr_ARDpar_op : dr_ARDpar_op {
-    scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+    RTG_WEAPON_BASE
 armor = 12;
 		class ItemInfo: ItemInfo
     {
@@ -3089,9 +3041,7 @@ class VSM_FAPC_Breacher_M81;
 class VSM_FAPC_MG_M81;
 class VSM_FAPC_Operator_M81;
 class rtg_VSM_FAPC_Breacher_M81 : VSM_FAPC_Breacher_M81 {
-    scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+    RTG_WEAPON_BASE
 armor = 12;
 		class ItemInfo: ItemInfo
     {
@@ -3132,9 +3082,7 @@ armor = 12;
 	};
 };
 class rtg_VSM_FAPC_Gunner_M81 : VSM_FAPC_MG_M81 {
-    scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+    RTG_WEAPON_BASE
 armor = 12;
 		class ItemInfo: ItemInfo
     {
@@ -3175,9 +3123,7 @@ armor = 12;
 	};
 };
 class rtg_VSM_FAPC_Operator_M81 : VSM_FAPC_Operator_M81 {
-    scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+    RTG_WEAPON_BASE
 armor = 12;
 		class ItemInfo: ItemInfo
     {
@@ -3221,9 +3167,7 @@ class VSM_CarrierRig_Breacher_M81;
 class VSM_CarrierRig_Gunner_M81;
 class VSM_CarrierRig_Operator_M81;
 class rtg_VSM_CarrierRig_Breacher_M81 : VSM_CarrierRig_Breacher_M81 {
-    scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+    RTG_WEAPON_BASE
 armor = 12;
 		class ItemInfo: ItemInfo
     {
@@ -3264,9 +3208,7 @@ armor = 12;
 	};
 };
 class rtg_VSM_CarrierRig_Gunner_M81 : VSM_CarrierRig_Gunner_M81 {
-    scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+    RTG_WEAPON_BASE
 armor = 12;
 		class ItemInfo: ItemInfo
     {
@@ -3307,9 +3249,7 @@ armor = 12;
 	};
 };
 class rtg_VSM_CarrierRig_Operator_M81 : VSM_CarrierRig_Operator_M81 {
-    scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+    RTG_WEAPON_BASE
 armor = 12;
 		class ItemInfo: ItemInfo
     {
@@ -3353,9 +3293,7 @@ class VSM_LBT6094_Breacher_M81;
 class VSM_LBT6094_MG_M81;
 class VSM_LBT6094_Operator_M81;
 class rtg_VSM_LBT6094_Breacher_M81 : VSM_LBT6094_Breacher_M81 {
-    scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+    RTG_WEAPON_BASE
 armor = 12;
 		class ItemInfo: ItemInfo
     {
@@ -3396,9 +3334,7 @@ armor = 12;
 	};
 };
 class rtg_VSM_LBT6094_Gunner_M81 : VSM_LBT6094_MG_M81 {
-    scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+    RTG_WEAPON_BASE
 armor = 12;
 		class ItemInfo: ItemInfo
     {
@@ -3439,9 +3375,7 @@ armor = 12;
 	};
 };
 class rtg_VSM_LBT6094_Operator_M81 : VSM_LBT6094_Operator_M81 {
-    scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+    RTG_WEAPON_BASE
 armor = 12;
 		class ItemInfo: ItemInfo
     {
@@ -3485,9 +3419,7 @@ class VSM_RAV_Breacher_M81;
 class VSM_RAV_MG_M81;
 class VSM_RAV_Operator_M81;
 class rtg_VSM_RAV_Breacher_M81 : VSM_RAV_Breacher_M81 {
-    scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+    RTG_WEAPON_BASE
 armor = 12;
 		class ItemInfo: ItemInfo
     {
@@ -3528,9 +3460,7 @@ armor = 12;
 	};
 };
 class rtg_VSM_RAV_Gunner_M81 : VSM_RAV_MG_M81 {
-    scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+    RTG_WEAPON_BASE
 armor = 12;
 		class ItemInfo: ItemInfo
     {
@@ -3571,9 +3501,7 @@ armor = 12;
 	};
 };
 class rtg_VSM_RAV_Operator_M81 : VSM_RAV_Operator_M81 {
-    scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+    RTG_WEAPON_BASE
 armor = 12;
 		class ItemInfo: ItemInfo
     {
@@ -3618,9 +3546,7 @@ class dr_BLKfacp_br;
 class dr_BLKfacp_mg;
 class dr_BLKfacp_op;
 class rtg_dr_BLKfacp_br : dr_BLKfacp_br {
-    scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+    RTG_WEAPON_BASE
 armor = 12;
 		class ItemInfo: ItemInfo
     {
@@ -3661,9 +3587,7 @@ armor = 12;
 	};
 };
 class rtg_dr_BLKfacp_mg : dr_BLKfacp_mg {
-    scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+    RTG_WEAPON_BASE
 armor = 12;
 		class ItemInfo: ItemInfo
     {
@@ -3704,9 +3628,7 @@ armor = 12;
 	};
 };
 class rtg_dr_BLKfacp_op : dr_BLKfacp_op {
-    scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+    RTG_WEAPON_BASE
 armor = 12;
 		class ItemInfo: ItemInfo
     {
@@ -3750,9 +3672,7 @@ class dr_BLKlbt_br;
 class dr_BLKlbt_mg;
 class dr_BLKlbt_op;
 class rtg_dr_BLKlbt_br : dr_BLKlbt_br {
-    scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+    RTG_WEAPON_BASE
 armor = 12;
 		class ItemInfo: ItemInfo
     {
@@ -3793,9 +3713,7 @@ armor = 12;
 	};
 };
 class rtg_dr_BLKlbt_mg : dr_BLKlbt_mg {
-    scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+    RTG_WEAPON_BASE
 armor = 12;
 		class ItemInfo: ItemInfo
     {
@@ -3836,9 +3754,7 @@ armor = 12;
 	};
 };
 class rtg_dr_BLKlbt_op : dr_BLKlbt_op {
-    scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+    RTG_WEAPON_BASE
 armor = 12;
 		class ItemInfo: ItemInfo
     {
@@ -3882,9 +3798,7 @@ class dr_BLKpar_br;
 class dr_BLKpar_mg;
 class dr_BLKpar_op;
 class rtg_dr_BLKpar_br : dr_BLKpar_br {
-    scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+    RTG_WEAPON_BASE
 armor = 12;
 		class ItemInfo: ItemInfo
     {
@@ -3925,9 +3839,7 @@ armor = 12;
 	};
 };
 class rtg_dr_BLKpar_mg : dr_BLKpar_mg {
-    scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+    RTG_WEAPON_BASE
 armor = 12;
 		class ItemInfo: ItemInfo
     {
@@ -3968,9 +3880,7 @@ armor = 12;
 	};
 };
 class rtg_dr_BLKpar_op : dr_BLKpar_op {
-    scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+    RTG_WEAPON_BASE
 armor = 12;
 		class ItemInfo: ItemInfo
     {
@@ -4015,9 +3925,7 @@ class VSM_FAPC_Breacher_MultiCam;
 class VSM_FAPC_MG_MultiCam;
 class VSM_FAPC_Operator_MultiCam;
 class rtg_VSM_FAPC_Breacher_MultiCam : VSM_FAPC_Breacher_MultiCam {
-    scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+    RTG_WEAPON_BASE
 armor = 12;
 		class ItemInfo: ItemInfo
     {
@@ -4058,9 +3966,7 @@ armor = 12;
 	};
 };
 class rtg_VSM_FAPC_Gunner_MultiCam : VSM_FAPC_MG_MultiCam {
-    scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+    RTG_WEAPON_BASE
 armor = 12;
 		class ItemInfo: ItemInfo
     {
@@ -4101,9 +4007,7 @@ armor = 12;
 	};
 };
 class rtg_VSM_FAPC_Operator_MultiCam : VSM_FAPC_Operator_MultiCam {
-    scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+    RTG_WEAPON_BASE
 armor = 12;
 		class ItemInfo: ItemInfo
     {
@@ -4147,9 +4051,7 @@ class VSM_CarrierRig_Breacher_MultiCam;
 class VSM_CarrierRig_Gunner_MultiCam;
 class VSM_CarrierRig_Operator_MultiCam;
 class rtg_VSM_CarrierRig_Breacher_MultiCam : VSM_CarrierRig_Breacher_MultiCam {
-    scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+    RTG_WEAPON_BASE
 armor = 12;
 		class ItemInfo: ItemInfo
     {
@@ -4190,9 +4092,7 @@ armor = 12;
 	};
 };
 class rtg_VSM_CarrierRig_Gunner_MultiCam : VSM_CarrierRig_Gunner_MultiCam {
-    scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+    RTG_WEAPON_BASE
 armor = 12;
 		class ItemInfo: ItemInfo
     {
@@ -4233,9 +4133,7 @@ armor = 12;
 	};
 };
 class rtg_VSM_CarrierRig_Operator_MultiCam : VSM_CarrierRig_Operator_MultiCam {
-    scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+    RTG_WEAPON_BASE
 armor = 12;
 		class ItemInfo: ItemInfo
     {
@@ -4279,9 +4177,7 @@ class VSM_LBT6094_Breacher_MultiCam;
 class VSM_LBT6094_MG_MultiCam;
 class VSM_LBT6094_Operator_MultiCam;
 class rtg_VSM_LBT6094_Breacher_MultiCam : VSM_LBT6094_Breacher_MultiCam {
-    scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+    RTG_WEAPON_BASE
 armor = 12;
 		class ItemInfo: ItemInfo
     {
@@ -4322,9 +4218,7 @@ armor = 12;
 	};
 };
 class rtg_VSM_LBT6094_Gunner_MultiCam : VSM_LBT6094_MG_MultiCam {
-    scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+    RTG_WEAPON_BASE
 armor = 12;
 		class ItemInfo: ItemInfo
     {
@@ -4365,9 +4259,7 @@ armor = 12;
 	};
 };
 class rtg_VSM_LBT6094_Operator_MultiCam : VSM_LBT6094_Operator_MultiCam {
-    scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+    RTG_WEAPON_BASE
 armor = 12;
 		class ItemInfo: ItemInfo
     {
@@ -4411,9 +4303,7 @@ class VSM_RAV_Breacher_MultiCam;
 class VSM_RAV_MG_MultiCam;
 class VSM_RAV_Operator_MultiCam;
 class rtg_VSM_RAV_Breacher_MultiCam : VSM_RAV_Breacher_MultiCam {
-    scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+    RTG_WEAPON_BASE
 armor = 12;
 		class ItemInfo: ItemInfo
     {
@@ -4454,9 +4344,7 @@ armor = 12;
 	};
 };
 class rtg_VSM_RAV_Gunner_MultiCam : VSM_RAV_MG_MultiCam {
-    scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+    RTG_WEAPON_BASE
 armor = 12;
 		class ItemInfo: ItemInfo
     {
@@ -4497,9 +4385,7 @@ armor = 12;
 	};
 };
 class rtg_VSM_RAV_Operator_MultiCam : VSM_RAV_Operator_MultiCam {
-    scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+    RTG_WEAPON_BASE
 armor = 12;
 		class ItemInfo: ItemInfo
     {
@@ -4544,9 +4430,7 @@ class VSM_FAPC_Breacher_MultiCamTropic;
 class VSM_FAPC_MG_MultiCamTropic;
 class VSM_FAPC_Operator_MultiCamTropic;
 class rtg_VSM_FAPC_Breacher_MultiCamTropic : VSM_FAPC_Breacher_MultiCamTropic {
-    scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+    RTG_WEAPON_BASE
 armor = 12;
 		class ItemInfo: ItemInfo
     {
@@ -4587,9 +4471,7 @@ armor = 12;
 	};
 };
 class rtg_VSM_FAPC_Gunner_MultiCamTropic : VSM_FAPC_MG_MultiCamTropic {
-    scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+    RTG_WEAPON_BASE
 armor = 12;
 		class ItemInfo: ItemInfo
     {
@@ -4630,9 +4512,7 @@ armor = 12;
 	};
 };
 class rtg_VSM_FAPC_Operator_MultiCamTropic : VSM_FAPC_Operator_MultiCamTropic {
-    scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+    RTG_WEAPON_BASE
 armor = 12;
 		class ItemInfo: ItemInfo
     {
@@ -4676,9 +4556,7 @@ class VSM_CarrierRig_Breacher_MultiCamTropic;
 class VSM_CarrierRig_Gunner_MultiCamTropic;
 class VSM_CarrierRig_Operator_MultiCamTropic;
 class rtg_VSM_CarrierRig_Breacher_MultiCamTropic : VSM_CarrierRig_Breacher_MultiCamTropic {
-    scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+    RTG_WEAPON_BASE
 armor = 12;
 		class ItemInfo: ItemInfo
     {
@@ -4719,9 +4597,7 @@ armor = 12;
 	};
 };
 class rtg_VSM_CarrierRig_Gunner_MultiCamTropic : VSM_CarrierRig_Gunner_MultiCamTropic {
-    scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+    RTG_WEAPON_BASE
 armor = 12;
 		class ItemInfo: ItemInfo
     {
@@ -4762,9 +4638,7 @@ armor = 12;
 	};
 };
 class rtg_VSM_CarrierRig_Operator_MultiCamTropic : VSM_CarrierRig_Operator_MultiCamTropic {
-    scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+    RTG_WEAPON_BASE
 armor = 12;
 		class ItemInfo: ItemInfo
     {
@@ -4808,9 +4682,7 @@ class VSM_LBT6094_Breacher_MultiCamTropic;
 class VSM_LBT6094_MG_MultiCamTropic;
 class VSM_LBT6094_Operator_MultiCamTropic;
 class rtg_VSM_LBT6094_Breacher_MultiCamTropic : VSM_LBT6094_Breacher_MultiCamTropic {
-    scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+    RTG_WEAPON_BASE
 armor = 12;
 		class ItemInfo: ItemInfo
     {
@@ -4851,9 +4723,7 @@ armor = 12;
 	};
 };
 class rtg_VSM_LBT6094_Gunner_MultiCamTropic : VSM_LBT6094_MG_MultiCamTropic {
-    scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+    RTG_WEAPON_BASE
 armor = 12;
 		class ItemInfo: ItemInfo
     {
@@ -4894,9 +4764,7 @@ armor = 12;
 	};
 };
 class rtg_VSM_LBT6094_Operator_MultiCamTropic : VSM_LBT6094_Operator_MultiCamTropic {
-    scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+    RTG_WEAPON_BASE
 armor = 12;
 		class ItemInfo: ItemInfo
     {
@@ -4940,9 +4808,7 @@ class VSM_RAV_Breacher_MultiCamTropic;
 class VSM_RAV_MG_MultiCamTropic;
 class VSM_RAV_Operator_MultiCamTropic;
 class rtg_VSM_RAV_Breacher_MultiCamTropic : VSM_RAV_Breacher_MultiCamTropic {
-    scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+    RTG_WEAPON_BASE
 armor = 12;
 		class ItemInfo: ItemInfo
     {
@@ -4983,9 +4849,7 @@ armor = 12;
 	};
 };
 class rtg_VSM_RAV_Gunner_MultiCamTropic : VSM_RAV_MG_MultiCamTropic {
-    scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+    RTG_WEAPON_BASE
 armor = 12;
 		class ItemInfo: ItemInfo
     {
@@ -5026,9 +4890,7 @@ armor = 12;
 	};
 };
 class rtg_VSM_RAV_Operator_MultiCamTropic : VSM_RAV_Operator_MultiCamTropic {
-    scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+    RTG_WEAPON_BASE
 armor = 12;
 		class ItemInfo: ItemInfo
     {
@@ -5073,9 +4935,7 @@ class VSM_FAPC_Breacher_OGA;
 class VSM_FAPC_MG_OGA;
 class VSM_FAPC_Operator_OGA;
 class rtg_VSM_FAPC_Breacher_OGA : VSM_FAPC_Breacher_OGA {
-    scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+    RTG_WEAPON_BASE
 armor = 12;
 		class ItemInfo: ItemInfo
     {
@@ -5116,9 +4976,7 @@ armor = 12;
 	};
 };
 class rtg_VSM_FAPC_Gunner_OGA : VSM_FAPC_MG_OGA {
-    scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+    RTG_WEAPON_BASE
 armor = 12;
 		class ItemInfo: ItemInfo
     {
@@ -5159,9 +5017,7 @@ armor = 12;
 	};
 };
 class rtg_VSM_FAPC_Operator_OGA : VSM_FAPC_Operator_OGA {
-    scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+    RTG_WEAPON_BASE
 armor = 12;
 		class ItemInfo: ItemInfo
     {
@@ -5205,9 +5061,7 @@ class VSM_CarrierRig_Breacher_OGA;
 class VSM_CarrierRig_Gunner_OGA;
 class VSM_CarrierRig_Operator_OGA;
 class rtg_VSM_CarrierRig_Breacher_OGA : VSM_CarrierRig_Breacher_OGA {
-    scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+    RTG_WEAPON_BASE
 armor = 12;
 		class ItemInfo: ItemInfo
     {
@@ -5248,9 +5102,7 @@ armor = 12;
 	};
 };
 class rtg_VSM_CarrierRig_Gunner_OGA : VSM_CarrierRig_Gunner_OGA {
-    scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+    RTG_WEAPON_BASE
 armor = 12;
 		class ItemInfo: ItemInfo
     {
@@ -5291,9 +5143,7 @@ armor = 12;
 	};
 };
 class rtg_VSM_CarrierRig_Operator_OGA : VSM_CarrierRig_Operator_OGA {
-    scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+    RTG_WEAPON_BASE
 armor = 12;
 		class ItemInfo: ItemInfo
     {
@@ -5337,9 +5187,7 @@ class VSM_LBT6094_Breacher_OGA;
 class VSM_LBT6094_MG_OGA;
 class VSM_LBT6094_Operator_OGA;
 class rtg_VSM_LBT6094_Breacher_OGA : VSM_LBT6094_Breacher_OGA {
-    scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+    RTG_WEAPON_BASE
 armor = 12;
 		class ItemInfo: ItemInfo
     {
@@ -5380,9 +5228,7 @@ armor = 12;
 	};
 };
 class rtg_VSM_LBT6094_Gunner_OGA : VSM_LBT6094_MG_OGA {
-    scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+    RTG_WEAPON_BASE
 armor = 12;
 		class ItemInfo: ItemInfo
     {
@@ -5423,9 +5269,7 @@ armor = 12;
 	};
 };
 class rtg_VSM_LBT6094_Operator_OGA : VSM_LBT6094_Operator_OGA {
-    scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+    RTG_WEAPON_BASE
 armor = 12;
 		class ItemInfo: ItemInfo
     {
@@ -5469,9 +5313,7 @@ class VSM_RAV_Breacher_OGA;
 class VSM_RAV_MG_OGA;
 class VSM_RAV_Operator_OGA;
 class rtg_VSM_RAV_Breacher_OGA : VSM_RAV_Breacher_OGA {
-    scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+    RTG_WEAPON_BASE
 armor = 12;
 		class ItemInfo: ItemInfo
     {
@@ -5512,9 +5354,7 @@ armor = 12;
 	};
 };
 class rtg_VSM_RAV_Gunner_OGA : VSM_RAV_MG_OGA {
-    scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+    RTG_WEAPON_BASE
 armor = 12;
 		class ItemInfo: ItemInfo
     {
@@ -5555,9 +5395,7 @@ armor = 12;
 	};
 };
 class rtg_VSM_RAV_Operator_OGA : VSM_RAV_Operator_OGA {
-    scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+    RTG_WEAPON_BASE
 armor = 12;
 		class ItemInfo: ItemInfo
     {
@@ -5602,9 +5440,7 @@ class VSM_FAPC_Breacher_OGA_OD;
 class VSM_FAPC_MG_OGA_OD;
 class VSM_FAPC_Operator_OGA_OD;
 class rtg_VSM_FAPC_Breacher_OGA_OD : VSM_FAPC_Breacher_OGA_OD {
-    scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+    RTG_WEAPON_BASE
 armor = 12;
 		class ItemInfo: ItemInfo
     {
@@ -5645,9 +5481,7 @@ armor = 12;
 	};
 };
 class rtg_VSM_FAPC_MG_OGA_OD : VSM_FAPC_MG_OGA_OD {
-    scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+    RTG_WEAPON_BASE
 armor = 12;
 		class ItemInfo: ItemInfo
     {
@@ -5688,9 +5522,7 @@ armor = 12;
 	};
 };
 class rtg_VSM_FAPC_operator_OGA_OD : VSM_FAPC_Operator_OGA_OD {
-    scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+    RTG_WEAPON_BASE
 armor = 12;
 		class ItemInfo: ItemInfo
     {
@@ -5734,9 +5566,7 @@ class VSM_CarrierRig_Breacher_OGA_OD;
 class VSM_CarrierRig_Gunner_OGA_OD;
 class VSM_CarrierRig_Operator_OGA_OD;
 class rtg_VSM_CarrierRig_Breacher_OGA_OD : VSM_CarrierRig_Breacher_OGA_OD {
-    scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+    RTG_WEAPON_BASE
 armor = 12;
 		class ItemInfo: ItemInfo
     {
@@ -5777,9 +5607,7 @@ armor = 12;
 	};
 };
 class rtg_VSM_CarrierRig_MG_OGA_OD : VSM_CarrierRig_Gunner_OGA_OD {
-    scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+    RTG_WEAPON_BASE
 armor = 12;
 		class ItemInfo: ItemInfo
     {
@@ -5820,9 +5648,7 @@ armor = 12;
 	};
 };
 class rtg_VSM_CarrierRig_operator_OGA_OD : VSM_CarrierRig_Operator_OGA_OD {
-    scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+    RTG_WEAPON_BASE
 armor = 12;
 		class ItemInfo: ItemInfo
     {
@@ -5866,9 +5692,7 @@ class VSM_LBT6094_Breacher_OGA_OD;
 class VSM_LBT6094_MG_OGA_OD;
 class VSM_LBT6094_operator_OGA_OD;
 class rtg_VSM_LBT6094_Breacher_OGA_OD : VSM_LBT6094_Breacher_OGA_OD {
-    scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+    RTG_WEAPON_BASE
 armor = 12;
 		class ItemInfo: ItemInfo
     {
@@ -5909,9 +5733,7 @@ armor = 12;
 	};
 };
 class rtg_VSM_LBT6094_MG_OGA_OD : VSM_LBT6094_MG_OGA_OD {
-    scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+    RTG_WEAPON_BASE
 armor = 12;
 		class ItemInfo: ItemInfo
     {
@@ -5952,9 +5774,7 @@ armor = 12;
 	};
 };
 class rtg_VSM_LBT6094_operator_OGA_OD : VSM_LBT6094_operator_OGA_OD {
-    scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+    RTG_WEAPON_BASE
 armor = 12;
 		class ItemInfo: ItemInfo
     {
@@ -5998,9 +5818,7 @@ class VSM_RAV_Breacher_OGA_OD;
 class VSM_RAV_MG_OGA_OD;
 class VSM_RAV_operator_OGA_OD;
 class rtg_VSM_RAV_Breacher_OGA_OD : VSM_RAV_Breacher_OGA_OD {
-    scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+    RTG_WEAPON_BASE
 armor = 12;
 		class ItemInfo: ItemInfo
     {
@@ -6041,9 +5859,7 @@ armor = 12;
 	};
 };
 class rtg_VSM_RAV_MG_OGA_OD : VSM_RAV_MG_OGA_OD {
-    scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+    RTG_WEAPON_BASE
 armor = 12;
 		class ItemInfo: ItemInfo
     {
@@ -6084,9 +5900,7 @@ armor = 12;
 	};
 };
 class rtg_VSM_RAV_operator_OGA_OD : VSM_RAV_operator_OGA_OD {
-    scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+    RTG_WEAPON_BASE
 armor = 12;
 		class ItemInfo: ItemInfo
     {
@@ -6131,9 +5945,7 @@ class VSM_FAPC_Breacher_ProjectHonor;
 class VSM_FAPC_MG_ProjectHonor;
 class VSM_FAPC_Operator_ProjectHonor;
 class rtg_VSM_FAPC_Breacher_ProjectHonor : VSM_FAPC_Breacher_ProjectHonor {
-    scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+    RTG_WEAPON_BASE
 armor = 12;
 		class ItemInfo: ItemInfo
     {
@@ -6174,9 +5986,7 @@ armor = 12;
 	};
 };
 class rtg_VSM_FAPC_Gunner_ProjectHonor : VSM_FAPC_MG_ProjectHonor {
-    scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+    RTG_WEAPON_BASE
 armor = 12;
 		class ItemInfo: ItemInfo
     {
@@ -6217,9 +6027,7 @@ armor = 12;
 	};
 };
 class rtg_VSM_FAPC_Operator_ProjectHonor : VSM_FAPC_Operator_ProjectHonor {
-    scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+    RTG_WEAPON_BASE
 armor = 12;
 		class ItemInfo: ItemInfo
     {
@@ -6263,9 +6071,7 @@ class VSM_CarrierRig_Breacher_ProjectHonor;
 class VSM_CarrierRig_Gunner_ProjectHonor;
 class VSM_CarrierRig_Operator_ProjectHonor;
 class rtg_VSM_CarrierRig_Breacher_ProjectHonor : VSM_CarrierRig_Breacher_ProjectHonor {
-    scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+    RTG_WEAPON_BASE
 armor = 12;
 		class ItemInfo: ItemInfo
     {
@@ -6306,9 +6112,7 @@ armor = 12;
 	};
 };
 class rtg_VSM_CarrierRig_Gunner_ProjectHonor : VSM_CarrierRig_Gunner_ProjectHonor {
-    scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+    RTG_WEAPON_BASE
 armor = 12;
 		class ItemInfo: ItemInfo
     {
@@ -6349,9 +6153,7 @@ armor = 12;
 	};
 };
 class rtg_VSM_CarrierRig_Operator_ProjectHonor : VSM_CarrierRig_Operator_ProjectHonor {
-    scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+    RTG_WEAPON_BASE
 armor = 12;
 		class ItemInfo: ItemInfo
     {
@@ -6395,9 +6197,7 @@ class VSM_LBT6094_Breacher_ProjectHonor;
 class VSM_LBT6094_MG_ProjectHonor;
 class VSM_LBT6094_Operator_ProjectHonor;
 class rtg_VSM_LBT6094_Breacher_ProjectHonor : VSM_LBT6094_Breacher_ProjectHonor {
-    scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+    RTG_WEAPON_BASE
 armor = 12;
 		class ItemInfo: ItemInfo
     {
@@ -6438,9 +6238,7 @@ armor = 12;
 	};
 };
 class rtg_VSM_LBT6094_Gunner_ProjectHonor : VSM_LBT6094_MG_ProjectHonor {
-    scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+    RTG_WEAPON_BASE
 armor = 12;
 		class ItemInfo: ItemInfo
     {
@@ -6481,9 +6279,7 @@ armor = 12;
 	};
 };
 class rtg_VSM_LBT6094_Operator_ProjectHonor : VSM_LBT6094_Operator_ProjectHonor {
-    scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+    RTG_WEAPON_BASE
 armor = 12;
 		class ItemInfo: ItemInfo
     {
@@ -6527,9 +6323,7 @@ class VSM_RAV_Breacher_ProjectHonor;
 class VSM_RAV_MG_ProjectHonor;
 class VSM_RAV_Operator_ProjectHonor;
 class rtg_VSM_RAV_Breacher_ProjectHonor : VSM_RAV_Breacher_ProjectHonor {
-    scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+    RTG_WEAPON_BASE
 armor = 12;
 		class ItemInfo: ItemInfo
     {
@@ -6570,9 +6364,7 @@ armor = 12;
 	};
 };
 class rtg_VSM_RAV_Gunner_ProjectHonor : VSM_RAV_MG_ProjectHonor {
-    scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+    RTG_WEAPON_BASE
 armor = 12;
 		class ItemInfo: ItemInfo
     {
@@ -6613,9 +6405,7 @@ armor = 12;
 	};
 };
 class rtg_VSM_RAV_Operator_ProjectHonor : VSM_RAV_Operator_ProjectHonor {
-    scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+    RTG_WEAPON_BASE
 armor = 12;
 		class ItemInfo: ItemInfo
     {
@@ -6659,9 +6449,7 @@ armor = 12;
 // Badger
 class M81_Vest_5;
 class badgerVest : M81_Vest_5 {
-	scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+	RTG_WEAPON_BASE
     displayName = "IOTV M81 - Rorey";
     hiddenSelectionsTextures[] = {"\rtgEquipment\tex\BadgerVest.paa"};
     armor = 12;
@@ -6697,9 +6485,7 @@ class badgerVest : M81_Vest_5 {
     };
 };
 class patVest : VSM_CarrierRig_Gunner_OGA_OD {
-	scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+	RTG_WEAPON_BASE
     displayName="Gunner OD - Pat";
     hiddenSelectionsTextures[] = 
 	{
@@ -6747,9 +6533,7 @@ class patVest : VSM_CarrierRig_Gunner_OGA_OD {
 // Shrike
 class Crye_AVS_3_3_GRY;
 class shrike_crye : Crye_AVS_3_3_GRY {
-    scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+    RTG_WEAPON_BASE
     displayName="AVS Comms - Shrike";
     hiddenSelectionsTextures[]=
 		{
@@ -6804,9 +6588,7 @@ class shrike_crye : Crye_AVS_3_3_GRY {
 class rhsusf_plateframe_medic;
 class torbsVest : rhsusf_plateframe_medic 
 {
-	scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+	RTG_WEAPON_BASE
     displayName = "Plateframe - Torbs";
 	hiddenSelectionsTextures[] =
 	{
@@ -6854,9 +6636,7 @@ class torbsVest : rhsusf_plateframe_medic
 
 class cjVest :  tactecfullpkpBlack
 {
-	scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+	RTG_WEAPON_BASE
     displayName = "Tactec - CJ";
 	hiddenSelections[] = {"camo","camo6","_gen2bb","_1961apouches","nade","camo2","fartuk","korob"};
 	hiddenSelectionsTextures[] = {"\rtgEquipment\tex\cjVest.paa","tactecSSO\tex\gear_fde.paa","tactecSSO\tex\VSM_Gen2_BattleBelt_black.paa","tactecSSO\tex\VSM_LBT_1961a_Black.paa","tactecSSO\tex\grenade_fde.paa","tactecSSO\tex\armorBlack_co.paa","tactecSSO\tex\fartukBlack_co.paa","tactecSSO\tex\vest1_black.paa"};
@@ -6891,10 +6671,7 @@ class cjVest :  tactecfullpkpBlack
 			};
 		};
     };
-	class XtdGearInfo
-	{
-		model = "";
-	};
+	RTG_ACEAX_EMPTY 
 };
 
 
@@ -6964,9 +6741,7 @@ class cjVest :  tactecfullpkpBlack
 
 	// New Classes
 	class rtg_Crye_AVS_1_GRY : Crye_AVS_1_GRY {
-		scope = 2;
-		dlc = "raiderTactical";
-		Author = "Shrike";
+		RTG_WEAPON_BASE
 		class XtdGearInfo
 		{
 			model = "rtg_ace_expanded_avs";
@@ -7007,9 +6782,7 @@ class cjVest :  tactecfullpkpBlack
 		};
 	};
 	class rtg_Crye_AVS_1 : Crye_AVS_1 {
-		scope = 2;
-		dlc = "raiderTactical";
-		Author = "Shrike";
+		RTG_WEAPON_BASE
 		class XtdGearInfo
 		{
 			model = "rtg_ace_expanded_avs";
@@ -7050,9 +6823,7 @@ class cjVest :  tactecfullpkpBlack
 		};
 	};
 	class rtg_Crye_AVS_1_MCB : Crye_AVS_1_MCB {
-		scope = 2;
-		dlc = "raiderTactical";
-		Author = "Shrike";
+		RTG_WEAPON_BASE
 		class XtdGearInfo
 		{
 			model = "rtg_ace_expanded_avs";
@@ -7093,9 +6864,7 @@ class cjVest :  tactecfullpkpBlack
 		};
 	};
 	class rtg_Crye_AVS_1_MCT : Crye_AVS_1_MCT {
-		scope = 2;
-		dlc = "raiderTactical";
-		Author = "Shrike";
+		RTG_WEAPON_BASE
 		class XtdGearInfo
 		{
 			model = "rtg_ace_expanded_avs";
@@ -7136,9 +6905,7 @@ class cjVest :  tactecfullpkpBlack
 		};
 	};
 	class rtg_Crye_AVS_1_RG : Crye_AVS_1_RG {
-		scope = 2;
-		dlc = "raiderTactical";
-		Author = "Shrike";
+		RTG_WEAPON_BASE
 		class XtdGearInfo
 		{
 			model = "rtg_ace_expanded_avs";
@@ -7179,9 +6946,7 @@ class cjVest :  tactecfullpkpBlack
 		};
 	};
 	class rtg_Crye_AVS_1_Tan : Crye_AVS_1_Tan {
-		scope = 2;
-		dlc = "raiderTactical";
-		Author = "Shrike";
+		RTG_WEAPON_BASE
 		class XtdGearInfo
 		{
 			model = "rtg_ace_expanded_avs";
@@ -7223,9 +6988,7 @@ class cjVest :  tactecfullpkpBlack
 	};
 
 	class rtg_Crye_AVS_1_1_GRY : Crye_AVS_1_1_GRY {
-		scope = 2;
-		dlc = "raiderTactical";
-		Author = "Shrike";
+		RTG_WEAPON_BASE
 		class XtdGearInfo
 		{
 			model = "rtg_ace_expanded_avs";
@@ -7266,9 +7029,7 @@ class cjVest :  tactecfullpkpBlack
 		};
 	};
 	class rtg_Crye_AVS_1_1 : Crye_AVS_1_1 {
-		scope = 2;
-		dlc = "raiderTactical";
-		Author = "Shrike";
+		RTG_WEAPON_BASE
 		class XtdGearInfo
 		{
 			model = "rtg_ace_expanded_avs";
@@ -7309,9 +7070,7 @@ class cjVest :  tactecfullpkpBlack
 		};
 	};
 	class rtg_Crye_AVS_1_1_MCB : Crye_AVS_1_1_MCB {
-		scope = 2;
-		dlc = "raiderTactical";
-		Author = "Shrike";
+		RTG_WEAPON_BASE
 		class XtdGearInfo
 		{
 			model = "rtg_ace_expanded_avs";
@@ -7352,9 +7111,7 @@ class cjVest :  tactecfullpkpBlack
 		};
 	};
 	class rtg_Crye_AVS_1_1_MCT : Crye_AVS_1_1_MCT {
-		scope = 2;
-		dlc = "raiderTactical";
-		Author = "Shrike";
+		RTG_WEAPON_BASE
 		class XtdGearInfo
 		{
 			model = "rtg_ace_expanded_avs";
@@ -7395,9 +7152,7 @@ class cjVest :  tactecfullpkpBlack
 		};
 	};
 	class rtg_Crye_AVS_1_1_RG : Crye_AVS_1_1_RG {
-		scope = 2;
-		dlc = "raiderTactical";
-		Author = "Shrike";
+		RTG_WEAPON_BASE
 		class XtdGearInfo
 		{
 			model = "rtg_ace_expanded_avs";
@@ -7438,9 +7193,7 @@ class cjVest :  tactecfullpkpBlack
 		};
 	};
 	class rtg_Crye_AVS_1_1_Tan : Crye_AVS_1_1_Tan {
-		scope = 2;
-		dlc = "raiderTactical";
-		Author = "Shrike";
+		RTG_WEAPON_BASE
 		class XtdGearInfo
 		{
 			model = "rtg_ace_expanded_avs";
@@ -7482,9 +7235,7 @@ class cjVest :  tactecfullpkpBlack
 	};
 
 	class rtg_Crye_AVS_1_2_GRY : Crye_AVS_1_2_GRY {
-		scope = 2;
-		dlc = "raiderTactical";
-		Author = "Shrike";
+		RTG_WEAPON_BASE
 		class XtdGearInfo
 		{
 			model = "rtg_ace_expanded_avs";
@@ -7525,9 +7276,7 @@ class cjVest :  tactecfullpkpBlack
 		};
 	};
 	class rtg_Crye_AVS_1_2 : Crye_AVS_1_2 {
-		scope = 2;
-		dlc = "raiderTactical";
-		Author = "Shrike";
+		RTG_WEAPON_BASE
 		class XtdGearInfo
 		{
 			model = "rtg_ace_expanded_avs";
@@ -7568,9 +7317,7 @@ class cjVest :  tactecfullpkpBlack
 		};
 	};
 	class rtg_Crye_AVS_1_2_MCB : Crye_AVS_1_2_MCB {
-		scope = 2;
-		dlc = "raiderTactical";
-		Author = "Shrike";
+		RTG_WEAPON_BASE
 		class XtdGearInfo
 		{
 			model = "rtg_ace_expanded_avs";
@@ -7611,9 +7358,7 @@ class cjVest :  tactecfullpkpBlack
 		};
 	};
 	class rtg_Crye_AVS_1_2_MCT : Crye_AVS_1_2_MCT {
-		scope = 2;
-		dlc = "raiderTactical";
-		Author = "Shrike";
+		RTG_WEAPON_BASE
 		class XtdGearInfo
 		{
 			model = "rtg_ace_expanded_avs";
@@ -7654,9 +7399,7 @@ class cjVest :  tactecfullpkpBlack
 		};
 	};
 	class rtg_Crye_AVS_1_2_RG : Crye_AVS_1_2_RG {
-		scope = 2;
-		dlc = "raiderTactical";
-		Author = "Shrike";
+		RTG_WEAPON_BASE
 		class XtdGearInfo
 		{
 			model = "rtg_ace_expanded_avs";
@@ -7697,9 +7440,7 @@ class cjVest :  tactecfullpkpBlack
 		};
 	};
 	class rtg_Crye_AVS_1_2_Tan : Crye_AVS_1_2_Tan {
-		scope = 2;
-		dlc = "raiderTactical";
-		Author = "Shrike";
+		RTG_WEAPON_BASE
 		class XtdGearInfo
 		{
 			model = "rtg_ace_expanded_avs";
@@ -7741,9 +7482,7 @@ class cjVest :  tactecfullpkpBlack
 	};
 
 	class rtg_Crye_AVS_1_3_GRY : Crye_AVS_1_3_GRY {
-		scope = 2;
-		dlc = "raiderTactical";
-		Author = "Shrike";
+		RTG_WEAPON_BASE
 		class XtdGearInfo
 		{
 			model = "rtg_ace_expanded_avs";
@@ -7784,9 +7523,7 @@ class cjVest :  tactecfullpkpBlack
 		};
 	};
 	class rtg_Crye_AVS_1_3 : Crye_AVS_1_3 {
-		scope = 2;
-		dlc = "raiderTactical";
-		Author = "Shrike";
+		RTG_WEAPON_BASE
 		class XtdGearInfo
 		{
 			model = "rtg_ace_expanded_avs";
@@ -7827,9 +7564,7 @@ class cjVest :  tactecfullpkpBlack
 		};
 	};
 	class rtg_Crye_AVS_1_3_MCB : Crye_AVS_1_3_MCB {
-		scope = 2;
-		dlc = "raiderTactical";
-		Author = "Shrike";
+		RTG_WEAPON_BASE
 		class XtdGearInfo
 		{
 			model = "rtg_ace_expanded_avs";
@@ -7870,9 +7605,7 @@ class cjVest :  tactecfullpkpBlack
 		};
 	};
 	class rtg_Crye_AVS_1_3_MCT : Crye_AVS_1_3_MCT {
-		scope = 2;
-		dlc = "raiderTactical";
-		Author = "Shrike";
+		RTG_WEAPON_BASE
 		class XtdGearInfo
 		{
 			model = "rtg_ace_expanded_avs";
@@ -7913,9 +7646,7 @@ class cjVest :  tactecfullpkpBlack
 		};
 	};
 	class rtg_Crye_AVS_1_3_RG : Crye_AVS_1_3_RG {
-		scope = 2;
-		dlc = "raiderTactical";
-		Author = "Shrike";
+		RTG_WEAPON_BASE
 		class XtdGearInfo
 		{
 			model = "rtg_ace_expanded_avs";
@@ -7956,9 +7687,7 @@ class cjVest :  tactecfullpkpBlack
 		};
 	};
 	class rtg_Crye_AVS_1_3_Tan : Crye_AVS_1_3_Tan {
-		scope = 2;
-		dlc = "raiderTactical";
-		Author = "Shrike";
+		RTG_WEAPON_BASE
 		class XtdGearInfo
 		{
 			model = "rtg_ace_expanded_avs";
@@ -8001,9 +7730,7 @@ class cjVest :  tactecfullpkpBlack
 
 	// Gunner
 	class rtg_Crye_AVS_2_GRY : Crye_AVS_2_GRY {
-		scope = 2;
-		dlc = "raiderTactical";
-		Author = "Shrike";
+		RTG_WEAPON_BASE
 		class XtdGearInfo
 		{
 			model = "rtg_ace_expanded_avs";
@@ -8044,9 +7771,7 @@ class cjVest :  tactecfullpkpBlack
 		};
 	};
 	class rtg_Crye_AVS_2 : Crye_AVS_2 {
-		scope = 2;
-		dlc = "raiderTactical";
-		Author = "Shrike";
+		RTG_WEAPON_BASE
 		class XtdGearInfo
 		{
 			model = "rtg_ace_expanded_avs";
@@ -8087,9 +7812,7 @@ class cjVest :  tactecfullpkpBlack
 		};
 	};
 	class rtg_Crye_AVS_2_MCB : Crye_AVS_2_MCB {
-		scope = 2;
-		dlc = "raiderTactical";
-		Author = "Shrike";
+		RTG_WEAPON_BASE
 		class XtdGearInfo
 		{
 			model = "rtg_ace_expanded_avs";
@@ -8130,9 +7853,7 @@ class cjVest :  tactecfullpkpBlack
 		};
 	};
 	class rtg_Crye_AVS_2_MCT : Crye_AVS_2_MCT {
-		scope = 2;
-		dlc = "raiderTactical";
-		Author = "Shrike";
+		RTG_WEAPON_BASE
 		class XtdGearInfo
 		{
 			model = "rtg_ace_expanded_avs";
@@ -8173,9 +7894,7 @@ class cjVest :  tactecfullpkpBlack
 		};
 	};
 	class rtg_Crye_AVS_2_RG : Crye_AVS_2_RG {
-		scope = 2;
-		dlc = "raiderTactical";
-		Author = "Shrike";
+		RTG_WEAPON_BASE
 		class XtdGearInfo
 		{
 			model = "rtg_ace_expanded_avs";
@@ -8216,9 +7935,7 @@ class cjVest :  tactecfullpkpBlack
 		};
 	};
 	class rtg_Crye_AVS_2_Tan : Crye_AVS_2_Tan {
-		scope = 2;
-		dlc = "raiderTactical";
-		Author = "Shrike";
+		RTG_WEAPON_BASE
 		class XtdGearInfo
 		{
 			model = "rtg_ace_expanded_avs";
@@ -8261,9 +7978,7 @@ class cjVest :  tactecfullpkpBlack
 
 	// Comms
 	class rtg_Crye_AVS_3_GRY : Crye_AVS_3_GRY {
-		scope = 2;
-		dlc = "raiderTactical";
-		Author = "Shrike";
+		RTG_WEAPON_BASE
 		class XtdGearInfo
 		{
 			model = "rtg_ace_expanded_avs";
@@ -8304,9 +8019,7 @@ class cjVest :  tactecfullpkpBlack
 		};
 	};
 	class rtg_Crye_AVS_3 : Crye_AVS_3 {
-		scope = 2;
-		dlc = "raiderTactical";
-		Author = "Shrike";
+		RTG_WEAPON_BASE
 		class XtdGearInfo
 		{
 			model = "rtg_ace_expanded_avs";
@@ -8347,9 +8060,7 @@ class cjVest :  tactecfullpkpBlack
 		};
 	};
 	class rtg_Crye_AVS_3_MCB : Crye_AVS_3_MCB {
-		scope = 2;
-		dlc = "raiderTactical";
-		Author = "Shrike";
+		RTG_WEAPON_BASE
 		class XtdGearInfo
 		{
 			model = "rtg_ace_expanded_avs";
@@ -8390,9 +8101,7 @@ class cjVest :  tactecfullpkpBlack
 		};
 	};
 	class rtg_Crye_AVS_3_MCT : Crye_AVS_3_MCT {
-		scope = 2;
-		dlc = "raiderTactical";
-		Author = "Shrike";
+		RTG_WEAPON_BASE
 		class XtdGearInfo
 		{
 			model = "rtg_ace_expanded_avs";
@@ -8433,9 +8142,7 @@ class cjVest :  tactecfullpkpBlack
 		};
 	};
 	class rtg_Crye_AVS_3_RG : Crye_AVS_3_RG {
-		scope = 2;
-		dlc = "raiderTactical";
-		Author = "Shrike";
+		RTG_WEAPON_BASE
 		class XtdGearInfo
 		{
 			model = "rtg_ace_expanded_avs";
@@ -8476,9 +8183,7 @@ class cjVest :  tactecfullpkpBlack
 		};
 	};
 	class rtg_Crye_AVS_3_Tan : Crye_AVS_3_Tan {
-		scope = 2;
-		dlc = "raiderTactical";
-		Author = "Shrike";
+		RTG_WEAPON_BASE
 		class XtdGearInfo
 		{
 			model = "rtg_ace_expanded_avs";
@@ -8520,9 +8225,7 @@ class cjVest :  tactecfullpkpBlack
 	};
 
 	class rtg_Crye_AVS_3_1_GRY : Crye_AVS_3_1_GRY {
-		scope = 2;
-		dlc = "raiderTactical";
-		Author = "Shrike";
+		RTG_WEAPON_BASE
 		class XtdGearInfo
 		{
 			model = "rtg_ace_expanded_avs";
@@ -8563,9 +8266,7 @@ class cjVest :  tactecfullpkpBlack
 		};
 	};
 	class rtg_Crye_AVS_3_1 : Crye_AVS_3_1 {
-		scope = 2;
-		dlc = "raiderTactical";
-		Author = "Shrike";
+		RTG_WEAPON_BASE
 		class XtdGearInfo
 		{
 			model = "rtg_ace_expanded_avs";
@@ -8606,9 +8307,7 @@ class cjVest :  tactecfullpkpBlack
 		};
 	};
 	class rtg_Crye_AVS_3_1_MCB : Crye_AVS_3_1_MCB {
-		scope = 2;
-		dlc = "raiderTactical";
-		Author = "Shrike";
+		RTG_WEAPON_BASE
 		class XtdGearInfo
 		{
 			model = "rtg_ace_expanded_avs";
@@ -8649,9 +8348,7 @@ class cjVest :  tactecfullpkpBlack
 		};
 	};
 	class rtg_Crye_AVS_3_1_MCT : Crye_AVS_3_1_MCT {
-		scope = 2;
-		dlc = "raiderTactical";
-		Author = "Shrike";
+		RTG_WEAPON_BASE
 		class XtdGearInfo
 		{
 			model = "rtg_ace_expanded_avs";
@@ -8692,9 +8389,7 @@ class cjVest :  tactecfullpkpBlack
 		};
 	};
 	class rtg_Crye_AVS_3_1_RG : Crye_AVS_3_1_RG {
-		scope = 2;
-		dlc = "raiderTactical";
-		Author = "Shrike";
+		RTG_WEAPON_BASE
 		class XtdGearInfo
 		{
 			model = "rtg_ace_expanded_avs";
@@ -8735,9 +8430,7 @@ class cjVest :  tactecfullpkpBlack
 		};
 	};
 	class rtg_Crye_AVS_3_1_Tan : Crye_AVS_3_1_Tan {
-		scope = 2;
-		dlc = "raiderTactical";
-		Author = "Shrike";
+		RTG_WEAPON_BASE
 		class XtdGearInfo
 		{
 			model = "rtg_ace_expanded_avs";
@@ -8779,9 +8472,7 @@ class cjVest :  tactecfullpkpBlack
 	};
 
 	class rtg_Crye_AVS_3_2_GRY : Crye_AVS_3_2_GRY {
-		scope = 2;
-		dlc = "raiderTactical";
-		Author = "Shrike";
+		RTG_WEAPON_BASE
 		class XtdGearInfo
 		{
 			model = "rtg_ace_expanded_avs";
@@ -8822,9 +8513,7 @@ class cjVest :  tactecfullpkpBlack
 		};
 	};
 	class rtg_Crye_AVS_3_2 : Crye_AVS_3_2 {
-		scope = 2;
-		dlc = "raiderTactical";
-		Author = "Shrike";
+		RTG_WEAPON_BASE
 		class XtdGearInfo
 		{
 			model = "rtg_ace_expanded_avs";
@@ -8865,9 +8554,7 @@ class cjVest :  tactecfullpkpBlack
 		};
 	};
 	class rtg_Crye_AVS_3_2_MCB : Crye_AVS_3_2_MCB {
-		scope = 2;
-		dlc = "raiderTactical";
-		Author = "Shrike";
+		RTG_WEAPON_BASE
 		class XtdGearInfo
 		{
 			model = "rtg_ace_expanded_avs";
@@ -8908,9 +8595,7 @@ class cjVest :  tactecfullpkpBlack
 		};
 	};
 	class rtg_Crye_AVS_3_2_MCT : Crye_AVS_3_2_MCT {
-		scope = 2;
-		dlc = "raiderTactical";
-		Author = "Shrike";
+		RTG_WEAPON_BASE
 		class XtdGearInfo
 		{
 			model = "rtg_ace_expanded_avs";
@@ -8951,9 +8636,7 @@ class cjVest :  tactecfullpkpBlack
 		};
 	};
 	class rtg_Crye_AVS_3_2_RG : Crye_AVS_3_2_RG {
-		scope = 2;
-		dlc = "raiderTactical";
-		Author = "Shrike";
+		RTG_WEAPON_BASE
 		class XtdGearInfo
 		{
 			model = "rtg_ace_expanded_avs";
@@ -8994,9 +8677,7 @@ class cjVest :  tactecfullpkpBlack
 		};
 	};
 	class rtg_Crye_AVS_3_2_Tan : Crye_AVS_3_2_Tan {
-		scope = 2;
-		dlc = "raiderTactical";
-		Author = "Shrike";
+		RTG_WEAPON_BASE
 		class XtdGearInfo
 		{
 			model = "rtg_ace_expanded_avs";
@@ -9038,9 +8719,7 @@ class cjVest :  tactecfullpkpBlack
 	};
 
 	class rtg_Crye_AVS_3_3_GRY : Crye_AVS_3_3_GRY {
-		scope = 2;
-		dlc = "raiderTactical";
-		Author = "Shrike";
+		RTG_WEAPON_BASE
 		class XtdGearInfo
 		{
 			model = "rtg_ace_expanded_avs";
@@ -9081,9 +8760,7 @@ class cjVest :  tactecfullpkpBlack
 		};
 	};
 	class rtg_Crye_AVS_3_3 : Crye_AVS_3_3 {
-		scope = 2;
-		dlc = "raiderTactical";
-		Author = "Shrike";
+		RTG_WEAPON_BASE
 		class XtdGearInfo
 		{
 			model = "rtg_ace_expanded_avs";
@@ -9124,9 +8801,7 @@ class cjVest :  tactecfullpkpBlack
 		};
 	};
 	class rtg_Crye_AVS_3_3_MCB : Crye_AVS_3_3_MCB {
-		scope = 2;
-		dlc = "raiderTactical";
-		Author = "Shrike";
+		RTG_WEAPON_BASE
 		class XtdGearInfo
 		{
 			model = "rtg_ace_expanded_avs";
@@ -9167,9 +8842,7 @@ class cjVest :  tactecfullpkpBlack
 		};
 	};
 	class rtg_Crye_AVS_3_3_MCT : Crye_AVS_3_3_MCT {
-		scope = 2;
-		dlc = "raiderTactical";
-		Author = "Shrike";
+		RTG_WEAPON_BASE
 		class XtdGearInfo
 		{
 			model = "rtg_ace_expanded_avs";
@@ -9210,9 +8883,7 @@ class cjVest :  tactecfullpkpBlack
 		};
 	};
 	class rtg_Crye_AVS_3_3_RG : Crye_AVS_3_3_RG {
-		scope = 2;
-		dlc = "raiderTactical";
-		Author = "Shrike";
+		RTG_WEAPON_BASE
 		class XtdGearInfo
 		{
 			model = "rtg_ace_expanded_avs";
@@ -9253,9 +8924,7 @@ class cjVest :  tactecfullpkpBlack
 		};
 	};
 	class rtg_Crye_AVS_3_3_Tan : Crye_AVS_3_3_Tan {
-		scope = 2;
-		dlc = "raiderTactical";
-		Author = "Shrike";
+		RTG_WEAPON_BASE
 		class XtdGearInfo
 		{
 			model = "rtg_ace_expanded_avs";

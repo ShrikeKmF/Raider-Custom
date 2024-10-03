@@ -1,7 +1,7 @@
 // Desert Eagle
 class rtg_ace_expanded_eagle {
     label = "Deagle";
-    author = "Shrike";
+    
     options[] = {"camo"};
     class camo
     {
@@ -27,7 +27,7 @@ class rtg_ace_expanded_eagle {
 
 class rtg_ace_expanded_fn57 {
     label = "FN57";
-    author = "Shrike";
+    
     options[] = {"camo"};
     class camo
     {
@@ -55,7 +55,7 @@ class rtg_ace_expanded_fn57 {
 // FNX-45
 class rtg_ace_expanded_fnx45 {
     label = "FNX";
-    author = "Shrike";
+    
     options[] = {"camo"};
     class camo
     {
@@ -76,7 +76,7 @@ class rtg_ace_expanded_fnx45 {
 // Raging Bull 
 class rtg_ace_expanded_ragbull {
     label = "Bull";
-    author = "Shrike";
+    
     options[] = {"camo"};
     class camo
     {
@@ -97,7 +97,7 @@ class rtg_ace_expanded_ragbull {
 // Tracker
 class rtg_ace_expanded_track {
     label = "Tracker";
-    author = "Shrike";
+    
     options[] = {"camo"};
     class camo
     {

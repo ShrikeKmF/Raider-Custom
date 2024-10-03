@@ -1,7 +1,5 @@
 class rtg_g36_v_556 : arifle_SPAR_01_blk_F {
-	scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+	RTG_WEAPON_BASE
 	baseWeapon = "rtg_g36_v_556";
     displayName="G36V 5.56mm";
 	AB_barrelTwist = 12;
@@ -67,9 +65,7 @@ class rtg_g36_v_556 : arifle_SPAR_01_blk_F {
 	};
 };
 class rtg_g36_cv_556 : rtg_g36_v_556 {
-	scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+	RTG_WEAPON_BASE
     displayName="G36CV 5.56mm";
 	baseWeapon = "rtg_g36_cv_556";
 	AB_barrelTwist = 12;
@@ -92,9 +88,7 @@ class rtg_g36_cv_556 : rtg_g36_v_556 {
 	};
 };
 class rtg_g36_kv_556 : rtg_g36_v_556 {
-	scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+	RTG_WEAPON_BASE
     displayName="G36KV 5.56mm";
 	baseWeapon = "rtg_g36_kv_556";
 	ACE_barrelTwist = 178;
@@ -115,9 +109,7 @@ class rtg_g36_kv_556 : rtg_g36_v_556 {
 	};
 };
 class rtg_g36_v_300 : rtg_g36_v_556 {
-	scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+	RTG_WEAPON_BASE
     displayName="G36V .300";
 	baseWeapon = "rtg_g36_v_300";
 	magazineWell[] = {"CBA_300BLK_STANAG"};
@@ -132,9 +124,7 @@ class rtg_g36_v_300 : rtg_g36_v_556 {
 	};
 };
 class rtg_g36_cv_300 : rtg_g36_cv_556 {
-	scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+	RTG_WEAPON_BASE
     displayName="G36CV .300";
 	baseWeapon = "rtg_g36_cv_300";
 	magazineWell[] = {"CBA_300BLK_STANAG"};
@@ -149,9 +139,7 @@ class rtg_g36_cv_300 : rtg_g36_cv_556 {
 	};
 };
 class rtg_g36_kv_300 : rtg_g36_kv_556 {
-	scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+	RTG_WEAPON_BASE
     displayName="G36KV .300";
 	baseWeapon = "rtg_g36_kv_300";
 	magazineWell[] = {"CBA_300BLK_STANAG"};
@@ -166,9 +154,7 @@ class rtg_g36_kv_300 : rtg_g36_kv_556 {
 	};
 };
 class rtg_g36_v_556_tac : rtg_g36_v_556 {
-	scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+	RTG_WEAPON_BASE
     displayName="G36V 5.56mm Tac";
 	baseWeapon = "rtg_g36_v_556_tac";
 	model = "hlc_wp_g36\mesh\G36tactical\G36.p3d";
@@ -185,9 +171,7 @@ class rtg_g36_v_556_tac : rtg_g36_v_556 {
 	};
 };
 class rtg_g36_cv_556_tac : rtg_g36_cv_556 {
-	scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+	RTG_WEAPON_BASE
     displayName="G36CV 5.56mm Tac";
 	baseWeapon = "rtg_g36_cv_556_tac";
 	model = "hlc_wp_g36\mesh\G36tactical\G36C.p3d";
@@ -203,9 +187,7 @@ class rtg_g36_cv_556_tac : rtg_g36_cv_556 {
 	};
 };
 class rtg_g36_kv_556_tac : rtg_g36_kv_556 {
-	scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+	RTG_WEAPON_BASE
     displayName="G36KV 5.56mm Tac";
 	baseWeapon = "rtg_g36_kv_556_tac";
 	handanim[] = {"OFP2_ManSkeleton","hlc_wp_g36\anim\MLI\gesture_g36TAC_STD.rtm"};
@@ -221,9 +203,7 @@ class rtg_g36_kv_556_tac : rtg_g36_kv_556 {
 	};
 };
 class rtg_g36_v_300_tac : rtg_g36_v_556_tac {
-	scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+	RTG_WEAPON_BASE
     displayName="G36V .300 Tac";
 	baseWeapon = "rtg_g36_v_300_tac";
 	magazineWell[] = {"CBA_300BLK_STANAG"};
@@ -238,9 +218,7 @@ class rtg_g36_v_300_tac : rtg_g36_v_556_tac {
 	};
 };
 class rtg_g36_cv_300_tac : rtg_g36_cv_556_tac {
-	scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+	RTG_WEAPON_BASE
     displayName="G36CV .300 Tac";
 	baseWeapon = "rtg_g36_cv_300_tac";
 	magazineWell[] = {"CBA_300BLK_STANAG"};
@@ -255,9 +233,7 @@ class rtg_g36_cv_300_tac : rtg_g36_cv_556_tac {
 	};
 };
 class rtg_g36_kv_300_tac : rtg_g36_kv_556_tac {
-	scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+	RTG_WEAPON_BASE
     displayName="G36KV .300 Tac";
 	baseWeapon = "rtg_g36_kv_300_tac";
 	magazineWell[] = {"CBA_300BLK_STANAG"};
@@ -273,9 +249,7 @@ class rtg_g36_kv_300_tac : rtg_g36_kv_556_tac {
 };
 
 class rtg_g36_cv_9 : rtg_g36_cv_556 {
-	scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+	RTG_WEAPON_BASE
     displayName="G36KV 9mm";
 	baseWeapon = "rtg_g36_cv_9";
 	magazineWell[] = {"RTG_9x19"};
@@ -290,9 +264,7 @@ class rtg_g36_cv_9 : rtg_g36_cv_556 {
 	};
 };
 class rtg_g36_cv_9_tac : rtg_g36_cv_556_tac {
-	scope = 2;
-	dlc = "raiderTactical";
-	Author = "Shrike";
+	RTG_WEAPON_BASE
     displayName="G36KV 9mm Tac";
 	baseWeapon = "rtg_g36_cv_9_tac";
 	magazineWell[] = {"RTG_9x19"};
