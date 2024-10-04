@@ -76,6 +76,45 @@ class rtg_ace_expanded_minimi {
     };
 };
 
+// XM5
+class rtg_ace_expanded_xm5
+{
+    label = "XM5";
+    author = "Shrike";
+    options[] = {"grip"};
+    class grip
+    {
+        values[] = {"none","BCM"};
+        class none
+        {
+            label = "Off";
+        };
+        class grip
+        {
+            label = "On";
+        };
+    };
+};
+
+// XM250
+class rtg_ace_expanded_xm250
+{
+    label = "XM250";
+    author = "Shrike";
+    options[] = {"paint"};
+    class paint
+    {
+        values[] = {"blk","tan"};
+        class blk
+        {
+            label = "Blk";
+        };
+        class tan
+        {
+            label = "Tan";
+        };
+    };
+};
 
 // MP5
 class rtg_ace_expanded_mp5 {
