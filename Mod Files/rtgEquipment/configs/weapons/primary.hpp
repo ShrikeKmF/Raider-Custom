@@ -2040,7 +2040,7 @@ class rtg_rifle_samr2_50bw : arifle_SPAR_01_blk_F
 		RTG_WEAPON_BASE
 		baseWeapon = "rtg_hk417_blk";
 		ACE_barrelLength = 508;
-		displayName = "HK-417 Black";
+		displayName = "HK-417 (BLK)";
 		magazineWell[] = {"CBA_762x51_M14"};
 		magazines[] = {"rtg_20Rnd_762x51"};
 		recoil = "rtg_762n_rifle";
@@ -2064,7 +2064,7 @@ class rtg_rifle_samr2_50bw : arifle_SPAR_01_blk_F
 		RTG_WEAPON_BASE
 		baseWeapon = "rtg_hk417_khk";
 		ACE_barrelLength = 508;
-		displayName = "HK-417 Khaki";
+		displayName = "HK-417 (KHK)";
 		magazineWell[] = {"CBA_762x51_M14"};
 		magazines[] = {"rtg_20Rnd_762x51"};
 		recoil = "rtg_762n_rifle";
@@ -2079,7 +2079,7 @@ class rtg_rifle_samr2_50bw : arifle_SPAR_01_blk_F
 		RTG_WEAPON_BASE
 		baseWeapon = "rtg_hk417_snd";
 		ACE_barrelLength = 508;
-		displayName = "HK-417 Sand";
+		displayName = "HK-417 (SND)";
 		magazineWell[] = {"CBA_762x51_M14"};
 		magazines[] = {"rtg_20Rnd_762x51"};
 		recoil = "rtg_762n_rifle";
@@ -2425,7 +2425,7 @@ class rtg_mag60_20 : rhs_weap_m240G
 	RTG_WEAPON_BASE
 	baseWeapon = "rtg_mag60_20";
 	
-	displayName = "FN MAG 60-20";
+	displayName = "FN M240B";
 	magazineWell[] = {"CBA_762x51_LINKS"};
 	magazines[] = {"rtg_200Rnd_762x51"};
 	recoil = "rtg_762n_mmg";
@@ -2467,7 +2467,7 @@ class rtg_mag60_20_t3 : rhs_weap_fnmag
 	RTG_WEAPON_BASE
 	baseWeapon = "rtg_mag60_20_t3";
 	
-	displayName = "FN MAG 60-20 (T3)";
+	displayName = "FN MAG 60-20";
 	magazineWell[] = {"CBA_762x51_LINKS"};
 	magazines[] = {"rtg_200Rnd_762x51"};
 	recoil = "rtg_762n_mmg";
@@ -2560,8 +2560,8 @@ class rtg_mag10_10_277 : rtg_mag10_10
 {
 	RTG_WEAPON_BASE
 	baseWeapon = "rtg_mag10_10_277";
-	displayName = "MAG 10-10 (.277)";
-	recoil = "rtg_762n_mmg";
+	displayName = "FN MAG 10-10 (.277)";
+	recoil = "rtg_68_mmg";
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_mag60";
@@ -2570,6 +2570,11 @@ class rtg_mag10_10_277 : rtg_mag10_10
 	};
 	magazineWell[] = {"RTG_68x51_BELT_MAGWELL"};
 	magazines[] = {"rtg_100Rnd_68x51"};
+	modes[] = {"FullAuto"};
+	class FullAuto : FullAuto
+	{
+		reloadTime = 0.065;
+	};
 }
 
 class rtg_m240B_277 : rtg_mag60_20
@@ -2577,7 +2582,7 @@ class rtg_m240B_277 : rtg_mag60_20
 	RTG_WEAPON_BASE
 	baseWeapon = "rtg_mag60_20_277";
 	displayName = "FN M240B (.277)";
-	recoil = "rtg_762n_mmg";
+	recoil = "rtg_68_mmg";
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_mag60";
@@ -2586,6 +2591,10 @@ class rtg_m240B_277 : rtg_mag60_20
 	}; 
 	magazineWell[] = {"RTG_68x51_BELT_MAGWELL"};
 	magazines[] = {"rtg_100Rnd_68x51"};
+	class FullAuto : FullAuto
+	{
+		reloadTime = 0.065;
+	};
 }
 
 class rtg_mag60_20_t3_277 : rtg_mag60_20_t3
@@ -2593,7 +2602,7 @@ class rtg_mag60_20_t3_277 : rtg_mag60_20_t3
 	RTG_WEAPON_BASE
 	baseWeapon = "rtg_mag60_20_t3_277";
 	displayName = "FN MAG 60-20 (.277)";
-	recoil = "rtg_762n_mmg";
+	recoil = "rtg_68_mmg";
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_mag60";
@@ -2602,6 +2611,10 @@ class rtg_mag60_20_t3_277 : rtg_mag60_20_t3
 	}; 
 	magazineWell[] = {"RTG_68x51_BELT_MAGWELL"};
 	magazines[] = {"rtg_100Rnd_68x51"};
+	class FullAuto : FullAuto
+	{
+		reloadTime = 0.065;
+	};
 }
 
 class LMG_Zafir_F;
@@ -3105,8 +3118,6 @@ class rtg_f2000_Shrike : rtg_f2000_tan
 	};
 };
 
-
-
 class sgun_HunterShotgun_01_F;
 class rtg_nitro : sgun_HunterShotgun_01_F {
 	RTG_WEAPON_BASE
@@ -3139,3 +3150,4 @@ class RHS_weap_M119: mortar_155mm_AMOS
 #include "weaponClasses\grot.h"
 #include "weaponClasses\xm8.h"
 #include "weaponClasses\viking.h"
+#include "weaponClasses\ngsw.h"

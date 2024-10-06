@@ -187,12 +187,12 @@ class CfgMagazines
     class rtg_20Rnd_68x51 : rtg_20Rnd_762x51 {
         
         ammo = "rtg_277";
-        count = 20;
+        count = 25;
         tracersevery = 3;
         lastroundstracer = 4;
         descriptionshort = "Raider Tactical Standard Issue 6.8mm Ammo";
-        displayname = "[RTG] 20rnd 6.8mm MAG";
-        displaynameshort = "20Rnd 6.8x51";
+        displayname = "[RTG] 25rnd 6.8mm MAG";
+        displaynameshort = "25Rnd 6.8x51";
         scope = 2;
     };
 

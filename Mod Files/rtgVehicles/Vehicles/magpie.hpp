@@ -57,9 +57,9 @@ class rtg_UH60M_DAP_Magpie : RHS_UH60M_ESSS2_D
 			{
 				class pylon1
 				{
-					hardpoints[]		= {"RHS_HP_HELLFIRE_RACK","RHS_HP_FFAR_ARMY","RHS_HP_Fuel_ARMY","RHS_HP_ATAS", "20MM_TWIN_CANNON"};
+					hardpoints[]		= {"RHS_HP_HELLFIRE_RACK","RHS_HP_FFAR_ARMY","RHS_HP_Fuel_ARMY","RHS_HP_ATAS"};
 					priority			= 1;
-					attachment			= "20MM_TWIN_CANNON";
+					attachment			= "";
 					maxweight			= 1200;
 					UIposition[]		= {0.555,0.37};
 					bay					= -1;
@@ -68,7 +68,7 @@ class rtg_UH60M_DAP_Magpie : RHS_UH60M_ESSS2_D
 				class pylon2 : pylon1
 				{
 					UIposition[]		= {0.11,0.37};
-					attachment			= "20MM_TWIN_CANNON";
+					attachment			= "";
 					mirroredMissilePos	= 1;
 					hitpoint 			= HitPylon2;
 				};

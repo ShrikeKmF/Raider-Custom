@@ -123,12 +123,12 @@ class CfgAmmo
         ACE_caliber = 7.06;
         ACE_bulletLength = 51.2;
         ACE_bulletMass = 9.2176;
-        ACE_ballisticCoefficients[]={0.565};
+        ACE_ballisticCoefficients[]={0.500};
         ACE_muzzleVelocities[] = {819, 910, 1010};
         ACE_barrelLengths[] = {360, 400, 440};
         
         // Arma 3 Bullet Config
-        hit = 17.5;
+        hit = 14.8;
     };
 
     //

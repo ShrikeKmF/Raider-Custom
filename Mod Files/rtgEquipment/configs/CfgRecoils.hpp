@@ -136,6 +136,34 @@ class cfgRecoils
 		permanent = 0.01;
 		temporary = 0.010;
 	};
+// 6.8 Fury 
+	// Rifle 
+	class rtg_68_rifle : recoil_default
+	{
+		muzzleOuter[] = {0.3, 1.1, 0.3, 0.65};
+		kickBack[] = {0.03, 0.06};
+		permanent = 0.01;
+		temporary = 0.010;
+	};
+
+	// Carbine 
+	class rtg_68_carbine: recoil_default
+	{
+		muzzleOuter[] = {0.3, 1.21, 0.4, 0.75};
+		kickBack[] = {0.03, 0.07};
+		permanent = 0.01;
+		temporary = 0.011;
+	};
+
+	// MMG
+	class rtg_68_mmg: recoil_default
+	{
+		muzzleOuter[] = {0.3, 1.1, 0.3, 0.65};
+		kickBack[] = {0.03, 0.06};
+		permanent = 0.01;
+		temporary = 0.010;
+	};
+
 // .50BW
 	class rtg_50bw_rifle : recoil_default
 	{

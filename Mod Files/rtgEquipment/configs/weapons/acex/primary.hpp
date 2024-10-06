@@ -84,12 +84,12 @@ class rtg_ace_expanded_xm5
     options[] = {"grip"};
     class grip
     {
-        values[] = {"none","BCM"};
+        values[] = {"none","ON"};
         class none
         {
             label = "Off";
         };
-        class grip
+        class ON
         {
             label = "On";
         };
@@ -344,6 +344,33 @@ class rtg_ace_expanded_hk417 {
         };
     };
 };
+
+// M110A3
+class rtg_ace_expanded_m110a3 {
+    label = "M110A3";
+    options[] = {"camo"};
+    class camo
+    {
+        label = "Camo";
+        values[] = {"black","sand", "khaki"};
+        class black
+        {
+            label = "Black";
+            description = "Black";
+        };
+        class sand
+        {
+            label = "Sand";
+            description = "Sand";
+        };
+        class khaki
+        {
+            label = "Khaki";
+            description = "Khaki";
+        };
+    };
+};
+
 
 // M14
 class rtg_ace_expanded_m14 {
@@ -1066,7 +1093,7 @@ class rtg_ace_expanded_ar15 {
         };
         class N300
         {
-            label = ".300";
+            label = "300";
             description = ".300 Blackout";
         };
     };
@@ -1423,18 +1450,18 @@ class rtg_ace_expanded_mag60 {
         values[] = {"metal", "wood", "short"};
         class metal
         {
-            label = "Metal";
-            description = "Metal Furniture";
+            label = "FN M240B";
+            description = "FN M240B";
         };
         class wood
         {
-            label = "Wood";
-            description = "Wood Furniture";
+            label = "FN Mag";
+            description = "FN MAG 60-20";
         };
         class short
         {
-            label = "Cut";
-            description = "Cut Furniture";
+            label = "Shorty";
+            description = "FN MAG 10-10";
         };
     };
     class calibre

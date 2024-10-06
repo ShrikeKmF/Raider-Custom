@@ -80,11 +80,6 @@ class hlc_rifle_vendimus: hlc_rifle_Bushmaster300 {
 class hlc_rifle_honeybase: hlc_rifle_Bushmaster300 {
 	RTG_WEAPON_BASE
 	magazines[] = {"rtg_30rnd_300_blk"};
-	RTG_ACEAX_EMPTY 
-};
-class hlc_rifle_honeybadger : hlc_rifle_honeybase {
-	RTG_WEAPON_BASE
-	magazines[] = {"rtg_30rnd_300_blk"};
 	recoil = "rtg_300_carbine";
 	class XtdGearInfo
 	{
@@ -92,6 +87,13 @@ class hlc_rifle_honeybadger : hlc_rifle_honeybase {
 		form = "honeybadger";
 		calibre = "N300";
 	};
+	RTG_ACEAX_EMPTY 
+};
+class hlc_rifle_honeybadger : hlc_rifle_honeybase {
+	RTG_WEAPON_BASE
+	magazines[] = {"rtg_30rnd_300_blk"};
+	recoil = "rtg_300_carbine";
+	RTG_ACEAX_EMPTY 
 };
 class hlc_rifle_mk18mod0: hlc_rifle_CQBR {
 	RTG_WEAPON_BASE
