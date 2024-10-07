@@ -86,8 +86,7 @@ class hlc_rifle_honeybase: hlc_rifle_Bushmaster300 {
 		model = "rtg_ace_expanded_ar15";
 		form = "honeybadger";
 		calibre = "N300";
-	};
-	RTG_ACEAX_EMPTY 
+	}; 
 };
 class hlc_rifle_honeybadger : hlc_rifle_honeybase {
 	RTG_WEAPON_BASE
