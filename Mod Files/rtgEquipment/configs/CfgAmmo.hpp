@@ -71,7 +71,7 @@ class CfgAmmo
         ACE_barrelLengths[] = {450, 500, 550};
         
         // Arma 3 Bullet Config
-        hit = 24;
+        hit = 24.4;
     };
 
     // .300 Blackout

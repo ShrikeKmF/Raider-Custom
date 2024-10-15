@@ -2856,7 +2856,7 @@ class VSM_Scorpion_Crye_SS_grey_shirt_Camo;
 class rtg_kimUniform : VSM_Scorpion_Crye_SS_grey_shirt_Camo
 {
 	
-	scope = 1;
+	scope = 2;
 	displayName = "[RTG] Kim (Crye)";
 	hiddenSelections[] = {"Camo"};
 	hiddenSelectionsTextures[] ={"\rtgEquipment\tex\kimUniform.paa"};

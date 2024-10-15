@@ -1,6 +1,6 @@
 #define RTG_STANDARD_ZOOM opticsZoomInit=0.75; opticsZoomMax=0.75; opticsZoomMin=0.50;
 
-#define RTG_WEAPON_BASE scope=2; dlc="raiderTactical"; author="Shrike";
+#define RTG_WEAPON_BASE scope=2; dlc="raiderTactical"; author="Shrike"; initSpeed=0;
 
 #define RTG_ACEAX_EMPTY class XtdGearInfo { model = ""; };
 

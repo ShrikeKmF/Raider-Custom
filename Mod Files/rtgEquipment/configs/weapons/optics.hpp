@@ -333,14 +333,14 @@ class rtg_night_sight: optic_tws
         scope=2;
 		displayName="ELCAN Specter LDS (RDS/Tan)";
         picture="\SMA_ELCAN\ui\SMA_ELCAN_SPECTER_TAN_RDS_ca.paa";
-		model="\SMA_ELCAN\SMA_ELCAN_SPECTER_RDS.p3d";
+		model="\SMA_ELCAN\SMA_ELCAN_SPECTERTAN_RDS.p3d";
     }
     class rtg_ELCAN_3xSpectreDR_Green_RDS: rtg_ELCAN_3xSpectreDR
     {
         scope=2;
 		displayName="ELCAN Specter LDS (RDS/Green)";
         picture="\SMA_ELCAN\ui\SMA_ELCAN_SPECTER_GREEN_RDS_ca.paa";
-		model="\SMA_ELCAN\SMA_ELCAN_SPECTER_RDS.p3d";
+		model="\SMA_ELCAN\SMA_ELCAN_SPECTERGREEN_RDS.p3d";
     }
 
 // Shortdot

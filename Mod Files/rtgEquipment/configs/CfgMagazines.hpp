@@ -129,6 +129,7 @@ class CfgMagazines
         descriptionshort = "Raider Tactical Standard Issue 7.62mm Ammo";
         displayname = "[RTG] 20rnd 7.62mm MAG";
         displaynameshort = "20Rnd 7.62x51";
+        initSpeed=985;
         scope = 2;
     };
 
@@ -141,6 +142,7 @@ class CfgMagazines
         descriptionshort = "Raider Tactical Standard Issue 7.62mm Ammo";
         displayname = "[RTG] 8rnd 7.62mm MAG";
         displaynameshort = "8Rnd 7.62x51";
+        initSpeed=985;
         scope = 2;
     };
 
@@ -153,6 +155,7 @@ class CfgMagazines
         descriptionshort = "Raider Tactical Standard Issue 7.62mm Ammo";
         displayname = "[RTG] 35rnd 7.62mm MAG";
         displaynameshort = "35Rnd 7.62x51";
+        initSpeed=985;
         scope = 2;
         mass = 14;
     };
@@ -166,6 +169,7 @@ class CfgMagazines
         descriptionshort = "Raider Tactical Standard Issue 7.62mm Ammo";
         displayname = "[RTG] 100rnd 7.62mm MAG";
         displaynameshort = "100Rnd 7.62x51";
+        initSpeed=985;
         scope = 2;
         mass = 44;
     };
@@ -179,6 +183,7 @@ class CfgMagazines
         descriptionshort = "Raider Tactical Standard Issue 7.62mm Ammo";
         displayname = "[RTG] 100rnd Tracer 7.62mm MAG";
         displaynameshort = "100Rnd Tracer 7.62x51";
+        initSpeed=985;
         scope = 2;
         mass = 44.1;
     };
@@ -193,6 +198,7 @@ class CfgMagazines
         descriptionshort = "Raider Tactical Standard Issue 6.8mm Ammo";
         displayname = "[RTG] 25rnd 6.8mm MAG";
         displaynameshort = "25Rnd 6.8x51";
+        initSpeed=910;
         scope = 2;
     };
 
@@ -205,6 +211,7 @@ class CfgMagazines
         descriptionshort = "Raider Tactical Standard Issue 6.8mm Ammo";
         displayname = "[RTG] 100rnd 6.8mm MAG";
         displaynameshort = "100Rnd 6.8x51";
+        initSpeed=910;
         scope = 2;
         mass = 41;
     };
@@ -217,6 +224,7 @@ class CfgMagazines
         descriptionshort = "Raider Tactical Standard Issue 6.8mm Tracer Ammo";
         displayname = "[RTG] 100rnd Tracer 6.8mm MAG";
         displaynameshort = "100Rnd Tracer 6.8x51";
+        initSpeed=910;
         scope = 2;
         mass = 41.1;
     };
@@ -232,7 +240,7 @@ class CfgMagazines
         displayname = "[RTG] 15rnd .50 BW PMAG";
         displaynameshort = "15Rnd .50 BW";
         scope = 2;
-
+        initSpeed=591;
     };
 	
 // 5.56
@@ -246,6 +254,7 @@ class CfgMagazines
         displayname = "[RTG] 30rnd 5.56mm PMAG";
         displaynameshort = "30Rnd 5.56x45";
         scope = 2;
+        initSpeed=910;
     };
 
     class rtg_200rnd_556_45 : rhsusf_200Rnd_556x45_M855_soft_pouch_coyote {
@@ -258,6 +267,7 @@ class CfgMagazines
         displayname = "[RTG] 200rnd 5.56mm Pouch";
         displaynameshort = "200Rnd 5.56x45";
         scope = 2;
+        initSpeed=910;
     };
 	
 	class rtg_200rnd_556_45_t : rhsusf_200Rnd_556x45_M855_soft_pouch_coyote {
@@ -270,6 +280,7 @@ class CfgMagazines
         displayname = "[RTG] 200rnd Tracer 5.56mm Pouch";
         displaynameshort = "200Rnd Tracer 5.56x45";
         scope = 2;
+        initSpeed=910;
     };
 
     class rtg_100rnd_556_45 : rhs_mag_100Rnd_556x45_m855_cmag {
@@ -282,55 +293,60 @@ class CfgMagazines
         displayname = "[RTG] 100rnd 5.56mm CMAG";
         displaynameshort = "100Rnd 5.56x45";
         scope = 2;
+        initSpeed=910;
     };
 	
 // .300 Blackout
     class rtg_200rnd_300_blk : rhsusf_200Rnd_556x45_M855_soft_pouch_ucp {
         
         ammo = "rtg_300blk";
-        count = 200;
+        count = 240;
         tracersevery = 3;
         lastroundstracer = 4;
         descriptionshort = "Raider Tactical Standard Issue .300 BLK Ammo";
-        displayname = "[RTG] 200rnd .300 BLK Pouch";
-        displaynameshort = "200Rnd .300 BLK";
+        displayname = "[RTG] 240rnd .300 BLK Pouch";
+        displaynameshort = "240Rnd .300 BLK";
         scope = 2;
+        initSpeed=609;
     };
 	
 	class rtg_200rnd_300_blk_t : rhsusf_200Rnd_556x45_M855_soft_pouch_ucp {
         
         ammo = "rtg_300blk";
-        count = 200;
+        count = 240;
         tracersevery = 1;
         lastroundstracer = 4;
         descriptionshort = "Raider Tactical Standard Issue .300 BLK Ammo";
-        displayname = "[RTG] 200rnd Tracer .300 BLK Pouch";
-        displaynameshort = "200Rnd Tracer .300";
+        displayname = "[RTG] 240rnd Tracer .300 BLK Pouch";
+        displaynameshort = "240Rnd Tracer .300";
         scope = 2;
+        initSpeed=609;
     };
 	
     class rtg_30rnd_300_blk : ptv_30Rnd_556x45_L5awmc_pull {
         
         ammo = "rtg_300blk";
-        count = 30;
+        count = 33;
         tracersevery = 3;
         lastroundstracer = 4;
         descriptionshort = "Raider Tactical Standard Issue .300 BLK Ammo";
-        displayname = "[RTG] 30rnd .300 Blk PMAG";
-        displaynameshort = "30Rnd .300 BLK";
+        displayname = "[RTG] 33rnd .300 Blk PMAG";
+        displaynameshort = "33Rnd .300 BLK";
         scope = 2;
+        initSpeed=609;
     };
 
     class rtg_100rnd_300_blk : rhs_mag_100Rnd_556x45_m855_cmag {
         
         ammo = "rtg_300blk";
-        count = 100;
+        count = 120;
         tracersevery = 3;
         lastroundstracer = 4;
         descriptionshort = "Raider Tactical Standard Issue .300 BLK Ammo";
-        displayname = "[RTG] 100rnd .300 Blk PMAG";
-        displaynameshort = "100Rnd .300 BLK";
+        displayname = "[RTG] 120rnd .300 Blk PMAG";
+        displaynameshort = "120Rnd .300 BLK";
         scope = 2;
+        initSpeed=609;
     };
 
 // 9mm
@@ -346,6 +362,7 @@ class CfgMagazines
 		modelSpecial = "\hlc_wp_aug\mesh\magazine\proxy\25rnd_9x19mm_AUG.p3d";
         displaynameshort = "35Rnd 9x21";
         scope = 2;
+        initSpeed=441;
     };
 
 // 50AE
@@ -384,7 +401,7 @@ class CfgMagazines
         model = "\hlc_wp_aug\mesh\magazine\magazine2.p3d";
 		modelSpecial = "\hlc_wp_aug\mesh\magazine\proxy\25rnd_9x19mm_AUG.p3d";
         scope = 2;
-    }
+    };
 
 // 12 Gauge
     class rhsusf_5Rnd_00Buck;
