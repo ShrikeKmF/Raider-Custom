@@ -931,7 +931,6 @@ class rtg_vector_9mm : SMG_01_F
 		calibre = "N9";
 	};
 };
-
 class rtg_vector_9mm_carbon : rtg_vector_9mm
 {
 	RTG_WEAPON_BASE

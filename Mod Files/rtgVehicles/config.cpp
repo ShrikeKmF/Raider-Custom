@@ -7,7 +7,25 @@ class CfgPatches
 		author = "Shrike";
 		url = "";
 		requiredAddons[] = {"a3_characters_F","a3_characters_F_beta","A3_Characters_F_Common","a3_characters_f_beta","a3_characters_f_gamma","A3_Soft_F_epc","bma3_bushmaster","rhsusf_c_weapons"};
-		units[] = {"rtg_UH60M_DAP_Magpie", "raider_heavy_attack_boat", "raider_light_strike_vehicle", "rtg_wheelsBox","hitman_light_vehicle","raider_fast_rhib","raider_strike_car","raider_bushmaster_unarmed","rtg_UH60M_Magpie","rtg_AH1Z_Hawk","rtg_heavyLift_Cargo","rtg_heavyLift_Transport","rtg_BasicSupply","rtg_atSupply","rtg_medicalSupply"};
+		units[] = {
+			// Boats
+			"raider_heavy_attack_boat",
+			"raider_fast_rhib",
+			// Cars
+			"rtg_LSV",
+			"raider_bushmaster_unarmed",
+			// Heli
+			"rtg_Magpie",
+			"rtg_Magpie_DAP",
+			"rtg_AH1Z_Hawk",
+			"rtg_heavyLift_Cargo",
+			"rtg_heavyLift_Transport",
+			// Crates
+			"rtg_BasicSupply",
+			"rtg_atSupply",
+			"rtg_medicalSupply",
+			"rtg_wheelsBox"
+		};
 	};
 };
 class cfgFactionClasses
@@ -88,9 +106,9 @@ class CfgVehicles
 	class AnimationSources;
 
 	// Include Vehicle Files
-	#include "Vehicles/humvee.hpp"
+	#include "Vehicles/lynx.hpp"
 	#include "Vehicles/bushmaster.hpp"
-	#include "Vehicles/magpie.hpp"
+	#include "Vehicles/hatchet.hpp"
 	#include "Vehicles/hawk.hpp"
 	#include "Vehicles/pelican.hpp"
 	#include "Vehicles/boats.hpp"

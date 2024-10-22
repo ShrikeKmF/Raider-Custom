@@ -467,6 +467,48 @@ class rtg_ace_expanded_hk51 {
     };
 };
 
+// M16
+class rtg_ace_expanded_m16 {
+    label = "M16";
+    
+    options[] = {"variant"};
+    class variant
+    {
+        label = "Variant";
+        values[] = {"M16A1","MOD753", "XM16E1", "M16A2", "XM177E1", "XM177E2"};
+        class M16A1
+        {
+            label = "M16A1";
+            description = "M16A1";
+        };
+        class MOD753
+        {
+            label = "MOD-653";
+            description = "M16 Carbine";
+        };
+       class XM16E1
+        {
+            label = "XM16E1";
+            description = "XM16E1";
+        };
+        class XM177E1
+        {
+            label = "XM177E1";
+            description = "XM177E1";
+        };
+        class XM177E2
+        {
+            label = "XM177E2";
+            description = "XM177E2";
+        };
+        class M16A2
+        {
+            label = "M16A2";
+            description = "M16A2";
+        };
+    };
+};
+
 // SAMR2
 class rtg_ace_expanded_samr {
     label = "LAR-15";

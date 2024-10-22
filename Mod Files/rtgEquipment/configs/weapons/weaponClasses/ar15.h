@@ -148,3 +148,71 @@ class rtg_c8a2: arifle_SPAR_01_blk_f {
 		calibre = "N556";
 	};
 };
+
+// M16
+class hlc_M16Base;
+class hlc_wp_M16A1: hlc_M16Base
+{
+	RTG_WEAPON_BASE
+	recoil = "rtg_556_rifle";
+	class XtdGearInfo
+	{
+		model = "rtg_ace_expanded_m16";
+		variant = "M16A1";
+	};
+}
+class hlc_wp_XM16E1: hlc_wp_M16A1
+{
+	RTG_WEAPON_BASE
+	recoil = "rtg_556_rifle";
+	class XtdGearInfo
+	{
+		model = "rtg_ace_expanded_m16";
+		variant = "XM16E1";
+	};
+}
+
+class hlc_wp_m16a2: hlc_M16Base
+{
+	RTG_WEAPON_BASE
+	recoil = "rtg_556_rifle";
+	class XtdGearInfo
+	{
+		model = "rtg_ace_expanded_m16";
+		variant = "M16A2";
+	};
+}
+class hlc_wp_XM177E2: hlc_M16Base
+{
+	RTG_WEAPON_BASE
+	recoil = "rtg_556_carbine";
+	class XtdGearInfo
+	{
+		model = "rtg_ace_expanded_m16";
+		variant = "XM177E2";
+	};
+}
+class hlc_wp_XM177E1: hlc_wp_XM177E2
+{
+	RTG_WEAPON_BASE
+	recoil = "rtg_556_carbine";
+	class XtdGearInfo
+	{
+		model = "rtg_ace_expanded_m16";
+		variant = "XM177E1";
+	};
+}
+class hlc_wp_mod653: hlc_wp_XM177E2
+{
+	RTG_WEAPON_BASE
+	recoil = "rtg_556_carbine";
+	class XtdGearInfo
+	{
+		model = "rtg_ace_expanded_m16";
+		variant = "MOD753";
+	};
+}
+
+class hlc_rifle_M16A1_m203: hlc_wp_M16A1{RTG_ACEAX_EMPTY};
+class hlc_rifle_m203: hlc_wp_m16a2{RTG_ACEAX_EMPTY};
+class hlc_wp_XM177E2_M203: hlc_wp_XM177E2{RTG_ACEAX_EMPTY};

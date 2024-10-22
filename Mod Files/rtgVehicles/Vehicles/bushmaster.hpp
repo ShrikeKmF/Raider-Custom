@@ -33,8 +33,8 @@ class raider_bushmaster_unarmed: bma3_bushmaster_unarmed_F
 
 	// Movement Config
 	simulation = "carx";
-	maxSpeed = 120;
-	enginePower = 600;
+	maxSpeed = 125;
+	enginePower = 650;
 	differentialType = "all_limited";
 	
 	// Wheels
@@ -55,10 +55,10 @@ class raider_bushmaster_unarmed: bma3_bushmaster_unarmed_F
 			tireForceAppPointOffset = "wheel_1_1_axis";
 			MOI = 10.9;
 			dampingRate = 0.15;
-			maxBrakeTorque = 8000;
-			longitudinalStiffnessPerUnitGravity = 2700;
-			latStiffX = 90.8;
-			latStiffY = 70.0;
+			maxBrakeTorque = 8500;
+			longitudinalStiffnessPerUnitGravity = 3200;
+			latStiffX = 140.8;
+			latStiffY = 105.0;
 			frictionVsSlipGraph[] = {{0,0.25},{0.5,0.85},{0.8,0.65},{1,0.55}};
 		};
 		class LR: LF
@@ -69,7 +69,9 @@ class raider_bushmaster_unarmed: bma3_bushmaster_unarmed_F
 			boundary = "wheel_1_2_bound";
 			suspForceAppPointOffset = "wheel_1_2_axis";
 			tireForceAppPointOffset = "wheel_1_2_axis";
-			maxHandBrakeTorque = 18000;
+			maxHandBrakeTorque = 12000;
+			latStiffX = 100.8;
+			latStiffY = 85.0;
 		};
 		class RF: LF
 		{
@@ -90,7 +92,9 @@ class raider_bushmaster_unarmed: bma3_bushmaster_unarmed_F
 			boundary = "wheel_2_2_bound";
 			suspForceAppPointOffset = "wheel_2_2_axis";
 			tireForceAppPointOffset = "wheel_2_2_axis";
-			maxHandBrakeTorque = 18000;
+			maxHandBrakeTorque = 12000;
+			latStiffX = 100.8;
+			latStiffY = 85.0;
 		};
 	};
 
@@ -101,24 +105,38 @@ class raider_bushmaster_unarmed: bma3_bushmaster_unarmed_F
 	smokeLauncherOnTurret = 0;
 	smokeLauncherAngle = 160;
 	ace_refuel_fuelCargo = 80;
-	textureList[] = {"rtg_black1",1,"rtg_black2",1,"rtg_black3",1};
+	textureList[] = {"rtg_Base", 1,  "rtg_hitman",1, "rtg_sabre",1, "rtg_ares",1, "rtg_demon", 1};
 	class textureSources
 	{
-		class rtg_black1
+		class rtg_Base
+		{
+			displayName = "Base";
+			author = "Fish";
+			textures[] = {"rtgVehicles\tex\bushmaster\bm2.paa","rtgVehicles\tex\bushmaster\rtg_co.paa","bma3\bma3_bushmaster_data\camo3\camo3_co.paa",""};
+			factions[] = {"Raider_Tactical_F"};
+		};
+		class rtg_hitman
+		{
+			displayName = "Hitman";
+			author = "Fish";
+			textures[] = {"rtgVehicles\tex\bushmaster\bm2_H.paa","rtgVehicles\tex\bushmaster\rtg_co.paa","bma3\bma3_bushmaster_data\camo3\camo3_co.paa",""};
+			factions[] = {"Raider_Tactical_F"};
+		};
+		class rtg_sabre
 		{
 			displayName = "Sabre";
 			author = "Fish";
 			textures[] = {"rtgVehicles\tex\bushmaster\bm2_S.paa","rtgVehicles\tex\bushmaster\rtg_co.paa","bma3\bma3_bushmaster_data\camo3\camo3_co.paa",""};
 			factions[] = {"Raider_Tactical_F"};
 		};
-		class rtg_black2
+		class rtg_ares
 		{
 			displayName = "Ares";
 			author = "Fish";
 			textures[] = {"rtgVehicles\tex\bushmaster\bm2_A.paa","rtgVehicles\tex\bushmaster\rtg_co.paa","bma3\bma3_bushmaster_data\camo3\camo3_co.paa",""};
 			factions[] = {"Raider_Tactical_F"};
 		};
-		class rtg_black3
+		class rtg_demon
 		{
 			displayName = "Demon";
 			author = "Fish";
