@@ -23,7 +23,7 @@ class CfgVehicles
 		class ViewPilot: ViewPilot
 		{
 			initFov = 0.75; 
-			minFov = 0.50;
+			minFov = 0.75;
 			maxFov = 0.75;
 		};
 	};
@@ -33,32 +33,32 @@ class CfgVehicles
 		class ViewPilot: ViewPilot
 		{
 		initFov = 0.75; 
-		minFov = 0.50;
+		minFov = 0.75;
 		maxFov = 0.75;
 		};
 		class ViewCargo: ViewCargo
 		{
 		initFov = 0.75;
-		minFov = 0.50;
+		minFov = 0.75;
 		maxFov = 0.75;
 		};
 		class ViewOptics: ViewOptics
 		{
 		initFov = 0.75;
-		minFov = 0.50;
+		minFov = 0.75;
 		maxFov = 0.75;
 		};
 	};
 };
 
 class CfgInventoryGlobalVariable {
-	maxSoldierLoad = 1785;
+	maxSoldierLoad = 10000;
 };
 
 class CfgMovesFatigue {
-	staminaDuration = 27;
+	staminaDuration = 12;
 	staminaCooldown = 6;
-	staminaRestoration = 3;
+	staminaRestoration = 12;
 	aimPrecisionSpeedCoef = 5;
 	terrainDrainSprint = 0.0;
 	terrainDrainRun = 0.0;
@@ -69,13 +69,13 @@ class CfgImprecision
 {
 	class Primary
 	{
-		verticalRadius = 0.19; //0.25
-		horizontalRadius = 0.1; //0.05
+		verticalRadius = 0.5; //0.5
+		horizontalRadius = 0.1; //0.1
 	};
 	class Secondary
 	{
-		verticalRadius = 0.19; //0.25
-		horizontalRadius = 0.1; //0.05
+		verticalRadius = 0.5; //0.5
+		horizontalRadius = 0.1; //0.1
 	};
 };
 

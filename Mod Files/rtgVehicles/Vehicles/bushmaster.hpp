@@ -56,9 +56,9 @@ class raider_bushmaster_unarmed: bma3_bushmaster_unarmed_F
 			MOI = 10.9;
 			dampingRate = 0.15;
 			maxBrakeTorque = 8500;
-			longitudinalStiffnessPerUnitGravity = 3200;
-			latStiffX = 140.8;
-			latStiffY = 105.0;
+			longitudinalStiffnessPerUnitGravity = 3500;
+			latStiffX = 200.8;
+			latStiffY = 180.0;
 			frictionVsSlipGraph[] = {{0,0.25},{0.5,0.85},{0.8,0.65},{1,0.55}};
 		};
 		class LR: LF
@@ -70,8 +70,8 @@ class raider_bushmaster_unarmed: bma3_bushmaster_unarmed_F
 			suspForceAppPointOffset = "wheel_1_2_axis";
 			tireForceAppPointOffset = "wheel_1_2_axis";
 			maxHandBrakeTorque = 12000;
-			latStiffX = 100.8;
-			latStiffY = 85.0;
+			latStiffX = 140.8;
+			latStiffY = 110.0;
 		};
 		class RF: LF
 		{
@@ -93,8 +93,8 @@ class raider_bushmaster_unarmed: bma3_bushmaster_unarmed_F
 			suspForceAppPointOffset = "wheel_2_2_axis";
 			tireForceAppPointOffset = "wheel_2_2_axis";
 			maxHandBrakeTorque = 12000;
-			latStiffX = 100.8;
-			latStiffY = 85.0;
+			latStiffX = 140.8;
+			latStiffY = 110.0;
 		};
 	};
 

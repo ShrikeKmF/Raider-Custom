@@ -68,3 +68,28 @@ class rtg_ace_expanded_backpack {
         };
     };
 };
+
+class rtg_ace_expanded_radiopack {
+    label = "RadioPack";
+    options[] = {"camo"};
+    class camo
+    {
+        label = "Camo";
+        values[] = {"BLK", "GRN", "CYT"};
+        class CYT
+        {
+            label = "Sand";
+            description = "Sand Camo";
+        };
+        class GRN
+        {
+            label = "Olive";
+            description = "Olive Camo";
+        };
+        class BLK
+        {
+            label = "Black";
+            description = "Black Camo";
+        };
+    };
+};

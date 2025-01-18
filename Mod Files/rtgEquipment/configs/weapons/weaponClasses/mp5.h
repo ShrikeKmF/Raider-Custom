@@ -1,180 +1,62 @@
-// 9mm
-class hlc_MP5_base;
-class hlc_smg_mp5a2: hlc_MP5_base {
-    RTG_WEAPON_BASE
-	magazineWell[] = {"RTG_9x19"};
-	magazines[] = {"rtg_9mm_35Rnd_mag"};
-	recoil = "rtg_9mm_primary";
-	class XtdGearInfo
+// H&K MP5A5
+	// 9mm
+	//Base
+	class JCA_smg_MP5_base_F: Rifle_Short_Base_F
 	{
-		model = "rtg_ace_expanded_mp5";
-		form = "a2";
-		calibre = "N9";
-        grip = "std";
+		RTG_ACEAX_EMPTY
+		RTG_STANDARD_ZOOM
+		recoil = "rtg_9mm_primary";
+		magazineWell[] = {"RTG_9x19"};
+		magazines[] = {"rtg_9mm_35Rnd_mag"};
 	};
-};
-class hlc_smg_mp5a2_tac: hlc_smg_mp5a2 {
-    RTG_WEAPON_BASE
-	magazineWell[] = {"RTG_9x19"};
-	magazines[] = {"rtg_9mm_35Rnd_mag"};
-	recoil = "rtg_9mm_primary";
-	class XtdGearInfo
+	class JCA_smg_MP5_AFG_base_F: JCA_smg_MP5_base_F{RTG_ACEAX_EMPTY};
+	class JCA_smg_MP5_VFG_base_F: JCA_smg_MP5_base_F{RTG_ACEAX_EMPTY};
+	class JCA_smg_MP5_FL_base_F: JCA_smg_MP5_base_F{RTG_ACEAX_EMPTY};
+	// Black
+	class JCA_smg_MP5_AFG_black_F: JCA_smg_MP5_AFG_base_F
 	{
-		model = "rtg_ace_expanded_mp5";
-		form = "a2";
-		calibre = "N9";
-        grip = "tac";
+		RTG_WEAPON_BASE
+		class XtdGearInfo{model = "rtg_ace_expanded_mp5";camo = "BLK";attachment="AFG";};
 	};
-};
-class hlc_smg_mp5A2_Sfire : hlc_smg_mp5a2 {
-    RTG_WEAPON_BASE
-	magazineWell[] = {"RTG_9x19"};
-	magazines[] = {"rtg_9mm_35Rnd_mag"};
-	recoil = "rtg_9mm_primary";
-	RTG_ACEAX_EMPTY 
-};
-
-class hlc_smg_mp5a3: hlc_smg_mp5a2 {
-    RTG_WEAPON_BASE
-	magazineWell[] = {"RTG_9x19"};
-	magazines[] = {"rtg_9mm_35Rnd_mag"};
-	recoil = "rtg_9mm_primary";
-	class XtdGearInfo
+	class JCA_smg_MP5_VFG_black_F: JCA_smg_MP5_VFG_base_F
 	{
-		model = "rtg_ace_expanded_mp5";
-		form = "a3";
-		calibre = "N9";
-        grip = "std";
+		RTG_WEAPON_BASE
+		class XtdGearInfo{model = "rtg_ace_expanded_mp5";camo = "BLK";attachment="VFG";};
 	};
-};
-class hlc_smg_mp5a3_tac: hlc_smg_mp5a2 {
-    RTG_WEAPON_BASE
-	magazineWell[] = {"RTG_9x19"};
-	magazines[] = {"rtg_9mm_35Rnd_mag"};
-	recoil = "rtg_9mm_primary";
-	class XtdGearInfo
+	class JCA_smg_MP5_FL_black_F: JCA_smg_MP5_FL_base_F
 	{
-		model = "rtg_ace_expanded_mp5";
-		form = "a3";
-		calibre = "N9";
-        grip = "tac";
+		RTG_WEAPON_BASE
+		class XtdGearInfo{model = "rtg_ace_expanded_mp5";camo = "BLK";attachment="N";};
 	};
-};
-
-class hlc_smg_mp5a4: hlc_MP5_base {
-    RTG_WEAPON_BASE
-	magazineWell[] = {"RTG_9x19"};
-	magazines[] = {"rtg_9mm_35Rnd_mag"};
-	recoil = "rtg_9mm_primary";
-	class XtdGearInfo
+	// Sand
+	class JCA_smg_MP5_AFG_sand_F: JCA_smg_MP5_AFG_base_F
 	{
-		model = "rtg_ace_expanded_mp5";
-		form = "a4";
-		calibre = "N9";
-        grip = "std";
+		RTG_WEAPON_BASE
+		class XtdGearInfo{model = "rtg_ace_expanded_mp5";camo = "CYT";attachment="AFG";};
 	};
-};
-class hlc_smg_mp5a4_tac: hlc_smg_mp5a4 {
-    RTG_WEAPON_BASE
-	magazineWell[] = {"RTG_9x19"};
-	magazines[] = {"rtg_9mm_35Rnd_mag"};
-	recoil = "rtg_9mm_primary";
-	class XtdGearInfo
+	class JCA_smg_MP5_VFG_sand_F: JCA_smg_MP5_VFG_base_F
 	{
-		model = "rtg_ace_expanded_mp5";
-		form = "a4";
-		calibre = "N9";
-        grip = "tac";
+		RTG_WEAPON_BASE
+		class XtdGearInfo{model = "rtg_ace_expanded_mp5";camo = "CYT";attachment="VFG";};
 	};
-};
-
-class hlc_smg_MP5N: hlc_MP5_base {
-    RTG_WEAPON_BASE
-	magazineWell[] = {"RTG_9x19"};
-	magazines[] = {"rtg_9mm_35Rnd_mag"};
-	recoil = "rtg_9mm_primary";
-	class XtdGearInfo
+	class JCA_smg_MP5_FL_sand_F: JCA_smg_MP5_FL_base_F
 	{
-		model = "rtg_ace_expanded_mp5";
-		form = "a5";
-		calibre = "N9";
-        grip = "std";
+		RTG_WEAPON_BASE
+		class XtdGearInfo{model = "rtg_ace_expanded_mp5";camo = "CYT";attachment="N";};
 	};
-};
-class hlc_smg_mp5N_tac: hlc_smg_MP5N {
-    RTG_WEAPON_BASE
-	magazineWell[] = {"RTG_9x19"};
-	magazines[] = {"rtg_9mm_35Rnd_mag"};
-	recoil = "rtg_9mm_primary";
-	class XtdGearInfo
+	// Olive
+	class JCA_smg_MP5_AFG_olive_F: JCA_smg_MP5_AFG_base_F
 	{
-		model = "rtg_ace_expanded_mp5";
-		form = "a5";
-		calibre = "N9";
-        grip = "tac";
+		RTG_WEAPON_BASE
+		class XtdGearInfo{model = "rtg_ace_expanded_mp5";camo = "GRN";attachment="AFG";};
 	};
-};
-
-class hlc_smg_mp5sd5: hlc_MP5_base {
-    RTG_WEAPON_BASE
-	magazineWell[] = {"RTG_9x19"};
-	magazines[] = {"rtg_9mm_35Rnd_mag"};
-	recoil = "rtg_9mm_primary";
-	class XtdGearInfo
+	class JCA_smg_MP5_VFG_olive_F: JCA_smg_MP5_VFG_base_F
 	{
-		model = "rtg_ace_expanded_mp5";
-		form = "sd5";
-		calibre = "N9";
-        grip = "std";
+		RTG_WEAPON_BASE
+		class XtdGearInfo{model = "rtg_ace_expanded_mp5";camo = "GRN";attachment="VFG";};
 	};
-};
-class hlc_smg_mp5sd6: hlc_smg_mp5sd5 {
-    RTG_WEAPON_BASE
-	magazineWell[] = {"RTG_9x19"};
-	magazines[] = {"rtg_9mm_35Rnd_mag"};
-	recoil = "rtg_9mm_primary";
-	class XtdGearInfo
+	class JCA_smg_MP5_FL_olive_F: JCA_smg_MP5_FL_base_F
 	{
-		model = "rtg_ace_expanded_mp5";
-		form = "sd6";
-		calibre = "N9";
-        grip = "std";
+		RTG_WEAPON_BASE
+		class XtdGearInfo{model = "rtg_ace_expanded_mp5";camo = "GRN";attachment="N";};
 	};
-};
-// .50
-class hlc_smg_mp510: hlc_smg_MP5N {
-    RTG_WEAPON_BASE
-    displayName = "H&K MP5/50A4";
-	magazineWell[] = {""};
-	magazines[] = {"rtg_50_ae_20rnd_mag"};
-	recoil = "rtg_50ae_primary";
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_mp5";
-		form = "a4";
-		calibre = "N50";
-        grip = "std";
-	};
-};
-class hlc_mp510_tac: hlc_smg_mp510 {
-    RTG_WEAPON_BASE
-    displayName = "H&K MP5/50A4 (TAC)";
-	magazineWell[] = {""};
-	magazines[] = {"rtg_50_ae_20rnd_mag"};
-	recoil = "rtg_50ae_primary";
-	class XtdGearInfo
-	{
-		model = "rtg_ace_expanded_mp5";
-		form = "a4";
-		calibre = "N50";
-        grip = "tac";
-	};
-};
-
-class hlc_smg_9mmar: hlc_smg_MP5N {
-    RTG_WEAPON_BASE
-	magazineWell[] = {"RTG_9x19"};
-	magazines[] = {"rtg_9mm_35Rnd_mag"};
-	recoil = "rtg_9mm_primary";
-	RTG_ACEAX_EMPTY 
-};

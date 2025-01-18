@@ -3,7 +3,7 @@ class CfgPatches
 	class rtgVehicles
 	{
 		name = "rtgVehicles";
-		version = "1.2";
+		version = "2.0";
 		author = "Shrike";
 		url = "";
 		requiredAddons[] = {"a3_characters_F","a3_characters_F_beta","A3_Characters_F_Common","a3_characters_f_beta","a3_characters_f_gamma","A3_Soft_F_epc","bma3_bushmaster","rhsusf_c_weapons"};
@@ -14,6 +14,7 @@ class CfgPatches
 			// Cars
 			"rtg_LSV",
 			"raider_bushmaster_unarmed",
+			"hitman_light_vehicle",
 			// Heli
 			"rtg_Magpie",
 			"rtg_Magpie_DAP",
@@ -23,7 +24,6 @@ class CfgPatches
 			// Crates
 			"rtg_BasicSupply",
 			"rtg_atSupply",
-			"rtg_medicalSupply",
 			"rtg_wheelsBox"
 		};
 	};

@@ -323,15 +323,16 @@ class CfgMagazines
         initSpeed=609;
     };
 	
-    class rtg_30rnd_300_blk : ptv_30Rnd_556x45_L5awmc_pull {
+    class ptv_40rnd_556x45_Pmag;
+    class rtg_30rnd_300_blk : ptv_40rnd_556x45_Pmag {
         
         ammo = "rtg_300blk";
-        count = 33;
+        count = 40;
         tracersevery = 3;
         lastroundstracer = 4;
         descriptionshort = "Raider Tactical Standard Issue .300 BLK Ammo";
-        displayname = "[RTG] 33rnd .300 Blk PMAG";
-        displaynameshort = "33Rnd .300 BLK";
+        displayname = "[RTG] 40rnd .300 Blk PMAG";
+        displaynameshort = "40Rnd .300 BLK";
         scope = 2;
         initSpeed=609;
     };
@@ -392,12 +393,12 @@ class CfgMagazines
     class rtg_50_ae_20rnd_mag : ACWP_19Rnd_9x21_Mag_glock {
         
         ammo = "rtg_50_AE";
-        count = 20;
+        count = 25;
         tracersevery = 0;
         lastroundstracer = 2;
         descriptionshort = "Raider Tactical Standard Issue 50 AE Ammo";
-        displayname = "[RTG] 20rnd 50 AE Mag";
-        displaynameshort = "20Rnd 50AE";
+        displayname = "[RTG] 25rnd 50 AE Mag";
+        displaynameshort = "25Rnd 50AE";
         model = "\hlc_wp_aug\mesh\magazine\magazine2.p3d";
 		modelSpecial = "\hlc_wp_aug\mesh\magazine\proxy\25rnd_9x19mm_AUG.p3d";
         scope = 2;

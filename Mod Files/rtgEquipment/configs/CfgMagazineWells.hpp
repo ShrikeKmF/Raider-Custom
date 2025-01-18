@@ -120,6 +120,13 @@ class CfgMagazineWells
 			"rtg_50_ae_5rnd_mag";
         };
 	};
+
+	class RTG_50_SMG_AE { // .50 AE
+		RTG_Magazines[] = 
+        {
+			"rtg_50_ae_20rnd_mag";
+        };
+	};
 	
 	class CBA_12g_6rnds { // 12 Gauge
 		RTG_Magazines[] = 

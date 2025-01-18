@@ -376,14 +376,42 @@ class rtg_m249p_t_ris_300: rtg_m249p_t_ris
 }
 
 // 7.62
-class hlc_lmg_mk48mod1;
-class rtg_maximi: hlc_lmg_mk48mod1
+class Tier1_SAW_Base;
+class Tier1_MK48_Mod0: Tier1_SAW_Base
 {
-	DisplayName = "FN Maximi (Long/Black)";
-	baseWeapon = "rtg_maximi";
+	RTG_STANDARD_ZOOM
+	RTG_ACEAX_EMPTY
 	recoil = "rtg_762n_lmg";
 	magazineWell[] = {"CBA_762x51_LINKS"};
 	magazines[] = {"rtg_200Rnd_762x51"};
+};
+class Tier1_MK48_Mod0_Para: Tier1_MK48_Mod0
+{
+	RTG_WEAPON_BASE
+	class XtdGearInfo
+	{
+		model = "rtg_ace_expanded_minimi";
+		camo = "blk";
+		barrel = "long";
+		calibre = "N762";
+		stock = "para";
+	};
+};
+class Tier1_MK48_Mod0_Para_Desert: Tier1_MK48_Mod0
+{
+	RTG_WEAPON_BASE
+	class XtdGearInfo
+	{
+		model = "rtg_ace_expanded_minimi";
+		camo = "tan";
+		barrel = "long";
+		calibre = "N762";
+		stock = "para";
+	};
+};
+class Tier1_MK48_Mod1: Tier1_MK48_Mod0
+{
+	RTG_WEAPON_BASE
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_minimi";
@@ -392,8 +420,16 @@ class rtg_maximi: hlc_lmg_mk48mod1
 		calibre = "N762";
 		stock = "ris";
 	};
-	class WeaponSlotsInfo: WeaponSlotsInfo
+};
+class Tier1_MK48_Mod1_Desert: Tier1_MK48_Mod0
+{
+	RTG_WEAPON_BASE
+	class XtdGearInfo
 	{
-		class MuzzleSlot: asdg_MuzzleSlot_762{};
+		model = "rtg_ace_expanded_minimi";
+		camo = "tan";
+		barrel = "long";
+		calibre = "N762";
+		stock = "ris";
 	};
-}
+};

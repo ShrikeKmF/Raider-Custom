@@ -23,7 +23,6 @@ class CfgAmmo
     class rhs_ammo_12g_00buckshot_pellet;
     class rhs_ammo_12g_00buckshot;
     class B_570x28_Ball;
-    class R_MRAAWS_HEAT_F;
     class R_MRAAWS_HE_F;
     class rhs_rpg7v2_pg7vm;
     class rhs_rpg7v2_og7v;
@@ -86,7 +85,7 @@ class CfgAmmo
         ACE_bulletLength = 34.7;
         ACE_bulletMass = 14.5256;
         ACE_ballisticCoefficients[]={0.268};
-        ACE_muzzleVelocities[] = {548, 609, 655};
+        ACE_muzzleVelocities[] = {448, 509, 555};
         ACE_barrelLengths[] = {450, 500, 550};
         
         // Arma 3 Bullet Config
@@ -555,7 +554,6 @@ class CfgAmmo
 	};
 	class rhs_ammo_flare_M314: F_40mm_White
 	{
-        model = RTG_STANDARD_TRACERS;
 		triggerTime					= 0;
 		model						= "rhsusf\addons\rhsusf_airweapons\submunitions\rhsusf_r_m257_drogue";
 		brightness					= 4000;
@@ -588,7 +586,6 @@ class CfgAmmo
     // Equipment
     //
 
-    class PipeBombBase;
 	class rhsusf_m112_ammo: PipeBombBase
 	{
 		hit = 2000;
@@ -607,7 +604,6 @@ class CfgAmmo
 	class rhsusf_m112_ammo_scripted: rhsusf_m112_ammo{};
 
 
-    class rhsusf_ammo_127x99_M33_Ball;
     class rtg_127x99 : rhsusf_ammo_127x99_M33_Ball {
         hit = 90;
         model = RTG_STANDARD_TRACERS;
@@ -626,20 +622,4 @@ class CfgAmmo
 		grenadeBurningSound[] = {};
 		aiAmmoUsageFlags = "2 + 1";
 	};
-
-    //
-    // Joke ammo Types
-    //
-
-    class rtg_nitro : ACE_762x51_Ball_M118LR {
-        hit = 4000;
-        model = RTG_STANDARD_TRACERS;
-        
-        indirectHit = 2000;
-		indirectHitRange = 2;
-        ACE_bulletMass = 90.2176;
-        AB_ballisticCoefficients[] = { 0.8 };
-        ACE_muzzleVelocities[] = { 2000, 3000, 4000 };
-        ACE_barrelLengths[] = { 254.0, 393.7, 508.0 };
-    };
 };

@@ -167,7 +167,7 @@ class cfgRecoils
 // .50BW
 	class rtg_50bw_rifle : recoil_default
 	{
-		muzzleOuter[] = {0.3, 1.1, 0.5, 0.4};
+		muzzleOuter[] = {0.3, 1.0, 0.5, 0.4};
 		kickBack[] = {0.03, 0.045};
 		permanent = 0.1;
 		temporary = 0.05;
@@ -185,9 +185,9 @@ class cfgRecoils
 	class rtg_50ae_primary: recoil_default
 	{
 		muzzleOuter[] = {0.2, 0.6, 0.2, 0.3};
-		kickBack[] = {0.03, 0.03};
-		permanent = 0.006;
-		temporary = 0.035;
+		kickBack[] = {0.02, 0.03};
+		permanent = 0.007;
+		temporary = 0.0095;
 	};
 
 // 7.62 Rus 
