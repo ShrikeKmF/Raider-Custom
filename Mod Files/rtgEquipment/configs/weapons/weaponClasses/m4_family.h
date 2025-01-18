@@ -315,7 +315,7 @@
 
 // ACWP
 	// Base
-	class ACWP_rifle_base;
+	//class ACWP_rifle_base;
 	// M4A5
 	// Base
 	class ACWP_M4A5_base: ACWP_rifle_base{M4_Family_Base};

@@ -1366,83 +1366,6 @@ class ACWP_USP
     };
 };
 
-// M249
-class rtg_ace_expanded_minimi {
-    label = "Minimi";
-    
-    options[] = {"camo", "barrel", "calibre", "stock"};
-    class camo
-    {
-        label = "Camo";
-        values[] = {"blk","tan", "grn"};
-        class blk
-        {
-            label = "Black";
-            description = "Black";
-        };
-        class tan
-        {
-            label = "Tan";
-            description = "Tan";
-        };
-        class grn
-        {
-            label = "Green";
-            description = "Green";
-        };
-    };
-    class barrel
-    {
-        label = "Barrel";
-        values[] = {"short", "long"};
-        class short
-        {
-            label = "Short";
-            description = "Short";
-        }
-        class long
-        {
-            label = "Long";
-            description = "Long";
-        }
-    }
-    class calibre
-    {
-        label = "Calibre";
-        values[] = {"N556", "N300", "N762"};
-        class N556
-        {
-            label = "5.56mm";
-            description = "5.56mm";
-        }
-        class N300
-        {
-            label = ".300 BLK";
-            description = ".300 BLK";
-        }
-        class N762
-        {
-            label = "7.62mm";
-            description = "7.62mm";
-        }
-    }
-    class stock
-    {
-        label = "Stock";
-        values[] = {"para", "ris"};
-        class para
-        {
-            label = "Para";
-            description = "Para";
-        };
-        class ris
-        {
-            label = "RIS";
-            description = "RIS";
-        };
-    };
-};
-
 // SR-16
 class rtg_ace_expanded_sr16 {
     label = "SR-16";
@@ -1765,6 +1688,97 @@ class rtg_ace_expanded_msbs {
         {
             label = "MR";
             description = "Mid Range";
+        };
+    };
+};
+
+// HK416
+class rtg_ace_expanded_hk416 {
+    label = "HK-416";
+    options[] = {"camo", "stock", "handguard", "barrel"};
+    class camo
+    {
+        label = "Camo";
+        values[] = {"BLK", "CYT", "BLKDES"};
+        class CYT
+        {
+            label = "Sand";
+            description = "Sand Camo";
+        };
+        class BLK
+        {
+            label = "Black";
+            description = "Black Camo";
+        };
+        class BLKDES : BLK
+        {
+            label = "Black Desert";
+            description = "Black Desert Camo";
+        };
+    };
+    class stock
+    {
+        label = "Stock";
+        values[] = {"CTR", "IMOD", "LMT", "MFT"};
+        class CTR
+        {
+            label = "CTR";
+            description = "CTR";
+        };
+        class IMOD
+        {
+            label = "IMOD";
+            description = "IMOD";
+        };
+        class LMT
+        {
+            label = "LMT";
+            description = "LMT";
+        };
+        class MFT
+        {
+            label = "MFT";
+            description = "MFT";
+        };
+    };
+    class handguard
+    {
+        label = "Handguard";
+        values[] = {"RIS", "MW", "RAHG", "SMR"};
+        class RIS
+        {
+            label = "RIS";
+            description = "RIS";
+        };
+        class MW
+        {
+            label = "Midwest";
+            description = "Midwest";
+        };
+        class RAHG
+        {
+            label = "RAHG";
+            description = "RAHG";
+        };
+        class SMR
+        {
+            label = "SMR";
+            description = "SMR";
+        };
+    };
+    class barrel
+    {
+        label = "Barrel";
+        values[] = {"MR", "CQB"};
+        class MR
+        {
+            label = "MR";
+            description = "Mid Range";
+        };
+        class CQB
+        {
+            label = "CQB";
+            description = "Close-Quarter Battle";
         };
     };
 };
