@@ -1,7 +1,7 @@
 class rhsusf_m998_d_s_2dr_halftop;
-class hitman_light_vehicle: rhsusf_m998_d_s_2dr_halftop
+class rtg_lv_pickup: rhsusf_m998_d_s_2dr_halftop
 {
-	displayName = "Hitman LSV [1/7]";
+	displayName = "LV-Pickup [1/7]";
 	editorSubcategory = "RTGCars";
 	author = "Shrike";
 	scope = 2;
@@ -20,7 +20,7 @@ class hitman_light_vehicle: rhsusf_m998_d_s_2dr_halftop
 
 	// Movement Config
 	simulation = "carx";
-	maxSpeed = 115; // Top speed remains the same
+	maxSpeed = 130; // Top speed remains the same
 	brakeIdleSpeed = 0.87;
 	switchTime = 0.5;
 	latency = 1.0;
@@ -36,7 +36,7 @@ class hitman_light_vehicle: rhsusf_m998_d_s_2dr_halftop
 	class complexGearbox
 	{
 		GearboxRatios[] = {
-			"R1", -3.50, // Increased reverse ratio for better reverse speed
+			"R1", -2.50, // Increased reverse ratio for better reverse speed
 			"N", 0,
 			"D1", 3.00, // Increased first gear ratio for better acceleration
 			"D2", 1.80, // Adjusted second gear ratio for smoother transition
@@ -72,14 +72,14 @@ class hitman_light_vehicle: rhsusf_m998_d_s_2dr_halftop
 		{__EVAL(3603/3400), __EVAL(0/597)}
 	};      
 
-	enginePower = 200; // Increased for faster acceleration
-	peakTorque = 620;
+	enginePower = 700;
+	peakTorque = 800;
 	minOmega = 41;
 	maxOmega = 356.05;
-	idleRPM = 650;
-	redRPM = 3400;
+	idleRPM = 700;
+	redRPM = 3600;
 
-	engineLosses = 10; // Reduced losses for better performance
+	engineLosses = 10;
 	thrustDelay = 0.7;
 	engineBrakeCoef = 0.6;
 
@@ -104,13 +104,13 @@ class hitman_light_vehicle: rhsusf_m998_d_s_2dr_halftop
 			suspTravelDirection[] = {0,-1,0};
 			steering = 1;
 			width = 0.25;
-			mass = 70; // Reduced for better handling
-			MOI = 8.5; // Reduced for quicker response
-			maxBrakeTorque = 12000;
+			mass = 90; // Reduced for better handling
+			MOI = 8.9; // Reduced for quicker response
+			maxBrakeTorque = 9800;
 			maxHandBrakeTorque = 0;
-			longitudinalStiffnessPerUnitGravity = 2500;
-			latStiffX = 35.0;
-			latStiffY = 75.0;
+			longitudinalStiffnessPerUnitGravity = 3200;
+			latStiffX = 41.0;
+			latStiffY = 86.0;
 			frictionVsSlipGraph[] = {{0,0.3},{0.5,1},{0.8,0.7},{1,0.6}};
 		};
 		class LR: LF

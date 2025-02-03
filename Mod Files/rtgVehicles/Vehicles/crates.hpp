@@ -4,8 +4,19 @@ class rtg_BasicSupply: B_CargoNet_01_ammo_F
 	displayName = "Resupply Crate";
 	editorCategory = "Raider_Tactical";
 	scope = 2;
+	ace_cargo_space = 12;
 	dlc = "raiderTactical";
-	ace_refuel_fuelCargo = 80;
+	// Clear Weapons
+	class TransportWeapons {};
+
+	// Clear Magazines
+	class TransportMagazines {};
+
+	// Clear Items
+	class TransportItems {};
+
+	// Clear Backpacks
+	class TransportBackpacks {};
 };
 
 class Box_NATO_AmmoVeh_F;
@@ -15,7 +26,7 @@ class rtg_wheelsBox: Box_NATO_AmmoVeh_F
 	editorCategory = "Raider_Tactical";
 	scope = 2;
 	dlc = "raiderTactical";
-	ace_cargo_space = 16;
+	ace_cargo_space = 6;
 	class ace_cargo
 	{
 		class Cargo
@@ -27,6 +38,17 @@ class rtg_wheelsBox: Box_NATO_AmmoVeh_F
 			};
 		};
 	};
+	// Clear Weapons
+	class TransportWeapons {};
+
+	// Clear Magazines
+	class TransportMagazines {};
+
+	// Clear Items
+	class TransportItems {};
+
+	// Clear Backpacks
+	class TransportBackpacks {};
 };
 
 class BOX_NATO_WpsLaunch_F;
@@ -36,6 +58,7 @@ class BOX_NATO_WpsLaunch_F;
 		editorCategory = "Raider_Tactical";
 		scope = 2;
 		dlc = "raiderTactical";
+		ace_cargo_space = 12;
 		class TransportMagazines
 		{
 			class _xx_rtg_rpg_hedp_mag
@@ -74,4 +97,10 @@ class BOX_NATO_WpsLaunch_F;
 				count = 9;
 			};
 		};
+
+		// Clear Items
+		class TransportItems {};
+
+		// Clear Backpacks
+		class TransportBackpacks {};
 	};

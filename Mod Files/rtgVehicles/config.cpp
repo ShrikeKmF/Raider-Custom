@@ -14,7 +14,7 @@ class CfgPatches
 			// Cars
 			"rtg_LSV",
 			"raider_bushmaster_unarmed",
-			"hitman_light_vehicle",
+			"rtg_lv_pickup",
 			// Heli
 			"rtg_Magpie",
 			"rtg_Magpie_DAP",
@@ -109,6 +109,7 @@ class CfgVehicles
 	#include "Vehicles/lynx.hpp"
 	#include "Vehicles/bushmaster.hpp"
 	#include "Vehicles/hatchet.hpp"
+	#include "Vehicles/humvee.hpp"
 	#include "Vehicles/hawk.hpp"
 	#include "Vehicles/pelican.hpp"
 	#include "Vehicles/boats.hpp"

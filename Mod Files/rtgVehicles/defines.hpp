@@ -80,6 +80,7 @@ class TransportMagazines \
 		count = 5; \
 	}; \
 }; \
+class TransportItems {}; \
 class ace_cargo \
 { \
 	class Cargo \

@@ -33,8 +33,8 @@ class raider_bushmaster_unarmed: bma3_bushmaster_unarmed_F
 
 	// Movement Config
 	simulation = "carx";
-	maxSpeed = 125;
-	enginePower = 650;
+	maxSpeed = 145;
+	enginePower = 1200;
 	differentialType = "all_limited";
 	
 	// Wheels
