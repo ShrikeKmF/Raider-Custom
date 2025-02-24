@@ -39,6 +39,18 @@ class rtg_vector_9mm_fish : rtg_vector_9mm
 	RTG_ACEAX_EMPTY 
 };
 
+class rtg_vector_9mm_brew : rtg_vector_9mm
+{
+	RTG_WEAPON_BASE
+	recoil = "rtg_9mm_primary";
+	baseWeapon = "rtg_vector_9mm_brew";
+	
+	displayName = "Vector 9mm SMG (Brew)";
+	hiddenSelections[] = {"camo1","camo2","camo3"};
+	hiddenSelectionsTextures[] = {"rtgEquipment\tex\vectorSkin_Brew.paa","\a3\weapons_f\data\vectoratt_co.paa","\a3\weapons_f\acc\data\battlesight_co.paa"};
+	RTG_ACEAX_EMPTY 
+};
+
 class rtg_vector_50ae : SMG_01_F
 {
 	RTG_WEAPON_BASE

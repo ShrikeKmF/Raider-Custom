@@ -15,12 +15,14 @@ class CfgPatches
 			"rtg_LSV",
 			"raider_bushmaster_unarmed",
 			"rtg_lv_pickup",
+			"rtg_cargo_truck",
 			// Heli
 			"rtg_Magpie",
 			"rtg_Magpie_DAP",
 			"rtg_AH1Z_Hawk",
-			"rtg_heavyLift_Cargo",
-			"rtg_heavyLift_Transport",
+			"RTG_Pelican",
+			// Fixed Wing
+			"RTG_Fixed_Wing",
 			// Crates
 			"rtg_BasicSupply",
 			"rtg_atSupply",
@@ -114,4 +116,6 @@ class CfgVehicles
 	#include "Vehicles/pelican.hpp"
 	#include "Vehicles/boats.hpp"
 	#include "Vehicles/crates.hpp"
+	#include "Vehicles/jet.hpp"
+	#include "Vehicles/trucks.hpp"
 };

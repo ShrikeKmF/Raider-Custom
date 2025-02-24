@@ -20,9 +20,9 @@ class rtg_lv_pickup: rhsusf_m998_d_s_2dr_halftop
 
 	// Movement Config
 	simulation = "carx";
-	maxSpeed = 130; // Top speed remains the same
+	maxSpeed = 130;
 	brakeIdleSpeed = 0.87;
-	switchTime = 0.5;
+	switchTime = 0.4;
 	latency = 1.0;
 	changeGearType = "effective";
 	changeGearOmegaRatios[] = {
@@ -38,8 +38,8 @@ class rtg_lv_pickup: rhsusf_m998_d_s_2dr_halftop
 		GearboxRatios[] = {
 			"R1", -2.50, // Increased reverse ratio for better reverse speed
 			"N", 0,
-			"D1", 3.00, // Increased first gear ratio for better acceleration
-			"D2", 1.80, // Adjusted second gear ratio for smoother transition
+			"D1", 3.40, // Increased first gear ratio for better acceleration
+			"D2", 2.10, // Adjusted second gear ratio for smoother transition
 			"D3", 1.20, // Adjusted third gear ratio for a balanced performance
 			"D4", 0.90  // Adjusted fourth gear ratio for high-speed driving
 		};
@@ -72,21 +72,21 @@ class rtg_lv_pickup: rhsusf_m998_d_s_2dr_halftop
 		{__EVAL(3603/3400), __EVAL(0/597)}
 	};      
 
-	enginePower = 700;
-	peakTorque = 800;
+	enginePower = 750;
+	peakTorque = 950;
 	minOmega = 41;
 	maxOmega = 356.05;
 	idleRPM = 700;
 	redRPM = 3600;
 
-	engineLosses = 10;
-	thrustDelay = 0.7;
-	engineBrakeCoef = 0.6;
+	engineLosses = 8;
+	thrustDelay = 0.2;
+	engineBrakeCoef = 0.9;
 
-	antiRollbarForceCoef = 10; // Reduced for less aggressive stabilization
-	antiRollbarForceLimit = 4.0; // Adjusted for improved balance
-	antiRollbarSpeedMin = 5;
-	antiRollbarSpeedMax = 60;
+	antiRollbarForceCoef = 15;
+	antiRollbarForceLimit = 3.0;
+	antiRollbarSpeedMin = 10;
+	antiRollbarSpeedMax = 95;
 
 	accelAidForceYOffset = 0;
 	
@@ -109,8 +109,8 @@ class rtg_lv_pickup: rhsusf_m998_d_s_2dr_halftop
 			maxBrakeTorque = 9800;
 			maxHandBrakeTorque = 0;
 			longitudinalStiffnessPerUnitGravity = 3200;
-			latStiffX = 41.0;
-			latStiffY = 86.0;
+			latStiffX = 75.0;
+			latStiffY = 110.0;
 			frictionVsSlipGraph[] = {{0,0.3},{0.5,1},{0.8,0.7},{1,0.6}};
 		};
 		class LR: LF

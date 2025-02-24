@@ -462,7 +462,7 @@ class CfgAmmo
 		cost = 25;
 		airLock = 1;
 		explosive = 0.3;
-		model = RTG_STANDARD_TRACERS;
+		
 		tracerScale = 1.8;
 		tracerStartTime = 0.1;
 		tracerEndTime = 2;
@@ -475,7 +475,7 @@ class CfgAmmo
 		hit = 82.39158;
 		indirectHit = 24;
 		indirectHitRange = 1;
-		model = RTG_STANDARD_TRACERS;
+		
 		tracerScale = 2;
 		tracerStartTime = 0.1;
 		tracerEndTime = 2.3;
@@ -487,7 +487,7 @@ class CfgAmmo
 
     class rhs_ammo_762x51_M80A1EPR_Ball: rhs_ammo_762x51_M80_Ball
 	{
-        model = RTG_STANDARD_TRACERS;
+        
 		hit = 10.5;
 		caliber = 0.55;
 		airFriction = -0.0007114;
@@ -506,7 +506,7 @@ class CfgAmmo
 
     class rhs_ammo_m1_he : Sh_155mm_AMOS
 	{
-        model = RTG_STANDARD_TRACERS;
+        
 		cost = 100;
 		artilleryLock = 1;
 		hit = 250;
@@ -537,7 +537,7 @@ class CfgAmmo
 	};
 	class rhs_ammo_m314_ilum : SubmunitionBase
 	{
-        model = RTG_STANDARD_TRACERS;
+        
 		hit = 8;
 		indirectHit = 0;
 		indirectHitRange = 0;
@@ -567,7 +567,6 @@ class CfgAmmo
 
 	class rhs_ammo_m60a2_smoke : Smoke_120mm_AMOS_White
 	{
-        model = RTG_STANDARD_TRACERS;
         submunitionAmmo = "aphx_maaws_SMOKE";
 		submunitionConeType[] = {"poissondisc",8};
 		submunitionConeAngle = 35;
@@ -580,6 +579,25 @@ class CfgAmmo
 		CraterEffects = "";
 		whistleDist = 0;
 	};
+
+    class G_40mm_Smoke : SmokeShell
+    {
+        model = "\rhsafrf\addons\rhs_weapons2\vogs\rhs_gdm40";
+		typicalspeed = 30;
+		explosive = 1;
+        hit = 1;
+        indirectHit = 1;
+        indirectHitRange = 2;
+		deflecting = 0;
+		explosionTime = -1;
+		timeToLive = 60;
+		fuseDistance = 0;
+        explosionEffects = "RHS_GDM40Effect";
+		CraterEffects = "";
+		soundHit1[] = { "rhsafrf\addons\rhs_sounds\smoke\GDM40_1.wss", 5, 1, 1500 };
+		soundHit2[] = { "rhsafrf\addons\rhs_sounds\smoke\GDM40_2.wss", 5, 1, 1500 };
+		multiSoundHit[] = { "soundHit1", 0.5, "soundHit2", 0.5 };
+    }
     
 
     //
@@ -606,7 +624,7 @@ class CfgAmmo
 
     class rtg_127x99 : rhsusf_ammo_127x99_M33_Ball {
         hit = 90;
-        model = RTG_STANDARD_TRACERS;
+        
         ACE_bulletMass = 49.2176;
         AB_ballisticCoefficients[] = { 0.692 };
         ACE_muzzleVelocities[] = { 1000, 1200, 1500 };

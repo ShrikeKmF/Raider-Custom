@@ -4,7 +4,7 @@ class rtg_kimUniform_soldier: B_Soldier_F
 {
 	
 	_generalMacro = "B_soldier_F";
-	scope = 1;
+	scope = 2;
 	displayName = "[RTG] Kim (Crye Tan Shirt)";
 	identityTypes[] = {"Head_NATO","G_NATO_default"};
 	genericNames = "NATOMen";

@@ -10,7 +10,7 @@ class rtg_UH60M_DAP_Magpie : RHS_UH60M_ESSS2_D
 	maximumLoad = 20000;
 	ace_cargo_space = 16;
 	helmetMountedDisplay=1;
-	RTG_Vehicle_Gear;
+	RTG_Vehicle_Gear
 	weapons[] =
 	{
 		"rhsusf_weap_ANALQ144",
@@ -97,7 +97,7 @@ class rtg_UH60M_Magpie : RHS_UH60M
 	maximumLoad = 20000;
 	ace_cargo_space = 16;
 	helmetMountedDisplay=1;
-	RTG_Vehicle_Gear;
+	RTG_Vehicle_Gear
 	
 	hiddenSelectionsTextures[]=
 	{

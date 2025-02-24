@@ -11,7 +11,6 @@ class rtg_Magpie : vtx_MH60M
 	maximumLoad = 20000;
 	ace_cargo_space = 16;
 	RTG_Vehicle_Gear
-	RTG_Vehicle_Radios
 }
 
 
@@ -28,5 +27,4 @@ class rtg_Magpie_DAP : vtx_MH60M_DAP
 	maximumLoad = 20000;
 	ace_cargo_space = 16;
 	RTG_Vehicle_Gear
-	RTG_Vehicle_Radios
 }

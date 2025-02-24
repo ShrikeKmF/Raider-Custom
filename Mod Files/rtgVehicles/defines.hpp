@@ -92,29 +92,3 @@ class ace_cargo \
 		}; \
 	}; \
 }
-
-#define RTG_Vehicle_Radios \
-class AcreIntercoms \
-{ \
-	class Intercom_1 \
-	{ \
-		displayName = "Crew Intercom"; \
-		shortName = "Crew"; \
-		allowedPositions[] = {"driver","commander",{"turret","all"}}; \
-		limitedPositions[] = {}; \
-		numLimitedPositions = 0; \
-		masterPositions[] = {"driver"}; \
-		connectedByDefault = 1; \
-	}; \
-}; \
-class AcreRacks \
-{ \
-	class Rack_1 \
-	{ \
-		allowedPositions[] = {"driver","commander",{"turret","all"}}; \
-		componentName = "ACRE_PRC152"; \
-		displayName = "Dash"; \
-		mountedRadio = "ACRE_PRC152"; \
-		shortName = "Dash"; \
-	}; \
-}

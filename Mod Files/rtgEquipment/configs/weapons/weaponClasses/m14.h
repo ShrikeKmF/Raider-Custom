@@ -80,3 +80,13 @@ class ptv_m14tp2_wdl: ptv_m14tp2
     magazines[] = {"rtg_20Rnd_762x51"};
     recoil = "rtg_762n_rifle";
 }
+
+class rtg_m14_fizz : ptv_m14tp
+{
+	RTG_WEAPON_BASE
+	baseWeapon = "rtg_m14_fizz";
+	displayName = "M14 (Fizz)";
+	hiddenSelections[] = {"camo"};
+    hiddenSelectionsTextures[] = {"rtgEquipment\tex\m14_Fizz.paa"};
+	RTG_ACEAX_EMPTY 
+};

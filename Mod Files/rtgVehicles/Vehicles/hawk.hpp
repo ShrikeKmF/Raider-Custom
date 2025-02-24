@@ -11,9 +11,8 @@ class rtg_AH1Z_Hawk : RHS_AH1Z
 	maximumLoad = 20000;
 	ace_cargo_space = 4;
 
-
-
-	RTG_Vehicle_Gear;
+	RTG_Vehicle_Gear
+	
 	lockDetectionSystem = "2 + 8";
 	incomingMissileDetectionSystem = "2 + 16";
 	laserScanner = 1;

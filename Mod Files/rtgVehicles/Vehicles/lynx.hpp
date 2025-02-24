@@ -16,8 +16,7 @@ class rtg_LSV : SRV_TAN
 	canFloat = 0;
 
 	RTG_Vehicle_Gear
-	RTG_Vehicle_Radios
 
 	maxSpeed = 115;
-	enginePower = 310;
+	enginePower = 285;
 };

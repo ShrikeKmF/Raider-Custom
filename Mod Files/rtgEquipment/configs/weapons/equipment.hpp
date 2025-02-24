@@ -2741,6 +2741,53 @@ class samHat : rhsusf_cvc_alt_helmet {
     };
 };
 
+class H_PilotHelmetHeli_B;
+class samPilotHat: H_PilotHelmetHeli_B
+{
+  scope = 2;
+  dlc = "raiderTactical";
+  author = "Shrike";
+  initSpeed = 0;
+  displayName = "Pilot Helmet - Sam";
+  mass = 3.5;
+  hiddenSelectionsTextures[] = {"rtgEquipment\tex\samPilot.paa"};
+  class ItemInfo: ItemInfo
+  {
+    class HitpointsProtectionInfo
+    {
+      class head
+      {
+        HitpointName = "HitHead";
+        armor = 8;
+        PassThrough = 0.3;
+      };
+    };
+  };
+};
+// Beems
+class beemsHat: rhsusf_hgu56p_visor_mask_black
+{
+  scope = 2;
+  dlc = "raiderTactical";
+  author = "Shrike";
+  initSpeed = 0;
+  displayName = "Pilot Helmet - Beems";
+  mass = 3.5;
+  hiddenSelectionsTextures[] = {"rtgEquipment\tex\beemsHGU.paa"};
+  class ItemInfo: ItemInfo
+  {
+    class HitpointsProtectionInfo
+    {
+      class head
+      {
+        HitpointName = "HitHead";
+        armor = 8;
+        PassThrough = 0.3;
+      };
+    };
+  };
+};
+
 // Tex
 class rhsusf_opscore_ut_pelt_nsw_cam;
 class texHat : rhsusf_opscore_ut_pelt_nsw_cam {
@@ -2944,3 +2991,47 @@ class blueHat : vsm_oga_helmet1  {
         };
     };
 };
+
+// Damian
+class DamianHat : rtg_ech_blk {
+    RTG_WEAPON_BASE 
+    displayName="ECH BLK - Damian";
+    mass = 2;
+    hiddenSelectionsTextures[] ={"\rtgEquipment\tex\Damian_equip1_black_co.paa"};
+    class ItemInfo: ItemInfo
+    {
+        class HitpointsProtectionInfo
+        {
+            class head
+            {
+                HitpointName="HitHead";
+                armor=4.7;
+                PassThrough=0.30000001;
+            };
+        };
+    };
+    RTG_ACEAX_EMPTY
+};
+
+// RTG Beret
+class idk;
+class rtg_beret : idk
+{
+  RTG_WEAPON_BASE 
+    displayName="[RTG] Beret";
+    mass = 2;
+    hiddenSelectionsTextures[] ={"\rtgEquipment\tex\rhssaf_beret_red_co_RTG.paa"};
+    class ItemInfo: ItemInfo
+    {
+        class HitpointsProtectionInfo
+        {
+            class head
+            {
+                HitpointName="HitHead";
+                armor=4.7;
+                PassThrough=0.30000001;
+            };
+        };
+    };
+    RTG_ACEAX_EMPTY
+}

@@ -4608,47 +4608,6 @@ class torbsVest : rhsusf_plateframe_medic
     };
 }
 
-// class cjVest :  tactecfullpkpBlack
-// {
-// 	RTG_WEAPON_BASE
-//     displayName = "Tactec - CJ";
-// 	hiddenSelections[] = {"camo","camo6","_gen2bb","_1961apouches","nade","camo2","fartuk","korob"};
-// 	hiddenSelectionsTextures[] = {"\rtgEquipment\tex\cjVest.paa","tactecSSO\tex\gear_fde.paa","tactecSSO\tex\VSM_Gen2_BattleBelt_black.paa","tactecSSO\tex\VSM_LBT_1961a_Black.paa","tactecSSO\tex\grenade_fde.paa","tactecSSO\tex\armorBlack_co.paa","tactecSSO\tex\fartukBlack_co.paa","tactecSSO\tex\vest1_black.paa"};
-//     armor = 10;
-// 		class ItemInfo: ItemInfo
-//     {
-// 		containerClass = "Supply180";
-//         class HitpointsProtectionInfo
-// 		{
-// 			class Chest
-// 			{
-// 				HitpointName = "HitChest";
-// 				armor = 10;
-// 				PassThrough = 0.3;
-// 			};
-// 			class Diaphragm
-// 			{
-// 				HitpointName = "HitDiaphragm";
-// 				armor = 10;
-// 				PassThrough = 0.3;
-// 			};
-// 			class Abdomen
-// 			{
-// 				hitpointName = "HitAbdomen";
-// 				armor = 10;
-// 				passThrough = 0.3;
-// 			};
-// 			class Body
-// 			{
-// 				hitpointName = "HitBody";
-// 				passThrough = 0.3;
-// 			};
-// 		};
-//     };
-// 	RTG_ACEAX_EMPTY 
-// };
-
-
 // AVS Classes
 	// Assualter
 	class Crye_AVS_1_GRY;

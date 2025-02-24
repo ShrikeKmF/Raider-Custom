@@ -144,6 +144,6 @@ class raider_bushmaster_unarmed: bma3_bushmaster_unarmed_F
 			factions[] = {"Raider_Tactical_F"};
 		};
 	};
-	RTG_Vehicle_Gear;
-	RTG_Vehicle_Radios;
+	RTG_Vehicle_Gear
+	
 };

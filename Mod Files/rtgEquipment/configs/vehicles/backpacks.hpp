@@ -632,7 +632,7 @@ class fizzAlpineCarryAll: rtg_Alpine_Carryall
     maximumLoad = 350;
     tf_hasLRradio = 0;
     mass = 50;
-    displayName = "Carryall Alpine - Fizz";
+    displayName = "Carryall (Alpine) - Fizz";
     hiddenSelectionsTextures[] = {"rtgEquipment\tex\Alpine_carryall_Fizz.paa"};
     class XtdGearInfo
     {
@@ -647,7 +647,7 @@ class fizzBlackCarryAll: rtg_Alpine_Carryall
     maximumLoad = 350;
     tf_hasLRradio = 0;
     mass = 50;
-    displayName = "Carryall Black - Fizz";
+    displayName = "Carryall (Black) - Fizz";
     hiddenSelectionsTextures[] = {"rtgEquipment\tex\Multicam_Black_carryall_Fizz.paa"};
     class XtdGearInfo
     {
@@ -687,6 +687,40 @@ class fizzBlackRadioCarryAll: rtg_Alpine_Carryall
     mass = 50;
     displayName = "Carryall (Radio/Black) - Fizz";
     hiddenSelectionsTextures[] = {"rtgEquipment\tex\Multicam_Black_carryall_Fizz.paa"};
+    class XtdGearInfo
+    {
+        model = "";
+    };
+};
+class fizzTanCarryAll: rtg_Alpine_Carryall
+{
+    scope = 2;
+    dlc = "raiderTactical";
+    author = "Shrike";
+    maximumLoad = 350;
+    tf_hasLRradio = 0;
+    mass = 50;
+    displayName = "Carryall (Tan) - Fizz";
+    hiddenSelectionsTextures[] = {"rtgEquipment\tex\Tan_carryall_Fizz.paa"};
+    class XtdGearInfo
+    {
+        model = "";
+    };
+};
+class fizzTaneRadioCarryAll: rtg_Alpine_Carryall
+{
+    scope = 2;
+    dlc = "raiderTactical";
+    author = "Shrike";
+    maximumLoad = 120;
+    tf_hasLRradio = 1;
+    tf_encryptionCode = "tf_west_radio_code";
+    tf_dialog = "rt1523g_radio_dialog";
+    tf_subtype = "digital_lr";
+    tf_range = 20000;
+    mass = 50;
+    displayName = "Carryall (Radio/Tan) - Fizz";
+    hiddenSelectionsTextures[] = {"rtgEquipment\tex\Tan_carryall_Fizz.paa"};
     class XtdGearInfo
     {
         model = "";

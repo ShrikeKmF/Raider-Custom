@@ -114,6 +114,45 @@ class rtg_sal_Launcher : launch_MRAWS_olive_rail_F
 		};
 };
 
+class rtg_torbs_Launcher : launch_MRAWS_olive_rail_F
+{
+	RTG_WEAPON_BASE
+	
+	displayName = "M3 MAAWS (Black/Torbs)";
+	baseWeapon = "rtg_torbs_Launcher";
+	magazineWell[] = {"CBA_Carl_Gustaf"};
+	magazines[] = {"rtg_MRAWS_HEAT_F"};
+	ace_reloadlaunchers_enabled = 1;
+	hiddenSelectionsTextures[] = {"rtgEquipment\tex\Torbs_MAAWS.paa","\A3\Weapons_F_Tank\Launchers\MRAWS\Data\launch_MRAWS_rail_02_F_co"};
+	class OpticsModes
+		{
+			class optic
+			{
+				opticsID=1;
+				useModelOptics=1;
+				opticsZoomMin=0.087499999;
+				opticsZoomMax=0.087499999;
+				opticsZoomInit=0.087499999;
+				distanceZoomMin=300;
+				distanceZoomMax=300;
+				memoryPointCamera="eye";
+				opticsFlare=1;
+				opticsDisablePeripherialVision=1;
+				cameraDir="look";
+				visionMode[]=
+				{
+					"Normal",
+					"NVG"
+				};
+				opticsPPEffects[]=
+				{
+					"OpticsCHAbera1",
+					"OpticsBlur1"
+				};
+			};
+		};
+};
+
 class launch_Titan_short_base;
 class launch_I_Titan_short_F : launch_Titan_short_base
 {
