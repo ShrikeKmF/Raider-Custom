@@ -9,7 +9,6 @@ class CfgPatches
 		requiredAddons[] = {"a3_characters_F","a3_characters_F_beta","A3_Characters_F_Common","a3_characters_f_beta","a3_characters_f_gamma","A3_Soft_F_epc","bma3_bushmaster","rhsusf_c_weapons"};
 		units[] = {
 			// Boats
-			"raider_heavy_attack_boat",
 			"raider_fast_rhib",
 			// Cars
 			"rtg_LSV",
@@ -101,11 +100,12 @@ class CfgVehicles
 	class ViewOptics;
 	class SensorTemplateIR;
 	class SensorTemplateVisual;
-	class SensorTemplateActiveRadar;
-	class SensorTemplatePassiveRadar;
 	class SensorTemplateLaser;
 	class SensorTemplateNV;
 	class AnimationSources;
+	class DefaultVehicleSystemsDisplayManagerLeft;
+	class DefaultVehicleSystemsDisplayManagerRight;
+	class Eventhandlers;
 
 	// Include Vehicle Files
 	#include "Vehicles/lynx.hpp"
@@ -119,3 +119,18 @@ class CfgVehicles
 	#include "Vehicles/jet.hpp"
 	#include "Vehicles/trucks.hpp"
 };
+
+class cfgMagazines
+{
+	#include "Weapons/air_magazines.hpp"
+}
+
+class CfgMagazineWells
+{
+	#include "Weapons/air_magwells.hpp"
+};
+
+class CfgWeapons
+{
+	#include "Weapons/air_weapons.hpp"
+}

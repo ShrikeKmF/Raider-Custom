@@ -1,5 +1,5 @@
 class RHS_UH60M_ESSS2_D;
-class rtg_UH60M_DAP_Magpie : RHS_UH60M_ESSS2_D
+class rtg_Magpie_DAP : RHS_UH60M_ESSS2_D
 {
 	displayName = "Magpie DAP (2/14)";
 	editorSubcategory = "RTGHelicopters";
@@ -57,7 +57,7 @@ class rtg_UH60M_DAP_Magpie : RHS_UH60M_ESSS2_D
 			{
 				class pylon1
 				{
-					hardpoints[]		= {"RHS_HP_HELLFIRE_RACK","RHS_HP_FFAR_ARMY","RHS_HP_Fuel_ARMY","RHS_HP_ATAS"};
+					hardpoints[]		= {"RTG_HELI_Pylons"};
 					priority			= 1;
 					attachment			= "";
 					maxweight			= 1200;
@@ -86,7 +86,7 @@ class rtg_UH60M_DAP_Magpie : RHS_UH60M_ESSS2_D
 };
 
 class RHS_UH60M;
-class rtg_UH60M_Magpie : RHS_UH60M
+class rtg_Magpie : RHS_UH60M
 {
 	displayName = "Magpie (2/14)";
 	editorSubcategory = "RTGHelicopters";

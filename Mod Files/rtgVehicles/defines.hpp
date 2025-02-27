@@ -91,4 +91,7 @@ class ace_cargo \
 			amount = 4; \
 		}; \
 	}; \
-}
+} \
+reportOwnPosition = true; \
+receiveRemoteTargets = true; \
+reportRemoteTargets = true; \
