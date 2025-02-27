@@ -157,14 +157,6 @@ class CfgWeapons {
         }; 
     };
 
-    class kat_PainkillerItem: ACE_ItemCore {
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "Pain Killers";
-        descriptionShort = "Weakest pain reduction";
-        author = "Shrike";
-    };
-
     class kat_PervitinItem: ACE_ItemCore {
         scope = 2;
         scopeCurator = 2;
@@ -176,18 +168,8 @@ class CfgWeapons {
 
 class CfgMagazines {
     class CA_Magazine;
-    class kat_Painkiller: CA_Magazine {
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "Pain Killers";
-        descriptionShort = "Weakest pain reduction";
-        author = "Shrike";
-        count = 5;
-        mass = 1;
-    };
-
     class kat_Pervitin: CA_Magazine {
-        scope = 2;
+        scope = 1;
         scopeCurator = 2;
         displayName = "Super Serum";
         descriptionShort = "Stamina Boost and Sway Reduction";

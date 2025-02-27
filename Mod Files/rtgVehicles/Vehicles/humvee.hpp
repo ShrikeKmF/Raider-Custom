@@ -20,75 +20,16 @@ class rtg_lv_pickup: rhsusf_m998_d_s_2dr_halftop
 
 	// Movement Config
 	simulation = "carx";
-	maxSpeed = 130;
-	brakeIdleSpeed = 0.87;
-	switchTime = 0.4;
-	latency = 1.0;
-	changeGearType = "effective";
-	changeGearOmegaRatios[] = {
-		__EVAL(3400/3400), __EVAL(1000/3400),
-		__EVAL(700/3400), __EVAL(500/3400),
-		__EVAL(3150/3400), __EVAL(1600/3400),
-		__EVAL(2600/3400), __EVAL(1200/3400),
-		__EVAL(2900/3400), __EVAL(1700/3400),
-		__EVAL(3400/3400), __EVAL(2200/3400)
-	};      
-	class complexGearbox
-	{
-		GearboxRatios[] = {
-			"R1", -2.50, // Increased reverse ratio for better reverse speed
-			"N", 0,
-			"D1", 3.40, // Increased first gear ratio for better acceleration
-			"D2", 2.10, // Adjusted second gear ratio for smoother transition
-			"D3", 1.20, // Adjusted third gear ratio for a balanced performance
-			"D4", 0.90  // Adjusted fourth gear ratio for high-speed driving
-		};
-		TransmissionRatios[] = {"High", 6.5}; // Increased to improve high-speed performance
-		gearBoxMode = "manual"; // Changed to manual for direct control
-		moveOffGear = 1;
-		driveString = "D";
-		neutralString = "N";
-		reverseString = "R";
-	};
+	maxSpeed = 130; 
 
 	differentialType = "all_limited";
 	frontRearSplit = 0.55;
 	frontBias = 2.5;
 	rearBias = 2.0;
 	centreBias = 1.6;
-	clutchStrength = 85;
-	transmissionLosses = 15;
-	dampingRateFullThrottle = 0.12;
-	dampingRateZeroThrottleClutchEngaged = 2.5;
-	dampingRateZeroThrottleClutchDisengaged = 0.40;
-	torqueCurve[] = {
-		{__EVAL(650/3400), __EVAL(470/597)},
-		{__EVAL(1000/3400), __EVAL(550/597)},
-		{__EVAL(1400/3400), __EVAL(610/597)},
-		{__EVAL(1800/3400), __EVAL(620/597)},
-		{__EVAL(2400/3400), __EVAL(580/597)},
-		{__EVAL(2600/3400), __EVAL(500/597)},
-		{__EVAL(3200/3400), __EVAL(450/597)},
-		{__EVAL(3603/3400), __EVAL(0/597)}
-	};      
 
 	enginePower = 750;
 	peakTorque = 950;
-	minOmega = 41;
-	maxOmega = 356.05;
-	idleRPM = 700;
-	redRPM = 3600;
-
-	engineLosses = 8;
-	thrustDelay = 0.2;
-	engineBrakeCoef = 0.9;
-
-	antiRollbarForceCoef = 15;
-	antiRollbarForceLimit = 3.0;
-	antiRollbarSpeedMin = 10;
-	antiRollbarSpeedMax = 95;
-
-	accelAidForceYOffset = 0;
 	
 	// Wheels
 	class Wheels

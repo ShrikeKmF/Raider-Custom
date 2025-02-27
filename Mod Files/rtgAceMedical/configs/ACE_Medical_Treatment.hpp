@@ -578,7 +578,7 @@ class ace_medical_treatment {
             hrIncreaseHigh[] = {-10, -35};
             timeInSystem = 1800;
             timeTillMaxEffect = 30;
-            maxDose = 4;
+            maxDose = 3;
             incompatibleMedication[] = {};
             viscosityChange = -10;
         };
@@ -589,7 +589,7 @@ class ace_medical_treatment {
             hrIncreaseHigh[] = {10, 40};
             timeInSystem = 120;
             timeTillMaxEffect = 10;
-            maxDose = 10;
+            maxDose = 6;
             incompatibleMedication[] = {};
         };
         class Adenosine {
@@ -599,14 +599,14 @@ class ace_medical_treatment {
             hrIncreaseHigh[] = {-15, -35};
             timeInSystem = 120;
             timeTillMaxEffect = 15;
-            maxDose = 6;
+            maxDose = 5;
             incompatibleMedication[] = {};
         };
         class PainKillers {
             painReduce = 0.1;
             timeInSystem = 600;
             timeTillMaxEffect = 60;
-            maxDose = 10;
+            maxDose = 8;
             incompatibleMedication[] = {};
             viscosityChange = 5;
         };
@@ -629,7 +629,7 @@ class ace_medical_treatment {
             hrIncreaseHigh[] = {15, 25};
             timeInSystem = 600;
             timeTillMaxEffect = 5;
-            maxDose = 4;
+            maxDose = 3;
             incompatibleMedication[] = {};
             viscosityChange = 5;
         };

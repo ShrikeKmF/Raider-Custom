@@ -110,7 +110,7 @@ class CfgVehicles
 	// Include Vehicle Files
 	#include "Vehicles/lynx.hpp"
 	#include "Vehicles/bushmaster.hpp"
-	#include "Vehicles/hatchet.hpp"
+	#include "Vehicles/magpie.hpp"
 	#include "Vehicles/humvee.hpp"
 	#include "Vehicles/hawk.hpp"
 	#include "Vehicles/pelican.hpp"
