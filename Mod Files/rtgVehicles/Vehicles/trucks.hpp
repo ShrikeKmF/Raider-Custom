@@ -1,7 +1,7 @@
 class rhsusf_M1084A1R_SOV_M2_D_fmtv_socom;
 class rtg_cargo_truck : rhsusf_M1084A1R_SOV_M2_D_fmtv_socom
 {
-	displayName = "HTT [2/1]";
+	displayName = "Heavy Cargo Transport [2/1]";
 	editorSubcategory = "RTGCars";
 	author = "Shrike";
 	scope = 2;

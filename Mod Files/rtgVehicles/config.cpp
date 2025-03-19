@@ -15,6 +15,7 @@ class CfgPatches
 			"raider_bushmaster_unarmed",
 			"rtg_lv_pickup",
 			"rtg_cargo_truck",
+			"raider_transport",
 			// Heli
 			"rtg_Magpie",
 			"rtg_Magpie_DAP",
@@ -110,6 +111,7 @@ class CfgVehicles
 	// Include Vehicle Files
 	#include "Vehicles/lynx.hpp"
 	#include "Vehicles/bushmaster.hpp"
+	#include "Vehicles/Bus.hpp"
 	#include "Vehicles/magpie.hpp"
 	#include "Vehicles/humvee.hpp"
 	#include "Vehicles/hawk.hpp"

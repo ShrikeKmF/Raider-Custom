@@ -3013,9 +3013,30 @@ class DamianHat : rtg_ech_blk {
     RTG_ACEAX_EMPTY
 };
 
+// Kim
+class KimHat : rtg_ech_blk {
+    RTG_WEAPON_BASE 
+    displayName="ECH - Kim";
+    mass = 2;
+    hiddenSelectionsTextures[] ={"\rtgEquipment\tex\kim_ech.paa"};
+    class ItemInfo: ItemInfo
+    {
+        class HitpointsProtectionInfo
+        {
+            class head
+            {
+                HitpointName="HitHead";
+                armor=4.7;
+                PassThrough=0.30000001;
+            };
+        };
+    };
+    RTG_ACEAX_EMPTY
+};
+
 // RTG Beret
-class idk;
-class rtg_beret : idk
+class rhssaf_beret_red;
+class rtg_beret : rhssaf_beret_red
 {
   RTG_WEAPON_BASE 
     displayName="[RTG] Beret";

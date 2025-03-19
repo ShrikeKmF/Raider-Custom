@@ -726,6 +726,25 @@ class fizzTaneRadioCarryAll: rtg_Alpine_Carryall
         model = "";
     };
 };
+
+// Kim 
+class kim_carryall: rtg_Alpine_Carryall
+{
+    scope = 2;
+    dlc = "raiderTactical";
+    author = "Shrike";
+    maximumLoad = 350;
+    tf_hasLRradio = 0;
+    mass = 50;
+    displayName = "Carryall - Kim";
+    hiddenSelectionsTextures[] = {"rtgEquipment\tex\kim_carryall.paa"};
+    class XtdGearInfo
+    {
+        model = "";
+    };
+};
+
+
 // Phoebe
 class patsBackpack: B_Kitbag_rgr
 {

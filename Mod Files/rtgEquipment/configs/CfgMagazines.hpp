@@ -64,48 +64,28 @@ class CfgMagazines
     };
 
 // Artillery
-    class 32Rnd_155mm_Mo_shells;
-	class RHS_mag_m1_he_12: 32Rnd_155mm_Mo_shells
-	{
-		scope = 2;
-		count = 12;
-		displayname = "HE-FRAG M1";
-		displaynameshort = "HE-FRAG";
-		nameSound = "heat";
-		ammo = "rhs_ammo_m1_he";
-		muzzleImpulseFactor[] = {0.1,0.1};
-	};
-	class rhs_mag_m314_ilum_4: RHS_mag_m1_he_12
-	{
-		count = 4;
-		displayname = "Illumination M314";
-		displaynameshort = "Illumination";
-		ammo = "rhs_ammo_m314_ilum";
-	};
-    class rhs_mag_m60a2_smoke_4: RHS_mag_m1_he_12
-	{
-		count = 4;
-		displayname = "Smoke M60A2";
-		displaynameshort = "Smoke";
-		ammo = "rhs_ammo_m60a2_smoke";
-	};
+
+// GL
+    class rhs_GDM40;
+    class RTG_40mm_Smoke_Impact : rhs_GDM40
+    {
+        scope = 2;
+        displayname = "[RTG] M715 Impact Smoke";
+        displaynameshort = "Impact Smoke";
+        ammo="rtg_40mm_impact";
+    };
 
 // References
     class ptv_30Rnd_556x45_L5awmc_pull;
 	class ACE_20Rnd_762x51_M118LR_Mag;
 	class rhsusf_50Rnd_762x51;
-	class hlc_30Rnd_545x39_EP_ak_Black;
-	class rhs_60Rnd_545X39_7N22_AK;
 	class rhsusf_200Rnd_556x45_M855_soft_pouch_coyote;
 	class rhs_mag_100Rnd_556x45_m855_cmag;
 	class rhsusf_200Rnd_556x45_M855_soft_pouch_ucp;
 	class ACWP_19Rnd_9x21_Mag_glock;
     class hlc_30Rnd_762x51_B_L4;
     class rhs_mag_20Rnd_556x45_M855_Stanag;
-    class 30Rnd_580x42_Mag_F;
-    class 100Rnd_580x42_Mag_F;
     class rhsusf_mag_10Rnd_STD_50BMG_M33;
-    class 100Rnd_65x39_caseless_black_mag;
     
 // 50 BMG 
     class rtg_10Rnd_127x99 : rhsusf_mag_10Rnd_STD_50BMG_M33 {
@@ -618,9 +598,9 @@ class CfgMagazines
     class rhs_mag_1100Rnd_762x51_M240: VehicleMagazine
 	{
 		scope			= 2;
-		ammo			= "rhs_ammo_762x51_M80A1EPR_Ball";
-		displayname		= "7.62x51mm EPR";
-		displaynameshort= "M80A1 EPR";
+		ammo			= "rtg_762_nato";
+		displayname		= "7.62x51mm";
+		displaynameshort= "[RTG] 762x51";
 		namesound		= "mgun";
 		initspeed		= 930;
 		maxleadspeed	= 100;

@@ -367,6 +367,18 @@ class CfgAmmo
         ACE_muzzleVelocities[] = {260, 300, 340};
     }
 
+    // 40mm
+    // GL ammo
+    class rhs_g_gdm40;
+    class rtg_40mm_impact : rhs_g_gdm40
+    {
+        hit = 0;
+        indirectHit = 0;
+		indirectHitRange = 0;
+        ypicalSpeed = 80;
+        ACE_muzzleVelocities[] = {80, 80, 80};
+    };
+
     //
     // Rocket Ammo Types
     //
@@ -493,111 +505,6 @@ class CfgAmmo
 		airFriction = -0.0007114;
 		typicalSpeed = 930;
 	};
-
-    //
-    // Artillery Ammo
-    //
-	class aphx_maaws_SMOKE: SmokeShellArty
-	{
-		model = "";
-		timeToLive = 120;
-		deflectionSlowDown = 0;
-	};
-
-    class rhs_ammo_m1_he : Sh_155mm_AMOS
-	{
-        
-		cost = 100;
-		artilleryLock = 1;
-		hit = 250;
-		indirectHit = 170;
-		indirectHitRange = 38;
-		timetolive = 220;
-		class CamShakeExplode
-		{
-			power = "(105*0.2)*10";
-			duration = "((round (105^0.5))*0.2 max 0.2)";
-			frequency = 20;
-			distance = "((30 + 105^0.5))";
-		};
-		class CamShakeHit
-		{
-			power = 105 * 10;
-			duration = "((round (105^0.25))*0.2 max 0.2)";
-			frequency = 20;
-			distance = 1;
-		};
-		class CamShakeFire
-		{
-			power = "(105^0.25)*10";
-			duration = "((round (105^0.5))*0.2 max 0.2)";
-			frequency = 20;
-			distance = "((105^0.5))";
-		};
-	};
-	class rhs_ammo_m314_ilum : SubmunitionBase
-	{
-        
-		hit = 8;
-		indirectHit = 0;
-		indirectHitRange = 0;
-		explosive = 0;
-		ExplosionEffects = "";
-		soundHit[] = { "", 0, 1 };
-		CraterEffects = "";
-		whistleDist = 0;
-		timeToLive = 100;
-		aimAboveTarget[] = {300, 360, 400, 500, 640, 720, 800};
-		aimAboveDefault = 3;
-
-		submunitionAmmo[] = {"rhs_ammo_flare_m314",1};
-	};
-	class rhs_ammo_flare_M314: F_40mm_White
-	{
-		triggerTime					= 0;
-		model						= "rhsusf\addons\rhsusf_airweapons\submunitions\rhsusf_r_m257_drogue";
-		brightness					= 4000;
-		lightColor[]				= {100, 100, 100, 100};
-		timeToLive					= 240;
-		intensity					= 40000;
-		flareSize					= 90;
-		flareMaxDistance			= 3000;
-		affectedByWind				= 1;
-	};
-
-	class rhs_ammo_m60a2_smoke : Smoke_120mm_AMOS_White
-	{
-        submunitionAmmo = "aphx_maaws_SMOKE";
-		submunitionConeType[] = {"poissondisc",8};
-		submunitionConeAngle = 35;
-		hit = 8;
-		indirectHit = 0;
-		indirectHitRange = 0;
-		explosive = 0.1;
-		ExplosionEffects = "";
-		soundHit[] = { "", 0, 1 };
-		CraterEffects = "";
-		whistleDist = 0;
-	};
-
-    class G_40mm_Smoke : SmokeShell
-    {
-        model = "\rhsafrf\addons\rhs_weapons2\vogs\rhs_gdm40";
-		typicalspeed = 30;
-		explosive = 1;
-        hit = 1;
-        indirectHit = 1;
-        indirectHitRange = 2;
-		deflecting = 0;
-		explosionTime = -1;
-		timeToLive = 60;
-		fuseDistance = 0;
-        explosionEffects = "RHS_GDM40Effect";
-		CraterEffects = "";
-		soundHit1[] = { "rhsafrf\addons\rhs_sounds\smoke\GDM40_1.wss", 5, 1, 1500 };
-		soundHit2[] = { "rhsafrf\addons\rhs_sounds\smoke\GDM40_2.wss", 5, 1, 1500 };
-		multiSoundHit[] = { "soundHit1", 0.5, "soundHit2", 0.5 };
-    }
     
 
     //

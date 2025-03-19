@@ -9,14 +9,6 @@ class CfgMagazineWells
 		};
     };
 
-	class smokeGrenade  // Helicopter
-    {
-        RTG_Magazines[] =
-		{
-			"rtg_greensmoke";
-		};
-    }
-
 	class CBA_Carl_Gustaf // MRAWS
 	{
 		RTG_Magazines[] =
@@ -199,4 +191,19 @@ class CfgMagazineWells
             "rtg_8Rnd_762x51";
         };
 	}
+
+	class UGL_40x36
+	{
+		RHS_Magazines[] =
+		{
+			"RTG_40mm_Smoke_Impact";
+		};
+	};
+	class CBA_40mm_M203
+	{
+		RHS_Magazines[] =
+		{
+			"RTG_40mm_Smoke_Impact";
+		};
+	};
 };

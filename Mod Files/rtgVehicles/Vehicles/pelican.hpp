@@ -9,6 +9,7 @@ class RTG_Pelican: TF373_SOAR_MH47G
 	faction = "Raider_Tactical_F";
 	maximumLoad = 40000;
 	ace_cargo_space = 40;
+	ace_vehicles_engineStartDelay = 3;
 
 	RTG_Vehicle_Gear
 
