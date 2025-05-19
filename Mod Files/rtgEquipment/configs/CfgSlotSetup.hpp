@@ -17,6 +17,7 @@ class asdg_OpticRail1913 : asdg_OpticRail {
         optic_ico_01_black_f = 1;
         optic_ico_01_camo_f = 1;
         optic_ico_01_sand_f = 1;
+        rtg_optic_C79 = 1;
     };
 };
 class asdg_MuzzleSlot;

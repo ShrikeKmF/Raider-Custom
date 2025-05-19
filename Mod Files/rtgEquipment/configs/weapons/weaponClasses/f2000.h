@@ -11,7 +11,8 @@ class rtg_f2000_tan : arifle_Mk20_plain_F
     
     displayName = "F2000 Tan";
     modes[] = {"Single","FullAuto"};
-    recoil = "rtg_556_rifle";
+    RTG_RECOIL(f2000)
+    RTG_WEAPON_HANDLING(2.1)
     class Single: Single
     {
         sounds[] = {"StandardSound","SilencedSound"};
@@ -63,7 +64,8 @@ class rtg_f2000_camo : arifle_Mk20_F {
     
     displayName = "F2000 Camo";
     modes[] = {"Single","FullAuto"};
-    recoil = "rtg_556_rifle";
+    RTG_RECOIL(f2000)
+    RTG_WEAPON_HANDLING(2.1)
     class Single: Single
     {
         sounds[] = {"StandardSound","SilencedSound"};
@@ -115,7 +117,8 @@ class rtg_f2000C_tan : arifle_Mk20C_plain_F {
     
     displayName = "F2000 Carbine Tan";
     modes[] = {"Single","FullAuto"};
-    recoil = "rtg_556_carbine";
+    RTG_RECOIL(f2000c)
+    RTG_WEAPON_HANDLING(2)
     class Single: Single
     {
         sounds[] = {"StandardSound","SilencedSound"};
@@ -167,7 +170,8 @@ class rtg_f2000C_camo : arifle_Mk20C_F {
     
     displayName = "F2000 Carbine Camo";
     modes[] = {"Single","FullAuto"};
-    recoil = "rtg_556_carbine";
+    RTG_RECOIL(f2000c)
+    RTG_WEAPON_HANDLING(2)
     class Single: Single
     {
         sounds[] = {"StandardSound","SilencedSound"};

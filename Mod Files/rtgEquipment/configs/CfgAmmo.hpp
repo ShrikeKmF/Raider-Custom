@@ -20,6 +20,7 @@ class CfgAmmo
     class RH_357mag_ball;
     class RH_44mag_ball;
     class rhs_ammo_12g_FRAG;
+    class rhs_ammo_12g_slug;
     class rhs_ammo_12g_00buckshot_pellet;
     class rhs_ammo_12g_00buckshot;
     class B_570x28_Ball;
@@ -271,28 +272,25 @@ class CfgAmmo
     //
     // Shotgun Ammo Types
     //
+    // 12g
+    // Shotgun ammo
+    // Non Explosive
+    class rtg_slug : rhs_ammo_12g_slug
+    {
+        hit = 40;
+        typicalSpeed = 480;
+        ACE_muzzleVelocities[] = {260, 300, 340};
+    };
+
 
     // 12g
     // Shotgun ammo
     // Explosive
-    class rtg_doomrounds : rhs_ammo_12g_FRAG
-	{
-		hit = 19;
-		indirectHit = 2;
-		indirectHitRange = 0.5;
-        typicalSpeed = 450;
-        caliber = 1.037;
-        ACE_muzzleVelocities[] = {220, 280, 320};
-	};
-
-    // 12g
-    // Shotgun ammo
-    // Explosive
-    class rtg_doomrounds_pump : rtg_doomrounds
+    class rtg_doomrounds : rhs_ammo_12g_frag
 	{
 		hit = 28;
-		indirectHit = 6;
-		indirectHitRange = 1;
+		indirectHit = 8;
+		indirectHitRange = 3.1;
         typicalSpeed = 480;
         ACE_muzzleVelocities[] = {260, 300, 340};
 	};
@@ -301,7 +299,7 @@ class CfgAmmo
     // Shotgun Sub ammo
     // Non Explosive
     class rtg_buckshot_sub : rhs_ammo_12g_00buckshot_pellet {
-        hit = 8;
+        hit = 8.5;
         typicalSpeed = 483.86;
         indirectHit = 0;
 		indirectHitRange = 0;
@@ -312,7 +310,7 @@ class CfgAmmo
     // Shotgun ammo
     // Non Explosive
     class rtg_buckshot : rhs_ammo_12g_00buckshot {
-        hit = 22;
+        hit = 1;
         submunitionAmmo			= rtg_buckshot_sub;
         submunitionConeType[] = {"poissondisc", 9};
         submunitionConeAngle	= 0.98;
@@ -320,33 +318,10 @@ class CfgAmmo
         ACE_muzzleVelocities[] = {220, 280, 320};
     };
 
-    // 12g
-    // Shotgun Sub ammo
-    // Non Explosive
-    class rtg_buckshot_sub_pump : rtg_buckshot_sub {
-        hit = 17;
-        typicalSpeed = 500.86;
-        indirectHit = 0;
-		indirectHitRange = 0;
-        ACE_muzzleVelocities[] = {260, 300, 340};
-    };
-
-    // 12g
-    // Shotgun ammo
-    // Non Explosive
-    class rtg_buckshot_pump : rtg_buckshot {
-        hit = 40;
-        submunitionAmmo			= rtg_buckshot_sub_pump;
-        submunitionConeType[] = {"poissondisc", 9};
-        submunitionConeAngle	= 0.99;
-        typicalSpeed = 450;
-        ACE_muzzleVelocities[] = {260, 300, 340};
-    };
-
     // 14g
     // Shotgun Sub ammo
     // Non Explosive
-    class rtg_buckshot_sub_14g : rtg_buckshot_sub_pump {
+    class rtg_buckshot_sub_14g : rtg_buckshot_sub {
         hit = 14;
         typicalSpeed = 500.86;
         indirectHit = 0;
@@ -357,7 +332,7 @@ class CfgAmmo
     // 14g
     // Shotgun ammo
     // Non Explosive
-    class rtg_buckshot_pump_14g : rtg_buckshot_pump
+    class rtg_buckshot_pump_14g : rtg_buckshot
     {
         hit = 35;
         submunitionAmmo			= rtg_buckshot_sub_14g;
@@ -452,12 +427,78 @@ class CfgAmmo
         simulation = "shotRocket";
     };
 
-    class rtg_rpg_hedp : rhs_rpg7v2_og7v
+    // LAT
+    class rhs_ammo_m72a7_rocket;
+    class rtg_lat : rhs_ammo_m72a7_rocket
     {
-        hit = 90;
-        indirectHit = 45;
-		indirectHitRange = 9;
+        submunitionAmmo = "rtg_lat_penetrator";
+		submunitionDirectionType = "SubmunitionModelDirection";
+		submunitionInitialOffset[] = {0,0,-0.1};
+		submunitionParentSpeedCoef = 0;
+		submunitionInitSpeed = 1053;
+        InitSpeed = 320;
+		triggerOnImpact = 1;
+		deleteParentWhenTriggered = 0;
+		hit = 60;
+		indirectHit = 19;
+		indirectHitRange = 6.1;
+		cost = 190;
+		explosive = 0.65;
     };
+    class rhs_ammo_M136_penetrator;
+    class rtg_lat_penetrator: rhs_ammo_M136_penetrator
+	{
+		hit = 60;
+		caliber = 6.6;
+	};
+
+    // MAT
+    class rtg_mat : rtg_lat
+    {
+        submunitionAmmo = "rtg_mat_penetrator";
+		submunitionDirectionType = "SubmunitionModelDirection";
+		submunitionInitialOffset[] = {0,0,-0.1};
+		submunitionParentSpeedCoef = 0;
+		submunitionInitSpeed = 1053;
+		triggerOnImpact = 1;
+        InitSpeed = 280;
+		deleteParentWhenTriggered = 0;
+		hit = 310;
+		indirectHit = 31;
+		indirectHitRange = 6.1;
+		cost = 210;
+		explosive = 0.65;
+    };
+    class rtg_mat_penetrator: rtg_lat_penetrator
+	{
+		hit = 310;
+		caliber = 8.8;
+	};
+
+    // ER
+    class rtg_mat_er : rtg_lat
+    {
+        submunitionAmmo = "rtg_mat_er_penetrator";
+		submunitionDirectionType = "SubmunitionModelDirection";
+		submunitionInitialOffset[] = {0,0,-0.1};
+		submunitionParentSpeedCoef = 0;
+		submunitionInitSpeed = 1500;
+        InitSpeed = 400;
+		triggerOnImpact = 1;
+		deleteParentWhenTriggered = 0;
+		hit = 105;
+		indirectHit = 31;
+		indirectHitRange = 6.1;
+		cost = 210;
+		explosive = 0.65;
+    };
+    class rtg_mat_er_penetrator: rtg_lat_penetrator
+	{
+		hit = 105;
+		caliber = 8.8;
+	};
+
+    
 
     // 
     // Vehicle ammo Types

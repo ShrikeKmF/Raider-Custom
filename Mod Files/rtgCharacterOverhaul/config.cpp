@@ -65,17 +65,31 @@ class CfgMovesFatigue {
 	terrainSpeedCoef = 0.9;
 };
 
+/*
+Base A3
+class CfgMovesFatigue
+{
+	staminaDuration = 60;
+	staminaCooldown = 10;
+	staminaRestoration = 30;
+	aimPrecisionSpeedCoef = 5;
+	terrainDrainSprint = -1;
+	terrainDrainRun = -1;
+	terrainSpeedCoef = 0.9;
+};
+*/
+
 class CfgImprecision
 {
 	class Primary
 	{
-		verticalRadius = 0.5; //0.5
-		horizontalRadius = 0.1; //0.1
+		verticalRadius = 0.4; //0.5
+		horizontalRadius = 0.075; //0.1
 	};
 	class Secondary
 	{
-		verticalRadius = 0.5; //0.5
-		horizontalRadius = 0.1; //0.1
+		verticalRadius = 0.4; //0.5
+		horizontalRadius = 0.075; //0.1
 	};
 };
 

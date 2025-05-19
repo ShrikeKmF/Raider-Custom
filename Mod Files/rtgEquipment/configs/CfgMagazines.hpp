@@ -63,6 +63,29 @@ class CfgMagazines
         mass = 40;
     };
 
+    class rhs_m136_mag;
+    class rtg_m136_mag : rhs_m136_mag
+	{
+		ammo = "rtg_mat";
+        scope = 2;
+	};
+
+    class rhs_m136_hedp_mag;
+    class rtg_m136_er_mag  : rhs_m136_hedp_mag
+	{
+		ammo = "rtg_mat_er";
+        scope = 2;
+	};
+
+    class rhs_m72a7_mag;
+    class rtg_m72a7_mag : rhs_m72a7_mag
+	{
+		ammo = "rtg_lat";
+        scope = 2;
+	};
+
+    
+
 // Artillery
 
 // GL
@@ -237,6 +260,49 @@ class CfgMagazines
         initSpeed=910;
     };
 
+    class ptv_40rnd_556x45_Pmag;
+    class rtg_50rnd_556 : ptv_40rnd_556x45_Pmag {
+        
+        ammo = "rtg_556x45";
+        count = 50;
+        tracersevery = 3;
+        lastroundstracer = 4;
+        descriptionshort = "Raider Tactical Standard Issue 5.56mm Ammo";
+        displayname = "[RTG] 50rnd 5.56mm PMAG";
+        displaynameshort = "50Rnd 5.56x45";
+        scope = 2;
+        initSpeed=910;
+    };
+    
+
+    class rhs_30Rnd_545x39_7N10_camo_AK;
+    class rtg_30rnd_556_45_ak : rhs_30Rnd_545x39_7N10_camo_AK {
+        
+        ammo = "rtg_556x45";
+        count = 30;
+        tracersevery = 3;
+        lastroundstracer = 4;
+        descriptionshort = "Raider Tactical Standard Issue 5.56mm Ammo";
+        displayname = "[RTG] 30rnd 5.56mm AK";
+        displaynameshort = "30Rnd 5.56x45";
+        scope = 2;
+        initSpeed=910;
+    }; 
+
+    class rhs_45Rnd_545x39_7N6M_AK;
+    class rtg_60rnd_556_45_ak : rhs_45Rnd_545x39_7N6M_AK {
+        
+        ammo = "rtg_556x45";
+        count = 60;
+        tracersevery = 3;
+        lastroundstracer = 4;
+        descriptionshort = "Raider Tactical Standard Issue 5.56mm Ammo";
+        displayname = "[RTG] 60rnd 5.56mm AK";
+        displaynameshort = "60Rnd 5.56x45";
+        scope = 2;
+        initSpeed=910;
+    }; 
+
     class rtg_200rnd_556_45 : rhsusf_200Rnd_556x45_M855_soft_pouch_coyote {
         
         ammo = "rtg_556x45";
@@ -263,15 +329,29 @@ class CfgMagazines
         initSpeed=910;
     };
 
-    class rtg_100rnd_556_45 : rhs_mag_100Rnd_556x45_m855_cmag {
+    class ptv_150Rnd_556x45_negev;
+    class rtg_200rnd_556_45_negev : ptv_150Rnd_556x45_negev {
         
         ammo = "rtg_556x45";
-        count = 100;
+        count = 200;
         tracersevery = 3;
         lastroundstracer = 4;
         descriptionshort = "Raider Tactical Standard Issue 5.56mm Ammo";
-        displayname = "[RTG] 100rnd 5.56mm CMAG";
-        displaynameshort = "100Rnd 5.56x45";
+        displayname = "[RTG] 200rnd 5.56mm Pouch";
+        displaynameshort = "200Rnd 5.56x45";
+        scope = 2;
+        initSpeed=910;
+    };
+	
+	class rtg_200rnd_556_45_t_negev : ptv_150Rnd_556x45_negev {
+        
+        ammo = "rtg_556x45";
+        count = 200;
+        tracersevery = 1;
+        lastroundstracer = 4;
+        descriptionshort = "Raider Tactical Standard Issue 5.56mm Ammo";
+        displayname = "[RTG] 200rnd Tracer 5.56mm Pouch";
+        displaynameshort = "200Rnd Tracer 5.56x45";
         scope = 2;
         initSpeed=910;
     };
@@ -303,7 +383,6 @@ class CfgMagazines
         initSpeed=609;
     };
 	
-    class ptv_40rnd_556x45_Pmag;
     class rtg_30rnd_300_blk : ptv_40rnd_556x45_Pmag {
         
         ammo = "rtg_300blk";
@@ -317,15 +396,30 @@ class CfgMagazines
         initSpeed=609;
     };
 
-    class rtg_100rnd_300_blk : rhs_mag_100Rnd_556x45_m855_cmag {
-        
-        ammo = "rtg_300blk";
-        count = 120;
+    class hlc_40Rnd_762x39_b_rpk;
+    class rtg_30rnd_300_blk_ak : hlc_40Rnd_762x39_b_rpk
+    {
+       ammo = "rtg_300blk";
+        count = 40;
         tracersevery = 3;
         lastroundstracer = 4;
         descriptionshort = "Raider Tactical Standard Issue .300 BLK Ammo";
-        displayname = "[RTG] 120rnd .300 Blk PMAG";
-        displaynameshort = "120Rnd .300 BLK";
+        displayname = "[RTG] 40rnd .300 Blk AK";
+        displaynameshort = "40Rnd .300 BLK";
+        scope = 2;
+        initSpeed=609;
+    };
+
+    class hlc_75Rnd_762x39_b_rpk;
+    class rtg_80rnd_300_blk_ak : hlc_75Rnd_762x39_b_rpk
+    {
+        ammo = "rtg_300blk";
+        count = 80;
+        tracersevery = 3;
+        lastroundstracer = 4;
+        descriptionshort = "Raider Tactical Standard Issue .300 BLK Ammo";
+        displayname = "[RTG] 80rnd .300 Blk AK";
+        displaynameshort = "80Rnd .300 BLK";
         scope = 2;
         initSpeed=609;
     };
@@ -386,65 +480,63 @@ class CfgMagazines
 
 // 12 Gauge
     class rhsusf_5Rnd_00Buck;
-    class rtg_6Rnd_00Buck : rhsusf_5Rnd_00Buck {
-        
-        ammo = "rtg_buckshot_pump";
-        count = 6;
-        tracersevery = 0;
-        lastroundstracer = 0;
-        descriptionshort = "Raider Tactical Standard Issue Buckshot 12g Ammo";
-        displayname = "[RTG] 6rnd Buckshot 12g Mag";
-        displaynameshort = "6Rnd Buckshot 12g";
-        scope = 2;
-    };
-
-    class rtg_6Rnd_Doom : rhsusf_5Rnd_00Buck {
-        
-        ammo = "rtg_doomrounds_pump";
-        count = 6;
-        tracersevery = 0;
-        lastroundstracer = 0;
-        descriptionshort = "Raider Tactical FRAG 12g Ammo";
-        displayname = "[RTG] 6rnd FRAG 12g Mag";
-        displaynameshort = "6Rnd FRAG 12g";
-        scope = 2;
-    };
-
-    class 30Rnd_762x39_AK12_Mag_F;
-    class rtg_12g_15Rnd : 30Rnd_762x39_AK12_Mag_F {
+    class rtg_5Rnd_00Buck : rhsusf_5Rnd_00Buck {
         
         ammo = "rtg_buckshot";
-        count = 15;
+        count = 5;
         tracersevery = 0;
         lastroundstracer = 0;
         descriptionshort = "Raider Tactical Standard Issue Buckshot 12g Ammo";
-        displayname = "[RTG] 15rnd Buckshot 12g Mag";
-        displaynameshort = "15Rnd Buckshot 12g";
+        displayname = "[RTG] 5rnd Buckshot 12g Mag";
+        displaynameshort = "5Rnd Buckshot 12g";
         scope = 2;
     };
 
-    class rtg_12g_15Rnd_doom : rtg_12g_15Rnd {
+    class rtg_5Rnd_slug: rhsusf_5Rnd_00Buck {
         
-        ammo = "rtg_doomrounds";
-        count = 15;
+        ammo = "rtg_slug";
+        count = 5;
         tracersevery = 0;
         lastroundstracer = 0;
         descriptionshort = "Raider Tactical FRAG 12g Ammo";
-        displayname = "[RTG] 15rnd FRAG 12g Mag";
-        displaynameshort = "15Rnd FRAG 12g";
+        displayname = "[RTG] 5rnd Slug 12g Mag";
+        displaynameshort = "5Rnd Slug 12g";
         scope = 2;
     };
 
-    class 2Rnd_12Gauge_Slug;
-    class rtg_nitroSlug : 2Rnd_12Gauge_Slug {
+    class rtg_5Rnd_Doom : rhsusf_5Rnd_00Buck {
         
-        ammo = "rtg_nitro";
-        count = 2;
-        tracersevery = 1;
+        ammo = "rtg_doomrounds";
+        count = 5;
+        tracersevery = 0;
         lastroundstracer = 0;
-        descriptionshort = "Raider Tactical 700 Nitro Express Ammo";
-        displayname = "[RTG] 2Rnd 700 Nitro Express";
-        displaynameshort = "2 Rnd 700 Nitro Express";
+        descriptionshort = "Raider Tactical FRAG 12g Ammo";
+        displayname = "[RTG] 5rnd FRAG 12g Mag";
+        displaynameshort = "5Rnd FRAG 12g";
+        scope = 2;
+    };
+
+     class rtg_8Rnd_00Buck : rtg_5Rnd_00Buck {
+        
+        count = 8;
+        displayname = "[RTG] 8rnd Buckshot 12g Mag";
+        displaynameshort = "8Rnd Buckshot 12g";
+        scope = 2;
+    };
+
+    class rtg_8Rnd_slug: rtg_5Rnd_slug {
+        
+        count = 8;
+        displayname = "[RTG] 8rnd Slug 12g Mag";
+        displaynameshort = "8Rnd Slug 12g";
+        scope = 2;
+    };
+
+    class rtg_8Rnd_Doom : rtg_5Rnd_Doom {
+        
+        count = 8;
+        displayname = "[RTG] 8rnd FRAG 12g Mag";
+        displaynameshort = "8Rnd FRAG 12g";
         scope = 2;
     };
 
@@ -534,7 +626,7 @@ class CfgMagazines
     };
 
 // 14 Gauge
-    class rtg_1Rnd_14g : rtg_6Rnd_00Buck {
+    class rtg_1Rnd_14g : rtg_5Rnd_00Buck {
         
         ammo = "rtg_buckshot_pump_14g";
         count = 1;

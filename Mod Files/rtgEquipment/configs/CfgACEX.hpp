@@ -7,6 +7,6 @@ class XtdGearModels {
     };
     
     class CfgVehicles {
-        #include "vehicles\acex\backpacks.hpp"
+        #include "vehicles\acex.hpp"
     };
 };

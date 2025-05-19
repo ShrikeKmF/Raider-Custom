@@ -2,7 +2,9 @@
 // Long 5.56
 class ptv_m249: Rifle_Long_Base_F
 {
-	recoil = "rtg_556_lmg";
+	RTG_RECOIL_SETUP(m249_L_556)
+	dispersion = MOA_TO_DISPERSION(9.0);
+	RTG_WEAPON_HANDLING(3.2)
 	magazineWell[] = {"CBA_556x45_MINIMI", "CBA_556x45_STANAG"};
 	magazines[] = {"rtg_200rnd_556_45"};
 	DisplayName = "FN Minimi (Long/Green)";
@@ -42,7 +44,9 @@ class ptv_m249_t: ptv_m249
 // Short 5.56
 class ptv_m249p: ptv_m249
 {
-	recoil = "rtg_556_lmg";
+	RTG_RECOIL_SETUP(m249_S_556)
+	RTG_WEAPON_HANDLING(3.0)
+	dispersion = MOA_TO_DISPERSION(10.0);
 	DisplayName = "FN Minimi (Short/Green)";
 	class XtdGearInfo
 	{
@@ -81,7 +85,9 @@ class ptv_m249p_t: ptv_m249p
 // RIS
 class rtg_m249_ris: ptv_m249
 {
-	recoil = "rtg_556_lmg";
+	RTG_RECOIL_SETUP(m249_L_556)
+	dispersion = MOA_TO_DISPERSION(9.0);
+	RTG_WEAPON_HANDLING(3.2)
 	magazineWell[] = {"CBA_556x45_MINIMI", "CBA_556x45_STANAG"};
 	magazines[] = {"rtg_200rnd_556_45"};
 	DisplayName = "FN Minimi (Long/Green/RIS)";
@@ -127,7 +133,9 @@ class rtg_m249_t_ris: ptv_m249_t
 // Short 5.56
 class rtg_m249p_ris: ptv_m249p
 {
-	recoil = "rtg_556_lmg";
+	RTG_RECOIL_SETUP(m249_S_556)
+	RTG_WEAPON_HANDLING(3.0)
+	dispersion = MOA_TO_DISPERSION(10.0);
 	DisplayName = "FN Minimi (Short/Green/RIS)";
 	baseWeapon = "rtg_m249p_ris";
 	model = "rtgEquipment\lods\MinimiPara\MinimiPara_F.p3d"
@@ -174,7 +182,9 @@ class rtg_m249p_t_ris: ptv_m249p_t
 // Long
 class ptv_m249_300 : ptv_m249
 {
-	recoil = "rtg_300_lmg";
+	RTG_RECOIL_SETUP(m249_l_300)
+	RTG_WEAPON_HANDLING(3.2)
+	dispersion = MOA_TO_DISPERSION(9.0);
 	magazineWell[] = {"CBA_300_blk_MINIMI", "CBA_300BLK_STANAG"};
 	magazines[] = {"rtg_200rnd_300_blk_t"};
 	DisplayName = "FN Minimi (Long/Green)";
@@ -191,7 +201,9 @@ class ptv_m249_300 : ptv_m249
 class ptv_m249_b_300 : ptv_m249_b
 {
 	DisplayName = "FN Minimi (Long/Black)";
-	recoil = "rtg_300_lmg";
+	RTG_RECOIL_SETUP(m249_l_300)
+	RTG_WEAPON_HANDLING(3.2)
+	dispersion = MOA_TO_DISPERSION(9.0);
 	magazineWell[] = {"CBA_300_blk_MINIMI", "CBA_300BLK_STANAG"};
 	magazines[] = {"rtg_200rnd_300_blk_t"};
 	baseWeapon = "ptv_m249_b_300";
@@ -206,7 +218,9 @@ class ptv_m249_b_300 : ptv_m249_b
 }
 class ptv_m249_t_300: ptv_m249_t
 {
-	recoil = "rtg_300_lmg";
+	RTG_RECOIL_SETUP(m249_l_300)
+	RTG_WEAPON_HANDLING(3.2)
+	dispersion = MOA_TO_DISPERSION(9.0);
 	magazineWell[] = {"CBA_300_blk_MINIMI", "CBA_300BLK_STANAG"};
 	magazines[] = {"rtg_200rnd_300_blk_t"};
 	DisplayName = "FN Minimi (Long/Tan)";
@@ -223,7 +237,9 @@ class ptv_m249_t_300: ptv_m249_t
 // Short
 class ptv_m249p_300: ptv_m249p
 {
-	recoil = "rtg_300_lmg";
+	RTG_RECOIL_SETUP(m249_S_300)
+	RTG_WEAPON_HANDLING(3.0)
+	dispersion = MOA_TO_DISPERSION(10.0);
 	magazineWell[] = {"CBA_300_blk_MINIMI", "CBA_300BLK_STANAG"};
 	magazines[] = {"rtg_200rnd_300_blk_t"};
 	DisplayName = "FN Minimi (Short/Green)";
@@ -239,7 +255,9 @@ class ptv_m249p_300: ptv_m249p
 }
 class ptv_m249p_b_300: ptv_m249p_b
 {
-	recoil = "rtg_300_lmg";
+	RTG_RECOIL_SETUP(m249_s_300)
+	RTG_WEAPON_HANDLING(3.0)
+	dispersion = MOA_TO_DISPERSION(10.0);
 	magazineWell[] = {"CBA_300_blk_MINIMI", "CBA_300BLK_STANAG"};
 	magazines[] = {"rtg_200rnd_300_blk_t"};
 	DisplayName = "FN Minimi (Short/Black)";
@@ -255,7 +273,9 @@ class ptv_m249p_b_300: ptv_m249p_b
 }
 class ptv_m249p_t_300: ptv_m249p_t
 {
-	recoil = "rtg_300_lmg";
+	RTG_RECOIL_SETUP(m249_s_300)
+	RTG_WEAPON_HANDLING(3.0)
+	dispersion = MOA_TO_DISPERSION(10.0);
 	magazineWell[] = {"CBA_300_blk_MINIMI", "CBA_300BLK_STANAG"};
 	magazines[] = {"rtg_200rnd_300_blk_t"};
 	DisplayName = "FN Minimi (Short/Tan)";
@@ -273,7 +293,9 @@ class ptv_m249p_t_300: ptv_m249p_t
 // RIS
 class rtg_m249_ris_300: rtg_m249_ris
 {
-	recoil = "rtg_300_lmg";
+	RTG_RECOIL_SETUP(m249_l_300)
+	RTG_WEAPON_HANDLING(3.2)
+	dispersion = MOA_TO_DISPERSION(9.0);
 	magazineWell[] = {"CBA_300_blk_MINIMI", "CBA_300BLK_STANAG"};
 	magazines[] = {"rtg_200rnd_300_blk_t"};
 	DisplayName = "FN Minimi (Long/Green/RIS)";
@@ -290,7 +312,9 @@ class rtg_m249_ris_300: rtg_m249_ris
 }
 class rtg_m249_b_ris_300: rtg_m249_b_ris
 {
-	recoil = "rtg_300_lmg";
+	RTG_RECOIL_SETUP(m249_l_300)
+	RTG_WEAPON_HANDLING(3.2)
+	dispersion = MOA_TO_DISPERSION(9.0);
 	magazineWell[] = {"CBA_300_blk_MINIMI", "CBA_300BLK_STANAG"};
 	magazines[] = {"rtg_200rnd_300_blk_t"};
 	DisplayName = "FN Minimi (Long/Black/RIS)";
@@ -307,7 +331,9 @@ class rtg_m249_b_ris_300: rtg_m249_b_ris
 }
 class rtg_m249_t_ris_300: rtg_m249_t_ris
 {
-	recoil = "rtg_300_lmg";
+	RTG_RECOIL_SETUP(m249_l_300)
+	RTG_WEAPON_HANDLING(3.2)
+	dispersion = MOA_TO_DISPERSION(9.0);
 	magazineWell[] = {"CBA_300_blk_MINIMI", "CBA_300BLK_STANAG"};
 	magazines[] = {"rtg_200rnd_300_blk_t"};
 	DisplayName = "FN Minimi (Long/Tan/RIS)";
@@ -325,7 +351,9 @@ class rtg_m249_t_ris_300: rtg_m249_t_ris
 // Short
 class rtg_m249p_ris_300: rtg_m249p_ris
 {
-	recoil = "rtg_300_lmg";
+	RTG_RECOIL_SETUP(m249_s_300)
+	RTG_WEAPON_HANDLING(3.0)
+	dispersion = MOA_TO_DISPERSION(10.0);
 	magazineWell[] = {"CBA_300_blk_MINIMI", "CBA_300BLK_STANAG"};
 	magazines[] = {"rtg_200rnd_300_blk_t"};
 	DisplayName = "FN Minimi (Short/Green/RIS)";
@@ -342,7 +370,9 @@ class rtg_m249p_ris_300: rtg_m249p_ris
 }
 class rtg_m249p_b_ris_300: rtg_m249p_b_ris
 {
-	ecoil = "rtg_300_lmg";
+	RTG_RECOIL_SETUP(m249_s_300)
+	RTG_WEAPON_HANDLING(3.0)
+	dispersion = MOA_TO_DISPERSION(10.0);
 	magazineWell[] = {"CBA_300_blk_MINIMI", "CBA_300BLK_STANAG"};
 	magazines[] = {"rtg_200rnd_300_blk_t"};
 	DisplayName = "FN Minimi (Short/Black/RIS)";
@@ -359,7 +389,9 @@ class rtg_m249p_b_ris_300: rtg_m249p_b_ris
 }
 class rtg_m249p_t_ris_300: rtg_m249p_t_ris
 {
-	ecoil = "rtg_300_lmg";
+	RTG_RECOIL_SETUP(m249_s_300)
+	RTG_WEAPON_HANDLING(3.0)
+	dispersion = MOA_TO_DISPERSION(10.0);
 	magazineWell[] = {"CBA_300_blk_MINIMI", "CBA_300BLK_STANAG"};
 	magazines[] = {"rtg_200rnd_300_blk_t"};
 	DisplayName = "FN Minimi (Short/Tan/RIS)";
@@ -381,7 +413,9 @@ class Tier1_MK48_Mod0: Tier1_SAW_Base
 {
 	RTG_STANDARD_ZOOM
 	RTG_ACEAX_EMPTY
-	recoil = "rtg_762n_lmg";
+	RTG_RECOIL_SETUP(m249_762)
+	RTG_WEAPON_HANDLING(3.5)
+	dispersion = MOA_TO_DISPERSION(8.0);
 	magazineWell[] = {"CBA_762x51_LINKS"};
 	magazines[] = {"rtg_200Rnd_762x51"};
 };

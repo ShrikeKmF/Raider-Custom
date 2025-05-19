@@ -95,3 +95,8 @@ class ace_cargo \
 reportOwnPosition = true; \
 receiveRemoteTargets = true; \
 reportRemoteTargets = true; \
+
+#define 8E7 80000000
+
+#define FUEL_CONSUMPTION(RPM, TIME) fuelCapacity = ((8E7 * RPM) + 0.001) * TIME;
+#define HELICOPTER_FUEL_CONSUMPTION(TIME) fuelCapacity = 1000; fuelConsumptionRate = 1000 / TIME;

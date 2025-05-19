@@ -1,14 +1,12 @@
 class rhsusf_M1084A1R_SOV_M2_D_fmtv_socom;
-class rtg_cargo_truck : rhsusf_M1084A1R_SOV_M2_D_fmtv_socom
+class rtg_htc : rhsusf_M1084A1R_SOV_M2_D_fmtv_socom
 {
-	displayName = "Heavy Cargo Transport [2/1]";
+	displayName = "Heavy Cargo Transport HCT [2/1]";
 	editorSubcategory = "RTGCars";
 	author = "Shrike";
 	scope = 2;
 	side = 1;
 	faction = "Raider_Tactical_F";
-	fuelConsumptionRate = 0.03;
-	fuelCapacity = 84;
 	ace_cargo_space = 25;
 	ace_vehicles_engineStartDelay = 3;
 	acre_hasInfantryPhone = 0;

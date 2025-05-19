@@ -7,7 +7,8 @@ class Tier1_SIG_MCX_115_Virtus: Tier1_HK416D10_LMT
 	RTG_ACEAX_EMPTY
 	magazineWell[] = {"CBA_556x45_STANAG"};
 	magazines[] = {"rtg_30rnd_556_45"};
-	recoil = "rtg_556_carbine";
+	RTG_RECOIL(m4a4_556)
+	RTG_WEAPON_HANDLING(1.88)
 };
 class Tier1_SIG_MCX_115_Virtus_Desert: Tier1_SIG_MCX_115_Virtus
 {
@@ -18,7 +19,8 @@ class Tier1_SIG_MCX_115_Virtus_FDE: Tier1_SIG_MCX_115_Virtus
 {
 	magazineWell[] = {"CBA_556x45_STANAG"};
 	magazines[] = {"rtg_30rnd_556_45"};
-	recoil = "rtg_556_carbine";
+	RTG_RECOIL(m4a4_556)
+	RTG_WEAPON_HANDLING(1.88)
 	RTG_WEAPON_BASE
 	class XtdGearInfo {model="rtg_ace_expanded_mcx";camo="CYT";frame="Virtus"};
 };
@@ -26,7 +28,8 @@ class Tier1_SIG_MCX_115_Virtus_Black: Tier1_SIG_MCX_115_Virtus
 {
 	magazineWell[] = {"CBA_556x45_STANAG"};
 	magazines[] = {"rtg_30rnd_556_45"};
-	recoil = "rtg_556_carbine";
+	RTG_RECOIL(m4a4_556)
+	RTG_WEAPON_HANDLING(1.88)
 	RTG_WEAPON_BASE
 	class XtdGearInfo {model="rtg_ace_expanded_mcx";camo="BLK";frame="Virtus"};
 };
@@ -44,7 +47,8 @@ class Tier1_SIG_MCX_115_Virtus_300BLK_Desert: Tier1_SIG_MCX_115_Virtus_Desert
 };
 class Tier1_SIG_MCX_115_Virtus_300BLK_FDE: Tier1_SIG_MCX_115_Virtus_FDE
 {
-	recoil = "rtg_300_carbine";
+	RTG_RECOIL(mcx_300)
+	RTG_WEAPON_HANDLING(1.88)
 	magazineWell[] = {"CBA_300BLK_STANAG"};
 	magazines[] = {"rtg_30rnd_300_blk"};
 	RTG_WEAPON_BASE
@@ -52,7 +56,8 @@ class Tier1_SIG_MCX_115_Virtus_300BLK_FDE: Tier1_SIG_MCX_115_Virtus_FDE
 };
 class Tier1_SIG_MCX_115_Virtus_300BLK_Black: Tier1_SIG_MCX_115_Virtus_Black
 {
-	recoil = "rtg_300_carbine";
+	RTG_RECOIL(mcx_300)
+	RTG_WEAPON_HANDLING(1.88)
 	magazineWell[] = {"CBA_300BLK_STANAG"};
 	magazines[] = {"rtg_30rnd_300_blk"};
 	RTG_WEAPON_BASE
@@ -70,6 +75,7 @@ class rtg_xm5_tan : isky_spear_tan
 	baseWeapon = "rtg_xm5_tan";
 	magazineWell[] = {"RTG_68x51_MAGWELL"};
 	magazines[] = {"rtg_20Rnd_68x51"};
-	recoil = "rtg_68_rifle";
+	RTG_RECOIL(mcx_277)
+	RTG_WEAPON_HANDLING(2.1)
 	class XtdGearInfo {model="rtg_ace_expanded_mcx";camo="CYT";frame="Spear"};
 };

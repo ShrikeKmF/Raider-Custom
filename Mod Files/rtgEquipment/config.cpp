@@ -44,6 +44,7 @@ class raiderTactical: Mod_Base
 #include "configs\CfgSlotSetup.hpp"
 #include "configs\CfgFaces.hpp"
 #include "configs\CfgRecoils.hpp"
+#include "configs\CfgWeaponHandling.hpp"
 #include "configs\CfgWeapons.hpp"
 #include "configs\CfgMagazineWells.hpp"
 #include "configs\CfgAmmo.hpp"

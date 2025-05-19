@@ -7,6 +7,7 @@ class rtg_M1M : rhs_weap_m1garand_sa43
 	baseWeapon = "rtg_M1M";
 	model="rtgEquipment\lods\m1\M1M_F.p3d";
 	ACE_barrelLength = 609.6;
+	RTG_WEAPON_HANDLING(2.4)
 	class WeaponSlotsInfo: WeaponSlotsInfo
 	{
 		class CowsSlot: asdg_OpticRail1913{};
@@ -21,7 +22,8 @@ class LMG_Zafir_F;
 class rtg_mg3 : LMG_Zafir_F {
 	RTG_WEAPON_BASE
 	baseWeapon = "rtg_mg3_funny";
-	recoil = "rtg_762n_mmg";
+	RTG_RECOIL(mg3)
+	RTG_WEAPON_HANDLING(3.5)
 	magazineWell[] = {"CBA_762x51_LINKS"};
 	magazines[] = {"rtg_200Rnd_762x51"};
 	reloadaction = "HLC_GestureReloadMG3";
@@ -64,7 +66,8 @@ class rtg_ameli : rtg_mg3 {
 	baseWeapon = "rtg_ameli";
 	magazineWell[] = {"CBA_556x45_MINIMI"};
 	magazines[] = {"rtg_200rnd_556_45"};
-	recoil = "rtg_556_lmg";
+	RTG_RECOIL(ameli)
+	RTG_WEAPON_HANDLING(2.9)
 	reloadaction = "HLC_GestureReloadMG3";
 	displayName = "CETME Ameli";
 	hiddenSelections[] = {"Camo1","Camo2","Camo3","Camo4","Camo5"};
@@ -122,9 +125,10 @@ class rtg_UKM2000_F : rhs_weap_pkp
 	RTG_WEAPON_BASE
 	displayName="UKM2000";
 	baseWeapon = "rtg_UKM2000_F";
+	RTG_WEAPON_HANDLING(3.4)
 	magazineWell[] = {"CBA_556x45_MINIMI"};
 	magazines[] = {"rtg_200rnd_556_45"};
-	recoil = "rtg_556_lmg";
+	RTG_RECOIL(pkp)
 	model="rtgEquipment\lods\UKM2000\UKM2000_F.p3d";
 	handAnim[] = {"OFP2_ManSkeleton","\rhsafrf\addons\rhs_c_weapons\anims\pkm.rtm"};
 	RTG_STANDARD_ZOOM
@@ -155,11 +159,12 @@ class rtg_UKM2000_F : rhs_weap_pkp
 // shotguns
 class rtg_shotgun : rhs_weap_M590_5RD {
 	RTG_WEAPON_BASE
-	
+	RTG_RECOIL(m850)
 	displayName = "Mossberg 590";
 	baseWeapon = "rtg_shotgun";
-	magazineWell[] = {"CBA_12g_6rnds"};
-	magazines[] = {"rtg_6Rnd_00Buck"};
+	RTG_WEAPON_HANDLING(1.8)
+	magazineWell[] = {"CBA_12g_5rnds"};
+	magazines[] = {"rtg_5Rnd_00Buck"};
 };
 
 // Custom
@@ -172,23 +177,11 @@ class RTG_M4A4_AFG_Nugg : JCA_arifle_M4A4_AFG_olive_F
 	RTG_WEAPON_BASE
 }
 
-class RTG_M16A4_GL_Shrike : JCA_arifle_M16A4_GL_olive_F
-{
-	baseWeapon = "RTG_M16A4_GL_Shrike";
-	displayName = "M16A4 5.56mm GL (Shrike)";
-	magazineWell[] = {"CBA_300BLK_STANAG"};
-    magazines[] = {"rtg_30rnd_300_blk"};
-    recoil = "rtg_300_rifle";
-	RTG_ACEAX_EMPTY
-	RTG_WEAPON_BASE
-	hiddenSelectionsTextures[] = {"weapons_f_JCA_IA\Rifles\M16A4\Data\arifle_M16A4_01_olive_CO.paa","weapons_f_JCA_IA\Rifles\M16A4\Data\arifle_M16A4_02_olive_CO.paa","weapons_f_JCA_IA\Rifles\M16A4\Data\arifle_M16A4_03_olive_CO.paa","weapons_f_JCA_IA\Rifles\M16A4\Data\arifle_M16A4_04_black_CO.paa"};
-}
-
 class RTG_M4A5_145_Tex : ACWP_M4A5_145_troy_base_BLK {
 	RTG_WEAPON_BASE
     displayName="M4A5 .50 BW (Tex)";
 	magazineWell[] = {"rtg_50_bw_STANAG"};
-	recoil = "rtg_50bw_rifle";
+	RTG_RECOIL(m4a5_145_50)
 	magazines[] = {"rtg_10rnd_10bw"};
 	hiddenSelectionsTextures[] = 
 	{

@@ -6,23 +6,17 @@ class CfgPatches
 		version = "2.0";
 		author = "Shrike";
 		url = "";
-		requiredAddons[] = {"a3_characters_F","a3_characters_F_beta","A3_Characters_F_Common","a3_characters_f_beta","a3_characters_f_gamma","A3_Soft_F_epc","bma3_bushmaster","rhsusf_c_weapons"};
+		requiredAddons[] = {"a3_characters_F","a3_characters_F_beta","A3_Characters_F_Common","a3_characters_f_beta","a3_characters_f_gamma","A3_Soft_F_epc","rhsusf_c_weapons"};
 		units[] = {
 			// Boats
 			"raider_fast_rhib",
 			// Cars
-			"rtg_LSV",
-			"raider_bushmaster_unarmed",
-			"rtg_lv_pickup",
-			"rtg_cargo_truck",
-			"raider_transport",
+			"rtg_ltv",
+			"rtg_lsv",
+			"rtg_htc",
 			// Heli
 			"rtg_Magpie",
-			"rtg_Magpie_DAP",
-			"rtg_AH1Z_Hawk",
-			"RTG_Pelican",
-			// Fixed Wing
-			"RTG_Fixed_Wing",
+			"rtg_Hawk",
 			// Crates
 			"rtg_BasicSupply",
 			"rtg_atSupply",
@@ -109,16 +103,11 @@ class CfgVehicles
 	class Eventhandlers;
 
 	// Include Vehicle Files
-	#include "Vehicles/lynx.hpp"
-	#include "Vehicles/bushmaster.hpp"
-	#include "Vehicles/Bus.hpp"
 	#include "Vehicles/magpie.hpp"
 	#include "Vehicles/humvee.hpp"
 	#include "Vehicles/hawk.hpp"
-	#include "Vehicles/pelican.hpp"
 	#include "Vehicles/boats.hpp"
 	#include "Vehicles/crates.hpp"
-	#include "Vehicles/jet.hpp"
 	#include "Vehicles/trucks.hpp"
 };
 

@@ -1,4 +1,4 @@
 class CfgVehicles{
     #include "vehicles\backpacks.hpp"
-    #include "vehicles\vsmUniforms.hpp"
+    #include "vehicles\uniforms.hpp"
 };

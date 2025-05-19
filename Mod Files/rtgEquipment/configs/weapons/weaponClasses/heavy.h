@@ -189,3 +189,142 @@ class rtg_pslr1_rpg7 : launch_RPG7_F
 	magazineWell[] = {"RPG7"};
 	RTG_STANDARD_ZOOM
 }
+
+
+/*
+Light AT
+*/
+class rhs_weap_m72a7;
+class rtg_m72a7_lat : rhs_weap_m72a7
+{
+	RTG_WEAPON_BASE
+	RTG_STANDARD_ZOOM
+	displayName = "[RTG] M72A7 LAT";
+	baseWeapon = "rtg_m72a7_lat";
+	magazines[] = { rtg_m72a7_mag };
+	minRange = 10;
+	minRangeProbab = 0.9;
+	midRange = 200;
+	midRangeProbab = 0.7;
+	maxRange = 300;
+	maxRangeProbab = 0.1;
+	class OpticsModes
+	{
+		class ironsight
+		{
+			opticsID = 2;
+			opticsPPEffects[] = {"OpticsCHAbera1","OpticsBlur1"};
+			useModelOptics = 0;
+			opticsFlare = 0;
+			opticsDisablePeripherialVision = 0;
+			opticsZoomMin= 0.50;
+			opticsZoomMax = 0.75;
+			opticsZoomInit = 0.75;
+			discreteDistanceInitIndex = 0;
+			discreteDistance[] = {50,100,150,200,250,300};
+			discreteDistanceCameraPoint[] = {"eye_1","eye_2","eye_3","eye_4","eye_5","eye_6"};
+			memorypointcamera = "eye";
+			cameraDir = "look";
+			distanceZoomMin = 100;
+			distanceZoomMax = 100;
+		};
+	};
+};
+class rtg_m72a7_lat_used : rtg_m72a7_lat
+{
+	scope = 1;
+	magazines[]={rhs_launcher_dummy_mag};
+};
+
+/*
+Medium AT
+*/
+class rhs_weap_M136_hedp;
+class rhs_weap_M136;
+class rtg_m136_mat : rhs_weap_M136
+{
+	RTG_WEAPON_BASE
+	RTG_STANDARD_ZOOM
+	displayName = "[RTG] M136 MAT";
+	baseWeapon = "rtg_m136_mat";
+	magazines[] = {rtg_m136_mag};
+	minRange = 10;
+	minRangeProbab = 0.9;
+	midRange = 200;
+	midRangeProbab = 0.7;
+	maxRange = 250;
+	maxRangeProbab = 0.1;
+	initSpeed = 0.8; 
+	class OpticsModes
+	{
+		class ironsight
+		{
+			opticsID = 2;
+			opticsPPEffects[] = {"OpticsCHAbera1","OpticsBlur1"};
+			useModelOptics = 0;
+			opticsFlare = 0;
+			opticsDisablePeripherialVision = 0;
+			opticsZoomMin= 0.50;
+			opticsZoomMax = 0.75;
+			opticsZoomInit = 0.75;
+			visionMode = "";
+			discreteDistanceInitIndex = 0;
+			discreteDistance[] = {50,100,150,200,250};
+			discreteDistanceCameraPoint[] = {"eye_1","eye_2","eye_3","eye_4","eye_5","eye_6","eye_7","eye_8"};
+			memorypointcamera = "eye";
+			cameraDir = "look";
+			distanceZoomMin = 100;
+			distanceZoomMax = 100;
+		};
+	};
+}
+
+class rtg_m136_er : rhs_weap_M136_hedp
+{
+	RTG_WEAPON_BASE
+	RTG_STANDARD_ZOOM
+	displayName = "[RTG] M136 ER";
+	baseWeapon = "rtg_m136_er";
+	magazines[] = {rtg_m136_er_mag};
+	minRange = 10;
+	minRangeProbab = 0.9;
+	midRange = 200;
+	midRangeProbab = 0.7;
+	maxRange = 400;
+	maxRangeProbab = 0.1;
+	initSpeed = 1.2; 
+	class OpticsModes
+	{
+		class ironsight
+		{
+			opticsID = 2;
+			opticsPPEffects[] = {"OpticsCHAbera1","OpticsBlur1"};
+			useModelOptics = 0;
+			opticsFlare = 0;
+			opticsDisablePeripherialVision = 0;
+			opticsZoomMin = 0.275;
+			opticsZoomMax = 1.1;
+			opticsZoomInit = 0.75;
+			visionMode = "";
+			discreteDistanceInitIndex = 0;
+			discreteDistance[] = {50,100,150,200,250,300,350,400};
+			discreteDistanceCameraPoint[] = {"eye_1","eye_2","eye_3","eye_4","eye_5","eye_6","eye_7","eye_8"};
+			memorypointcamera = "eye";
+			cameraDir = "look";
+			distanceZoomMin = 100;
+			distanceZoomMax = 100;
+		};
+	};
+}
+
+class rtg_m136_mat_used : rtg_m136_mat
+{
+	scope = 1;
+	magazines[]={rhs_launcher_dummy_mag};
+}
+
+class rtg_m136_er_used : rtg_m136_er
+{
+	scope = 1;
+	magazines[]={rhs_launcher_dummy_mag};
+}

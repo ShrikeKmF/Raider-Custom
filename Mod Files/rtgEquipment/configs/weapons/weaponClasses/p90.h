@@ -11,7 +11,8 @@ class rtg_SMG_03C_black : SMG_03C_black {
     baseWeapon = "rtg_SMG_03C_black";
     magazines[] = {"rtg_p90"};
     mode[] = {"Single", "FullAuto"};
-    recoil = "rtg_9mm_primary";
+    RTG_RECOIL(p90)
+	RTG_WEAPON_HANDLING(1.88)
     class Single : Single
     {
         sounds[] = {"StandardSound", "SilencedSound"};
@@ -64,7 +65,8 @@ class rtg_SMG_03C_camo : SMG_03C_camo {
     baseWeapon = "rtg_SMG_03C_camo";
     magazines[] = {"rtg_p90"};
     mode[] = {"Single", "FullAuto"};
-    recoil = "rtg_9mm_primary";
+    RTG_RECOIL(p90)
+	RTG_WEAPON_HANDLING(1.88)
     class Single : Single
     {
         sounds[] = {"StandardSound", "SilencedSound"};
@@ -117,7 +119,8 @@ class rtg_SMG_03C_hex : SMG_03C_hex {
     baseWeapon = "rtg_SMG_03C_hex";
     magazines[] = {"rtg_p90"};
     mode[] = {"Single", "FullAuto"};
-    recoil = "rtg_9mm_primary";
+    RTG_RECOIL(p90)
+	RTG_WEAPON_HANDLING(1.88)
     class Single : Single
     {
         sounds[] = {"StandardSound", "SilencedSound"};
@@ -170,7 +173,8 @@ class rtg_SMG_03C_khaki : SMG_03C_khaki {
     baseWeapon = "rtg_SMG_03C_khaki";
     magazines[] = {"rtg_p90"};
     mode[] = {"Single", "FullAuto"};
-    recoil = "rtg_9mm_primary";
+    RTG_RECOIL(p90)
+	RTG_WEAPON_HANDLING(1.88)
     class Single : Single
     {
         sounds[] = {"StandardSound", "SilencedSound"};
@@ -223,7 +227,8 @@ class rtg_SMG_03C_TR_black : SMG_03C_TR_black {
     baseWeapon = "rtg_SMG_03C_TR_black";
     magazines[] = {"rtg_p90"};
     mode[] = {"Single", "FullAuto"};
-    recoil = "rtg_9mm_primary";
+    RTG_RECOIL(p90)
+	RTG_WEAPON_HANDLING(1.88)
     class Single : Single
     {
         sounds[] = {"StandardSound", "SilencedSound"};
@@ -276,7 +281,8 @@ class rtg_SMG_03C_TR_camo : SMG_03C_TR_camo {
     baseWeapon = "rtg_SMG_03C_TR_camo";
     magazines[] = {"rtg_p90"};
     mode[] = {"Single", "FullAuto"};
-    recoil = "rtg_9mm_primary";
+    RTG_RECOIL(p90)
+	RTG_WEAPON_HANDLING(1.88)
     class Single : Single
     {
         sounds[] = {"StandardSound", "SilencedSound"};
@@ -329,7 +335,8 @@ class rtg_SMG_03C_TR_hex : SMG_03C_TR_hex {
     baseWeapon = "rtg_SMG_03C_TR_hex";
     magazines[] = {"rtg_p90"};
     mode[] = {"Single", "FullAuto"};
-    recoil = "rtg_9mm_primary";
+    RTG_RECOIL(p90)
+	RTG_WEAPON_HANDLING(1.88)
     class Single : Single
     {
         sounds[] = {"StandardSound", "SilencedSound"};
@@ -382,7 +389,8 @@ class rtg_SMG_03C_TR_khaki : SMG_03C_TR_khaki {
     baseWeapon = "rtg_SMG_03C_TR_khaki";
     magazines[] = {"rtg_p90"};
     mode[] = {"Single", "FullAuto"};
-    recoil = "rtg_9mm_primary";
+    RTG_RECOIL(p90)
+	RTG_WEAPON_HANDLING(1.88)
     class Single : Single
     {
         sounds[] = {"StandardSound", "SilencedSound"};
@@ -444,7 +452,8 @@ class rtg_SMG_03_black : UK3CB_P90_black {
     baseWeapon = "rtg_SMG_03_black";
     magazines[] = {"rtg_p90"};
     mode[] = {"Single", "FullAuto"};
-    recoil = "rtg_9mm_primary";
+    RTG_RECOIL(p90_L)
+	RTG_WEAPON_HANDLING(1.95)
     class Single : Single
     {
         sounds[] = {"StandardSound", "SilencedSound"};
@@ -497,7 +506,8 @@ class rtg_SMG_03_camo : UK3CB_P90_camo {
     baseWeapon = "rtg_SMG_03_camo";
     magazines[] = {"rtg_p90"};
     mode[] = {"Single", "FullAuto"};
-    recoil = "rtg_9mm_primary";
+    RTG_RECOIL(p90_L)
+	RTG_WEAPON_HANDLING(1.95)
     class Single : Single
     {
         sounds[] = {"StandardSound", "SilencedSound"};
@@ -550,7 +560,8 @@ class rtg_SMG_03_hex : UK3CB_P90_hex {
     baseWeapon = "rtg_SMG_03_hex";
     magazines[] = {"rtg_p90"};
     mode[] = {"Single", "FullAuto"};
-    recoil = "rtg_9mm_primary";
+    RTG_RECOIL(p90_L)
+	RTG_WEAPON_HANDLING(1.95)
     class Single : Single
     {
         sounds[] = {"StandardSound", "SilencedSound"};
@@ -603,7 +614,8 @@ class rtg_SMG_03_khaki : UK3CB_P90_khaki {
     baseWeapon = "rtg_SMG_03_khaki";
     magazines[] = {"rtg_p90"};
     mode[] = {"Single", "FullAuto"};
-    recoil = "rtg_9mm_primary";
+    RTG_RECOIL(p90_L)
+	RTG_WEAPON_HANDLING(1.95)
     class Single : Single
     {
         sounds[] = {"StandardSound", "SilencedSound"};
@@ -656,7 +668,8 @@ class rtg_SMG_03_TR_black : UK3CB_P90_TR_black {
     baseWeapon = "rtg_SMG_03_TR_black";
     magazines[] = {"rtg_p90"};
     mode[] = {"Single", "FullAuto"};
-    recoil = "rtg_9mm_primary";
+    RTG_RECOIL(p90_L)
+	RTG_WEAPON_HANDLING(1.95)
     class Single : Single
     {
         sounds[] = {"StandardSound", "SilencedSound"};
@@ -709,7 +722,8 @@ class rtg_SMG_03_TR_camo : UK3CB_P90_TR_camo {
     baseWeapon = "rtg_SMG_03_TR_camo";
     magazines[] = {"rtg_p90"};
     mode[] = {"Single", "FullAuto"};
-    recoil = "rtg_9mm_primary";
+    RTG_RECOIL(p90_L)
+	RTG_WEAPON_HANDLING(1.95)
     class Single : Single
     {
         sounds[] = {"StandardSound", "SilencedSound"};
@@ -762,7 +776,8 @@ class rtg_SMG_03_TR_hex : UK3CB_P90_TR_hex {
     baseWeapon = "rtg_SMG_03_TR_hex";
     magazines[] = {"rtg_p90"};
     mode[] = {"Single", "FullAuto"};
-    recoil = "rtg_9mm_primary";
+    RTG_RECOIL(p90_L)
+	RTG_WEAPON_HANDLING(1.95)
     class Single : Single
     {
         sounds[] = {"StandardSound", "SilencedSound"};
@@ -815,7 +830,8 @@ class rtg_SMG_03_TR_khaki : UK3CB_P90_TR_khaki {
     baseWeapon = "rtg_SMG_03_TR_khaki";
     magazines[] = {"rtg_p90"};
     mode[] = {"Single", "FullAuto"};
-    recoil = "rtg_9mm_primary";
+    RTG_RECOIL(p90_L)
+	RTG_WEAPON_HANDLING(1.95)
     class Single : Single
     {
         sounds[] = {"StandardSound", "SilencedSound"};

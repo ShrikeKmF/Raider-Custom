@@ -1,3 +1,204 @@
+class rtg_ace_expanded_beanie_ranger {
+    label   = "Beanies";
+    author  = "RTG";
+    options[] = { "camo" };
+
+    class camo {
+        label = "Camouflage";
+        values[] = { "black", "od", "tan" };
+        class black { label = "Black"; }
+        class od    { label = "OD Green"; }
+        class tan   { label = "Tan"; }
+    };
+};
+
+class rtg_ace_expanded_boonie_ranger {
+    label   = "Boonie Hats";
+    author  = "RTG";
+    options[] = { "camo" };
+
+    class camo {
+        label = "Camouflage";
+        values[] = {
+            "khk", "oli", "tan",
+            "aoru", "tiger",
+            "m81", "multicam", "multicamtropic", "projecthonor"
+        };
+        class khk             { label = "Khaki";               }
+        class oli             { label = "Olive";               }
+        class tan             { label = "Tan";                 }
+        class aoru            { label = "AORU";                }
+        class tiger           { label = "Tiger";               }
+        class m81             { label = "M81";                 }
+        class multicam        { label = "Multicam";            }
+        class multicamtropic  { label = "Multicam Tropic";     }
+        class projecthonor    { label = "Project Honor";       }
+    };
+};
+
+class rtg_ace_expanded_cap_ranger {
+    label   = "Caps";
+    author  = "RTG";
+    options[] = { "camo" };
+
+    class camo {
+        label = "Camouflage";
+        values[] = { 
+            "headphones", "blk", "oli_hs", "tan", 
+            "aoru", "tiger", "projecthonor" 
+        };
+        class headphones     { label = "Headphones"; }
+        class blk             { label = "Black";       }
+        class oli_hs          { label = "Olive HS";    }
+        class tan             { label = "Tan";         }
+        class aoru            { label = "AORU";        }
+        class tiger           { label = "Tiger";       }
+        class projecthonor    { label = "Project Honor";}
+    };
+};
+
+class rtg_ace_expanded_helmet_mich {
+    label = "MICH 2000 Helmets";
+    author = "RTG";
+    options[] = { "camo" };
+
+    class camo {
+        label = "Camo";
+        values[] = { "multicam", "multicamtropic", "od", "oga", "projecthonor", "odspray", "tanspray" };
+        class multicam        { label = "Multicam"; };
+        class multicamtropic  { label = "Multicam Tropic"; };
+        class od              { label = "OD Green"; };
+        class oga             { label = "OGA"; };
+        class projecthonor    { label = "Project Honor"; };
+        class odspray         { label = "OD Camo Spray"; };
+        class tanspray        { label = "Tan Camo Spray"; };
+    };
+};
+
+class rtg_ace_expanded_helmet_fast {
+    label = "FAST Helmets";
+    author = "RTG";
+    options[] = { "camo" };
+
+    class camo {
+        label = "Camo";
+        values[] = { "black", "mcblack", "multicam", "od", "tan", "tropic" };
+        class black   { label = "Black"; };
+        class mcblack { label = "Multicam Black"; };
+        class multicam{ label = "Multicam"; };
+        class od      { label = "OD Green"; };
+        class tan     { label = "Tan"; };
+        class tropic  { label = "Tropic"; };
+    };
+};
+
+
+class rtg_ace_expanded_helmet_viper {
+    label   = "Viper Helmets";
+    author  = "RTG";
+    options[] = { "camo", "style" };
+
+    class camo {
+        label = "Camouflage";
+        values[] = { "blk", "grn", "tan" };
+        class blk { label = "Black"; }
+        class grn { label = "Green"; }
+        class tan { label = "Tan"; }
+    };
+
+    class style {
+        label = "Style";
+        values[] = { "base", "hc", "rails" };
+        class base  { label = "Base"; }
+        class hc    { label = "Hard Cover"; }
+        class rails { label = "Rails"; }
+    };
+};
+
+ class rtg_ace_expanded_helmet_viper_cover {
+    label = "Viper Helmet Covers";
+    author = "RTG";
+    options[] = { "style", "terrain", "scrim" };
+
+    class style {
+        label = "Camo Style";
+        values[] = { "serp", "ts"};
+        class serp { label = "Serpent"; };
+        class ts   { label = "Trollskin"; };
+
+    };
+
+    class terrain {
+        label = "Terrain";
+        values[] = { "desert", "woodland" };
+        class desert   { label = "Desert"; };
+        class woodland { label = "Woodland"; };
+    };
+
+    class scrim {
+        label = "Scrim";
+        values[] = { "yes", "no" };
+        class yes { label = "Yes"; };
+        class no  { label = "No"; };
+    };
+};
+
+
+class rtg_ace_expanded_helmet_cvc {
+    label = "RTG CVC Helmet";
+    author = "Shrike";
+    options[] = { "variant" };
+
+    class variant {
+        label = "Color";
+        values[] = { "green", "tan" };
+        class green { label = "Green"; };
+        class tan { label = "Tan"; };
+    };
+};
+
+class rtg_ace_expanded_helmet_altyn {
+    label = "RTG Altyn Helmet";
+    author = "Shrike";
+    options[] = { "variant" };
+
+    class variant {
+        label = "Configuration";
+        values[] = { "novisor", "open", "closed" };
+        class novisor { label = "No Visor"; };
+        class open    { label = "Visor Up"; };
+        class closed  { label = "Visor Down"; };
+    };
+};
+
+class rtg_ace_expanded_cbrn {
+    label = "CBRN Suit";
+    options[] = { "camo" };
+    class camo {
+        label = "Pattern";
+        values[] = { "M81", "MTP", "EAF", "Tropic" };
+        class M81    { label = "M81";     description = "Woodland CBRN Suit"; };
+        class MTP    { label = "MTP";     description = "Temperate Camo CBRN Suit"; };
+        class EAF    { label = "EAF";     description = "EAF CBRN Suit"; };
+        class Tropic { label = "Tropic";  description = "Tropical CBRN Suit"; };
+    };
+};
+
+class rtg_ace_expanded_formal {
+    label = "Formal Suit";
+    options[] = { "camo" };
+    class camo {
+        label = "Style";
+        values[] = { "Black", "Blue", "Grey", "Khaki", "TShirtBlack", "TShirtGrey" };
+        class Black       { label = "Black";        description = "Black Formal Suit"; };
+        class Blue        { label = "Blue";         description = "Blue Formal Suit"; };
+        class Grey        { label = "Grey";         description = "Grey Formal Suit"; };
+        class Khaki       { label = "Khaki";        description = "Khaki Formal Suit"; };
+        class TShirtBlack { label = "TShirt Black";description = "Black T‑Shirt Formal"; };
+        class TShirtGrey  { label = "TShirt Grey"; description = "Grey T‑Shirt Formal"; };
+    };
+};
+
 class rtg_ace_expanded_jeans {
     label = "Jeans";
     

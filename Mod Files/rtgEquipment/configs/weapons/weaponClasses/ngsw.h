@@ -11,11 +11,12 @@ class rtg_XM250 : KAR_XM250
 	baseWeapon = "rtg_XM250";
 	magazineWell[] = {"RTG_68x51_BELT_MAGWELL"};
 	magazines[] = {"rtg_100Rnd_68x51"};
-	recoil = "rtg_68_mmg";
+	RTG_RECOIL(xm250)
+	RTG_WEAPON_HANDLING(3.9)
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_xm250";
-		paint = "tan";
+		camo = "tan";
 	};
 };
 
@@ -27,10 +28,11 @@ class rtg_XM250_BLK : KAR_XM250_BLK
 	baseWeapon = "rtg_XM250_BLK";
 	magazineWell[] = {"RTG_68x51_BELT_MAGWELL"};
 	magazines[] = {"rtg_100Rnd_68x51"};
-	recoil = "rtg_68_mmg";
+	RTG_RECOIL(xm250)
+	RTG_WEAPON_HANDLING(3.9)
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_xm250";
-		paint = "blk";
+		camo = "blk";
 	};
 };

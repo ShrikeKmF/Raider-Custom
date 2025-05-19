@@ -5,7 +5,8 @@
 	{
 		RTG_ACEAX_EMPTY
 		RTG_STANDARD_ZOOM
-		recoil = "rtg_9mm_primary";
+		RTG_RECOIL(mp5)
+		RTG_WEAPON_HANDLING(1.5)
 		magazineWell[] = {"RTG_9x19"};
 		magazines[] = {"rtg_9mm_35Rnd_mag"};
 	};

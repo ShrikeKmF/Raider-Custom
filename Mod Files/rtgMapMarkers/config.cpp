@@ -40,6 +40,13 @@ class CfgMarkerColors
 		scope=2;
 	};
 
+	class rtgMisfit
+	{
+		name="Misfit";
+		color[]={1.0, 0.341, 0.474, 1};
+		scope=2;
+	};
+
 	class rtgFirebrand
 	{
 		name="Firebrand";

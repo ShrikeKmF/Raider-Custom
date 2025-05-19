@@ -1,4 +1,49 @@
 // Ace Arsenal Expanded
+class rtg_ace_expanded_m416_c
+{
+    label = "M416 10.5";
+    author = "Shrike";
+    options[] = {"camo"};
+    class camo
+    {
+        label = "Camouflage";
+        values[] = {"blk", "khk", "snd"};
+        class blk { label = "Black"; };
+        class khk { label = "Khaki"; };
+        class snd { label = "Sand"; };
+    };
+};
+
+class rtg_ace_expanded_m416
+{
+    label = "M416 14.5";
+    author = "Shrike";
+    options[] = {"camo"};
+    class camo
+    {
+        label = "Camouflage";
+        values[] = {"blk", "khk", "snd"};
+        class blk { label = "Black"; };
+        class khk { label = "Khaki"; };
+        class snd { label = "Sand"; };
+    };
+};
+
+class rtg_ace_expanded_m416_lsw
+{
+    label = "M416 LSW";
+    author = "Shrike";
+    options[] = {"camo"};
+    class camo
+    {
+        label = "Camouflage";
+        values[] = {"blk", "khk", "snd"};
+        class blk { label = "Black"; };
+        class khk { label = "Khaki"; };
+        class snd { label = "Sand"; };
+    };
+};
+
 class rtg_ace_expanded_minimi {
     label = "Minimi";
     
@@ -94,71 +139,84 @@ class rtg_ace_expanded_xm250
     };
 };
 
-class rtg_ace_expanded_aug {
-    label = "AUG";
-    
-    options[] = {"barrel", "camo", "gl"};
-    class barrel
-    {
-        label = "Barrel";
-        values[] = {"para", "rifle", "a1"};
-        class para
-        {
-            label = "Para";
-            description = "Para";
-        };
-        class rifle
-        {
-            label = "Rifle";
-            description = "Rifle";
-        };
-        class a1
-        {
-            label = "A1";
-            description = "A1";
-        };
-    };
-    class camo
-    {
+class rtg_ace_expanded_aug_a1 {
+    label   = "AUG A1";
+    author  = "RTG";
+    options[] = { "camo" };
+    class camo {
         label = "Camo";
-        values[] = {"blue", "black", "sand", "khaki"};
-        class blue
-        {
-            label = "Blue";
-            description = "Blue";
-        };
-        class black
-        {
-            label = "Black";
-            description = "Black";
-        };
-        class sand
-        {
-            label = "Sand";
-            description = "Sand";
-        };
-        class khaki
-        {
-            label = "Khaki";
-            description = "Khaki";
-        };
-    };
-    class gl
-    {
-        label = "Underbarrel";
-        values[] = {"no", "gl"};
-        class no
-        {
-            label = "Rifle";
-            description = "Rifle";
-        };
-        class gl
-        {
-            label = "GL";
-            description = "GL";
-        };
+        values[] = { "b", "std", "t" };
+        class b   { label = "Black";    }
+        class std { label = "Green"; }
+        class t   { label = "Tan";      }
     };
 };
+
+class rtg_ace_expanded_aug_a2 {
+    label   = "AUG A2";
+    author  = "RTG";
+    options[] = { "camo" };
+    class camo {
+        label = "Camo";
+        values[] = { "b", "std", "t" };
+        class b   { label = "Black";    }
+        class std { label = "Green"; }
+        class t   { label = "Tan";      }
+    };
+};
+
+class rtg_ace_expanded_aug_a3 {
+    label   = "AUG A3";
+    author  = "RTG";
+    options[] = { "camo" };
+    class camo {
+        label = "Camo";
+        values[] = { "b", "std", "bl" };
+        class b   { label = "Black";      }
+        class std { label = "Green";   }
+        class bl  { label = "Blue"; }
+    };
+};
+
+class rtg_ace_expanded_aug_a3_gl {
+    label   = "AUG A3 GL";
+    author  = "RTG";
+    options[] = { "camo" };
+    class camo {
+        label = "Camo";
+        values[] = { "b", "std", "bl" };
+        class b   { label = "Black";      }
+        class std { label = "Green";   }
+        class bl  { label = "Blue"; }
+    };
+};
+
+class rtg_ace_expanded_aug_lsw {
+    label   = "AUG Light Support";
+    author  = "RTG";
+    options[] = { "camo" };
+    class camo {
+        label = "Camo";
+        values[] = { "b", "std", "t" };
+        class b   { label = "Black";    }
+        class std { label = "Green"; }
+        class t   { label = "Tan";      }
+    };
+};
+
+class rtg_ace_expanded_aug_para {
+    label   = "AUG Para";
+    author  = "RTG";
+    options[] = { "camo" };
+    class camo {
+        label = "Camo";
+        values[] = { "b", "std", "t" };
+        class b   { label = "Black";    }
+        class std { label = "Green"; }
+        class t   { label = "Tan";      }
+    };
+};
+
 
 class rtg_ace_expanded_f2000 {
     label = "F2000";
@@ -252,187 +310,6 @@ class rtg_ace_expanded_p90 {
     };
 };
 
-// M23
-class rtg_ace_expanded_m23 {
-    label = "G/M23";
-    
-    options[] = {"camo", "barrel", "launcher"};
-    class camo
-    {
-        label = "Camo";
-        values[] = {"blk", "tan", "grn"};
-        class blk
-        {
-            label = "Black";
-            description = "Black Camo";
-        };
-        class tan
-        {
-            label = "Tan";
-            description = "Tan Camo";
-        };
-        class grn
-        {
-            label = "Green";
-            description = "Green Camo";
-        };
-    };
-    class barrel 
-    {
-        label = "Barrel";
-        values[] = {"short", "long"};
-        class short
-        {
-            label = "Carbine";
-            description = "14' Barrel";
-        };
-        class long
-        {
-            label = "Rifle";
-            description = "18' Barrel";
-        };
-    }
-    class launcher 
-    {
-        label = "Launcher";
-        values[] = {"gl", "no"};
-        class gl
-        {
-            label = "GL";
-            description = "Grenade Launcher";
-        };
-        class no
-        {
-            label = "Rifle";
-            description = "No Launcher";
-        };
-    }
-};
-
-// HK433
-class rtg_ace_expanded_hk433 {
-    label = "HK-433";
-    
-    options[] = {"camo", "barrel", "launcher"};
-    class camo
-    {
-        label = "Camo";
-        values[] = {"blk", "tan", "grn"};
-        class blk
-        {
-            label = "Black";
-            description = "Black Camo";
-        };
-        class tan
-        {
-            label = "Tan";
-            description = "Tan Camo";
-        };
-        class grn
-        {
-            label = "Green";
-            description = "Green Camo";
-        };
-    };
-    class barrel 
-    {
-        label = "Barrel";
-        values[] = {"short", "long"};
-        class short
-        {
-            label = "Carbine";
-            description = "14' Barrel";
-        };
-        class long
-        {
-            label = "Rifle";
-            description = "18' Barrel";
-        };
-    };
-};
-
-// M90
-class rtg_ace_expanded_m90 {
-    label = "G/M90";
-    
-    options[] = {"modern", "camo", "barrel", "launcher"};
-    class modern
-    {
-        label = "Furniture";
-        values[] = {"r", "r2", "mr", "m"};
-        class r
-        {
-            label = "R";
-            description = "";
-        };
-        class r2
-        {
-            label = "R2";
-            description = "";
-        };
-        class mr
-        {
-            label = "MR";
-            description = "";
-        };
-        class m
-        {
-            label = "M";
-            description = "";
-        };
-    };
-    class camo
-    {
-        label = "Camo";
-        values[] = {"blk", "grn"};
-        class blk
-        {
-            label = "Black";
-            description = "Black Camo";
-        };
-        class grn
-        {
-            label = "Green";
-            description = "Green Camo";
-        };
-    };
-    class barrel 
-    {
-        label = "Barrel";
-        values[] = {"short", "long", "pdw"};
-        class short
-        {
-            label = "Carbine";
-            description = "14' Barrel";
-        };
-        class long
-        {
-            label = "Rifle";
-            description = "18' Barrel";
-        };
-        class pdw
-        {
-            label = "PDW";
-            description = "10' Barrel";
-        };
-    }
-    class launcher 
-    {
-        label = "Launcher";
-        values[] = {"gl", "no"};
-        class gl
-        {
-            label = "GL";
-            description = "Grenade Launcher";
-        };
-        class no
-        {
-            label = "Rifle";
-            description = "No Launcher";
-        };
-    }
-};
-
 // Mag60
 class rtg_ace_expanded_mag60 {
     label = "FN MAG";
@@ -473,85 +350,6 @@ class rtg_ace_expanded_mag60 {
             description = ".277 Fury";
         };
     };
-};
-
-// Benelli
-class rtg_ace_expanded_benelli {
-    label = "Benelli";
-    
-    options[] = {"length"};
-    class length
-    {
-        label = "Length";
-        values[] = {"short", "long"};
-        class short
-        {
-            label = "Short";
-            description = "Short";
-        };
-        class long
-        {
-            label = "Long";
-            description = "Long";
-        };
-    };
-};
-
-// M60E4
-class rtg_ace_expanded_m60 {
-    label = "M60";
-    
-    options[] = {"camo", "barrel", "sight"};
-    class camo
-    {
-        label = "Camo";
-        values[] = {"blk", "tan", "grn"};
-        class blk
-        {
-            label = "Black";
-            description = "Black";
-        };
-        class tan
-        {
-            label = "Tan";
-            description = "Tan";
-        };
-        class grn
-        {
-            label = "Green";
-            description = "Green";
-        };
-    };
-    class barrel
-    {
-        label = "Barrel";
-        values[] = {"short", "long"};
-        class short
-        {
-            label = "Short";
-            description = "Short Barrel";
-        };
-        class long
-        {
-            label = "Long";
-            description = "Long Barrel";
-        };
-    };
-    class sight 
-    {
-        label = "Iron Sight";
-        values[] = {"static", "flip"};
-        class static
-        {
-            label = "Static";
-            description = "Static Sight";
-        };
-        class flip
-        {
-            label = "Flip Up";
-            description = "Flip Up Sight";
-        };
-    }
 };
 
 // L85

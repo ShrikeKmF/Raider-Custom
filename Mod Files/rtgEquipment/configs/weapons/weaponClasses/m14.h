@@ -6,7 +6,8 @@ class ptv_m14: Rifle_Long_Base_F
     displayName = "M14";
     magazineWell[] = {"CBA_762x51_M14"};
     magazines[] = {"rtg_20Rnd_762x51"};
-    recoil = "rtg_762n_rifle";
+    RTG_RECOIL_SETUP(m14)
+    RTG_WEAPON_HANDLING(2.8)
 }
 class ptv_m14_socom: Rifle_Long_Base_F
 {
@@ -15,7 +16,8 @@ class ptv_m14_socom: Rifle_Long_Base_F
     displayName = "M14 SOCOMD 16";
     magazineWell[] = {"CBA_762x51_M14"};
     magazines[] = {"rtg_20Rnd_762x51"};
-    recoil = "rtg_762n_carbine";
+    RTG_RECOIL_SETUP(m14_short)
+    RTG_WEAPON_HANDLING(2.4)
 }
 class ptv_m14_socom_wdl: ptv_m14_socom
 {
@@ -24,7 +26,8 @@ class ptv_m14_socom_wdl: ptv_m14_socom
     displayName = "M14 SOCOMD 16 (Green)";
     magazineWell[] = {"CBA_762x51_M14"};
     magazines[] = {"rtg_20Rnd_762x51"};
-    recoil = "rtg_762n_carbine";
+    RTG_RECOIL_SETUP(m14_short)
+    RTG_WEAPON_HANDLING(2.4)
 }
 class ptv_m14tp: ptv_m14
 {
@@ -33,7 +36,8 @@ class ptv_m14tp: ptv_m14
     displayName = "M14 TP";
     magazineWell[] = {"CBA_762x51_M14"};
     magazines[] = {"rtg_20Rnd_762x51"};
-    recoil = "rtg_762n_rifle";
+    RTG_RECOIL_SETUP(m14)
+    RTG_WEAPON_HANDLING(2.8)
 }
 class ptv_m14tp_des: ptv_m14
 {
@@ -42,7 +46,8 @@ class ptv_m14tp_des: ptv_m14
     displayName = "M14 TP (Tan)";
     magazineWell[] = {"CBA_762x51_M14"};
     magazines[] = {"rtg_20Rnd_762x51"};
-    recoil = "rtg_762n_rifle";
+    RTG_RECOIL_SETUP(m14)
+    RTG_WEAPON_HANDLING(2.8)
 }
 class ptv_m14tp_wdl: ptv_m14
 {
@@ -51,7 +56,8 @@ class ptv_m14tp_wdl: ptv_m14
     displayName = "M14 TP (Green)";
     magazineWell[] = {"CBA_762x51_M14"};
     magazines[] = {"rtg_20Rnd_762x51"};
-    recoil = "rtg_762n_rifle";
+    RTG_RECOIL_SETUP(m14)
+    RTG_WEAPON_HANDLING(2.8)
 }
 class ptv_m14tp2: ptv_m14
 {
@@ -60,7 +66,8 @@ class ptv_m14tp2: ptv_m14
     displayName = "M14 TP2";
     magazineWell[] = {"CBA_762x51_M14"};
     magazines[] = {"rtg_20Rnd_762x51"};
-    recoil = "rtg_762n_rifle";
+    RTG_RECOIL_SETUP(m14)
+    RTG_WEAPON_HANDLING(2.8)
 }
 class ptv_m14tp2_des: ptv_m14tp2
 {
@@ -69,7 +76,8 @@ class ptv_m14tp2_des: ptv_m14tp2
     displayName = "M14 TP2 (Tan)";
     magazineWell[] = {"CBA_762x51_M14"};
     magazines[] = {"rtg_20Rnd_762x51"};
-    recoil = "rtg_762n_rifle";
+    RTG_RECOIL_SETUP(m14)
+    RTG_WEAPON_HANDLING(2.8)
 }
 class ptv_m14tp2_wdl: ptv_m14tp2
 {
@@ -78,7 +86,8 @@ class ptv_m14tp2_wdl: ptv_m14tp2
     displayName = "M14 TP2 (Green)";
     magazineWell[] = {"CBA_762x51_M14"};
     magazines[] = {"rtg_20Rnd_762x51"};
-    recoil = "rtg_762n_rifle";
+    RTG_RECOIL_SETUP(m14)
+    RTG_WEAPON_HANDLING(2.8)
 }
 
 class rtg_m14_fizz : ptv_m14tp

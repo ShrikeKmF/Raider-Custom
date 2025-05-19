@@ -12,7 +12,8 @@
 	class JCA_arifle_M16A4_base_F: Rifle_Base_F
 	{
 		M4_Family_Base
-		recoil = "rtg_556_rifle";
+		RTG_RECOIL(m16a4_556)
+		RTG_WEAPON_HANDLING(2.3)
 	};
 	class JCA_arifle_M16A4_FG_base_F: JCA_arifle_M16A4_base_F{RTG_ACEAX_EMPTY};
 	class JCA_arifle_M16A4_GL_base_F: JCA_arifle_M16A4_base_F{RTG_ACEAX_EMPTY};
@@ -70,7 +71,8 @@
 	class JCA_arifle_M4A1_base_F: Rifle_Base_F
 	{
 		M4_Family_Base
-		recoil = "rtg_556_carbine";
+		RTG_RECOIL(m4a1_556)
+		RTG_WEAPON_HANDLING(2.0)
 	};
 	class JCA_arifle_M4A1_GL_base_F: JCA_arifle_M4A1_base_F{RTG_ACEAX_EMPTY};
 	class JCA_arifle_M4A1_short_base_F: JCA_arifle_M4A1_base_F{RTG_ACEAX_EMPTY};
@@ -160,7 +162,8 @@
 		RTG_WEAPON_BASE
 		baseWeapon = "RTG_M4A1_9_Black_F";
 		displayName = "M4A1 9mm (Black)";
-		recoil = "rtg_9mm_primary";
+		RTG_RECOIL(m4a1_9)
+		RTG_WEAPON_HANDLING(1.8)
 		magazineWell[] = {"RTG_9x19"};
 		magazines[] = {"rtg_9mm_35Rnd_mag"};
 		RTG_M4A1_9_Sounds
@@ -171,7 +174,8 @@
 		RTG_WEAPON_BASE
 		baseWeapon = "RTG_M4A1_9_GL_Black_F";
 		displayName = "M4A1 9mm GL (Black)";
-		recoil = "rtg_9mm_primary";
+		RTG_RECOIL(m4a1_9)
+		RTG_WEAPON_HANDLING(1.8)
 		magazineWell[] = {"RTG_9x19"};
 		magazines[] = {"rtg_9mm_35Rnd_mag"};
 		RTG_M4A1_9_Sounds
@@ -182,7 +186,8 @@
 		RTG_WEAPON_BASE
 		baseWeapon = "RTG_M4A1_9_Short_Black_F";
 		displayName = "M4A1 9mm CQB (Black)";
-		recoil = "rtg_9mm_primary";
+		RTG_RECOIL(m4a1_9)
+		RTG_WEAPON_HANDLING(1.8)
 		magazineWell[] = {"RTG_9x19"};
 		magazines[] = {"rtg_9mm_35Rnd_mag"};
 		RTG_M4A1_9_Sounds
@@ -194,7 +199,8 @@
 		RTG_WEAPON_BASE
 		baseWeapon = "RTG_M4A1_9_Sand_F";
 		displayName = "M4A1 9mm (Sand)";
-		recoil = "rtg_9mm_primary";
+		RTG_RECOIL(m4a1_9)
+		RTG_WEAPON_HANDLING(1.8)
 		magazineWell[] = {"RTG_9x19"};
 		magazines[] = {"rtg_9mm_35Rnd_mag"};
 		RTG_M4A1_9_Sounds
@@ -205,7 +211,8 @@
 		RTG_WEAPON_BASE
 		baseWeapon = "RTG_M4A1_9_GL_Sand_F";
 		displayName = "M4A1 9mm GL (Sand)";
-		recoil = "rtg_9mm_primary";
+		RTG_RECOIL(m4a1_9)
+		RTG_WEAPON_HANDLING(1.8)
 		magazineWell[] = {"RTG_9x19"};
 		magazines[] = {"rtg_9mm_35Rnd_mag"};
 		RTG_M4A1_9_Sounds
@@ -216,7 +223,8 @@
 		RTG_WEAPON_BASE
 		baseWeapon = "RTG_M4A1_9_Short_Sand_F";
 		displayName = "M4A1 9mm CQB (Sand)";
-		recoil = "rtg_9mm_primary";
+		RTG_RECOIL(m4a1_9)
+		RTG_WEAPON_HANDLING(1.8)
 		magazineWell[] = {"RTG_9x19"};
 		magazines[] = {"rtg_9mm_35Rnd_mag"};
 		RTG_M4A1_9_Sounds
@@ -228,7 +236,8 @@
 		RTG_WEAPON_BASE
 		baseWeapon = "RTG_M4A1_9_Olive_F";
 		displayName = "M4A1 9mm GL (Olive)";
-		recoil = "rtg_9mm_primary";
+		RTG_RECOIL(m4a1_9)
+		RTG_WEAPON_HANDLING(1.8)
 		magazineWell[] = {"RTG_9x19"};
 		magazines[] = {"rtg_9mm_35Rnd_mag"};
 		RTG_M4A1_9_Sounds
@@ -239,7 +248,8 @@
 		RTG_WEAPON_BASE
 		baseWeapon = "RTG_M4A1_9_GL_Olive_F";
 		displayName = "M4A1 9mm GL (Olive)";
-		recoil = "rtg_9mm_primary";
+		RTG_RECOIL(m4a1_9)
+		RTG_WEAPON_HANDLING(1.8)
 		magazineWell[] = {"RTG_9x19"};
 		magazines[] = {"rtg_9mm_35Rnd_mag"};
 		RTG_M4A1_9_Sounds
@@ -250,7 +260,8 @@
 		RTG_WEAPON_BASE
 		baseWeapon = "RTG_M4A1_9_Short_Olive_F";
 		displayName = "M4A1 9mm CQB (Olive)";
-		recoil = "rtg_9mm_primary";
+		RTG_RECOIL(m4a1_9)
+		RTG_WEAPON_HANDLING(1.8)
 		magazineWell[] = {"RTG_9x19"};
 		magazines[] = {"rtg_9mm_35Rnd_mag"};
 		RTG_M4A1_9_Sounds
@@ -262,7 +273,8 @@
 	class JCA_arifle_M4A4_base_F: Rifle_Base_F
 	{
 		M4_Family_Base
-		recoil = "rtg_556_carbine";
+		RTG_RECOIL(m4a4_556)
+		RTG_WEAPON_HANDLING(1.88)
 	};
 	class JCA_arifle_M4A4_AFG_base_F: JCA_arifle_M4A4_base_F{RTG_ACEAX_EMPTY};
 	class JCA_arifle_M4A4_VFG_base_F: JCA_arifle_M4A4_base_F{RTG_ACEAX_EMPTY};
@@ -324,7 +336,8 @@
 	{
 		class XtdGearInfo { model = "ACWP_M4A1_105"; camo = "black"; grip = "none"; };
 		RTG_WEAPON_BASE
-		recoil = "rtg_556_carbine";
+		RTG_RECOIL_SETUP(m4a5_105_556)
+		RTG_WEAPON_HANDLING(1.8)
 	};
 	class ACWP_M4A5_105_troy_base_BLK: ACWP_M4A5_105_troy_base
 	{
@@ -526,7 +539,8 @@
 	class ACWP_M4A5_145_ris_base: ACWP_M4A5_base
 	{
 		RTG_WEAPON_BASE
-		recoil = "rtg_556_rifle";
+		RTG_RECOIL_SETUP(m4a5_145_556)
+		RTG_WEAPON_HANDLING(1.9)
 		class XtdGearInfo { model = "ACWP_M4A1_145"; camo = "black"; grip = "none"; rail = "ris"; };
 	};
 	class ACWP_M4A5_145_ris_base_don: ACWP_M4A5_145_ris_base
@@ -851,13 +865,15 @@
 	class Tier1_HK416D10_LMT: Tier1_HK416D145_LMT
 	{
 		M4_Family_Base
-		recoil = "rtg_556_carbine";
+		RTG_RECOIL_SETUP(sr16_crb_556)
+		RTG_WEAPON_HANDLING(1.8)
 	};
 	class Tier1_SR16_CQB_Mod2_CTR_FDE: Tier1_HK416D10_LMT
 	{
 		class XtdGearInfo { model = "rtg_ace_expanded_sr16"; camo="CYT"; stock="CTR";barrel="CQB";};
 		RTG_WEAPON_BASE
-		recoil = "rtg_556_pdw";
+		RTG_RECOIL_SETUP(sr16_cqb_556)
+		RTG_WEAPON_HANDLING(1.7)
 	};
 	class Tier1_SR16_CQB_Mod2_CTR_Black: Tier1_SR16_CQB_Mod2_CTR_FDE
 	{
@@ -897,7 +913,8 @@
 	class Tier1_SR16_Carbine_Mod2_CTR_FDE: Tier1_HK416D145_LMT
 	{
 		class XtdGearInfo { model = "rtg_ace_expanded_sr16"; camo="CYT"; stock="CTR";barrel="MR";};
-		recoil = "rtg_556_carbine";
+		RTG_RECOIL_SETUP(sr16_crb_556)
+		RTG_WEAPON_HANDLING(1.8)
 		RTG_WEAPON_BASE
 	};
 	class Tier1_SR16_Carbine_Mod2_CTR_Black: Tier1_SR16_Carbine_Mod2_CTR_FDE
@@ -936,19 +953,3 @@
 		RTG_WEAPON_BASE
 	};
 	
-
-// NIARMS
-	// 700 Series
-
-
-	// A1
-
-
-	// A2/A3
-
-
-	// Honey Badger
-
-
-	// LAR
-

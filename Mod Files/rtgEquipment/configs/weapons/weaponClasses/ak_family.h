@@ -7,10 +7,11 @@ class rtg_vs121 : srifle_DMR_01_F
 	
 	displayName = "VS-121 50BW";
 	baseWeapon = "rtg_vs121";
+    RTG_WEAPON_HANDLING(2.4)
 	hiddenSelections[] = {"camo1","camo2"};
 	hiddenSelectionsTextures[] = {"\a3\weapons_f_epa\longrangerifles\dmr_01\data\dmr_01_co.paa","rtgEquipment\tex\vs121.paa"};
 	magazineWell[] = {"rtg_50_bw_STANAG"};
-	recoil = "rtg_50bw_rifle";
+	RTG_RECOIL(vs121)
 	magazines[] = {"rtg_10rnd_10bw"};
 };
 
@@ -20,10 +21,11 @@ class rtg_svd : rhs_weap_svds
     RTG_WEAPON_BASE
     displayName="SVD";
     baseWeapon = "rtg_svd";
+    RTG_WEAPON_HANDLING(2.2)
     model="rtgEquipment\lods\svd\SVD_F.p3d";
     magazineWell[] = {"CBA_762x51_M14"};
     magazines[] = {"rtg_20Rnd_762x51"};
-    recoil = "rtg_762n_rifle";
+    RTG_RECOIL(svd)
     class WeaponSlotsInfo: WeaponSlotsInfo
     {
         class CowsSlot: asdg_OpticRail1913{};
@@ -39,7 +41,7 @@ class rtg_AK19_F : arifle_AK12_F
     baseWeapon = "rtg_AK19_F";
     magazineWell[] = {"CBA_556x45_STANAG"};
     magazines[] = {"rtg_30rnd_556_45"};
-    recoil = "rtg_556_carbine";
+    RTG_RECOIL(ak19)
     model="rtgEquipment\lods\AK19\AK19_F.p3d";
     picture="\A3\Weapons_F_Exp\Rifles\AK12\Data\UI\icon_arifle_AK12_F_X_CA.paa";
     handAnim[]=
@@ -70,7 +72,8 @@ class rtg_ak308 : rtg_AK19_F
     baseWeapon = "rtg_ak308";
     magazineWell[] = {"CBA_762x51_M14"};
     magazines[] = {"rtg_20Rnd_762x51"};
-    recoil = "rtg_762n_rifle";
+    RTG_RECOIL(ak308)
+    RTG_WEAPON_HANDLING(2.8)
     model="rtgEquipment\lods\AK308\AK308_F.p3d";
     picture="\A3\Weapons_F_Exp\Rifles\AK12\Data\UI\icon_arifle_AK12_F_X_CA.paa";
     handAnim[]=
@@ -218,83 +221,6 @@ class rtg_ak308 : rtg_AK19_F
     };
 }
 
-class arifle_RPK12_F;
-class rtg_RPK19_F : arifle_RPK12_F
-{
-    RTG_WEAPON_BASE
-    displayName="RPK-19";
-    baseWeapon = "rtg_RPK19_F";
-    magazineWell[] = {"CBA_556x45_STANAG"};
-    magazines[] = {"rtg_100rnd_556_45"};
-    recoil = "rtg_556_lmg";
-    model="rtgEquipment\lods\RPK19\RPK19_F.p3d";
-    class WeaponSlotsInfo: WeaponSlotsInfo
-    {
-        class MuzzleSlot: asdg_MuzzleSlot{};
-        class CowsSlot: asdg_OpticRail1913{};
-        class PointerSlot: asdg_FrontSideRail{};
-    };
-}
-
-// AK 100 Series
-class rhs_weap_ak103_zenitco01_b33;
-class rtg_AK101_F : rhs_weap_ak103_zenitco01_b33
-{
-    RTG_WEAPON_BASE
-    displayName="AK-101";
-    baseWeapon = "rtg_AK101_F";
-    magazineWell[] = {"CBA_556x45_STANAG"};
-    magazines[] = {"rtg_30rnd_556_45"};
-    recoil = "rtg_556_rifle";
-    model="rtgEquipment\lods\AK101\AK101_F.p3d";
-    class WeaponSlotsInfo: WeaponSlotsInfo
-    {
-        class MuzzleSlot: asdg_MuzzleSlot{};
-        class CowsSlot: asdg_OpticRail1913{};
-        class PointerSlot: asdg_FrontSideRail{};
-        class UnderBarrelSlot : rtgClearUnderBarrel{};
-        class GripodSlot : rtgClearUnderBarrel{};
-        mass=79;
-    };
-}
-
-class rhs_weap_ak105_zenitco01_b33;
-class rtg_AK102_F : rhs_weap_ak105_zenitco01_b33
-{
-    RTG_WEAPON_BASE
-    displayName="AK-102";
-    baseWeapon = "rtg_AK102_F";
-    magazineWell[] = {"CBA_556x45_STANAG"};
-    magazines[] = {"rtg_30rnd_556_45"};
-    recoil = "rtg_556_carbine";
-    model="rtgEquipment\lods\AK102\AK102_F.p3d";
-    class WeaponSlotsInfo: WeaponSlotsInfo
-    {
-        class MuzzleSlot: asdg_MuzzleSlot{};
-        class CowsSlot: asdg_OpticRail1913{};
-        class PointerSlot: asdg_FrontSideRail{};
-        class UnderBarrelSlot : rtgClearUnderBarrel{};
-        class GripodSlot : rtgClearUnderBarrel{};
-        mass=66;
-    };
-}
-
-class rhs_weap_aks74u;
-class rtg_AKS102U_F : rhs_weap_aks74u
-{
-    RTG_WEAPON_BASE
-    displayName="AKS-102U";
-    baseWeapon = "rtg_AKS102U_F";
-    magazineWell[] = {"CBA_556x45_STANAG"};
-    magazines[] = {"rtg_30rnd_556_45"};
-    recoil = "rtg_556_pdw";
-    model="rtgEquipment\lods\AKS102U\AKS102U_F.p3d";
-    class WeaponSlotsInfo: WeaponSlotsInfo
-    {
-        class MuzzleSlot: asdg_MuzzleSlot_556{};
-        class CowsSlot: asdg_OpticRail1913{};
-    };
-}
 
 // AS Val
 class rhs_weap_asval;
@@ -305,7 +231,8 @@ class rtg_asval : rhs_weap_asval
     baseWeapon = "rtg_asval";
     magazineWell[] = {"CBA_300BLK_STANAG"};
     magazines[] = {"rtg_30rnd_300_blk"};
-    recoil = "rtg_300_pdw";
+    RTG_RECOIL(asval)
+    RTG_WEAPON_HANDLING(1.6)
     model="rtgEquipment\lods\ASVAL\ASVAL_F.p3d";
     handAnim[]	= {"OFP2_ManSkeleton","\rhsafrf\addons\rhs_c_weapons\anims\rhs_hand_asval_grip.rtm"};
     class WeaponSlotsInfo: WeaponSlotsInfo
@@ -317,55 +244,108 @@ class rtg_asval : rhs_weap_asval
     };
 }
 
-class rtg_vssm : rtg_asval
+// .300blk
+// AK103
+class rhs_weap_ak103_zenitco01_b33;
+class rtg_ak103 : rhs_weap_ak103_zenitco01_b33
 {
     RTG_WEAPON_BASE
-    displayName="VSSM Vintorez";
-    baseWeapon = "rtg_vssm";
-    magazineWell[] = {"CBA_762x51_M14"};
-    magazines[] = {"rtg_20Rnd_762x51"};
-    recoil = "rtg_762n_rifle";
-    model = "rtgEquipment\lods\VSSM\VSSM_F.p3d";
-    handAnim[]	= {"OFP2_ManSkeleton","\rhsafrf\addons\rhs_c_weapons\anims\rhs_hand_asval.rtm"};
-    modes[] = {"Single"};
-    class Single: Single
-    {
-        sounds[]=
-        {
-            "StandardSound"
-        };
-        class BaseSoundModeType
-        {
-            weaponSoundEffect="DefaultRifle";
-            closure1[]=
-            {
-                "\hlc_WP_FAL\snd\fal_first",
-                1,
-                1,
-                10
-            };
-            closure2[]=
-            {
-                "\hlc_WP_FAL\snd\fal_first",
-                1,
-                1,
-                10
-            };
-            soundClosure[]=
-            {
-                "closure1",
-                0.5,
-                "closure2",
-                0.5
-            };
-        };
-        class StandardSound: BaseSoundModeType
-        {
-            soundSetShot[]=
-            {
-                "FAL_silencerShot_SoundSet",
-                "FAL_silencerTail_SoundSet"
-            };
-        };
-    };
+    displayName="AK103 (Zenitco)";
+    baseWeapon = "rtg_ak103";
+    magazineWell[] = {"CBA_300BLK_STANAG_AK"};
+    magazines[] = {"rtg_30rnd_300_blk_ak"};
+    RTG_RECOIL(ak103)
+    RTG_WEAPON_HANDLING(2.4)
 }
+
+// AK104
+class rhs_weap_ak104_zenitco01_b33;
+class rtg_ak104 : rhs_weap_ak104_zenitco01_b33
+{
+    RTG_WEAPON_BASE
+    displayName="AK104 (Zenitco)";
+    baseWeapon = "rtg_ak104";
+    magazineWell[] = {"CBA_300BLK_STANAG_AK"};
+    magazines[] = {"rtg_30rnd_300_blk_ak"};
+    RTG_RECOIL(ak104)
+    RTG_WEAPON_HANDLING(2.2)
+}
+
+// AKM
+class rhs_weap_akm_zenitco01_b33;
+class rtg_akm : rhs_weap_akm_zenitco01_b33
+{
+    RTG_WEAPON_BASE
+    displayName="AKM (Zenitco)";
+    baseWeapon = "rtg_akm";
+    magazineWell[] = {"CBA_300BLK_STANAG_AK"};
+    magazines[] = {"rtg_30rnd_300_blk_ak"};
+    RTG_RECOIL(akm)
+    RTG_WEAPON_HANDLING(2.6)
+}
+
+// 5.56
+// AK105
+class rhs_weap_ak105_zenitco01_b33;
+class rtg_ak105 : rhs_weap_ak105_zenitco01_b33
+{
+    RTG_WEAPON_BASE
+    displayName="AK105 (Zenitco)";
+    baseWeapon = "rtg_ak105";
+    magazineWell[] = {"CBA_556x45_STANAG_AK"};
+    magazines[] = {"rtg_30rnd_556_45_ak"};
+    RTG_RECOIL(ak105)
+    RTG_WEAPON_HANDLING(2.2)
+}
+
+// AK74M
+class rhs_weap_ak74m_zenitco01_b33;
+class rtg_ak74m : rhs_weap_ak74m_zenitco01_b33
+{
+    RTG_WEAPON_BASE
+    displayName="AK74M (Zenitco)";
+    baseWeapon = "rtg_ak74m";
+    magazineWell[] = {"CBA_556x45_STANAG_AK"};
+    magazines[] = {"rtg_30rnd_556_45_ak"};
+    RTG_RECOIL(ak74m)
+    RTG_WEAPON_HANDLING(2.6)
+}
+
+// AK74MR
+class rhs_weap_ak74mr;
+class rtg_ak74mr : rhs_weap_ak74mr
+{
+    RTG_WEAPON_BASE
+    displayName="AK74MR (Zenitco)";
+    baseWeapon = "rtg_ak74mr";
+    magazineWell[] = {"CBA_556x45_STANAG_AK"};
+    magazines[] = {"rtg_30rnd_556_45_ak"};
+    RTG_RECOIL(ak74mr)
+    RTG_WEAPON_HANDLING(2.6)
+}
+
+class rhs_weap_rpk74m_npz;
+class rtg_rpk74m : rhs_weap_rpk74m_npz
+{
+    RTG_WEAPON_BASE
+    displayName="RPK74M (Zenitco)";
+    baseWeapon = "rtg_rpk74m";
+    magazineWell[] = {"CBA_556x45_STANAG_HBAR_AK"};
+    magazines[] = {"rtg_60rnd_556_45_ak"};
+    RTG_RECOIL(rpk74m_556)
+    RTG_WEAPON_HANDLING(2.9)
+}
+
+class rhs_weap_rpk74m_npz;
+class rtg_rpk74m_300 : rhs_weap_rpk74m_npz
+{
+    RTG_WEAPON_BASE
+    displayName="RPK74M (300BLK/Zenitco)";
+    baseWeapon = "rtg_rpk74m_300";
+    magazineWell[] = {"CBA_300BLK_STANAG_RPK"};
+    magazines[] = {"rtg_80rnd_300_blk_ak"};
+    RTG_RECOIL(rpk74m_300)
+    RTG_WEAPON_HANDLING(2.9)
+}
+
+

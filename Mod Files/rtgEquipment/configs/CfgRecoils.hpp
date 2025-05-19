@@ -1,6 +1,58 @@
 class cfgRecoils
 {
+	// https://community.bistudio.com/wiki/Arma_3:_CfgRecoils
+	/*
+		would you like your weapon to kick more to the right? Increase Horizontal Axis Position value of muzzleOuter.
+		would you like your weapon to kick more upwards? Increase Vertical Axis Position value of muzzleOuter.
+		would you like your weapon to jump left and right more randomly? Increase Horizontal Magnitude value of muzzleOuter.
+		would you like your weapon to jump up and down more randomly? Increase Vertical Magnitude value of muzzleOuter.
+		would you like your weapon to climb up more? Increase permanent.
+		would you like your weapon to shake more in your hands? Increase temporary.
+		would you like your weapon to kick back more? Increase kickBack.
+	*/
+
+	/* 
+		Strength Calculation
+		Use the calibre and the Velocity to figure out the recoil
+
+		bullpup = -0.02
+
+		5.56 = 0.4 ± 0.05
+		50bw = 0.998 ± 0.111
+		300blk = 0.565 ± 0.063
+		7.62 = 0.785 ± 0.087
+		.277 = 0.605 ± 0.067
+		9mm = 0.307 ± 0.034
+		.45 = 0.43 ± 0.048
+		.40 = 0.368 ± 0.041
+		.50 = 0.728 ± 0.081
+		5.7x28mm = 0.266 ± 0.03
+
+		RTG_RECOIL_SETUP(name, leftRightPercentage, upDownPercentage, strength, shake)
+*/
+
 	class recoil_default;
+
+	#include "weapons/recoils/ak_family.h"
+	#include "weapons/recoils/aug.h"
+	#include "weapons/recoils/extra.h"
+	#include "weapons/recoils/f2000.h"
+	#include "weapons/recoils/fn_mag.h"
+	#include "weapons/recoils/g36.h"
+	#include "weapons/recoils/grot.h"
+	#include "weapons/recoils/hk416.h"
+	#include "weapons/recoils/hk417.h"
+	#include "weapons/recoils/l85A2.h"
+	#include "weapons/recoils/m4_family.h"
+	#include "weapons/recoils/m14.h"
+	#include "weapons/recoils/m249.h"
+	#include "weapons/recoils/m416.h"
+	#include "weapons/recoils/mcx.h"
+	#include "weapons/recoils/mp5.h"
+	#include "weapons/recoils/ngsw.h"
+	#include "weapons/recoils/p90.h"
+
+
 // 5.56mm
 	// Rifle 
 	class rtg_556_rifle : recoil_default

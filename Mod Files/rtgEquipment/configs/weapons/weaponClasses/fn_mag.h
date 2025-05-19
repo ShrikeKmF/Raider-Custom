@@ -8,7 +8,8 @@ class rtg_mag60_20 : rhs_weap_m240G
 	displayName = "FN M240B";
 	magazineWell[] = {"CBA_762x51_LINKS"};
 	magazines[] = {"rtg_200Rnd_762x51"};
-	recoil = "rtg_762n_mmg";
+	RTG_RECOIL(fn_mag_762)
+	RTG_WEAPON_HANDLING(3.6)
 	modes[] = {"FullAuto"};
 	AB_barrelTwist = 12;
 	AB_barrelLength = 17;
@@ -20,7 +21,6 @@ class rtg_mag60_20 : rhs_weap_m240G
 	cse_bipod = 1;
 	tmr_autorest_deployable = 1;
 	TMR_acc_bipod = 1;
-	inertia = 0.92;
 	class FullAuto : manual
 	{
 		reloadTime = 0.070588;
@@ -50,7 +50,8 @@ class rtg_mag60_20_t3 : rhs_weap_fnmag
 	displayName = "FN MAG 60-20";
 	magazineWell[] = {"CBA_762x51_LINKS"};
 	magazines[] = {"rtg_200Rnd_762x51"};
-	recoil = "rtg_762n_mmg";
+	RTG_RECOIL(fn_mag_762)
+	RTG_WEAPON_HANDLING(3.6)
 	modes[] = {"FullAuto"};
 	AB_barrelTwist = 12;
 	AB_barrelLength = 17;
@@ -62,7 +63,6 @@ class rtg_mag60_20_t3 : rhs_weap_fnmag
 	cse_bipod = 1;
 	tmr_autorest_deployable = 1;
 	TMR_acc_bipod = 1;
-	inertia = 0.95;
 	class FullAuto : manual
 	{
 		reloadTime = 0.070588;
@@ -90,7 +90,8 @@ class rtg_mag10_10 : rtg_mag60_20
 	baseWeapon = "rtg_mag10_10";
 	
 	displayName = "FN MAG 10-10";
-	recoil = "rtg_762n_lmg";
+	RTG_RECOIL(fn_mag_762_short)
+	RTG_WEAPON_HANDLING(2.9)
 	model = "rtgEquipment\lods\MAG\MAG_F";
 	modes[] = {"FullAuto"};
 	AB_barrelTwist = 12;
@@ -103,7 +104,6 @@ class rtg_mag10_10 : rtg_mag60_20
 	cse_bipod = 0;
 	tmr_autorest_deployable = 1;
 	TMR_acc_bipod = 0;
-	inertia = 0.85;
 	class FullAuto : manual
 	{
 		reloadTime = 0.1;
@@ -141,7 +141,8 @@ class rtg_mag10_10_277 : rtg_mag10_10
 	RTG_WEAPON_BASE
 	baseWeapon = "rtg_mag10_10_277";
 	displayName = "FN MAG 10-10 (.277)";
-	recoil = "rtg_68_mmg";
+	RTG_RECOIL(fn_mag_277_short)
+	RTG_WEAPON_HANDLING(2.9)
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_mag60";
@@ -162,7 +163,8 @@ class rtg_m240B_277 : rtg_mag60_20
 	RTG_WEAPON_BASE
 	baseWeapon = "rtg_mag60_20_277";
 	displayName = "FN M240B (.277)";
-	recoil = "rtg_68_mmg";
+	RTG_RECOIL(fn_mag_277)
+	RTG_WEAPON_HANDLING(3.6)
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_mag60";
@@ -182,7 +184,8 @@ class rtg_mag60_20_t3_277 : rtg_mag60_20_t3
 	RTG_WEAPON_BASE
 	baseWeapon = "rtg_mag60_20_t3_277";
 	displayName = "FN MAG 60-20 (.277)";
-	recoil = "rtg_68_mmg";
+	RTG_RECOIL(fn_mag_277)
+	RTG_WEAPON_HANDLING(3.6)
 	class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_mag60";
