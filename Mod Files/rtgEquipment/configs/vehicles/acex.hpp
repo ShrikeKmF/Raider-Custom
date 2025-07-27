@@ -5,7 +5,7 @@ class rtg_ace_expanded_backpack {
     class style
     {
         label = "Backpack Style";
-        values[] = {"carryall", "kitbag", "assault"};
+        values[] = {"carryall", "kitbag"};
         class carryall
         {
             label = "Carryall";
@@ -15,11 +15,6 @@ class rtg_ace_expanded_backpack {
         {
             label = "Kitbag";
             description = "Kitbag";
-        };
-        class assault
-        {
-            label = "Assault Pack";
-            description = "Assault Pack";
         };
     };
     class camo
@@ -68,6 +63,58 @@ class rtg_ace_expanded_backpack {
         };
     };
 };
+
+class rtg_ace_expanded_recon_backpack {
+    label = "Backpack";
+    
+    options[] = {"camo"};
+    class camo
+    {
+        label = "Camo";
+        values[] = {"alpine", "mca", "mcb", "mc", "mct", "tan", "od", "ph"};
+        class alpine
+        {
+            label = "Alpine";
+            description = "Alpine";
+        };
+        class mca
+        {
+            label = "Arid";
+            description = "Arid";
+        };
+        class mcb
+        {
+            label = "Multicam Black";
+            description = "Multicam Black";
+        };
+        class mc
+        {
+            label = "Multicam";
+            description = "Multicam";
+        };
+        class mct
+        {
+            label = "Multicam Tropic";
+            description = "Multicam Tropic";
+        };
+        class tan
+        {
+            label = "Tan";
+            description = "Tan";
+        };
+        class od
+        {
+            label = "Olive Drab";
+            description = "Olive Drab";
+        };
+        class ph
+        {
+            label = "Project Honour";
+            description = "Project Honour";
+        };
+    };
+};
+
 
 class rtg_ace_expanded_radiopack {
     label = "RadioPack";

@@ -22,8 +22,8 @@ class rtg_ltv: rhsusf_m998_d_s_2dr_halftop
 	simulation = "carx";
 	maxSpeed = 90; 
 
-	enginePower = 550;
-	peakTorque = 750;
+	enginePower = 600;
+	peakTorque = 850;
 
 	ace_tagging_canTag = 1;
 	smokeLauncherGrenadeCount = 4;
@@ -78,8 +78,8 @@ class rtg_lsv: rhsusf_m1025_d_m2
 	simulation = "carx";
 	maxSpeed = 90; 
 
-	enginePower = 550;
-	peakTorque = 750;
+	enginePower = 600;
+	peakTorque = 850;
 
 	ace_tagging_canTag = 1;
 	smokeLauncherGrenadeCount = 4;

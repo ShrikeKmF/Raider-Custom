@@ -17,6 +17,7 @@ class CfgPatches
 			// Heli
 			"rtg_Magpie",
 			"rtg_Hawk",
+			"rtg_sparrow",
 			// Crates
 			"rtg_BasicSupply",
 			"rtg_atSupply",
@@ -77,8 +78,14 @@ class CfgVehicles
 {
 	class Components;
 	class SensorTemplatePassiveRadar;
+	class SensorTemplateAntiRadiation;
 	class SensorTemplateActiveRadar;
-	class ActiveRadarSensorComponent;
+	class SensorTemplateIR;
+	class SensorTemplateVisual;
+	class SensorTemplateMan;
+	class SensorTemplateLaser;
+	class SensorTemplateNV;
+	class SensorTemplateDataLink;
 	class Turrets;
 	class HitPoints;
 	class hitwindshield_1;
@@ -93,10 +100,6 @@ class CfgVehicles
 	class CargoTurret_03;
 	class MainTurret;
 	class ViewOptics;
-	class SensorTemplateIR;
-	class SensorTemplateVisual;
-	class SensorTemplateLaser;
-	class SensorTemplateNV;
 	class AnimationSources;
 	class DefaultVehicleSystemsDisplayManagerLeft;
 	class DefaultVehicleSystemsDisplayManagerRight;
@@ -106,22 +109,8 @@ class CfgVehicles
 	#include "Vehicles/magpie.hpp"
 	#include "Vehicles/humvee.hpp"
 	#include "Vehicles/hawk.hpp"
+	#include "Vehicles/sparrow.hpp"
 	#include "Vehicles/boats.hpp"
 	#include "Vehicles/crates.hpp"
 	#include "Vehicles/trucks.hpp"
 };
-
-class cfgMagazines
-{
-	#include "Weapons/air_magazines.hpp"
-}
-
-class CfgMagazineWells
-{
-	#include "Weapons/air_magwells.hpp"
-};
-
-class CfgWeapons
-{
-	#include "Weapons/air_weapons.hpp"
-}

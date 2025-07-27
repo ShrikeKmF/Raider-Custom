@@ -25,6 +25,7 @@ class CfgMagazineWells
 		{
 			"rtg_200Rnd_762x51";
 			"rtg_200Rnd_762x51_t";
+			"rtg_80Rnd_762x51_apds";
 		};
     };
 

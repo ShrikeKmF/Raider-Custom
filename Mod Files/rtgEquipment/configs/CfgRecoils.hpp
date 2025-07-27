@@ -51,6 +51,7 @@ class cfgRecoils
 	#include "weapons/recoils/mp5.h"
 	#include "weapons/recoils/ngsw.h"
 	#include "weapons/recoils/p90.h"
+	#include "weapons/recoils/viking.h"
 
 
 // 5.56mm

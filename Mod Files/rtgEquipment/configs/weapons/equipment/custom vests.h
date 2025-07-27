@@ -4,37 +4,7 @@ class badgerVest : M81_Vest_5 {
 	RTG_WEAPON_BASE
     displayName = "IOTV M81 - Rorey";
     hiddenSelectionsTextures[] = {"\rtgEquipment\tex\BadgerVest.paa"};
-    armor = 10;
-		class ItemInfo: ItemInfo
-    {
-		containerClass = "Supply180";
-        class HitpointsProtectionInfo
-		{
-			class Chest
-			{
-				HitpointName = "HitChest";
-				armor = 10;
-				PassThrough = 0.3;
-			};
-			class Diaphragm
-			{
-				HitpointName = "HitDiaphragm";
-				armor = 10;
-				PassThrough = 0.3;
-			};
-			class Abdomen
-			{
-				hitpointName = "HitAbdomen";
-				armor = 10;
-				passThrough = 0.3;
-			};
-			class Body
-			{
-				hitpointName = "HitBody";
-				passThrough = 0.3;
-			};
-		};
-    };
+	RTG_VEST_ARMOUR
 };
 class patVest : VSM_CarrierRig_Gunner_OGA_OD {
 	RTG_WEAPON_BASE
@@ -49,37 +19,7 @@ class patVest : VSM_CarrierRig_Gunner_OGA_OD {
 		"\rtgEquipment\tex\patVest\radio_pouch_green.paa",
 		"\rtgEquipment\tex\patVest\patPlate.paa"
 	};
-    armor = 10;
-	class ItemInfo: ItemInfo
-    {
-		containerClass = "Supply180";
-        class HitpointsProtectionInfo
-		{
-			class Chest
-			{
-				HitpointName = "HitChest";
-				armor = 10;
-				PassThrough = 0.3;
-			};
-			class Diaphragm
-			{
-				HitpointName = "HitDiaphragm";
-				armor = 10;
-				PassThrough = 0.3;
-			};
-			class Abdomen
-			{
-				hitpointName = "HitAbdomen";
-				armor = 10;
-				passThrough = 0.3;
-			};
-			class Body
-			{
-				hitpointName = "HitBody";
-				passThrough = 0.3;
-			};
-		};
-    };
+    RTG_VEST_ARMOUR
 };
 
 // Shrike
@@ -103,37 +43,7 @@ class shrike_crye : Crye_AVS_3_3_GRY {
 			"MoreAVS\data\Sideplate\GRY_co.paa",
 			"MoreAVS\data\S20\S20_co.paa"
 		};
-    armor = 10;
-		class ItemInfo: ItemInfo
-    {
-		containerClass = "Supply180";
-        class HitpointsProtectionInfo
-		{
-			class Chest
-			{
-				HitpointName = "HitChest";
-				armor = 10;
-				PassThrough = 0.3;
-			};
-			class Diaphragm
-			{
-				HitpointName = "HitDiaphragm";
-				armor = 10;
-				PassThrough = 0.3;
-			};
-			class Abdomen
-			{
-				hitpointName = "HitAbdomen";
-				armor = 10;
-				passThrough = 0.3;
-			};
-			class Body
-			{
-				hitpointName = "HitBody";
-				passThrough = 0.3;
-			};
-		};
-    };
+	RTG_VEST_ARMOUR
 };
 
 class rhsusf_plateframe_medic;
@@ -152,74 +62,14 @@ class torbsVest : rhsusf_plateframe_medic
 		"rhsusf\addons\rhsusf_weapons\mag_proxies\data\rhs_30rn_magpul_drab_co.paa",
 		"rhsusf\addons\rhsusf_weapons3\mk17\data\mk17_co.paa"
 	};
-    	armor = 10;
-		class ItemInfo: ItemInfo
-    {
-		containerClass = "Supply180";
-        class HitpointsProtectionInfo
-		{
-			class Chest
-			{
-				HitpointName = "HitChest";
-				armor = 10;
-				PassThrough = 0.3;
-			};
-			class Diaphragm
-			{
-				HitpointName = "HitDiaphragm";
-				armor = 10;
-				PassThrough = 0.3;
-			};
-			class Abdomen
-			{
-				hitpointName = "HitAbdomen";
-				armor = 10;
-				passThrough = 0.3;
-			};
-			class Body
-			{
-				hitpointName = "HitBody";
-				passThrough = 0.3;
-			};
-		};
-    };
+	RTG_VEST_ARMOUR
 }
 
 class V_press_f;
 class rtg_faris_vest : V_press_f
 {
 	RTG_WEAPON_BASE
-    displayName = "Plateframe - Torbs";
+    displayName = "Streamer Vest - Faris";
 	hiddenSelectionsTextures[] ={"\rtgEquipment\tex\Faris Vest.paa"};
-	armor = 10;
-	class ItemInfo: ItemInfo
-    {
-		containerClass = "Supply180";
-        class HitpointsProtectionInfo
-		{
-			class Chest
-			{
-				HitpointName = "HitChest";
-				armor = 10;
-				PassThrough = 0.3;
-			};
-			class Diaphragm
-			{
-				HitpointName = "HitDiaphragm";
-				armor = 10;
-				PassThrough = 0.3;
-			};
-			class Abdomen
-			{
-				hitpointName = "HitAbdomen";
-				armor = 10;
-				passThrough = 0.3;
-			};
-			class Body
-			{
-				hitpointName = "HitBody";
-				passThrough = 0.3;
-			};
-		};
-    };
+	RTG_VEST_ARMOUR
 }

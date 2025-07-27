@@ -112,6 +112,26 @@ class CfgAmmo
         hit = 19.2;
     };
 
+    // 7.62 NATO
+    // Battle Rifle AP ammo
+    // Non Explosive
+    class rtg_762_apds_nato : rtg_762_nato 
+    {
+        RTG_AMMO_DEFAULTS
+
+        // Ace 3 Bullet Config
+        ACE_caliber = 5.56;
+        ACE_bulletLength = 42.2;
+        ACE_bulletMass = 9.8;
+        ACE_ballisticCoefficients[]={0.65};
+        ACE_muzzleVelocities[] = {1200, 1450, 1605};
+        ACE_barrelLengths[] = {450, 500, 550};
+        
+        // Arma 3 Bullet Config
+        hit = 12.2;
+        caliber = 3.5;
+    };
+
     // .277 Fury
     // Battle Rifle ammo
     // Non Explosive

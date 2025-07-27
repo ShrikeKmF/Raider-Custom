@@ -69,3 +69,37 @@ class ItemInfo: ItemInfo \
         }; \
     }; \
 };
+
+
+#define RTG_VEST_ARMOUR \
+    armor = 10; \
+    class ItemInfo: ItemInfo \
+    { \
+        containerClass = "Supply180"; \
+        class HitpointsProtectionInfo \
+        { \
+            class Chest \
+            { \
+                HitpointName = "HitChest"; \
+                armor = 10; \
+                PassThrough = 0.3; \
+            }; \
+            class Diaphragm \
+            { \
+                HitpointName = "HitDiaphragm"; \
+                armor = 10; \
+                PassThrough = 0.3; \
+            }; \
+            class Abdomen \
+            { \
+                hitpointName = "HitAbdomen"; \
+                armor = 10; \
+                passThrough = 0.3; \
+            }; \
+            class Body \
+            { \
+                hitpointName = "HitBody"; \
+                passThrough = 0.3; \
+            }; \
+        }; \
+    }

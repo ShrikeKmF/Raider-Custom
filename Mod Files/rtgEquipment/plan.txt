@@ -4,15 +4,15 @@ AKs Done
 G36s Done
 M416 Done
 M416 LSW Done
-mp9
-Negev
+Negev Done
 Slugs Done
 AT-4 Done
 AT-4 ER Done
 
 // Stage 3
-HK-416A9
-AR-12g
+mp9
+M416 9mm
+M416 12g
 mp7
 mk11
 sr10

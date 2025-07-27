@@ -1,31 +1,36 @@
 // Kim
-class B_Soldier_F;
-class rtg_kimUniform_soldier: B_Soldier_F
+class VSM_Scorpion_Crye_SS_grey_shirt_Uniform;
+class rtg_kimUniform_soldier: VSM_Scorpion_Crye_SS_grey_shirt_Uniform
 {
-	_generalMacro = "B_soldier_F";
 	scope = 2;
 	displayName = "[RTG] Kim (Crye Tan Shirt)";
-	model = "a3\characters_f\blufor\b_soldier_01.p3d";
 	uniformClass = "rtg_kimUniform";
 	hiddenSelections[] = {"Camo"};
 	hiddenSelectionsTextures[] ={"\rtgEquipment\tex\kimUniform.paa"};
-	hiddenSelectionsMaterials[] = {"VSM_ProjectHonor\Data\VSM_ARD.RVMAT"};
+	identityTypes[] = {"Head_NATO","G_NATO_default"};
+	genericNames = "NATOMen";
+	faction = "NATO";
 };
 
-class ptv_u_g3cw_serpwdl_brwgry;
-class rtg_samUniform_soldier: ptv_u_g3cw_serpwdl_brwgry
+class ptv_s_g3cw_serpwdl_brwgry;
+class rtg_samUniform_soldier: ptv_s_g3cw_serpwdl_brwgry
 {
 	author = "Shrike";
-	uniformClass = "samUniform";
+	uniformClass = "rtg_samUniform";
 	scope = 2;
 	displayName = "[RTG] Sam (PTV Jacket)";
+	identityTypes[] = {"Head_NATO","G_NATO_default"};
+	genericNames = "NATOMen";
+	faction = "NATO";
+	hiddenSelections[] = {"Camo1","Camo2"};
+  	hiddenSelectionsTextures[] = {"\rtgEquipment\tex\ptv_jacket_gry_co.paa","\ptv_characters\uniforms\data\G3_PANT_SERP_CO.paa"};
 };
 
 class VSM_Multicam_Crye_Uniform;
 class amcu_uniform : VSM_Multicam_Crye_Uniform
 {
 	_generalMacro = "B_soldier_F";
-	RTG_WEAPON_BASE
+	scope = 2;
     uniformClass = "amcu_uniform";
     hiddenSelections[] = {"Camo","Insignia"};
     displayName = "[VSM] AMCU (Crye)";

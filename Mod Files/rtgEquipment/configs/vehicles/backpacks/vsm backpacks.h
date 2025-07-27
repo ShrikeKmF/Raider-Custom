@@ -28,88 +28,80 @@ class VSM_ProjectHonor_Backpack_Kitbag;
 class rtg_Alpine_Backpack_Compact : Alpine_Backpack_Compact {
     RTG_WEAPON_BASE
     
-    maximumLoad = 350;
+    maximumLoad = 170;
     class XtdGearInfo
 	{
-		model = "rtg_ace_expanded_backpack";
-		style = "assault";
+		model = "rtg_ace_expanded_recon_backpack";
 		camo = "alpine";
 	};
 };
 class rtg_Arid_Backpack_Compact : Arid_Backpack_Compact {
     RTG_WEAPON_BASE
     
-    maximumLoad = 350;
+    maximumLoad = 170;
     class XtdGearInfo
 	{
-		model = "rtg_ace_expanded_backpack";
-		style = "assault";
+		model = "rtg_ace_expanded_recon_backpack";
 		camo = "mca";
 	};
 };
 class rtg_Black_Backpack_Compact : Black_Backpack_Compact {
     RTG_WEAPON_BASE
     
-    maximumLoad = 350;
+    maximumLoad = 170;
     class XtdGearInfo
 	{
-		model = "rtg_ace_expanded_backpack";
-		style = "assault";
+		model = "rtg_ace_expanded_recon_backpack";
 		camo = "mcb";
 	};
 };
 class rtg_VSM_Multicam_Backpack_Compact :VSM_Multicam_Backpack_Compact {
     RTG_WEAPON_BASE
     
-    maximumLoad = 350;
+    maximumLoad = 170;
     class XtdGearInfo
 	{
-		model = "rtg_ace_expanded_backpack";
-		style = "assault";
+		model = "rtg_ace_expanded_recon_backpack";
 		camo = "mc";
 	};
 };
 class rtg_VSM_MulticamTropic_Backpack_Compact : VSM_MulticamTropic_Backpack_Compact {
     RTG_WEAPON_BASE
     
-    maximumLoad = 350;
+    maximumLoad = 170;
     class XtdGearInfo
 	{
-		model = "rtg_ace_expanded_backpack";
-		style = "assault";
+		model = "rtg_ace_expanded_recon_backpack";
 		camo = "mct";
 	};
 };
 class rtg_VSM_OGA_Backpack_Compact : VSM_OGA_Backpack_Compact {
     RTG_WEAPON_BASE
     
-    maximumLoad = 350;
+    maximumLoad = 170;
     class XtdGearInfo
 	{
-		model = "rtg_ace_expanded_backpack";
-		style = "assault";
+		model = "rtg_ace_expanded_recon_backpack";
 		camo = "tan";
 	};
 };
 class rtg_VSM_OGA_OD_Backpack_Compact : VSM_OGA_OD_Backpack_Compact {
     RTG_WEAPON_BASE
     
-    maximumLoad = 350;
+    maximumLoad = 170;
     class XtdGearInfo
 	{
-		model = "rtg_ace_expanded_backpack";
-		style = "assault";
+		model = "rtg_ace_expanded_recon_backpack";
 		camo = "od";
 	};
 };
 class rtg_VSM_ProjectHonor_Backpack_Compact : VSM_ProjectHonor_Backpack_Compact {
     RTG_WEAPON_BASE
     
-    maximumLoad = 350;
+    maximumLoad = 170;
     class XtdGearInfo
 	{
-		model = "rtg_ace_expanded_backpack";
-		style = "assault";
+		model = "rtg_ace_expanded_recon_backpack";
 		camo = "ph";
 	};
 };

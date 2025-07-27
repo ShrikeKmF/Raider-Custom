@@ -191,6 +191,20 @@ class CfgMagazines
         mass = 44.1;
     };
 
+    class rtg_80Rnd_762x51_apds : rhsusf_50Rnd_762x51 {
+        
+        ammo = "rtg_762_apds_nato";
+        count = 80;
+        tracersevery = 1;
+        lastroundstracer = 4;
+        descriptionshort = "Raider Tactical AP 7.62mm Ammo";
+        displayname = "[RTG] 80rnd AP 7.62mm MAG";
+        displaynameshort = "80Rnd AP 7.62x51";
+        initSpeed=1100;
+        scope = 2;
+        mass = 44.1;
+    };
+
 // .277 Fury
     class rtg_20Rnd_68x51 : rtg_20Rnd_762x51 {
         

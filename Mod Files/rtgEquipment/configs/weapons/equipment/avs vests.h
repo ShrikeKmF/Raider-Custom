@@ -72,37 +72,7 @@ class rtg_Crye_AVS_1_GRY : Crye_AVS_1_GRY {
 		type =    "assaulter";
 		camo =  "grey";
 	};
-	armor = 10;
-	class ItemInfo: ItemInfo
-	{
-		containerClass = "Supply180";
-		class HitpointsProtectionInfo
-		{
-			class Chest
-			{
-				HitpointName = "HitChest";
-				armor = 10;
-				PassThrough = 0.3;
-			};
-			class Diaphragm
-			{
-				HitpointName = "HitDiaphragm";
-				armor = 10;
-				PassThrough = 0.3;
-			};
-			class Abdomen
-			{
-				hitpointName = "HitAbdomen";
-				armor = 10;
-				passThrough = 0.3;
-			};
-			class Body
-			{
-				hitpointName = "HitBody";
-				passThrough = 0.3;
-			};
-		};
-	};
+		RTG_VEST_ARMOUR
 };
 class rtg_Crye_AVS_1 : Crye_AVS_1 {
 	RTG_WEAPON_BASE
@@ -113,37 +83,7 @@ class rtg_Crye_AVS_1 : Crye_AVS_1 {
 		type =    "assaulter";
 		camo =  "mc";
 	};
-	armor = 10;
-	class ItemInfo: ItemInfo
-	{
-		containerClass = "Supply180";
-		class HitpointsProtectionInfo
-		{
-			class Chest
-			{
-				HitpointName = "HitChest";
-				armor = 10;
-				PassThrough = 0.3;
-			};
-			class Diaphragm
-			{
-				HitpointName = "HitDiaphragm";
-				armor = 10;
-				PassThrough = 0.3;
-			};
-			class Abdomen
-			{
-				hitpointName = "HitAbdomen";
-				armor = 10;
-				passThrough = 0.3;
-			};
-			class Body
-			{
-				hitpointName = "HitBody";
-				passThrough = 0.3;
-			};
-		};
-	};
+		RTG_VEST_ARMOUR
 };
 class rtg_Crye_AVS_1_MCB : Crye_AVS_1_MCB {
 	RTG_WEAPON_BASE
@@ -154,37 +94,7 @@ class rtg_Crye_AVS_1_MCB : Crye_AVS_1_MCB {
 		type =    "assaulter";
 		camo =  "mcb";
 	};
-	armor = 10;
-	class ItemInfo: ItemInfo
-	{
-		containerClass = "Supply180";
-		class HitpointsProtectionInfo
-		{
-			class Chest
-			{
-				HitpointName = "HitChest";
-				armor = 10;
-				PassThrough = 0.3;
-			};
-			class Diaphragm
-			{
-				HitpointName = "HitDiaphragm";
-				armor = 10;
-				PassThrough = 0.3;
-			};
-			class Abdomen
-			{
-				hitpointName = "HitAbdomen";
-				armor = 10;
-				passThrough = 0.3;
-			};
-			class Body
-			{
-				hitpointName = "HitBody";
-				passThrough = 0.3;
-			};
-		};
-	};
+		RTG_VEST_ARMOUR
 };
 class rtg_Crye_AVS_1_MCT : Crye_AVS_1_MCT {
 	RTG_WEAPON_BASE
@@ -195,37 +105,7 @@ class rtg_Crye_AVS_1_MCT : Crye_AVS_1_MCT {
 		type =    "assaulter";
 		camo =  "mct";
 	};
-	armor = 10;
-	class ItemInfo: ItemInfo
-	{
-		containerClass = "Supply180";
-		class HitpointsProtectionInfo
-		{
-			class Chest
-			{
-				HitpointName = "HitChest";
-				armor = 10;
-				PassThrough = 0.3;
-			};
-			class Diaphragm
-			{
-				HitpointName = "HitDiaphragm";
-				armor = 10;
-				PassThrough = 0.3;
-			};
-			class Abdomen
-			{
-				hitpointName = "HitAbdomen";
-				armor = 10;
-				passThrough = 0.3;
-			};
-			class Body
-			{
-				hitpointName = "HitBody";
-				passThrough = 0.3;
-			};
-		};
-	};
+		RTG_VEST_ARMOUR
 };
 class rtg_Crye_AVS_1_RG : Crye_AVS_1_RG {
 	RTG_WEAPON_BASE
@@ -236,37 +116,7 @@ class rtg_Crye_AVS_1_RG : Crye_AVS_1_RG {
 		type =    "assaulter";
 		camo =  "od";
 	};
-	armor = 10;
-	class ItemInfo: ItemInfo
-	{
-		containerClass = "Supply180";
-		class HitpointsProtectionInfo
-		{
-			class Chest
-			{
-				HitpointName = "HitChest";
-				armor = 10;
-				PassThrough = 0.3;
-			};
-			class Diaphragm
-			{
-				HitpointName = "HitDiaphragm";
-				armor = 10;
-				PassThrough = 0.3;
-			};
-			class Abdomen
-			{
-				hitpointName = "HitAbdomen";
-				armor = 10;
-				passThrough = 0.3;
-			};
-			class Body
-			{
-				hitpointName = "HitBody";
-				passThrough = 0.3;
-			};
-		};
-	};
+		RTG_VEST_ARMOUR
 };
 class rtg_Crye_AVS_1_Tan : Crye_AVS_1_Tan {
 	RTG_WEAPON_BASE
@@ -277,37 +127,7 @@ class rtg_Crye_AVS_1_Tan : Crye_AVS_1_Tan {
 		type =    "assaulter";
 		camo =  "tan";
 	};
-	armor = 10;
-	class ItemInfo: ItemInfo
-	{
-		containerClass = "Supply180";
-		class HitpointsProtectionInfo
-		{
-			class Chest
-			{
-				HitpointName = "HitChest";
-				armor = 10;
-				PassThrough = 0.3;
-			};
-			class Diaphragm
-			{
-				HitpointName = "HitDiaphragm";
-				armor = 10;
-				PassThrough = 0.3;
-			};
-			class Abdomen
-			{
-				hitpointName = "HitAbdomen";
-				armor = 10;
-				passThrough = 0.3;
-			};
-			class Body
-			{
-				hitpointName = "HitBody";
-				passThrough = 0.3;
-			};
-		};
-	};
+		RTG_VEST_ARMOUR
 };
 
 class rtg_Crye_AVS_1_1_GRY : Crye_AVS_1_1_GRY {
@@ -319,37 +139,7 @@ class rtg_Crye_AVS_1_1_GRY : Crye_AVS_1_1_GRY {
 		type =    "assaulter";
 		camo =  "grey";
 	};
-	armor = 10;
-	class ItemInfo: ItemInfo
-	{
-		containerClass = "Supply180";
-		class HitpointsProtectionInfo
-		{
-			class Chest
-			{
-				HitpointName = "HitChest";
-				armor = 10;
-				PassThrough = 0.3;
-			};
-			class Diaphragm
-			{
-				HitpointName = "HitDiaphragm";
-				armor = 10;
-				PassThrough = 0.3;
-			};
-			class Abdomen
-			{
-				hitpointName = "HitAbdomen";
-				armor = 10;
-				passThrough = 0.3;
-			};
-			class Body
-			{
-				hitpointName = "HitBody";
-				passThrough = 0.3;
-			};
-		};
-	};
+		RTG_VEST_ARMOUR
 };
 class rtg_Crye_AVS_1_1 : Crye_AVS_1_1 {
 	RTG_WEAPON_BASE
@@ -360,37 +150,7 @@ class rtg_Crye_AVS_1_1 : Crye_AVS_1_1 {
 		type =    "assaulter";
 		camo =  "mc";
 	};
-	armor = 10;
-	class ItemInfo: ItemInfo
-	{
-		containerClass = "Supply180";
-		class HitpointsProtectionInfo
-		{
-			class Chest
-			{
-				HitpointName = "HitChest";
-				armor = 10;
-				PassThrough = 0.3;
-			};
-			class Diaphragm
-			{
-				HitpointName = "HitDiaphragm";
-				armor = 10;
-				PassThrough = 0.3;
-			};
-			class Abdomen
-			{
-				hitpointName = "HitAbdomen";
-				armor = 10;
-				passThrough = 0.3;
-			};
-			class Body
-			{
-				hitpointName = "HitBody";
-				passThrough = 0.3;
-			};
-		};
-	};
+		RTG_VEST_ARMOUR
 };
 class rtg_Crye_AVS_1_1_MCB : Crye_AVS_1_1_MCB {
 	RTG_WEAPON_BASE
@@ -401,37 +161,7 @@ class rtg_Crye_AVS_1_1_MCB : Crye_AVS_1_1_MCB {
 		type =    "assaulter";
 		camo =  "mcb";
 	};
-	armor = 10;
-	class ItemInfo: ItemInfo
-	{
-		containerClass = "Supply180";
-		class HitpointsProtectionInfo
-		{
-			class Chest
-			{
-				HitpointName = "HitChest";
-				armor = 10;
-				PassThrough = 0.3;
-			};
-			class Diaphragm
-			{
-				HitpointName = "HitDiaphragm";
-				armor = 10;
-				PassThrough = 0.3;
-			};
-			class Abdomen
-			{
-				hitpointName = "HitAbdomen";
-				armor = 10;
-				passThrough = 0.3;
-			};
-			class Body
-			{
-				hitpointName = "HitBody";
-				passThrough = 0.3;
-			};
-		};
-	};
+		RTG_VEST_ARMOUR
 };
 class rtg_Crye_AVS_1_1_MCT : Crye_AVS_1_1_MCT {
 	RTG_WEAPON_BASE
@@ -442,37 +172,7 @@ class rtg_Crye_AVS_1_1_MCT : Crye_AVS_1_1_MCT {
 		type =    "assaulter";
 		camo =  "mct";
 	};
-	armor = 10;
-	class ItemInfo: ItemInfo
-	{
-		containerClass = "Supply180";
-		class HitpointsProtectionInfo
-		{
-			class Chest
-			{
-				HitpointName = "HitChest";
-				armor = 10;
-				PassThrough = 0.3;
-			};
-			class Diaphragm
-			{
-				HitpointName = "HitDiaphragm";
-				armor = 10;
-				PassThrough = 0.3;
-			};
-			class Abdomen
-			{
-				hitpointName = "HitAbdomen";
-				armor = 10;
-				passThrough = 0.3;
-			};
-			class Body
-			{
-				hitpointName = "HitBody";
-				passThrough = 0.3;
-			};
-		};
-	};
+		RTG_VEST_ARMOUR
 };
 class rtg_Crye_AVS_1_1_RG : Crye_AVS_1_1_RG {
 	RTG_WEAPON_BASE
@@ -483,37 +183,7 @@ class rtg_Crye_AVS_1_1_RG : Crye_AVS_1_1_RG {
 		type =    "assaulter";
 		camo =  "od";
 	};
-	armor = 10;
-	class ItemInfo: ItemInfo
-	{
-		containerClass = "Supply180";
-		class HitpointsProtectionInfo
-		{
-			class Chest
-			{
-				HitpointName = "HitChest";
-				armor = 10;
-				PassThrough = 0.3;
-			};
-			class Diaphragm
-			{
-				HitpointName = "HitDiaphragm";
-				armor = 10;
-				PassThrough = 0.3;
-			};
-			class Abdomen
-			{
-				hitpointName = "HitAbdomen";
-				armor = 10;
-				passThrough = 0.3;
-			};
-			class Body
-			{
-				hitpointName = "HitBody";
-				passThrough = 0.3;
-			};
-		};
-	};
+		RTG_VEST_ARMOUR
 };
 class rtg_Crye_AVS_1_1_Tan : Crye_AVS_1_1_Tan {
 	RTG_WEAPON_BASE
@@ -524,37 +194,7 @@ class rtg_Crye_AVS_1_1_Tan : Crye_AVS_1_1_Tan {
 		type =    "assaulter";
 		camo =  "tan";
 	};
-	armor = 10;
-	class ItemInfo: ItemInfo
-	{
-		containerClass = "Supply180";
-		class HitpointsProtectionInfo
-		{
-			class Chest
-			{
-				HitpointName = "HitChest";
-				armor = 10;
-				PassThrough = 0.3;
-			};
-			class Diaphragm
-			{
-				HitpointName = "HitDiaphragm";
-				armor = 10;
-				PassThrough = 0.3;
-			};
-			class Abdomen
-			{
-				hitpointName = "HitAbdomen";
-				armor = 10;
-				passThrough = 0.3;
-			};
-			class Body
-			{
-				hitpointName = "HitBody";
-				passThrough = 0.3;
-			};
-		};
-	};
+		RTG_VEST_ARMOUR
 };
 
 class rtg_Crye_AVS_1_2_GRY : Crye_AVS_1_2_GRY {
@@ -566,37 +206,7 @@ class rtg_Crye_AVS_1_2_GRY : Crye_AVS_1_2_GRY {
 		type =    "assaulter";
 		camo =  "grey";
 	};
-	armor = 10;
-	class ItemInfo: ItemInfo
-	{
-		containerClass = "Supply180";
-		class HitpointsProtectionInfo
-		{
-			class Chest
-			{
-				HitpointName = "HitChest";
-				armor = 10;
-				PassThrough = 0.3;
-			};
-			class Diaphragm
-			{
-				HitpointName = "HitDiaphragm";
-				armor = 10;
-				PassThrough = 0.3;
-			};
-			class Abdomen
-			{
-				hitpointName = "HitAbdomen";
-				armor = 10;
-				passThrough = 0.3;
-			};
-			class Body
-			{
-				hitpointName = "HitBody";
-				passThrough = 0.3;
-			};
-		};
-	};
+		RTG_VEST_ARMOUR
 };
 class rtg_Crye_AVS_1_2 : Crye_AVS_1_2 {
 	RTG_WEAPON_BASE
@@ -607,37 +217,7 @@ class rtg_Crye_AVS_1_2 : Crye_AVS_1_2 {
 		type =    "assaulter";
 		camo =  "mc";
 	};
-	armor = 10;
-	class ItemInfo: ItemInfo
-	{
-		containerClass = "Supply180";
-		class HitpointsProtectionInfo
-		{
-			class Chest
-			{
-				HitpointName = "HitChest";
-				armor = 10;
-				PassThrough = 0.3;
-			};
-			class Diaphragm
-			{
-				HitpointName = "HitDiaphragm";
-				armor = 10;
-				PassThrough = 0.3;
-			};
-			class Abdomen
-			{
-				hitpointName = "HitAbdomen";
-				armor = 10;
-				passThrough = 0.3;
-			};
-			class Body
-			{
-				hitpointName = "HitBody";
-				passThrough = 0.3;
-			};
-		};
-	};
+		RTG_VEST_ARMOUR
 };
 class rtg_Crye_AVS_1_2_MCB : Crye_AVS_1_2_MCB {
 	RTG_WEAPON_BASE
@@ -648,37 +228,7 @@ class rtg_Crye_AVS_1_2_MCB : Crye_AVS_1_2_MCB {
 		type =    "assaulter";
 		camo =  "mcb";
 	};
-	armor = 10;
-	class ItemInfo: ItemInfo
-	{
-		containerClass = "Supply180";
-		class HitpointsProtectionInfo
-		{
-			class Chest
-			{
-				HitpointName = "HitChest";
-				armor = 10;
-				PassThrough = 0.3;
-			};
-			class Diaphragm
-			{
-				HitpointName = "HitDiaphragm";
-				armor = 10;
-				PassThrough = 0.3;
-			};
-			class Abdomen
-			{
-				hitpointName = "HitAbdomen";
-				armor = 10;
-				passThrough = 0.3;
-			};
-			class Body
-			{
-				hitpointName = "HitBody";
-				passThrough = 0.3;
-			};
-		};
-	};
+		RTG_VEST_ARMOUR
 };
 class rtg_Crye_AVS_1_2_MCT : Crye_AVS_1_2_MCT {
 	RTG_WEAPON_BASE
@@ -689,37 +239,7 @@ class rtg_Crye_AVS_1_2_MCT : Crye_AVS_1_2_MCT {
 		type =    "assaulter";
 		camo =  "mct";
 	};
-	armor = 10;
-	class ItemInfo: ItemInfo
-	{
-		containerClass = "Supply180";
-		class HitpointsProtectionInfo
-		{
-			class Chest
-			{
-				HitpointName = "HitChest";
-				armor = 10;
-				PassThrough = 0.3;
-			};
-			class Diaphragm
-			{
-				HitpointName = "HitDiaphragm";
-				armor = 10;
-				PassThrough = 0.3;
-			};
-			class Abdomen
-			{
-				hitpointName = "HitAbdomen";
-				armor = 10;
-				passThrough = 0.3;
-			};
-			class Body
-			{
-				hitpointName = "HitBody";
-				passThrough = 0.3;
-			};
-		};
-	};
+		RTG_VEST_ARMOUR
 };
 class rtg_Crye_AVS_1_2_RG : Crye_AVS_1_2_RG {
 	RTG_WEAPON_BASE
@@ -730,37 +250,7 @@ class rtg_Crye_AVS_1_2_RG : Crye_AVS_1_2_RG {
 		type =    "assaulter";
 		camo =  "od";
 	};
-	armor = 10;
-	class ItemInfo: ItemInfo
-	{
-		containerClass = "Supply180";
-		class HitpointsProtectionInfo
-		{
-			class Chest
-			{
-				HitpointName = "HitChest";
-				armor = 10;
-				PassThrough = 0.3;
-			};
-			class Diaphragm
-			{
-				HitpointName = "HitDiaphragm";
-				armor = 10;
-				PassThrough = 0.3;
-			};
-			class Abdomen
-			{
-				hitpointName = "HitAbdomen";
-				armor = 10;
-				passThrough = 0.3;
-			};
-			class Body
-			{
-				hitpointName = "HitBody";
-				passThrough = 0.3;
-			};
-		};
-	};
+		RTG_VEST_ARMOUR
 };
 class rtg_Crye_AVS_1_2_Tan : Crye_AVS_1_2_Tan {
 	RTG_WEAPON_BASE
@@ -771,37 +261,7 @@ class rtg_Crye_AVS_1_2_Tan : Crye_AVS_1_2_Tan {
 		type =    "assaulter";
 		camo =  "tan";
 	};
-	armor = 10;
-	class ItemInfo: ItemInfo
-	{
-		containerClass = "Supply180";
-		class HitpointsProtectionInfo
-		{
-			class Chest
-			{
-				HitpointName = "HitChest";
-				armor = 10;
-				PassThrough = 0.3;
-			};
-			class Diaphragm
-			{
-				HitpointName = "HitDiaphragm";
-				armor = 10;
-				PassThrough = 0.3;
-			};
-			class Abdomen
-			{
-				hitpointName = "HitAbdomen";
-				armor = 10;
-				passThrough = 0.3;
-			};
-			class Body
-			{
-				hitpointName = "HitBody";
-				passThrough = 0.3;
-			};
-		};
-	};
+		RTG_VEST_ARMOUR
 };
 
 class rtg_Crye_AVS_1_3_GRY : Crye_AVS_1_3_GRY {
@@ -813,37 +273,7 @@ class rtg_Crye_AVS_1_3_GRY : Crye_AVS_1_3_GRY {
 		type =    "assaulter";
 		camo =  "grey";
 	};
-	armor = 10;
-	class ItemInfo: ItemInfo
-	{
-		containerClass = "Supply180";
-		class HitpointsProtectionInfo
-		{
-			class Chest
-			{
-				HitpointName = "HitChest";
-				armor = 10;
-				PassThrough = 0.3;
-			};
-			class Diaphragm
-			{
-				HitpointName = "HitDiaphragm";
-				armor = 10;
-				PassThrough = 0.3;
-			};
-			class Abdomen
-			{
-				hitpointName = "HitAbdomen";
-				armor = 10;
-				passThrough = 0.3;
-			};
-			class Body
-			{
-				hitpointName = "HitBody";
-				passThrough = 0.3;
-			};
-		};
-	};
+		RTG_VEST_ARMOUR
 };
 class rtg_Crye_AVS_1_3 : Crye_AVS_1_3 {
 	RTG_WEAPON_BASE
@@ -854,37 +284,7 @@ class rtg_Crye_AVS_1_3 : Crye_AVS_1_3 {
 		type =    "assaulter";
 		camo =  "mc";
 	};
-	armor = 10;
-	class ItemInfo: ItemInfo
-	{
-		containerClass = "Supply180";
-		class HitpointsProtectionInfo
-		{
-			class Chest
-			{
-				HitpointName = "HitChest";
-				armor = 10;
-				PassThrough = 0.3;
-			};
-			class Diaphragm
-			{
-				HitpointName = "HitDiaphragm";
-				armor = 10;
-				PassThrough = 0.3;
-			};
-			class Abdomen
-			{
-				hitpointName = "HitAbdomen";
-				armor = 10;
-				passThrough = 0.3;
-			};
-			class Body
-			{
-				hitpointName = "HitBody";
-				passThrough = 0.3;
-			};
-		};
-	};
+		RTG_VEST_ARMOUR
 };
 class rtg_Crye_AVS_1_3_MCB : Crye_AVS_1_3_MCB {
 	RTG_WEAPON_BASE
@@ -895,37 +295,7 @@ class rtg_Crye_AVS_1_3_MCB : Crye_AVS_1_3_MCB {
 		type =    "assaulter";
 		camo =  "mcb";
 	};
-	armor = 10;
-	class ItemInfo: ItemInfo
-	{
-		containerClass = "Supply180";
-		class HitpointsProtectionInfo
-		{
-			class Chest
-			{
-				HitpointName = "HitChest";
-				armor = 10;
-				PassThrough = 0.3;
-			};
-			class Diaphragm
-			{
-				HitpointName = "HitDiaphragm";
-				armor = 10;
-				PassThrough = 0.3;
-			};
-			class Abdomen
-			{
-				hitpointName = "HitAbdomen";
-				armor = 10;
-				passThrough = 0.3;
-			};
-			class Body
-			{
-				hitpointName = "HitBody";
-				passThrough = 0.3;
-			};
-		};
-	};
+		RTG_VEST_ARMOUR
 };
 class rtg_Crye_AVS_1_3_MCT : Crye_AVS_1_3_MCT {
 	RTG_WEAPON_BASE
@@ -936,37 +306,7 @@ class rtg_Crye_AVS_1_3_MCT : Crye_AVS_1_3_MCT {
 		type =    "assaulter";
 		camo =  "mct";
 	};
-	armor = 10;
-	class ItemInfo: ItemInfo
-	{
-		containerClass = "Supply180";
-		class HitpointsProtectionInfo
-		{
-			class Chest
-			{
-				HitpointName = "HitChest";
-				armor = 10;
-				PassThrough = 0.3;
-			};
-			class Diaphragm
-			{
-				HitpointName = "HitDiaphragm";
-				armor = 10;
-				PassThrough = 0.3;
-			};
-			class Abdomen
-			{
-				hitpointName = "HitAbdomen";
-				armor = 10;
-				passThrough = 0.3;
-			};
-			class Body
-			{
-				hitpointName = "HitBody";
-				passThrough = 0.3;
-			};
-		};
-	};
+		RTG_VEST_ARMOUR
 };
 class rtg_Crye_AVS_1_3_RG : Crye_AVS_1_3_RG {
 	RTG_WEAPON_BASE
@@ -977,37 +317,7 @@ class rtg_Crye_AVS_1_3_RG : Crye_AVS_1_3_RG {
 		type =    "assaulter";
 		camo =  "od";
 	};
-	armor = 10;
-	class ItemInfo: ItemInfo
-	{
-		containerClass = "Supply180";
-		class HitpointsProtectionInfo
-		{
-			class Chest
-			{
-				HitpointName = "HitChest";
-				armor = 10;
-				PassThrough = 0.3;
-			};
-			class Diaphragm
-			{
-				HitpointName = "HitDiaphragm";
-				armor = 10;
-				PassThrough = 0.3;
-			};
-			class Abdomen
-			{
-				hitpointName = "HitAbdomen";
-				armor = 10;
-				passThrough = 0.3;
-			};
-			class Body
-			{
-				hitpointName = "HitBody";
-				passThrough = 0.3;
-			};
-		};
-	};
+		RTG_VEST_ARMOUR
 };
 class rtg_Crye_AVS_1_3_Tan : Crye_AVS_1_3_Tan {
 	RTG_WEAPON_BASE
@@ -1018,37 +328,7 @@ class rtg_Crye_AVS_1_3_Tan : Crye_AVS_1_3_Tan {
 		type =    "assaulter";
 		camo =  "tan";
 	};
-	armor = 10;
-	class ItemInfo: ItemInfo
-	{
-		containerClass = "Supply180";
-		class HitpointsProtectionInfo
-		{
-			class Chest
-			{
-				HitpointName = "HitChest";
-				armor = 10;
-				PassThrough = 0.3;
-			};
-			class Diaphragm
-			{
-				HitpointName = "HitDiaphragm";
-				armor = 10;
-				PassThrough = 0.3;
-			};
-			class Abdomen
-			{
-				hitpointName = "HitAbdomen";
-				armor = 10;
-				passThrough = 0.3;
-			};
-			class Body
-			{
-				hitpointName = "HitBody";
-				passThrough = 0.3;
-			};
-		};
-	};
+		RTG_VEST_ARMOUR
 };
 
 // Gunner
@@ -1061,37 +341,7 @@ class rtg_Crye_AVS_2_GRY : Crye_AVS_2_GRY {
 		type =    "gunner";
 		camo =  "grey";
 	};
-	armor = 10;
-	class ItemInfo: ItemInfo
-	{
-		containerClass = "Supply180";
-		class HitpointsProtectionInfo
-		{
-			class Chest
-			{
-				HitpointName = "HitChest";
-				armor = 10;
-				PassThrough = 0.3;
-			};
-			class Diaphragm
-			{
-				HitpointName = "HitDiaphragm";
-				armor = 10;
-				PassThrough = 0.3;
-			};
-			class Abdomen
-			{
-				hitpointName = "HitAbdomen";
-				armor = 10;
-				passThrough = 0.3;
-			};
-			class Body
-			{
-				hitpointName = "HitBody";
-				passThrough = 0.3;
-			};
-		};
-	};
+		RTG_VEST_ARMOUR
 };
 class rtg_Crye_AVS_2 : Crye_AVS_2 {
 	RTG_WEAPON_BASE
@@ -1102,37 +352,7 @@ class rtg_Crye_AVS_2 : Crye_AVS_2 {
 		type =    "gunner";
 		camo =  "mc";
 	};
-	armor = 10;
-	class ItemInfo: ItemInfo
-	{
-		containerClass = "Supply180";
-		class HitpointsProtectionInfo
-		{
-			class Chest
-			{
-				HitpointName = "HitChest";
-				armor = 10;
-				PassThrough = 0.3;
-			};
-			class Diaphragm
-			{
-				HitpointName = "HitDiaphragm";
-				armor = 10;
-				PassThrough = 0.3;
-			};
-			class Abdomen
-			{
-				hitpointName = "HitAbdomen";
-				armor = 10;
-				passThrough = 0.3;
-			};
-			class Body
-			{
-				hitpointName = "HitBody";
-				passThrough = 0.3;
-			};
-		};
-	};
+		RTG_VEST_ARMOUR
 };
 class rtg_Crye_AVS_2_MCB : Crye_AVS_2_MCB {
 	RTG_WEAPON_BASE
@@ -1143,37 +363,7 @@ class rtg_Crye_AVS_2_MCB : Crye_AVS_2_MCB {
 		type =    "gunner";
 		camo =  "mcb";
 	};
-	armor = 10;
-	class ItemInfo: ItemInfo
-	{
-		containerClass = "Supply180";
-		class HitpointsProtectionInfo
-		{
-			class Chest
-			{
-				HitpointName = "HitChest";
-				armor = 10;
-				PassThrough = 0.3;
-			};
-			class Diaphragm
-			{
-				HitpointName = "HitDiaphragm";
-				armor = 10;
-				PassThrough = 0.3;
-			};
-			class Abdomen
-			{
-				hitpointName = "HitAbdomen";
-				armor = 10;
-				passThrough = 0.3;
-			};
-			class Body
-			{
-				hitpointName = "HitBody";
-				passThrough = 0.3;
-			};
-		};
-	};
+		RTG_VEST_ARMOUR
 };
 class rtg_Crye_AVS_2_MCT : Crye_AVS_2_MCT {
 	RTG_WEAPON_BASE
@@ -1184,37 +374,7 @@ class rtg_Crye_AVS_2_MCT : Crye_AVS_2_MCT {
 		type =    "gunner";
 		camo =  "mct";
 	};
-	armor = 10;
-	class ItemInfo: ItemInfo
-	{
-		containerClass = "Supply180";
-		class HitpointsProtectionInfo
-		{
-			class Chest
-			{
-				HitpointName = "HitChest";
-				armor = 10;
-				PassThrough = 0.3;
-			};
-			class Diaphragm
-			{
-				HitpointName = "HitDiaphragm";
-				armor = 10;
-				PassThrough = 0.3;
-			};
-			class Abdomen
-			{
-				hitpointName = "HitAbdomen";
-				armor = 10;
-				passThrough = 0.3;
-			};
-			class Body
-			{
-				hitpointName = "HitBody";
-				passThrough = 0.3;
-			};
-		};
-	};
+		RTG_VEST_ARMOUR
 };
 class rtg_Crye_AVS_2_RG : Crye_AVS_2_RG {
 	RTG_WEAPON_BASE
@@ -1225,37 +385,7 @@ class rtg_Crye_AVS_2_RG : Crye_AVS_2_RG {
 		type =    "gunner";
 		camo =  "od";
 	};
-	armor = 10;
-	class ItemInfo: ItemInfo
-	{
-		containerClass = "Supply180";
-		class HitpointsProtectionInfo
-		{
-			class Chest
-			{
-				HitpointName = "HitChest";
-				armor = 10;
-				PassThrough = 0.3;
-			};
-			class Diaphragm
-			{
-				HitpointName = "HitDiaphragm";
-				armor = 10;
-				PassThrough = 0.3;
-			};
-			class Abdomen
-			{
-				hitpointName = "HitAbdomen";
-				armor = 10;
-				passThrough = 0.3;
-			};
-			class Body
-			{
-				hitpointName = "HitBody";
-				passThrough = 0.3;
-			};
-		};
-	};
+		RTG_VEST_ARMOUR
 };
 class rtg_Crye_AVS_2_Tan : Crye_AVS_2_Tan {
 	RTG_WEAPON_BASE
@@ -1266,37 +396,7 @@ class rtg_Crye_AVS_2_Tan : Crye_AVS_2_Tan {
 		type =    "gunner";
 		camo =  "tan";
 	};
-	armor = 10;
-	class ItemInfo: ItemInfo
-	{
-		containerClass = "Supply180";
-		class HitpointsProtectionInfo
-		{
-			class Chest
-			{
-				HitpointName = "HitChest";
-				armor = 10;
-				PassThrough = 0.3;
-			};
-			class Diaphragm
-			{
-				HitpointName = "HitDiaphragm";
-				armor = 10;
-				PassThrough = 0.3;
-			};
-			class Abdomen
-			{
-				hitpointName = "HitAbdomen";
-				armor = 10;
-				passThrough = 0.3;
-			};
-			class Body
-			{
-				hitpointName = "HitBody";
-				passThrough = 0.3;
-			};
-		};
-	};
+		RTG_VEST_ARMOUR
 };
 
 // Comms
@@ -1309,37 +409,7 @@ class rtg_Crye_AVS_3_GRY : Crye_AVS_3_GRY {
 		type =    "comms";
 		camo =  "grey";
 	};
-	armor = 10;
-	class ItemInfo: ItemInfo
-	{
-		containerClass = "Supply180";
-		class HitpointsProtectionInfo
-		{
-			class Chest
-			{
-				HitpointName = "HitChest";
-				armor = 10;
-				PassThrough = 0.3;
-			};
-			class Diaphragm
-			{
-				HitpointName = "HitDiaphragm";
-				armor = 10;
-				PassThrough = 0.3;
-			};
-			class Abdomen
-			{
-				hitpointName = "HitAbdomen";
-				armor = 10;
-				passThrough = 0.3;
-			};
-			class Body
-			{
-				hitpointName = "HitBody";
-				passThrough = 0.3;
-			};
-		};
-	};
+		RTG_VEST_ARMOUR
 };
 class rtg_Crye_AVS_3 : Crye_AVS_3 {
 	RTG_WEAPON_BASE
@@ -1350,37 +420,7 @@ class rtg_Crye_AVS_3 : Crye_AVS_3 {
 		type =    "comms";
 		camo =  "mc";
 	};
-	armor = 10;
-	class ItemInfo: ItemInfo
-	{
-		containerClass = "Supply180";
-		class HitpointsProtectionInfo
-		{
-			class Chest
-			{
-				HitpointName = "HitChest";
-				armor = 10;
-				PassThrough = 0.3;
-			};
-			class Diaphragm
-			{
-				HitpointName = "HitDiaphragm";
-				armor = 10;
-				PassThrough = 0.3;
-			};
-			class Abdomen
-			{
-				hitpointName = "HitAbdomen";
-				armor = 10;
-				passThrough = 0.3;
-			};
-			class Body
-			{
-				hitpointName = "HitBody";
-				passThrough = 0.3;
-			};
-		};
-	};
+		RTG_VEST_ARMOUR
 };
 class rtg_Crye_AVS_3_MCB : Crye_AVS_3_MCB {
 	RTG_WEAPON_BASE
@@ -1391,37 +431,7 @@ class rtg_Crye_AVS_3_MCB : Crye_AVS_3_MCB {
 		type =    "comms";
 		camo =  "mcb";
 	};
-	armor = 10;
-	class ItemInfo: ItemInfo
-	{
-		containerClass = "Supply180";
-		class HitpointsProtectionInfo
-		{
-			class Chest
-			{
-				HitpointName = "HitChest";
-				armor = 10;
-				PassThrough = 0.3;
-			};
-			class Diaphragm
-			{
-				HitpointName = "HitDiaphragm";
-				armor = 10;
-				PassThrough = 0.3;
-			};
-			class Abdomen
-			{
-				hitpointName = "HitAbdomen";
-				armor = 10;
-				passThrough = 0.3;
-			};
-			class Body
-			{
-				hitpointName = "HitBody";
-				passThrough = 0.3;
-			};
-		};
-	};
+		RTG_VEST_ARMOUR
 };
 class rtg_Crye_AVS_3_MCT : Crye_AVS_3_MCT {
 	RTG_WEAPON_BASE
@@ -1432,37 +442,7 @@ class rtg_Crye_AVS_3_MCT : Crye_AVS_3_MCT {
 		type =    "comms";
 		camo =  "mct";
 	};
-	armor = 10;
-	class ItemInfo: ItemInfo
-	{
-		containerClass = "Supply180";
-		class HitpointsProtectionInfo
-		{
-			class Chest
-			{
-				HitpointName = "HitChest";
-				armor = 10;
-				PassThrough = 0.3;
-			};
-			class Diaphragm
-			{
-				HitpointName = "HitDiaphragm";
-				armor = 10;
-				PassThrough = 0.3;
-			};
-			class Abdomen
-			{
-				hitpointName = "HitAbdomen";
-				armor = 10;
-				passThrough = 0.3;
-			};
-			class Body
-			{
-				hitpointName = "HitBody";
-				passThrough = 0.3;
-			};
-		};
-	};
+		RTG_VEST_ARMOUR
 };
 class rtg_Crye_AVS_3_RG : Crye_AVS_3_RG {
 	RTG_WEAPON_BASE
@@ -1473,37 +453,7 @@ class rtg_Crye_AVS_3_RG : Crye_AVS_3_RG {
 		type =    "comms";
 		camo =  "od";
 	};
-	armor = 10;
-	class ItemInfo: ItemInfo
-	{
-		containerClass = "Supply180";
-		class HitpointsProtectionInfo
-		{
-			class Chest
-			{
-				HitpointName = "HitChest";
-				armor = 10;
-				PassThrough = 0.3;
-			};
-			class Diaphragm
-			{
-				HitpointName = "HitDiaphragm";
-				armor = 10;
-				PassThrough = 0.3;
-			};
-			class Abdomen
-			{
-				hitpointName = "HitAbdomen";
-				armor = 10;
-				passThrough = 0.3;
-			};
-			class Body
-			{
-				hitpointName = "HitBody";
-				passThrough = 0.3;
-			};
-		};
-	};
+		RTG_VEST_ARMOUR
 };
 class rtg_Crye_AVS_3_Tan : Crye_AVS_3_Tan {
 	RTG_WEAPON_BASE
@@ -1514,37 +464,7 @@ class rtg_Crye_AVS_3_Tan : Crye_AVS_3_Tan {
 		type =    "comms";
 		camo =  "tan";
 	};
-	armor = 10;
-	class ItemInfo: ItemInfo
-	{
-		containerClass = "Supply180";
-		class HitpointsProtectionInfo
-		{
-			class Chest
-			{
-				HitpointName = "HitChest";
-				armor = 10;
-				PassThrough = 0.3;
-			};
-			class Diaphragm
-			{
-				HitpointName = "HitDiaphragm";
-				armor = 10;
-				PassThrough = 0.3;
-			};
-			class Abdomen
-			{
-				hitpointName = "HitAbdomen";
-				armor = 10;
-				passThrough = 0.3;
-			};
-			class Body
-			{
-				hitpointName = "HitBody";
-				passThrough = 0.3;
-			};
-		};
-	};
+		RTG_VEST_ARMOUR
 };
 
 class rtg_Crye_AVS_3_1_GRY : Crye_AVS_3_1_GRY {
@@ -1556,37 +476,7 @@ class rtg_Crye_AVS_3_1_GRY : Crye_AVS_3_1_GRY {
 		type =    "comms";
 		camo =  "grey";
 	};
-	armor = 10;
-	class ItemInfo: ItemInfo
-	{
-		containerClass = "Supply180";
-		class HitpointsProtectionInfo
-		{
-			class Chest
-			{
-				HitpointName = "HitChest";
-				armor = 10;
-				PassThrough = 0.3;
-			};
-			class Diaphragm
-			{
-				HitpointName = "HitDiaphragm";
-				armor = 10;
-				PassThrough = 0.3;
-			};
-			class Abdomen
-			{
-				hitpointName = "HitAbdomen";
-				armor = 10;
-				passThrough = 0.3;
-			};
-			class Body
-			{
-				hitpointName = "HitBody";
-				passThrough = 0.3;
-			};
-		};
-	};
+		RTG_VEST_ARMOUR
 };
 class rtg_Crye_AVS_3_1 : Crye_AVS_3_1 {
 	RTG_WEAPON_BASE
@@ -1597,37 +487,7 @@ class rtg_Crye_AVS_3_1 : Crye_AVS_3_1 {
 		type =    "comms";
 		camo =  "mc";
 	};
-	armor = 10;
-	class ItemInfo: ItemInfo
-	{
-		containerClass = "Supply180";
-		class HitpointsProtectionInfo
-		{
-			class Chest
-			{
-				HitpointName = "HitChest";
-				armor = 10;
-				PassThrough = 0.3;
-			};
-			class Diaphragm
-			{
-				HitpointName = "HitDiaphragm";
-				armor = 10;
-				PassThrough = 0.3;
-			};
-			class Abdomen
-			{
-				hitpointName = "HitAbdomen";
-				armor = 10;
-				passThrough = 0.3;
-			};
-			class Body
-			{
-				hitpointName = "HitBody";
-				passThrough = 0.3;
-			};
-		};
-	};
+		RTG_VEST_ARMOUR
 };
 class rtg_Crye_AVS_3_1_MCB : Crye_AVS_3_1_MCB {
 	RTG_WEAPON_BASE
@@ -1638,37 +498,7 @@ class rtg_Crye_AVS_3_1_MCB : Crye_AVS_3_1_MCB {
 		type =    "comms";
 		camo =  "mcb";
 	};
-	armor = 10;
-	class ItemInfo: ItemInfo
-	{
-		containerClass = "Supply180";
-		class HitpointsProtectionInfo
-		{
-			class Chest
-			{
-				HitpointName = "HitChest";
-				armor = 10;
-				PassThrough = 0.3;
-			};
-			class Diaphragm
-			{
-				HitpointName = "HitDiaphragm";
-				armor = 10;
-				PassThrough = 0.3;
-			};
-			class Abdomen
-			{
-				hitpointName = "HitAbdomen";
-				armor = 10;
-				passThrough = 0.3;
-			};
-			class Body
-			{
-				hitpointName = "HitBody";
-				passThrough = 0.3;
-			};
-		};
-	};
+		RTG_VEST_ARMOUR
 };
 class rtg_Crye_AVS_3_1_MCT : Crye_AVS_3_1_MCT {
 	RTG_WEAPON_BASE
@@ -1679,37 +509,7 @@ class rtg_Crye_AVS_3_1_MCT : Crye_AVS_3_1_MCT {
 		type =    "comms";
 		camo =  "mct";
 	};
-	armor = 10;
-	class ItemInfo: ItemInfo
-	{
-		containerClass = "Supply180";
-		class HitpointsProtectionInfo
-		{
-			class Chest
-			{
-				HitpointName = "HitChest";
-				armor = 10;
-				PassThrough = 0.3;
-			};
-			class Diaphragm
-			{
-				HitpointName = "HitDiaphragm";
-				armor = 10;
-				PassThrough = 0.3;
-			};
-			class Abdomen
-			{
-				hitpointName = "HitAbdomen";
-				armor = 10;
-				passThrough = 0.3;
-			};
-			class Body
-			{
-				hitpointName = "HitBody";
-				passThrough = 0.3;
-			};
-		};
-	};
+		RTG_VEST_ARMOUR
 };
 class rtg_Crye_AVS_3_1_RG : Crye_AVS_3_1_RG {
 	RTG_WEAPON_BASE
@@ -1720,37 +520,7 @@ class rtg_Crye_AVS_3_1_RG : Crye_AVS_3_1_RG {
 		type =    "comms";
 		camo =  "od";
 	};
-	armor = 10;
-	class ItemInfo: ItemInfo
-	{
-		containerClass = "Supply180";
-		class HitpointsProtectionInfo
-		{
-			class Chest
-			{
-				HitpointName = "HitChest";
-				armor = 10;
-				PassThrough = 0.3;
-			};
-			class Diaphragm
-			{
-				HitpointName = "HitDiaphragm";
-				armor = 10;
-				PassThrough = 0.3;
-			};
-			class Abdomen
-			{
-				hitpointName = "HitAbdomen";
-				armor = 10;
-				passThrough = 0.3;
-			};
-			class Body
-			{
-				hitpointName = "HitBody";
-				passThrough = 0.3;
-			};
-		};
-	};
+		RTG_VEST_ARMOUR
 };
 class rtg_Crye_AVS_3_1_Tan : Crye_AVS_3_1_Tan {
 	RTG_WEAPON_BASE
@@ -1761,37 +531,7 @@ class rtg_Crye_AVS_3_1_Tan : Crye_AVS_3_1_Tan {
 		type =    "comms";
 		camo =  "tan";
 	};
-	armor = 10;
-	class ItemInfo: ItemInfo
-	{
-		containerClass = "Supply180";
-		class HitpointsProtectionInfo
-		{
-			class Chest
-			{
-				HitpointName = "HitChest";
-				armor = 10;
-				PassThrough = 0.3;
-			};
-			class Diaphragm
-			{
-				HitpointName = "HitDiaphragm";
-				armor = 10;
-				PassThrough = 0.3;
-			};
-			class Abdomen
-			{
-				hitpointName = "HitAbdomen";
-				armor = 10;
-				passThrough = 0.3;
-			};
-			class Body
-			{
-				hitpointName = "HitBody";
-				passThrough = 0.3;
-			};
-		};
-	};
+		RTG_VEST_ARMOUR
 };
 
 class rtg_Crye_AVS_3_2_GRY : Crye_AVS_3_2_GRY {
@@ -1803,37 +543,7 @@ class rtg_Crye_AVS_3_2_GRY : Crye_AVS_3_2_GRY {
 		type =    "comms";
 		camo =  "grey";
 	};
-	armor = 10;
-	class ItemInfo: ItemInfo
-	{
-		containerClass = "Supply180";
-		class HitpointsProtectionInfo
-		{
-			class Chest
-			{
-				HitpointName = "HitChest";
-				armor = 10;
-				PassThrough = 0.3;
-			};
-			class Diaphragm
-			{
-				HitpointName = "HitDiaphragm";
-				armor = 10;
-				PassThrough = 0.3;
-			};
-			class Abdomen
-			{
-				hitpointName = "HitAbdomen";
-				armor = 10;
-				passThrough = 0.3;
-			};
-			class Body
-			{
-				hitpointName = "HitBody";
-				passThrough = 0.3;
-			};
-		};
-	};
+		RTG_VEST_ARMOUR
 };
 class rtg_Crye_AVS_3_2 : Crye_AVS_3_2 {
 	RTG_WEAPON_BASE
@@ -1844,37 +554,7 @@ class rtg_Crye_AVS_3_2 : Crye_AVS_3_2 {
 		type =    "comms";
 		camo =  "mc";
 	};
-	armor = 10;
-	class ItemInfo: ItemInfo
-	{
-		containerClass = "Supply180";
-		class HitpointsProtectionInfo
-		{
-			class Chest
-			{
-				HitpointName = "HitChest";
-				armor = 10;
-				PassThrough = 0.3;
-			};
-			class Diaphragm
-			{
-				HitpointName = "HitDiaphragm";
-				armor = 10;
-				PassThrough = 0.3;
-			};
-			class Abdomen
-			{
-				hitpointName = "HitAbdomen";
-				armor = 10;
-				passThrough = 0.3;
-			};
-			class Body
-			{
-				hitpointName = "HitBody";
-				passThrough = 0.3;
-			};
-		};
-	};
+		RTG_VEST_ARMOUR
 };
 class rtg_Crye_AVS_3_2_MCB : Crye_AVS_3_2_MCB {
 	RTG_WEAPON_BASE
@@ -1885,37 +565,7 @@ class rtg_Crye_AVS_3_2_MCB : Crye_AVS_3_2_MCB {
 		type =    "comms";
 		camo =  "mcb";
 	};
-	armor = 10;
-	class ItemInfo: ItemInfo
-	{
-		containerClass = "Supply180";
-		class HitpointsProtectionInfo
-		{
-			class Chest
-			{
-				HitpointName = "HitChest";
-				armor = 10;
-				PassThrough = 0.3;
-			};
-			class Diaphragm
-			{
-				HitpointName = "HitDiaphragm";
-				armor = 10;
-				PassThrough = 0.3;
-			};
-			class Abdomen
-			{
-				hitpointName = "HitAbdomen";
-				armor = 10;
-				passThrough = 0.3;
-			};
-			class Body
-			{
-				hitpointName = "HitBody";
-				passThrough = 0.3;
-			};
-		};
-	};
+		RTG_VEST_ARMOUR
 };
 class rtg_Crye_AVS_3_2_MCT : Crye_AVS_3_2_MCT {
 	RTG_WEAPON_BASE
@@ -1926,37 +576,7 @@ class rtg_Crye_AVS_3_2_MCT : Crye_AVS_3_2_MCT {
 		type =    "comms";
 		camo =  "mct";
 	};
-	armor = 10;
-	class ItemInfo: ItemInfo
-	{
-		containerClass = "Supply180";
-		class HitpointsProtectionInfo
-		{
-			class Chest
-			{
-				HitpointName = "HitChest";
-				armor = 10;
-				PassThrough = 0.3;
-			};
-			class Diaphragm
-			{
-				HitpointName = "HitDiaphragm";
-				armor = 10;
-				PassThrough = 0.3;
-			};
-			class Abdomen
-			{
-				hitpointName = "HitAbdomen";
-				armor = 10;
-				passThrough = 0.3;
-			};
-			class Body
-			{
-				hitpointName = "HitBody";
-				passThrough = 0.3;
-			};
-		};
-	};
+		RTG_VEST_ARMOUR
 };
 class rtg_Crye_AVS_3_2_RG : Crye_AVS_3_2_RG {
 	RTG_WEAPON_BASE
@@ -1967,37 +587,7 @@ class rtg_Crye_AVS_3_2_RG : Crye_AVS_3_2_RG {
 		type =    "comms";
 		camo =  "od";
 	};
-	armor = 10;
-	class ItemInfo: ItemInfo
-	{
-		containerClass = "Supply180";
-		class HitpointsProtectionInfo
-		{
-			class Chest
-			{
-				HitpointName = "HitChest";
-				armor = 10;
-				PassThrough = 0.3;
-			};
-			class Diaphragm
-			{
-				HitpointName = "HitDiaphragm";
-				armor = 10;
-				PassThrough = 0.3;
-			};
-			class Abdomen
-			{
-				hitpointName = "HitAbdomen";
-				armor = 10;
-				passThrough = 0.3;
-			};
-			class Body
-			{
-				hitpointName = "HitBody";
-				passThrough = 0.3;
-			};
-		};
-	};
+		RTG_VEST_ARMOUR
 };
 class rtg_Crye_AVS_3_2_Tan : Crye_AVS_3_2_Tan {
 	RTG_WEAPON_BASE
@@ -2008,37 +598,7 @@ class rtg_Crye_AVS_3_2_Tan : Crye_AVS_3_2_Tan {
 		type =    "comms";
 		camo =  "tan";
 	};
-	armor = 10;
-	class ItemInfo: ItemInfo
-	{
-		containerClass = "Supply180";
-		class HitpointsProtectionInfo
-		{
-			class Chest
-			{
-				HitpointName = "HitChest";
-				armor = 10;
-				PassThrough = 0.3;
-			};
-			class Diaphragm
-			{
-				HitpointName = "HitDiaphragm";
-				armor = 10;
-				PassThrough = 0.3;
-			};
-			class Abdomen
-			{
-				hitpointName = "HitAbdomen";
-				armor = 10;
-				passThrough = 0.3;
-			};
-			class Body
-			{
-				hitpointName = "HitBody";
-				passThrough = 0.3;
-			};
-		};
-	};
+		RTG_VEST_ARMOUR
 };
 
 class rtg_Crye_AVS_3_3_GRY : Crye_AVS_3_3_GRY {
@@ -2050,37 +610,7 @@ class rtg_Crye_AVS_3_3_GRY : Crye_AVS_3_3_GRY {
 		type =    "comms";
 		camo =  "grey";
 	};
-	armor = 10;
-	class ItemInfo: ItemInfo
-	{
-		containerClass = "Supply180";
-		class HitpointsProtectionInfo
-		{
-			class Chest
-			{
-				HitpointName = "HitChest";
-				armor = 10;
-				PassThrough = 0.3;
-			};
-			class Diaphragm
-			{
-				HitpointName = "HitDiaphragm";
-				armor = 10;
-				PassThrough = 0.3;
-			};
-			class Abdomen
-			{
-				hitpointName = "HitAbdomen";
-				armor = 10;
-				passThrough = 0.3;
-			};
-			class Body
-			{
-				hitpointName = "HitBody";
-				passThrough = 0.3;
-			};
-		};
-	};
+		RTG_VEST_ARMOUR
 };
 class rtg_Crye_AVS_3_3 : Crye_AVS_3_3 {
 	RTG_WEAPON_BASE
@@ -2091,37 +621,7 @@ class rtg_Crye_AVS_3_3 : Crye_AVS_3_3 {
 		type =    "comms";
 		camo =  "mc";
 	};
-	armor = 10;
-	class ItemInfo: ItemInfo
-	{
-		containerClass = "Supply180";
-		class HitpointsProtectionInfo
-		{
-			class Chest
-			{
-				HitpointName = "HitChest";
-				armor = 10;
-				PassThrough = 0.3;
-			};
-			class Diaphragm
-			{
-				HitpointName = "HitDiaphragm";
-				armor = 10;
-				PassThrough = 0.3;
-			};
-			class Abdomen
-			{
-				hitpointName = "HitAbdomen";
-				armor = 10;
-				passThrough = 0.3;
-			};
-			class Body
-			{
-				hitpointName = "HitBody";
-				passThrough = 0.3;
-			};
-		};
-	};
+		RTG_VEST_ARMOUR
 };
 class rtg_Crye_AVS_3_3_MCB : Crye_AVS_3_3_MCB {
 	RTG_WEAPON_BASE
@@ -2132,37 +632,7 @@ class rtg_Crye_AVS_3_3_MCB : Crye_AVS_3_3_MCB {
 		type =    "comms";
 		camo =  "mcb";
 	};
-	armor = 10;
-	class ItemInfo: ItemInfo
-	{
-		containerClass = "Supply180";
-		class HitpointsProtectionInfo
-		{
-			class Chest
-			{
-				HitpointName = "HitChest";
-				armor = 10;
-				PassThrough = 0.3;
-			};
-			class Diaphragm
-			{
-				HitpointName = "HitDiaphragm";
-				armor = 10;
-				PassThrough = 0.3;
-			};
-			class Abdomen
-			{
-				hitpointName = "HitAbdomen";
-				armor = 10;
-				passThrough = 0.3;
-			};
-			class Body
-			{
-				hitpointName = "HitBody";
-				passThrough = 0.3;
-			};
-		};
-	};
+		RTG_VEST_ARMOUR
 };
 class rtg_Crye_AVS_3_3_MCT : Crye_AVS_3_3_MCT {
 	RTG_WEAPON_BASE
@@ -2173,37 +643,7 @@ class rtg_Crye_AVS_3_3_MCT : Crye_AVS_3_3_MCT {
 		type =    "comms";
 		camo =  "mct";
 	};
-	armor = 10;
-	class ItemInfo: ItemInfo
-	{
-		containerClass = "Supply180";
-		class HitpointsProtectionInfo
-		{
-			class Chest
-			{
-				HitpointName = "HitChest";
-				armor = 10;
-				PassThrough = 0.3;
-			};
-			class Diaphragm
-			{
-				HitpointName = "HitDiaphragm";
-				armor = 10;
-				PassThrough = 0.3;
-			};
-			class Abdomen
-			{
-				hitpointName = "HitAbdomen";
-				armor = 10;
-				passThrough = 0.3;
-			};
-			class Body
-			{
-				hitpointName = "HitBody";
-				passThrough = 0.3;
-			};
-		};
-	};
+		RTG_VEST_ARMOUR
 };
 class rtg_Crye_AVS_3_3_RG : Crye_AVS_3_3_RG {
 	RTG_WEAPON_BASE
@@ -2214,37 +654,7 @@ class rtg_Crye_AVS_3_3_RG : Crye_AVS_3_3_RG {
 		type =    "comms";
 		camo =  "od";
 	};
-	armor = 10;
-	class ItemInfo: ItemInfo
-	{
-		containerClass = "Supply180";
-		class HitpointsProtectionInfo
-		{
-			class Chest
-			{
-				HitpointName = "HitChest";
-				armor = 10;
-				PassThrough = 0.3;
-			};
-			class Diaphragm
-			{
-				HitpointName = "HitDiaphragm";
-				armor = 10;
-				PassThrough = 0.3;
-			};
-			class Abdomen
-			{
-				hitpointName = "HitAbdomen";
-				armor = 10;
-				passThrough = 0.3;
-			};
-			class Body
-			{
-				hitpointName = "HitBody";
-				passThrough = 0.3;
-			};
-		};
-	};
+		RTG_VEST_ARMOUR
 };
 class rtg_Crye_AVS_3_3_Tan : Crye_AVS_3_3_Tan {
 	RTG_WEAPON_BASE
@@ -2255,35 +665,5 @@ class rtg_Crye_AVS_3_3_Tan : Crye_AVS_3_3_Tan {
 		type =    "comms";
 		camo =  "tan";
 	};
-	armor = 10;
-	class ItemInfo: ItemInfo
-	{
-		containerClass = "Supply180";
-		class HitpointsProtectionInfo
-		{
-			class Chest
-			{
-				HitpointName = "HitChest";
-				armor = 10;
-				PassThrough = 0.3;
-			};
-			class Diaphragm
-			{
-				HitpointName = "HitDiaphragm";
-				armor = 10;
-				PassThrough = 0.3;
-			};
-			class Abdomen
-			{
-				hitpointName = "HitAbdomen";
-				armor = 10;
-				passThrough = 0.3;
-			};
-			class Body
-			{
-				hitpointName = "HitBody";
-				passThrough = 0.3;
-			};
-		};
-	};
+		RTG_VEST_ARMOUR
 };
