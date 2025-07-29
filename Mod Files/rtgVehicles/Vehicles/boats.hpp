@@ -2,7 +2,7 @@ class UK3CB_MDF_B_Skiff;
 class raider_fast_rhib: UK3CB_MDF_B_Skiff
 {
 	displayName = "Rhib Fast [1/8]";
-	editorSubcategory = "RTGBoats";
+	editorSubcategory = "RTG_LIGHT_ASSETS";
 	author = "Shrike";
 	scope = 2;
 	side = 1;
@@ -17,5 +17,5 @@ class raider_fast_rhib: UK3CB_MDF_B_Skiff
 	acre_hasInfantryPhone = 0;
 	ace_refuel_fuelCargo = 80;
 	canPush = 1;
-	RTG_Vehicle_Gear
+	RTG_Vehicle_Gear_Rotary
 };

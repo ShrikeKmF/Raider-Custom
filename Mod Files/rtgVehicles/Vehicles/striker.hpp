@@ -1,53 +1,16 @@
-class RHS_UH60M;
-class rtg_Magpie : RHS_UH60M
+class rhsusf_stryker_m1126ms_wd;
+class rtg_rush_shorad: rhsusf_stryker_m1126ms_wd
 {
-	displayName = "Magpie (2/14)";
-	editorSubcategory = "RTG_LIGHT_ASSETS";
+	displayNameShort = "RUSH SHORAD [2/9]";
+	displayName = "RUSH SHORAD [2/9]";
+	editorSubcategory = "RTG_MEDIUM_ASSETS";
 	author = "Shrike";
 	scope = 2;
 	side = 1;
 	faction = "Raider_Tactical_F";
-	HELICOPTER_FUEL_CONSUMPTION(2500)
-	maximumLoad = 20000;
 	ace_cargo_space = 16;
-	helmetMountedDisplay=1;
-	radarTargetSize = 1.1;
-	RTG_Vehicle_Gear_Rotary
-	
-	hiddenSelectionsTextures[]=
-	{
-		"\rtgVehicles\tex\Magpie\uh60m_fuselage_co.paa",
-		"\rtgVehicles\tex\Magpie\uh60m_engine_co.paa",
-		"\rtgVehicles\tex\Magpie\default_co.paa",
-		"\rtgVehicles\tex\Magpie\uh60m_dust_filter_co.paa"
-	};
-	class textureSources
-	{
-		class raider
-		{
-			displayName="Raider";
-			author = "Shrike";
-			textures[]=
-			{
-				"\rtgVehicles\tex\Magpie\uh60m_fuselage_co.paa",
-				"\rtgVehicles\tex\Magpie\uh60m_engine_co.paa",
-				"\rtgVehicles\tex\Magpie\default_co.paa",
-				"\rtgVehicles\tex\Magpie\uh60m_dust_filter_co.paa"
-			};
-			factions[]=
-			{
-				Raider_Tactical_F
-			};
-		};
-	};
-	textureList[]=
-	{
-		"raider", 1
-	};
+	RTG_Vehicle_Gear 
 
-	gunnerCanSee = __EVAL(1+2+4+16+32);
-	driverCanSee = __EVAL(1+2+4+16+32);
-	laserScanner=1;
 	LockDetectionSystem = "8 + 4";
 	incomingMissileDetectionSystem = "8 + 16";
 	class Components : Components
@@ -100,4 +63,18 @@ class rtg_Magpie : RHS_UH60M
 			};
 		};
 	};
+};
+
+class rhsusf_stryker_m1296_wd;
+class rtg_rush_IS: rhsusf_stryker_m1296_wd
+{
+	displayNameShort = "RUSH IS [2/9]";
+	displayName = "RUSH IS [2/9]";
+	editorSubcategory = "RTG_MEDIUM_ASSETS";
+	author = "Shrike";
+	scope = 2;
+	side = 1;
+	faction = "Raider_Tactical_F";
+	ace_cargo_space = 16;
+	RTG_Vehicle_Gear
 };

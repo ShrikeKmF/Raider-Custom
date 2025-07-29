@@ -1,53 +1,44 @@
-class RHS_UH60M;
-class rtg_Magpie : RHS_UH60M
+class usarmy_M1283_M2_WD;
+class rtg_amp_m2: usarmy_M1283_M2_WD
 {
-	displayName = "Magpie (2/14)";
-	editorSubcategory = "RTG_LIGHT_ASSETS";
+	displayNameShort = "AMP M2 [2/9]";
+	displayName = "AMP M2 [2/9]";
+	editorSubcategory = "RTG_HEAVY_ASSETS";
 	author = "Shrike";
 	scope = 2;
 	side = 1;
 	faction = "Raider_Tactical_F";
-	HELICOPTER_FUEL_CONSUMPTION(2500)
-	maximumLoad = 20000;
-	ace_cargo_space = 16;
-	helmetMountedDisplay=1;
-	radarTargetSize = 1.1;
-	RTG_Vehicle_Gear_Rotary
-	
-	hiddenSelectionsTextures[]=
-	{
-		"\rtgVehicles\tex\Magpie\uh60m_fuselage_co.paa",
-		"\rtgVehicles\tex\Magpie\uh60m_engine_co.paa",
-		"\rtgVehicles\tex\Magpie\default_co.paa",
-		"\rtgVehicles\tex\Magpie\uh60m_dust_filter_co.paa"
-	};
-	class textureSources
-	{
-		class raider
-		{
-			displayName="Raider";
-			author = "Shrike";
-			textures[]=
-			{
-				"\rtgVehicles\tex\Magpie\uh60m_fuselage_co.paa",
-				"\rtgVehicles\tex\Magpie\uh60m_engine_co.paa",
-				"\rtgVehicles\tex\Magpie\default_co.paa",
-				"\rtgVehicles\tex\Magpie\uh60m_dust_filter_co.paa"
-			};
-			factions[]=
-			{
-				Raider_Tactical_F
-			};
-		};
-	};
-	textureList[]=
-	{
-		"raider", 1
-	};
+	ace_cargo_space = 12;
+	RTG_Vehicle_Gear_Tracked 
+};
 
-	gunnerCanSee = __EVAL(1+2+4+16+32);
-	driverCanSee = __EVAL(1+2+4+16+32);
-	laserScanner=1;
+class usarmy_M1283RWS_WD;
+class rtg_amp_m2jav: usarmy_M1283RWS_WD
+{
+	displayNameShort = "AMP M2/JAV [2/9]";
+	displayName = "AMP M2/JAV [2/9]";
+	editorSubcategory = "RTG_HEAVY_ASSETS";
+	author = "Shrike";
+	scope = 2;
+	side = 1;
+	faction = "Raider_Tactical_F";
+	ace_cargo_space = 12;
+	RTG_Vehicle_Gear_Tracked
+};
+
+class usarmy_M1283CUAS_WD;
+class rtg_amp_shorad: usarmy_M1283CUAS_WD
+{
+	displayNameShort = "AMP SHORAD [2/9]";
+	displayName = "AMP SHORAD [2/9]";
+	editorSubcategory = "RTG_HEAVY_ASSETS";
+	author = "Shrike";
+	scope = 2;
+	side = 1;
+	faction = "Raider_Tactical_F";
+	ace_cargo_space = 12;
+	RTG_Vehicle_Gear_Tracked
+
 	LockDetectionSystem = "8 + 4";
 	incomingMissileDetectionSystem = "8 + 16";
 	class Components : Components

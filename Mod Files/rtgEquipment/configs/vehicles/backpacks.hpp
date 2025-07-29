@@ -46,5 +46,6 @@ class rtg_engineer_grabpack : rhs_assault_umbts_engineer_empty
         TRANSPORT_ITEM(ACE_EntrenchingTool, 1)
         TRANSPORT_ITEM(ACE_rope12, 3)
         TRANSPORT_ITEM(ACE_wirecutter, 1)        
+        TRANSPORT_ITEM(rhsusf_m112_mag, 2)    
     };    
 };

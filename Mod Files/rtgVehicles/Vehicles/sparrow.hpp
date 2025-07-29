@@ -1,9 +1,9 @@
-class RHS_MELB_H6M;
+class RHS_MELB_AH6M;
 class CopilotTurret;
-class rtg_sparrow : RHS_MELB_H6M
+class rtg_sparrow : RHS_MELB_AH6M
 {
-	displayName = "Sparrow (2/3)";
-	editorSubcategory = "RTGHelicopters";
+	displayName = "Sparrow (2/1)";
+	editorSubcategory = "RTG_LIGHT_ASSETS";
 	author = "Shrike";
 	scope = 2;
 	side = 1;
@@ -12,7 +12,7 @@ class rtg_sparrow : RHS_MELB_H6M
 	ace_cargo_space = 8;
 	helmetMountedDisplay=1;
 	HELICOPTER_FUEL_CONSUMPTION(1800)
-	RTG_Vehicle_Gear
+	RTG_Vehicle_Gear_Rotary
 	weapons[] = {"CMFlareLauncher"};
 	magazines[] = {"192Rnd_CMFlare_Chaff_Magazine"};
 
@@ -144,3 +144,8 @@ class rtg_sparrow : RHS_MELB_H6M
 		controllable = 1;
 	};
 };
+
+class rtg_sparrow_med : rtg_sparrow
+{
+	editorSubcategory = "RTG_MEDIUM_ASSETS";
+}

@@ -1,8 +1,8 @@
-class RHS_Mi24P_vdv;
-class rtg_Hawk : RHS_Mi24P_vdv
+class RHS_Mi24V_vdv;
+class rtg_Hawk : RHS_Mi24V_vdv
 {
 	displayName = "Hawk (2/8)";
-	editorSubcategory = "RTGHelicopters";
+	editorSubcategory = "RTG_LIGHT_ASSETS";
 	author = "Shrike";
 	scope = 2;
 	side = 1;
@@ -12,7 +12,7 @@ class rtg_Hawk : RHS_Mi24P_vdv
 	helmetMountedDisplay=1;
 	HELICOPTER_FUEL_CONSUMPTION(2500)
 	radarTargetSize = 1.25;
-	RTG_Vehicle_Gear
+	RTG_Vehicle_Gear_Rotary
 
 	hiddenSelections[]=
 	{

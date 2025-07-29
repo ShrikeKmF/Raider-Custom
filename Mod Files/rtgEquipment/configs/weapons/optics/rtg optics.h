@@ -25,7 +25,7 @@ class ItemInfo: InventoryOpticsItem_Base_F
 			opticsPPEffects[] = {"Default"};
 			opticsFlare = 0;
 			opticsDisablePeripherialVision = 0;
-			opticsZoomMin= 0.50;
+			opticsZoomMin = "1.5 call (uiNamespace getVariable 'cba_optics_fnc_setOpticMagnificationHelper')";
 			opticsZoomMax = 0.75;
 			opticsZoomInit = 0.75;
 			memoryPointCamera = "eye";
@@ -97,7 +97,7 @@ class ItemInfo: InventoryOpticsItem_Base_F
 			opticsPPEffects[] = {"",""};
 			opticsFlare = 0;
 			opticsDisablePeripherialVision = 0;
-			opticsZoomMin= 0.50;
+			opticsZoomMin = "1.5 call (uiNamespace getVariable 'cba_optics_fnc_setOpticMagnificationHelper')";
 			opticsZoomMax = 0.75;
 			opticsZoomInit = 0.75;
 			memoryPointCamera = "eye";
@@ -154,7 +154,7 @@ class ItemInfo: InventoryOpticsItem_Base_F
 			opticsPPEffects[] = {"",""};
 			opticsFlare = 0;
 			opticsDisablePeripherialVision = 0;
-			opticsZoomMin= 0.50;
+			opticsZoomMin = "1.5 call (uiNamespace getVariable 'cba_optics_fnc_setOpticMagnificationHelper')";
 			opticsZoomMax = 0.75;
 			opticsZoomInit = 0.75;
 			memoryPointCamera = "eye";
@@ -199,7 +199,7 @@ class rtg_ELCAN_3xSpectreDR: SMA_ELCAN_SPECTER
 				};
 				opticsFlare=0;
 				opticsDisablePeripherialVision=0;
-				opticsZoomMin= 0.50;
+				opticsZoomMin = "1.5 call (uiNamespace getVariable 'cba_optics_fnc_setOpticMagnificationHelper')";
 				opticsZoomMax = 0.75;
 				opticsZoomInit = 0.75;
 				memoryPointCamera="eye";
@@ -233,7 +233,7 @@ class rtg_ELCAN_3xSpectreDR: SMA_ELCAN_SPECTER
 				{
 					""
 				};
-				opticsZoomMin= 0.50;
+				opticsZoomMin = "1.5 call (uiNamespace getVariable 'cba_optics_fnc_setOpticMagnificationHelper')";
 				opticsZoomMax= 0.75;
 				opticsZoomInit= 0.75;
 				memoryPointCamera="iron_eye";

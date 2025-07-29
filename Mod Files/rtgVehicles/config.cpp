@@ -8,20 +8,28 @@ class CfgPatches
 		url = "";
 		requiredAddons[] = {"a3_characters_F","a3_characters_F_beta","A3_Characters_F_Common","a3_characters_f_beta","a3_characters_f_gamma","A3_Soft_F_epc","rhsusf_c_weapons"};
 		units[] = {
-			// Boats
-			"raider_fast_rhib",
-			// Cars
-			"rtg_ltv",
-			"rtg_lsv",
-			"rtg_htc",
-			// Heli
-			"rtg_Magpie",
-			"rtg_Hawk",
-			"rtg_sparrow",
-			// Crates
-			"rtg_BasicSupply",
-			"rtg_atSupply",
-			"rtg_wheelsBox"
+			// Base
+				"rtg_BasicSupply",
+				"rtg_wheelsBox",
+			// Light 
+				"rtg_bugy",
+				"rtg_sparrow",
+				"rtg_Hawk",
+				"rtg_Magpie",
+				"raider_fast_rhib",
+				"rtg_htc_l",
+			// Medium  
+				"rtg_sparrow_med",
+				"rtg_rush_shorad",
+				"rtg_rush_IS",
+				"rtg_lpb",
+				"rtg_htc_m",
+			// Heavy
+				"rtg_ravn",
+				"rtg_amp_m2",
+				"rtg_amp_m2jav",
+				"rtg_amp_shorad",
+				"rtg_htc_h",
 		};
 	};
 };
@@ -45,29 +53,19 @@ class cfgEditorCategories
 };
 class cfgEditorSubcategories
 {
-	class RTGCars
+	class RTG_LIGHT_ASSETS
 	{
-		displayName = "Cars";
+		displayName = "[A] Light";
 		scope = 2;
 	};
-	class RTGBoats
+	class RTG_MEDIUM_ASSETS
 	{
-		displayName = "Boats";
+		displayName = "[B] Medium";
 		scope = 2;
 	};
-	class RTGHelicopters
+	class RTG_HEAVY_ASSETS
 	{
-		displayName = "Helicopters";
-		scope = 2;
-	};
-	class RTGAircraft
-	{
-		displayName = "Planes";
-		scope = 2;
-	};
-	class RTGArtillery
-	{
-		displayName = "Artillery";
+		displayName = "[C] Heavy";
 		scope = 2;
 	};
 };
@@ -107,10 +105,14 @@ class CfgVehicles
 
 	// Include Vehicle Files
 	#include "Vehicles/magpie.hpp"
-	#include "Vehicles/humvee.hpp"
 	#include "Vehicles/hawk.hpp"
 	#include "Vehicles/sparrow.hpp"
 	#include "Vehicles/boats.hpp"
 	#include "Vehicles/crates.hpp"
+	#include "Vehicles/striker.hpp"
+	#include "Vehicles/booker.hpp"
+	#include "Vehicles/pickup.hpp"
+	#include "Vehicles/ampv.hpp"
+	#include "Vehicles/buggy.hpp"
 	#include "Vehicles/trucks.hpp"
 };
