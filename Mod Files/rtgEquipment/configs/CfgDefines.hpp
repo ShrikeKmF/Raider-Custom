@@ -64,15 +64,15 @@ class ItemInfo: ItemInfo \
         class head \
         { \
             HitpointName="HitHead"; \
-            armor=4.7; \
-            PassThrough=0.30000001; \
+            armor=2.0; \
+            PassThrough=0.6; \
         }; \
     }; \
 };
 
 
 #define RTG_VEST_ARMOUR \
-    armor = 10; \
+    armor = 4; \
     class ItemInfo: ItemInfo \
     { \
         containerClass = "Supply180"; \
@@ -81,25 +81,25 @@ class ItemInfo: ItemInfo \
             class Chest \
             { \
                 HitpointName = "HitChest"; \
-                armor = 10; \
-                PassThrough = 0.3; \
+                armor = 4; \
+                PassThrough = 0.6 \
             }; \
             class Diaphragm \
             { \
                 HitpointName = "HitDiaphragm"; \
-                armor = 10; \
-                PassThrough = 0.3; \
+                armor = 4; \
+                PassThrough = 0.6 \
             }; \
             class Abdomen \
             { \
                 hitpointName = "HitAbdomen"; \
-                armor = 10; \
-                passThrough = 0.3; \
+                armor = 4; \
+                passThrough = 0.6 \
             }; \
             class Body \
             { \
                 hitpointName = "HitBody"; \
-                passThrough = 0.3; \
+                passThrough = 0.6 \
             }; \
         }; \
     }

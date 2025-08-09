@@ -301,7 +301,7 @@ class rtg_ace_expanded_ech {
     options[] = {"camo"};
     class camo
     {
-        label = "Jean Colour";
+        label = "Camo";
         values[] = {"default", "black", "desert", "grass", "sand", "snakeskin", "tropic", "woodland", "oga", "od"};
         class default
         {

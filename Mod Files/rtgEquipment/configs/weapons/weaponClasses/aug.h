@@ -199,28 +199,12 @@ class rtg_auga2para_t : hlc_rifle_auga2para_t {
 	RTG_WEAPON_HANDLING(1.78)
 };
 
-class rtg_pat_aug : hlc_rifle_auga1_b
+class rtg_pat_aug : rtg_auga3_std
 {
 	RTG_WEAPON_BASE
     baseWeapon = "rtg_pat_aug";
-	RTG_RECOIL(aug)
-	RTG_WEAPON_HANDLING(1.9)
-    displayName="AUG A1 - Phoebe";
+    displayName="AUG A3 - Phoebe";
 	hiddenSelections[] = {"Camo"};
-	hiddenSelectionsTextures[] = {"\rtgEquipment\tex\patAug.paa"};
-	magazineWell[] = {"CBA_556x45_STANAG"};
-    magazines[] = {"rtg_30rnd_556_45"};
-	RTG_ACEAX_EMPTY 
-};
-
-class rtg_pat_aug_camo : rtg_pat_aug
-{
-	RTG_WEAPON_BASE
-    baseWeapon = "rtg_pat_aug_camo";
-	RTG_RECOIL(aug)
-	RTG_WEAPON_HANDLING(1.9)
-    displayName="AUG A1 - Phoebe (Camo)";
-	hiddenSelections[] = {"Camo"};
-	hiddenSelectionsTextures[] = {"\rtgEquipment\tex\patAugCamo.paa"};
+	hiddenSelectionsTextures[] = {"rtgEquipment\tex\phoebeAUG_A2.paa"};
 	RTG_ACEAX_EMPTY 
 };

@@ -52,16 +52,16 @@ class CfgVehicles
 };
 
 class CfgInventoryGlobalVariable {
-	maxSoldierLoad = 10000;
+	maxSoldierLoad = 2200; // 10 = 1 pound
 };
 
 class CfgMovesFatigue {
-	staminaDuration = 12;
-	staminaCooldown = 6;
-	staminaRestoration = 12;
+	staminaDuration = 60;
+	staminaCooldown = 5;
+	staminaRestoration = 15;
 	aimPrecisionSpeedCoef = 5;
-	terrainDrainSprint = 0.0;
-	terrainDrainRun = 0.0;
+	terrainDrainSprint = -1;
+	terrainDrainRun = -1;
 	terrainSpeedCoef = 0.9;
 };
 
@@ -110,6 +110,13 @@ class RscDisplayMain: RscStandardDisplay {
                     tooltip = "Connect to RTG Main Server";
                     y = "(3 * 	1.5) * 	(pixelH * pixelGrid * 2) + 	(pixelH)";
                     onbuttonclick = "connectToServer ['144.6.36.191', 2302, '']";
+                };
+				class JoinTrainingServer: ServerBrowser {
+                    idc = -1;
+                    text = "RTG Training Server";
+                    tooltip = "Connect to RTG Training Server";
+                    y = "(4 * 	1.5) * 	(pixelH * pixelGrid * 2) + 	(pixelH)";
+                    onbuttonclick = "connectToServer ['144.6.26.217', 2302, '']";
                 };
             };
         };

@@ -1,14 +1,3 @@
-// Stage 2
-AUGs Done
-AKs Done
-G36s Done
-M416 Done
-M416 LSW Done
-Negev Done
-Slugs Done
-AT-4 Done
-AT-4 ER Done
-
 // Stage 3
 mp9
 M416 9mm

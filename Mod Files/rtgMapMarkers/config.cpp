@@ -42,14 +42,14 @@ class CfgMarkerColors
 
 	class rtgMisfit
 	{
-		name="Misfit";
+		name="Armoured";
 		color[]={1.0, 0.341, 0.474, 1};
 		scope=2;
 	};
 
 	class rtgFirebrand
 	{
-		name="Firebrand";
+		name="Air";
 		color[]={0.109, 1, 0.956, 1};
 		scope=2;
 	};

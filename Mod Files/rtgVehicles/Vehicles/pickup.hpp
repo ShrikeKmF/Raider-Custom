@@ -8,6 +8,8 @@ class rtg_lpb: Arlit_TOYOTA_LC_HZJ79_M240
 	scope = 2;
 	side = 1;
 	faction = "Raider_Tactical_F";
+	mineDetectorRange = 50;
+	canAccessMineDetector = 1;
 	ace_cargo_space = 8;
 	RTG_Vehicle_Gear
 }

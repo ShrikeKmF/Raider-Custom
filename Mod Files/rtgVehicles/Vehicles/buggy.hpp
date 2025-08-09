@@ -11,4 +11,6 @@ class rtg_bugy: rhsusf_mrzr4_d
 	ace_cargo_space = 4;
 	RTG_Vehicle_Gear
 	maxSpeed = 70; 
+	mineDetectorRange = 50;
+	canAccessMineDetector = 1;
 };

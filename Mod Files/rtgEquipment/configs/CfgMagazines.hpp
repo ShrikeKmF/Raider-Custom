@@ -39,7 +39,7 @@ class CfgMagazines
         scope = 2;
         displayname = "[RTG] SM-7VM Smoke";
         displaynameshort = "73mm Smoke";
-        mass = 12;
+        mass = 20;
     };
 
     class rtg_rpg_heat_mag : rhs_rpg7_PG7VM_mag
@@ -60,7 +60,7 @@ class CfgMagazines
         scope = 2;
         displayname = "[RTG] OG-7VM HEDP";
         displaynameshort = "40mm HEDP";
-        mass = 40;
+        mass = 30;
     };
 
     class rhs_m136_mag;

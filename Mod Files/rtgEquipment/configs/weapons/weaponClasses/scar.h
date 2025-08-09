@@ -291,17 +291,3 @@ class lot_SCAR_L_grip_khaki_F: lot_SCAR_L_grip_khaki_base_F
         barrel = "L";
     };
 };
-
-
-// Custom 
-class rtg_SCAR_Shrike: lot_SCAR_GL_F
-{
-    RTG_WEAPON_BASE
-    baseWeapon = "rtg_SCAR_Shrike";
-    displayName = "SCAR-H 7.62 LB/GL (Shrike)";
-    magazineWell[] = {"CBA_762x51_M14"};
-    magazines[] = {"rtg_20Rnd_762x51"};
-    recoil = "rtg_762n_rifle";
-    hiddenSelectionsTextures[] = {"rtgEquipment\tex\shr_SCAR_01_CO.paa","rtgEquipment\tex\shr_SCAR_02_CO.paa","\lot_aaf_scar\Data\SA80_F_GL_CO.paa"};
-    RTG_ACEAX_EMPTY
-};

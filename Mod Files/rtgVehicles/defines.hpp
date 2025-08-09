@@ -5,21 +5,9 @@
 #define RTG_Vehicle_Gear \
 class TransportItems \
 { \
-	class _xx_rtg_pvs_15_black_gh \
-	{ \
-		name = "rtg_pvs_15_black_gh"; \
-		count = 8; \
-	}; \
-	class _xx_ACE_personalAidKit \
-	{ \
-		name = "ACE_personalAidKit"; \
-		count = 8; \
-	}; \
-	class _xx_ACE_bodyBag \
-	{ \
-		name = "ACE_bodyBag"; \
-		count = 9; \
-	}; \
+	ADD_ITEM(rtg_pvs_15_black_gh, 4) \
+	ADD_ITEM(ACE_personalAidKit, 10) \
+	ADD_ITEM(ACE_bodyBag, 10) \
 }; \
 class TransportBackpacks \
 { \
@@ -34,7 +22,8 @@ class TransportBackpacks \
 		count = 1; \
 	}; \
 }; \
-class TransportItems {}; \
+class TransportWeapons {}; \
+class TransportMagazines {}; \
 class ace_cargo \
 { \
 	class Cargo \
@@ -48,7 +37,7 @@ class ace_cargo \
 } \
 reportOwnPosition = true; \
 receiveRemoteTargets = true; \
-reportRemoteTargets = true; \
+reportRemoteTargets = true;
 
 #define 8E7 80000000
 
@@ -88,7 +77,8 @@ class TransportBackpacks \
 		count = 1; \
 	}; \
 }; \
-class TransportItems {}; \
+class TransportWeapons {}; \
+class TransportMagazines {}; \
 class ace_cargo \
 { \
 	class Cargo \
@@ -100,6 +90,9 @@ class ace_cargo \
 		}; \
 	}; \
 } \
+reportOwnPosition = true; \
+receiveRemoteTargets = true; \
+reportRemoteTargets = true;
 
 #define RTG_Vehicle_Gear_Rotary \
 class TransportItems \
@@ -133,5 +126,8 @@ class TransportBackpacks \
 		count = 1; \
 	}; \
 }; \
-class TransportItems {};
-
+class TransportWeapons {}; \
+class TransportMagazines {}; \
+reportOwnPosition = true; \
+receiveRemoteTargets = true; \
+reportRemoteTargets = true;

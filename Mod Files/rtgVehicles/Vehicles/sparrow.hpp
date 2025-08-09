@@ -18,7 +18,7 @@ class rtg_sparrow : RHS_MELB_AH6M
 
 	hiddenSelections[] = {"camo1","d_SN"};
 	hiddenSelectionsTextures[] = {
-			"rhsusf\addons\rhsusf_melb\data\melb_ext_co.paa",
+			"rtgVehicles\tex\Sparrow\melb_ext_co.paa",
 			"rhsusf\addons\rhsusf_melb\data\decals\SN\blank_ca.paa"
 		};
 
@@ -28,56 +28,6 @@ class rtg_sparrow : RHS_MELB_AH6M
 	LockDetectionSystem = "8 + 4";
 	incomingMissileDetectionSystem = "8 + 16";
 	radarTargetSize = 0.7;
-	class Components : Components
-	{
-		class SensorsManagerComponent
-		{
-			class Components
-			{
-				class PassiveRadarSensorComponent : SensorTemplatePassiveRadar
-				{
-					class AirTarget
-					{
-						minRange = 2000;
-						maxRange = 2000;
-						objectDistanceLimitCoef = -1;
-						viewDistanceLimitCoef = -1;
-					};
-					class GroundTarget
-					{
-						minRange = 2000;
-						maxRange = 2000;
-						objectDistanceLimitCoef = -1;
-						viewDistanceLimitCoef = -1;
-					};
-					angleRangeHorizontal = 360;
-					angleRangeVertical = 180;
-				};
-
-				class LaserSensorComponent : SensorTemplateLaser
-				{
-					class AirTarget
-					{
-						minRange = 4000;
-						maxRange = 4000;
-						objectDistanceLimitCoef = -1;
-						viewDistanceLimitCoef = -1;
-					};
-					class GroundTarget
-					{
-						minRange = 4000;
-						maxRange = 4000;
-						objectDistanceLimitCoef = -1;
-						viewDistanceLimitCoef = -1;
-					};
-					angleRangeHorizontal = 360;
-					angleRangeVertical = 90;
-				};
-
-				class DatalinkSensorComponent : SensorTemplatePassiveRadar {};
-			};
-		};
-	};
 
 	class pilotCamera {
 		class OpticsIn {
@@ -142,6 +92,109 @@ class rtg_sparrow : RHS_MELB_AH6M
 		maxMouseYRotSpeed = 0.5;
 		pilotOpticsShowCursor = 1;
 		controllable = 1;
+	};
+
+	class Components: Components
+	{
+		class SensorsManagerComponent
+		{
+			class Components
+			{
+				class PassiveRadarSensorComponent : SensorTemplatePassiveRadar
+				{
+					class AirTarget
+					{
+						minRange = 2000;
+						maxRange = 2000;
+						objectDistanceLimitCoef = -1;
+						viewDistanceLimitCoef = -1;
+					};
+					class GroundTarget
+					{
+						minRange = 2000;
+						maxRange = 2000;
+						objectDistanceLimitCoef = -1;
+						viewDistanceLimitCoef = -1;
+					};
+					angleRangeHorizontal = 360;
+					angleRangeVertical = 180;
+				};
+
+				class LaserSensorComponent : SensorTemplateLaser
+				{
+					class AirTarget
+					{
+						minRange = 4000;
+						maxRange = 4000;
+						objectDistanceLimitCoef = -1;
+						viewDistanceLimitCoef = -1;
+					};
+					class GroundTarget
+					{
+						minRange = 4000;
+						maxRange = 4000;
+						objectDistanceLimitCoef = -1;
+						viewDistanceLimitCoef = -1;
+					};
+					angleRangeHorizontal = 360;
+					angleRangeVertical = 90;
+				};
+
+				class DatalinkSensorComponent : SensorTemplatePassiveRadar {};
+			};
+		};
+		class TransportPylonsComponent
+		{
+			UIPicture = "\rhsusf\addons\rhsusf_melb\data\loadouts\RHS_AH6M_EDEN_CA.paa";
+			class pylons
+			{
+				class pylon1
+				{
+					hardpoints[] = {"RHS_HP_MELB","RHS_HP_MELB_L"};
+					priority = 2;
+					attachment = "rhsusf_mag_gau19_melb_left";
+					maxweight = 1200;
+					UIposition[] = {0.625,0.2};
+					bay = -1;
+					turret[] = {};
+					hitpoint = "HitPylon1";
+				};
+				class pylon2: pylon1
+				{
+					hardpoints[] = {"RHS_HP_MELB_M134"};
+					UIposition[] = {0.562,0.3};
+					priority = 1;
+					attachment = "rhs_mag_m134_pylon_3000";
+					turret[] = {};
+					hitpoint = "HitPylon2";
+				};
+				class pylon3: pylon2
+				{
+					UIposition[] = {0.103,0.3};
+					mirroredMissilePos = 2;
+					attachment = "rhs_mag_m134_pylon_3000";
+					turret[] = {};
+					hitpoint = "HitPylon3";
+				};
+				class pylon4: pylon1
+				{
+					hardpoints[] = {"RHS_HP_MELB","RHS_HP_MELB_R"};
+					UIposition[] = {0.04,0.2};
+					attachment = "rhsusf_mag_gau19_melb_right";
+					mirroredMissilePos = 1;
+					turret[] = {};
+					hitpoint = "HitPylon4";
+				};
+			};
+			class Presets
+			{
+				class sparrow
+				{
+					attachment[] = {"rhsusf_mag_gau19_melb_left","rhs_mag_m134_pylon_3000","rhs_mag_m134_pylon_3000","rhsusf_mag_gau19_melb_right"};
+					displayname = "Sparrow";
+				};
+			};
+		};
 	};
 };
 

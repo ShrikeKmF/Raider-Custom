@@ -9,5 +9,7 @@ class rtg_ravn: usarmy_LT_M10_WD
 	side = 1;
 	faction = "Raider_Tactical_F";
 	ace_cargo_space = 4;
+	mineDetectorRange = 50;
+	canAccessMineDetector = 1;
 	RTG_Vehicle_Gear_Tracked 
 };

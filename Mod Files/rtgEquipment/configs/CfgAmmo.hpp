@@ -424,9 +424,17 @@ class CfgAmmo
 
     class rtg_rpg_heat : rhs_rpg7v2_pg7vm
     {
-        hit = 150;
+        hit = 60;
+        indirectHit = 19;
+		indirectHitRange = 6.1;
+    };
+
+    class rtg_rpg_hedp : rtg_rpg_heat
+    {
+        hit = 40;
         indirectHit = 40;
-		indirectHitRange = 4;
+		indirectHitRange = 12;
+        submunitionAmmo = "";
     };
 
     class rtg_rpg_smoke : rtg_rpg_heat

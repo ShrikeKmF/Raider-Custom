@@ -1,5 +1,34 @@
 class B_Kitbag_rgr;
 class B_AssaultPack_blk;
+
+// AMCU
+class rtg_AMCU_Carryall: VSM_OGA_carryall
+{
+    scope = 2;
+    dlc = "raiderTactical";
+    author = "Shrike";
+    maximumLoad = 350;
+    tf_hasLRradio = 0;
+    mass = 50;
+    displayName = "Carryall (AMCU)";
+    hiddenSelectionsTextures[] = {"rtgEquipment\tex\amcu\AMCU_CARRYALL.paa"};
+};
+class rtg_AMCU_kitbag: B_Kitbag_rgr
+{
+    scope = 2;
+    dlc = "raiderTactical";
+    author = "Shrike";
+    maximumLoad = 350;
+    tf_hasLRradio = 0;
+    mass = 50;
+    displayName = "Kitbag (AMCU)";
+    hiddenSelectionsTextures[] = {"rtgEquipment\tex\amcu\AMCU KITBAG.paa"};
+};
+
+///////////////////////////////////////
+// Personal Custom Content
+///////////////////////////////////////
+
 // Tex
 class texBackpack: B_AssaultPack_blk
 {

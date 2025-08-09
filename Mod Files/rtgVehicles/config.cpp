@@ -84,6 +84,9 @@ class CfgVehicles
 	class SensorTemplateLaser;
 	class SensorTemplateNV;
 	class SensorTemplateDataLink;
+	class IRSensorComponent;
+	class LaserSensorComponent;
+	class VisualSensorComponent;
 	class Turrets;
 	class HitPoints;
 	class hitwindshield_1;
@@ -98,6 +101,7 @@ class CfgVehicles
 	class CargoTurret_03;
 	class MainTurret;
 	class ViewOptics;
+	class ViewGunner;
 	class AnimationSources;
 	class DefaultVehicleSystemsDisplayManagerLeft;
 	class DefaultVehicleSystemsDisplayManagerRight;
