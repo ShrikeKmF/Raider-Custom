@@ -12,6 +12,13 @@ class rtg_rush_shorad: rhsusf_stryker_m1126ms_wd
 	mineDetectorRange = 50;
 	canAccessMineDetector = 1;
 	enginePower=395;
+	weapons[] = {"SmokeLauncher","TruckHorn"};
+	magazines[] = {"SmokeLauncherMag"};
+	smokeLauncherGrenadeCount = 4;
+	smokeLauncherVelocity = 14;
+	smokeLauncherOnTurret = 0;
+	smokeLauncherAngle = 160;
+	
 	RTG_Vehicle_Gear 
 
 	LockDetectionSystem = "8 + 4";
@@ -226,5 +233,12 @@ class rtg_rush_IS: rhsusf_stryker_m1296_wd
 	mineDetectorRange = 50;
 	canAccessMineDetector = 1;
 	ace_cargo_space = 16;
+	weapons[] = {"SmokeLauncher","TruckHorn"};
+	magazines[] = {"SmokeLauncherMag"};
+	smokeLauncherGrenadeCount = 4;
+	smokeLauncherVelocity = 14;
+	smokeLauncherOnTurret = 0;
+	smokeLauncherAngle = 160;
+	
 	RTG_Vehicle_Gear
 };

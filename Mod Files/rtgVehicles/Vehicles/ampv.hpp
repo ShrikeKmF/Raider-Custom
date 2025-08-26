@@ -9,6 +9,9 @@ class rtg_amp_m2: usarmy_M1283_M2_WD
 	side = 1;
 	faction = "Raider_Tactical_F";
 	ace_cargo_space = 12;
+	weapons[] = {"SmokeLauncher","TruckHorn"};
+	magazines[] = {"SmokeLauncherMag"};
+
 	RTG_Vehicle_Gear_Tracked 
 };
 
@@ -23,6 +26,9 @@ class rtg_amp_m2jav: usarmy_M1283RWS_WD
 	side = 1;
 	faction = "Raider_Tactical_F";
 	ace_cargo_space = 12;
+	weapons[] = {"SmokeLauncher","TruckHorn"};
+	magazines[] = {"SmokeLauncherMag"};
+
 	RTG_Vehicle_Gear_Tracked
 };
 
@@ -36,9 +42,12 @@ class rtg_amp_shorad: usarmy_M1283CUAS_WD
 	scope = 2;
 	side = 1;
 	faction = "Raider_Tactical_F";
-	ace_cargo_space = 12;
+	ace_cargo_space = 16;
 	mineDetectorRange = 50;
 	canAccessMineDetector = 1;
+	weapons[] = {"SmokeLauncher","TruckHorn"};
+	magazines[] = {"SmokeLauncherMag"};
+
 	RTG_Vehicle_Gear_Tracked
 
 	LockDetectionSystem = "8 + 4";
