@@ -6,23 +6,30 @@
 */
 
 params ["_logic"];   // module logic object
-if (isNil "_logic") exitWith {};
 
-private _training = _logic getVariable ["TAG_ModuleAISkill_Training", "Trained"];
+diag_log format ["Setting Skill Level"];
+
+
+private _training = _logic getVariable ["Training", "Trained"];
+
+hint format ["Selected training level: %1", _training];
+diag_log format ["fn_moduleAISkill: Training level = %1", _training];
+
 
 // Map training levels to skill values
 // [aimingAccuracy, aimingShake, aimingSpeed, spotDistance, spotTime, courage, commanding, general]
 private _skillMap = [
-    ["Green",         [0.55, 0.58, 0.58, 0.61, 0.61, 0.64, 0.58, 0.61]],
-    ["Milita",        [0.64, 0.67, 0.67, 0.70, 0.70, 0.73, 0.67, 0.70]],
-    ["Trained",       [0.73, 0.76, 0.76, 0.79, 0.79, 0.82, 0.79, 0.79]],
-    ["Veteran",       [0.82, 0.85, 0.85, 0.88, 0.88, 0.91, 0.88, 0.88]],
-    ["SpecialForces", [0.91, 0.94, 0.94, 0.97, 0.97, 1.00, 0.97, 0.97]]
+    ["Green",         [0.55, 0.55, 0.55, 0.55, 0.55, 0.55, 0.55, 0.55]],
+    ["Milita",        [0.64, 0.64, 0.64, 0.64, 0.64, 0.64, 0.64, 0.64]],
+    ["Trained",       [0.73, 0.73, 0.73, 0.73, 0.73, 0.73, 0.73, 0.73]],
+    ["Veteran",       [0.82, 0.82, 0.82, 0.82, 0.82, 0.82, 0.82, 0.82]],
+    ["SpecialForces", [0.91, 0.91, 0.91, 0.91, 0.91, 0.91, 0.91, 0.91]]
 ];
 
-private _index = _skillMap findIf { _x select 0 isEqualTo _training };
-private _skills = if (_index == -1) then { [0.511,0.511,0.511,0.522,0.511,0.511,0.511,0.511] } 
-                  else { _skillMap select _index select 1 };
+private _skills = (_skillMap select {
+     _x select 0 isEqualTo _training 
+     }) param [0, ["", [0.511,0.511,0.511,0.522,0.511,0.511,0.511,0.5]]];
+_skills = _skills select 1;
 
 // function to apply skill array to a unit
 private _applySkill = {

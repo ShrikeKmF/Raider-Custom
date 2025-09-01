@@ -52,7 +52,7 @@ class CfgVehicles
 };
 
 class CfgInventoryGlobalVariable {
-	maxSoldierLoad = 2200; // 10 = 1 pound
+	maxSoldierLoad = 1400; // 10 = 1 pound
 };
 
 class CfgMovesFatigue {

@@ -7,7 +7,7 @@ class rtg_AMCU_Carryall: VSM_OGA_carryall
     scope = 2;
     dlc = "raiderTactical";
     author = "Shrike";
-    maximumLoad = 350;
+    maximumLoad = 320;
     tf_hasLRradio = 0;
     mass = 50;
     displayName = "Carryall (AMCU)";
@@ -18,7 +18,7 @@ class rtg_AMCU_kitbag: B_Kitbag_rgr
     scope = 2;
     dlc = "raiderTactical";
     author = "Shrike";
-    maximumLoad = 350;
+    maximumLoad = 320;
     tf_hasLRradio = 0;
     mass = 50;
     displayName = "Kitbag (AMCU)";
@@ -35,7 +35,7 @@ class texBackpack: B_AssaultPack_blk
     scope = 2;
     dlc = "raiderTactical";
     author = "Shrike";
-    maximumLoad = 350;
+    maximumLoad = 320;
     tf_hasLRradio = 0;
     tf_encryptionCode = "tf_west_radio_code";
     tf_dialog = "rt1523g_radio_dialog";
@@ -50,7 +50,7 @@ class texRadioPack: B_AssaultPack_blk
     scope = 2;
     dlc = "raiderTactical";
     author = "Shrike";
-    maximumLoad = 350;
+    maximumLoad = 320;
     tf_hasLRradio = 1;
     tf_encryptionCode = "tf_west_radio_code";
     tf_dialog = "rt1523g_radio_dialog";
@@ -66,7 +66,7 @@ class cakeBackpack: B_Kitbag_rgr
     scope = 2;
     dlc = "raiderTactical";
     author = "Shrike";
-    maximumLoad = 350;
+    maximumLoad = 320;
     tf_hasLRradio = 0;
     tf_encryptionCode = "tf_west_radio_code";
     tf_dialog = "rt1523g_radio_dialog";
@@ -81,7 +81,7 @@ class cakeRadioPack: B_Kitbag_rgr
     scope = 2;
     dlc = "raiderTactical";
     author = "Shrike";
-    maximumLoad = 350;
+    maximumLoad = 320;
     tf_hasLRradio = 1;
     tf_encryptionCode = "tf_west_radio_code";
     tf_dialog = "rt1523g_radio_dialog";
@@ -97,7 +97,7 @@ class kebaCarryRadioAll_MCB: VSM_OGA_carryall
     scope = 2;
     dlc = "raiderTactical";
     author = "Shrike";
-    maximumLoad = 350;
+    maximumLoad = 320;
     tf_hasLRradio = 1;
     tf_encryptionCode = "tf_west_radio_code";
     tf_dialog = "rt1523g_radio_dialog";
@@ -112,7 +112,7 @@ class kebaCarryRadioAll_ALP: VSM_OGA_carryall
     scope = 2;
     dlc = "raiderTactical";
     author = "Shrike";
-    maximumLoad = 350;
+    maximumLoad = 320;
     tf_hasLRradio = 1;
     tf_encryptionCode = "tf_west_radio_code";
     tf_dialog = "rt1523g_radio_dialog";
@@ -127,7 +127,7 @@ class kebaCarryAll_MCB: VSM_OGA_carryall
     scope = 2;
     dlc = "raiderTactical";
     author = "Shrike";
-    maximumLoad = 350;
+    maximumLoad = 320;
     tf_hasLRradio = 0;
     mass = 50;
     displayName = "Carryall (Black) - Keba";
@@ -138,7 +138,7 @@ class kebaCarryAll_ALP: VSM_OGA_carryall
     scope = 2;
     dlc = "raiderTactical";
     author = "Shrike";
-    maximumLoad = 350;
+    maximumLoad = 320;
     tf_hasLRradio = 0;
     mass = 50;
     displayName = "Carryall (Alpine) - Keba";
@@ -150,7 +150,7 @@ class lynxKitbag: B_Kitbag_rgr
     scope = 2;
     dlc = "raiderTactical";
     author = "Shrike";
-    maximumLoad = 350;
+    maximumLoad = 320;
     mass = 50;
     tf_hasLRradio = 0;
     displayName = "Kitbag - Lynx";
@@ -161,7 +161,7 @@ class lynxRadioPack: B_Kitbag_rgr
     scope = 2;
     dlc = "raiderTactical";
     author = "Shrike";
-    maximumLoad = 350;
+    maximumLoad = 320;
     tf_hasLRradio = 1;
     tf_encryptionCode = "tf_west_radio_code";
     tf_dialog = "rt1523g_radio_dialog";
@@ -177,7 +177,7 @@ class shrikeBackpack: B_Kitbag_rgr
     scope = 2;
     dlc = "raiderTactical";
     author = "Shrike";
-    maximumLoad = 350;
+    maximumLoad = 320;
     tf_hasLRradio = 0;
     tf_encryptionCode = "tf_west_radio_code";
     tf_dialog = "rt1523g_radio_dialog";
@@ -192,7 +192,7 @@ class shrikeRadiobag: rtg_radiopack_black
     scope = 2;
     dlc = "raiderTactical";
     author = "Shrike";
-    maximumLoad = 350;
+    maximumLoad = 320;
     tf_hasLRradio = 1;
     tf_encryptionCode = "tf_west_radio_code";
     tf_dialog = "rt1523g_radio_dialog";
@@ -212,7 +212,7 @@ class salBackpack: B_Kitbag_rgr
     scope = 2;
     dlc = "raiderTactical";
     author = "Shrike";
-    maximumLoad = 350;
+    maximumLoad = 320;
     mass = 50;
     tf_hasLRradio = 0;
     displayName = "Kitbag - Sal";
@@ -223,7 +223,7 @@ class salRadioPack: B_Kitbag_rgr
     scope = 2;
     dlc = "raiderTactical";
     author = "Shrike";
-    maximumLoad = 350;
+    maximumLoad = 320;
     mass = 50;
     tf_hasLRradio = 1;
     tf_encryptionCode = "tf_west_radio_code";
@@ -239,7 +239,7 @@ class bladesBackpack: B_Kitbag_rgr
     scope = 2;
     dlc = "raiderTactical";
     author = "Shrike";
-    maximumLoad = 350;
+    maximumLoad = 320;
     tf_hasLRradio = 0;
     tf_encryptionCode = "tf_west_radio_code";
     tf_dialog = "rt1523g_radio_dialog";
@@ -254,7 +254,7 @@ class bladesRadioPackack: B_Kitbag_rgr
     scope = 2;
     dlc = "raiderTactical";
     author = "Shrike";
-    maximumLoad = 350;
+    maximumLoad = 320;
     tf_hasLRradio = 1;
     tf_encryptionCode = "tf_west_radio_code";
     tf_dialog = "rt1523g_radio_dialog";
@@ -270,7 +270,7 @@ class ozzyBackpack: B_Kitbag_rgr
     scope = 2;
     dlc = "raiderTactical";
     author = "Shrike";
-    maximumLoad = 350;
+    maximumLoad = 320;
     mass = 50;
     tf_hasLRradio = 0;
     displayName = "Kitbag - Ozzy";
@@ -281,7 +281,7 @@ class ozzyRadioPack: B_Kitbag_rgr
     scope = 2;
     dlc = "raiderTactical";
     author = "Shrike";
-    maximumLoad = 350;
+    maximumLoad = 320;
     mass = 50;
     tf_hasLRradio = 1;
     tf_encryptionCode = "tf_west_radio_code";
@@ -297,7 +297,7 @@ class fizzAlpineCarryAll: rtg_Alpine_Carryall
     scope = 2;
     dlc = "raiderTactical";
     author = "Shrike";
-    maximumLoad = 350;
+    maximumLoad = 320;
     tf_hasLRradio = 0;
     mass = 50;
     displayName = "Carryall (Alpine) - Fizz";
@@ -312,7 +312,7 @@ class fizzBlackCarryAll: rtg_Alpine_Carryall
     scope = 2;
     dlc = "raiderTactical";
     author = "Shrike";
-    maximumLoad = 350;
+    maximumLoad = 320;
     tf_hasLRradio = 0;
     mass = 50;
     displayName = "Carryall (Black) - Fizz";
@@ -327,7 +327,7 @@ class fizzAlpineRadioCarryAll: rtg_Alpine_Carryall
     scope = 2;
     dlc = "raiderTactical";
     author = "Shrike";
-    maximumLoad = 350;
+    maximumLoad = 320;
     tf_hasLRradio = 1;
     tf_encryptionCode = "tf_west_radio_code";
     tf_dialog = "rt1523g_radio_dialog";
@@ -346,7 +346,7 @@ class fizzBlackRadioCarryAll: rtg_Alpine_Carryall
     scope = 2;
     dlc = "raiderTactical";
     author = "Shrike";
-    maximumLoad = 350;
+    maximumLoad = 320;
     tf_hasLRradio = 1;
     tf_encryptionCode = "tf_west_radio_code";
     tf_dialog = "rt1523g_radio_dialog";
@@ -365,7 +365,7 @@ class fizzTanCarryAll: rtg_Alpine_Carryall
     scope = 2;
     dlc = "raiderTactical";
     author = "Shrike";
-    maximumLoad = 350;
+    maximumLoad = 320;
     tf_hasLRradio = 0;
     mass = 50;
     displayName = "Carryall (Tan) - Fizz";
@@ -380,7 +380,7 @@ class fizzTaneRadioCarryAll: rtg_Alpine_Carryall
     scope = 2;
     dlc = "raiderTactical";
     author = "Shrike";
-    maximumLoad = 350;
+    maximumLoad = 320;
     tf_hasLRradio = 1;
     tf_encryptionCode = "tf_west_radio_code";
     tf_dialog = "rt1523g_radio_dialog";
@@ -401,7 +401,7 @@ class kim_carryall: rtg_Alpine_Carryall
     scope = 2;
     dlc = "raiderTactical";
     author = "Shrike";
-    maximumLoad = 350;
+    maximumLoad = 320;
     tf_hasLRradio = 0;
     mass = 50;
     displayName = "Carryall - Kim";
@@ -419,7 +419,7 @@ class patsBackpack: B_Kitbag_rgr
     scope = 2;
     dlc = "raiderTactical";
     author = "Shrike";
-    maximumLoad = 350;
+    maximumLoad = 320;
     tf_hasLRradio = 0;
     mass = 50;
     displayName = "Kitbag - Phoebe";
@@ -430,7 +430,7 @@ class patsRadioPack: B_Kitbag_rgr
     scope = 2;
     dlc = "raiderTactical";
     author = "Shrike";
-    maximumLoad = 350;
+    maximumLoad = 320;
     mass = 50;
     tf_hasLRradio = 1;
     tf_encryptionCode = "tf_west_radio_code";
@@ -447,7 +447,7 @@ class sparklesBackpack: B_Kitbag_rgr
     scope = 2;
     dlc = "raiderTactical";
     author = "Shrike";
-    maximumLoad = 350;
+    maximumLoad = 320;
     mass = 50;
     tf_hasLRradio = 0;
     displayName = "Kitbag - Sparkles";
@@ -458,7 +458,7 @@ class sparklesRadioPack: B_Kitbag_rgr
     scope = 2;
     dlc = "raiderTactical";
     author = "Shrike";
-    maximumLoad = 350;
+    maximumLoad = 320;
     mass = 50;
     tf_hasLRradio = 1;
     tf_encryptionCode = "tf_west_radio_code";
@@ -476,7 +476,7 @@ class fishPack: B_CombinationUnitRespirator_01_F
     scope = 2;
     dlc = "raiderTactical";
     author = "Shrike";
-    maximumLoad = 350;
+    maximumLoad = 320;
     tf_hasLRradio = 0;
     tf_encryptionCode = "tf_west_radio_code";
     tf_dialog = "rt1523g_radio_dialog";
@@ -491,7 +491,7 @@ class fishRadioPack: fishPack
     scope = 2;
     dlc = "raiderTactical";
     author = "Shrike";
-    maximumLoad = 350;
+    maximumLoad = 320;
     tf_hasLRradio = 1;
     tf_encryptionCode = "tf_west_radio_code";
     tf_dialog = "rt1523g_radio_dialog";
@@ -509,7 +509,7 @@ class brewPack: B_RadioBag_01_black_F
     scope = 2;
     dlc = "raiderTactical";
     author = "Shrike";
-    maximumLoad = 350;
+    maximumLoad = 320;
     mass = 50;
     tf_hasLRradio = 0;
     displayName = "Backpack - Brewsky";
@@ -520,7 +520,7 @@ class brewRadioPack: B_RadioBag_01_black_F
     scope = 2;
     dlc = "raiderTactical";
     author = "Shrike";
-    maximumLoad = 350;
+    maximumLoad = 320;
     mass = 50;
     tf_hasLRradio = 1;
     tf_encryptionCode = "tf_west_radio_code";

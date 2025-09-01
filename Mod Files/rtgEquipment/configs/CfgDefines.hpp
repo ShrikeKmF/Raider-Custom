@@ -75,7 +75,7 @@ class ItemInfo: ItemInfo \
     armor = 4; \
     class ItemInfo: ItemInfo \
     { \
-        containerClass = "Supply180"; \
+        containerClass = "Supply170"; \
         class HitpointsProtectionInfo \
         { \
             class Chest \

@@ -2,7 +2,7 @@ class CfgPatches
 {
 	class rtgEditorModules
 	{
-		units[] = { "rtgModuleAISkill", "rtgModulePathing" };
+		units[] = { "rtgModuleAISkill", "rtgModulePathing", "rtgDisableVcom" };
 		requiredVersion = 1.0;
 		requiredAddons[] = { "A3_Modules_F" };
 	};
@@ -42,12 +42,11 @@ class CfgVehicles
 	class rtgModuleAISkill: Module_F
 	{
 		scope = 2;
-		scopeCurator = 2;
 		displayName = "[RTG] Set AI Skill";
 		category = "rtgModules";
 		function = "fn_moduleAISkill";
 		functionPriority = 1;
-		isGlobal = 1;
+		isGlobal = 0;
 		isTriggerActivated = 0;
 		isDisposable = 0;
 		is3DEN = 1;
@@ -101,6 +100,25 @@ class CfgVehicles
 		class ModuleDescription: ModuleDescription
 		{
 			description = "Stops synced units pathing.";
+		};
+	};
+
+	class rtgDisableVcom: Module_F
+	{
+		scope = 0;
+		displayName = "[RTG] Disable VCOM";
+		category = "rtgModules";
+		function = "fn_moduleVCOM";
+		functionPriority = 1;
+		isGlobal = 1;
+		isTriggerActivated = 0;
+		isDisposable = 0;
+		is3DEN = 1;
+		curatorCanAttach = 1;
+
+		class ModuleDescription: ModuleDescription
+		{
+			description = "Disable Vcom on Sync Units Group.";
 		};
 	};
 };

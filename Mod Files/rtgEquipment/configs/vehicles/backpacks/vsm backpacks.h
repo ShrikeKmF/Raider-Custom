@@ -109,7 +109,7 @@ class rtg_VSM_ProjectHonor_Backpack_Compact : VSM_ProjectHonor_Backpack_Compact 
 class rtg_Alpine_Backpack_kitbag : Alpine_Backpack_kitbag {
     RTG_WEAPON_BASE
     
-    maximumLoad = 350;
+    maximumLoad = 320;
     class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_backpack";
@@ -120,7 +120,7 @@ class rtg_Alpine_Backpack_kitbag : Alpine_Backpack_kitbag {
 class rtg_Arid_Backpack_kitbag : Arid_Backpack_kitbag {
     RTG_WEAPON_BASE
     
-    maximumLoad = 350;
+    maximumLoad = 320;
     class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_backpack";
@@ -131,7 +131,7 @@ class rtg_Arid_Backpack_kitbag : Arid_Backpack_kitbag {
 class rtg_Black_Backpack_kitbag : Black_Backpack_kitbag {
     RTG_WEAPON_BASE
     
-    maximumLoad = 350;
+    maximumLoad = 320;
     class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_backpack";
@@ -142,7 +142,7 @@ class rtg_Black_Backpack_kitbag : Black_Backpack_kitbag {
 class rtg_VSM_Multicam_Backpack_Kitbag : VSM_Multicam_Backpack_Kitbag {
     RTG_WEAPON_BASE
     
-    maximumLoad = 350;
+    maximumLoad = 320;
     class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_backpack";
@@ -153,7 +153,7 @@ class rtg_VSM_Multicam_Backpack_Kitbag : VSM_Multicam_Backpack_Kitbag {
 class rtg_VSM_MulticamTropic_Backpack_Kitbag : VSM_MulticamTropic_Backpack_Kitbag {
     RTG_WEAPON_BASE
     
-    maximumLoad = 350;
+    maximumLoad = 320;
     class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_backpack";
@@ -164,7 +164,7 @@ class rtg_VSM_MulticamTropic_Backpack_Kitbag : VSM_MulticamTropic_Backpack_Kitba
 class rtg_VSM_OGA_Backpack_Kitbag : VSM_OGA_Backpack_Kitbag {
     RTG_WEAPON_BASE
     
-    maximumLoad = 350;
+    maximumLoad = 320;
     class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_backpack";
@@ -175,7 +175,7 @@ class rtg_VSM_OGA_Backpack_Kitbag : VSM_OGA_Backpack_Kitbag {
 class rtg_VSM_OGA_OD_Backpack_Kitbag : VSM_OGA_OD_Backpack_Kitbag {
     RTG_WEAPON_BASE
     
-    maximumLoad = 350;
+    maximumLoad = 320;
     class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_backpack";
@@ -186,7 +186,7 @@ class rtg_VSM_OGA_OD_Backpack_Kitbag : VSM_OGA_OD_Backpack_Kitbag {
 class rtg_VSM_ProjectHonor_Backpack_Kitbag : VSM_ProjectHonor_Backpack_Kitbag {
     RTG_WEAPON_BASE
     
-    maximumLoad = 350;
+    maximumLoad = 320;
     class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_backpack";
@@ -198,7 +198,7 @@ class rtg_VSM_ProjectHonor_Backpack_Kitbag : VSM_ProjectHonor_Backpack_Kitbag {
 class rtg_Alpine_Carryall : Alpine_Carryall {
     RTG_WEAPON_BASE
     
-    maximumLoad = 350;
+    maximumLoad = 320;
     class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_backpack";
@@ -209,7 +209,7 @@ class rtg_Alpine_Carryall : Alpine_Carryall {
 class rtg_Arid_Carryall : Arid_Carryall {
     RTG_WEAPON_BASE
     
-    maximumLoad = 350;
+    maximumLoad = 320;
     class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_backpack";
@@ -220,7 +220,7 @@ class rtg_Arid_Carryall : Arid_Carryall {
 class rtg_Black_Carryall : Black_Carryall {
     RTG_WEAPON_BASE
     
-    maximumLoad = 350;
+    maximumLoad = 320;
     class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_backpack";
@@ -231,7 +231,7 @@ class rtg_Black_Carryall : Black_Carryall {
 class rtg_VSM_Multicam_carryall : VSM_Multicam_carryall {
     RTG_WEAPON_BASE
     
-    maximumLoad = 350;
+    maximumLoad = 320;
     class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_backpack";
@@ -242,7 +242,7 @@ class rtg_VSM_Multicam_carryall : VSM_Multicam_carryall {
 class rtg_VSM_MulticamTropic_carryall : VSM_MulticamTropic_carryall {
     RTG_WEAPON_BASE
     
-    maximumLoad = 350;
+    maximumLoad = 320;
     class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_backpack";
@@ -253,7 +253,7 @@ class rtg_VSM_MulticamTropic_carryall : VSM_MulticamTropic_carryall {
 class rtg_VSM_OGA_carryall : VSM_OGA_carryall {
     RTG_WEAPON_BASE
     
-    maximumLoad = 350;
+    maximumLoad = 320;
     class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_backpack";
@@ -264,7 +264,7 @@ class rtg_VSM_OGA_carryall : VSM_OGA_carryall {
 class rtg_VSM_OGA_OD_carryall : VSM_OGA_OD_carryall {
     RTG_WEAPON_BASE
     
-    maximumLoad = 350;
+    maximumLoad = 320;
     class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_backpack";
@@ -275,7 +275,7 @@ class rtg_VSM_OGA_OD_carryall : VSM_OGA_OD_carryall {
 class rtg_VSM_ProjectHonor_carryall : VSM_ProjectHonor_carryall {
     RTG_WEAPON_BASE
     
-    maximumLoad = 350;
+    maximumLoad = 320;
     class XtdGearInfo
 	{
 		model = "rtg_ace_expanded_backpack";

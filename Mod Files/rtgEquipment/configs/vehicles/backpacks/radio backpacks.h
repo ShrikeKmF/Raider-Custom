@@ -6,7 +6,7 @@ class rtg_radiopack_black: TFAR_rt1523g_black
     scope = 2;
     dlc = "raiderTactical";
     author = "Shrike";
-    maximumLoad = 350;
+    maximumLoad = 320;
     tf_hasLRradio = 1;
     tf_encryptionCode = "tf_west_radio_code";
     tf_dialog = "rt1523g_radio_dialog";
@@ -25,7 +25,7 @@ class rtg_radiopack_green: TFAR_rt1523g_green
     scope = 2;
     dlc = "raiderTactical";
     author = "Shrike";
-    maximumLoad = 350;
+    maximumLoad = 320;
     tf_hasLRradio = 1;
     tf_encryptionCode = "tf_west_radio_code";
     tf_dialog = "rt1523g_radio_dialog";
@@ -44,7 +44,7 @@ class rtg_radiopack_sage: TFAR_rt1523g_sage
     scope = 2;
     dlc = "raiderTactical";
     author = "Shrike";
-    maximumLoad = 350;
+    maximumLoad = 320;
     tf_hasLRradio = 1;
     tf_encryptionCode = "tf_west_radio_code";
     tf_dialog = "rt1523g_radio_dialog";
