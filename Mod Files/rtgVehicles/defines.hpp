@@ -2,6 +2,15 @@
 #define ADD_WEAPON(NAME, COUNT) class _xx_##NAME {weapon = #NAME; count = COUNT;}
 #define ADD_MAGAZINE(NAME, COUNT) class _xx_##NAME {magazine = #NAME; count = COUNT;}
 
+// Basic Macro Defs
+#define QUOTE(var) #var                   // turns code into "string"
+#define DOUBLE(var1,var2) var1##var2      // concatenates two tokens
+#define TRIPLE(var1,var2,var3) var1##var2##var3
+#define ARR_1(a) a
+#define ARR_2(a,b) a, b
+#define ARR_3(a,b,c) a, b, c
+#define ARR_4(a,b,c,d) a, b, c, d
+
 #define RTG_Vehicle_Gear \
 class TransportItems \
 { \
@@ -131,3 +140,30 @@ class TransportMagazines {}; \
 reportOwnPosition = true; \
 receiveRemoteTargets = true; \
 reportRemoteTargets = true;
+
+// Aquired from https://github.com/michail-nikolaev/task-force-arma-3-radio/blob/master/addons/core/intercomConfig/config.cpp
+#define Intercom_Condition(chan) [ARR_3(_target,_player,chan)] call TFAR_fnc_canSetIntercomChannel
+#define Intercom_Statement(chan) [ARR_3(_target,_player,chan)] call TFAR_fnc_setIntercomChannel
+
+#define RTG_Vehicle_Intercom \
+class TFAR_IntercomChannel { \
+	displayName = "Vehicle Intercom"; \
+	condition = "true"; \
+	statement = ""; \
+	icon = ""; \
+	class TFAR_IntercomChannel_disabled { \
+		displayName = "Disconnected"; \
+		condition = QUOTE(Intercom_Condition(-1)); \
+        statement = QUOTE(Intercom_Statement(-1)); \
+	}; \
+	class TFAR_IntercomChannel_1 { \
+		displayName = "Crew"; \
+		condition = QUOTE(Intercom_Condition(0)); \
+        statement = QUOTE(Intercom_Statement(0)); \
+	}; \
+	class TFAR_IntercomChannel_2 { \
+		displayName = "Cargo"; \
+		condition = QUOTE(Intercom_Condition(1)); \
+        statement = QUOTE(Intercom_Statement(1)); \
+	}; \
+};
