@@ -11,6 +11,12 @@ class rtg_amp_m2: usarmy_M1283_M2_WD
 	ace_cargo_space = 12;
 	weapons[] = {"SmokeLauncher","TruckHorn"};
 	magazines[] = {"SmokeLauncherMag"};
+	smokeLauncherGrenadeCount = 4;
+	smokeLauncherVelocity = 14;
+	smokeLauncherOnTurret = 0;
+	smokeLauncherAngle = 160;
+	TFAR_hasIntercom = 1;
+	IntercomMacro
 
 	RTG_Vehicle_Gear_Tracked 
 };
@@ -28,6 +34,12 @@ class rtg_amp_m2jav: usarmy_M1283RWS_WD
 	ace_cargo_space = 12;
 	weapons[] = {"SmokeLauncher","TruckHorn"};
 	magazines[] = {"SmokeLauncherMag"};
+	smokeLauncherGrenadeCount = 4;
+	smokeLauncherVelocity = 14;
+	smokeLauncherOnTurret = 0;
+	smokeLauncherAngle = 160;
+	TFAR_hasIntercom = 1;
+	IntercomMacro
 
 	RTG_Vehicle_Gear_Tracked
 };
@@ -47,6 +59,12 @@ class rtg_amp_shorad: usarmy_M1283CUAS_WD
 	canAccessMineDetector = 1;
 	weapons[] = {"SmokeLauncher","TruckHorn"};
 	magazines[] = {"SmokeLauncherMag"};
+	smokeLauncherGrenadeCount = 4;
+	smokeLauncherVelocity = 14;
+	smokeLauncherOnTurret = 0;
+	smokeLauncherAngle = 160;
+	TFAR_hasIntercom = 1;
+	IntercomMacro
 
 	RTG_Vehicle_Gear_Tracked
 
