@@ -2,13 +2,12 @@
     File: fn_moduleAISkill.sqf
     Author: Shrike
     Description:
-    Applies AI skill settings to a side based on training level.
+    Applies AI skill settings based on training level.
 */
 
 params ["_logic"];   // module logic object
 if (isNil "_logic") exitWith {};
 
-private _side  = _logic getVariable ["TAG_ModuleAISkill_Side", "west"];
 private _training = _logic getVariable ["TAG_ModuleAISkill_Training", "Trained"];
 
 // Map training levels to skill values
@@ -21,8 +20,9 @@ private _skillMap = [
     ["SpecialForces", [0.91, 0.94, 0.94, 0.97, 0.97, 1.00, 0.97, 0.97]]
 ];
 
-private _skills = (_skillMap select { _x select 0 isEqualTo _training }) param [0, ["", [0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5]]];
-_skills = _skills select 1;
+private _index = _skillMap findIf { _x select 0 isEqualTo _training };
+private _skills = if (_index == -1) then { [0.511,0.511,0.511,0.522,0.511,0.511,0.511,0.511] } 
+                  else { _skillMap select _index select 1 };
 
 // function to apply skill array to a unit
 private _applySkill = {
@@ -37,26 +37,9 @@ private _applySkill = {
     _unit setSkill ["general",        _skills select 7];
 };
 
-// On Mission Start
-if (_activated) then {
-   // Set all current units' skill
-    {
-        if (side _x isEqualTo _side) then {
-            [_x, _skills] call _applySkill;
-            ["Ran Skill Func"] remoteExec ["systemChat", 0];
-        };
-    } forEach allUnits;
-
-    // Apply to newly spawned units
-    addMissionEventHandler ["EntityCreated", {
-        params ["_entity", "_thisArgs"];
-        _thisArgs params ["_applySkill", "_skills"];
-
-        if (_entity isKindOf "Man" && {!(isPlayer _entity)} && {side _entity isEqualTo east}) then {
-            ["Debug 1"] remoteExec ["systemChat", 0];
-            [_entity, _skills] call _applySkill;
-        };
-    }, [_applySkill, _skills]];
-};
+// Set all current units' skill
+{
+    [_x, _skills] call _applySkill;
+} forEach allUnits;
 
 true
