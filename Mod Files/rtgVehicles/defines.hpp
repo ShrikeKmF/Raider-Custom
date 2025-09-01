@@ -140,30 +140,3 @@ class TransportMagazines {}; \
 reportOwnPosition = true; \
 receiveRemoteTargets = true; \
 reportRemoteTargets = true;
-
-// Aquired from https://github.com/michail-nikolaev/task-force-arma-3-radio/blob/master/addons/core/intercomConfig/config.cpp
-#define Intercom_Condition(chan) [ARR_3(_target,_player,chan)] call TFAR_fnc_canSetIntercomChannel
-#define Intercom_Statement(chan) [ARR_3(_target,_player,chan)] call TFAR_fnc_setIntercomChannel
-
-#define RTG_Vehicle_Intercom \
-class TFAR_IntercomChannel { \
-	displayName = "Vehicle Intercom"; \
-	condition = "true"; \
-	statement = ""; \
-	icon = ""; \
-	class TFAR_IntercomChannel_disabled { \
-		displayName = "Disconnected"; \
-		condition = QUOTE(Intercom_Condition(-1)); \
-        statement = QUOTE(Intercom_Statement(-1)); \
-	}; \
-	class TFAR_IntercomChannel_1 { \
-		displayName = "Crew"; \
-		condition = QUOTE(Intercom_Condition(0)); \
-        statement = QUOTE(Intercom_Statement(0)); \
-	}; \
-	class TFAR_IntercomChannel_2 { \
-		displayName = "Cargo"; \
-		condition = QUOTE(Intercom_Condition(1)); \
-        statement = QUOTE(Intercom_Statement(1)); \
-	}; \
-};

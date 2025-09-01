@@ -16,7 +16,7 @@ class rtg_amp_m2: usarmy_M1283_M2_WD
 	smokeLauncherOnTurret = 0;
 	smokeLauncherAngle = 160;
 	TFAR_hasIntercom = 1;
-	RTG_Vehicle_Intercom
+	tf_intercoms[] = {-1, 0, 1};
 	RTG_Vehicle_Gear_Tracked 
 };
 
@@ -38,7 +38,7 @@ class rtg_amp_m2jav: usarmy_M1283RWS_WD
 	smokeLauncherOnTurret = 0;
 	smokeLauncherAngle = 160;
 	TFAR_hasIntercom = 1;
-	RTG_Vehicle_Intercom
+	tf_intercoms[] = {-1, 0, 1};
 	RTG_Vehicle_Gear_Tracked
 };
 
@@ -62,7 +62,7 @@ class rtg_amp_shorad: usarmy_M1283CUAS_WD
 	smokeLauncherOnTurret = 0;
 	smokeLauncherAngle = 160;
 	TFAR_hasIntercom = 1;
-	RTG_Vehicle_Intercom
+	tf_intercoms[] = {-1, 0, 1};
 	RTG_Vehicle_Gear_Tracked
 
 	LockDetectionSystem = "8 + 4";
