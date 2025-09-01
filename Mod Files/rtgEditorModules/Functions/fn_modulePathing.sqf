@@ -7,6 +7,8 @@
 
 params ["_logic"];   // module logic object
 
+diag_log format ["Running Pathing Disable"];
+
 // Grab all synced objects
 private _units = synchronizedObjects _logic;
 
@@ -18,4 +20,5 @@ _units = _units select { _x isKindOf "Man" && {alive _x} };
     _x disableAI "PATH";
 } forEach _units;
 
-true
+_count = count _units;
+_count

@@ -623,13 +623,13 @@ class ace_medical_treatment {
         };
 
         class Pervitin {
-            painReduce = 0.4;
+            painReduce = 0.3;
             hrIncreaseLow[] = {15, 25};
             hrIncreaseNormal[] = {15, 30};
             hrIncreaseHigh[] = {15, 25};
-            timeInSystem = 600;
+            timeInSystem = 1200;
             timeTillMaxEffect = 5;
-            maxDose = 3;
+            maxDose = 2;
             incompatibleMedication[] = {};
             viscosityChange = 5;
         };
