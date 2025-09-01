@@ -131,3 +131,45 @@ class TransportMagazines {}; \
 reportOwnPosition = true; \
 receiveRemoteTargets = true; \
 reportRemoteTargets = true;
+
+#define Intercom_Condition(chan) [ARR_3(_target,_player,chan)] call TFAR_fnc_canSetIntercomChannel
+#define Intercom_Statement(chan) [ARR_3(_target,_player,chan)] call TFAR_fnc_setIntercomChannel
+
+#define IntercomMacro class ACE_SelfActions : ACE_SelfActions { \
+    class TFAR_IntercomChannel { \
+        displayName = "Intercom Channel"; \
+        condition = "true"; \
+        statement = ""; \
+        icon = ""; \
+        class TFAR_IntercomChannel_disabled { \
+            displayName = "Disabled"; \
+            condition = QUOTE(Intercom_Condition(-1)); \
+            statement = QUOTE(Intercom_Statement(-1)); \
+        }; \
+        class TFAR_IntercomChannel_1 { \
+            displayName = CSTRING(Intercom_ACESelfAction_Channel1); \
+            condition = QUOTE(Intercom_Condition(0)); \
+            statement = QUOTE(Intercom_Statement(0)); \
+        }; \
+        class TFAR_IntercomChannel_2 { \
+            displayName = CSTRING(Intercom_ACESelfAction_Channel2); \
+            condition = QUOTE(Intercom_Condition(1)); \
+            statement = QUOTE(Intercom_Statement(1)); \
+        }; \
+        class TFAR_IntercomChannel_Misc_1 { \
+            displayName = "Misc channel 1"; \
+            condition = QUOTE(Intercom_Condition(2)); \
+            statement = QUOTE(Intercom_Statement(2)); \
+        }; \
+        class TFAR_IntercomChannel_Misc_2 { \
+            displayName = "Misc channel 2"; \
+            condition = QUOTE(Intercom_Condition(3)); \
+            statement = QUOTE(Intercom_Statement(3)); \
+        }; \
+        class TFAR_IntercomChannel_Misc_3 { \
+            displayName = "Misc channel 3"; \
+            condition = QUOTE(Intercom_Condition(4)); \
+            statement = QUOTE(Intercom_Statement(4)); \
+        }; \
+    }; \
+};
