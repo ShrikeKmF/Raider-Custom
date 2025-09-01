@@ -10,6 +10,6 @@ class ace_medical_treatment_actions {
 
     class BasicBandage
 	{
-		treatmentTime = "0.45 * (call ace_medical_treatment_fnc_getBandageTime)";
+		treatmentTime = "0.55 * (call ace_medical_treatment_fnc_getBandageTime)";
 	};
 };
