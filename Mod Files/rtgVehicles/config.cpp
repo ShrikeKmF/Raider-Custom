@@ -70,10 +70,12 @@ class cfgEditorSubcategories
 	};
 };
 
+// Macro Definitions
 #include "defines.hpp"
 
 class CfgVehicles
 {
+	// Holy Required Includes
 	class Components;
 	class SensorTemplatePassiveRadar;
 	class SensorTemplateAntiRadiation;
@@ -106,6 +108,7 @@ class CfgVehicles
 	class DefaultVehicleSystemsDisplayManagerLeft;
 	class DefaultVehicleSystemsDisplayManagerRight;
 	class Eventhandlers;
+	class ACE_SelfActions;
 
 	// Include Vehicle Files
 	#include "Vehicles/magpie.hpp"
@@ -121,6 +124,8 @@ class CfgVehicles
 	#include "Vehicles/trucks.hpp"
 };
 
+
+// RAVEN Ammo/Mag Setup
 class VehicleMagazine;
 class rhs_mag_M829A2;
 class CfgMagazines
