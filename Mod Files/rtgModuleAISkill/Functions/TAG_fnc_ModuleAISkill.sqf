@@ -1,8 +1,8 @@
 /*
     File: fn_moduleAISkill.sqf
-    Author: TAG
+    Author: Shrike
     Description:
-        Applies AI skill settings to a faction based on training level.
+    Applies AI skill settings to a side based on training level.
 */
 
 params ["_logic"];   // module logic object
@@ -37,23 +37,26 @@ private _applySkill = {
     _unit setSkill ["general",        _skills select 7];
 };
 
-// 1. Apply immediately to all existing units of that faction
-[{
-    if (side _x == _side) then {
-        [_x, _skills] call _applySkill;
-        "Ran Skill Func" remoteExec ['globalChat', -2, false];
-    };
-} forEach allUnits;] spawn BIS_fnc_spawn;
-
-// 2. Ensure new units also get the skill
-_eh = addMissionEventHandler ["CuratorObjectPlaced", {
-    params ["_curator", "_entity"];
-    
-    // Only apply to AI units of the chosen faction
-    if (_entity isKindOf "Man" && {!(isPlayer _entity)}) then {
-        if (side _entity isEqualTo _side) then {
-            // Call the skill function, passing the entity and the args array
-            [_entity, _thisArgs] call (_thisArgs select 0);
+// On Mission Start
+if (_activated) then {
+   // Set all current units' skill
+    {
+        if (side _x isEqualTo _side) then {
+            [_x, _skills] call _applySkill;
+            ["Ran Skill Func"] remoteExec ["systemChat", 0];
         };
-    };
-}, [_applySkill, _skills]];
+    } forEach allUnits;
+
+    // Apply to newly spawned units
+    addMissionEventHandler ["EntityCreated", {
+        params ["_entity", "_thisArgs"];
+        _thisArgs params ["_applySkill", "_skills"];
+
+        if (_entity isKindOf "Man" && {!(isPlayer _entity)} && {side _entity isEqualTo east}) then {
+            ["Debug 1"] remoteExec ["systemChat", 0];
+            [_entity, _skills] call _applySkill;
+        };
+    }, [_applySkill, _skills]];
+};
+
+true
