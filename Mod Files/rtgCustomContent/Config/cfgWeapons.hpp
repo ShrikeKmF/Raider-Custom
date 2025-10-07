@@ -12,7 +12,7 @@
     #include "\rtgCustomContent\Config\Equipment\Helmets\CRTG Opscore.hpp"
     #include "\rtgCustomContent\Config\Equipment\Helmets\CRTG Soft.hpp"
     #include "\rtgCustomContent\Config\Equipment\Uniforms\CRTG Uniforms.hpp"
-
+    #include "\rtgCustomContent\Config\Equipment\Vests\AVS Vest.hpp"
 
     // Weapons
     #include "\rtgCustomContent\Config\Weapons\XM7.hpp"

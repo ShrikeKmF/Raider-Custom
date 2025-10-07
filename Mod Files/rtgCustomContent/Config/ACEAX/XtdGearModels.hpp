@@ -12,5 +12,6 @@ class XtdGearModels
         #include "Helmets.hpp"
         #include "Extra.hpp"
         #include "Uniforms.hpp"
+        #include "Vests.hpp"
     };
 };
