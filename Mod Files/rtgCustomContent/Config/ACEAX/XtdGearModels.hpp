@@ -11,5 +11,6 @@ class XtdGearModels
         #include "Primary Weapons.hpp"
         #include "Helmets.hpp"
         #include "Extra.hpp"
+        #include "Uniforms.hpp"
     };
 };

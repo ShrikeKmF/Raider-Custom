@@ -11,6 +11,7 @@
     #include "\rtgCustomContent\Config\Equipment\Helmets\CRTG Airframe.hpp"
     #include "\rtgCustomContent\Config\Equipment\Helmets\CRTG Opscore.hpp"
     #include "\rtgCustomContent\Config\Equipment\Helmets\CRTG Soft.hpp"
+    #include "\rtgCustomContent\Config\Equipment\Uniforms\CRTG Uniforms.hpp"
 
 
     // Weapons
