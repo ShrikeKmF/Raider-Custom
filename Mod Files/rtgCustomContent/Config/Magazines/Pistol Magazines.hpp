@@ -13,7 +13,7 @@ class rtg_8Rnd_45 : rhsusf_mag_7x45acp_MHP {
 };
 
 // 40 SW
-class hlc_12Rnd_40SW_B_P226;
+/*class hlc_12Rnd_40SW_B_P226;
 class rtg_40SW : hlc_12Rnd_40SW_B_P226 {
     
     ammo = "rtg_40";
@@ -24,7 +24,7 @@ class rtg_40SW : hlc_12Rnd_40SW_B_P226 {
     displayname = "[RTG] 12rnd .40 Mag";
     displaynameshort = "12Rnd .40";
     scope = 2;
-};
+};*/
 
 // 50AE
 class RH_7Rnd_50_AE;
@@ -92,18 +92,5 @@ class rtg_44_6Rnd : rtg_357_6Rnd
     descriptionshort = "Raider Tactical Standard Issue .44 Ammo";
     displayname = "[RTG] 6rnd .44 Mag";
     displaynameshort = "6Rnd .44 Magnum";
-    scope = 2;
-};
-
-// 14 Gauge
-class rtg_1Rnd_14g : rtg_5Rnd_00Buck {
-    
-    ammo = "rtg_buckshot_pump_14g";
-    count = 1;
-    tracersevery = 0;
-    lastroundstracer = 0;
-    descriptionshort = "Raider Tactical Standard Issue Buckshot 14g Ammo";
-    displayname = "[RTG] 1rnd Buckshot 14g Mag";
-    displaynameshort = "1Rnd Buckshot 14g";
     scope = 2;
 };

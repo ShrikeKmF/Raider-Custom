@@ -1,15 +1,3 @@
-class DefaultEventHandlers;
-class WeaponFireGun;
-class WeaponCloudsGun;
-class WeaponFireMGun;
-class WeaponCloudsMGun;
-class RCWSOptics;
-class Optics_Armored;
-class Hithull;
-class HitEngine;
-class HitFuel;
-class HitLTrack;
-class HitRTrack;
 class Optics_Commander_02: Optics_Armored
 {
 	class Wide;
@@ -1365,10 +1353,6 @@ class rtg_ravn_base: LT_M10_base
 			"M10_booker\tex\plate_destruct.rvmat"
 		};
 	};
-	smokeLauncherGrenadeCount=8;
-	smokeLauncherVelocity=14;
-	smokeLauncherOnTurret=1;
-	smokeLauncherAngle=120;
 	class Exhausts
 	{
 		class Exhaust1

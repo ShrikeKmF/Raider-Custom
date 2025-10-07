@@ -29,13 +29,24 @@
     class CargoTurret_02;
     class CargoTurret_03;
     class MainTurret;
-    class ViewOptics;
     class ViewGunner;
     class AnimationSources;
     class DefaultVehicleSystemsDisplayManagerLeft;
     class DefaultVehicleSystemsDisplayManagerRight;
     class Eventhandlers;
     class ACE_SelfActions;
+    class DefaultEventHandlers;
+    class WeaponFireGun;
+    class WeaponCloudsGun;
+    class WeaponFireMGun;
+    class WeaponCloudsMGun;
+    class RCWSOptics;
+    class Optics_Armored;
+    class Hithull;
+    class HitEngine;
+    class HitFuel;
+    class HitLTrack;
+    class HitRTrack;
 
 
     // Character

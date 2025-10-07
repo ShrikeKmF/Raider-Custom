@@ -38,20 +38,6 @@ class rtg_30rnd_556_45 : ptv_30Rnd_556x45_L5awmc_pull {
     initSpeed=910;
 };
 
-class rhs_30Rnd_545x39_7N10_camo_AK;
-class rtg_30rnd_556_45_ak : rhs_30Rnd_545x39_7N10_camo_AK {
-        
-    ammo = "rtg_556x45";
-    count = 30;
-    tracersevery = 3;
-    lastroundstracer = 4;
-    descriptionshort = "Raider Tactical Standard Issue 5.56mm Ammo";
-    displayname = "[RTG] 30rnd 5.56mm AK";
-    displaynameshort = "30Rnd 5.56x45";
-    scope = 2;
-    initSpeed=910;
-}; 
-
 class rtg_40rnd_300_blk : ptv_40rnd_556x45_Pmag {
         
     ammo = "rtg_300blk";
@@ -105,6 +91,7 @@ class rtg_p90 : 50Rnd_570x28_SMG_03 {
 };
 
 // TODO REDO SMG MAGS
+/*
 class rtg_50_ae_20rnd_mag : ACWP_19Rnd_9x21_Mag_glock {
         
     ammo = "rtg_50_AE";
@@ -132,4 +119,4 @@ class rtg_9mm_35Rnd_mag : ACWP_19Rnd_9x21_Mag_glock {
     displaynameshort = "35Rnd 9x21";
     scope = 2;
     initSpeed=441;
-};
+};*/

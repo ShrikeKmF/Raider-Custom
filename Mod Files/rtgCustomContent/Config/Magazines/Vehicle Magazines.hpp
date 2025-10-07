@@ -56,7 +56,6 @@ class RTG_24Rnd_M393A3_HE: VehicleMagazine
 };
 
 // M240 on Vics
-class VehicleMagazine;
 class rhs_mag_1100Rnd_762x51_M240: VehicleMagazine
 {
     scope			= 2;
