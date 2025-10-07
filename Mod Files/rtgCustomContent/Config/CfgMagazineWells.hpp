@@ -1,3 +1,7 @@
+// Magazine Well Setup
+// Magazine Array name arbitry
+// Use CBA magwell where possible
+
 class CfgMagazineWells
 {
 	class CBA_68x51  // .277 Sig Fury

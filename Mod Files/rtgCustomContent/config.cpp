@@ -111,6 +111,7 @@ class raiderTactical: Mod_Base
 #include "\rtgCustomContent\Config\cfgWeapons.hpp"
 #include "\rtgCustomContent\Config\cfgAmmo.hpp"
 #include "\rtgCustomContent\Config\cfgMagazines.hpp"
+#include "\rtgCustomContent\Config\cfgMagazineWells.hpp"
 #include "\rtgCustomContent\Config\cfgFactionClasses.hpp"
 #include "\rtgCustomContent\Config\cfgEditorSubcategories.hpp"
 #include "\rtgCustomContent\Config\cfgEditorcategories.hpp"

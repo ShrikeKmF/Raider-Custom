@@ -1,4 +1,6 @@
-﻿class ICM_XM7_Base_F : Rifle_Base_F
+﻿// XM7 ACEAX setup & Magwell
+
+class ICM_XM7_Base_F : Rifle_Base_F
 {
 	magazines[]               = { "rtg_20Rnd_68x51" };
 	magazineWell[]            = { "CBA_68x51" };
