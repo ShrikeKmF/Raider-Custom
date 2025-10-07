@@ -1,4 +1,4 @@
-class rtg_ace_expanded_armband {
+class ACEAX_Armband {
     label   = "Armbands";
     author  = "RTG";
     options[] = { "size" };
