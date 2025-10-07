@@ -177,6 +177,51 @@ class RTG_M4A4_AFG_Nugg : JCA_arifle_M4A4_AFG_olive_F
 	RTG_WEAPON_BASE
 }
 
+class RTG_M16A3 : JCA_arifle_M4A4_base_F
+{
+	model = "weapons_f_JCA_IA\Rifles\M16A4\M16A4_F.p3d";
+	UiPicture = "\A3\Weapons_F\Data\UI\icon_regular_CA.paa";
+	picture = "\weapons_f_JCA_IA\Rifles\M16A4\data\UI\Icon_arifle_M16A4_black_F_CA.paa";
+	descriptionShort = "$STR_A3_CfgWeapons_arifle_SPAR_01_base_F1";
+	class Library
+	{
+		libTextDesc = "$STR_A3_A_CfgWeapons_arifle_M16A4_base_F_Library0";
+	};
+	hiddenSelections[] = {"camo1","camo2"};
+	handAnim[] = {"OFP2_ManSkeleton","weapons_f_JCA_IA\Rifles\M16A4\data\anim\M16A4.rtm"};
+	reloadAction = "JCA_GestureReloadM16A4";
+
+	baseWeapon = "RTG_M16A3";
+	displayName = "M16A3 5.56";
+	RTG_ACEAX_EMPTY
+	RTG_WEAPON_BASE
+	hiddenSelectionsTextures[] = {"rtgEquipment\tex\arifle_M16A4_01_black_CO.paa","rtgEquipment\tex\arifle_M16A4_02_black_CO.paa"};
+	modes[] = {"Single","FullAuto"};
+	class Single: Single
+	{
+		reloadTime = 0.08;
+		dispersion = 0.00058;
+		minRange = 2;
+		minRangeProbab = 0.5;
+		midRange = 150;
+		midRangeProbab = 0.7;
+		maxRange = 250;
+		maxRangeProbab = 0.2;
+	};
+	class FullAuto: FullAuto
+	{
+		reloadTime = 0.08;
+		dispersion = 0.00058;
+		minRange = 2;
+		minRangeProbab = 0.9;
+		midRange = 15;
+		midRangeProbab = 0.7;
+		maxRange = 30;
+		maxRangeProbab = 0.05;
+		aiRateOfFire = 1e-06;
+	};
+}
+
 class RTG_M4A5_145_Tex : ACWP_M4A5_145_troy_base_BLK {
 	RTG_WEAPON_BASE
     displayName="M4A5 .50 BW (Tex)";

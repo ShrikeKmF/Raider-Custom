@@ -18,7 +18,7 @@ class rtg_samUniform_soldier: ptv_s_g3cw_serpwdl_brwgry
 	author = "Shrike";
 	uniformClass = "rtg_samUniform";
 	scope = 1;
-	displayName = "[RTG] Sam (Crye G3/Jacket)";
+	displayName = "[RTG] Ari (Crye G3/Jacket)";
 	identityTypes[] = {"Head_NATO","G_NATO_default"};
 	genericNames = "NATOMen";
 	faction = "NATO";

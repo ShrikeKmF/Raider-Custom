@@ -63,19 +63,3 @@ class Tier1_SIG_MCX_115_Virtus_300BLK_Black: Tier1_SIG_MCX_115_Virtus_Black
 	RTG_WEAPON_BASE
 	class XtdGearInfo {model="rtg_ace_expanded_mcx";camo="BLK";frame="Virtus300"};
 };
-
-
-// 6.5
-class isky_spear_tan;
-class rtg_xm5_tan : isky_spear_tan
-{
-	RTG_STANDARD_ZOOM
-	RTG_WEAPON_BASE
-	displayName="MCX Spear (6.8 Fury) (FDE)";
-	baseWeapon = "rtg_xm5_tan";
-	magazineWell[] = {"RTG_68x51_MAGWELL"};
-	magazines[] = {"rtg_20Rnd_68x51"};
-	RTG_RECOIL(mcx_277)
-	RTG_WEAPON_HANDLING(2.1)
-	class XtdGearInfo {model="rtg_ace_expanded_mcx";camo="CYT";frame="Spear"};
-};

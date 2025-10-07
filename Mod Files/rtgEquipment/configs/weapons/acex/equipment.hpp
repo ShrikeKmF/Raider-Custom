@@ -12,6 +12,19 @@ class rtg_ace_expanded_beanie_ranger {
     };
 };
 
+class rtg_ace_expanded_armband {
+    label   = "Armbands";
+    author  = "RTG";
+    options[] = { "size" };
+
+    class size {
+        label = "Size";
+        values[] = { "small", "large" };
+        class small { label = "Small"; }
+        class large    { label = "Large"; }
+    };
+};
+
 class rtg_ace_expanded_boonie_ranger {
     label   = "Boonie Hats";
     author  = "RTG";

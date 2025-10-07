@@ -1,5 +1,2 @@
-#include "equipment/vsm vests.h"
 #include "equipment/avs vests.h"
-#include "equipment/thor vests.h"
 #include "equipment/plateframe vests.h"
-#include "equipment/custom vests.h"

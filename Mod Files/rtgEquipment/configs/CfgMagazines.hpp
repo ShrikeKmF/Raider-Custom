@@ -191,18 +191,34 @@ class CfgMagazines
         mass = 44.1;
     };
 
-    class rtg_80Rnd_762x51_apds : rhsusf_50Rnd_762x51 {
+// 6.5x35
+    class 30Rnd_65x39_caseless_black_mag;
+    class rtg_35Rnd_65x35 : 30Rnd_65x39_caseless_black_mag {
         
-        ammo = "rtg_762_apds_nato";
-        count = 80;
-        tracersevery = 1;
+        ammo = "rtg_65x35";
+        count = 35;
+        tracersevery = 3;
         lastroundstracer = 4;
-        descriptionshort = "Raider Tactical AP 7.62mm Ammo";
-        displayname = "[RTG] 80rnd AP 7.62mm MAG";
-        displaynameshort = "80Rnd AP 7.62x51";
-        initSpeed=1100;
+        descriptionshort = "Raider Tactical Standard Issue 6.5mm Caseless Ammo";
+        displayname = "[RTG] 35rnd 6.5mm Caseless MAG";
+        displaynameshort = "35Rnd 6.5x35";
+        initSpeed=800;
         scope = 2;
-        mass = 44.1;
+    };
+
+    class 100Rnd_65x39_caseless_black_mag;
+    class rtg_120Rnd_65x35 : 100Rnd_65x39_caseless_black_mag {
+        
+        ammo = "rtg_65x35";
+        count = 120;
+        tracersevery = 3;
+        lastroundstracer = 4;
+        descriptionshort = "Raider Tactical Standard Issue 6.5mm Caseless Ammo";
+        displayname = "[RTG] 100rnd 6.5mm Caseless MAG";
+        displaynameshort = "100Rnd 6.5x35";
+        initSpeed=800;
+        scope = 2;
+        mass = 41;
     };
 
 // .277 Fury
