@@ -2,7 +2,7 @@
         
     ammo = "rtg_762_nato";
     count = 20;
-    tracersevery = 3;
+    tracersevery = 1;
     lastroundstracer = 4;
     descriptionshort = "Raider Tactical Standard Issue 7.62mm Ammo";
     displayname = "[RTG] 20rnd 7.62mm MAG";
@@ -16,7 +16,7 @@ class rtg_35Rnd_65x35 : 30Rnd_65x39_caseless_black_mag {
         
     ammo = "rtg_65x35";
     count = 35;
-    tracersevery = 3;
+    tracersevery = 1;
     lastroundstracer = 4;
     descriptionshort = "Raider Tactical Standard Issue 6.5mm Caseless Ammo";
     displayname = "[RTG] 35rnd 6.5mm Caseless MAG";
@@ -29,7 +29,7 @@ class rtg_30rnd_556_45 : ptv_30Rnd_556x45_L5awmc_pull {
         
     ammo = "rtg_556x45";
     count = 30;
-    tracersevery = 3;
+    tracersevery = 1;
     lastroundstracer = 4;
     descriptionshort = "Raider Tactical Standard Issue 5.56mm Ammo";
     displayname = "[RTG] 30rnd 5.56mm PMAG";
@@ -38,11 +38,24 @@ class rtg_30rnd_556_45 : ptv_30Rnd_556x45_L5awmc_pull {
     initSpeed=910;
 };
 
+class rtg_30rnd_300_blk : ptv_30Rnd_556x45_L5awmc_pull {
+        
+    ammo = "rtg_300blk";
+    count = 30;
+    tracersevery = 1;
+    lastroundstracer = 4;
+    descriptionshort = "Raider Tactical Standard Issue 300blk Ammo";
+    displayname = "[RTG] 30rnd 300blkPMAG";
+    displaynameshort = "30Rnd 300blk";
+    scope = 2;
+    initSpeed=330;
+};
+
 class rtg_40rnd_300_blk : ptv_40rnd_556x45_Pmag {
         
     ammo = "rtg_300blk";
     count = 40;
-    tracersevery = 3;
+    tracersevery = 1;
     lastroundstracer = 4;
     descriptionshort = "Raider Tactical Standard Issue .300 BLK Ammo";
     displayname = "[RTG] 40rnd .300 Blk PMAG";
@@ -51,15 +64,16 @@ class rtg_40rnd_300_blk : ptv_40rnd_556x45_Pmag {
     initSpeed=609;
 };
 
-class rtg_20Rnd_68x51 : rtg_20Rnd_762x51 {
+class ICM_XM7_Magazine_277_Fury_BP_F;
+class rtg_20Rnd_68x51 : ICM_XM7_Magazine_277_Fury_BP_F {
         
     ammo = "rtg_277";
-    count = 25;
-    tracersevery = 3;
+    count = 20;
+    tracersevery = 1;
     lastroundstracer = 4;
     descriptionshort = "Raider Tactical Standard Issue 6.8mm Ammo";
-    displayname = "[RTG] 25rnd 6.8mm MAG";
-    displaynameshort = "25Rnd 6.8x51";
+    displayname = "[RTG] 20rnd 6.8mm MAG";
+    displaynameshort = "20Rnd 6.8x51";
     initSpeed=910;
     scope = 2;
 };
@@ -110,7 +124,7 @@ class rtg_9mm_35Rnd_mag : ACWP_19Rnd_9x21_Mag_glock {
         
     ammo = "rtg_9mm";
     count = 35;
-    tracersevery = 3;
+    tracersevery = 1;
     lastroundstracer = 4;
     descriptionshort = "Raider Tactical Standard Issue 9mm Ammo";
     displayname = "[RTG] 35rnd 9mm Mag";

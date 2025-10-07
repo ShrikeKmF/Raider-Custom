@@ -29,8 +29,8 @@ class rtg_MRAWS_SMK_F : rtg_MRAWS_HE_F {
 };
 
 // RPG
-class rhs_rpg7_PG7VM_mag;
-class rtg_rpg_smk_mag : rhs_rpg7_PG7VM_mag
+class PSLR1_HE_RF;
+class rtg_rpg_smk_mag : PSLR1_HE_RF
 {
     
     ammo = "rtg_rpg_smoke";
@@ -40,26 +40,18 @@ class rtg_rpg_smk_mag : rhs_rpg7_PG7VM_mag
     mass = 20;
 };
 
-class rtg_rpg_heat_mag : rhs_rpg7_PG7VM_mag
+class PSLR1_FRAG_RF;
+class rtg_rpg_frag_mag : PSLR1_FRAG_RF 
 {
     
-    ammo = "rtg_rpg_heat";
+    ammo = "rtg_rpg_frag";
     scope = 2;
-    displayname = "[RTG] PG-7VM HEAT";
-    displaynameshort = "73mm HEAT";
-    mass = 50;
-};
-
-class rhs_rpg7_OG7V_mag;
-class rtg_rpg_hedp_mag : rhs_rpg7_OG7V_mag 
-{
-    
-    ammo = "rtg_rpg_hedp";
-    scope = 2;
-    displayname = "[RTG] OG-7VM HEDP";
-    displaynameshort = "40mm HEDP";
+    displayname = "[RTG] OG-7VM FRAG";
+    displaynameshort = "40mm FRAG";
     mass = 30;
 };
+
+// LAT Sticks
 
 class rhs_m136_mag;
 class rtg_m136_mag : rhs_m136_mag

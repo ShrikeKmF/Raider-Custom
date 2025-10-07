@@ -46,14 +46,8 @@ class rtg_smoke_MRAAWS : R_MRAAWS_HE_F {
 	simulation = "shotRocket";
 };
 
-class rtg_rpg_heat : rhs_rpg7v2_pg7vm
-{
-    hit = 60;
-    indirectHit = 19;
-	indirectHitRange = 6.1;
-};
-
-class rtg_rpg_hedp : rtg_rpg_heat
+class R_PSLR1_FRAG_RF;
+class rtg_rpg_frag: R_PSLR1_FRAG_RF
 {
     hit = 40;
     indirectHit = 40;
@@ -61,11 +55,12 @@ class rtg_rpg_hedp : rtg_rpg_heat
     submunitionAmmo = "";
 };
 
-class rtg_rpg_smoke : rtg_rpg_heat
+class R_PSLR1_HE_RF;
+class rtg_rpg_smoke : R_PSLR1_HE_RF
 {
-    hit = 28;
-    indirectHit = 22;
-	indirectHitRange = 6;
+    hit = 1;
+    indirectHit = 1;
+	indirectHitRange = 1;
     explosionEffects = "RHS_GDM40Effect";
 	submunitionAmmo = "aphx_maaws_SMOKE";
 	submunitionDirectionType = "SubmunitionModelDirection";

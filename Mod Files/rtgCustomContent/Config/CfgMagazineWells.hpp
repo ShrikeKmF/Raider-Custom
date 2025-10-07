@@ -1,233 +1,220 @@
 // Magazine Well Setup
 // Magazine Array name arbitry
 // Use CBA magwell where possible
+// https://github.com/CBATeam/CBA_A3/tree/e12948a2ecae9d7d6fc2b38bb5f911b1d1088f6d/addons/jam
 
 class CfgMagazineWells
 {
-	class CBA_68x51  // .277 Sig Fury
+	// .338
+	class CBA_338NM_LINKS {
+		RTG_Magazines[] = {
+			"rtg_100Rnd_338";
+		};
+	};
+
+	// 6.8
+	class MX_65x39_MSBS
 	{
 		RTG_Magazines[] =
 		{
 			"rtg_20Rnd_68x51";
 		};
 	};
-	class CBA_68x51_BELT { // .277 Sig Fury MG
-		RTG_Magazines[] =
-		{
-			"rtg_100Rnd_68x51";
-			"rtg_100Rnd_68x51_t";
-		};
-	};
-	
-    class CBA_762x51_M14  // 7.62 Nato
-    {
-        RTG_Magazines[] =
-		{
-			"rtg_20Rnd_762x51";
-			"rtg_35Rnd_762x51";
-		};
-    };
 
-	class CBA_Carl_Gustaf // MRAWS
+	class CBA_762x51_SCAR 
 	{
 		RTG_Magazines[] =
 		{
-			"rtg_MRAWS_HEAT_F";
-			"rtg_MRAWS_HE_F";
-			"rtg_MRAWS_SMK_F";
+			"rtg_20Rnd_68x51"
 		};
 	};
 
-    class CBA_762x51_LINKS // 7.62 Nato
-    {
-        RTG_Magazines[] =
+	class Aegis_SR25_762x51 {
+		RTG_Magazines[] =
 		{
-			"rtg_200Rnd_762x51";
-			"rtg_200Rnd_762x51_t";
-			"rtg_80Rnd_762x51_apds";
+			"rtg_20Rnd_68x51"
 		};
-    };
-
-    class CBA_762x51_SCAR // 7.62 Nato
-    {
-        RTG_Magazines[] =
-		{
-			"rtg_20Rnd_762x51";
-			"rtg_35Rnd_762x51";
-		};
-    };
-	
-	class rtg_50_bw_STANAG { // .50 BW
-        RTG_Magazines[] =
-		{
-			"rtg_10rnd_10bw";
-        };
-	};
-
-    class CBA_556x45_STANAG { // 5.56 Nato
-        RTG_Magazines[] =
-		{
-			"rtg_30rnd_556_45";
-        };
-	};
-
-	class CBA_556x45_STANAG_AK { // 5.56 Nato
-        RTG_Magazines[] =
-		{
-			"rtg_30rnd_556_45_ak";
-        };
-	};
-
-	class CBA_556x45_STANAG_Negev { // 5.56 Nato
-        RTG_Magazines[] =
-		{
-			"rtg_200rnd_556_45_t_negev";
-            "rtg_200rnd_556_45_negev";
-        };
-	};
-
-	class CBA_556x45_STANAG_HBAR { // 5.56 Nato
-        RTG_Magazines[] =
-		{
-			"rtg_50rnd_556";
-        };
-	};
-
-	class CBA_556x45_STANAG_HBAR_AK { // 5.56 Nato
-        RTG_Magazines[] =
-		{
-			"rtg_60rnd_556_45_ak";
-        };
 	};
 	
-	class MX_65x39 { //Vanilla magwell
+	class CBA_762x51_M14 {
+		RTG_Magazines[] =
+		{
+			"rtg_20Rnd_68x51"
+		};
+	};
+	
+	class SLR_762x51 {
+		RTG_Magazines[] =
+		{
+			"rtg_20Rnd_68x51"
+		};
+	};
+
+	class Aegis_FNMAG {
+		RTG_Magazines[] =
+		{
+			"rtg_100Rnd_68x51"
+		};
+	}
+
+	class Negev_762x51 {
+		RTG_Magazines[] =
+		{
+			"rtg_100Rnd_68x51"
+		};
+	}
+
+	class CBA_762x51_LINKS {
+		RTG_Magazines[] =
+		{
+			"rtg_100Rnd_68x51"
+		};
+	}
+
+	// MRAWS
+	class CBA_Carl_Gustaf
+	{
+		RTG_Magazines[] =
+		{
+			"rtg_MRAWS_HEAT_F",
+			"rtg_MRAWS_HE_F",
+			"rtg_MRAWS_SMK_F"
+		};
+	};
+	
+	// .50 BW
+	class 50BW { 
+        RTG_Magazines[] =
+		{
+			"rtg_10rnd_10bw"
+        };
+	};
+
+	// 5.56 Nato
+	class STANAG_556x45 { 
+		RTG_Magazines[] =
+		{
+			"rtg_30rnd_556_45",
+			"rtg_50rnd_556"
+		};
+	};
+
+    class CBA_556x45_STANAG { 
+        RTG_Magazines[] =
+		{
+			"rtg_30rnd_556_45",
+			"rtg_50rnd_556"
+        };
+	};
+
+	class CBA_556x45_FAMAS {
+		RTG_Magazines[] =
+		{
+			"rtg_30rnd_556_45",
+			"rtg_50rnd_556"
+		};
+	};
+
+	class CTAR_580x42 {
+		RTG_Magazines[] =
+		{
+			"rtg_30rnd_556_45",
+			"rtg_50rnd_556"
+		};
+	};
+
+	class CBA_556x45_SCAR_EGLM {
+		RTG_Magazines[] =
+		{
+			"rtg_30rnd_556_45",
+			"rtg_50rnd_556"
+		};
+	};
+
+	class CBA_556x45_GALIL {
+		RTG_Magazines[] =
+		{
+			"rtg_30rnd_556_45",
+			"rtg_50rnd_556"
+		};
+	};
+
+	class Atlas_FAMAS_556x54 {
+		RTG_Magazines[] =
+		{
+			"rtg_30rnd_556_45",
+			"rtg_50rnd_556"
+		};
+	};
+
+	class AUG_556x45 {
+		RTG_Magazines[] =
+		{
+			"rtg_30rnd_556_45",
+			"rtg_50rnd_556"
+		};
+	};
+
+	class CBA_556x45_MINIMI
+	{
+		RTG_Magazines[] =
+		{
+			"rtg_200rnd_556_45"
+		};
+	};
+
+	
+// 6.5
+	class MX_65x39   {
+		RTG_Magazines[] = {
+			"rtg_35Rnd_65x35"
+		};
+	};
+
+	class CBA_65x39_MX  {
         RTG_Magazines[] = {
             "rtg_35Rnd_65x35"
         };
     };
 
-    class MX_65x39_Large { //Vanilla magwell
-        RTG_Magazines[] = {
-            "rtg_120Rnd_65x35"
-        };
-    };
-	
-	class CBA_556x45_MINIMI // 5.56 Nato
-    {
-        RTG_Magazines[] =
-		{
-			"rtg_200rnd_556_45";
-			"rtg_200rnd_556_45_t";
+	class CBA_65x39_Katiba {
+		RTG_Magazines[] = {
+			"rtg_35Rnd_65x35"
 		};
-    };
+	};
 
-    class CBA_300BLK_STANAG { // .300 Blackout
-        RTG_Magazines[] =
-		{
-			"rtg_30rnd_300_blk";
-        };
-    };
-
-	class CBA_300BLK_STANAG_AK { // .300 Blackout
-        RTG_Magazines[] =
-		{
-			"rtg_30rnd_300_blk_ak";
-        };
-    };
-
-	class CBA_300BLK_STANAG_RPK { // .300 Blackout
-        RTG_Magazines[] =
-		{
-			"rtg_80rnd_300_blk_ak";
-        };
-    };
-	
-	
-    class CBA_300_blk_MINIMI // .300 Blackout
-    {
-        RTG_Magazines[] =
-		{
-			"rtg_200rnd_300_blk";
-			"rtg_200rnd_300_blk_t";
+	class MX_65x39_Large   {
+		RTG_Magazines[] = {
+			"rtg_120Rnd_65x35"
 		};
+	};
+
+	class CBA_65x39_MX_XL  {
+		RTG_Magazines[] = {
+			"rtg_120Rnd_65x35"
+		};
+	};
+
+	class CBA_65x39_Mk200 {
+		RTG_Magazines[] = {
+			"rtg_200Rnd_65x35"
+		};
+	};
+
+	// .300 Blackout
+    class CBA_300BLK_STANAG {
+        RTG_Magazines[] =
+		{
+			"rtg_30rnd_300_blk"
+        };
     };
 
-    class RTG_9x19 {
-		RTG_Magazines[] = 
-        {
-            "rtg_9mm_35Rnd_mag";
-        };
-	};
-
-	class RTG_50_AE { // .50 AE
-		RTG_Magazines[] = 
-        {
-            "rtg_50_ae_8rnd_mag";
-        };
-	};
-
-	class RTG_50_Small_AE { // .50 AE
-		RTG_Magazines[] = 
-        {
-			"rtg_50_ae_5rnd_mag";
-        };
-	};
-
-	class RTG_50_SMG_AE { // .50 AE
-		RTG_Magazines[] = 
-        {
-			"rtg_50_ae_20rnd_mag";
-        };
-	};
-	
-	class CBA_12g_5rnds { // 12 Gauge
-		RTG_Magazines[] = 
-        {
-            "rtg_5Rnd_Doom";
-			"rtg_5Rnd_00Buck";
-			"rtg_5Rnd_slug"
-        };
-	};	
-
-	class CBA_12g_8rnds { // 12 Gauge
-		RTG_Magazines[] = 
-        {
-            "rtg_8Rnd_Doom";
-			"rtg_8Rnd_00Buck";
-			"rtg_8Rnd_slug"
-        };
-	};	
-
-	class CBA_45ACP_1911 { // .45 ACP
-		RTG_Magazines[] = 
-        {
-            "rtg_8Rnd_45";
-        };
-	};
-
-	class CBA_40SW_P226 // .40 SW
-	{
-		NIA_mags[] = {"rtg_40SW"};
-	};
-
-	class CBA_40SW_P229 // .40 SW
-	{
-		NIA_mags[] = {"rtg_40SW"};
-	};
-
-	class CBA_40SW_P239 // .40 SW
-	{
-		NIA_mags[] = {"rtg_40SW"};
-	};
-
-
-	class RPG7
+	class CBA_RPG7 
 	{
 		RTG_Magazines[] = 
-        {
-            "rtg_rpg_smk_mag";
-			"rtg_rpg_heat_mag";
-			"rtg_rpg_hedp_mag";
-        };
+		{
+			"rtg_rpg_heat_mag",
+			"rtg_rpg_frag_mag"
+		};
 	}
 };

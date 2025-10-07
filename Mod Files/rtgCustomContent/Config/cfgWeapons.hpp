@@ -3,11 +3,18 @@
     class ACE_ItemCore;
     class CBA_MiscItem_ItemInfo;
     class Rifle_Base_F;
+    class ItemInfo;
 
     // Equipment
     #include "\rtgCustomContent\Config\Equipment\RTG Armbands.hpp"
+    #include "\rtgCustomContent\Config\Equipment\Night Vision.hpp"
+    #include "\rtgCustomContent\Config\Equipment\Helmets\CRTG Airframe.hpp"
+    #include "\rtgCustomContent\Config\Equipment\Helmets\CRTG Opscore.hpp"
+    #include "\rtgCustomContent\Config\Equipment\Helmets\CRTG Soft.hpp"
+
 
     // Weapons
     #include "\rtgCustomContent\Config\Weapons\XM7.hpp"
-    #include "\rtgCustomContent\Config\Weapons\Grot.hpp"
+    #include "\rtgCustomContent\Config\Weapons\Aegis.hpp"
+
 };

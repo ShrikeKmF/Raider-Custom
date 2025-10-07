@@ -9,5 +9,7 @@ class XtdGearModels
     class CfgWeapons 
     {
         #include "Primary Weapons.hpp"
+        #include "Helmets.hpp"
+        #include "Extra.hpp"
     };
 };

@@ -135,24 +135,22 @@ class rtg_277 : rtg_762_nato
 
 };
 
-// .338 Lupua Magnum
+// .338 NM
 // MMG ammo
 // Non Explosive
-class rtg_338 : rtg_762_nato 
+class B_338_NM_Ball;
+class rtg_338 : B_338_NM_Ball 
 {
 	RTG_AMMO_DEFAULTS
 
 	// Ace 3 Bullet Config
-	ACE_caliber = 7.06;
-	ACE_bulletLength = 51.2;
-	ACE_bulletMass = 9.2176;
-	ACE_ballisticCoefficients[]={0.243};
-	ACE_muzzleVelocities[] = {880};
+	ACE_bulletMass = 21.8;
+	ACE_muzzleVelocities[] = {800};
 	ACE_barrelLengths[] = {304};
 	
 	// Arma 3 Bullet Config
 	hit = 10; // Base Damage
-	calibre = 1.2; // Pen Multiplyer
-	typicalSpeed = 880; // Base Speed
+	calibre = 2.0; // Pen Multiplyer
+	typicalSpeed = 800; // Base Speed
 
 };
