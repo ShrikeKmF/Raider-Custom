@@ -1,72 +1,551 @@
-class Vest_Camo_Base: ItemCore
-{
-    class ItemInfo;
+// Assaulter
+class Crye_AVS_1_GRY : Vest_Camo_Base {
+    RTG_WEAPON_BASE
+    class XtdGearInfo {
+        model = "ACEAX_Crye_AVS";
+        variant = "N1";
+        type = "assaulter";
+        camo = "GRY";
+    };
+    RTG_VEST_ARMOUR
 };
-// --- Crye AVS (ACEAX Compatible) ---
-// Assaulter (Role 1)
+class Crye_AVS_1 : Vest_Camo_Base {
+    RTG_WEAPON_BASE
+    class XtdGearInfo {
+        model = "ACEAX_Crye_AVS";
+        variant = "N1";
+        type = "assaulter";
+        camo = "mc";
+    };
+    RTG_VEST_ARMOUR
+};
+class Crye_AVS_1_MCB : Vest_Camo_Base {
+    RTG_WEAPON_BASE
+    class XtdGearInfo {
+        model = "ACEAX_Crye_AVS";
+        variant = "N1";
+        type = "assaulter";
+        camo = "mcb";
+    };
+    RTG_VEST_ARMOUR
+};
+class Crye_AVS_1_MCT : Vest_Camo_Base {
+    RTG_WEAPON_BASE
+    class XtdGearInfo {
+        model = "ACEAX_Crye_AVS";
+        variant = "N1";
+        type = "assaulter";
+        camo = "mct";
+    };
+    RTG_VEST_ARMOUR
+};
 class Crye_AVS_1_RG : Vest_Camo_Base {
-    class XtdGearInfo { model = "ACEAX_Crye_AVS"; role = "1"; variant = "base"; camo = "GRN"; };
+    RTG_WEAPON_BASE
+    class XtdGearInfo {
+        model = "ACEAX_Crye_AVS";
+        variant = "N1";
+        type = "assaulter";
+        camo = "OD";
+    };
+    RTG_VEST_ARMOUR
 };
 class Crye_AVS_1_Tan : Vest_Camo_Base {
-    class XtdGearInfo { model = "ACEAX_Crye_AVS"; role = "1"; variant = "base"; camo = "Tan"; };
+    RTG_WEAPON_BASE
+    class XtdGearInfo {
+        model = "ACEAX_Crye_AVS";
+        variant = "N1";
+        type = "assaulter";
+        camo = "CYT";
+    };
+    RTG_VEST_ARMOUR
 };
 
+class Crye_AVS_1_1_GRY : Vest_Camo_Base {
+    RTG_WEAPON_BASE
+    class XtdGearInfo {
+        model = "ACEAX_Crye_AVS";
+        variant = "N2";
+        type = "assaulter";
+        camo = "GRY";
+    };
+    RTG_VEST_ARMOUR
+};
+class Crye_AVS_1_1 : Vest_Camo_Base {
+    RTG_WEAPON_BASE
+    class XtdGearInfo {
+        model = "ACEAX_Crye_AVS";
+        variant = "N2";
+        type = "assaulter";
+        camo = "mc";
+    };
+    RTG_VEST_ARMOUR
+};
+class Crye_AVS_1_1_MCB : Vest_Camo_Base {
+    RTG_WEAPON_BASE
+    class XtdGearInfo {
+        model = "ACEAX_Crye_AVS";
+        variant = "N2";
+        type = "assaulter";
+        camo = "mcb";
+    };
+    RTG_VEST_ARMOUR
+};
+class Crye_AVS_1_1_MCT : Vest_Camo_Base {
+    RTG_WEAPON_BASE
+    class XtdGearInfo {
+        model = "ACEAX_Crye_AVS";
+        variant = "N2";
+        type = "assaulter";
+        camo = "mct";
+    };
+    RTG_VEST_ARMOUR
+};
 class Crye_AVS_1_1_RG : Vest_Camo_Base {
-    class XtdGearInfo { model = "ACEAX_Crye_AVS"; role = "1"; variant = "1"; camo = "GRN"; };
+    RTG_WEAPON_BASE
+    class XtdGearInfo {
+        model = "ACEAX_Crye_AVS";
+        variant = "N2";
+        type = "assaulter";
+        camo = "OD";
+    };
+    RTG_VEST_ARMOUR
 };
 class Crye_AVS_1_1_Tan : Vest_Camo_Base {
-    class XtdGearInfo { model = "ACEAX_Crye_AVS"; role = "1"; variant = "1"; camo = "Tan"; };
+    RTG_WEAPON_BASE
+    class XtdGearInfo {
+        model = "ACEAX_Crye_AVS";
+        variant = "N2";
+        type = "assaulter";
+        camo = "CYT";
+    };
+    RTG_VEST_ARMOUR
 };
 
+class Crye_AVS_1_2_GRY : Vest_Camo_Base {
+    RTG_WEAPON_BASE
+    class XtdGearInfo {
+        model = "ACEAX_Crye_AVS";
+        variant = "N3";
+        type = "assaulter";
+        camo = "GRY";
+    };
+    RTG_VEST_ARMOUR
+};
+class Crye_AVS_1_2 : Vest_Camo_Base {
+    RTG_WEAPON_BASE
+    class XtdGearInfo {
+        model = "ACEAX_Crye_AVS";
+        variant = "N3";
+        type = "assaulter";
+        camo = "mc";
+    };
+    RTG_VEST_ARMOUR
+};
+class Crye_AVS_1_2_MCB : Vest_Camo_Base {
+    RTG_WEAPON_BASE
+    class XtdGearInfo {
+        model = "ACEAX_Crye_AVS";
+        variant = "N3";
+        type = "assaulter";
+        camo = "mcb";
+    };
+    RTG_VEST_ARMOUR
+};
+class Crye_AVS_1_2_MCT : Vest_Camo_Base {
+    RTG_WEAPON_BASE
+    class XtdGearInfo {
+        model = "ACEAX_Crye_AVS";
+        variant = "N3";
+        type = "assaulter";
+        camo = "mct";
+    };
+    RTG_VEST_ARMOUR
+};
 class Crye_AVS_1_2_RG : Vest_Camo_Base {
-    class XtdGearInfo { model = "ACEAX_Crye_AVS"; role = "1"; variant = "2"; camo = "GRN"; };
+    RTG_WEAPON_BASE
+    class XtdGearInfo {
+        model = "ACEAX_Crye_AVS";
+        variant = "N3";
+        type = "assaulter";
+        camo = "OD";
+    };
+    RTG_VEST_ARMOUR
 };
 class Crye_AVS_1_2_Tan : Vest_Camo_Base {
-    class XtdGearInfo { model = "ACEAX_Crye_AVS"; role = "1"; variant = "2"; camo = "Tan"; };
+    RTG_WEAPON_BASE
+    class XtdGearInfo {
+        model = "ACEAX_Crye_AVS";
+        variant = "N3";
+        type = "assaulter";
+        camo = "CYT";
+    };
+    RTG_VEST_ARMOUR
 };
 
+class Crye_AVS_1_3_GRY : Vest_Camo_Base {
+    RTG_WEAPON_BASE
+    class XtdGearInfo {
+        model = "ACEAX_Crye_AVS";
+        variant = "N4";
+        type = "assaulter";
+        camo = "GRY";
+    };
+    RTG_VEST_ARMOUR
+};
+class Crye_AVS_1_3 : Vest_Camo_Base {
+    RTG_WEAPON_BASE
+    class XtdGearInfo {
+        model = "ACEAX_Crye_AVS";
+        variant = "N4";
+        type = "assaulter";
+        camo = "mc";
+    };
+    RTG_VEST_ARMOUR
+};
+class Crye_AVS_1_3_MCB : Vest_Camo_Base {
+    RTG_WEAPON_BASE
+    class XtdGearInfo {
+        model = "ACEAX_Crye_AVS";
+        variant = "N4";
+        type = "assaulter";
+        camo = "mcb";
+    };
+    RTG_VEST_ARMOUR
+};
+class Crye_AVS_1_3_MCT : Vest_Camo_Base {
+    RTG_WEAPON_BASE
+    class XtdGearInfo {
+        model = "ACEAX_Crye_AVS";
+        variant = "N4";
+        type = "assaulter";
+        camo = "mct";
+    };
+    RTG_VEST_ARMOUR
+};
 class Crye_AVS_1_3_RG : Vest_Camo_Base {
-    class XtdGearInfo { model = "ACEAX_Crye_AVS"; role = "1"; variant = "3"; camo = "GRN"; };
+    RTG_WEAPON_BASE
+    class XtdGearInfo {
+        model = "ACEAX_Crye_AVS";
+        variant = "N4";
+        type = "assaulter";
+        camo = "OD";
+    };
+    RTG_VEST_ARMOUR
 };
 class Crye_AVS_1_3_Tan : Vest_Camo_Base {
-    class XtdGearInfo { model = "ACEAX_Crye_AVS"; role = "1"; variant = "3"; camo = "Tan"; };
+    RTG_WEAPON_BASE
+    class XtdGearInfo {
+        model = "ACEAX_Crye_AVS";
+        variant = "N4";
+        type = "assaulter";
+        camo = "CYT";
+    };
+    RTG_VEST_ARMOUR
 };
 
-
-// Gunner (Role 2)
+// Gunner
+class Crye_AVS_2_GRY : Vest_Camo_Base {
+    RTG_WEAPON_BASE
+    class XtdGearInfo {
+        model = "ACEAX_Crye_AVS";
+        variant = "N1";
+        type = "gunner";
+        camo = "GRY";
+    };
+    RTG_VEST_ARMOUR
+};
+class Crye_AVS_2 : Vest_Camo_Base {
+    RTG_WEAPON_BASE
+    class XtdGearInfo {
+        model = "ACEAX_Crye_AVS";
+        variant = "N1";
+        type = "gunner";
+        camo = "mc";
+    };
+    RTG_VEST_ARMOUR
+};
+class Crye_AVS_2_MCB : Vest_Camo_Base {
+    RTG_WEAPON_BASE
+    class XtdGearInfo {
+        model = "ACEAX_Crye_AVS";
+        variant = "N1";
+        type = "gunner";
+        camo = "mcb";
+    };
+    RTG_VEST_ARMOUR
+};
+class Crye_AVS_2_MCT : Vest_Camo_Base {
+    RTG_WEAPON_BASE
+    class XtdGearInfo {
+        model = "ACEAX_Crye_AVS";
+        variant = "N1";
+        type = "gunner";
+        camo = "mct";
+    };
+    RTG_VEST_ARMOUR
+};
 class Crye_AVS_2_RG : Vest_Camo_Base {
-    class XtdGearInfo { model = "ACEAX_Crye_AVS"; role = "2"; variant = "base"; camo = "GRN"; };
+    RTG_WEAPON_BASE
+    class XtdGearInfo {
+        model = "ACEAX_Crye_AVS";
+        variant = "N1";
+        type = "gunner";
+        camo = "OD";
+    };
+    RTG_VEST_ARMOUR
 };
 class Crye_AVS_2_Tan : Vest_Camo_Base {
-    class XtdGearInfo { model = "ACEAX_Crye_AVS"; role = "2"; variant = "base"; camo = "Tan"; };
+    RTG_WEAPON_BASE
+    class XtdGearInfo {
+        model = "ACEAX_Crye_AVS";
+        variant = "N1";
+        type = "gunner";
+        camo = "CYT";
+    };
+    RTG_VEST_ARMOUR
 };
 
-
-// Comms (Role 3)
+// Comms
+class Crye_AVS_3_GRY : Vest_Camo_Base {
+    RTG_WEAPON_BASE
+    class XtdGearInfo {
+        model = "ACEAX_Crye_AVS";
+        variant = "N1";
+        type = "comms";
+        camo = "GRY";
+    };
+    RTG_VEST_ARMOUR
+};
+class Crye_AVS_3 : Vest_Camo_Base {
+    RTG_WEAPON_BASE
+    class XtdGearInfo {
+        model = "ACEAX_Crye_AVS";
+        variant = "N1";
+        type = "comms";
+        camo = "mc";
+    };
+    RTG_VEST_ARMOUR
+};
+class Crye_AVS_3_MCB : Vest_Camo_Base {
+    RTG_WEAPON_BASE
+    class XtdGearInfo {
+        model = "ACEAX_Crye_AVS";
+        variant = "N1";
+        type = "comms";
+        camo = "mcb";
+    };
+    RTG_VEST_ARMOUR
+};
+class Crye_AVS_3_MCT : Vest_Camo_Base {
+    RTG_WEAPON_BASE
+    class XtdGearInfo {
+        model = "ACEAX_Crye_AVS";
+        variant = "N1";
+        type = "comms";
+        camo = "mct";
+    };
+    RTG_VEST_ARMOUR
+};
 class Crye_AVS_3_RG : Vest_Camo_Base {
-    class XtdGearInfo { model = "ACEAX_Crye_AVS"; role = "3"; variant = "base"; camo = "GRN"; };
+    RTG_WEAPON_BASE
+    class XtdGearInfo {
+        model = "ACEAX_Crye_AVS";
+        variant = "N1";
+        type = "comms";
+        camo = "OD";
+    };
+    RTG_VEST_ARMOUR
 };
 class Crye_AVS_3_Tan : Vest_Camo_Base {
-    class XtdGearInfo { model = "ACEAX_Crye_AVS"; role = "3"; variant = "base"; camo = "Tan"; };
+    RTG_WEAPON_BASE
+    class XtdGearInfo {
+        model = "ACEAX_Crye_AVS";
+        variant = "N1";
+        type = "comms";
+        camo = "CYT";
+    };
+    RTG_VEST_ARMOUR
 };
 
+class Crye_AVS_3_1_GRY : Vest_Camo_Base {
+    RTG_WEAPON_BASE
+    class XtdGearInfo {
+        model = "ACEAX_Crye_AVS";
+        variant = "N2";
+        type = "comms";
+        camo = "GRY";
+    };
+    RTG_VEST_ARMOUR
+};
+class Crye_AVS_3_1 : Vest_Camo_Base {
+    RTG_WEAPON_BASE
+    class XtdGearInfo {
+        model = "ACEAX_Crye_AVS";
+        variant = "N2";
+        type = "comms";
+        camo = "mc";
+    };
+    RTG_VEST_ARMOUR
+};
+class Crye_AVS_3_1_MCB : Vest_Camo_Base {
+    RTG_WEAPON_BASE
+    class XtdGearInfo {
+        model = "ACEAX_Crye_AVS";
+        variant = "N2";
+        type = "comms";
+        camo = "mcb";
+    };
+    RTG_VEST_ARMOUR
+};
+class Crye_AVS_3_1_MCT : Vest_Camo_Base {
+    RTG_WEAPON_BASE
+    class XtdGearInfo {
+        model = "ACEAX_Crye_AVS";
+        variant = "N2";
+        type = "comms";
+        camo = "mct";
+    };
+    RTG_VEST_ARMOUR
+};
 class Crye_AVS_3_1_RG : Vest_Camo_Base {
-    class XtdGearInfo { model = "ACEAX_Crye_AVS"; role = "3"; variant = "1"; camo = "GRN"; };
+    RTG_WEAPON_BASE
+    class XtdGearInfo {
+        model = "ACEAX_Crye_AVS";
+        variant = "N2";
+        type = "comms";
+        camo = "OD";
+    };
+    RTG_VEST_ARMOUR
 };
 class Crye_AVS_3_1_Tan : Vest_Camo_Base {
-    class XtdGearInfo { model = "ACEAX_Crye_AVS"; role = "3"; variant = "1"; camo = "Tan"; };
+    RTG_WEAPON_BASE
+    class XtdGearInfo {
+        model = "ACEAX_Crye_AVS";
+        variant = "N2";
+        type = "comms";
+        camo = "CYT";
+    };
+    RTG_VEST_ARMOUR
 };
 
+class Crye_AVS_3_2_GRY : Vest_Camo_Base {
+    RTG_WEAPON_BASE
+    class XtdGearInfo {
+        model = "ACEAX_Crye_AVS";
+        variant = "N3";
+        type = "comms";
+        camo = "GRY";
+    };
+    RTG_VEST_ARMOUR
+};
+class Crye_AVS_3_2 : Vest_Camo_Base {
+    RTG_WEAPON_BASE
+    class XtdGearInfo {
+        model = "ACEAX_Crye_AVS";
+        variant = "N3";
+        type = "comms";
+        camo = "mc";
+    };
+    RTG_VEST_ARMOUR
+};
+class Crye_AVS_3_2_MCB : Vest_Camo_Base {
+    RTG_WEAPON_BASE
+    class XtdGearInfo {
+        model = "ACEAX_Crye_AVS";
+        variant = "N3";
+        type = "comms";
+        camo = "mcb";
+    };
+    RTG_VEST_ARMOUR
+};
+class Crye_AVS_3_2_MCT : Vest_Camo_Base {
+    RTG_WEAPON_BASE
+    class XtdGearInfo {
+        model = "ACEAX_Crye_AVS";
+        variant = "N3";
+        type = "comms";
+        camo = "mct";
+    };
+    RTG_VEST_ARMOUR
+};
 class Crye_AVS_3_2_RG : Vest_Camo_Base {
-    class XtdGearInfo { model = "ACEAX_Crye_AVS"; role = "3"; variant = "2"; camo = "GRN"; };
+    RTG_WEAPON_BASE
+    class XtdGearInfo {
+        model = "ACEAX_Crye_AVS";
+        variant = "N3";
+        type = "comms";
+        camo = "OD";
+    };
+    RTG_VEST_ARMOUR
 };
 class Crye_AVS_3_2_Tan : Vest_Camo_Base {
-    class XtdGearInfo { model = "ACEAX_Crye_AVS"; role = "3"; variant = "2"; camo = "Tan"; };
+    RTG_WEAPON_BASE
+    class XtdGearInfo {
+        model = "ACEAX_Crye_AVS";
+        variant = "N3";
+        type = "comms";
+        camo = "CYT";
+    };
+    RTG_VEST_ARMOUR
 };
 
+class Crye_AVS_3_3_GRY : Vest_Camo_Base {
+    RTG_WEAPON_BASE
+    class XtdGearInfo {
+        model = "ACEAX_Crye_AVS";
+        variant = "N4";
+        type = "comms";
+        camo = "GRY";
+    };
+    RTG_VEST_ARMOUR
+};
+class Crye_AVS_3_3 : Vest_Camo_Base {
+    RTG_WEAPON_BASE
+    class XtdGearInfo {
+        model = "ACEAX_Crye_AVS";
+        variant = "N4";
+        type = "comms";
+        camo = "mc";
+    };
+    RTG_VEST_ARMOUR
+};
+class Crye_AVS_3_3_MCB : Vest_Camo_Base {
+    RTG_WEAPON_BASE
+    class XtdGearInfo {
+        model = "ACEAX_Crye_AVS";
+        variant = "N4";
+        type = "comms";
+        camo = "mcb";
+    };
+    RTG_VEST_ARMOUR
+};
+class Crye_AVS_3_3_MCT : Vest_Camo_Base {
+    RTG_WEAPON_BASE
+    class XtdGearInfo {
+        model = "ACEAX_Crye_AVS";
+        variant = "N4";
+        type = "comms";
+        camo = "mct";
+    };
+    RTG_VEST_ARMOUR
+};
 class Crye_AVS_3_3_RG : Vest_Camo_Base {
-    class XtdGearInfo { model = "ACEAX_Crye_AVS"; role = "3"; variant = "3"; camo = "GRN"; };
+    RTG_WEAPON_BASE
+    class XtdGearInfo {
+        model = "ACEAX_Crye_AVS";
+        variant = "N4";
+        type = "comms";
+        camo = "OD";
+    };
+    RTG_VEST_ARMOUR
 };
 class Crye_AVS_3_3_Tan : Vest_Camo_Base {
-    class XtdGearInfo { model = "ACEAX_Crye_AVS"; role = "3"; variant = "3"; camo = "Tan"; };
+    RTG_WEAPON_BASE
+    class XtdGearInfo {
+        model = "ACEAX_Crye_AVS";
+        variant = "N4";
+        type = "comms";
+        camo = "CYT";
+    };
+    RTG_VEST_ARMOUR
 };

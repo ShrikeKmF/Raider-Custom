@@ -44,23 +44,8 @@
 #define TRANSPORT_BACKPACK(id,qty) class _xx_##id { backpack = #id; count = qty; };
 
 // Armour Define
-#define RTG_HELMET_ARMOUR \
-class ItemInfo: ItemInfo \
-{ \
-    class HitpointsProtectionInfo \
-    { \
-        class head \
-        { \
-            HitpointName="HitHead"; \
-            armor=2.0; \
-            PassThrough=0.6; \
-        }; \
-    }; \
-};
-
-
 #define RTG_VEST_ARMOUR \
-    armor = 4; \
+    armor = 10; \
     class ItemInfo: ItemInfo \
     { \
         containerClass = "Supply170"; \
@@ -69,19 +54,19 @@ class ItemInfo: ItemInfo \
             class Chest \
             { \
                 HitpointName = "HitChest"; \
-                armor = 4; \
+                armor = 10; \
                 PassThrough = 0.6 \
             }; \
             class Diaphragm \
             { \
                 HitpointName = "HitDiaphragm"; \
-                armor = 4; \
+                armor = 10; \
                 PassThrough = 0.6 \
             }; \
             class Abdomen \
             { \
                 hitpointName = "HitAbdomen"; \
-                armor = 4; \
+                armor = 10; \
                 passThrough = 0.6 \
             }; \
             class Body \
