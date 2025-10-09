@@ -1,6 +1,4 @@
-﻿// TODO Custom Backpack Textures
-class TFAR_anprc155;
-
+﻿class TFAR_anprc155;
 class rtg_ANPRC155 : TFAR_anprc155
 {
     scope = 2;
@@ -10,11 +8,13 @@ class rtg_ANPRC155 : TFAR_anprc155
     tf_encryptionCode = "tf_west_radio_code";
     tf_dialog = "rt1523g_radio_dialog";
     tf_subtype = "digital_lr";
+    maximumLoad = 170;
 
     hiddenSelections[] = {"camo"};
     hiddenSelectionsTextures[] = {"\rtgCustomContent\Textures\Equipment\anprc155_black.paa"};
 
     // ACEAX
+    class XtdGearInfo { model = "ACEAX_Radio_Pack"; camo = "BLK";};
 }
 
 class rtg_ANPRC155_olive : rtg_ANPRC155
@@ -26,11 +26,13 @@ class rtg_ANPRC155_olive : rtg_ANPRC155
     tf_encryptionCode = "tf_west_radio_code";
     tf_dialog = "rt1523g_radio_dialog";
     tf_subtype = "digital_lr";
+    maximumLoad = 170;
 
     hiddenSelections[] = {"camo"};
     hiddenSelectionsTextures[] = {"\rtgCustomContent\Textures\Equipment\anprc155_olive.paa"};
 
     // ACEAX
+    class XtdGearInfo { model = "ACEAX_Radio_Pack"; camo = "OD";};
 }
 
 class rtg_ANPRC155_tan : rtg_ANPRC155
@@ -42,9 +44,11 @@ class rtg_ANPRC155_tan : rtg_ANPRC155
     tf_encryptionCode = "tf_west_radio_code";
     tf_dialog = "rt1523g_radio_dialog";
     tf_subtype = "digital_lr";
+    maximumLoad = 170;
 
     hiddenSelections[] = {"camo"};
     hiddenSelectionsTextures[] = {"\rtgCustomContent\Textures\Equipment\anprc155_tan.paa"};
 
     // ACEAX
+    class XtdGearInfo { model = "ACEAX_Radio_Pack"; camo = "TAN";};
 }

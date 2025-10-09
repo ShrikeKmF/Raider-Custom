@@ -47,7 +47,8 @@
     class HitFuel;
     class HitLTrack;
     class HitRTrack;
-
+    class ReammoBox;
+    class CTRG_PANEL_Base: ReammoBox{};
 
     // Character
     #include "\rtgCustomContent\Config\Character\CaManBase.hpp"
@@ -57,6 +58,8 @@
     #include "\rtgCustomContent\Config\Equipment\Backpacks\Radio Backpacks.hpp"
     #include "\rtgCustomContent\Config\Equipment\Backpacks\CRTG Patrol Pack.hpp"
     #include "\rtgCustomContent\Config\Equipment\Backpacks\CRTG Backpanel.hpp"
+    #include "\rtgCustomContent\Config\Equipment\Backpacks\Vehicle Grabbags.hpp"
+    #include "\rtgCustomContent\Config\Equipment\Backpacks\Medical Backpack.hpp"
 
     // Vehicle
     #include "\rtgCustomContent\Config\Vehicles\magpie.hpp"
