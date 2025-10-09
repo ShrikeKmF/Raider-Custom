@@ -5,9 +5,14 @@
     class Rifle_Base_F;
     class ItemInfo;
     class Vest_Camo_Base: ItemCore
-{
-    class ItemInfo;
-};
+    {
+        class ItemInfo;
+    };
+    class Binocular;
+    class NVGoggles: Binocular
+    {
+        class ItemInfo;
+    };
 
     // Equipment
     #include "\rtgCustomContent\Config\Equipment\RTG Armbands.hpp"
