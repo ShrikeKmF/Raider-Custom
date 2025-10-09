@@ -74,6 +74,7 @@ class rtg_ANPRC155_small : AX_B_RadioPack_t03_blk_F
     scope = 2;
     displayName = "AN/PRC-155 (Black/Small)";
 
+    tf_hasLRradio = 1;
     tf_encryptionCode = "tf_west_radio_code";
     tf_dialog = "rt1523g_radio_dialog";
     tf_subtype = "digital_lr";
@@ -94,6 +95,7 @@ class rtg_ANPRC155_olive_small : AX_B_RadioPack_t03_oli_F
     scope = 2;
     displayName = "AN/PRC-155 (Olive/Small)";
 
+    tf_hasLRradio = 1;
     tf_encryptionCode = "tf_west_radio_code";
     tf_dialog = "rt1523g_radio_dialog";
     tf_subtype = "digital_lr";
@@ -114,6 +116,7 @@ class rtg_ANPRC155_tan_small : AX_B_RadioPack_t03_khk_F
     scope = 2;
     displayName = "AN/PRC-155 (Tan/Small)";
 
+    tf_hasLRradio = 1;
     tf_encryptionCode = "tf_west_radio_code";
     tf_dialog = "rt1523g_radio_dialog";
     tf_subtype = "digital_lr";

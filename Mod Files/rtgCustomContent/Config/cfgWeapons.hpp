@@ -31,5 +31,4 @@
     // Weapons
     #include "\rtgCustomContent\Config\Weapons\XM7.hpp"
     #include "\rtgCustomContent\Config\Weapons\Aegis.hpp"
-    #include "\rtgCustomContent\Config\Weapons\ANPRC-152.hpp"
 };
