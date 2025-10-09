@@ -6,7 +6,7 @@ class rtg_bugy: rhsusf_mrzr4_d
 	editorSubcategory = "RTG_LIGHT_ASSETS";
 	author = "Shrike";
 	scope = 2;
-	side = 1;
+	side = WEST;
 	faction = "Raider_Tactical_F";
 	ace_cargo_space = 4;
 	RTG_Vehicle_Gear
@@ -17,6 +17,6 @@ class rtg_bugy: rhsusf_mrzr4_d
 
 class rtg_bugy_g : rtg_bugy
 {
-	side = 4;
+	side = RESISTANCE;
 	faction = "Raider_Tactical_G_F";
 }

@@ -6,7 +6,7 @@ class rtg_amp_m2: usarmy_M1283_M2_WD
 	editorSubcategory = "RTG_HEAVY_ASSETS";
 	author = "Shrike";
 	scope = 2;
-	side = 1;
+	side = WEST;
 	faction = "Raider_Tactical_F";
 	ace_cargo_space = 12;
 	weapons[] = {"SmokeLauncher","TruckHorn"};
@@ -22,7 +22,7 @@ class rtg_amp_m2: usarmy_M1283_M2_WD
 
 class rtg_amp_m2_g : rtg_amp_m2
 {
-	side = 4;
+	side = RESISTANCE;
 	faction = "Raider_Tactical_G_F";
 }
 
@@ -34,7 +34,7 @@ class rtg_amp_m2jav: usarmy_M1283RWS_WD
 	editorSubcategory = "RTG_HEAVY_ASSETS";
 	author = "Shrike";
 	scope = 2;
-	side = 1;
+	side = WEST;
 	faction = "Raider_Tactical_F";
 	ace_cargo_space = 12;
 	weapons[] = {"SmokeLauncher","TruckHorn"};
@@ -50,7 +50,7 @@ class rtg_amp_m2jav: usarmy_M1283RWS_WD
 
 class rtg_amp_m2jav_g : rtg_amp_m2jav
 {
-	side = 4;
+	side = RESISTANCE;
 	faction = "Raider_Tactical_G_F";
 }
 
@@ -62,7 +62,7 @@ class rtg_amp_shorad: usarmy_M1283CUAS_WD
 	editorSubcategory = "RTG_HEAVY_ASSETS";
 	author = "Shrike";
 	scope = 2;
-	side = 1;
+	side = WEST;
 	faction = "Raider_Tactical_F";
 	ace_cargo_space = 16;
 	mineDetectorRange = 50;
@@ -287,6 +287,6 @@ class rtg_amp_shorad: usarmy_M1283CUAS_WD
 
 class rtg_amp_shorad_g : rtg_amp_shorad
 {
-	side = 4;
+	side = RESISTANCE;
 	faction = "Raider_Tactical_G_F";
 }

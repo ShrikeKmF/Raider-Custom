@@ -4,6 +4,7 @@
     class CBA_MiscItem_ItemInfo;
     class Rifle_Base_F;
     class ItemInfo;
+    class ItemRadio;
     class Vest_Camo_Base: ItemCore
     {
         class ItemInfo;
@@ -30,5 +31,5 @@
     // Weapons
     #include "\rtgCustomContent\Config\Weapons\XM7.hpp"
     #include "\rtgCustomContent\Config\Weapons\Aegis.hpp"
-
+    #include "\rtgCustomContent\Config\Weapons\ANPRC-152.hpp"
 };

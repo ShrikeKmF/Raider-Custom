@@ -6,7 +6,7 @@ class rtg_rush_shorad: rhsusf_stryker_m1126ms_wd
 	editorSubcategory = "RTG_MEDIUM_ASSETS";
 	author = "Shrike";
 	scope = 2;
-	side = 1;
+	side = WEST;
 	faction = "Raider_Tactical_F";
 	ace_cargo_space = 16;
 	mineDetectorRange = 50;
@@ -227,7 +227,7 @@ class rtg_rush_IS: rhsusf_stryker_m1296_wd
 	editorSubcategory = "RTG_MEDIUM_ASSETS";
 	author = "Shrike";
 	scope = 2;
-	side = 1;
+	side = WEST;
 	faction = "Raider_Tactical_F";
 	enginePower=395;
 	mineDetectorRange = 50;
@@ -245,12 +245,12 @@ class rtg_rush_IS: rhsusf_stryker_m1296_wd
 
 class rtg_rush_IS_g : rtg_rush_IS
 {
-	side = 4;
+	side = RESISTANCE;
 	faction = "Raider_Tactical_G_F";
 }
 
 class rtg_rush_shorad_g : rtg_rush_shorad
 {
-	side = 4;
+	side = RESISTANCE;
 	faction = "Raider_Tactical_G_F";
 }

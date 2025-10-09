@@ -6,7 +6,7 @@ class rtg_lpb: Arlit_TOYOTA_LC_HZJ79_M240
 	editorSubcategory = "RTG_MEDIUM_ASSETS";
 	author = "Shrike";
 	scope = 2;
-	side = 1;
+	side = WEST;
 	faction = "Raider_Tactical_F";
 	mineDetectorRange = 50;
 	canAccessMineDetector = 1;
@@ -16,6 +16,6 @@ class rtg_lpb: Arlit_TOYOTA_LC_HZJ79_M240
 
 class rtg_lpb_g : rtg_lpb
 {
-	side = 4;
+	side = RESISTANCE;
 	faction = "Raider_Tactical_G_F";
 }

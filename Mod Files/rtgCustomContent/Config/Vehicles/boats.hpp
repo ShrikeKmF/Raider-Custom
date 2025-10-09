@@ -5,7 +5,7 @@ class raider_fast_rhib: UK3CB_MDF_B_Skiff
 	editorSubcategory = "RTG_LIGHT_ASSETS";
 	author = "Shrike";
 	scope = 2;
-	side = 1;
+	side = WEST;
 	faction = "Raider_Tactical_F";
 	fuelConsumptionRate = 0.03;
 	fuelCapacity = 84;
@@ -22,6 +22,6 @@ class raider_fast_rhib: UK3CB_MDF_B_Skiff
 
 class raider_fast_rhib_g : raider_fast_rhib
 {
-	side = 4;
+	side = RESISTANCE;
 	faction = "Raider_Tactical_G_F";
 }

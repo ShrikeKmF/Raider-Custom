@@ -11,12 +11,12 @@
     {
         displayName = "[RTG] Vehicles";
         priority = 0;
-        side = 1;
+        side = WEST;
         scope = 2;
     };
 
     class Raider_Tactical_G_F : Raider_Tactical_F
     {
-        side = 4;
+        side = RESISTANCE;
     };
 };

@@ -13,12 +13,27 @@
 #define ARR_4(a,b,c,d) a, b, c, d
 
 
+#define NO_SIDE -1
+#define EAST 0			// (CSAT)
+#define WEST 1			// (NATO)
+#define RESISTANCE 2	// (AAF)
+#define CIVILIAN 3
+#define NEUTRAL 4
+#define ENEMY 5
+#define FRIENDLY 6
+#define LOGIC 7
+
+
 // Weapon Defines
 #define RTG_STANDARD_ZOOM opticsZoomInit=0.75; opticsZoomMax=0.75; opticsZoomMin=0.50;
 
 #define RTG_WEAPON_BASE scope=2; dlc="raiderTactical"; author="Shrike"; initSpeed=0;
 
 #define RTG_ACEAX_EMPTY class XtdGearInfo { model = ""; };
+
+#define RTG_LR_RADIO_RANGE 9000
+
+#define RTG_BACKPACK_LOAD 170
 
 #define RTG_AMMO_DEFAULTS \
     model                   = "\A3\Weapons_f\Data\bullettracer\tracer_yellow"; /* 3d Model to use for the tracers */ \

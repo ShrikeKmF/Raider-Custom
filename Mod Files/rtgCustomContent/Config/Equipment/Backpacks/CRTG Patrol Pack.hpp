@@ -1,36 +1,36 @@
 class CTRG_Patrol_Arid: CTRG_PANEL_Base {
-    maximumLoad = 170;
-    class XtdGearInfo { model = "ACEAX_Radio_Pack"; camo = "ARID";};
+    maximumLoad = RTG_BACKPACK_LOAD;
+    class XtdGearInfo { model = "ACEAX_Patrol_Pack"; camo = "ARID";};
 };
 class CTRG_Patrol_Tropic: CTRG_PANEL_Base {
-    maximumLoad = 170;
-    class XtdGearInfo { model = "ACEAX_Radio_Pack"; camo = "TRO";};
+    maximumLoad = RTG_BACKPACK_LOAD;
+    class XtdGearInfo { model = "ACEAX_Patrol_Pack"; camo = "TRO";};
 };
 class CTRG_Patrol_Desert: CTRG_PANEL_Base {
-    maximumLoad = 170;
-    class XtdGearInfo { model = "ACEAX_Radio_Pack"; camo = "DES";};
+    maximumLoad = RTG_BACKPACK_LOAD;
+    class XtdGearInfo { model = "ACEAX_Patrol_Pack"; camo = "DES";};
 };
 class CTRG_Patrol_Tundra: CTRG_PANEL_Base {
-    maximumLoad = 170;
-    class XtdGearInfo { model = "ACEAX_Radio_Pack"; camo = "TUN";};
+    maximumLoad = RTG_BACKPACK_LOAD;
+    class XtdGearInfo { model = "ACEAX_Patrol_Pack"; camo = "TUN";};
 };
 class CTRG_Patrol_Temperate: CTRG_PANEL_Base {
-    maximumLoad = 170;
-    class XtdGearInfo { model = "ACEAX_Radio_Pack"; camo = "MED";};
+    maximumLoad = RTG_BACKPACK_LOAD;
+    class XtdGearInfo { model = "ACEAX_Patrol_Pack"; camo = "MED";};
 };
 class CTRG_Patrol_temp: CTRG_PANEL_Base {
-    maximumLoad = 170;
-    class XtdGearInfo { model = "ACEAX_Radio_Pack"; camo = "TEMP";};
+    maximumLoad = RTG_BACKPACK_LOAD;
+    class XtdGearInfo { model = "ACEAX_Patrol_Pack"; camo = "TEMP";};
 };
 class CTRG_Patrol_Urban: CTRG_PANEL_Base {
-    maximumLoad = 170;
-    class XtdGearInfo { model = "ACEAX_Radio_Pack"; camo = "URB";};
+    maximumLoad = RTG_BACKPACK_LOAD;
+    class XtdGearInfo { model = "ACEAX_Patrol_Pack"; camo = "URB";};
 };
 class CTRG_Patrol_Nature: CTRG_PANEL_Base {
-    maximumLoad = 170;
-    class XtdGearInfo { model = "ACEAX_Radio_Pack"; camo = "NAT";};
+    maximumLoad = RTG_BACKPACK_LOAD;
+    class XtdGearInfo { model = "ACEAX_Patrol_Pack"; camo = "NAT";};
 };
 class CTRG_Patrol_Shadow: CTRG_PANEL_Base {
-    maximumLoad = 170;
-    class XtdGearInfo { model = "ACEAX_Radio_Pack"; camo = "SHA";};
+    maximumLoad = RTG_BACKPACK_LOAD;
+    class XtdGearInfo { model = "ACEAX_Patrol_Pack"; camo = "SHA";};
 };

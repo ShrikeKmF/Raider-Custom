@@ -2012,7 +2012,7 @@ class rtg_ravn: rtg_ravn_base
 	editorSubcategory = "RTG_HEAVY_ASSETS";
 	author = "Shrike";
 	scope = 2;
-	side = 1;
+	side = WEST;
 	faction = "Raider_Tactical_F";
 	ace_cargo_space = 8;
 	mineDetectorRange = 50;
@@ -2099,6 +2099,6 @@ class rtg_ravn: rtg_ravn_base
 
 class rtg_ravn_g : rtg_ravn
 {
-	side = 4;
+	side = RESISTANCE;
 	faction = "Raider_Tactical_G_F";
 }

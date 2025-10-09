@@ -13,6 +13,9 @@ class XtdGearModels
         #include "Extra.hpp"
         #include "Uniforms.hpp"
         #include "Vests.hpp"
-        #include "Backpacks.hpp"
     };
+    class CfgVehicles
+    {
+        #include "Backpacks.hpp"
+    }
 };

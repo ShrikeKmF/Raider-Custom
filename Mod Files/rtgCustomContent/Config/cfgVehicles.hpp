@@ -48,7 +48,7 @@
     class HitLTrack;
     class HitRTrack;
     class ReammoBox;
-    class CTRG_PANEL_Base: ReammoBox{};
+    class CTRG_PANEL_Base : ReammoBox{RTG_ACEAX_EMPTY; maximumLoad = RTG_BACKPACK_LOAD;};
 
     // Character
     #include "\rtgCustomContent\Config\Character\CaManBase.hpp"

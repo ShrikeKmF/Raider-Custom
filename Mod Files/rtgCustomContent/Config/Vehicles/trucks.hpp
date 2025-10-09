@@ -5,7 +5,7 @@ class rtg_htc_base : rhsusf_M1084A1R_SOV_M2_D_fmtv_socom
 	displayName = "HTC [2/1]";
 	author = "Shrike";
 	scope = 0;
-	side = 1;
+	side = WEST;
 	faction = "Raider_Tactical_F";
 	ace_cargo_space = 25;
 	ace_vehicles_engineStartDelay = 3;
@@ -47,16 +47,16 @@ class rtg_htc_l : rtg_htc_base
 
 class rtg_htc_h_g : rtg_htc_h
 {
-	side = 4;
+	side = RESISTANCE;
 	faction = "Raider_Tactical_G_F";
 }
 class rtg_htc_m_g : rtg_htc_m
 {
-	side = 4;
+	side = RESISTANCE;
 	faction = "Raider_Tactical_G_F";
 }
 class rtg_htc_l_g : rtg_htc_l
 {
-	side = 4;
+	side = RESISTANCE;
 	faction = "Raider_Tactical_G_F";
 }
