@@ -46,7 +46,7 @@ class CfgMagazineWells
 	class SLR_762x51 {
 		RTG_Magazines[] =
 		{
-			"rtg_20Rnd_68x51"
+			"rtg_20Rnd_68x51_slr"
 		};
 	};
 
@@ -65,6 +65,13 @@ class CfgMagazineWells
 	}
 
 	class CBA_762x51_LINKS {
+		RTG_Magazines[] =
+		{
+			"rtg_100Rnd_68x51"
+		};
+	}
+
+	class M240_762x51 {
 		RTG_Magazines[] =
 		{
 			"rtg_100Rnd_68x51"
@@ -213,8 +220,19 @@ class CfgMagazineWells
 	{
 		RTG_Magazines[] = 
 		{
-			"rtg_rpg_heat_mag",
-			"rtg_rpg_frag_mag"
+			"RTG_RPG_Smoke",
+			"RTG_RPG_Frag",
+			"RTG_RPG_HE"
+		};
+	}
+
+	class RPG7 
+	{
+		RTG_Magazines[] = 
+		{
+			"RTG_RPG_Smoke",
+			"RTG_RPG_Frag",
+			"RTG_RPG_HE"
 		};
 	}
 };

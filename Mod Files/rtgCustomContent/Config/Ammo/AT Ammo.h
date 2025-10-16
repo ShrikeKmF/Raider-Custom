@@ -46,8 +46,8 @@ class rtg_smoke_MRAAWS : R_MRAAWS_HE_F {
 	simulation = "shotRocket";
 };
 
-class R_PSLR1_FRAG_RF;
-class rtg_rpg_frag: R_PSLR1_FRAG_RF
+class R_PSRL1_FRAG_RF;
+class rtg_rpg_frag: R_PSRL1_FRAG_RF
 {
     hit = 40;
     indirectHit = 40;
@@ -55,8 +55,8 @@ class rtg_rpg_frag: R_PSLR1_FRAG_RF
     submunitionAmmo = "";
 };
 
-class R_PSLR1_HE_RF;
-class rtg_rpg_smoke : R_PSLR1_HE_RF
+class R_PSRL1_HE_RF;
+class rtg_rpg_smoke : R_PSRL1_HE_RF
 {
     hit = 1;
     indirectHit = 1;

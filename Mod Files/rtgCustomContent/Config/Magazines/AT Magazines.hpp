@@ -29,8 +29,8 @@ class rtg_MRAWS_SMK_F : rtg_MRAWS_HE_F {
 };
 
 // RPG
-class PSLR1_HE_RF;
-class rtg_rpg_smk_mag : PSLR1_HE_RF
+class PSRL1_HE_RF;
+class RTG_RPG_Smoke : PSRL1_HE_RF
 {
     
     ammo = "rtg_rpg_smoke";
@@ -38,10 +38,21 @@ class rtg_rpg_smk_mag : PSLR1_HE_RF
     displayname = "[RTG] SM-7VM Smoke";
     displaynameshort = "73mm Smoke";
     mass = 20;
+    dlc="raiderTactical";
 };
 
-class PSLR1_FRAG_RF;
-class rtg_rpg_frag_mag : PSLR1_FRAG_RF 
+class RTG_RPG_HE : PSRL1_HE_RF 
+{
+    
+    scope = 2;
+    displayname = "[RTG] PG-7M HE";
+    displaynameshort = "73mm HE";
+    mass = 30;
+    dlc="raiderTactical";
+};
+
+class PSRL1_FRAG_RF;
+class RTG_RPG_Frag : PSRL1_FRAG_RF 
 {
     
     ammo = "rtg_rpg_frag";
@@ -49,6 +60,7 @@ class rtg_rpg_frag_mag : PSLR1_FRAG_RF
     displayname = "[RTG] OG-7VM FRAG";
     displaynameshort = "40mm FRAG";
     mass = 30;
+    dlc="raiderTactical";
 };
 
 // LAT Sticks

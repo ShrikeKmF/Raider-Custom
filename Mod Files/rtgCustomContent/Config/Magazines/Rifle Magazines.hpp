@@ -78,6 +78,20 @@ class rtg_20Rnd_68x51 : ICM_XM7_Magazine_277_Fury_BP_F {
     scope = 2;
 };
 
+class 20Rnd_762x51_slr_lxWS;
+class rtg_20Rnd_68x51_slr : 20Rnd_762x51_slr_lxWS {
+        
+    ammo = "rtg_277";
+    count = 20;
+    tracersevery = 1;
+    lastroundstracer = 4;
+    descriptionshort = "Raider Tactical Standard Issue 6.8mm Ammo";
+    displayname = "[RTG] 20rnd 6.8mm MAG";
+    displaynameshort = "20Rnd 6.8x51";
+    initSpeed=910;
+    scope = 2;
+};
+
 class rtg_10rnd_10bw : rhs_mag_20Rnd_556x45_M855_Stanag {
         
     ammo = "rtg_50bw";
