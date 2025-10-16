@@ -33,7 +33,7 @@
 
 #define RTG_LR_RADIO_RANGE 9000
 
-#define RTG_BACKPACK_LOAD 170
+#define RTG_BACKPACK_LOAD 300
 
 #define RTG_AMMO_DEFAULTS \
     model                   = "\A3\Weapons_f\Data\bullettracer\tracer_yellow"; /* 3d Model to use for the tracers */ \
@@ -60,37 +60,95 @@
 
 // Armour Define
 #define RTG_VEST_ARMOUR \
-    armor = 10; \
+    armor = 30; \
     class ItemInfo: ItemInfo \
     { \
         containerClass = "Supply170"; \
         class HitpointsProtectionInfo \
         { \
+			class Neck \
+			{ \
+				HitpointName = "HitNeck"; \
+				armor = 0; \
+				PassThrough = 1.0 \
+			}; \
+			class Arms \
+			{ \
+				HitpointName = "HitArms"; \
+				armor = 0; \
+				PassThrough = 1.0 \
+			}; \
             class Chest \
             { \
                 HitpointName = "HitChest"; \
-                armor = 10; \
-                PassThrough = 0.6 \
+				armor = 30; \
+                PassThrough = 0.2 \
             }; \
             class Diaphragm \
             { \
                 HitpointName = "HitDiaphragm"; \
-                armor = 10; \
-                PassThrough = 0.6 \
+				armor = 30; \
+                PassThrough = 0.2 \
             }; \
             class Abdomen \
             { \
                 hitpointName = "HitAbdomen"; \
-                armor = 10; \
-                passThrough = 0.6 \
+                armor = 30; \
+                passThrough = 0.2 \
             }; \
             class Body \
             { \
                 hitpointName = "HitBody"; \
-                passThrough = 0.6 \
+				armor = 30; \
+                passThrough = 0.2 \
             }; \
         }; \
     }
+#define RTG_VEST_ARMOUR_CTRG \
+armor = 30; \
+class ItemInfo: VestItem \
+{ \
+containerClass = "Supply170"; \
+class HitpointsProtectionInfo \
+{ \
+class Neck \
+{ \
+HitpointName = "HitNeck"; \
+armor = 0; \
+PassThrough = 1.0 \
+}; \
+class Arms \
+{ \
+HitpointName = "HitArms"; \
+armor = 0; \
+PassThrough = 1.0 \
+}; \
+class Chest \
+{ \
+HitpointName = "HitChest"; \
+armor = 30; \
+PassThrough = 0.2 \
+}; \
+class Diaphragm \
+{ \
+HitpointName = "HitDiaphragm"; \
+armor = 30; \
+PassThrough = 0.2 \
+}; \
+class Abdomen \
+{ \
+hitpointName = "HitAbdomen"; \
+armor = 30; \
+passThrough = 0.2 \
+}; \
+class Body \
+{ \
+hitpointName = "HitBody"; \
+armor = 30; \
+passThrough = 0.2 \
+}; \
+}; \
+}
 
 #define RTG_Vehicle_Gear \
 class TransportItems \
