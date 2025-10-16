@@ -24,13 +24,13 @@ class CfgPatches {
                 // Bluefor
                     // Light 
                         "rtg_bugy",
-                        "rtg_sparrow",
-                        "rtg_Hawk",
-                        "rtg_Magpie",
+                        "RTG_B_SPARROW_L",
+                        "RTG_B_Hawk",
+                        "RTG_B_Magpie",
                         "raider_fast_rhib",
                         "rtg_htc_l",
                     // Medium  
-                        "rtg_sparrow_med",
+                        "RTG_B_SPARROW_M",
                         "rtg_rush_shorad",
                         "rtg_rush_IS",
                         "rtg_lpb",
@@ -44,13 +44,13 @@ class CfgPatches {
                 // Greenfor
                     // Light 
                         "rtg_bugy_g",
-                        "rtg_sparrow_g",
-                        "rtg_Hawk_g",
-                        "rtg_Magpie_g",
+                        "RTG_G_SPARROW_L",
+                        "RTG_G_Hawk",
+                        "RTG_G_Magpie",
                         "raider_fast_rhib_g",
                         "rtg_htc_l_g",
                     // Medium  
-                        "rtg_sparrow_med_g",
+                        "RTG_G_SPARROW_M",
                         "rtg_rush_shorad_g",
                         "rtg_rush_IS_g",
                         "rtg_lpb_g",
@@ -65,7 +65,16 @@ class CfgPatches {
         weapons[] = {};
         magazines[] = {};
         requiredVersion = "1.0";
-        requiredAddons[] = { "A3_Modules_F" };
+        requiredAddons[] = { 
+            "A3_Modules_F", 
+            "A3_Weapons_F",
+            "A3_Aegis_Weapons_F_Aegis",
+            "A3_Atlas_Weapons_F_Atlas", 
+            "vests_f_JCA_IE",
+            "CTRGMILGP_Config",
+            "CTRGHEAD_cfg",
+            "A3_Atlas_Characters_F_Atlas"
+        };
         author = "Shrike";
         authors[] = {"Shrike"};
         authorUrl = "https://discord.gg/D55THJWxn4";
@@ -118,9 +127,6 @@ class raiderTactical: Mod_Base
 
 // AI
 #include "\rtgCustomContent\Config\AI\cfgBrains.hpp"
-
-// Modules
-#include "\rtgCustomContent\Config\Modules\Editor Modules.hpp"
 
 // ACEAX
 #include "\rtgCustomContent\Config\ACEAX\XtdGearModels.hpp"
