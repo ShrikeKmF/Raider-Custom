@@ -5,10 +5,12 @@
     class Rifle_Base_F;
     class ItemInfo;
     class ItemRadio;
+    class VestItem;
     class Vest_Camo_Base: ItemCore
     {
         class ItemInfo;
     };
+    class UniformItem;
     class Binocular;
     class NVGoggles: Binocular
     {
@@ -17,6 +19,7 @@
 
     // Equipment
     #include "\rtgCustomContent\Config\Equipment\RTG Armbands.hpp"
+    #include "\rtgCustomContent\Config\Equipment\Medical Equipment.hpp"
     #include "\rtgCustomContent\Config\Equipment\Night Vision.hpp"
     #include "\rtgCustomContent\Config\Equipment\Helmets\CRTG Airframe.hpp"
     #include "\rtgCustomContent\Config\Equipment\Helmets\CRTG Opscore.hpp"
@@ -27,6 +30,9 @@
     #include "\rtgCustomContent\Config\Equipment\Vests\CRTG JPC.hpp"
     #include "\rtgCustomContent\Config\Equipment\Vests\CRTG MMAC.hpp"
     #include "\rtgCustomContent\Config\Equipment\Vests\Modular Vests.hpp"
+    #include "\rtgCustomContent\Config\Equipment\Vests\Other Vests.hpp"
+    #include "\rtgCustomContent\Config\Equipment\Vests\EF.hpp"
+    #include "\rtgCustomContent\Config\Equipment\Vests\Atlas.hpp"
 
     // Weapons
     #include "\rtgCustomContent\Config\Weapons\XM7.hpp"

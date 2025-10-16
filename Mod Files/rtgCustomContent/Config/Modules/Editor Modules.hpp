@@ -23,7 +23,7 @@ class rtgModuleAISkill: Module_F
 	scope = 2;
 	displayName = "[RTG] Set AI Skill";
 	category = "rtgModules";
-	function = "fn_moduleAISkill";
+	function = "/rtgCustomContent/Config/Modules/Functions/fn_ModuleAISkill.sqf";
 	functionPriority = 1;
 	isGlobal = 0;
 	isTriggerActivated = 0;
@@ -68,7 +68,7 @@ class rtgModulePathing: Module_F
 	scope = 2;
 	displayName = "[RTG] Disable Pathing";
 	category = "rtgModules";
-	function = "fn_modulePathing";
+	function = "/rtgCustomContent/Config/Modules/Functions/fn_modulePathing";
 	functionPriority = 1;
 	isGlobal = 1;
 	isTriggerActivated = 0;
@@ -87,7 +87,7 @@ class rtgDisableVcom: Module_F
 	scope = 0;
 	displayName = "[RTG] Disable VCOM";
 	category = "rtgModules";
-	function = "fn_moduleVCOM";
+	function = "/rtgCustomContent/Config/Modules/Functions/fn_moduleVCOM";
 	functionPriority = 1;
 	isGlobal = 1;
 	isTriggerActivated = 0;

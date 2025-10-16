@@ -80,7 +80,7 @@ class ACEAX_Caps
 {
     label = "Caps";
     author = "Shrike";
-    options[] = {"camo", "variant", "googles"};
+    options[] = {"camo", "variant", "goggles"};
 
     class camo
     {
@@ -104,7 +104,7 @@ class ACEAX_Caps
         class 3 { label = "3"; description = "Variant 3"; };
     };
 
-    class googles
+    class goggles
     {
         values[] = {"yes", "no"};
         class yes { label = "Yes"; description = "Includes integrated goggles"; };
