@@ -48,7 +48,7 @@
     class HitLTrack;
     class HitRTrack;
     class ReammoBox;
-    class CTRG_PANEL_Base : ReammoBox{RTG_ACEAX_EMPTY; maximumLoad = RTG_BACKPACK_LOAD;};
+    class CTRG_PANEL_Base : ReammoBox{};
 
     // Character
     #include "\rtgCustomContent\Config\Character\CaManBase.hpp"
@@ -73,4 +73,7 @@
     #include "\rtgCustomContent\Config\Vehicles\ampv.hpp"
     #include "\rtgCustomContent\Config\Vehicles\buggy.hpp"
     #include "\rtgCustomContent\Config\Vehicles\trucks.hpp"
+
+    // Modules
+    #include "\rtgCustomContent\Config\Modules\Editor Modules.hpp"
 }
