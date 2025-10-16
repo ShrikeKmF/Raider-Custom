@@ -1,5 +1,5 @@
 ﻿// Stamina Config
-class CfgMovesFatigue {
+/*class CfgMovesFatigue {
     staminaDuration = 60;
     staminaCooldown = 5;
     staminaRestoration = 15;
@@ -7,4 +7,4 @@ class CfgMovesFatigue {
     terrainDrainSprint = -1;
     terrainDrainRun = -1;
     terrainSpeedCoef = 0.9;
-};
+};*/
