@@ -1,31 +1,5 @@
 ﻿class Aegis_NV_G_Armband_Blu_F: NVGoggles
 {
-    modelOptics = "\A3\Weapons_F\Reticle\optics_empty.p3d";
-    model = "\A3_Aegis\Characters_F_Aegis\Facewear\G_Armband.p3d";
-    picture = "\A3_Aegis\Characters_F_Aegis\Facewear\Data\UI\icon_Aegis_G_Armband_BLU_F_CA.paa";
-    hiddenSelections[] =
-    {
-        camo
-    };
-    hiddenSelectionsTextures[] = 
-    {
-        "\rtgCustomContent\Textures\Equipment\Armband Purple.paa"
-    };
-    visionMode[] = {Normal};
-    class ItemInfo: ItemInfo
-    {
-        uniformModel = "\A3_Aegis\Characters_F_Aegis\Facewear\G_Armband.p3d";
-        modelOff = "\A3_Aegis\Characters_F_Aegis\Facewear\G_Armband.p3d";
-        mass = 2;
-        hiddenSelections[] =
-        {
-            camo
-        };
-        hiddenSelectionsTextures[] = 
-        {
-            "\rtgCustomContent\Textures\Equipment\Armband Purple.paa"
-        };
-    };
 };
 
 class rtg_NV_RTG_Armband_F : Aegis_NV_G_Armband_Blu_F
