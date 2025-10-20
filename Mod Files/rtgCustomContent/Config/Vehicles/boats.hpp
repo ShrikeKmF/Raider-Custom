@@ -1,7 +1,7 @@
-class UK3CB_MDF_B_Skiff;
-class raider_fast_rhib: UK3CB_MDF_B_Skiff
+class Marine_B_USMC_Boat_Transport_02_F;
+class RTG_MAKO_B: Marine_B_USMC_Boat_Transport_02_F
 {
-	displayName = "Rhib Fast [1/8]";
+	displayName = "Mako [1/8]";
 	editorSubcategory = "RTG_LIGHT_ASSETS";
 	author = "Shrike";
 	scope = 2;
@@ -20,8 +20,8 @@ class raider_fast_rhib: UK3CB_MDF_B_Skiff
 	RTG_Vehicle_Gear_Rotary
 };
 
-class raider_fast_rhib_g : raider_fast_rhib
+class RTG_MAKO_G : RTG_MAKO_B
 {
 	side = RESISTANCE;
 	faction = "Raider_Tactical_G_F";
-}
+};
