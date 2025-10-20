@@ -31,7 +31,7 @@
 
 #define RTG_ACEAX_EMPTY class XtdGearInfo { model = ""; };
 
-#define RTG_LR_RADIO_RANGE 9000
+#define RTG_LR_RADIO_RANGE 12000
 
 #define RTG_BACKPACK_LOAD 300
 
@@ -59,6 +59,7 @@
 #define TRANSPORT_BACKPACK(id,qty) class _xx_##id { backpack = #id; count = qty; };
 
 // Armour Define
+// Normal Vest Armour Def
 #define RTG_VEST_ARMOUR \
     armor = 30; \
     class ItemInfo: ItemInfo \
@@ -104,6 +105,8 @@
             }; \
         }; \
     }
+
+// Vest armour define for CTRG since it uses vestitem not iteminfo
 #define RTG_VEST_ARMOUR_CTRG \
 armor = 30; \
 class ItemInfo: VestItem \
@@ -150,6 +153,7 @@ passThrough = 0.2 \
 }; \
 }
 
+// Ground Vehicle Gear Set
 #define RTG_Vehicle_Gear \
 class TransportItems \
 { \
@@ -187,11 +191,13 @@ reportOwnPosition = true; \
 receiveRemoteTargets = true; \
 reportRemoteTargets = true;
 
+// Math Define
 #define 8E7 80000000
 
 #define FUEL_CONSUMPTION(RPM, TIME) fuelCapacity = ((8E7 * RPM) + 0.001) * TIME;
 #define HELICOPTER_FUEL_CONSUMPTION(TIME) fuelCapacity = 1000; fuelConsumptionRate = 1000 / TIME;
 
+// Tracked Vehicle Gear Set
 #define RTG_Vehicle_Gear_Tracked \
 class TransportItems \
 { \
@@ -241,6 +247,7 @@ reportOwnPosition = true; \
 receiveRemoteTargets = true; \
 reportRemoteTargets = true;
 
+// Helicopter Gear Def
 #define RTG_Vehicle_Gear_Rotary \
 class TransportItems \
 { \
