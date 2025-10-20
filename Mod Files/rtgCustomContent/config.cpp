@@ -27,8 +27,9 @@ class CfgPatches {
                         "RTG_B_SPARROW_L",
                         "RTG_B_Hawk",
                         "RTG_B_Magpie",
-                        "raider_fast_rhib",
+                        "RTG_MAKO_B",
                         "rtg_htc_l",
+                        "RTG_B_Magpie_DAP",
                     // Medium  
                         "RTG_B_SPARROW_M",
                         "rtg_rush_shorad",
@@ -47,8 +48,9 @@ class CfgPatches {
                         "RTG_G_SPARROW_L",
                         "RTG_G_Hawk",
                         "RTG_G_Magpie",
-                        "raider_fast_rhib_g",
+                        "RTG_MAKO_G",
                         "rtg_htc_l_g",
+                        "RTG_G_Magpie_DAP",
                     // Medium  
                         "RTG_G_SPARROW_M",
                         "rtg_rush_shorad_g",
@@ -116,14 +118,15 @@ class raiderTactical: Mod_Base
 #include "\rtgCustomContent\Config\UI\Intro Video.hpp"
 
 // General
-#include "\rtgCustomContent\Config\cfgVehicles.hpp"
-#include "\rtgCustomContent\Config\cfgWeapons.hpp"
 #include "\rtgCustomContent\Config\cfgAmmo.hpp"
 #include "\rtgCustomContent\Config\cfgMagazines.hpp"
+#include "\rtgCustomContent\Config\cfgVehicles.hpp"
+#include "\rtgCustomContent\Config\cfgWeapons.hpp"
 #include "\rtgCustomContent\Config\cfgMagazineWells.hpp"
 #include "\rtgCustomContent\Config\cfgFactionClasses.hpp"
 #include "\rtgCustomContent\Config\cfgEditorSubcategories.hpp"
 #include "\rtgCustomContent\Config\cfgEditorcategories.hpp"
+#include "\rtgCustomContent\Config\postInit_EventHandlers.hpp"
 
 // AI
 #include "\rtgCustomContent\Config\AI\cfgBrains.hpp"
