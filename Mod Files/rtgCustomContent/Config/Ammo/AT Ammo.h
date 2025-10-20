@@ -31,8 +31,7 @@ class rtg_smoke_MRAAWS : R_MRAAWS_HE_F {
     hit = 35;
     indirectHit = 30;
 	indirectHitRange = 8;
-    explosionEffects = "RHS_GDM40Effect";
-	submunitionAmmo = "aphx_maaws_SMOKE";
+    submunitionAmmo = "SmokeShellWhite";
 	submunitionDirectionType = "SubmunitionModelDirection";
 	submunitionConeType[] = {"randomupcone",4};
 	submunitionConeAngle = 120;
@@ -61,8 +60,7 @@ class rtg_rpg_smoke : R_PSRL1_HE_RF
     hit = 1;
     indirectHit = 1;
 	indirectHitRange = 1;
-    explosionEffects = "RHS_GDM40Effect";
-	submunitionAmmo = "aphx_maaws_SMOKE";
+    submunitionAmmo = "SmokeShellWhite";
 	submunitionDirectionType = "SubmunitionModelDirection";
 	submunitionConeType[] = {"randomupcone",4};
 	submunitionConeAngle = 120;
