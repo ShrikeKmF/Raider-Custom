@@ -12,6 +12,7 @@ class RTG_B_SPARROW_L : B_Heli_Attack_01_dynamicLoadout_F
     side = WEST;
     faction = "Raider_Tactical_F";
     RTG_Vehicle_Gear_Rotary
+    radarTargetSize=0.5742;
 };
 
 // Medium
