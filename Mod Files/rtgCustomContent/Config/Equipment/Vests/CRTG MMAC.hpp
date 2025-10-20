@@ -25,11 +25,6 @@ class CTRG_mmac_Light_Arid : ItemCore {
     Scope = 2;
     class XtdGearInfo { model = "ACEAX_MMAC"; camo = "arid"; variant = "Light"; belt = "no"; };
 };
-class CTRG_mmac_Light_belt_Arid : ItemCore {
-    RTG_VEST_ARMOUR_CTRG
-    Scope = 2;
-    class XtdGearInfo { model = "ACEAX_MMAC"; camo = "arid"; variant = "Light"; belt = "yes"; };
-};
 
 class CTRG_mmac_hgunner_Arid : ItemCore {
     RTG_VEST_ARMOUR_CTRG
@@ -181,6 +176,11 @@ class CTRG_mmac_TeamLeader_Nature : CTRG_mmac_TeamLeader_Arid {
     RTG_VEST_ARMOUR_CTRG
     Scope = 2;
     class XtdGearInfo { model = "ACEAX_MMAC"; camo = "nat"; variant = "TeamLeader"; belt = "no"; };
+};
+class CTRG_mmac_TeamLeader_belt_Nature : CTRG_mmac_TeamLeader_belt_Arid {
+    RTG_VEST_ARMOUR_CTRG
+    Scope = 2;
+    class XtdGearInfo { model = "ACEAX_MMAC"; camo = "nat"; variant = "TeamLeader"; belt = "yes"; };
 };
 
 class CTRG_mmac_Grenadier_Shadow : CTRG_mmac_Grenadier_Arid {
@@ -338,11 +338,6 @@ class CTRG_mmac_assaulter_belt_Desert : CTRG_mmac_Assaulter_belt_Arid {
     Scope = 2;
     class XtdGearInfo { model = "ACEAX_MMAC"; camo = "des"; variant = "Assaulter"; belt = "yes"; };
 };
-class CTRG_mmac_Light_belt_Desert : CTRG_mmac_Light_belt_Arid {
-    RTG_VEST_ARMOUR_CTRG
-    Scope = 2;
-    class XtdGearInfo { model = "ACEAX_MMAC"; camo = "des"; variant = "Light"; belt = "yes"; };
-};
 class CTRG_mmac_hgunner_belt_Desert : CTRG_mmac_hgunner_belt_Arid {
     RTG_VEST_ARMOUR_CTRG
     Scope = 2;
@@ -373,11 +368,6 @@ class CTRG_mmac_Assaulter_belt_Temperate : CTRG_mmac_Assaulter_belt_Arid {
     RTG_VEST_ARMOUR_CTRG
     Scope = 2;
     class XtdGearInfo { model = "ACEAX_MMAC"; camo = "med"; variant = "Assaulter"; belt = "yes"; };
-};
-class CTRG_mmac_Light_belt_Temperate : CTRG_mmac_Light_belt_Arid {
-    RTG_VEST_ARMOUR_CTRG
-    Scope = 2;
-    class XtdGearInfo { model = "ACEAX_MMAC"; camo = "med"; variant = "Light"; belt = "yes"; };
 };
 class CTRG_mmac_hgunner_belt_Temperate : CTRG_mmac_hgunner_belt_Arid {
     RTG_VEST_ARMOUR_CTRG
@@ -410,11 +400,6 @@ class CTRG_mmac_Assaulter_belt_Nature : CTRG_mmac_Assaulter_belt_Arid {
     Scope = 2;
     class XtdGearInfo { model = "ACEAX_MMAC"; camo = "nat"; variant = "Assaulter"; belt = "yes"; };
 };
-class CTRG_mmac_Light_belt_Nature : CTRG_mmac_Light_belt_Arid {
-    RTG_VEST_ARMOUR_CTRG
-    Scope = 2;
-    class XtdGearInfo { model = "ACEAX_MMAC"; camo = "nat"; variant = "Light"; belt = "yes"; };
-};
 class CTRG_mmac_hgunner_belt_Nature : CTRG_mmac_hgunner_belt_Arid {
     RTG_VEST_ARMOUR_CTRG
     Scope = 2;
@@ -445,11 +430,6 @@ class CTRG_mmac_Assaulter_belt_Shadow : CTRG_mmac_Assaulter_belt_Arid {
     RTG_VEST_ARMOUR_CTRG
     Scope = 2;
     class XtdGearInfo { model = "ACEAX_MMAC"; camo = "sha"; variant = "Assaulter"; belt = "yes"; };
-};
-class CTRG_mmac_Light_belt_Shadow : CTRG_mmac_Light_belt_Arid {
-    RTG_VEST_ARMOUR_CTRG
-    Scope = 2;
-    class XtdGearInfo { model = "ACEAX_MMAC"; camo = "sha"; variant = "Light"; belt = "yes"; };
 };
 class CTRG_mmac_hgunner_belt_Shadow : CTRG_mmac_hgunner_belt_Arid {
     RTG_VEST_ARMOUR_CTRG
@@ -482,11 +462,6 @@ class CTRG_mmac_Assaulter_belt_Temp : CTRG_mmac_Assaulter_belt_Arid {
     Scope = 2;
     class XtdGearInfo { model = "ACEAX_MMAC"; camo = "temp"; variant = "Assaulter"; belt = "yes"; };
 };
-class CTRG_mmac_Light_belt_Temp : CTRG_mmac_Light_belt_Arid {
-    RTG_VEST_ARMOUR_CTRG
-    Scope = 2;
-    class XtdGearInfo { model = "ACEAX_MMAC"; camo = "temp"; variant = "Light"; belt = "yes"; };
-};
 class CTRG_mmac_hgunner_belt_Temp : CTRG_mmac_hgunner_belt_Arid {
     RTG_VEST_ARMOUR_CTRG
     Scope = 2;
@@ -517,11 +492,6 @@ class CTRG_mmac_Assaulter_belt_Tundra : CTRG_mmac_Assaulter_belt_Arid {
     RTG_VEST_ARMOUR_CTRG
     Scope = 2;
     class XtdGearInfo { model = "ACEAX_MMAC"; camo = "tun"; variant = "Assaulter"; belt = "yes"; };
-};
-class CTRG_mmac_Light_belt_Tundra : CTRG_mmac_Light_belt_Arid {
-    RTG_VEST_ARMOUR_CTRG
-    Scope = 2;
-    class XtdGearInfo { model = "ACEAX_MMAC"; camo = "tun"; variant = "Light"; belt = "yes"; };
 };
 class CTRG_mmac_hgunner_belt_Tundra : CTRG_mmac_hgunner_belt_Arid {
     RTG_VEST_ARMOUR_CTRG
@@ -554,11 +524,6 @@ class CTRG_mmac_Assaulter_belt_Tropic : CTRG_mmac_Assaulter_belt_Arid {
     Scope = 2;
     class XtdGearInfo { model = "ACEAX_MMAC"; camo = "tro"; variant = "Assaulter"; belt = "yes"; };
 };
-class CTRG_mmac_Light_belt_Tropic : CTRG_mmac_Light_belt_Arid {
-    RTG_VEST_ARMOUR_CTRG
-    Scope = 2;
-    class XtdGearInfo { model = "ACEAX_MMAC"; camo = "tro"; variant = "Light"; belt = "yes"; };
-};
 class CTRG_mmac_hgunner_belt_Tropic : CTRG_mmac_hgunner_belt_Arid {
     RTG_VEST_ARMOUR_CTRG
     Scope = 2;
@@ -590,11 +555,6 @@ class CTRG_mmac_Assaulter_belt_Urban : CTRG_mmac_Assaulter_belt_Arid {
     Scope = 2;
     class XtdGearInfo { model = "ACEAX_MMAC"; camo = "urb"; variant = "Assaulter"; belt = "yes"; };
 };
-class CTRG_mmac_Light_belt_Urban : CTRG_mmac_Light_belt_Arid {
-    RTG_VEST_ARMOUR_CTRG
-    Scope = 2;
-    class XtdGearInfo { model = "ACEAX_MMAC"; camo = "urb"; variant = "Light"; belt = "yes"; };
-};
 class CTRG_mmac_hgunner_belt_Urban : CTRG_mmac_hgunner_belt_Arid {
     RTG_VEST_ARMOUR_CTRG
     Scope = 2;
@@ -610,8 +570,46 @@ class CTRG_mmac_medic_belt_Urban : CTRG_mmac_medic_belt_Arid {
     Scope = 2;
     class XtdGearInfo { model = "ACEAX_MMAC"; camo = "urb"; variant = "medic"; belt = "yes"; };
 };
+
+class CTRG_mmac_TeamLeader_Urban : CTRG_mmac_TeamLeader_Arid {
+    RTG_VEST_ARMOUR_CTRG
+    Scope = 2;
+    class XtdGearInfo { model = "ACEAX_MMAC"; camo = "urb"; variant = "TeamLeader"; belt = "no"; };
+};
+
 class CTRG_mmac_TeamLeader_belt_Urban : CTRG_mmac_TeamLeader_belt_Arid {
     RTG_VEST_ARMOUR_CTRG
     Scope = 2;
     class XtdGearInfo { model = "ACEAX_MMAC"; camo = "urb"; variant = "TeamLeader"; belt = "yes"; };
+};
+
+class CTRG_mmac_Grenadier_Urban : CTRG_mmac_Grenadier_Arid {
+    RTG_VEST_ARMOUR_CTRG
+    Scope = 2;
+    class XtdGearInfo { model = "ACEAX_MMAC"; camo = "urb"; variant = "Grenadier"; belt = "no"; };
+};
+class CTRG_mmac_assaulter_Urban : CTRG_mmac_assaulter_Arid {
+    RTG_VEST_ARMOUR_CTRG
+    Scope = 2;
+    class XtdGearInfo { model = "ACEAX_MMAC"; camo = "urb"; variant = "Assaulter"; belt = "no"; };
+};
+class CTRG_mmac_Light_Urban : CTRG_mmac_Light_Arid {
+    RTG_VEST_ARMOUR_CTRG
+    Scope = 2;
+    class XtdGearInfo { model = "ACEAX_MMAC"; camo = "urb"; variant = "Light"; belt = "no"; };
+};
+class CTRG_mmac_hgunner_Urban : CTRG_mmac_hgunner_Arid {
+    RTG_VEST_ARMOUR_CTRG
+    Scope = 2;
+    class XtdGearInfo { model = "ACEAX_MMAC"; camo = "urb"; variant = "hgunner"; belt = "no"; };
+};
+class CTRG_mmac_Marksman_Urban : CTRG_mmac_Marksman_Arid {
+    RTG_VEST_ARMOUR_CTRG
+    Scope = 2;
+    class XtdGearInfo { model = "ACEAX_MMAC"; camo = "urb"; variant = "Marksman"; belt = "no"; };
+};
+class CTRG_mmac_medic_Urban : CTRG_mmac_medic_Arid {
+    RTG_VEST_ARMOUR_CTRG
+    Scope = 2;
+    class XtdGearInfo { model = "ACEAX_MMAC"; camo = "urb"; variant = "medic"; belt = "no"; };
 };

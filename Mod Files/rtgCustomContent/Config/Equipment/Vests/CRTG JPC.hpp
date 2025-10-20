@@ -688,7 +688,5 @@ class CTRG_jpc_teamleader_Urban : CTRG_jpc_teamleader_Arid {
 class CTRG_jpc_teamleader_belt_Urban : CTRG_jpc_teamleader_belt_Arid {
     RTG_VEST_ARMOUR_CTRG
     Scope = 2;
-    RTG_VEST_ARMOUR_CTRG
-    Scope = 2;
     class XtdGearInfo { model = "ACEAX_JPC"; camo = "urb"; variant = "teamleader"; belt = "yes"; };
 };
