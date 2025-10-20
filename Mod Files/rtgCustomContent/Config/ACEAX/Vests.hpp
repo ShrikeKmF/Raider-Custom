@@ -149,14 +149,14 @@ class ACEAX_MMAC
 
     class variant
     {
-        values[] = {"Assaulter", "Grenadier", "Light", "hgunner", "Marksman", "medic", "teamleader"};
+        values[] = {"Assaulter", "Grenadier", "Light", "hgunner", "Marksman", "medic", "TeamLeader"};
         class Assaulter { label = "Assaulter"; description = "Variant 1"; };
         class Grenadier { label = "Grenadier"; description = "Variant 2"; };
         class Light { label = "Light"; description = "Variant 3"; };
         class hgunner { label = "Gunner"; description = "Variant 4"; };
         class Marksman { label = "Marksman"; description = "Variant 5"; };
         class medic { label = "Medic"; description = "Variant 6"; };
-        class teamleader { label = "Team Leader"; description = "Variant 6"; };
+        class TeamLeader { label = "Team Leader"; description = "Variant 7"; };
     };
 
     class belt
