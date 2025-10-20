@@ -1,6 +1,6 @@
 ﻿// Assaulter
 class Crye_AVS_1_GRY : Vest_Camo_Base {
-    RTG_WEAPON_BASE
+    
     class XtdGearInfo {
         model = "ACEAX_Crye_AVS";
         variant = "N1";
@@ -11,7 +11,7 @@ class Crye_AVS_1_GRY : Vest_Camo_Base {
     RTG_WEAPON_BASE
 };
 class Crye_AVS_1 : Vest_Camo_Base {
-    RTG_WEAPON_BASE
+    
     class XtdGearInfo {
         model = "ACEAX_Crye_AVS";
         variant = "N1";
@@ -22,7 +22,7 @@ class Crye_AVS_1 : Vest_Camo_Base {
     RTG_WEAPON_BASE
 };
 class Crye_AVS_1_MCB : Crye_AVS_1 {
-    RTG_WEAPON_BASE
+    
     class XtdGearInfo {
         model = "ACEAX_Crye_AVS";
         variant = "N1";
@@ -33,7 +33,7 @@ class Crye_AVS_1_MCB : Crye_AVS_1 {
     RTG_WEAPON_BASE
 };
 class Crye_AVS_1_MCT : Crye_AVS_1 {
-    RTG_WEAPON_BASE
+    
     class XtdGearInfo {
         model = "ACEAX_Crye_AVS";
         variant = "N1";
@@ -44,7 +44,7 @@ class Crye_AVS_1_MCT : Crye_AVS_1 {
     RTG_WEAPON_BASE
 };
 class Crye_AVS_1_RG : Crye_AVS_1 {
-    RTG_WEAPON_BASE
+    
     class XtdGearInfo {
         model = "ACEAX_Crye_AVS";
         variant = "N1";
@@ -55,7 +55,7 @@ class Crye_AVS_1_RG : Crye_AVS_1 {
     RTG_WEAPON_BASE
 };
 class Crye_AVS_1_Tan : Crye_AVS_1 {
-    RTG_WEAPON_BASE
+    
     class XtdGearInfo {
         model = "ACEAX_Crye_AVS";
         variant = "N1";
@@ -66,7 +66,7 @@ class Crye_AVS_1_Tan : Crye_AVS_1 {
     RTG_WEAPON_BASE
 };
 class Crye_AVS_1_1_GRY : Crye_AVS_1_GRY {
-    RTG_WEAPON_BASE
+    
     class XtdGearInfo {
         model = "ACEAX_Crye_AVS";
         variant = "N2";
@@ -77,7 +77,7 @@ class Crye_AVS_1_1_GRY : Crye_AVS_1_GRY {
     RTG_WEAPON_BASE
 };
 class Crye_AVS_1_1 : Crye_AVS_1 {
-    RTG_WEAPON_BASE
+    
     class XtdGearInfo {
         model = "ACEAX_Crye_AVS";
         variant = "N2";
@@ -88,7 +88,7 @@ class Crye_AVS_1_1 : Crye_AVS_1 {
     RTG_WEAPON_BASE
 };
 class Crye_AVS_1_1_MCB : Crye_AVS_1_1 {
-    RTG_WEAPON_BASE
+    
     class XtdGearInfo {
         model = "ACEAX_Crye_AVS";
         variant = "N2";
@@ -99,7 +99,7 @@ class Crye_AVS_1_1_MCB : Crye_AVS_1_1 {
     RTG_WEAPON_BASE
 };
 class Crye_AVS_1_1_MCT : Crye_AVS_1_1 {
-    RTG_WEAPON_BASE
+    
     class XtdGearInfo {
         model = "ACEAX_Crye_AVS";
         variant = "N2";
@@ -110,7 +110,7 @@ class Crye_AVS_1_1_MCT : Crye_AVS_1_1 {
     RTG_WEAPON_BASE
 };
 class Crye_AVS_1_1_RG : Crye_AVS_1_1 {
-    RTG_WEAPON_BASE
+    
     class XtdGearInfo {
         model = "ACEAX_Crye_AVS";
         variant = "N2";
@@ -121,7 +121,7 @@ class Crye_AVS_1_1_RG : Crye_AVS_1_1 {
     RTG_WEAPON_BASE
 };
 class Crye_AVS_1_1_Tan : Crye_AVS_1_1 {
-    RTG_WEAPON_BASE
+    
     class XtdGearInfo {
         model = "ACEAX_Crye_AVS";
         variant = "N2";
@@ -132,7 +132,7 @@ class Crye_AVS_1_1_Tan : Crye_AVS_1_1 {
     RTG_WEAPON_BASE
 };
 class Crye_AVS_1_2_GRY : Crye_AVS_1_GRY {
-    RTG_WEAPON_BASE
+    
     class XtdGearInfo {
         model = "ACEAX_Crye_AVS";
         variant = "N3";
@@ -143,7 +143,7 @@ class Crye_AVS_1_2_GRY : Crye_AVS_1_GRY {
     RTG_WEAPON_BASE
 };
 class Crye_AVS_1_2 : Crye_AVS_1 {
-    RTG_WEAPON_BASE
+    
     class XtdGearInfo {
         model = "ACEAX_Crye_AVS";
         variant = "N3";
@@ -154,7 +154,7 @@ class Crye_AVS_1_2 : Crye_AVS_1 {
     RTG_WEAPON_BASE
 };
 class Crye_AVS_1_2_MCB : Crye_AVS_1_2 {
-    RTG_WEAPON_BASE
+    
     class XtdGearInfo {
         model = "ACEAX_Crye_AVS";
         variant = "N3";
@@ -165,7 +165,7 @@ class Crye_AVS_1_2_MCB : Crye_AVS_1_2 {
     RTG_WEAPON_BASE
 };
 class Crye_AVS_1_2_MCT : Crye_AVS_1_2 {
-    RTG_WEAPON_BASE
+    
     class XtdGearInfo {
         model = "ACEAX_Crye_AVS";
         variant = "N3";
@@ -176,7 +176,7 @@ class Crye_AVS_1_2_MCT : Crye_AVS_1_2 {
     RTG_WEAPON_BASE
 };
 class Crye_AVS_1_2_RG : Crye_AVS_1_2 {
-    RTG_WEAPON_BASE
+    
     class XtdGearInfo {
         model = "ACEAX_Crye_AVS";
         variant = "N3";
@@ -187,7 +187,7 @@ class Crye_AVS_1_2_RG : Crye_AVS_1_2 {
     RTG_WEAPON_BASE
 };
 class Crye_AVS_1_2_Tan : Crye_AVS_1_2 {
-    RTG_WEAPON_BASE
+    
     class XtdGearInfo {
         model = "ACEAX_Crye_AVS";
         variant = "N3";
@@ -198,7 +198,7 @@ class Crye_AVS_1_2_Tan : Crye_AVS_1_2 {
     RTG_WEAPON_BASE
 };
 class Crye_AVS_1_3_GRY : Crye_AVS_1_GRY {
-    RTG_WEAPON_BASE
+    
     class XtdGearInfo {
         model = "ACEAX_Crye_AVS";
         variant = "N4";
@@ -209,7 +209,7 @@ class Crye_AVS_1_3_GRY : Crye_AVS_1_GRY {
     RTG_WEAPON_BASE
 };
 class Crye_AVS_1_3 : Crye_AVS_1 {
-    RTG_WEAPON_BASE
+    
     class XtdGearInfo {
         model = "ACEAX_Crye_AVS";
         variant = "N4";
@@ -220,7 +220,7 @@ class Crye_AVS_1_3 : Crye_AVS_1 {
     RTG_WEAPON_BASE
 };
 class Crye_AVS_1_3_MCB : Crye_AVS_1_3 {
-    RTG_WEAPON_BASE
+    
     class XtdGearInfo {
         model = "ACEAX_Crye_AVS";
         variant = "N4";
@@ -231,7 +231,7 @@ class Crye_AVS_1_3_MCB : Crye_AVS_1_3 {
     RTG_WEAPON_BASE
 };
 class Crye_AVS_1_3_MCT : Crye_AVS_1_3 {
-    RTG_WEAPON_BASE
+    
     class XtdGearInfo {
         model = "ACEAX_Crye_AVS";
         variant = "N4";
@@ -242,7 +242,7 @@ class Crye_AVS_1_3_MCT : Crye_AVS_1_3 {
     RTG_WEAPON_BASE
 };
 class Crye_AVS_1_3_RG : Crye_AVS_1_3 {
-    RTG_WEAPON_BASE
+    
     class XtdGearInfo {
         model = "ACEAX_Crye_AVS";
         variant = "N4";
@@ -253,7 +253,7 @@ class Crye_AVS_1_3_RG : Crye_AVS_1_3 {
     RTG_WEAPON_BASE
 };
 class Crye_AVS_1_3_Tan : Crye_AVS_1_3 {
-    RTG_WEAPON_BASE
+    
     class XtdGearInfo {
         model = "ACEAX_Crye_AVS";
         variant = "N4";
@@ -266,7 +266,7 @@ class Crye_AVS_1_3_Tan : Crye_AVS_1_3 {
 
 // Gunner
 class Crye_AVS_2_GRY : Crye_AVS_1_GRY {
-    RTG_WEAPON_BASE
+    
     class XtdGearInfo {
         model = "ACEAX_Crye_AVS";
         variant = "N1";
@@ -277,7 +277,7 @@ class Crye_AVS_2_GRY : Crye_AVS_1_GRY {
     RTG_WEAPON_BASE
 };
 class Crye_AVS_2 : Crye_AVS_1 {
-    RTG_WEAPON_BASE
+    
     class XtdGearInfo {
         model = "ACEAX_Crye_AVS";
         variant = "N1";
@@ -288,7 +288,7 @@ class Crye_AVS_2 : Crye_AVS_1 {
     RTG_WEAPON_BASE
 };
 class Crye_AVS_2_MCB : Crye_AVS_2 {
-    RTG_WEAPON_BASE
+    
     class XtdGearInfo {
         model = "ACEAX_Crye_AVS";
         variant = "N1";
@@ -299,7 +299,7 @@ class Crye_AVS_2_MCB : Crye_AVS_2 {
     RTG_WEAPON_BASE
 };
 class Crye_AVS_2_MCT : Crye_AVS_2 {
-    RTG_WEAPON_BASE
+    
     class XtdGearInfo {
         model = "ACEAX_Crye_AVS";
         variant = "N1";
@@ -310,7 +310,7 @@ class Crye_AVS_2_MCT : Crye_AVS_2 {
     RTG_WEAPON_BASE
 };
 class Crye_AVS_2_RG : Crye_AVS_2 {
-    RTG_WEAPON_BASE
+    
     class XtdGearInfo {
         model = "ACEAX_Crye_AVS";
         variant = "N1";
@@ -321,7 +321,7 @@ class Crye_AVS_2_RG : Crye_AVS_2 {
     RTG_WEAPON_BASE
 };
 class Crye_AVS_2_Tan : Crye_AVS_2 {
-    RTG_WEAPON_BASE
+    
     class XtdGearInfo {
         model = "ACEAX_Crye_AVS";
         variant = "N1";
@@ -334,7 +334,7 @@ class Crye_AVS_2_Tan : Crye_AVS_2 {
 
 // Comms
 class Crye_AVS_3_GRY : Crye_AVS_1_GRY {
-    RTG_WEAPON_BASE
+    
     class XtdGearInfo {
         model = "ACEAX_Crye_AVS";
         variant = "N1";
@@ -345,7 +345,7 @@ class Crye_AVS_3_GRY : Crye_AVS_1_GRY {
     RTG_WEAPON_BASE
 };
 class Crye_AVS_3 : Crye_AVS_1 {
-    RTG_WEAPON_BASE
+    
     class XtdGearInfo {
         model = "ACEAX_Crye_AVS";
         variant = "N1";
@@ -356,7 +356,7 @@ class Crye_AVS_3 : Crye_AVS_1 {
     RTG_WEAPON_BASE
 };
 class Crye_AVS_3_MCB : Crye_AVS_3 {
-    RTG_WEAPON_BASE
+    
     class XtdGearInfo {
         model = "ACEAX_Crye_AVS";
         variant = "N1";
@@ -367,7 +367,7 @@ class Crye_AVS_3_MCB : Crye_AVS_3 {
     RTG_WEAPON_BASE
 };
 class Crye_AVS_3_MCT : Crye_AVS_3 {
-    RTG_WEAPON_BASE
+    
     class XtdGearInfo {
         model = "ACEAX_Crye_AVS";
         variant = "N1";
@@ -378,7 +378,7 @@ class Crye_AVS_3_MCT : Crye_AVS_3 {
     RTG_WEAPON_BASE
 };
 class Crye_AVS_3_RG : Crye_AVS_3 {
-    RTG_WEAPON_BASE
+    
     class XtdGearInfo {
         model = "ACEAX_Crye_AVS";
         variant = "N1";
@@ -389,7 +389,7 @@ class Crye_AVS_3_RG : Crye_AVS_3 {
     RTG_WEAPON_BASE
 };
 class Crye_AVS_3_Tan : Crye_AVS_3 {
-    RTG_WEAPON_BASE
+    
     class XtdGearInfo {
         model = "ACEAX_Crye_AVS";
         variant = "N1";
@@ -400,7 +400,7 @@ class Crye_AVS_3_Tan : Crye_AVS_3 {
     RTG_WEAPON_BASE
 };
 class Crye_AVS_3_1_GRY : Crye_AVS_1_GRY {
-    RTG_WEAPON_BASE
+    
     class XtdGearInfo {
         model = "ACEAX_Crye_AVS";
         variant = "N2";
@@ -411,7 +411,7 @@ class Crye_AVS_3_1_GRY : Crye_AVS_1_GRY {
     RTG_WEAPON_BASE
 };
 class Crye_AVS_3_1 : Crye_AVS_1 {
-    RTG_WEAPON_BASE
+    
     class XtdGearInfo {
         model = "ACEAX_Crye_AVS";
         variant = "N2";
@@ -422,7 +422,7 @@ class Crye_AVS_3_1 : Crye_AVS_1 {
     RTG_WEAPON_BASE
 };
 class Crye_AVS_3_1_MCB : Crye_AVS_3_1 {
-    RTG_WEAPON_BASE
+    
     class XtdGearInfo {
         model = "ACEAX_Crye_AVS";
         variant = "N2";
@@ -433,7 +433,7 @@ class Crye_AVS_3_1_MCB : Crye_AVS_3_1 {
     RTG_WEAPON_BASE
 };
 class Crye_AVS_3_1_MCT : Crye_AVS_3_1 {
-    RTG_WEAPON_BASE
+    
     class XtdGearInfo {
         model = "ACEAX_Crye_AVS";
         variant = "N2";
@@ -444,7 +444,7 @@ class Crye_AVS_3_1_MCT : Crye_AVS_3_1 {
     RTG_WEAPON_BASE
 };
 class Crye_AVS_3_1_RG : Crye_AVS_3_1 {
-    RTG_WEAPON_BASE
+    
     class XtdGearInfo {
         model = "ACEAX_Crye_AVS";
         variant = "N2";
@@ -455,7 +455,7 @@ class Crye_AVS_3_1_RG : Crye_AVS_3_1 {
     RTG_WEAPON_BASE
 };
 class Crye_AVS_3_1_Tan : Crye_AVS_3_1 {
-    RTG_WEAPON_BASE
+    
     class XtdGearInfo {
         model = "ACEAX_Crye_AVS";
         variant = "N2";
@@ -466,7 +466,7 @@ class Crye_AVS_3_1_Tan : Crye_AVS_3_1 {
     RTG_WEAPON_BASE
 };
 class Crye_AVS_3_2_GRY : Crye_AVS_1_GRY {
-    RTG_WEAPON_BASE
+    
     class XtdGearInfo {
         model = "ACEAX_Crye_AVS";
         variant = "N3";
@@ -477,7 +477,7 @@ class Crye_AVS_3_2_GRY : Crye_AVS_1_GRY {
     RTG_WEAPON_BASE
 };
 class Crye_AVS_3_2 : Crye_AVS_1 {
-    RTG_WEAPON_BASE
+    
     class XtdGearInfo {
         model = "ACEAX_Crye_AVS";
         variant = "N3";
@@ -488,7 +488,7 @@ class Crye_AVS_3_2 : Crye_AVS_1 {
     RTG_WEAPON_BASE
 };
 class Crye_AVS_3_2_MCB : Crye_AVS_3_2 {
-    RTG_WEAPON_BASE
+    
     class XtdGearInfo {
         model = "ACEAX_Crye_AVS";
         variant = "N3";
@@ -499,7 +499,7 @@ class Crye_AVS_3_2_MCB : Crye_AVS_3_2 {
     RTG_WEAPON_BASE
 };
 class Crye_AVS_3_2_MCT : Crye_AVS_3_2 {
-    RTG_WEAPON_BASE
+    
     class XtdGearInfo {
         model = "ACEAX_Crye_AVS";
         variant = "N3";
@@ -510,7 +510,7 @@ class Crye_AVS_3_2_MCT : Crye_AVS_3_2 {
     RTG_WEAPON_BASE
 };
 class Crye_AVS_3_2_RG : Crye_AVS_3_2 {
-    RTG_WEAPON_BASE
+    
     class XtdGearInfo {
         model = "ACEAX_Crye_AVS";
         variant = "N3";
@@ -521,7 +521,7 @@ class Crye_AVS_3_2_RG : Crye_AVS_3_2 {
     RTG_WEAPON_BASE
 };
 class Crye_AVS_3_2_Tan : Crye_AVS_3_2 {
-    RTG_WEAPON_BASE
+    
     class XtdGearInfo {
         model = "ACEAX_Crye_AVS";
         variant = "N3";
@@ -532,7 +532,7 @@ class Crye_AVS_3_2_Tan : Crye_AVS_3_2 {
     RTG_WEAPON_BASE
 };
 class Crye_AVS_3_3_GRY : Crye_AVS_1_GRY {
-    RTG_WEAPON_BASE
+    
     class XtdGearInfo {
         model = "ACEAX_Crye_AVS";
         variant = "N4";
@@ -543,7 +543,7 @@ class Crye_AVS_3_3_GRY : Crye_AVS_1_GRY {
     RTG_WEAPON_BASE
 };
 class Crye_AVS_3_3 : Crye_AVS_1 {
-    RTG_WEAPON_BASE
+    
     class XtdGearInfo {
         model = "ACEAX_Crye_AVS";
         variant = "N4";
@@ -554,7 +554,7 @@ class Crye_AVS_3_3 : Crye_AVS_1 {
     RTG_WEAPON_BASE
 };
 class Crye_AVS_3_3_MCB : Crye_AVS_3_3 {
-    RTG_WEAPON_BASE
+    
     class XtdGearInfo {
         model = "ACEAX_Crye_AVS";
         variant = "N4";
@@ -565,7 +565,7 @@ class Crye_AVS_3_3_MCB : Crye_AVS_3_3 {
     RTG_WEAPON_BASE
 };
 class Crye_AVS_3_3_MCT : Crye_AVS_3_3 {
-    RTG_WEAPON_BASE
+    
     class XtdGearInfo {
         model = "ACEAX_Crye_AVS";
         variant = "N4";
@@ -576,7 +576,7 @@ class Crye_AVS_3_3_MCT : Crye_AVS_3_3 {
     RTG_WEAPON_BASE
 };
 class Crye_AVS_3_3_RG : Crye_AVS_3_3 {
-    RTG_WEAPON_BASE
+    
     class XtdGearInfo {
         model = "ACEAX_Crye_AVS";
         variant = "N4";
@@ -587,7 +587,7 @@ class Crye_AVS_3_3_RG : Crye_AVS_3_3 {
     RTG_WEAPON_BASE
 };
 class Crye_AVS_3_3_Tan : Crye_AVS_3_3 {
-    RTG_WEAPON_BASE
+    
     class XtdGearInfo {
         model = "ACEAX_Crye_AVS";
         variant = "N4";
