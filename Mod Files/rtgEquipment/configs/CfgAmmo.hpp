@@ -6,6 +6,7 @@ class CfgAmmo
     class ACE_762x51_Ball_M118LR;
     class B_556x45_Ball;
     class B_50BW_Ball_F;
+    class B_65x39_Caseless;
     class Sh_155mm_AMOS;
     class Smoke_120mm_AMOS_White;
     class F_40mm_White;
@@ -32,124 +33,7 @@ class CfgAmmo
     class B_20mm;
     class rhs_ammo_762x51_M80_Ball;
 
-    //
-    // Rifle Ammo Types
-    //
-
-    // 5.56mm
-    // Rifle ammo
-    // Non Explosive
-    class rtg_556x45 : B_556x45_Ball 
-    {
-        RTG_AMMO_DEFAULTS
-
-        // Ace 3 Bullet Config
-        ACE_caliber = 5.7;
-        ACE_bulletLength = 44.7;
-        ACE_bulletMass = 5.2176;
-        ACE_ballisticCoefficients[]={0.353};
-        ACE_muzzleVelocities[] = {819, 910, 991};
-        ACE_barrelLengths[] = {450, 500, 550};
-        
-        // Arma 3 Bullet Config
-        hit = 11;
-    };
-
-    // .50 Beowolf
-    // Battle Rifle ammo
-    // Non Explosive
-    class rtg_50bw : B_50BW_Ball_F 
-    {
-        RTG_AMMO_DEFAULTS
-
-        // Ace 3 Bullet Config
-        ACE_caliber = 12.979;
-        ACE_bulletLength = 44.7;
-        ACE_bulletMass = 26.64;
-        ACE_ballisticCoefficients[]={0.211};
-        ACE_muzzleVelocities[] = {532, 591, 650};
-        ACE_barrelLengths[] = {450, 500, 550};
-        
-        // Arma 3 Bullet Config
-        hit = 24.4;
-    };
-
-    // .300 Blackout
-    // Rifle ammo
-    // Non Explosive
-    class rtg_300blk : rtg_50bw
-    {
-        RTG_AMMO_DEFAULTS
-
-        // Ace 3 Bullet Config
-        ACE_caliber = 7.823;
-        ACE_bulletLength = 34.7;
-        ACE_bulletMass = 14.5256;
-        ACE_ballisticCoefficients[]={0.268};
-        ACE_muzzleVelocities[] = {448, 509, 555};
-        ACE_barrelLengths[] = {450, 500, 550};
-        
-        // Arma 3 Bullet Config
-        hit = 13.8;
-    };
-
-    // 7.62 NATO
-    // Battle Rifle ammo
-    // Non Explosive
-    class rtg_762_nato : ACE_762x51_Ball_M118LR 
-    {
-        RTG_AMMO_DEFAULTS
-
-        // Ace 3 Bullet Config
-        ACE_caliber = 7.823;
-        ACE_bulletLength = 51.2;
-        ACE_bulletMass = 11.2176;
-        ACE_ballisticCoefficients[]={0.542};
-        ACE_muzzleVelocities[] = {886, 985, 1086};
-        ACE_barrelLengths[] = {450, 500, 550};
-        
-        // Arma 3 Bullet Config
-        hit = 19.2;
-    };
-
-    // 7.62 NATO
-    // Battle Rifle AP ammo
-    // Non Explosive
-    class rtg_762_apds_nato : rtg_762_nato 
-    {
-        RTG_AMMO_DEFAULTS
-
-        // Ace 3 Bullet Config
-        ACE_caliber = 5.56;
-        ACE_bulletLength = 42.2;
-        ACE_bulletMass = 9.8;
-        ACE_ballisticCoefficients[]={0.65};
-        ACE_muzzleVelocities[] = {1200, 1450, 1605};
-        ACE_barrelLengths[] = {450, 500, 550};
-        
-        // Arma 3 Bullet Config
-        hit = 12.2;
-        caliber = 3.5;
-    };
-
-    // .277 Fury
-    // Battle Rifle ammo
-    // Non Explosive
-    class rtg_277 : rtg_762_nato 
-    {
-        RTG_AMMO_DEFAULTS
-
-        // Ace 3 Bullet Config
-        ACE_caliber = 7.06;
-        ACE_bulletLength = 51.2;
-        ACE_bulletMass = 9.2176;
-        ACE_ballisticCoefficients[]={0.500};
-        ACE_muzzleVelocities[] = {819, 910, 1010};
-        ACE_barrelLengths[] = {360, 400, 440};
-        
-        // Arma 3 Bullet Config
-        hit = 14.8;
-    };
+    #include "ammo/rifle_ammo.h"
 
     //
     // Pistol Ammo Types

@@ -1,5 +1,15 @@
 class rhsusf_hgu56p_visor_black;
 class rhsusf_hgu56p_visor_mask_black;
+class H_HelmetB_Ti_arid_F;
+class shrikeHat2 : H_HelmetB_Ti_arid_F
+{
+    RTG_WEAPON_BASE 
+    displayName="Stealth Helmet - Shrike";
+    mass = 2;
+    hiddenSelectionsTextures[] = {"rtgEquipment\tex\shrikeHelmet2.paa"};
+    RTG_HELMET_ARMOUR
+};
+
 class shrikeHat : rhsusf_hgu56p_visor_black
 {
 	RTG_WEAPON_BASE 
@@ -51,7 +61,7 @@ class patHat : H_HelmetCrew_B {
 class rhsusf_cvc_alt_helmet;
 class samHat : rhsusf_cvc_alt_helmet {
     RTG_WEAPON_BASE 
-    displayName="CVC Helmet - Sam";
+    displayName="CVC Helmet - Ari";
     mass = 2;
     hiddenSelectionsTextures[] = {"rtgEquipment\tex\samHat.paa"};
     RTG_HELMET_ARMOUR
@@ -63,7 +73,7 @@ class samPilotHat: H_PilotHelmetHeli_B
   scope = 2;
   dlc = "raiderTactical";
   author = "Shrike";
-  displayName = "Pilot Helmet - Sam";
+  displayName = "Pilot Helmet - Ari";
   mass = 2;
   hiddenSelectionsTextures[] = {"rtgEquipment\tex\samPilot.paa"};
   RTG_HELMET_ARMOUR

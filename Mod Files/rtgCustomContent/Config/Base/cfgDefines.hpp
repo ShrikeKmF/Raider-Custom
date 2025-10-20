@@ -1,0 +1,287 @@
+// https://community.bistudio.com/wiki/PreProcessor_Commands
+
+// Basic Macro Defs
+#define ADD_ITEM(NAME, COUNT) class _xx_##NAME {name = #NAME; count = COUNT;}
+#define ADD_WEAPON(NAME, COUNT) class _xx_##NAME {weapon = #NAME; count = COUNT;}
+#define ADD_MAGAZINE(NAME, COUNT) class _xx_##NAME {magazine = #NAME; count = COUNT;}
+#define QUOTE(var) #var                   // turns code into "string"
+#define DOUBLE(var1,var2) var1##var2      // concatenates two tokens
+#define TRIPLE(var1,var2,var3) var1##var2##var3
+#define ARR_1(a) a
+#define ARR_2(a,b) a, b
+#define ARR_3(a,b,c) a, b, c
+#define ARR_4(a,b,c,d) a, b, c, d
+
+
+#define NO_SIDE -1
+#define EAST 0			// (CSAT)
+#define WEST 1			// (NATO)
+#define RESISTANCE 2	// (AAF)
+#define CIVILIAN 3
+#define NEUTRAL 4
+#define ENEMY 5
+#define FRIENDLY 6
+#define LOGIC 7
+
+
+// Weapon Defines
+#define RTG_STANDARD_ZOOM opticsZoomInit=0.75; opticsZoomMax=0.75; opticsZoomMin=0.50;
+
+#define RTG_WEAPON_BASE scope=2; dlc="raiderTactical"; author="Shrike"; initSpeed=0;
+
+#define RTG_ACEAX_EMPTY class XtdGearInfo { model = ""; };
+
+#define RTG_LR_RADIO_RANGE 12000
+
+#define RTG_BACKPACK_LOAD 300
+
+#define RTG_AMMO_DEFAULTS \
+    model                   = "\A3\Weapons_f\Data\bullettracer\tracer_yellow"; /* 3d Model to use for the tracers */ \
+    ACE_dragModel           = 7; /* Drag model to use for the bullets */ \
+    ACE_standardAtmosphere  = "ASM"; /* Atmosphere model to use for the ammo */
+
+#define RTG_PISTOL_AMMO_DEFAULTS \
+    model                   = "\A3\Weapons_f\Data\bullettracer\tracer_yellow"; /* 3d Model to use for the tracers */ \
+    ACE_dragModel           = 1; /* Drag model to use for the bullets */ \
+    ACE_standardAtmosphere  = "ASM"; /* Atmosphere model to use for the ammo */
+
+#define RTG_PASTE(a,b) a##b
+
+#define RTG_STRINGIFY(x) #x
+
+#define MOA_TO_DISPERSION(moa) ((moa) * 0.000290888)
+
+
+// Backpack Defines
+#define TRANSPORT_MAGAZINE(id,qty) class _xx_##id { magazine = #id; count = qty; };
+#define TRANSPORT_ITEM(id,qty) class _xx_##id { name = #id; count = qty; };
+#define TRANSPORT_WEAPON(id,qty) class _xx_##id { weapon = #id; count = qty; };
+#define TRANSPORT_BACKPACK(id,qty) class _xx_##id { backpack = #id; count = qty; };
+
+// Armour Define
+// Normal Vest Armour Def
+#define RTG_VEST_ARMOUR \
+    armor = 30; \
+    class ItemInfo: ItemInfo \
+    { \
+        containerClass = "Supply170"; \
+        class HitpointsProtectionInfo \
+        { \
+			class Neck \
+			{ \
+				HitpointName = "HitNeck"; \
+				armor = 0; \
+				PassThrough = 1.0 \
+			}; \
+			class Arms \
+			{ \
+				HitpointName = "HitArms"; \
+				armor = 0; \
+				PassThrough = 1.0 \
+			}; \
+            class Chest \
+            { \
+                HitpointName = "HitChest"; \
+				armor = 30; \
+                PassThrough = 0.2 \
+            }; \
+            class Diaphragm \
+            { \
+                HitpointName = "HitDiaphragm"; \
+				armor = 30; \
+                PassThrough = 0.2 \
+            }; \
+            class Abdomen \
+            { \
+                hitpointName = "HitAbdomen"; \
+                armor = 30; \
+                passThrough = 0.2 \
+            }; \
+            class Body \
+            { \
+                hitpointName = "HitBody"; \
+				armor = 30; \
+                passThrough = 0.2 \
+            }; \
+        }; \
+    }
+
+// Vest armour define for CTRG since it uses vestitem not iteminfo
+#define RTG_VEST_ARMOUR_CTRG \
+armor = 30; \
+class ItemInfo: VestItem \
+{ \
+containerClass = "Supply170"; \
+class HitpointsProtectionInfo \
+{ \
+class Neck \
+{ \
+HitpointName = "HitNeck"; \
+armor = 0; \
+PassThrough = 1.0 \
+}; \
+class Arms \
+{ \
+HitpointName = "HitArms"; \
+armor = 0; \
+PassThrough = 1.0 \
+}; \
+class Chest \
+{ \
+HitpointName = "HitChest"; \
+armor = 30; \
+PassThrough = 0.2 \
+}; \
+class Diaphragm \
+{ \
+HitpointName = "HitDiaphragm"; \
+armor = 30; \
+PassThrough = 0.2 \
+}; \
+class Abdomen \
+{ \
+hitpointName = "HitAbdomen"; \
+armor = 30; \
+passThrough = 0.2 \
+}; \
+class Body \
+{ \
+hitpointName = "HitBody"; \
+armor = 30; \
+passThrough = 0.2 \
+}; \
+}; \
+}
+
+// Ground Vehicle Gear Set
+#define RTG_Vehicle_Gear \
+class TransportItems \
+{ \
+	ADD_ITEM(rtg_pvs_15_black_gh, 4) \
+	ADD_ITEM(ACE_personalAidKit, 10) \
+	ADD_ITEM(ACE_bodyBag, 10) \
+}; \
+class TransportBackpacks \
+{ \
+	class _xx_rtg_medical_grabpack \
+	{ \
+		backpack = "rtg_medical_grabpack"; \
+		count = 1; \
+	}; \
+	class _xx_rtg_engineer_grabpack \
+	{ \
+		backpack = "rtg_engineer_grabpack"; \
+		count = 1; \
+	}; \
+}; \
+class TransportWeapons {}; \
+class TransportMagazines {}; \
+class ace_cargo \
+{ \
+	class Cargo \
+	{ \
+		class ACE_Wheel \
+		{ \
+			type = "ACE_Wheel"; \
+			amount = 4; \
+		}; \
+	}; \
+} \
+reportOwnPosition = true; \
+receiveRemoteTargets = true; \
+reportRemoteTargets = true;
+
+// Math Define
+#define 8E7 80000000
+
+#define FUEL_CONSUMPTION(RPM, TIME) fuelCapacity = ((8E7 * RPM) + 0.001) * TIME;
+#define HELICOPTER_FUEL_CONSUMPTION(TIME) fuelCapacity = 1000; fuelConsumptionRate = 1000 / TIME;
+
+// Tracked Vehicle Gear Set
+#define RTG_Vehicle_Gear_Tracked \
+class TransportItems \
+{ \
+	class _xx_rtg_pvs_15_black_gh \
+	{ \
+		name = "rtg_pvs_15_black_gh"; \
+		count = 8; \
+	}; \
+	class _xx_ACE_personalAidKit \
+	{ \
+		name = "ACE_personalAidKit"; \
+		count = 8; \
+	}; \
+	class _xx_ACE_bodyBag \
+	{ \
+		name = "ACE_bodyBag"; \
+		count = 9; \
+	}; \
+}; \
+class TransportBackpacks \
+{ \
+	class _xx_rtg_medical_grabpack \
+	{ \
+		backpack = "rtg_medical_grabpack"; \
+		count = 1; \
+	}; \
+	class _xx_rtg_engineer_grabpack \
+	{ \
+		backpack = "rtg_engineer_grabpack"; \
+		count = 1; \
+	}; \
+}; \
+class TransportWeapons {}; \
+class TransportMagazines {}; \
+class ace_cargo \
+{ \
+	class Cargo \
+	{ \
+		class ACE_Track \
+		{ \
+			type = "ACE_Track"; \
+			amount = 4; \
+		}; \
+	}; \
+} \
+reportOwnPosition = true; \
+receiveRemoteTargets = true; \
+reportRemoteTargets = true;
+
+// Helicopter Gear Def
+#define RTG_Vehicle_Gear_Rotary \
+class TransportItems \
+{ \
+	class _xx_rtg_pvs_15_black_gh \
+	{ \
+		name = "rtg_pvs_15_black_gh"; \
+		count = 8; \
+	}; \
+	class _xx_ACE_personalAidKit \
+	{ \
+		name = "ACE_personalAidKit"; \
+		count = 8; \
+	}; \
+	class _xx_ACE_bodyBag \
+	{ \
+		name = "ACE_bodyBag"; \
+		count = 9; \
+	}; \
+}; \
+class TransportBackpacks \
+{ \
+	class _xx_rtg_medical_grabpack \
+	{ \
+		backpack = "rtg_medical_grabpack"; \
+		count = 1; \
+	}; \
+	class _xx_rtg_engineer_grabpack \
+	{ \
+		backpack = "rtg_engineer_grabpack"; \
+		count = 1; \
+	}; \
+}; \
+class TransportWeapons {}; \
+class TransportMagazines {}; \
+reportOwnPosition = true; \
+receiveRemoteTargets = true; \
+reportRemoteTargets = true;
