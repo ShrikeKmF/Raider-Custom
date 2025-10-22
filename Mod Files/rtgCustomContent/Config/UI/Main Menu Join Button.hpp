@@ -1,7 +1,6 @@
 ﻿class RscControlsGroupNoScrollbars;
 class RscStandardDisplay;
 
-
 class RscDisplayMain: RscStandardDisplay {
     class controls {
         class GroupSingleplayer: RscControlsGroupNoScrollbars {
@@ -33,3 +32,4 @@ class RscDisplayMain: RscStandardDisplay {
         };
     };
 };
+
