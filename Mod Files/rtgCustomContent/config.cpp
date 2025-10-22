@@ -75,7 +75,8 @@ class CfgPatches {
             "vests_f_JCA_IE",
             "CTRGMILGP_Config",
             "CTRGHEAD_cfg",
-            "A3_Atlas_Characters_F_Atlas"
+            "A3_Atlas_Characters_F_Atlas",
+            "pReaprModel"
         };
         author = "Shrike";
         authors[] = {"Shrike"};

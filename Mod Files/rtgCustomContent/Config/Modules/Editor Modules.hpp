@@ -81,22 +81,3 @@ class rtgModulePathing: Module_F
 		description = "Stops synced units pathing.";
 	};
 };
-
-class rtgDisableVcom: Module_F
-{
-	scope = 0;
-	displayName = "[RTG] Disable VCOM";
-	category = "rtgModules";
-	function = "/rtgCustomContent/Config/Modules/Functions/fn_moduleVCOM";
-	functionPriority = 1;
-	isGlobal = 1;
-	isTriggerActivated = 0;
-	isDisposable = 0;
-	is3DEN = 1;
-	curatorCanAttach = 1;
-
-	class ModuleDescription: ModuleDescription
-	{
-		description = "Disable Vcom on Sync Units Group.";
-	};
-};
