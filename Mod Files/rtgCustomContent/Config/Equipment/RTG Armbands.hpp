@@ -12,7 +12,8 @@ class rtg_NV_RTG_Armband_F : Aegis_NV_G_Armband_Blu_F
         "\rtgCustomContent\Textures\Equipment\Armband Purple.paa"
     };
     class ItemInfo: ItemInfo
-    {electionsTextures[] = 
+    {
+        hiddenSelectionsTextures[] = 
         {
             "\rtgCustomContent\Textures\Equipment\Armband Purple.paa"
         };
