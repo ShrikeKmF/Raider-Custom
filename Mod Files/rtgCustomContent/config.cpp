@@ -76,7 +76,15 @@ class CfgPatches {
             "CTRGMILGP_Config",
             "CTRGHEAD_cfg",
             "A3_Atlas_Characters_F_Atlas",
-            "pReaprModel"
+            "pReaprModel",
+            "A3_Data_F",
+            "A3_Functions_F",
+            "A3_UiFonts_F",
+            "A3_Data_F_Enoch_Loadorder",
+            "A3_Ui_F",
+            "a3_map_altis_scenes",
+            "a3_map_vr_scenes",
+            "a3_map_stratis_scenes"
         };
         author = "Shrike";
         authors[] = {"Shrike"};
