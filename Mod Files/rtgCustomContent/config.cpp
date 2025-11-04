@@ -84,7 +84,28 @@ class CfgPatches {
             "A3_Ui_F",
             "a3_map_altis_scenes",
             "a3_map_vr_scenes",
-            "a3_map_stratis_scenes"
+            "a3_map_stratis_scenes",
+            "Weapons_F_JCA_HK433",
+            "Weapons_F_JCA_HK433_Rifles_HK433",
+            "Weapons_F_JCA_HK433_Accessories",
+            "Weapons_F_JCA_IA",
+            "Weapons_F_JCA_IA_Accessories",
+            "Weapons_F_JCA_IA_LongRangeRifles_AWM",
+            "Weapons_F_JCA_IA_LongRangeRifles_M107",
+            "Weapons_F_JCA_IA_Pistols_P226",
+            "Weapons_F_JCA_IA_Pistols_P320",
+            "Weapons_F_JCA_IA_Pistols_Mk23",
+            "Weapons_F_JCA_IA_Rifles_M4A1",
+            "Weapons_F_JCA_IA_Rifles_M4A4",
+            "Weapons_F_JCA_IA_Rifles_M16A4",
+            "Weapons_F_JCA_IA_Rifles_SR10",
+            "Weapons_F_JCA_IA_Rifles_SR25",
+            "Weapons_F_JCA_IA_SMGs_MP5",
+            "Weapons_F_JCA_IA_SMGs_UMP",
+            "Weapons_F_JCA_Pistols_M9A1",
+            "Weapons_F_JCA_HF_Explosives",
+            "Weapons_F_JCA_IA_Launchers_Mk153",
+            "Weapons_F_JCA_IA_Launchers_M72"
         };
         author = "Shrike";
         authors[] = {"Shrike"};

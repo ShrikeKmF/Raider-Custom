@@ -1,4 +1,4 @@
 ﻿// Weight Config
 class CfgInventoryGlobalVariable {
-	maxSoldierLoad = 140 * 10; // 10 = 1 pound
+	maxSoldierLoad = 220 * 10; // 10 = 1 pound
 };
