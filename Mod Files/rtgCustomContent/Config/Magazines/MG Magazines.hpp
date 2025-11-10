@@ -1,4 +1,20 @@
-﻿class Aegis_200Rnd_762x51_MAG_Yellow_Tracer_F;
+﻿class ace_csw_100Rnd_127x99_mag;
+class RTG_100Rnd_127x99_SLAP_CSW: ace_csw_100Rnd_127x99_mag
+{
+    scope = 2;
+    author = "Shrike";
+    ammo = "RTG_127x99_SLAP";
+    displayName = "[CSW] 100Rnd 12.7x99 Polymer SLAP";
+    descriptionShort = "100Rnd 12.7x99";
+    displaynameshort = "12.7x9 SLAP";
+    model = "\A3\Structures_F_EPB\Items\Military\Ammobox_rounds_F.p3d";
+    picture = "\z\ace\addons\csw\UI\ammoBox_50bmg_ca.paa";
+    type = 256;
+    mass = 75;
+    ACE_isBelt = 1;
+};
+
+class Aegis_200Rnd_762x51_MAG_Yellow_Tracer_F;
 class rtg_100Rnd_68x51 : Aegis_200Rnd_762x51_MAG_Yellow_Tracer_F {
     ammo = "rtg_277";
     count = 100;

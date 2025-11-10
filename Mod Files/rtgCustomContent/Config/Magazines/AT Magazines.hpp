@@ -19,28 +19,8 @@ class rtg_MRAWS_HE_F : MRAWS_HE_F {
     mass = 45;
 };
 
-class rtg_MRAWS_SMK_F : rtg_MRAWS_HE_F {
-    
-    ammo = "rtg_smoke_MRAAWS";
-    scope = 2;
-    displayname = "[RTG] MAAWS Smoke";
-    displaynameshort = "84mm Smoke";
-    mass = 15;
-};
-
 // RPG
 class PSRL1_HE_RF;
-class RTG_RPG_Smoke : PSRL1_HE_RF
-{
-    
-    ammo = "rtg_rpg_smoke";
-    scope = 2;
-    displayname = "[RTG] SM-7VM Smoke";
-    displaynameshort = "73mm Smoke";
-    mass = 20;
-    dlc="raiderTactical";
-};
-
 class RTG_RPG_HE : PSRL1_HE_RF 
 {
     
@@ -63,25 +43,28 @@ class RTG_RPG_Frag : PSRL1_FRAG_RF
     dlc="raiderTactical";
 };
 
-// LAT Sticks
 
-class rhs_m136_mag;
-class rtg_m136_mag : rhs_m136_mag
+// ATGM
+class ace_compat_rhs_usf3_mag_TOW2A;
+class RTG_TOW3A_CSW : ace_compat_rhs_usf3_mag_TOW2A
 {
-    ammo = "rtg_mat";
     scope = 2;
-};
+    author = "Shrike";
+    ammo = "RTG_TOW3A";
+    displayName = "[CSW] TOW-3A";
+    descriptionShort = "HEAT Wire Guided ATGM";
+    displaynameshort = "TOW-3A";
+    mass = 100;
+}
 
-class rhs_m136_hedp_mag;
-class rtg_m136_er_mag  : rhs_m136_hedp_mag
+class ace_compat_rhs_usf3_mag_TOW2BB;
+class RTG_TOW3BB_CSW : ace_compat_rhs_usf3_mag_TOW2BB
 {
-    ammo = "rtg_mat_er";
     scope = 2;
-};
-
-class rhs_m72a7_mag;
-class rtg_m72a7_mag : rhs_m72a7_mag
-{
-    ammo = "rtg_lat";
-    scope = 2;
-};
+    author = "Shrike";
+    ammo = "RTG_TOW3BB";
+    displayName = "[CSW] TOW-3BB";
+    descriptionShort = "HE Wire Guided Missile";
+    displaynameshort = "TOW-3B";
+    mass = 50;
+}

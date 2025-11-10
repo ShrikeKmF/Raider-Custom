@@ -5,6 +5,7 @@
 // 5.56mm
 // Rifle ammo
 // Non Explosive
+class JCA_B_556x45_Ball_Mk318;
 class rtg_556x45 : JCA_B_556x45_Ball_Mk318 
 {
 	RTG_AMMO_DEFAULTS
@@ -78,6 +79,7 @@ class rtg_300blk : JCA_B_556x45_Ball_Mk318
 // 7.62 NATO
 // Battle Rifle ammo
 // Non Explosive
+class JCA_B_762x51_M993AP;
 class rtg_762_nato : JCA_B_762x51_M993AP 
 {
 	RTG_AMMO_DEFAULTS

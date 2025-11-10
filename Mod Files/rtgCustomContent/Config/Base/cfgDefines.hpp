@@ -12,6 +12,8 @@
 #define ARR_3(a,b,c) a, b, c
 #define ARR_4(a,b,c,d) a, b, c, d
 
+#define ROF(x) 60/x
+
 
 #define NO_SIDE -1
 #define EAST 0			// (CSAT)

@@ -48,7 +48,5 @@
     // Weapons
     #include "\rtgCustomContent\Config\Weapons\XM7.hpp"
     #include "\rtgCustomContent\Config\Weapons\Aegis.hpp"
-    #include "\rtgCustomContent\Config\Weapons\Reapr.hpp"
-    #include "\rtgCustomContent\Config\Weapons\JCA.hpp"
-    #include "\rtgCustomContent\Config\Weapons\DragonIV.hpp"
+    #include "\rtgCustomContent\Config\Weapons\CSW.hpp"
 };

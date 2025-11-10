@@ -28,3 +28,25 @@ class Chemlight_base: SmokeShell
     grenadeBurningSound[] = {};
     aiAmmoUsageFlags = "2 + 1";
 };
+
+// Gau-21
+class B_127x99_Ball_Tracer_Yellow;
+class RTG_127x99_SLAP : B_127x99_Ball_Tracer_Yellow
+{
+    hit = 50;
+    caliber = 4.3;
+    model = "\A3\Weapons_f\Data\bullettracer\tracer_white";
+};
+
+// TOW 3
+class rhs_ammo_TOW2A_AT;
+class RTG_TOW3A: rhs_ammo_TOW2A_AT
+{
+
+}
+
+class rhs_ammo_TOW2_BB;
+class RTG_TOW3BB: rhs_ammo_TOW2_BB
+{
+
+}

@@ -73,6 +73,8 @@
     #include "\rtgCustomContent\Config\Vehicles\ampv.hpp"
     #include "\rtgCustomContent\Config\Vehicles\buggy.hpp"
     #include "\rtgCustomContent\Config\Vehicles\trucks.hpp"
+    #include "\rtgCustomContent\Config\Vehicles\Gau21.hpp"
+    #include "\rtgCustomContent\Config\Vehicles\Tow3.hpp"
 
     // Modules
     #include "\rtgCustomContent\Config\Modules\Editor Modules.hpp"
