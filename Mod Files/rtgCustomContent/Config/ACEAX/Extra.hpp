@@ -118,7 +118,7 @@ class rtg_gpnvg_18 {
 };
 
 class rtg_laser_desginator {
-    label = "Laser Designator;
+    label = "Laser Designator";
     options[] = {"filter", "camo"};
     class filter
     {

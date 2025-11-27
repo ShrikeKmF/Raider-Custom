@@ -49,4 +49,5 @@
     #include "\rtgCustomContent\Config\Weapons\XM7.hpp"
     #include "\rtgCustomContent\Config\Weapons\Aegis.hpp"
     #include "\rtgCustomContent\Config\Weapons\CSW.hpp"
+    #include "\rtgCustomContent\Config\Weapons\Resupply Pouch.hpp"
 };

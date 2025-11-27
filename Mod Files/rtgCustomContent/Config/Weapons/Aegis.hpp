@@ -14,7 +14,6 @@ class arifle_ARX_base_F: Rifle_Base_F
 }
 
 // SCARH
-class arifle_SCAR_base_F;
 class arifle_SCAR_F: arifle_SCAR_base_F
 {
 	displayName = "SCAR H";
@@ -107,7 +106,6 @@ class Aegis_arifle_SR25_MR_snd_F: Aegis_arifle_SR25_MR_base_F
 
 // FN MAG
 class Aegis_MMG_FNMAG_Base;
-
 class Aegis_MMG_FNMAG_F: Aegis_MMG_FNMAG_Base
 {
 	displayName = "FN MAG";
@@ -169,19 +167,16 @@ class arifle_G36C_F: arifle_G36C_base_F
 	displayName = "G36C";
 };
 
-class arifle_G36_base_F;
 class arifle_G36_Sand_F: arifle_G36_base_F
 {
 	displayName = "G36 (Sand)";
 };
 
-class arifle_G36_GL_base_F;
 class arifle_G36_GL_Sand_F: arifle_G36_GL_base_F
 {
 	displayName = "G36 (Sand/GL)";
 };
 
-class arifle_G36C_base_F;
 class arifle_G36C_Sand_F: arifle_G36C_base_F
 {
 	displayName = "G36C (Sand)";

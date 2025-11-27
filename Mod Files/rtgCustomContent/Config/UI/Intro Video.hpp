@@ -2,7 +2,7 @@
 class RscTitles {
     class SplashArma3 {
         class Picture: RscVideo {
-            duration = 6;
+            duration = 7;
             x = "safezoneX";
             y = "safezoneY";
             w = "safezoneW";

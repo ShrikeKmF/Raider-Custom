@@ -92,21 +92,22 @@ class CfgPatches {
     };
 };
 
-// Mod Info Setup
-class Mod_Base;
-class raiderTactical: Mod_Base
-{
-    name = "[RTG] Custom Content";
-    picture = "";
-    dir = "@raiderTacticalGroup";
-    hideName = 0;
-    hidePicture = 1;
-    action = "";
-    author = "Shrike";
-    
-    logo = ""; // TODO SETUP RTG LOGOS
-    logoOver = "";
-    logoSmall = "";
+// RTG Function library
+// https://community.bistudio.com/wiki/Arma_3:_Functions_Library#Adding_a_Function
+
+class CfgFunctions {
+    class RTG {
+        tag = "RTG";
+        class Functions {
+            file = "rtgCustomContent\functions";
+
+            class initPouch {};
+            class useResupply {};
+            class finishResupply {};
+            class checkPouchUses {};
+            class unconIcon {};
+        };
+    };
 };
 
 

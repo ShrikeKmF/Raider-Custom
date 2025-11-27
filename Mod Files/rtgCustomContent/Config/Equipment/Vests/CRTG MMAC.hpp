@@ -415,11 +415,6 @@ class CTRG_mmac_medic_belt_Nature : CTRG_mmac_medic_belt_Arid {
     Scope = 2;
     class XtdGearInfo { model = "ACEAX_MMAC"; camo = "nat"; variant = "medic"; belt = "yes"; };
 };
-class CTRG_mmac_TeamLeader_belt_Nature : CTRG_mmac_TeamLeader_belt_Arid {
-    RTG_VEST_ARMOUR_CTRG
-    Scope = 2;
-    class XtdGearInfo { model = "ACEAX_MMAC"; camo = "nat"; variant = "TeamLeader"; belt = "yes"; };
-};
 
 class CTRG_mmac_Grenadier_belt_Shadow : CTRG_mmac_Grenadier_belt_Arid {
     RTG_VEST_ARMOUR_CTRG
