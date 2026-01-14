@@ -16,53 +16,21 @@ class CfgPatches {
         units[] = 
             {
                 // Editor Modules
-                "rtgModuleAISkill", "rtgModulePathing",
-
+                "rtgModuleAISkill", 
+                "rtgModulePathing",
                 // Vehicles
-                        "rtg_BasicSupply",
-                        "rtg_wheelsBox",
-                // Bluefor
-                    // Light 
-                        "rtg_bugy",
-                        "RTG_B_SPARROW_L",
-                        "RTG_B_Hawk",
-                        "RTG_B_Magpie",
-                        "RTG_MAKO_B",
-                        "rtg_htc_l",
-                        "RTG_B_Magpie_DAP",
-                    // Medium  
-                        "RTG_B_SPARROW_M",
-                        "rtg_rush_shorad",
-                        "rtg_rush_IS",
-                        "rtg_lpb",
-                        "rtg_htc_m",
-                    // Heavy
-                        "rtg_ravn",
-                        "rtg_amp_m2",
-                        "rtg_amp_m2jav",
-                        "rtg_amp_shorad",
-                        "rtg_htc_h",
-                // Greenfor
-                    // Light 
-                        "rtg_bugy_g",
-                        "RTG_G_SPARROW_L",
-                        "RTG_G_Hawk",
-                        "RTG_G_Magpie",
-                        "RTG_MAKO_G",
-                        "rtg_htc_l_g",
-                        "RTG_G_Magpie_DAP",
-                    // Medium  
-                        "RTG_G_SPARROW_M",
-                        "rtg_rush_shorad_g",
-                        "rtg_rush_IS_g",
-                        "rtg_lpb_g",
-                        "rtg_htc_m_g",
-                    // Heavy
-                        "rtg_ravn_g",
-                        "rtg_amp_m2_g",
-                        "rtg_amp_m2jav_g",
-                        "rtg_amp_shorad_g",
-                        "rtg_htc_h_g"
+                "rtg_BasicSupply",
+                "rtg_wheelsBox",
+                "rtg_magpie",
+                "rtg_magpie_g",
+                "rtg_rush_ifv",
+                "rtg_rush_ifv_g",
+                "rtg_rush_mgs",
+                "rtg_rush_mgs_g",
+                "rtg_rush_cmd",
+                "rtg_rush_cmd_g",
+                "rtg_rush_aa",
+                "rtg_rush_aa_g"
             };
         weapons[] = {};
         magazines[] = {};
@@ -137,7 +105,6 @@ class CfgFunctions {
 #include "\rtgCustomContent\Config\cfgEditorSubcategories.hpp"
 #include "\rtgCustomContent\Config\cfgEditorcategories.hpp"
 #include "\rtgCustomContent\Config\postInit_EventHandlers.hpp"
-#include "\rtgCustomContent\Config\Ace CSW Groups.hpp"
 
 // AI
 #include "\rtgCustomContent\Config\AI\cfgBrains.hpp"

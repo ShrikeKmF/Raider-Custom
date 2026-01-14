@@ -92,7 +92,8 @@ class rtg_20Rnd_68x51_slr : 20Rnd_762x51_slr_lxWS {
     scope = 2;
 };
 
-class rtg_10rnd_10bw : rhs_mag_20Rnd_556x45_M855_Stanag {
+class 10Rnd_50BW_Mag_F;
+class rtg_10rnd_10bw : 10Rnd_50BW_Mag_F {
         
     ammo = "rtg_50bw";
     count = 15;

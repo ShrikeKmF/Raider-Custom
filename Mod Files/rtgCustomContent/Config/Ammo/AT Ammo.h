@@ -45,33 +45,6 @@ class rtg_smoke_MRAAWS : R_MRAAWS_HE_F {
 	simulation = "shotRocket";
 };
 
-class R_PSRL1_FRAG_RF;
-class rtg_rpg_frag: R_PSRL1_FRAG_RF
-{
-    hit = 40;
-    indirectHit = 40;
-	indirectHitRange = 12;
-    submunitionAmmo = "";
-};
-
-class R_PSRL1_HE_RF;
-class rtg_rpg_smoke : R_PSRL1_HE_RF
-{
-    hit = 1;
-    indirectHit = 1;
-	indirectHitRange = 1;
-    submunitionAmmo = "SmokeShellWhite";
-	submunitionDirectionType = "SubmunitionModelDirection";
-	submunitionConeType[] = {"randomupcone",4};
-	submunitionConeAngle = 120;
-	submunitionConeAngleHorizontal = 30;
-	triggerDistance = 40;
-    submunitionInitialOffset[] = {0,2,4};
-	submunitionInitSpeed = 0;
-	triggerSpeedCoef = 0.25;
-    simulation = "shotRocket";
-};
-
 // LAT
 class rhs_ammo_m72a7_rocket;
 class rtg_lat : rhs_ammo_m72a7_rocket

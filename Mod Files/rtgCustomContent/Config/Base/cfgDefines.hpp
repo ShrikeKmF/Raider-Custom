@@ -110,88 +110,85 @@
 
 // Vest armour define for CTRG since it uses vestitem not iteminfo
 #define RTG_VEST_ARMOUR_CTRG \
-armor = 30; \
-class ItemInfo: VestItem \
-{ \
-containerClass = "Supply170"; \
-class HitpointsProtectionInfo \
-{ \
-class Neck \
-{ \
-HitpointName = "HitNeck"; \
-armor = 0; \
-PassThrough = 1.0 \
-}; \
-class Arms \
-{ \
-HitpointName = "HitArms"; \
-armor = 0; \
-PassThrough = 1.0 \
-}; \
-class Chest \
-{ \
-HitpointName = "HitChest"; \
-armor = 30; \
-PassThrough = 0.2 \
-}; \
-class Diaphragm \
-{ \
-HitpointName = "HitDiaphragm"; \
-armor = 30; \
-PassThrough = 0.2 \
-}; \
-class Abdomen \
-{ \
-hitpointName = "HitAbdomen"; \
-armor = 30; \
-passThrough = 0.2 \
-}; \
-class Body \
-{ \
-hitpointName = "HitBody"; \
-armor = 30; \
-passThrough = 0.2 \
-}; \
-}; \
-}
+	armor = 30; \
+	class ItemInfo: VestItem \
+	{ \
+	containerClass = "Supply170"; \
+	class HitpointsProtectionInfo \
+	{ \
+	class Neck \
+	{ \
+	HitpointName = "HitNeck"; \
+	armor = 0; \
+	PassThrough = 1.0 \
+	}; \
+	class Arms \
+	{ \
+	HitpointName = "HitArms"; \
+	armor = 0; \
+	PassThrough = 1.0 \
+	}; \
+	class Chest \
+	{ \
+	HitpointName = "HitChest"; \
+	armor = 30; \
+	PassThrough = 0.2 \
+	}; \
+	class Diaphragm \
+	{ \
+	HitpointName = "HitDiaphragm"; \
+	armor = 30; \
+	PassThrough = 0.2 \
+	}; \
+	class Abdomen \
+	{ \
+	hitpointName = "HitAbdomen"; \
+	armor = 30; \
+	passThrough = 0.2 \
+	}; \
+	class Body \
+	{ \
+	hitpointName = "HitBody"; \
+	armor = 30; \
+	passThrough = 0.2 \
+	}; \
+	}; \
+	}
 
 // Ground Vehicle Gear Set
 #define RTG_Vehicle_Gear \
-class TransportItems \
-{ \
-	ADD_ITEM(rtg_pvs_15_black_gh, 4) \
-	ADD_ITEM(ACE_personalAidKit, 10) \
-	ADD_ITEM(ACE_bodyBag, 10) \
-}; \
-class TransportBackpacks \
-{ \
-	class _xx_rtg_medical_grabpack \
+	class TransportItems \
 	{ \
-		backpack = "rtg_medical_grabpack"; \
-		count = 1; \
+		ADD_ITEM(rtg_pvs_15_black_gh, 4) \
+		ADD_ITEM(ACE_personalAidKit, 14) \
 	}; \
-	class _xx_rtg_engineer_grabpack \
+	class TransportBackpacks \
 	{ \
-		backpack = "rtg_engineer_grabpack"; \
-		count = 1; \
+		
+		TRANSPORT_BACKPACK(rtg_medical_grabpack, 1) \
+		TRANSPORT_BACKPACK(rtg_engineer_grabpack,1) \
 	}; \
-}; \
-class TransportWeapons {}; \
-class TransportMagazines {}; \
-class ace_cargo \
-{ \
-	class Cargo \
+	class TransportWeapons { \
+		TRANSPORT_WEAPON(ACE_csw_staticATCarry, 1) \
+		TRANSPORT_WEAPON(ACE_csw_m3CarryTripod, 1) \
+	}; \
+	class TransportMagazines { \
+		TRANSPORT_MAGAZINE(TITAN_AT, 3, 1) \
+	}; \
+	class ace_cargo \
 	{ \
-		class ACE_Wheel \
+		class Cargo \
 		{ \
-			type = "ACE_Wheel"; \
-			amount = 4; \
+			class ACE_Wheel \
+			{ \
+				type = "ACE_Wheel"; \
+				amount = 4; \
+			}; \
 		}; \
-	}; \
-} \
-reportOwnPosition = true; \
-receiveRemoteTargets = true; \
-reportRemoteTargets = true;
+	} \
+	reportOwnPosition = true; \
+	receiveRemoteTargets = true; \
+	reportRemoteTargets = true;
 
 // Math Define
 #define 8E7 80000000
@@ -201,89 +198,89 @@ reportRemoteTargets = true;
 
 // Tracked Vehicle Gear Set
 #define RTG_Vehicle_Gear_Tracked \
-class TransportItems \
-{ \
-	class _xx_rtg_pvs_15_black_gh \
+	class TransportItems \
 	{ \
-		name = "rtg_pvs_15_black_gh"; \
-		count = 8; \
-	}; \
-	class _xx_ACE_personalAidKit \
-	{ \
-		name = "ACE_personalAidKit"; \
-		count = 8; \
-	}; \
-	class _xx_ACE_bodyBag \
-	{ \
-		name = "ACE_bodyBag"; \
-		count = 9; \
-	}; \
-}; \
-class TransportBackpacks \
-{ \
-	class _xx_rtg_medical_grabpack \
-	{ \
-		backpack = "rtg_medical_grabpack"; \
-		count = 1; \
-	}; \
-	class _xx_rtg_engineer_grabpack \
-	{ \
-		backpack = "rtg_engineer_grabpack"; \
-		count = 1; \
-	}; \
-}; \
-class TransportWeapons {}; \
-class TransportMagazines {}; \
-class ace_cargo \
-{ \
-	class Cargo \
-	{ \
-		class ACE_Track \
+		class _xx_rtg_pvs_15_black_gh \
 		{ \
-			type = "ACE_Track"; \
-			amount = 4; \
+			name = "rtg_pvs_15_black_gh"; \
+			count = 8; \
+		}; \
+		class _xx_ACE_personalAidKit \
+		{ \
+			name = "ACE_personalAidKit"; \
+			count = 8; \
+		}; \
+		class _xx_ACE_bodyBag \
+		{ \
+			name = "ACE_bodyBag"; \
+			count = 9; \
 		}; \
 	}; \
-} \
-reportOwnPosition = true; \
-receiveRemoteTargets = true; \
-reportRemoteTargets = true;
+	class TransportBackpacks \
+	{ \
+		class _xx_rtg_medical_grabpack \
+		{ \
+			backpack = "rtg_medical_grabpack"; \
+			count = 1; \
+		}; \
+		class _xx_rtg_engineer_grabpack \
+		{ \
+			backpack = "rtg_engineer_grabpack"; \
+			count = 1; \
+		}; \
+	}; \
+	class TransportWeapons {}; \
+	class TransportMagazines {}; \
+	class ace_cargo \
+	{ \
+		class Cargo \
+		{ \
+			class ACE_Track \
+			{ \
+				type = "ACE_Track"; \
+				amount = 4; \
+			}; \
+		}; \
+	} \
+	reportOwnPosition = true; \
+	receiveRemoteTargets = true; \
+	reportRemoteTargets = true;
 
 // Helicopter Gear Def
 #define RTG_Vehicle_Gear_Rotary \
-class TransportItems \
-{ \
-	class _xx_rtg_pvs_15_black_gh \
+	class TransportItems \
 	{ \
-		name = "rtg_pvs_15_black_gh"; \
-		count = 8; \
+		class _xx_rtg_pvs_15_black_gh \
+		{ \
+			name = "rtg_pvs_15_black_gh"; \
+			count = 8; \
+		}; \
+		class _xx_ACE_personalAidKit \
+		{ \
+			name = "ACE_personalAidKit"; \
+			count = 8; \
+		}; \
+		class _xx_ACE_bodyBag \
+		{ \
+			name = "ACE_bodyBag"; \
+			count = 9; \
+		}; \
 	}; \
-	class _xx_ACE_personalAidKit \
+	class TransportBackpacks \
 	{ \
-		name = "ACE_personalAidKit"; \
-		count = 8; \
+		class _xx_rtg_medical_grabpack \
+		{ \
+			backpack = "rtg_medical_grabpack"; \
+			count = 1; \
+		}; \
+		class _xx_rtg_engineer_grabpack \
+		{ \
+			backpack = "rtg_engineer_grabpack"; \
+			count = 1; \
+		}; \
 	}; \
-	class _xx_ACE_bodyBag \
-	{ \
-		name = "ACE_bodyBag"; \
-		count = 9; \
-	}; \
-}; \
-class TransportBackpacks \
-{ \
-	class _xx_rtg_medical_grabpack \
-	{ \
-		backpack = "rtg_medical_grabpack"; \
-		count = 1; \
-	}; \
-	class _xx_rtg_engineer_grabpack \
-	{ \
-		backpack = "rtg_engineer_grabpack"; \
-		count = 1; \
-	}; \
-}; \
-class TransportWeapons {}; \
-class TransportMagazines {}; \
-reportOwnPosition = true; \
-receiveRemoteTargets = true; \
-reportRemoteTargets = true;
+	class TransportWeapons {}; \
+	class TransportMagazines {}; \
+	reportOwnPosition = true; \
+	receiveRemoteTargets = true; \
+	reportRemoteTargets = true;

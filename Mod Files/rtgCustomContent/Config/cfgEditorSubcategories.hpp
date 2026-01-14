@@ -1,18 +1,13 @@
 ﻿class cfgEditorSubcategories
 {
-	class RTG_LIGHT_ASSETS
+	class RTG_GROUND_ASSETS
 	{
-		displayName = "[A] Light";
+		displayName = "Ground Assets";
 		scope = 2;
 	};
-	class RTG_MEDIUM_ASSETS
+	class RTG_AIR_ASSETS
 	{
-		displayName = "[B] Medium";
-		scope = 2;
-	};
-	class RTG_HEAVY_ASSETS
-	{
-		displayName = "[C] Heavy";
+		displayName = "Air Assets";
 		scope = 2;
 	};
 };

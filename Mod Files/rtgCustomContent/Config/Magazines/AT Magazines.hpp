@@ -25,9 +25,20 @@ class RTG_RPG_HE : PSRL1_HE_RF
 {
     
     scope = 2;
-    displayname = "[RTG] PG-7M HE";
+    displayname = "[RTG] OG-7MVL HE";
     displaynameshort = "73mm HE";
-    mass = 30;
+    mass = 29.98;
+    dlc="raiderTactical";
+};
+
+class PSRL1_AT_RF;
+class RTG_RPG_HEAT : PSRL1_AT_RF 
+{
+    
+    scope = 2;
+    displayname = "[RTG] PG-7M HEAT";
+    displaynameshort = "73mm HEAT";
+    mass = 61.3;
     dlc="raiderTactical";
 };
 
@@ -35,36 +46,9 @@ class PSRL1_FRAG_RF;
 class RTG_RPG_Frag : PSRL1_FRAG_RF 
 {
     
-    ammo = "rtg_rpg_frag";
     scope = 2;
     displayname = "[RTG] OG-7VM FRAG";
     displaynameshort = "40mm FRAG";
-    mass = 30;
+    mass = 29.98;
     dlc="raiderTactical";
 };
-
-
-// ATGM
-class ace_compat_rhs_usf3_mag_TOW2A;
-class RTG_TOW3A_CSW : ace_compat_rhs_usf3_mag_TOW2A
-{
-    scope = 2;
-    author = "Shrike";
-    ammo = "RTG_TOW3A";
-    displayName = "[CSW] TOW-3A";
-    descriptionShort = "HEAT Wire Guided ATGM";
-    displaynameshort = "TOW-3A";
-    mass = 100;
-}
-
-class ace_compat_rhs_usf3_mag_TOW2BB;
-class RTG_TOW3BB_CSW : ace_compat_rhs_usf3_mag_TOW2BB
-{
-    scope = 2;
-    author = "Shrike";
-    ammo = "RTG_TOW3BB";
-    displayName = "[CSW] TOW-3BB";
-    descriptionShort = "HE Wire Guided Missile";
-    displaynameshort = "TOW-3B";
-    mass = 50;
-}

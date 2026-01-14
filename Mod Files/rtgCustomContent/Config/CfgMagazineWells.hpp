@@ -222,7 +222,8 @@ class CfgMagazineWells
 		{
 			"RTG_RPG_Smoke",
 			"RTG_RPG_Frag",
-			"RTG_RPG_HE"
+			"RTG_RPG_HE",
+			"RTG_RPG_HEAT"
 		};
 	}
 
@@ -232,7 +233,8 @@ class CfgMagazineWells
 		{
 			"RTG_RPG_Smoke",
 			"RTG_RPG_Frag",
-			"RTG_RPG_HE"
+			"RTG_RPG_HE",
+			"RTG_RPG_HEAT"
 		};
 	}
 };

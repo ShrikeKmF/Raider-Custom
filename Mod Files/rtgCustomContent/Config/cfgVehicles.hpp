@@ -1,4 +1,50 @@
-﻿class CfgVehicles
+﻿class Optics_Armored;
+class Optics_Commander_01: Optics_Armored
+{
+    class Wide;
+    class Medium;
+    class Narrow;
+};
+class Optics_Gunner_APC_01: Optics_Armored
+{
+    class Wide;
+    class Medium;
+    class Narrow;
+};
+class DefaultVehicleSystemsDisplayManagerLeft
+{
+	class components;
+};
+class DefaultVehicleSystemsDisplayManagerRight
+{
+	class components;
+};
+class VehicleSystemsTemplateLeftDriver: DefaultVehicleSystemsDisplayManagerLeft
+{
+	class components;
+};
+class VehicleSystemsTemplateRightDriver: DefaultVehicleSystemsDisplayManagerRight
+{
+	class components;
+};
+class VehicleSystemsTemplateLeftCommander: DefaultVehicleSystemsDisplayManagerLeft
+{
+	class components;
+};
+class VehicleSystemsTemplateRightCommander: DefaultVehicleSystemsDisplayManagerRight
+{
+	class components;
+};
+class VehicleSystemsTemplateLeftGunner: DefaultVehicleSystemsDisplayManagerLeft
+{
+	class components;
+};
+class VehicleSystemsTemplateRightGunner: DefaultVehicleSystemsDisplayManagerRight
+{
+	class components;
+};
+
+class CfgVehicles
 {
     class ViewPilot;
     class ViewCargo;
@@ -31,8 +77,6 @@
     class MainTurret;
     class ViewGunner;
     class AnimationSources;
-    class DefaultVehicleSystemsDisplayManagerLeft;
-    class DefaultVehicleSystemsDisplayManagerRight;
     class Eventhandlers;
     class ACE_SelfActions;
     class DefaultEventHandlers;
@@ -41,7 +85,6 @@
     class WeaponFireMGun;
     class WeaponCloudsMGun;
     class RCWSOptics;
-    class Optics_Armored;
     class Hithull;
     class HitEngine;
     class HitFuel;
@@ -63,18 +106,8 @@
 
     // Vehicle
     #include "\rtgCustomContent\Config\Vehicles\magpie.hpp"
-    #include "\rtgCustomContent\Config\Vehicles\hawk.hpp"
-    #include "\rtgCustomContent\Config\Vehicles\sparrow.hpp"
-    #include "\rtgCustomContent\Config\Vehicles\boats.hpp"
     #include "\rtgCustomContent\Config\Vehicles\crates.hpp"
     #include "\rtgCustomContent\Config\Vehicles\striker.hpp"
-    #include "\rtgCustomContent\Config\Vehicles\booker.hpp"
-    #include "\rtgCustomContent\Config\Vehicles\pickup.hpp"
-    #include "\rtgCustomContent\Config\Vehicles\ampv.hpp"
-    #include "\rtgCustomContent\Config\Vehicles\buggy.hpp"
-    #include "\rtgCustomContent\Config\Vehicles\trucks.hpp"
-    #include "\rtgCustomContent\Config\Vehicles\Gau21.hpp"
-    #include "\rtgCustomContent\Config\Vehicles\Tow3.hpp"
 
     // Modules
     #include "\rtgCustomContent\Config\Modules\Editor Modules.hpp"

@@ -1,6 +1,22 @@
 ﻿class Car;
 class Car_F: Car
 {
+    class Sounds;
+	class HitPoints
+	{
+		class HitBody;
+		class HitEngine;
+		class HitFuel;
+		class HitHull;
+		class HitLFWheel;
+		class HitLBWheel;
+		class HitLMWheel;
+		class HitLF2Wheel;
+		class HitRFWheel;
+		class HitRBWheel;
+		class HitRMWheel;
+		class HitRF2Wheel;
+	};
     class ViewPilot: ViewPilot
     {
         initFov = 0.75; 
